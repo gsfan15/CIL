@@ -1,4 +1,0 @@
-wchar-bad.c:37: Error: Using a string literal to initialize something other than a character array.
-Error in doStatement (Errormsg.Error)
-Error: Cabs2cil had some errors
-Fatal error: exception Errormsg.Error

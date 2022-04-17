@@ -1,1 +1,0 @@
-src/ocamlutil/bitmap.mli:
