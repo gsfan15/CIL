@@ -1,0 +1,2944 @@
+"src/ext/llvm/llvmutils.ml" 42 1876 1880 "src/ext/llvm/llvmutils.ml" 42 1876 1889
+type(
+  'a option -> 'a
+)
+ident(
+  def getOption "src/ext/llvm/llvmutils.ml" 48 1988 1988 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 42 1876 1891 "src/ext/llvm/llvmutils.ml" 42 1876 1892
+type(
+  'a option
+)
+ident(
+  def v "src/ext/llvm/llvmutils.ml" 42 1876 1904 "src/ext/llvm/llvmutils.ml" 45 1943 1964
+)
+"src/ext/llvm/llvmutils.ml" 43 1912 1920 "src/ext/llvm/llvmutils.ml" 43 1912 1921
+type(
+  'a option
+)
+ident(
+  int_ref v "src/ext/llvm/llvmutils.ml" 42 1876 1891 "src/ext/llvm/llvmutils.ml" 42 1876 1892
+)
+"src/ext/llvm/llvmutils.ml" 44 1927 1936 "src/ext/llvm/llvmutils.ml" 44 1927 1937
+type(
+  'a
+)
+ident(
+  def x "src/ext/llvm/llvmutils.ml" 44 1927 1941 "src/ext/llvm/llvmutils.ml" 44 1927 1942
+)
+"src/ext/llvm/llvmutils.ml" 44 1927 1931 "src/ext/llvm/llvmutils.ml" 44 1927 1937
+type(
+  'a option
+)
+"src/ext/llvm/llvmutils.ml" 44 1927 1941 "src/ext/llvm/llvmutils.ml" 44 1927 1942
+type(
+  'a
+)
+ident(
+  int_ref x "src/ext/llvm/llvmutils.ml" 44 1927 1936 "src/ext/llvm/llvmutils.ml" 44 1927 1937
+)
+"src/ext/llvm/llvmutils.ml" 45 1943 1947 "src/ext/llvm/llvmutils.ml" 45 1943 1951
+type(
+  'a option
+)
+"src/ext/llvm/llvmutils.ml" 45 1943 1955 "src/ext/llvm/llvmutils.ml" 45 1943 1960
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/llvm/llvmutils.ml" 45 1943 1961 "src/ext/llvm/llvmutils.ml" 45 1943 1964
+type(
+  exn
+)
+"src/ext/llvm/llvmutils.ml" 45 1943 1955 "src/ext/llvm/llvmutils.ml" 45 1943 1964
+type(
+  'a
+)
+"src/ext/llvm/llvmutils.ml" 43 1912 1914 "src/ext/llvm/llvmutils.ml" 45 1943 1964
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ext/llvm/llvmutils.ml" 48 1988 1992 "src/ext/llvm/llvmutils.ml" 48 1988 2006
+type(
+  Cil.typ -> bool
+)
+ident(
+  def isFloatingType "src/ext/llvm/llvmutils.ml" 52 2074 2074 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 48 1988 2007 "src/ext/llvm/llvmutils.ml" 48 1988 2008
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 49 2012 2014 "src/ext/llvm/llvmutils.ml" 51 2059 2073
+)
+"src/ext/llvm/llvmutils.ml" 49 2012 2020 "src/ext/llvm/llvmutils.ml" 49 2012 2030
+type(
+  Cil.typ -> Cil.typ
+)
+ident(
+  ext_ref Cil.unrollType
+)
+"src/ext/llvm/llvmutils.ml" 49 2012 2031 "src/ext/llvm/llvmutils.ml" 49 2012 2032
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 48 1988 2007 "src/ext/llvm/llvmutils.ml" 48 1988 2008
+)
+"src/ext/llvm/llvmutils.ml" 49 2012 2020 "src/ext/llvm/llvmutils.ml" 49 2012 2032
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 50 2038 2049 "src/ext/llvm/llvmutils.ml" 50 2038 2050
+type(
+  Cil.attributes
+)
+type(
+  Cil.fkind
+)
+"src/ext/llvm/llvmutils.ml" 50 2038 2042 "src/ext/llvm/llvmutils.ml" 50 2038 2050
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 50 2038 2054 "src/ext/llvm/llvmutils.ml" 50 2038 2058
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 51 2059 2063 "src/ext/llvm/llvmutils.ml" 51 2059 2064
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 51 2059 2068 "src/ext/llvm/llvmutils.ml" 51 2059 2073
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 49 2012 2014 "src/ext/llvm/llvmutils.ml" 51 2059 2073
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 52 2074 2078 "src/ext/llvm/llvmutils.ml" 52 2074 2090
+type(
+  Cil.typ -> bool
+)
+ident(
+  def isSignedType "src/ext/llvm/llvmutils.ml" 56 2169 2169 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 52 2074 2091 "src/ext/llvm/llvmutils.ml" 52 2074 2092
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 53 2096 2098 "src/ext/llvm/llvmutils.ml" 55 2154 2168
+)
+"src/ext/llvm/llvmutils.ml" 53 2096 2104 "src/ext/llvm/llvmutils.ml" 53 2096 2114
+type(
+  Cil.typ -> Cil.typ
+)
+ident(
+  ext_ref Cil.unrollType
+)
+"src/ext/llvm/llvmutils.ml" 53 2096 2115 "src/ext/llvm/llvmutils.ml" 53 2096 2116
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 52 2074 2091 "src/ext/llvm/llvmutils.ml" 52 2074 2092
+)
+"src/ext/llvm/llvmutils.ml" 53 2096 2104 "src/ext/llvm/llvmutils.ml" 53 2096 2116
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 54 2122 2132 "src/ext/llvm/llvmutils.ml" 54 2122 2134
+type(
+  Cil.ikind
+)
+ident(
+  def ik "src/ext/llvm/llvmutils.ml" 54 2122 2142 "src/ext/llvm/llvmutils.ml" 54 2122 2153
+)
+"src/ext/llvm/llvmutils.ml" 54 2122 2136 "src/ext/llvm/llvmutils.ml" 54 2122 2137
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 54 2122 2126 "src/ext/llvm/llvmutils.ml" 54 2122 2138
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 54 2122 2142 "src/ext/llvm/llvmutils.ml" 54 2122 2150
+type(
+  Cil.ikind -> bool
+)
+ident(
+  ext_ref Cil.isSigned
+)
+"src/ext/llvm/llvmutils.ml" 54 2122 2151 "src/ext/llvm/llvmutils.ml" 54 2122 2153
+type(
+  Cil.ikind
+)
+ident(
+  int_ref ik "src/ext/llvm/llvmutils.ml" 54 2122 2132 "src/ext/llvm/llvmutils.ml" 54 2122 2134
+)
+"src/ext/llvm/llvmutils.ml" 54 2122 2142 "src/ext/llvm/llvmutils.ml" 54 2122 2153
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 55 2154 2158 "src/ext/llvm/llvmutils.ml" 55 2154 2159
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 55 2154 2163 "src/ext/llvm/llvmutils.ml" 55 2154 2168
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 53 2096 2098 "src/ext/llvm/llvmutils.ml" 55 2154 2168
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 56 2169 2173 "src/ext/llvm/llvmutils.ml" 56 2169 2185
+type(
+  Cil.typ -> bool
+)
+ident(
+  def isVaListType "src/ext/llvm/llvmutils.ml" 60 2268 2268 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 56 2169 2187 "src/ext/llvm/llvmutils.ml" 56 2169 2188
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 57 2196 2198 "src/ext/llvm/llvmutils.ml" 59 2253 2267
+)
+"src/ext/llvm/llvmutils.ml" 57 2196 2204 "src/ext/llvm/llvmutils.ml" 57 2196 2214
+type(
+  Cil.typ -> Cil.typ
+)
+ident(
+  ext_ref Cil.unrollType
+)
+"src/ext/llvm/llvmutils.ml" 57 2196 2215 "src/ext/llvm/llvmutils.ml" 57 2196 2216
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 56 2169 2187 "src/ext/llvm/llvmutils.ml" 56 2169 2188
+)
+"src/ext/llvm/llvmutils.ml" 57 2196 2204 "src/ext/llvm/llvmutils.ml" 57 2196 2216
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 58 2222 2243 "src/ext/llvm/llvmutils.ml" 58 2222 2244
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 58 2222 2226 "src/ext/llvm/llvmutils.ml" 58 2222 2244
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 58 2222 2248 "src/ext/llvm/llvmutils.ml" 58 2222 2252
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 59 2253 2257 "src/ext/llvm/llvmutils.ml" 59 2253 2258
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 59 2253 2262 "src/ext/llvm/llvmutils.ml" 59 2253 2267
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 57 2196 2198 "src/ext/llvm/llvmutils.ml" 59 2253 2267
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 60 2268 2272 "src/ext/llvm/llvmutils.ml" 60 2268 2282
+type(
+  Cil.typ -> bool
+)
+ident(
+  def isCompType "src/ext/llvm/llvmutils.ml" 65 2355 2355 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 60 2268 2284 "src/ext/llvm/llvmutils.ml" 60 2268 2285
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 61 2293 2295 "src/ext/llvm/llvmutils.ml" 63 2339 2353
+)
+"src/ext/llvm/llvmutils.ml" 61 2293 2301 "src/ext/llvm/llvmutils.ml" 61 2293 2311
+type(
+  Cil.typ -> Cil.typ
+)
+ident(
+  ext_ref Cil.unrollType
+)
+"src/ext/llvm/llvmutils.ml" 61 2293 2312 "src/ext/llvm/llvmutils.ml" 61 2293 2313
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 60 2268 2284 "src/ext/llvm/llvmutils.ml" 60 2268 2285
+)
+"src/ext/llvm/llvmutils.ml" 61 2293 2301 "src/ext/llvm/llvmutils.ml" 61 2293 2313
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 62 2319 2329 "src/ext/llvm/llvmutils.ml" 62 2319 2330
+type(
+  Cil.attributes
+)
+type(
+  Cil.compinfo
+)
+"src/ext/llvm/llvmutils.ml" 62 2319 2323 "src/ext/llvm/llvmutils.ml" 62 2319 2330
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 62 2319 2334 "src/ext/llvm/llvmutils.ml" 62 2319 2338
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 63 2339 2343 "src/ext/llvm/llvmutils.ml" 63 2339 2344
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 63 2339 2348 "src/ext/llvm/llvmutils.ml" 63 2339 2353
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 61 2293 2295 "src/ext/llvm/llvmutils.ml" 63 2339 2353
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 65 2355 2359 "src/ext/llvm/llvmutils.ml" 65 2355 2375
+type(
+  Cil.typ -> Cil.typ option
+)
+ident(
+  def defaultPromotion "src/ext/llvm/llvmutils.ml" 72 2598 2598 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 65 2355 2377 "src/ext/llvm/llvmutils.ml" 65 2355 2378
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 65 2355 2384 "src/ext/llvm/llvmutils.ml" 69 2546 2559
+)
+"src/ext/llvm/llvmutils.ml" 66 2400 2408 "src/ext/llvm/llvmutils.ml" 66 2400 2418
+type(
+  Cil.typ -> Cil.typ
+)
+ident(
+  ext_ref Cil.unrollType
+)
+"src/ext/llvm/llvmutils.ml" 66 2400 2419 "src/ext/llvm/llvmutils.ml" 66 2400 2420
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 65 2355 2377 "src/ext/llvm/llvmutils.ml" 65 2355 2378
+)
+"src/ext/llvm/llvmutils.ml" 66 2400 2408 "src/ext/llvm/llvmutils.ml" 66 2400 2420
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 67 2426 2438 "src/ext/llvm/llvmutils.ml" 67 2426 2444
+type(
+  Cil.fkind
+)
+"src/ext/llvm/llvmutils.ml" 67 2426 2446 "src/ext/llvm/llvmutils.ml" 67 2426 2447
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 67 2426 2430 "src/ext/llvm/llvmutils.ml" 67 2426 2448
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 67 2426 2457 "src/ext/llvm/llvmutils.ml" 67 2426 2467
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.doubleType
+)
+"src/ext/llvm/llvmutils.ml" 67 2426 2452 "src/ext/llvm/llvmutils.ml" 67 2426 2467
+type(
+  Cil.typ option
+)
+"src/ext/llvm/llvmutils.ml" 68 2468 2478 "src/ext/llvm/llvmutils.ml" 68 2468 2480
+type(
+  Cil.ikind
+)
+ident(
+  def ik "src/ext/llvm/llvmutils.ml" 68 2468 2490 "src/ext/llvm/llvmutils.ml" 68 2468 2545
+)
+"src/ext/llvm/llvmutils.ml" 68 2468 2482 "src/ext/llvm/llvmutils.ml" 68 2468 2483
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 68 2468 2472 "src/ext/llvm/llvmutils.ml" 68 2468 2484
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 68 2468 2490 "src/ext/llvm/llvmutils.ml" 68 2468 2504
+type(
+  Cil.ikind -> int
+)
+ident(
+  ext_ref Cil.bytesSizeOfInt
+)
+"src/ext/llvm/llvmutils.ml" 68 2468 2505 "src/ext/llvm/llvmutils.ml" 68 2468 2507
+type(
+  Cil.ikind
+)
+ident(
+  int_ref ik "src/ext/llvm/llvmutils.ml" 68 2468 2478 "src/ext/llvm/llvmutils.ml" 68 2468 2480
+)
+"src/ext/llvm/llvmutils.ml" 68 2468 2490 "src/ext/llvm/llvmutils.ml" 68 2468 2507
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 68 2468 2508 "src/ext/llvm/llvmutils.ml" 68 2468 2509
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ext/llvm/llvmutils.ml" 68 2468 2510 "src/ext/llvm/llvmutils.ml" 68 2468 2524
+type(
+  Cil.ikind -> int
+)
+ident(
+  ext_ref Cil.bytesSizeOfInt
+)
+"src/ext/llvm/llvmutils.ml" 68 2468 2525 "src/ext/llvm/llvmutils.ml" 68 2468 2529
+type(
+  Cil.ikind
+)
+"src/ext/llvm/llvmutils.ml" 68 2468 2510 "src/ext/llvm/llvmutils.ml" 68 2468 2529
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 68 2468 2490 "src/ext/llvm/llvmutils.ml" 68 2468 2529
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 68 2468 2538 "src/ext/llvm/llvmutils.ml" 68 2468 2545
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.intType
+)
+"src/ext/llvm/llvmutils.ml" 68 2468 2533 "src/ext/llvm/llvmutils.ml" 68 2468 2545
+type(
+  Cil.typ option
+)
+"src/ext/llvm/llvmutils.ml" 69 2546 2550 "src/ext/llvm/llvmutils.ml" 69 2546 2551
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 69 2546 2555 "src/ext/llvm/llvmutils.ml" 69 2546 2559
+type(
+  Cil.typ option
+)
+"src/ext/llvm/llvmutils.ml" 66 2400 2402 "src/ext/llvm/llvmutils.ml" 69 2546 2559
+type(
+  Cil.typ option
+)
+type(
+  Cil.typ option
+)
+"src/ext/llvm/llvmutils.ml" 72 2598 2602 "src/ext/llvm/llvmutils.ml" 72 2598 2614
+type(
+  Cil.typ -> Cil.ikind
+)
+ident(
+  def integralKind "src/ext/llvm/llvmutils.ml" 77 2718 2718 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 72 2598 2616 "src/ext/llvm/llvmutils.ml" 72 2598 2617
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 72 2598 2623 "src/ext/llvm/llvmutils.ml" 76 2704 2717
+)
+"src/ext/llvm/llvmutils.ml" 73 2634 2642 "src/ext/llvm/llvmutils.ml" 73 2634 2652
+type(
+  Cil.typ -> Cil.typ
+)
+ident(
+  ext_ref Cil.unrollType
+)
+"src/ext/llvm/llvmutils.ml" 73 2634 2653 "src/ext/llvm/llvmutils.ml" 73 2634 2654
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 72 2598 2616 "src/ext/llvm/llvmutils.ml" 72 2598 2617
+)
+"src/ext/llvm/llvmutils.ml" 73 2634 2642 "src/ext/llvm/llvmutils.ml" 73 2634 2654
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 74 2660 2670 "src/ext/llvm/llvmutils.ml" 74 2660 2672
+type(
+  Cil.ikind
+)
+ident(
+  def ik "src/ext/llvm/llvmutils.ml" 74 2660 2680 "src/ext/llvm/llvmutils.ml" 74 2660 2682
+)
+"src/ext/llvm/llvmutils.ml" 74 2660 2674 "src/ext/llvm/llvmutils.ml" 74 2660 2675
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 74 2660 2664 "src/ext/llvm/llvmutils.ml" 74 2660 2676
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 74 2660 2680 "src/ext/llvm/llvmutils.ml" 74 2660 2682
+type(
+  Cil.ikind
+)
+ident(
+  int_ref ik "src/ext/llvm/llvmutils.ml" 74 2660 2670 "src/ext/llvm/llvmutils.ml" 74 2660 2672
+)
+"src/ext/llvm/llvmutils.ml" 75 2684 2694 "src/ext/llvm/llvmutils.ml" 75 2684 2695
+type(
+  Cil.attributes
+)
+type(
+  Cil.enuminfo
+)
+"src/ext/llvm/llvmutils.ml" 75 2684 2688 "src/ext/llvm/llvmutils.ml" 75 2684 2695
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 75 2684 2699 "src/ext/llvm/llvmutils.ml" 75 2684 2703
+type(
+  Cil.ikind
+)
+"src/ext/llvm/llvmutils.ml" 76 2704 2708 "src/ext/llvm/llvmutils.ml" 76 2704 2709
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 76 2704 2713 "src/ext/llvm/llvmutils.ml" 76 2704 2717
+type(
+  Cil.ikind
+)
+"src/ext/llvm/llvmutils.ml" 73 2634 2636 "src/ext/llvm/llvmutils.ml" 76 2704 2717
+type(
+  Cil.ikind
+)
+type(
+  Cil.ikind
+)
+"src/ext/llvm/llvmutils.ml" 77 2718 2722 "src/ext/llvm/llvmutils.ml" 77 2718 2733
+type(
+  Cil.typ -> Cil.typ
+)
+ident(
+  def typeArrayOf "src/ext/llvm/llvmutils.ml" 81 2822 2822 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 77 2718 2735 "src/ext/llvm/llvmutils.ml" 77 2718 2736
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 77 2718 2742 "src/ext/llvm/llvmutils.ml" 80 2803 2821
+)
+"src/ext/llvm/llvmutils.ml" 78 2751 2759 "src/ext/llvm/llvmutils.ml" 78 2751 2769
+type(
+  Cil.typ -> Cil.typ
+)
+ident(
+  ext_ref Cil.unrollType
+)
+"src/ext/llvm/llvmutils.ml" 78 2751 2770 "src/ext/llvm/llvmutils.ml" 78 2751 2771
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 77 2718 2735 "src/ext/llvm/llvmutils.ml" 77 2718 2736
+)
+"src/ext/llvm/llvmutils.ml" 78 2751 2759 "src/ext/llvm/llvmutils.ml" 78 2751 2771
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 79 2777 2789 "src/ext/llvm/llvmutils.ml" 79 2777 2790
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 79 2777 2801 "src/ext/llvm/llvmutils.ml" 79 2777 2802
+)
+"src/ext/llvm/llvmutils.ml" 79 2777 2792 "src/ext/llvm/llvmutils.ml" 79 2777 2793
+type(
+  Cil.exp option
+)
+"src/ext/llvm/llvmutils.ml" 79 2777 2795 "src/ext/llvm/llvmutils.ml" 79 2777 2796
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 79 2777 2781 "src/ext/llvm/llvmutils.ml" 79 2777 2797
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 79 2777 2801 "src/ext/llvm/llvmutils.ml" 79 2777 2802
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 79 2777 2789 "src/ext/llvm/llvmutils.ml" 79 2777 2790
+)
+"src/ext/llvm/llvmutils.ml" 80 2803 2807 "src/ext/llvm/llvmutils.ml" 80 2803 2808
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 80 2803 2812 "src/ext/llvm/llvmutils.ml" 80 2803 2817
+type(
+  exn -> Cil.typ
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/llvm/llvmutils.ml" 80 2803 2818 "src/ext/llvm/llvmutils.ml" 80 2803 2821
+type(
+  exn
+)
+"src/ext/llvm/llvmutils.ml" 80 2803 2812 "src/ext/llvm/llvmutils.ml" 80 2803 2821
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 78 2751 2753 "src/ext/llvm/llvmutils.ml" 80 2803 2821
+type(
+  Cil.typ
+)
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 81 2822 2826 "src/ext/llvm/llvmutils.ml" 81 2822 2838
+type(
+  Cil.typ -> Cil.typ
+)
+ident(
+  def typePointsTo "src/ext/llvm/llvmutils.ml" 86 2923 2923 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 81 2822 2840 "src/ext/llvm/llvmutils.ml" 81 2822 2841
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 81 2822 2847 "src/ext/llvm/llvmutils.ml" 84 2903 2921
+)
+"src/ext/llvm/llvmutils.ml" 82 2856 2864 "src/ext/llvm/llvmutils.ml" 82 2856 2874
+type(
+  Cil.typ -> Cil.typ
+)
+ident(
+  ext_ref Cil.unrollType
+)
+"src/ext/llvm/llvmutils.ml" 82 2856 2875 "src/ext/llvm/llvmutils.ml" 82 2856 2876
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 81 2822 2840 "src/ext/llvm/llvmutils.ml" 81 2822 2841
+)
+"src/ext/llvm/llvmutils.ml" 82 2856 2864 "src/ext/llvm/llvmutils.ml" 82 2856 2876
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 83 2882 2892 "src/ext/llvm/llvmutils.ml" 83 2882 2893
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 83 2882 2901 "src/ext/llvm/llvmutils.ml" 83 2882 2902
+)
+"src/ext/llvm/llvmutils.ml" 83 2882 2895 "src/ext/llvm/llvmutils.ml" 83 2882 2896
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 83 2882 2886 "src/ext/llvm/llvmutils.ml" 83 2882 2897
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 83 2882 2901 "src/ext/llvm/llvmutils.ml" 83 2882 2902
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 83 2882 2892 "src/ext/llvm/llvmutils.ml" 83 2882 2893
+)
+"src/ext/llvm/llvmutils.ml" 84 2903 2907 "src/ext/llvm/llvmutils.ml" 84 2903 2908
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 84 2903 2912 "src/ext/llvm/llvmutils.ml" 84 2903 2917
+type(
+  exn -> Cil.typ
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/llvm/llvmutils.ml" 84 2903 2918 "src/ext/llvm/llvmutils.ml" 84 2903 2921
+type(
+  exn
+)
+"src/ext/llvm/llvmutils.ml" 84 2903 2912 "src/ext/llvm/llvmutils.ml" 84 2903 2921
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 82 2856 2858 "src/ext/llvm/llvmutils.ml" 84 2903 2921
+type(
+  Cil.typ
+)
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 86 2923 2927 "src/ext/llvm/llvmutils.ml" 86 2923 2938
+type(
+  Cil.lhost -> Cil.typ
+)
+ident(
+  def typeOfLhost "src/ext/llvm/llvmutils.ml" 92 3077 3077 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 86 2923 2940 "src/ext/llvm/llvmutils.ml" 86 2923 2941
+type(
+  Cil.lhost
+)
+ident(
+  def h "src/ext/llvm/llvmutils.ml" 87 2952 2954 "src/ext/llvm/llvmutils.ml" 89 2990 3026
+)
+"src/ext/llvm/llvmutils.ml" 87 2952 2960 "src/ext/llvm/llvmutils.ml" 87 2952 2961
+type(
+  Cil.lhost
+)
+ident(
+  int_ref h "src/ext/llvm/llvmutils.ml" 86 2923 2940 "src/ext/llvm/llvmutils.ml" 86 2923 2941
+)
+"src/ext/llvm/llvmutils.ml" 88 2967 2975 "src/ext/llvm/llvmutils.ml" 88 2967 2977
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/llvm/llvmutils.ml" 88 2967 2981 "src/ext/llvm/llvmutils.ml" 88 2967 2989
+)
+"src/ext/llvm/llvmutils.ml" 88 2967 2971 "src/ext/llvm/llvmutils.ml" 88 2967 2977
+type(
+  Cil.lhost
+)
+"src/ext/llvm/llvmutils.ml" 88 2967 2981 "src/ext/llvm/llvmutils.ml" 88 2967 2983
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/llvm/llvmutils.ml" 88 2967 2975 "src/ext/llvm/llvmutils.ml" 88 2967 2977
+)
+"src/ext/llvm/llvmutils.ml" 88 2967 2981 "src/ext/llvm/llvmutils.ml" 88 2967 2989
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 89 2990 2998 "src/ext/llvm/llvmutils.ml" 89 2990 2999
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/llvm/llvmutils.ml" 89 2990 3003 "src/ext/llvm/llvmutils.ml" 89 2990 3026
+)
+"src/ext/llvm/llvmutils.ml" 89 2990 2994 "src/ext/llvm/llvmutils.ml" 89 2990 2999
+type(
+  Cil.lhost
+)
+"src/ext/llvm/llvmutils.ml" 89 2990 3003 "src/ext/llvm/llvmutils.ml" 89 2990 3015
+type(
+  Cil.typ -> Cil.typ
+)
+ident(
+  int_ref typePointsTo "src/ext/llvm/llvmutils.ml" 81 2822 2826 "src/ext/llvm/llvmutils.ml" 81 2822 2838
+)
+"src/ext/llvm/llvmutils.ml" 89 2990 3017 "src/ext/llvm/llvmutils.ml" 89 2990 3023
+type(
+  Cil.exp -> Cil.typ
+)
+ident(
+  ext_ref Cil.typeOf
+)
+"src/ext/llvm/llvmutils.ml" 89 2990 3024 "src/ext/llvm/llvmutils.ml" 89 2990 3025
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/llvm/llvmutils.ml" 89 2990 2998 "src/ext/llvm/llvmutils.ml" 89 2990 2999
+)
+"src/ext/llvm/llvmutils.ml" 89 2990 3016 "src/ext/llvm/llvmutils.ml" 89 2990 3026
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 89 2990 3003 "src/ext/llvm/llvmutils.ml" 89 2990 3026
+call(
+  tail
+)
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 87 2952 2954 "src/ext/llvm/llvmutils.ml" 89 2990 3026
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 92 3077 3081 "src/ext/llvm/llvmutils.ml" 92 3077 3093
+type(
+  Cil.fieldinfo -> int
+)
+ident(
+  def fieldIndexOf "src/ext/llvm/llvmutils.ml" 100 3385 3385 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 92 3077 3095 "src/ext/llvm/llvmutils.ml" 92 3077 3097
+type(
+  Cil.fieldinfo
+)
+ident(
+  def fi "src/ext/llvm/llvmutils.ml" 92 3077 3109 "src/ext/llvm/llvmutils.ml" 97 3266 3299
+)
+"src/ext/llvm/llvmutils.ml" 93 3118 3128 "src/ext/llvm/llvmutils.ml" 93 3118 3137
+type(
+  Cil.fieldinfo list -> int -> int
+)
+ident(
+  def indexLoop "src/ext/llvm/llvmutils.ml" 93 3118 3120 "src/ext/llvm/llvmutils.ml" 97 3266 3299
+)
+"src/ext/llvm/llvmutils.ml" 93 3118 3138 "src/ext/llvm/llvmutils.ml" 93 3118 3144
+type(
+  Cil.fieldinfo list
+)
+ident(
+  def fields "src/ext/llvm/llvmutils.ml" 93 3118 3145 "src/ext/llvm/llvmutils.ml" 96 3220 3265
+)
+"src/ext/llvm/llvmutils.ml" 93 3118 3145 "src/ext/llvm/llvmutils.ml" 93 3118 3146
+type(
+  int
+)
+ident(
+  def n "src/ext/llvm/llvmutils.ml" 93 3118 3149 "src/ext/llvm/llvmutils.ml" 96 3220 3265
+)
+"src/ext/llvm/llvmutils.ml" 93 3118 3155 "src/ext/llvm/llvmutils.ml" 93 3118 3161
+type(
+  Cil.fieldinfo list
+)
+ident(
+  int_ref fields "src/ext/llvm/llvmutils.ml" 93 3118 3138 "src/ext/llvm/llvmutils.ml" 93 3118 3144
+)
+"src/ext/llvm/llvmutils.ml" 94 3167 3171 "src/ext/llvm/llvmutils.ml" 94 3167 3173
+type(
+  Cil.fieldinfo list
+)
+"src/ext/llvm/llvmutils.ml" 94 3167 3177 "src/ext/llvm/llvmutils.ml" 94 3167 3182
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/llvm/llvmutils.ml" 94 3167 3183 "src/ext/llvm/llvmutils.ml" 94 3167 3186
+type(
+  exn
+)
+"src/ext/llvm/llvmutils.ml" 94 3167 3177 "src/ext/llvm/llvmutils.ml" 94 3167 3186
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 95 3187 3191 "src/ext/llvm/llvmutils.ml" 95 3187 3194
+type(
+  Cil.fieldinfo
+)
+ident(
+  def fi' "src/ext/llvm/llvmutils.ml" 95 3187 3205 "src/ext/llvm/llvmutils.ml" 95 3187 3219
+)
+"src/ext/llvm/llvmutils.ml" 95 3187 3198 "src/ext/llvm/llvmutils.ml" 95 3187 3199
+type(
+  Cil.fieldinfo list
+)
+"src/ext/llvm/llvmutils.ml" 95 3187 3191 "src/ext/llvm/llvmutils.ml" 95 3187 3199
+type(
+  Cil.fieldinfo list
+)
+"src/ext/llvm/llvmutils.ml" 95 3187 3205 "src/ext/llvm/llvmutils.ml" 95 3187 3208
+type(
+  Cil.fieldinfo
+)
+ident(
+  int_ref fi' "src/ext/llvm/llvmutils.ml" 95 3187 3191 "src/ext/llvm/llvmutils.ml" 95 3187 3194
+)
+"src/ext/llvm/llvmutils.ml" 95 3187 3209 "src/ext/llvm/llvmutils.ml" 95 3187 3211
+type(
+  Cil.fieldinfo -> Cil.fieldinfo -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/ext/llvm/llvmutils.ml" 95 3187 3212 "src/ext/llvm/llvmutils.ml" 95 3187 3214
+type(
+  Cil.fieldinfo
+)
+ident(
+  int_ref fi "src/ext/llvm/llvmutils.ml" 92 3077 3095 "src/ext/llvm/llvmutils.ml" 92 3077 3097
+)
+"src/ext/llvm/llvmutils.ml" 95 3187 3205 "src/ext/llvm/llvmutils.ml" 95 3187 3214
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 95 3187 3218 "src/ext/llvm/llvmutils.ml" 95 3187 3219
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/llvm/llvmutils.ml" 93 3118 3145 "src/ext/llvm/llvmutils.ml" 93 3118 3146
+)
+"src/ext/llvm/llvmutils.ml" 96 3220 3224 "src/ext/llvm/llvmutils.ml" 96 3220 3225
+type(
+  Cil.fieldinfo
+)
+"src/ext/llvm/llvmutils.ml" 96 3220 3229 "src/ext/llvm/llvmutils.ml" 96 3220 3236
+type(
+  Cil.fieldinfo list
+)
+ident(
+  def fields' "src/ext/llvm/llvmutils.ml" 96 3220 3240 "src/ext/llvm/llvmutils.ml" 96 3220 3265
+)
+"src/ext/llvm/llvmutils.ml" 96 3220 3224 "src/ext/llvm/llvmutils.ml" 96 3220 3236
+type(
+  Cil.fieldinfo list
+)
+"src/ext/llvm/llvmutils.ml" 96 3220 3240 "src/ext/llvm/llvmutils.ml" 96 3220 3249
+type(
+  Cil.fieldinfo list -> int -> int
+)
+ident(
+  int_ref indexLoop "src/ext/llvm/llvmutils.ml" 93 3118 3128 "src/ext/llvm/llvmutils.ml" 93 3118 3137
+)
+"src/ext/llvm/llvmutils.ml" 96 3220 3250 "src/ext/llvm/llvmutils.ml" 96 3220 3257
+type(
+  Cil.fieldinfo list
+)
+ident(
+  int_ref fields' "src/ext/llvm/llvmutils.ml" 96 3220 3229 "src/ext/llvm/llvmutils.ml" 96 3220 3236
+)
+"src/ext/llvm/llvmutils.ml" 96 3220 3259 "src/ext/llvm/llvmutils.ml" 96 3220 3260
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/llvm/llvmutils.ml" 93 3118 3145 "src/ext/llvm/llvmutils.ml" 93 3118 3146
+)
+"src/ext/llvm/llvmutils.ml" 96 3220 3261 "src/ext/llvm/llvmutils.ml" 96 3220 3262
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/llvm/llvmutils.ml" 96 3220 3263 "src/ext/llvm/llvmutils.ml" 96 3220 3264
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 96 3220 3258 "src/ext/llvm/llvmutils.ml" 96 3220 3265
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 96 3220 3240 "src/ext/llvm/llvmutils.ml" 96 3220 3265
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 93 3118 3149 "src/ext/llvm/llvmutils.ml" 96 3220 3265
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 97 3266 3271 "src/ext/llvm/llvmutils.ml" 97 3266 3280
+type(
+  Cil.fieldinfo list -> int -> int
+)
+ident(
+  int_ref indexLoop "src/ext/llvm/llvmutils.ml" 93 3118 3128 "src/ext/llvm/llvmutils.ml" 93 3118 3137
+)
+"src/ext/llvm/llvmutils.ml" 97 3266 3281 "src/ext/llvm/llvmutils.ml" 97 3266 3283
+type(
+  Cil.fieldinfo
+)
+ident(
+  int_ref fi "src/ext/llvm/llvmutils.ml" 92 3077 3095 "src/ext/llvm/llvmutils.ml" 92 3077 3097
+)
+"src/ext/llvm/llvmutils.ml" 97 3266 3281 "src/ext/llvm/llvmutils.ml" 97 3266 3289
+type(
+  Cil.compinfo
+)
+"src/ext/llvm/llvmutils.ml" 97 3266 3281 "src/ext/llvm/llvmutils.ml" 97 3266 3297
+type(
+  Cil.fieldinfo list
+)
+"src/ext/llvm/llvmutils.ml" 97 3266 3298 "src/ext/llvm/llvmutils.ml" 97 3266 3299
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 97 3266 3271 "src/ext/llvm/llvmutils.ml" 97 3266 3299
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 93 3118 3120 "src/ext/llvm/llvmutils.ml" 97 3266 3299
+type(
+  int
+)
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 100 3385 3389 "src/ext/llvm/llvmutils.ml" 100 3385 3402
+type(
+  Cil.exp -> int64
+)
+ident(
+  def intConstValue "src/ext/llvm/llvmutils.ml" 106 3558 3558 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 100 3385 3404 "src/ext/llvm/llvmutils.ml" 100 3385 3405
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/llvm/llvmutils.ml" 100 3385 3411 "src/ext/llvm/llvmutils.ml" 103 3483 3501
+)
+"src/ext/llvm/llvmutils.ml" 101 3422 3430 "src/ext/llvm/llvmutils.ml" 101 3422 3439
+type(
+  bool -> Cil.exp -> Cil.exp
+)
+ident(
+  ext_ref Cil.constFold
+)
+"src/ext/llvm/llvmutils.ml" 101 3422 3440 "src/ext/llvm/llvmutils.ml" 101 3422 3444
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 101 3422 3445 "src/ext/llvm/llvmutils.ml" 101 3422 3446
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/llvm/llvmutils.ml" 100 3385 3404 "src/ext/llvm/llvmutils.ml" 100 3385 3405
+)
+"src/ext/llvm/llvmutils.ml" 101 3422 3430 "src/ext/llvm/llvmutils.ml" 101 3422 3446
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/llvm/llvmutils.ml" 102 3453 3470 "src/ext/llvm/llvmutils.ml" 102 3453 3471
+type(
+  int64
+)
+ident(
+  def n "src/ext/llvm/llvmutils.ml" 102 3453 3481 "src/ext/llvm/llvmutils.ml" 102 3453 3482
+)
+"src/ext/llvm/llvmutils.ml" 102 3453 3472 "src/ext/llvm/llvmutils.ml" 102 3453 3473
+type(
+  Cil.ikind
+)
+"src/ext/llvm/llvmutils.ml" 102 3453 3474 "src/ext/llvm/llvmutils.ml" 102 3453 3475
+type(
+  string option
+)
+"src/ext/llvm/llvmutils.ml" 102 3453 3462 "src/ext/llvm/llvmutils.ml" 102 3453 3477
+type(
+  Cil.constant
+)
+"src/ext/llvm/llvmutils.ml" 102 3453 3457 "src/ext/llvm/llvmutils.ml" 102 3453 3477
+type(
+  Cil.exp
+)
+"src/ext/llvm/llvmutils.ml" 102 3453 3481 "src/ext/llvm/llvmutils.ml" 102 3453 3482
+type(
+  int64
+)
+ident(
+  int_ref n "src/ext/llvm/llvmutils.ml" 102 3453 3470 "src/ext/llvm/llvmutils.ml" 102 3453 3471
+)
+"src/ext/llvm/llvmutils.ml" 103 3483 3487 "src/ext/llvm/llvmutils.ml" 103 3483 3488
+type(
+  Cil.exp
+)
+"src/ext/llvm/llvmutils.ml" 103 3483 3492 "src/ext/llvm/llvmutils.ml" 103 3483 3497
+type(
+  exn -> int64
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/llvm/llvmutils.ml" 103 3483 3498 "src/ext/llvm/llvmutils.ml" 103 3483 3501
+type(
+  exn
+)
+"src/ext/llvm/llvmutils.ml" 103 3483 3492 "src/ext/llvm/llvmutils.ml" 103 3483 3501
+type(
+  int64
+)
+"src/ext/llvm/llvmutils.ml" 101 3422 3424 "src/ext/llvm/llvmutils.ml" 103 3483 3501
+type(
+  int64
+)
+type(
+  int64
+)
+"src/ext/llvm/llvmutils.ml" 106 3558 3562 "src/ext/llvm/llvmutils.ml" 106 3558 3573
+type(
+  Cil.exp -> Cil.exp
+)
+ident(
+  def mkAddrOfExp "src/ext/llvm/llvmutils.ml" 114 3842 3842 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 106 3558 3575 "src/ext/llvm/llvmutils.ml" 106 3558 3576
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/llvm/llvmutils.ml" 106 3558 3582 "src/ext/llvm/llvmutils.ml" 109 3639 3657
+)
+"src/ext/llvm/llvmutils.ml" 107 3590 3598 "src/ext/llvm/llvmutils.ml" 107 3590 3599
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/llvm/llvmutils.ml" 106 3558 3575 "src/ext/llvm/llvmutils.ml" 106 3558 3576
+)
+"src/ext/llvm/llvmutils.ml" 108 3605 3614 "src/ext/llvm/llvmutils.ml" 108 3605 3616
+type(
+  Cil.lval
+)
+ident(
+  def lv "src/ext/llvm/llvmutils.ml" 108 3605 3620 "src/ext/llvm/llvmutils.ml" 108 3605 3638
+)
+"src/ext/llvm/llvmutils.ml" 108 3605 3609 "src/ext/llvm/llvmutils.ml" 108 3605 3616
+type(
+  Cil.exp
+)
+"src/ext/llvm/llvmutils.ml" 108 3605 3620 "src/ext/llvm/llvmutils.ml" 108 3605 3635
+type(
+  Cil.lval -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkAddrOrStartOf
+)
+"src/ext/llvm/llvmutils.ml" 108 3605 3636 "src/ext/llvm/llvmutils.ml" 108 3605 3638
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/llvm/llvmutils.ml" 108 3605 3614 "src/ext/llvm/llvmutils.ml" 108 3605 3616
+)
+"src/ext/llvm/llvmutils.ml" 108 3605 3620 "src/ext/llvm/llvmutils.ml" 108 3605 3638
+call(
+  tail
+)
+type(
+  Cil.exp
+)
+"src/ext/llvm/llvmutils.ml" 109 3639 3643 "src/ext/llvm/llvmutils.ml" 109 3639 3644
+type(
+  Cil.exp
+)
+"src/ext/llvm/llvmutils.ml" 109 3639 3648 "src/ext/llvm/llvmutils.ml" 109 3639 3653
+type(
+  exn -> Cil.exp
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/llvm/llvmutils.ml" 109 3639 3654 "src/ext/llvm/llvmutils.ml" 109 3639 3657
+type(
+  exn
+)
+"src/ext/llvm/llvmutils.ml" 109 3639 3648 "src/ext/llvm/llvmutils.ml" 109 3639 3657
+type(
+  Cil.exp
+)
+"src/ext/llvm/llvmutils.ml" 107 3590 3592 "src/ext/llvm/llvmutils.ml" 109 3639 3657
+type(
+  Cil.exp
+)
+type(
+  Cil.exp
+)
+"src/ext/llvm/llvmutils.ml" 114 3842 3850 "src/ext/llvm/llvmutils.ml" 114 3842 3854
+type(
+  Pretty.doc ->
+  Cil.typ * (string * Cil.typ * Cil.attributes) list option * bool *
+  Cil.attributes -> Pretty.doc
+)
+ident(
+  def gSig "src/ext/llvm/llvmutils.ml" 114 3842 3842 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 114 3842 3856 "src/ext/llvm/llvmutils.ml" 114 3842 3860
+type(
+  Pretty.doc
+)
+ident(
+  def name "src/ext/llvm/llvmutils.ml" 114 3842 3866 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+)
+"src/ext/llvm/llvmutils.ml" 114 3842 3867 "src/ext/llvm/llvmutils.ml" 114 3842 3870
+type(
+  Cil.typ
+)
+ident(
+  def ret "src/ext/llvm/llvmutils.ml" 114 3842 3888 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+)
+"src/ext/llvm/llvmutils.ml" 114 3842 3872 "src/ext/llvm/llvmutils.ml" 114 3842 3877
+type(
+  (string * Cil.typ * Cil.attributes) list option
+)
+ident(
+  def oargs "src/ext/llvm/llvmutils.ml" 114 3842 3888 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+)
+"src/ext/llvm/llvmutils.ml" 114 3842 3879 "src/ext/llvm/llvmutils.ml" 114 3842 3883
+type(
+  bool
+)
+ident(
+  def isva "src/ext/llvm/llvmutils.ml" 114 3842 3888 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+)
+"src/ext/llvm/llvmutils.ml" 114 3842 3885 "src/ext/llvm/llvmutils.ml" 114 3842 3886
+type(
+  Cil.attributes
+)
+ident(
+  def a "src/ext/llvm/llvmutils.ml" 114 3842 3888 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+)
+"src/ext/llvm/llvmutils.ml" 114 3842 3866 "src/ext/llvm/llvmutils.ml" 114 3842 3887
+type(
+  Cil.typ * (string * Cil.typ * Cil.attributes) list option * bool *
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 115 3897 3903 "src/ext/llvm/llvmutils.ml" 115 3897 3907
+type(
+  (string * Cil.typ * Cil.attributes) list
+)
+ident(
+  def args "src/ext/llvm/llvmutils.ml" 116 3930 3932 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+)
+"src/ext/llvm/llvmutils.ml" 115 3897 3910 "src/ext/llvm/llvmutils.ml" 115 3897 3920
+type(
+  (string * Cil.typ * Cil.attributes) list option ->
+  (string * Cil.typ * Cil.attributes) list
+)
+ident(
+  ext_ref Cil.argsToList
+)
+"src/ext/llvm/llvmutils.ml" 115 3897 3921 "src/ext/llvm/llvmutils.ml" 115 3897 3926
+type(
+  (string * Cil.typ * Cil.attributes) list option
+)
+ident(
+  int_ref oargs "src/ext/llvm/llvmutils.ml" 114 3842 3872 "src/ext/llvm/llvmutils.ml" 114 3842 3877
+)
+"src/ext/llvm/llvmutils.ml" 115 3897 3910 "src/ext/llvm/llvmutils.ml" 115 3897 3926
+call(
+  stack
+)
+type(
+  (string * Cil.typ * Cil.attributes) list
+)
+"src/ext/llvm/llvmutils.ml" 116 3930 3936 "src/ext/llvm/llvmutils.ml" 116 3930 3940
+type(
+  string * Cil.typ * 'a -> Pretty.doc
+)
+ident(
+  def parg "src/ext/llvm/llvmutils.ml" 127 4336 4338 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+)
+"src/ext/llvm/llvmutils.ml" 116 3930 3942 "src/ext/llvm/llvmutils.ml" 116 3930 3949
+type(
+  string
+)
+ident(
+  def argname "src/ext/llvm/llvmutils.ml" 117 3960 3964 "src/ext/llvm/llvmutils.ml" 125 4293 4330
+)
+"src/ext/llvm/llvmutils.ml" 116 3930 3951 "src/ext/llvm/llvmutils.ml" 116 3930 3952
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 117 3960 3964 "src/ext/llvm/llvmutils.ml" 125 4293 4330
+)
+"src/ext/llvm/llvmutils.ml" 116 3930 3954 "src/ext/llvm/llvmutils.ml" 116 3930 3955
+type(
+  'a
+)
+"src/ext/llvm/llvmutils.ml" 116 3930 3941 "src/ext/llvm/llvmutils.ml" 116 3930 3956
+type(
+  string * Cil.typ * 'a
+)
+"src/ext/llvm/llvmutils.ml" 117 3960 3968 "src/ext/llvm/llvmutils.ml" 117 3960 3975
+type(
+  unit -> Pretty.doc
+)
+ident(
+  def namedoc "src/ext/llvm/llvmutils.ml" 121 4139 4143 "src/ext/llvm/llvmutils.ml" 125 4293 4330
+)
+"src/ext/llvm/llvmutils.ml" 117 3960 3976 "src/ext/llvm/llvmutils.ml" 117 3960 3978
+type(
+  unit
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4059 "src/ext/llvm/llvmutils.ml" 119 4050 4063
+type(
+  Pretty.doc
+)
+ident(
+  int_ref name "src/ext/llvm/llvmutils.ml" 114 3842 3856 "src/ext/llvm/llvmutils.ml" 114 3842 3860
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4064 "src/ext/llvm/llvmutils.ml" 119 4050 4066
+type(
+  Pretty.doc -> Pretty.doc -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4067 "src/ext/llvm/llvmutils.ml" 119 4050 4070
+type(
+  Pretty.doc
+)
+ident(
+  ext_ref Pretty.nil
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4059 "src/ext/llvm/llvmutils.ml" 119 4050 4070
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4071 "src/ext/llvm/llvmutils.ml" 119 4050 4073
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4074 "src/ext/llvm/llvmutils.ml" 119 4050 4081
+type(
+  string
+)
+ident(
+  int_ref argname "src/ext/llvm/llvmutils.ml" 116 3930 3942 "src/ext/llvm/llvmutils.ml" 116 3930 3949
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4082 "src/ext/llvm/llvmutils.ml" 119 4050 4084
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4085 "src/ext/llvm/llvmutils.ml" 119 4050 4087
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4074 "src/ext/llvm/llvmutils.ml" 119 4050 4087
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4059 "src/ext/llvm/llvmutils.ml" 119 4050 4087
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4094 "src/ext/llvm/llvmutils.ml" 119 4050 4098
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4099 "src/ext/llvm/llvmutils.ml" 119 4050 4103
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4093 "src/ext/llvm/llvmutils.ml" 119 4050 4104
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4105 "src/ext/llvm/llvmutils.ml" 119 4050 4107
+type(
+  Pretty.doc -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.( ++ )
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4109 "src/ext/llvm/llvmutils.ml" 119 4050 4113
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4114 "src/ext/llvm/llvmutils.ml" 119 4050 4121
+type(
+  string
+)
+ident(
+  int_ref argname "src/ext/llvm/llvmutils.ml" 116 3930 3942 "src/ext/llvm/llvmutils.ml" 116 3930 3949
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4108 "src/ext/llvm/llvmutils.ml" 119 4050 4122
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4093 "src/ext/llvm/llvmutils.ml" 119 4050 4122
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4128 "src/ext/llvm/llvmutils.ml" 119 4050 4131
+type(
+  Pretty.doc
+)
+ident(
+  ext_ref Pretty.nil
+)
+"src/ext/llvm/llvmutils.ml" 119 4050 4056 "src/ext/llvm/llvmutils.ml" 119 4050 4131
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 121 4139 4146 "src/ext/llvm/llvmutils.ml" 121 4139 4156
+type(
+  Cil.typ -> bool
+)
+ident(
+  int_ref isCompType "src/ext/llvm/llvmutils.ml" 60 2268 2272 "src/ext/llvm/llvmutils.ml" 60 2268 2282
+)
+"src/ext/llvm/llvmutils.ml" 121 4139 4157 "src/ext/llvm/llvmutils.ml" 121 4139 4158
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 116 3930 3951 "src/ext/llvm/llvmutils.ml" 116 3930 3952
+)
+"src/ext/llvm/llvmutils.ml" 121 4139 4146 "src/ext/llvm/llvmutils.ml" 121 4139 4158
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 123 4239 4245 "src/ext/llvm/llvmutils.ml" 123 4239 4252
+type(
+  ((unit -> Cil.typ -> Pretty.doc) ->
+   Cil.typ -> (unit -> Pretty.doc) -> Pretty.doc, unit, Pretty.doc,
+   Pretty.doc)
+  format4 ->
+  (unit -> Cil.typ -> Pretty.doc) ->
+  Cil.typ -> (unit -> Pretty.doc) -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/ext/llvm/llvmutils.ml" 123 4239 4253 "src/ext/llvm/llvmutils.ml" 123 4239 4266
+type(
+  ((unit -> Cil.typ -> Pretty.doc) ->
+   Cil.typ -> (unit -> Pretty.doc) -> Pretty.doc, unit, Pretty.doc,
+   Pretty.doc)
+  format4
+)
+"src/ext/llvm/llvmutils.ml" 123 4239 4267 "src/ext/llvm/llvmutils.ml" 123 4239 4273
+type(
+  unit -> Cil.typ -> Pretty.doc
+)
+ident(
+  int_ref dgType "src/ext/llvm/llvmutils.ml" 161 5809 5813 "src/ext/llvm/llvmutils.ml" 161 5809 5819
+)
+"src/ext/llvm/llvmutils.ml" 123 4239 4274 "src/ext/llvm/llvmutils.ml" 123 4239 4275
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 116 3930 3951 "src/ext/llvm/llvmutils.ml" 116 3930 3952
+)
+"src/ext/llvm/llvmutils.ml" 123 4239 4276 "src/ext/llvm/llvmutils.ml" 123 4239 4283
+type(
+  unit -> Pretty.doc
+)
+ident(
+  int_ref namedoc "src/ext/llvm/llvmutils.ml" 117 3960 3968 "src/ext/llvm/llvmutils.ml" 117 3960 3975
+)
+"src/ext/llvm/llvmutils.ml" 123 4239 4245 "src/ext/llvm/llvmutils.ml" 123 4239 4283
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 125 4293 4299 "src/ext/llvm/llvmutils.ml" 125 4293 4306
+type(
+  ((unit -> Cil.typ -> Pretty.doc) ->
+   Cil.typ -> (unit -> Pretty.doc) -> Pretty.doc, unit, Pretty.doc,
+   Pretty.doc)
+  format4 ->
+  (unit -> Cil.typ -> Pretty.doc) ->
+  Cil.typ -> (unit -> Pretty.doc) -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/ext/llvm/llvmutils.ml" 125 4293 4307 "src/ext/llvm/llvmutils.ml" 125 4293 4313
+type(
+  ((unit -> Cil.typ -> Pretty.doc) ->
+   Cil.typ -> (unit -> Pretty.doc) -> Pretty.doc, unit, Pretty.doc,
+   Pretty.doc)
+  format4
+)
+"src/ext/llvm/llvmutils.ml" 125 4293 4314 "src/ext/llvm/llvmutils.ml" 125 4293 4320
+type(
+  unit -> Cil.typ -> Pretty.doc
+)
+ident(
+  int_ref dgType "src/ext/llvm/llvmutils.ml" 161 5809 5813 "src/ext/llvm/llvmutils.ml" 161 5809 5819
+)
+"src/ext/llvm/llvmutils.ml" 125 4293 4321 "src/ext/llvm/llvmutils.ml" 125 4293 4322
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 116 3930 3951 "src/ext/llvm/llvmutils.ml" 116 3930 3952
+)
+"src/ext/llvm/llvmutils.ml" 125 4293 4323 "src/ext/llvm/llvmutils.ml" 125 4293 4330
+type(
+  unit -> Pretty.doc
+)
+ident(
+  int_ref namedoc "src/ext/llvm/llvmutils.ml" 117 3960 3968 "src/ext/llvm/llvmutils.ml" 117 3960 3975
+)
+"src/ext/llvm/llvmutils.ml" 125 4293 4299 "src/ext/llvm/llvmutils.ml" 125 4293 4330
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 121 4139 4143 "src/ext/llvm/llvmutils.ml" 125 4293 4330
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 117 3960 3964 "src/ext/llvm/llvmutils.ml" 125 4293 4330
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 127 4336 4342 "src/ext/llvm/llvmutils.ml" 127 4336 4349
+type(
+  unit -> Pretty.doc
+)
+ident(
+  def varargs "src/ext/llvm/llvmutils.ml" 131 4453 4455 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+)
+"src/ext/llvm/llvmutils.ml" 127 4336 4350 "src/ext/llvm/llvmutils.ml" 127 4336 4352
+type(
+  unit
+)
+"src/ext/llvm/llvmutils.ml" 127 4336 4358 "src/ext/llvm/llvmutils.ml" 127 4336 4362
+type(
+  bool
+)
+ident(
+  int_ref isva "src/ext/llvm/llvmutils.ml" 114 3842 3879 "src/ext/llvm/llvmutils.ml" 114 3842 3883
+)
+"src/ext/llvm/llvmutils.ml" 127 4336 4368 "src/ext/llvm/llvmutils.ml" 127 4336 4372
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 127 4336 4373 "src/ext/llvm/llvmutils.ml" 127 4336 4380
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 127 4336 4368 "src/ext/llvm/llvmutils.ml" 127 4336 4380
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 128 4387 4396 "src/ext/llvm/llvmutils.ml" 128 4387 4401
+type(
+  (string * Cil.typ * Cil.attributes) list option
+)
+ident(
+  int_ref oargs "src/ext/llvm/llvmutils.ml" 114 3842 3872 "src/ext/llvm/llvmutils.ml" 114 3842 3877
+)
+"src/ext/llvm/llvmutils.ml" 129 4407 4417 "src/ext/llvm/llvmutils.ml" 129 4407 4418
+type(
+  (string * Cil.typ * Cil.attributes) list
+)
+"src/ext/llvm/llvmutils.ml" 129 4407 4412 "src/ext/llvm/llvmutils.ml" 129 4407 4418
+type(
+  (string * Cil.typ * Cil.attributes) list option
+)
+"src/ext/llvm/llvmutils.ml" 129 4407 4422 "src/ext/llvm/llvmutils.ml" 129 4407 4425
+type(
+  Pretty.doc
+)
+ident(
+  ext_ref Pretty.nil
+)
+"src/ext/llvm/llvmutils.ml" 130 4426 4431 "src/ext/llvm/llvmutils.ml" 130 4426 4435
+type(
+  (string * Cil.typ * Cil.attributes) list option
+)
+"src/ext/llvm/llvmutils.ml" 130 4426 4439 "src/ext/llvm/llvmutils.ml" 130 4426 4443
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 130 4426 4444 "src/ext/llvm/llvmutils.ml" 130 4426 4449
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 130 4426 4439 "src/ext/llvm/llvmutils.ml" 130 4426 4449
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 128 4387 4390 "src/ext/llvm/llvmutils.ml" 130 4426 4449
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 127 4336 4355 "src/ext/llvm/llvmutils.ml" 130 4426 4449
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 131 4453 4458 "src/ext/llvm/llvmutils.ml" 131 4453 4468
+type(
+  Cil.typ -> bool
+)
+ident(
+  int_ref isCompType "src/ext/llvm/llvmutils.ml" 60 2268 2272 "src/ext/llvm/llvmutils.ml" 60 2268 2282
+)
+"src/ext/llvm/llvmutils.ml" 131 4453 4469 "src/ext/llvm/llvmutils.ml" 131 4453 4472
+type(
+  Cil.typ
+)
+ident(
+  int_ref ret "src/ext/llvm/llvmutils.ml" 114 3842 3867 "src/ext/llvm/llvmutils.ml" 114 3842 3870
+)
+"src/ext/llvm/llvmutils.ml" 131 4453 4458 "src/ext/llvm/llvmutils.ml" 131 4453 4472
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 134 4620 4628 "src/ext/llvm/llvmutils.ml" 134 4620 4638
+type(
+  unit -> Pretty.doc
+)
+ident(
+  def resultName "src/ext/llvm/llvmutils.ml" 135 4695 4699 "src/ext/llvm/llvmutils.ml" 135 4695 4796
+)
+"src/ext/llvm/llvmutils.ml" 134 4620 4639 "src/ext/llvm/llvmutils.ml" 134 4620 4641
+type(
+  unit
+)
+"src/ext/llvm/llvmutils.ml" 134 4620 4647 "src/ext/llvm/llvmutils.ml" 134 4620 4651
+type(
+  Pretty.doc
+)
+ident(
+  int_ref name "src/ext/llvm/llvmutils.ml" 114 3842 3856 "src/ext/llvm/llvmutils.ml" 114 3842 3860
+)
+"src/ext/llvm/llvmutils.ml" 134 4620 4652 "src/ext/llvm/llvmutils.ml" 134 4620 4654
+type(
+  Pretty.doc -> Pretty.doc -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ext/llvm/llvmutils.ml" 134 4620 4655 "src/ext/llvm/llvmutils.ml" 134 4620 4658
+type(
+  Pretty.doc
+)
+ident(
+  ext_ref Pretty.nil
+)
+"src/ext/llvm/llvmutils.ml" 134 4620 4647 "src/ext/llvm/llvmutils.ml" 134 4620 4658
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 134 4620 4665 "src/ext/llvm/llvmutils.ml" 134 4620 4669
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 134 4620 4670 "src/ext/llvm/llvmutils.ml" 134 4620 4681
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 134 4620 4664 "src/ext/llvm/llvmutils.ml" 134 4620 4682
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 134 4620 4688 "src/ext/llvm/llvmutils.ml" 134 4620 4691
+type(
+  Pretty.doc
+)
+ident(
+  ext_ref Pretty.nil
+)
+"src/ext/llvm/llvmutils.ml" 134 4620 4644 "src/ext/llvm/llvmutils.ml" 134 4620 4691
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 135 4695 4699 "src/ext/llvm/llvmutils.ml" 135 4695 4706
+type(
+  ((unit -> Pretty.doc -> Pretty.doc) ->
+   Pretty.doc ->
+   (unit -> Cil.typ -> Pretty.doc) ->
+   Cil.typ ->
+   (unit -> Pretty.doc) ->
+   (unit -> (string * Cil.typ * Cil.attributes) list -> Pretty.doc) ->
+   (string * Cil.typ * Cil.attributes) list ->
+   (unit -> Pretty.doc) -> Pretty.doc, unit, Pretty.doc, Pretty.doc)
+  format4 ->
+  (unit -> Pretty.doc -> Pretty.doc) ->
+  Pretty.doc ->
+  (unit -> Cil.typ -> Pretty.doc) ->
+  Cil.typ ->
+  (unit -> Pretty.doc) ->
+  (unit -> (string * Cil.typ * Cil.attributes) list -> Pretty.doc) ->
+  (string * Cil.typ * Cil.attributes) list ->
+  (unit -> Pretty.doc) -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/ext/llvm/llvmutils.ml" 135 4695 4707 "src/ext/llvm/llvmutils.ml" 135 4695 4734
+type(
+  ((unit -> Pretty.doc -> Pretty.doc) ->
+   Pretty.doc ->
+   (unit -> Cil.typ -> Pretty.doc) ->
+   Cil.typ ->
+   (unit -> Pretty.doc) ->
+   (unit -> (string * Cil.typ * Cil.attributes) list -> Pretty.doc) ->
+   (string * Cil.typ * Cil.attributes) list ->
+   (unit -> Pretty.doc) -> Pretty.doc, unit, Pretty.doc, Pretty.doc)
+  format4
+)
+"src/ext/llvm/llvmutils.ml" 135 4695 4735 "src/ext/llvm/llvmutils.ml" 135 4695 4741
+type(
+  unit -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.insert
+)
+"src/ext/llvm/llvmutils.ml" 135 4695 4742 "src/ext/llvm/llvmutils.ml" 135 4695 4746
+type(
+  Pretty.doc
+)
+ident(
+  int_ref name "src/ext/llvm/llvmutils.ml" 114 3842 3856 "src/ext/llvm/llvmutils.ml" 114 3842 3860
+)
+"src/ext/llvm/llvmutils.ml" 135 4695 4747 "src/ext/llvm/llvmutils.ml" 135 4695 4753
+type(
+  unit -> Cil.typ -> Pretty.doc
+)
+ident(
+  int_ref dgType "src/ext/llvm/llvmutils.ml" 161 5809 5813 "src/ext/llvm/llvmutils.ml" 161 5809 5819
+)
+"src/ext/llvm/llvmutils.ml" 135 4695 4754 "src/ext/llvm/llvmutils.ml" 135 4695 4757
+type(
+  Cil.typ
+)
+ident(
+  int_ref ret "src/ext/llvm/llvmutils.ml" 114 3842 3867 "src/ext/llvm/llvmutils.ml" 114 3842 3870
+)
+"src/ext/llvm/llvmutils.ml" 135 4695 4758 "src/ext/llvm/llvmutils.ml" 135 4695 4768
+type(
+  unit -> Pretty.doc
+)
+ident(
+  int_ref resultName "src/ext/llvm/llvmutils.ml" 134 4620 4628 "src/ext/llvm/llvmutils.ml" 134 4620 4638
+)
+"src/ext/llvm/llvmutils.ml" 135 4695 4770 "src/ext/llvm/llvmutils.ml" 135 4695 4777
+type(
+  ?sep:Pretty.doc ->
+  (string * Cil.typ * Cil.attributes -> Pretty.doc) ->
+  unit -> (string * Cil.typ * Cil.attributes) list -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.docList
+)
+"src/ext/llvm/llvmutils.ml" 135 4695 4778 "src/ext/llvm/llvmutils.ml" 135 4695 4782
+type(
+  string * Cil.typ * Cil.attributes -> Pretty.doc
+)
+ident(
+  int_ref parg "src/ext/llvm/llvmutils.ml" 116 3930 3936 "src/ext/llvm/llvmutils.ml" 116 3930 3940
+)
+"src/ext/llvm/llvmutils.ml" 135 4695 4769 "src/ext/llvm/llvmutils.ml" 135 4695 4783
+call(
+  stack
+)
+type(
+  unit -> (string * Cil.typ * Cil.attributes) list -> Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 135 4695 4784 "src/ext/llvm/llvmutils.ml" 135 4695 4788
+type(
+  (string * Cil.typ * Cil.attributes) list
+)
+ident(
+  int_ref args "src/ext/llvm/llvmutils.ml" 115 3897 3903 "src/ext/llvm/llvmutils.ml" 115 3897 3907
+)
+"src/ext/llvm/llvmutils.ml" 135 4695 4789 "src/ext/llvm/llvmutils.ml" 135 4695 4796
+type(
+  unit -> Pretty.doc
+)
+ident(
+  int_ref varargs "src/ext/llvm/llvmutils.ml" 127 4336 4342 "src/ext/llvm/llvmutils.ml" 127 4336 4349
+)
+"src/ext/llvm/llvmutils.ml" 135 4695 4699 "src/ext/llvm/llvmutils.ml" 135 4695 4796
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 134 4620 4624 "src/ext/llvm/llvmutils.ml" 135 4695 4796
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 137 4804 4808 "src/ext/llvm/llvmutils.ml" 137 4804 4815
+type(
+  ((unit -> Cil.typ -> Pretty.doc) ->
+   Cil.typ ->
+   (unit -> Pretty.doc -> Pretty.doc) ->
+   Pretty.doc ->
+   (unit -> (string * Cil.typ * Cil.attributes) list -> Pretty.doc) ->
+   (string * Cil.typ * Cil.attributes) list ->
+   (unit -> Pretty.doc) -> Pretty.doc, unit, Pretty.doc, Pretty.doc)
+  format4 ->
+  (unit -> Cil.typ -> Pretty.doc) ->
+  Cil.typ ->
+  (unit -> Pretty.doc -> Pretty.doc) ->
+  Pretty.doc ->
+  (unit -> (string * Cil.typ * Cil.attributes) list -> Pretty.doc) ->
+  (string * Cil.typ * Cil.attributes) list ->
+  (unit -> Pretty.doc) -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/ext/llvm/llvmutils.ml" 137 4804 4816 "src/ext/llvm/llvmutils.ml" 137 4804 4829
+type(
+  ((unit -> Cil.typ -> Pretty.doc) ->
+   Cil.typ ->
+   (unit -> Pretty.doc -> Pretty.doc) ->
+   Pretty.doc ->
+   (unit -> (string * Cil.typ * Cil.attributes) list -> Pretty.doc) ->
+   (string * Cil.typ * Cil.attributes) list ->
+   (unit -> Pretty.doc) -> Pretty.doc, unit, Pretty.doc, Pretty.doc)
+  format4
+)
+"src/ext/llvm/llvmutils.ml" 137 4804 4830 "src/ext/llvm/llvmutils.ml" 137 4804 4836
+type(
+  unit -> Cil.typ -> Pretty.doc
+)
+ident(
+  int_ref dgType "src/ext/llvm/llvmutils.ml" 161 5809 5813 "src/ext/llvm/llvmutils.ml" 161 5809 5819
+)
+"src/ext/llvm/llvmutils.ml" 137 4804 4837 "src/ext/llvm/llvmutils.ml" 137 4804 4840
+type(
+  Cil.typ
+)
+ident(
+  int_ref ret "src/ext/llvm/llvmutils.ml" 114 3842 3867 "src/ext/llvm/llvmutils.ml" 114 3842 3870
+)
+"src/ext/llvm/llvmutils.ml" 137 4804 4841 "src/ext/llvm/llvmutils.ml" 137 4804 4847
+type(
+  unit -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.insert
+)
+"src/ext/llvm/llvmutils.ml" 137 4804 4848 "src/ext/llvm/llvmutils.ml" 137 4804 4852
+type(
+  Pretty.doc
+)
+ident(
+  int_ref name "src/ext/llvm/llvmutils.ml" 114 3842 3856 "src/ext/llvm/llvmutils.ml" 114 3842 3860
+)
+"src/ext/llvm/llvmutils.ml" 137 4804 4854 "src/ext/llvm/llvmutils.ml" 137 4804 4861
+type(
+  ?sep:Pretty.doc ->
+  (string * Cil.typ * Cil.attributes -> Pretty.doc) ->
+  unit -> (string * Cil.typ * Cil.attributes) list -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.docList
+)
+"src/ext/llvm/llvmutils.ml" 137 4804 4862 "src/ext/llvm/llvmutils.ml" 137 4804 4866
+type(
+  string * Cil.typ * Cil.attributes -> Pretty.doc
+)
+ident(
+  int_ref parg "src/ext/llvm/llvmutils.ml" 116 3930 3936 "src/ext/llvm/llvmutils.ml" 116 3930 3940
+)
+"src/ext/llvm/llvmutils.ml" 137 4804 4853 "src/ext/llvm/llvmutils.ml" 137 4804 4867
+call(
+  stack
+)
+type(
+  unit -> (string * Cil.typ * Cil.attributes) list -> Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 137 4804 4868 "src/ext/llvm/llvmutils.ml" 137 4804 4872
+type(
+  (string * Cil.typ * Cil.attributes) list
+)
+ident(
+  int_ref args "src/ext/llvm/llvmutils.ml" 115 3897 3903 "src/ext/llvm/llvmutils.ml" 115 3897 3907
+)
+"src/ext/llvm/llvmutils.ml" 137 4804 4873 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+type(
+  unit -> Pretty.doc
+)
+ident(
+  int_ref varargs "src/ext/llvm/llvmutils.ml" 127 4336 4342 "src/ext/llvm/llvmutils.ml" 127 4336 4349
+)
+"src/ext/llvm/llvmutils.ml" 137 4804 4808 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 131 4453 4455 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 127 4336 4338 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 116 3930 3932 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 115 3897 3899 "src/ext/llvm/llvmutils.ml" 137 4804 4880
+type(
+  Pretty.doc
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 140 4945 4949 "src/ext/llvm/llvmutils.ml" 140 4945 4954
+type(
+  Cil.typ -> Pretty.doc
+)
+ident(
+  def gType "src/ext/llvm/llvmutils.ml" 114 3842 3842 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 140 4945 4956 "src/ext/llvm/llvmutils.ml" 140 4945 4957
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 140 4945 4963 "src/ext/llvm/llvmutils.ml" 158 5682 5717
+)
+"src/ext/llvm/llvmutils.ml" 140 4945 4977 "src/ext/llvm/llvmutils.ml" 140 4945 4978
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 140 4945 4956 "src/ext/llvm/llvmutils.ml" 140 4945 4957
+)
+"src/ext/llvm/llvmutils.ml" 141 4984 4992 "src/ext/llvm/llvmutils.ml" 141 4984 4993
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 141 4984 4986 "src/ext/llvm/llvmutils.ml" 141 4984 4993
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 141 4984 4997 "src/ext/llvm/llvmutils.ml" 141 4984 5001
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 141 4984 5002 "src/ext/llvm/llvmutils.ml" 141 4984 5008
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 141 4984 4997 "src/ext/llvm/llvmutils.ml" 141 4984 5008
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 142 5009 5017 "src/ext/llvm/llvmutils.ml" 142 5009 5019
+type(
+  Cil.ikind
+)
+ident(
+  def ik "src/ext/llvm/llvmutils.ml" 142 5009 5027 "src/ext/llvm/llvmutils.ml" 142 5009 5055
+)
+"src/ext/llvm/llvmutils.ml" 142 5009 5021 "src/ext/llvm/llvmutils.ml" 142 5009 5022
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 142 5009 5011 "src/ext/llvm/llvmutils.ml" 142 5009 5023
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 142 5009 5027 "src/ext/llvm/llvmutils.ml" 142 5009 5034
+type(
+  (int -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4 ->
+  int -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/ext/llvm/llvmutils.ml" 142 5009 5035 "src/ext/llvm/llvmutils.ml" 142 5009 5040
+type(
+  (int -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4
+)
+"src/ext/llvm/llvmutils.ml" 142 5009 5042 "src/ext/llvm/llvmutils.ml" 142 5009 5052
+type(
+  Cil.typ -> int
+)
+ident(
+  ext_ref Cil.bitsSizeOf
+)
+"src/ext/llvm/llvmutils.ml" 142 5009 5053 "src/ext/llvm/llvmutils.ml" 142 5009 5054
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 140 4945 4956 "src/ext/llvm/llvmutils.ml" 140 4945 4957
+)
+"src/ext/llvm/llvmutils.ml" 142 5009 5041 "src/ext/llvm/llvmutils.ml" 142 5009 5055
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 142 5009 5027 "src/ext/llvm/llvmutils.ml" 142 5009 5055
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 143 5056 5066 "src/ext/llvm/llvmutils.ml" 143 5056 5072
+type(
+  Cil.fkind
+)
+"src/ext/llvm/llvmutils.ml" 143 5056 5074 "src/ext/llvm/llvmutils.ml" 143 5056 5075
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 143 5056 5058 "src/ext/llvm/llvmutils.ml" 143 5056 5076
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 143 5056 5080 "src/ext/llvm/llvmutils.ml" 143 5056 5084
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 143 5056 5085 "src/ext/llvm/llvmutils.ml" 143 5056 5092
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 143 5056 5080 "src/ext/llvm/llvmutils.ml" 143 5056 5092
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 144 5093 5103 "src/ext/llvm/llvmutils.ml" 144 5093 5110
+type(
+  Cil.fkind
+)
+"src/ext/llvm/llvmutils.ml" 144 5093 5112 "src/ext/llvm/llvmutils.ml" 144 5093 5113
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 144 5093 5095 "src/ext/llvm/llvmutils.ml" 144 5093 5114
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 144 5093 5118 "src/ext/llvm/llvmutils.ml" 144 5093 5122
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 144 5093 5123 "src/ext/llvm/llvmutils.ml" 144 5093 5131
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 144 5093 5118 "src/ext/llvm/llvmutils.ml" 144 5093 5131
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 145 5132 5142 "src/ext/llvm/llvmutils.ml" 145 5132 5153
+type(
+  Cil.fkind
+)
+"src/ext/llvm/llvmutils.ml" 145 5132 5155 "src/ext/llvm/llvmutils.ml" 145 5132 5156
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 145 5132 5134 "src/ext/llvm/llvmutils.ml" 145 5132 5157
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 145 5132 5161 "src/ext/llvm/llvmutils.ml" 145 5132 5165
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 145 5132 5166 "src/ext/llvm/llvmutils.ml" 145 5132 5173
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 145 5132 5161 "src/ext/llvm/llvmutils.ml" 145 5132 5173
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 146 5174 5182 "src/ext/llvm/llvmutils.ml" 146 5174 5183
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 148 5232 5236 "src/ext/llvm/llvmutils.ml" 149 5269 5302
+)
+"src/ext/llvm/llvmutils.ml" 146 5174 5185 "src/ext/llvm/llvmutils.ml" 146 5174 5186
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 146 5174 5176 "src/ext/llvm/llvmutils.ml" 146 5174 5187
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 148 5232 5239 "src/ext/llvm/llvmutils.ml" 148 5232 5249
+type(
+  Cil.typ -> bool
+)
+ident(
+  ext_ref Cil.isVoidType
+)
+"src/ext/llvm/llvmutils.ml" 148 5232 5250 "src/ext/llvm/llvmutils.ml" 148 5232 5251
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 146 5174 5182 "src/ext/llvm/llvmutils.ml" 146 5174 5183
+)
+"src/ext/llvm/llvmutils.ml" 148 5232 5239 "src/ext/llvm/llvmutils.ml" 148 5232 5251
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmutils.ml" 148 5232 5257 "src/ext/llvm/llvmutils.ml" 148 5232 5261
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 148 5232 5262 "src/ext/llvm/llvmutils.ml" 148 5232 5268
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 148 5232 5257 "src/ext/llvm/llvmutils.ml" 148 5232 5268
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 149 5269 5279 "src/ext/llvm/llvmutils.ml" 149 5269 5284
+type(
+  Cil.typ -> Pretty.doc
+)
+ident(
+  int_ref gType "src/ext/llvm/llvmutils.ml" 140 4945 4949 "src/ext/llvm/llvmutils.ml" 140 4945 4954
+)
+"src/ext/llvm/llvmutils.ml" 149 5269 5285 "src/ext/llvm/llvmutils.ml" 149 5269 5286
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 146 5174 5182 "src/ext/llvm/llvmutils.ml" 146 5174 5183
+)
+"src/ext/llvm/llvmutils.ml" 149 5269 5278 "src/ext/llvm/llvmutils.ml" 149 5269 5287
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 149 5269 5288 "src/ext/llvm/llvmutils.ml" 149 5269 5290
+type(
+  Pretty.doc -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.( ++ )
+)
+"src/ext/llvm/llvmutils.ml" 149 5269 5292 "src/ext/llvm/llvmutils.ml" 149 5269 5296
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 149 5269 5297 "src/ext/llvm/llvmutils.ml" 149 5269 5301
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 149 5269 5291 "src/ext/llvm/llvmutils.ml" 149 5269 5302
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 149 5269 5278 "src/ext/llvm/llvmutils.ml" 149 5269 5302
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 148 5232 5236 "src/ext/llvm/llvmutils.ml" 149 5269 5302
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5313 "src/ext/llvm/llvmutils.ml" 150 5303 5314
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 150 5303 5328 "src/ext/llvm/llvmutils.ml" 150 5303 5370
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5316 "src/ext/llvm/llvmutils.ml" 150 5303 5320
+type(
+  Cil.exp option
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5322 "src/ext/llvm/llvmutils.ml" 150 5303 5323
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5305 "src/ext/llvm/llvmutils.ml" 150 5303 5324
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5329 "src/ext/llvm/llvmutils.ml" 150 5303 5333
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5334 "src/ext/llvm/llvmutils.ml" 150 5303 5342
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5328 "src/ext/llvm/llvmutils.ml" 150 5303 5343
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5344 "src/ext/llvm/llvmutils.ml" 150 5303 5346
+type(
+  Pretty.doc -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.( ++ )
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5348 "src/ext/llvm/llvmutils.ml" 150 5303 5353
+type(
+  Cil.typ -> Pretty.doc
+)
+ident(
+  int_ref gType "src/ext/llvm/llvmutils.ml" 140 4945 4949 "src/ext/llvm/llvmutils.ml" 140 4945 4954
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5354 "src/ext/llvm/llvmutils.ml" 150 5303 5355
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 150 5303 5313 "src/ext/llvm/llvmutils.ml" 150 5303 5314
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5347 "src/ext/llvm/llvmutils.ml" 150 5303 5356
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5328 "src/ext/llvm/llvmutils.ml" 150 5303 5356
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5357 "src/ext/llvm/llvmutils.ml" 150 5303 5359
+type(
+  Pretty.doc -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.( ++ )
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5361 "src/ext/llvm/llvmutils.ml" 150 5303 5365
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5366 "src/ext/llvm/llvmutils.ml" 150 5303 5369
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5360 "src/ext/llvm/llvmutils.ml" 150 5303 5370
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 150 5303 5328 "src/ext/llvm/llvmutils.ml" 150 5303 5370
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 151 5371 5381 "src/ext/llvm/llvmutils.ml" 151 5371 5382
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmutils.ml" 152 5397 5401 "src/ext/llvm/llvmutils.ml" 153 5457 5497
+)
+"src/ext/llvm/llvmutils.ml" 151 5371 5384 "src/ext/llvm/llvmutils.ml" 151 5371 5388
+type(
+  Cil.exp option
+)
+ident(
+  def size "src/ext/llvm/llvmutils.ml" 152 5397 5401 "src/ext/llvm/llvmutils.ml" 153 5457 5497
+)
+"src/ext/llvm/llvmutils.ml" 151 5371 5390 "src/ext/llvm/llvmutils.ml" 151 5371 5391
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 151 5371 5373 "src/ext/llvm/llvmutils.ml" 151 5371 5392
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 152 5397 5405 "src/ext/llvm/llvmutils.ml" 152 5397 5410
+type(
+  int
+)
+ident(
+  def asize "src/ext/llvm/llvmutils.ml" 153 5457 5461 "src/ext/llvm/llvmutils.ml" 153 5457 5497
+)
+"src/ext/llvm/llvmutils.ml" 152 5397 5417 "src/ext/llvm/llvmutils.ml" 152 5397 5427
+type(
+  Cil.exp option -> int
+)
+ident(
+  ext_ref Cil.lenOfArray
+)
+"src/ext/llvm/llvmutils.ml" 152 5397 5428 "src/ext/llvm/llvmutils.ml" 152 5397 5432
+type(
+  Cil.exp option
+)
+ident(
+  int_ref size "src/ext/llvm/llvmutils.ml" 151 5371 5384 "src/ext/llvm/llvmutils.ml" 151 5371 5388
+)
+"src/ext/llvm/llvmutils.ml" 152 5397 5417 "src/ext/llvm/llvmutils.ml" 152 5397 5432
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 152 5397 5438 "src/ext/llvm/llvmutils.ml" 152 5397 5448
+type(
+  exn
+)
+"src/ext/llvm/llvmutils.ml" 152 5397 5452 "src/ext/llvm/llvmutils.ml" 152 5397 5453
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 152 5397 5413 "src/ext/llvm/llvmutils.ml" 152 5397 5453
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 153 5457 5461 "src/ext/llvm/llvmutils.ml" 153 5457 5468
+type(
+  (int -> (unit -> Cil.typ -> Pretty.doc) -> Cil.typ -> Pretty.doc, unit,
+   Pretty.doc, Pretty.doc)
+  format4 -> int -> (unit -> Cil.typ -> Pretty.doc) -> Cil.typ -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/ext/llvm/llvmutils.ml" 153 5457 5469 "src/ext/llvm/llvmutils.ml" 153 5457 5482
+type(
+  (int -> (unit -> Cil.typ -> Pretty.doc) -> Cil.typ -> Pretty.doc, unit,
+   Pretty.doc, Pretty.doc)
+  format4
+)
+"src/ext/llvm/llvmutils.ml" 153 5457 5483 "src/ext/llvm/llvmutils.ml" 153 5457 5488
+type(
+  int
+)
+ident(
+  int_ref asize "src/ext/llvm/llvmutils.ml" 152 5397 5405 "src/ext/llvm/llvmutils.ml" 152 5397 5410
+)
+"src/ext/llvm/llvmutils.ml" 153 5457 5489 "src/ext/llvm/llvmutils.ml" 153 5457 5495
+type(
+  unit -> Cil.typ -> Pretty.doc
+)
+ident(
+  int_ref dgType "src/ext/llvm/llvmutils.ml" 161 5809 5813 "src/ext/llvm/llvmutils.ml" 161 5809 5819
+)
+"src/ext/llvm/llvmutils.ml" 153 5457 5496 "src/ext/llvm/llvmutils.ml" 153 5457 5497
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 151 5371 5381 "src/ext/llvm/llvmutils.ml" 151 5371 5382
+)
+"src/ext/llvm/llvmutils.ml" 153 5457 5461 "src/ext/llvm/llvmutils.ml" 153 5457 5497
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 152 5397 5401 "src/ext/llvm/llvmutils.ml" 153 5457 5497
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 154 5498 5506 "src/ext/llvm/llvmutils.ml" 154 5498 5507
+type(
+  Cil.typ
+)
+ident(
+  def a "src/ext/llvm/llvmutils.ml" 154 5498 5521 "src/ext/llvm/llvmutils.ml" 154 5498 5542
+)
+"src/ext/llvm/llvmutils.ml" 154 5498 5509 "src/ext/llvm/llvmutils.ml" 154 5498 5510
+type(
+  (string * Cil.typ * Cil.attributes) list option
+)
+ident(
+  def b "src/ext/llvm/llvmutils.ml" 154 5498 5521 "src/ext/llvm/llvmutils.ml" 154 5498 5542
+)
+"src/ext/llvm/llvmutils.ml" 154 5498 5512 "src/ext/llvm/llvmutils.ml" 154 5498 5513
+type(
+  bool
+)
+ident(
+  def c "src/ext/llvm/llvmutils.ml" 154 5498 5521 "src/ext/llvm/llvmutils.ml" 154 5498 5542
+)
+"src/ext/llvm/llvmutils.ml" 154 5498 5515 "src/ext/llvm/llvmutils.ml" 154 5498 5516
+type(
+  Cil.attributes
+)
+ident(
+  def d "src/ext/llvm/llvmutils.ml" 154 5498 5521 "src/ext/llvm/llvmutils.ml" 154 5498 5542
+)
+"src/ext/llvm/llvmutils.ml" 154 5498 5500 "src/ext/llvm/llvmutils.ml" 154 5498 5517
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 154 5498 5521 "src/ext/llvm/llvmutils.ml" 154 5498 5525
+type(
+  Pretty.doc ->
+  Cil.typ * (string * Cil.typ * Cil.attributes) list option * bool *
+  Cil.attributes -> Pretty.doc
+)
+ident(
+  int_ref gSig "src/ext/llvm/llvmutils.ml" 114 3842 3850 "src/ext/llvm/llvmutils.ml" 114 3842 3854
+)
+"src/ext/llvm/llvmutils.ml" 154 5498 5526 "src/ext/llvm/llvmutils.ml" 154 5498 5529
+type(
+  Pretty.doc
+)
+ident(
+  ext_ref Pretty.nil
+)
+"src/ext/llvm/llvmutils.ml" 154 5498 5531 "src/ext/llvm/llvmutils.ml" 154 5498 5532
+type(
+  Cil.typ
+)
+ident(
+  int_ref a "src/ext/llvm/llvmutils.ml" 154 5498 5506 "src/ext/llvm/llvmutils.ml" 154 5498 5507
+)
+"src/ext/llvm/llvmutils.ml" 154 5498 5534 "src/ext/llvm/llvmutils.ml" 154 5498 5535
+type(
+  (string * Cil.typ * Cil.attributes) list option
+)
+ident(
+  int_ref b "src/ext/llvm/llvmutils.ml" 154 5498 5509 "src/ext/llvm/llvmutils.ml" 154 5498 5510
+)
+"src/ext/llvm/llvmutils.ml" 154 5498 5537 "src/ext/llvm/llvmutils.ml" 154 5498 5538
+type(
+  bool
+)
+ident(
+  int_ref c "src/ext/llvm/llvmutils.ml" 154 5498 5512 "src/ext/llvm/llvmutils.ml" 154 5498 5513
+)
+"src/ext/llvm/llvmutils.ml" 154 5498 5540 "src/ext/llvm/llvmutils.ml" 154 5498 5541
+type(
+  Cil.attributes
+)
+ident(
+  int_ref d "src/ext/llvm/llvmutils.ml" 154 5498 5515 "src/ext/llvm/llvmutils.ml" 154 5498 5516
+)
+"src/ext/llvm/llvmutils.ml" 154 5498 5530 "src/ext/llvm/llvmutils.ml" 154 5498 5542
+type(
+  Cil.typ * (string * Cil.typ * Cil.attributes) list option * bool *
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 154 5498 5521 "src/ext/llvm/llvmutils.ml" 154 5498 5542
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 155 5543 5553 "src/ext/llvm/llvmutils.ml" 155 5543 5555
+type(
+  Cil.typeinfo
+)
+ident(
+  def ti "src/ext/llvm/llvmutils.ml" 155 5543 5563 "src/ext/llvm/llvmutils.ml" 155 5543 5577
+)
+"src/ext/llvm/llvmutils.ml" 155 5543 5557 "src/ext/llvm/llvmutils.ml" 155 5543 5558
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 155 5543 5545 "src/ext/llvm/llvmutils.ml" 155 5543 5559
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 155 5543 5563 "src/ext/llvm/llvmutils.ml" 155 5543 5568
+type(
+  Cil.typ -> Pretty.doc
+)
+ident(
+  int_ref gType "src/ext/llvm/llvmutils.ml" 140 4945 4949 "src/ext/llvm/llvmutils.ml" 140 4945 4954
+)
+"src/ext/llvm/llvmutils.ml" 155 5543 5569 "src/ext/llvm/llvmutils.ml" 155 5543 5571
+type(
+  Cil.typeinfo
+)
+ident(
+  int_ref ti "src/ext/llvm/llvmutils.ml" 155 5543 5553 "src/ext/llvm/llvmutils.ml" 155 5543 5555
+)
+"src/ext/llvm/llvmutils.ml" 155 5543 5569 "src/ext/llvm/llvmutils.ml" 155 5543 5577
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 155 5543 5563 "src/ext/llvm/llvmutils.ml" 155 5543 5577
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 156 5578 5587 "src/ext/llvm/llvmutils.ml" 156 5578 5589
+type(
+  Cil.compinfo
+)
+ident(
+  def ci "src/ext/llvm/llvmutils.ml" 156 5578 5597 "src/ext/llvm/llvmutils.ml" 156 5578 5633
+)
+"src/ext/llvm/llvmutils.ml" 156 5578 5591 "src/ext/llvm/llvmutils.ml" 156 5578 5592
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 156 5578 5580 "src/ext/llvm/llvmutils.ml" 156 5578 5593
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 156 5578 5598 "src/ext/llvm/llvmutils.ml" 156 5578 5602
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 156 5578 5603 "src/ext/llvm/llvmutils.ml" 156 5578 5613
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 156 5578 5597 "src/ext/llvm/llvmutils.ml" 156 5578 5614
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 156 5578 5615 "src/ext/llvm/llvmutils.ml" 156 5578 5617
+type(
+  Pretty.doc -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.( ++ )
+)
+"src/ext/llvm/llvmutils.ml" 156 5578 5619 "src/ext/llvm/llvmutils.ml" 156 5578 5623
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 156 5578 5624 "src/ext/llvm/llvmutils.ml" 156 5578 5626
+type(
+  Cil.compinfo
+)
+ident(
+  int_ref ci "src/ext/llvm/llvmutils.ml" 156 5578 5587 "src/ext/llvm/llvmutils.ml" 156 5578 5589
+)
+"src/ext/llvm/llvmutils.ml" 156 5578 5624 "src/ext/llvm/llvmutils.ml" 156 5578 5632
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 156 5578 5618 "src/ext/llvm/llvmutils.ml" 156 5578 5633
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 156 5578 5597 "src/ext/llvm/llvmutils.ml" 156 5578 5633
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 157 5634 5643 "src/ext/llvm/llvmutils.ml" 157 5634 5645
+type(
+  Cil.enuminfo
+)
+ident(
+  def ei "src/ext/llvm/llvmutils.ml" 157 5634 5653 "src/ext/llvm/llvmutils.ml" 157 5634 5681
+)
+"src/ext/llvm/llvmutils.ml" 157 5634 5647 "src/ext/llvm/llvmutils.ml" 157 5634 5648
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 157 5634 5636 "src/ext/llvm/llvmutils.ml" 157 5634 5649
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 157 5634 5653 "src/ext/llvm/llvmutils.ml" 157 5634 5660
+type(
+  (int -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4 ->
+  int -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/ext/llvm/llvmutils.ml" 157 5634 5661 "src/ext/llvm/llvmutils.ml" 157 5634 5666
+type(
+  (int -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4
+)
+"src/ext/llvm/llvmutils.ml" 157 5634 5668 "src/ext/llvm/llvmutils.ml" 157 5634 5678
+type(
+  Cil.typ -> int
+)
+ident(
+  ext_ref Cil.bitsSizeOf
+)
+"src/ext/llvm/llvmutils.ml" 157 5634 5679 "src/ext/llvm/llvmutils.ml" 157 5634 5680
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/llvm/llvmutils.ml" 140 4945 4956 "src/ext/llvm/llvmutils.ml" 140 4945 4957
+)
+"src/ext/llvm/llvmutils.ml" 157 5634 5667 "src/ext/llvm/llvmutils.ml" 157 5634 5681
+type(
+  int
+)
+"src/ext/llvm/llvmutils.ml" 157 5634 5653 "src/ext/llvm/llvmutils.ml" 157 5634 5681
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 158 5682 5701 "src/ext/llvm/llvmutils.ml" 158 5682 5702
+type(
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 158 5682 5684 "src/ext/llvm/llvmutils.ml" 158 5682 5702
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 158 5682 5706 "src/ext/llvm/llvmutils.ml" 158 5682 5710
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 158 5682 5711 "src/ext/llvm/llvmutils.ml" 158 5682 5717
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 158 5682 5706 "src/ext/llvm/llvmutils.ml" 158 5682 5717
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 140 4945 4971 "src/ext/llvm/llvmutils.ml" 158 5682 5717
+type(
+  Pretty.doc
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 161 5809 5813 "src/ext/llvm/llvmutils.ml" 161 5809 5819
+type(
+  unit -> Cil.typ -> Pretty.doc
+)
+ident(
+  def dgType "src/ext/llvm/llvmutils.ml" 114 3842 3842 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 161 5809 5820 "src/ext/llvm/llvmutils.ml" 161 5809 5822
+type(
+  unit
+)
+"src/ext/llvm/llvmutils.ml" 161 5809 5825 "src/ext/llvm/llvmutils.ml" 161 5809 5830
+type(
+  Cil.typ -> Pretty.doc
+)
+ident(
+  int_ref gType "src/ext/llvm/llvmutils.ml" 140 4945 4949 "src/ext/llvm/llvmutils.ml" 140 4945 4954
+)
+"src/ext/llvm/llvmutils.ml" 164 5906 5910 "src/ext/llvm/llvmutils.ml" 164 5906 5922
+type(
+  Cil.varinfo -> Pretty.doc
+)
+ident(
+  def gFunctionSig "src/ext/llvm/llvmutils.ml" 168 6117 6117 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 164 5906 5924 "src/ext/llvm/llvmutils.ml" 164 5906 5926
+type(
+  Cil.varinfo
+)
+ident(
+  def fi "src/ext/llvm/llvmutils.ml" 164 5906 5936 "src/ext/llvm/llvmutils.ml" 165 5945 6012
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 5947 "src/ext/llvm/llvmutils.ml" 165 5945 5951
+type(
+  Pretty.doc ->
+  Cil.typ * (string * Cil.typ * Cil.attributes) list option * bool *
+  Cil.attributes -> Pretty.doc
+)
+ident(
+  int_ref gSig "src/ext/llvm/llvmutils.ml" 114 3842 3850 "src/ext/llvm/llvmutils.ml" 114 3842 3854
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 5954 "src/ext/llvm/llvmutils.ml" 165 5945 5958
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 5959 "src/ext/llvm/llvmutils.ml" 165 5945 5962
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 5953 "src/ext/llvm/llvmutils.ml" 165 5945 5963
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 5964 "src/ext/llvm/llvmutils.ml" 165 5945 5966
+type(
+  Pretty.doc -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.( ++ )
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 5968 "src/ext/llvm/llvmutils.ml" 165 5945 5972
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 5973 "src/ext/llvm/llvmutils.ml" 165 5945 5975
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref fi "src/ext/llvm/llvmutils.ml" 164 5906 5924 "src/ext/llvm/llvmutils.ml" 164 5906 5926
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 5973 "src/ext/llvm/llvmutils.ml" 165 5945 5981
+type(
+  string
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 5967 "src/ext/llvm/llvmutils.ml" 165 5945 5982
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 5952 "src/ext/llvm/llvmutils.ml" 165 5945 5983
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 5985 "src/ext/llvm/llvmutils.ml" 165 5945 6002
+type(
+  Cil.typ ->
+  Cil.typ * (string * Cil.typ * Cil.attributes) list option * bool *
+  Cil.attributes
+)
+ident(
+  ext_ref Cil.splitFunctionType
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 6003 "src/ext/llvm/llvmutils.ml" 165 5945 6005
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref fi "src/ext/llvm/llvmutils.ml" 164 5906 5924 "src/ext/llvm/llvmutils.ml" 164 5906 5926
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 6003 "src/ext/llvm/llvmutils.ml" 165 5945 6011
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 5984 "src/ext/llvm/llvmutils.ml" 165 5945 6012
+call(
+  stack
+)
+type(
+  Cil.typ * (string * Cil.typ * Cil.attributes) list option * bool *
+  Cil.attributes
+)
+"src/ext/llvm/llvmutils.ml" 165 5945 5947 "src/ext/llvm/llvmutils.ml" 165 5945 6012
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+type(
+  Pretty.doc
+)
+"src/ext/llvm/llvmutils.ml" 168 6117 6121 "src/ext/llvm/llvmutils.ml" 168 6117 6134
+type(
+  unit -> Cil.varinfo -> Pretty.doc
+)
+ident(
+  def dgFunctionSig "src/ext/llvm/llvmutils.ml" 168 6117 6152 "src/ext/llvm/llvmutils.ml" 1 0 -1
+)
+"src/ext/llvm/llvmutils.ml" 168 6117 6135 "src/ext/llvm/llvmutils.ml" 168 6117 6137
+type(
+  unit
+)
+"src/ext/llvm/llvmutils.ml" 168 6117 6140 "src/ext/llvm/llvmutils.ml" 168 6117 6152
+type(
+  Cil.varinfo -> Pretty.doc
+)
+ident(
+  int_ref gFunctionSig "src/ext/llvm/llvmutils.ml" 164 5906 5910 "src/ext/llvm/llvmutils.ml" 164 5906 5922
+)

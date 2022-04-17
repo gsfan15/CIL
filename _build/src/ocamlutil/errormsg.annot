@@ -1,0 +1,6262 @@
+"src/ocamlutil/errormsg.ml" 42 1694 1698 "src/ocamlutil/errormsg.ml" 42 1694 1707
+type(
+  bool ref
+)
+ident(
+  def debugFlag "src/ocamlutil/errormsg.ml" 43 1773 1773 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 42 1694 1711 "src/ocamlutil/errormsg.ml" 42 1694 1714
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/errormsg.ml" 42 1694 1715 "src/ocamlutil/errormsg.ml" 42 1694 1720
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 42 1694 1711 "src/ocamlutil/errormsg.ml" 42 1694 1720
+type(
+  bool ref
+)
+"src/ocamlutil/errormsg.ml" 43 1773 1777 "src/ocamlutil/errormsg.ml" 43 1773 1788
+type(
+  bool ref
+)
+ident(
+  def verboseFlag "src/ocamlutil/errormsg.ml" 45 1802 1802 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 43 1773 1791 "src/ocamlutil/errormsg.ml" 43 1773 1794
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/errormsg.ml" 43 1773 1795 "src/ocamlutil/errormsg.ml" 43 1773 1800
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 43 1773 1791 "src/ocamlutil/errormsg.ml" 43 1773 1800
+type(
+  bool ref
+)
+"src/ocamlutil/errormsg.ml" 45 1802 1806 "src/ocamlutil/errormsg.ml" 45 1802 1815
+type(
+  bool ref
+)
+ident(
+  def colorFlag "src/ocamlutil/errormsg.ml" 48 1859 1859 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 45 1802 1818 "src/ocamlutil/errormsg.ml" 45 1802 1821
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/errormsg.ml" 45 1802 1822 "src/ocamlutil/errormsg.ml" 45 1802 1827
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 45 1802 1818 "src/ocamlutil/errormsg.ml" 45 1802 1827
+type(
+  bool ref
+)
+"src/ocamlutil/errormsg.ml" 49 1875 1879 "src/ocamlutil/errormsg.ml" 49 1875 1880
+type(
+  'a -> 'b
+)
+ident(
+  def s "src/ocamlutil/errormsg.ml" 51 1905 1905 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 49 1875 1882 "src/ocamlutil/errormsg.ml" 49 1875 1883
+type(
+  'a
+)
+ident(
+  def d "src/ocamlutil/errormsg.ml" 49 1875 1892 "src/ocamlutil/errormsg.ml" 49 1875 1903
+)
+"src/ocamlutil/errormsg.ml" 49 1875 1892 "src/ocamlutil/errormsg.ml" 49 1875 1897
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ocamlutil/errormsg.ml" 49 1875 1898 "src/ocamlutil/errormsg.ml" 49 1875 1903
+type(
+  exn
+)
+"src/ocamlutil/errormsg.ml" 49 1875 1892 "src/ocamlutil/errormsg.ml" 49 1875 1903
+type(
+  'b
+)
+"src/ocamlutil/errormsg.ml" 51 1905 1909 "src/ocamlutil/errormsg.ml" 51 1905 1918
+type(
+  bool ref
+)
+ident(
+  def hadErrors "src/ocamlutil/errormsg.ml" 53 1932 1932 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 51 1905 1921 "src/ocamlutil/errormsg.ml" 51 1905 1924
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/errormsg.ml" 51 1905 1925 "src/ocamlutil/errormsg.ml" 51 1905 1930
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 51 1905 1921 "src/ocamlutil/errormsg.ml" 51 1905 1930
+type(
+  bool ref
+)
+"src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+type(
+  out_channel ref
+)
+ident(
+  def logChannel "src/ocamlutil/errormsg.ml" 55 1979 1979 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 53 1932 1967 "src/ocamlutil/errormsg.ml" 53 1932 1970
+type(
+  out_channel -> out_channel ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/errormsg.ml" 53 1932 1971 "src/ocamlutil/errormsg.ml" 53 1932 1977
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"src/ocamlutil/errormsg.ml" 53 1932 1967 "src/ocamlutil/errormsg.ml" 53 1932 1977
+type(
+  out_channel ref
+)
+type(
+  out_channel ref
+)
+"src/ocamlutil/errormsg.ml" 55 1979 1983 "src/ocamlutil/errormsg.ml" 55 1979 1995
+type(
+  (unit -> Pretty.doc) list ref
+)
+ident(
+  def errorContext "src/ocamlutil/errormsg.ml" 56 2005 2005 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 55 1979 1998 "src/ocamlutil/errormsg.ml" 55 1979 2001
+type(
+  (unit -> Pretty.doc) list -> (unit -> Pretty.doc) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/errormsg.ml" 55 1979 2002 "src/ocamlutil/errormsg.ml" 55 1979 2004
+type(
+  (unit -> Pretty.doc) list
+)
+"src/ocamlutil/errormsg.ml" 55 1979 1998 "src/ocamlutil/errormsg.ml" 55 1979 2004
+type(
+  (unit -> Pretty.doc) list ref
+)
+"src/ocamlutil/errormsg.ml" 56 2005 2009 "src/ocamlutil/errormsg.ml" 56 2005 2020
+type(
+  (unit -> Pretty.doc) -> unit
+)
+ident(
+  def pushContext "src/ocamlutil/errormsg.ml" 57 2062 2062 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 56 2005 2021 "src/ocamlutil/errormsg.ml" 56 2005 2022
+type(
+  unit -> Pretty.doc
+)
+ident(
+  def f "src/ocamlutil/errormsg.ml" 56 2005 2025 "src/ocamlutil/errormsg.ml" 56 2005 2061
+)
+"src/ocamlutil/errormsg.ml" 56 2005 2025 "src/ocamlutil/errormsg.ml" 56 2005 2037
+type(
+  (unit -> Pretty.doc) list ref
+)
+ident(
+  int_ref errorContext "src/ocamlutil/errormsg.ml" 55 1979 1983 "src/ocamlutil/errormsg.ml" 55 1979 1995
+)
+"src/ocamlutil/errormsg.ml" 56 2005 2038 "src/ocamlutil/errormsg.ml" 56 2005 2040
+type(
+  (unit -> Pretty.doc) list ref -> (unit -> Pretty.doc) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 56 2005 2041 "src/ocamlutil/errormsg.ml" 56 2005 2042
+type(
+  unit -> Pretty.doc
+)
+ident(
+  int_ref f "src/ocamlutil/errormsg.ml" 56 2005 2021 "src/ocamlutil/errormsg.ml" 56 2005 2022
+)
+"src/ocamlutil/errormsg.ml" 56 2005 2047 "src/ocamlutil/errormsg.ml" 56 2005 2048
+type(
+  (unit -> Pretty.doc) list ref -> (unit -> Pretty.doc) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 56 2005 2048 "src/ocamlutil/errormsg.ml" 56 2005 2060
+type(
+  (unit -> Pretty.doc) list ref
+)
+ident(
+  int_ref errorContext "src/ocamlutil/errormsg.ml" 55 1979 1983 "src/ocamlutil/errormsg.ml" 55 1979 1995
+)
+"src/ocamlutil/errormsg.ml" 56 2005 2046 "src/ocamlutil/errormsg.ml" 56 2005 2061
+type(
+  (unit -> Pretty.doc) list
+)
+"src/ocamlutil/errormsg.ml" 56 2005 2041 "src/ocamlutil/errormsg.ml" 56 2005 2061
+type(
+  (unit -> Pretty.doc) list
+)
+"src/ocamlutil/errormsg.ml" 56 2005 2025 "src/ocamlutil/errormsg.ml" 56 2005 2061
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 57 2062 2066 "src/ocamlutil/errormsg.ml" 57 2062 2076
+type(
+  unit -> unit
+)
+ident(
+  def popContext "src/ocamlutil/errormsg.ml" 63 2211 2211 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 57 2062 2077 "src/ocamlutil/errormsg.ml" 57 2062 2079
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 58 2083 2091 "src/ocamlutil/errormsg.ml" 58 2083 2092
+type(
+  (unit -> Pretty.doc) list ref -> (unit -> Pretty.doc) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 58 2083 2092 "src/ocamlutil/errormsg.ml" 58 2083 2104
+type(
+  (unit -> Pretty.doc) list ref
+)
+ident(
+  int_ref errorContext "src/ocamlutil/errormsg.ml" 55 1979 1983 "src/ocamlutil/errormsg.ml" 55 1979 1995
+)
+"src/ocamlutil/errormsg.ml" 58 2083 2091 "src/ocamlutil/errormsg.ml" 58 2083 2104
+type(
+  (unit -> Pretty.doc) list
+)
+"src/ocamlutil/errormsg.ml" 59 2111 2115 "src/ocamlutil/errormsg.ml" 59 2111 2116
+type(
+  unit -> Pretty.doc
+)
+"src/ocamlutil/errormsg.ml" 59 2111 2120 "src/ocamlutil/errormsg.ml" 59 2111 2121
+type(
+  (unit -> Pretty.doc) list
+)
+ident(
+  def t "src/ocamlutil/errormsg.ml" 59 2111 2125 "src/ocamlutil/errormsg.ml" 59 2111 2142
+)
+"src/ocamlutil/errormsg.ml" 59 2111 2115 "src/ocamlutil/errormsg.ml" 59 2111 2121
+type(
+  (unit -> Pretty.doc) list
+)
+"src/ocamlutil/errormsg.ml" 59 2111 2125 "src/ocamlutil/errormsg.ml" 59 2111 2137
+type(
+  (unit -> Pretty.doc) list ref
+)
+ident(
+  int_ref errorContext "src/ocamlutil/errormsg.ml" 55 1979 1983 "src/ocamlutil/errormsg.ml" 55 1979 1995
+)
+"src/ocamlutil/errormsg.ml" 59 2111 2138 "src/ocamlutil/errormsg.ml" 59 2111 2140
+type(
+  (unit -> Pretty.doc) list ref -> (unit -> Pretty.doc) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 59 2111 2141 "src/ocamlutil/errormsg.ml" 59 2111 2142
+type(
+  (unit -> Pretty.doc) list
+)
+ident(
+  int_ref t "src/ocamlutil/errormsg.ml" 59 2111 2120 "src/ocamlutil/errormsg.ml" 59 2111 2121
+)
+"src/ocamlutil/errormsg.ml" 59 2111 2125 "src/ocamlutil/errormsg.ml" 59 2111 2142
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 60 2143 2147 "src/ocamlutil/errormsg.ml" 60 2143 2149
+type(
+  (unit -> Pretty.doc) list
+)
+"src/ocamlutil/errormsg.ml" 60 2143 2153 "src/ocamlutil/errormsg.ml" 60 2143 2154
+type(
+  Pretty.doc -> unit
+)
+ident(
+  int_ref s "src/ocamlutil/errormsg.ml" 49 1875 1879 "src/ocamlutil/errormsg.ml" 49 1875 1880
+)
+"src/ocamlutil/errormsg.ml" 60 2143 2156 "src/ocamlutil/errormsg.ml" 60 2143 2163
+type(
+  out_channel -> (Pretty.doc, unit, Pretty.doc) format -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.fprintf
+)
+"src/ocamlutil/errormsg.ml" 60 2143 2164 "src/ocamlutil/errormsg.ml" 60 2143 2165
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 60 2143 2165 "src/ocamlutil/errormsg.ml" 60 2143 2175
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 60 2143 2164 "src/ocamlutil/errormsg.ml" 60 2143 2175
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 60 2143 2176 "src/ocamlutil/errormsg.ml" 60 2143 2207
+type(
+  (Pretty.doc, unit, Pretty.doc) format
+)
+"src/ocamlutil/errormsg.ml" 60 2143 2155 "src/ocamlutil/errormsg.ml" 60 2143 2208
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ocamlutil/errormsg.ml" 60 2143 2153 "src/ocamlutil/errormsg.ml" 60 2143 2208
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 58 2083 2085 "src/ocamlutil/errormsg.ml" 60 2143 2208
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 63 2211 2215 "src/ocamlutil/errormsg.ml" 63 2211 2226
+type(
+  (unit -> Pretty.doc) -> ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  def withContext "src/ocamlutil/errormsg.ml" 78 2650 2650 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 63 2211 2227 "src/ocamlutil/errormsg.ml" 63 2211 2230
+type(
+  unit -> Pretty.doc
+)
+ident(
+  def ctx "src/ocamlutil/errormsg.ml" 63 2211 2231 "src/ocamlutil/errormsg.ml" 72 2360 2365
+)
+"src/ocamlutil/errormsg.ml" 63 2211 2231 "src/ocamlutil/errormsg.ml" 63 2211 2232
+type(
+  'a -> 'b
+)
+ident(
+  def f "src/ocamlutil/errormsg.ml" 63 2211 2233 "src/ocamlutil/errormsg.ml" 72 2360 2365
+)
+"src/ocamlutil/errormsg.ml" 63 2211 2233 "src/ocamlutil/errormsg.ml" 63 2211 2234
+type(
+  'a
+)
+ident(
+  def x "src/ocamlutil/errormsg.ml" 64 2238 2240 "src/ocamlutil/errormsg.ml" 72 2360 2365
+)
+"src/ocamlutil/errormsg.ml" 64 2238 2240 "src/ocamlutil/errormsg.ml" 64 2238 2251
+type(
+  (unit -> Pretty.doc) -> unit
+)
+ident(
+  int_ref pushContext "src/ocamlutil/errormsg.ml" 56 2005 2009 "src/ocamlutil/errormsg.ml" 56 2005 2020
+)
+"src/ocamlutil/errormsg.ml" 64 2238 2252 "src/ocamlutil/errormsg.ml" 64 2238 2255
+type(
+  unit -> Pretty.doc
+)
+ident(
+  int_ref ctx "src/ocamlutil/errormsg.ml" 63 2211 2227 "src/ocamlutil/errormsg.ml" 63 2211 2230
+)
+"src/ocamlutil/errormsg.ml" 64 2238 2240 "src/ocamlutil/errormsg.ml" 64 2238 2255
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 66 2263 2271 "src/ocamlutil/errormsg.ml" 66 2263 2274
+type(
+  'b
+)
+ident(
+  def res "src/ocamlutil/errormsg.ml" 67 2284 2288 "src/ocamlutil/errormsg.ml" 68 2303 2310
+)
+"src/ocamlutil/errormsg.ml" 66 2263 2277 "src/ocamlutil/errormsg.ml" 66 2263 2278
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "src/ocamlutil/errormsg.ml" 63 2211 2231 "src/ocamlutil/errormsg.ml" 63 2211 2232
+)
+"src/ocamlutil/errormsg.ml" 66 2263 2279 "src/ocamlutil/errormsg.ml" 66 2263 2280
+type(
+  'a
+)
+ident(
+  int_ref x "src/ocamlutil/errormsg.ml" 63 2211 2233 "src/ocamlutil/errormsg.ml" 63 2211 2234
+)
+"src/ocamlutil/errormsg.ml" 66 2263 2277 "src/ocamlutil/errormsg.ml" 66 2263 2280
+call(
+  stack
+)
+type(
+  'b
+)
+"src/ocamlutil/errormsg.ml" 67 2284 2288 "src/ocamlutil/errormsg.ml" 67 2284 2298
+type(
+  unit -> unit
+)
+ident(
+  int_ref popContext "src/ocamlutil/errormsg.ml" 57 2062 2066 "src/ocamlutil/errormsg.ml" 57 2062 2076
+)
+"src/ocamlutil/errormsg.ml" 67 2284 2299 "src/ocamlutil/errormsg.ml" 67 2284 2301
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 67 2284 2288 "src/ocamlutil/errormsg.ml" 67 2284 2301
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 68 2303 2307 "src/ocamlutil/errormsg.ml" 68 2303 2310
+type(
+  'b
+)
+ident(
+  int_ref res "src/ocamlutil/errormsg.ml" 66 2263 2271 "src/ocamlutil/errormsg.ml" 66 2263 2274
+)
+"src/ocamlutil/errormsg.ml" 67 2284 2288 "src/ocamlutil/errormsg.ml" 68 2303 2310
+type(
+  'b
+)
+"src/ocamlutil/errormsg.ml" 66 2263 2267 "src/ocamlutil/errormsg.ml" 68 2303 2310
+type(
+  'b
+)
+"src/ocamlutil/errormsg.ml" 69 2311 2318 "src/ocamlutil/errormsg.ml" 69 2311 2319
+type(
+  exn
+)
+ident(
+  def e "src/ocamlutil/errormsg.ml" 69 2311 2323 "src/ocamlutil/errormsg.ml" 72 2360 2365
+)
+"src/ocamlutil/errormsg.ml" 70 2329 2333 "src/ocamlutil/errormsg.ml" 70 2329 2343
+type(
+  unit -> unit
+)
+ident(
+  int_ref popContext "src/ocamlutil/errormsg.ml" 57 2062 2066 "src/ocamlutil/errormsg.ml" 57 2062 2076
+)
+"src/ocamlutil/errormsg.ml" 70 2329 2344 "src/ocamlutil/errormsg.ml" 70 2329 2346
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 70 2329 2333 "src/ocamlutil/errormsg.ml" 70 2329 2346
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 71 2348 2352 "src/ocamlutil/errormsg.ml" 71 2348 2357
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ocamlutil/errormsg.ml" 71 2348 2358 "src/ocamlutil/errormsg.ml" 71 2348 2359
+type(
+  exn
+)
+ident(
+  int_ref e "src/ocamlutil/errormsg.ml" 69 2311 2318 "src/ocamlutil/errormsg.ml" 69 2311 2319
+)
+"src/ocamlutil/errormsg.ml" 71 2348 2352 "src/ocamlutil/errormsg.ml" 71 2348 2359
+type(
+  'b
+)
+"src/ocamlutil/errormsg.ml" 69 2311 2323 "src/ocamlutil/errormsg.ml" 72 2360 2365
+type(
+  'b
+)
+"src/ocamlutil/errormsg.ml" 65 2257 2259 "src/ocamlutil/errormsg.ml" 72 2360 2365
+type(
+  'b
+)
+"src/ocamlutil/errormsg.ml" 64 2238 2240 "src/ocamlutil/errormsg.ml" 72 2360 2365
+type(
+  'b
+)
+"src/ocamlutil/errormsg.ml" 78 2650 2654 "src/ocamlutil/errormsg.ml" 78 2650 2665
+type(
+  unit -> unit
+)
+ident(
+  def showContext "src/ocamlutil/errormsg.ml" 94 3035 3035 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 78 2650 2666 "src/ocamlutil/errormsg.ml" 78 2650 2668
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 79 2672 2682 "src/ocamlutil/errormsg.ml" 79 2672 2686
+type(
+  (unit -> Pretty.doc) list -> unit
+)
+ident(
+  def loop "src/ocamlutil/errormsg.ml" 79 2672 2674 "src/ocamlutil/errormsg.ml" 92 3028 3033
+)
+"src/ocamlutil/errormsg.ml" 80 2698 2704 "src/ocamlutil/errormsg.ml" 80 2698 2706
+type(
+  (unit -> Pretty.doc) list
+)
+"src/ocamlutil/errormsg.ml" 80 2698 2710 "src/ocamlutil/errormsg.ml" 80 2698 2712
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 81 2713 2719 "src/ocamlutil/errormsg.ml" 81 2713 2720
+type(
+  unit -> Pretty.doc
+)
+ident(
+  def f "src/ocamlutil/errormsg.ml" 81 2713 2732 "src/ocamlutil/errormsg.ml" 83 2863 2893
+)
+"src/ocamlutil/errormsg.ml" 81 2713 2724 "src/ocamlutil/errormsg.ml" 81 2713 2728
+type(
+  (unit -> Pretty.doc) list
+)
+ident(
+  def rest "src/ocamlutil/errormsg.ml" 81 2713 2732 "src/ocamlutil/errormsg.ml" 83 2863 2893
+)
+"src/ocamlutil/errormsg.ml" 81 2713 2719 "src/ocamlutil/errormsg.ml" 81 2713 2728
+type(
+  (unit -> Pretty.doc) list
+)
+"src/ocamlutil/errormsg.ml" 81 2713 2733 "src/ocamlutil/errormsg.ml" 81 2713 2745
+type(
+  (unit -> Pretty.doc) list ref
+)
+ident(
+  int_ref errorContext "src/ocamlutil/errormsg.ml" 55 1979 1983 "src/ocamlutil/errormsg.ml" 55 1979 1995
+)
+"src/ocamlutil/errormsg.ml" 81 2713 2746 "src/ocamlutil/errormsg.ml" 81 2713 2748
+type(
+  (unit -> Pretty.doc) list ref -> (unit -> Pretty.doc) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 81 2713 2749 "src/ocamlutil/errormsg.ml" 81 2713 2753
+type(
+  (unit -> Pretty.doc) list
+)
+ident(
+  int_ref rest "src/ocamlutil/errormsg.ml" 81 2713 2724 "src/ocamlutil/errormsg.ml" 81 2713 2728
+)
+"src/ocamlutil/errormsg.ml" 81 2713 2733 "src/ocamlutil/errormsg.ml" 81 2713 2753
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 82 2792 2812 "src/ocamlutil/errormsg.ml" 82 2792 2818
+type(
+  Pretty.doc -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ocamlutil/errormsg.ml" 82 2792 2820 "src/ocamlutil/errormsg.ml" 82 2792 2827
+type(
+  out_channel ->
+  ((unit -> Pretty.doc) -> Pretty.doc, unit, Pretty.doc) format ->
+  (unit -> Pretty.doc) -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.fprintf
+)
+"src/ocamlutil/errormsg.ml" 82 2792 2828 "src/ocamlutil/errormsg.ml" 82 2792 2829
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 82 2792 2829 "src/ocamlutil/errormsg.ml" 82 2792 2839
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 82 2792 2828 "src/ocamlutil/errormsg.ml" 82 2792 2839
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 82 2792 2840 "src/ocamlutil/errormsg.ml" 82 2792 2858
+type(
+  ((unit -> Pretty.doc) -> Pretty.doc, unit, Pretty.doc) format
+)
+"src/ocamlutil/errormsg.ml" 82 2792 2859 "src/ocamlutil/errormsg.ml" 82 2792 2860
+type(
+  unit -> Pretty.doc
+)
+ident(
+  int_ref f "src/ocamlutil/errormsg.ml" 81 2713 2719 "src/ocamlutil/errormsg.ml" 81 2713 2720
+)
+"src/ocamlutil/errormsg.ml" 82 2792 2819 "src/ocamlutil/errormsg.ml" 82 2792 2861
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ocamlutil/errormsg.ml" 82 2792 2812 "src/ocamlutil/errormsg.ml" 82 2792 2861
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 83 2863 2883 "src/ocamlutil/errormsg.ml" 83 2863 2887
+type(
+  (unit -> Pretty.doc) list -> unit
+)
+ident(
+  int_ref loop "src/ocamlutil/errormsg.ml" 79 2672 2682 "src/ocamlutil/errormsg.ml" 79 2672 2686
+)
+"src/ocamlutil/errormsg.ml" 83 2863 2888 "src/ocamlutil/errormsg.ml" 83 2863 2892
+type(
+  (unit -> Pretty.doc) list
+)
+ident(
+  int_ref rest "src/ocamlutil/errormsg.ml" 81 2713 2724 "src/ocamlutil/errormsg.ml" 81 2713 2728
+)
+"src/ocamlutil/errormsg.ml" 83 2863 2883 "src/ocamlutil/errormsg.ml" 83 2863 2892
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 82 2792 2812 "src/ocamlutil/errormsg.ml" 83 2863 2892
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 81 2713 2732 "src/ocamlutil/errormsg.ml" 83 2863 2893
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 79 2672 2689 "src/ocamlutil/errormsg.ml" 83 2863 2893
+type(
+  (unit -> Pretty.doc) list -> unit
+)
+"src/ocamlutil/errormsg.ml" 85 2899 2905 "src/ocamlutil/errormsg.ml" 85 2899 2908
+type(
+  (unit -> Pretty.doc) list
+)
+ident(
+  def old "src/ocamlutil/errormsg.ml" 86 2928 2930 "src/ocamlutil/errormsg.ml" 92 3028 3033
+)
+"src/ocamlutil/errormsg.ml" 85 2899 2911 "src/ocamlutil/errormsg.ml" 85 2899 2912
+type(
+  (unit -> Pretty.doc) list ref -> (unit -> Pretty.doc) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 85 2899 2912 "src/ocamlutil/errormsg.ml" 85 2899 2924
+type(
+  (unit -> Pretty.doc) list ref
+)
+ident(
+  int_ref errorContext "src/ocamlutil/errormsg.ml" 55 1979 1983 "src/ocamlutil/errormsg.ml" 55 1979 1995
+)
+"src/ocamlutil/errormsg.ml" 85 2899 2911 "src/ocamlutil/errormsg.ml" 85 2899 2924
+type(
+  (unit -> Pretty.doc) list
+)
+"src/ocamlutil/errormsg.ml" 87 2935 2939 "src/ocamlutil/errormsg.ml" 87 2935 2943
+type(
+  (unit -> Pretty.doc) list -> unit
+)
+ident(
+  int_ref loop "src/ocamlutil/errormsg.ml" 79 2672 2682 "src/ocamlutil/errormsg.ml" 79 2672 2686
+)
+"src/ocamlutil/errormsg.ml" 87 2935 2944 "src/ocamlutil/errormsg.ml" 87 2935 2947
+type(
+  (unit -> Pretty.doc) list
+)
+ident(
+  int_ref old "src/ocamlutil/errormsg.ml" 85 2899 2905 "src/ocamlutil/errormsg.ml" 85 2899 2908
+)
+"src/ocamlutil/errormsg.ml" 87 2935 2939 "src/ocamlutil/errormsg.ml" 87 2935 2947
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 88 2949 2953 "src/ocamlutil/errormsg.ml" 88 2949 2965
+type(
+  (unit -> Pretty.doc) list ref
+)
+ident(
+  int_ref errorContext "src/ocamlutil/errormsg.ml" 55 1979 1983 "src/ocamlutil/errormsg.ml" 55 1979 1995
+)
+"src/ocamlutil/errormsg.ml" 88 2949 2966 "src/ocamlutil/errormsg.ml" 88 2949 2968
+type(
+  (unit -> Pretty.doc) list ref -> (unit -> Pretty.doc) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 88 2949 2969 "src/ocamlutil/errormsg.ml" 88 2949 2972
+type(
+  (unit -> Pretty.doc) list
+)
+ident(
+  int_ref old "src/ocamlutil/errormsg.ml" 85 2899 2905 "src/ocamlutil/errormsg.ml" 85 2899 2908
+)
+"src/ocamlutil/errormsg.ml" 88 2949 2953 "src/ocamlutil/errormsg.ml" 88 2949 2972
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 87 2935 2939 "src/ocamlutil/errormsg.ml" 88 2949 2972
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 89 2973 2980 "src/ocamlutil/errormsg.ml" 89 2973 2981
+type(
+  exn
+)
+ident(
+  def e "src/ocamlutil/errormsg.ml" 89 2973 2985 "src/ocamlutil/errormsg.ml" 92 3028 3033
+)
+"src/ocamlutil/errormsg.ml" 90 2991 2995 "src/ocamlutil/errormsg.ml" 90 2991 3007
+type(
+  (unit -> Pretty.doc) list ref
+)
+ident(
+  int_ref errorContext "src/ocamlutil/errormsg.ml" 55 1979 1983 "src/ocamlutil/errormsg.ml" 55 1979 1995
+)
+"src/ocamlutil/errormsg.ml" 90 2991 3008 "src/ocamlutil/errormsg.ml" 90 2991 3010
+type(
+  (unit -> Pretty.doc) list ref -> (unit -> Pretty.doc) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 90 2991 3011 "src/ocamlutil/errormsg.ml" 90 2991 3014
+type(
+  (unit -> Pretty.doc) list
+)
+ident(
+  int_ref old "src/ocamlutil/errormsg.ml" 85 2899 2905 "src/ocamlutil/errormsg.ml" 85 2899 2908
+)
+"src/ocamlutil/errormsg.ml" 90 2991 2995 "src/ocamlutil/errormsg.ml" 90 2991 3014
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 91 3016 3020 "src/ocamlutil/errormsg.ml" 91 3016 3025
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ocamlutil/errormsg.ml" 91 3016 3026 "src/ocamlutil/errormsg.ml" 91 3016 3027
+type(
+  exn
+)
+ident(
+  int_ref e "src/ocamlutil/errormsg.ml" 89 2973 2980 "src/ocamlutil/errormsg.ml" 89 2973 2981
+)
+"src/ocamlutil/errormsg.ml" 91 3016 3020 "src/ocamlutil/errormsg.ml" 91 3016 3027
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 89 2973 2985 "src/ocamlutil/errormsg.ml" 92 3028 3033
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 86 2928 2930 "src/ocamlutil/errormsg.ml" 92 3028 3033
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 85 2899 2901 "src/ocamlutil/errormsg.ml" 92 3028 3033
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 79 2672 2674 "src/ocamlutil/errormsg.ml" 92 3028 3033
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 94 3035 3039 "src/ocamlutil/errormsg.ml" 94 3035 3053
+type(
+  string -> Pretty.doc -> unit
+)
+ident(
+  def contextMessage "src/ocamlutil/errormsg.ml" 98 3156 3156 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 94 3035 3055 "src/ocamlutil/errormsg.ml" 94 3035 3059
+type(
+  string
+)
+ident(
+  def name "src/ocamlutil/errormsg.ml" 94 3035 3069 "src/ocamlutil/errormsg.ml" 96 3138 3154
+)
+"src/ocamlutil/errormsg.ml" 94 3035 3070 "src/ocamlutil/errormsg.ml" 94 3035 3071
+type(
+  Pretty.doc
+)
+ident(
+  def d "src/ocamlutil/errormsg.ml" 95 3081 3083 "src/ocamlutil/errormsg.ml" 96 3138 3154
+)
+"src/ocamlutil/errormsg.ml" 95 3081 3083 "src/ocamlutil/errormsg.ml" 95 3081 3089
+type(
+  Pretty.doc -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ocamlutil/errormsg.ml" 95 3081 3091 "src/ocamlutil/errormsg.ml" 95 3081 3098
+type(
+  out_channel ->
+  (string -> (unit -> Pretty.doc -> Pretty.doc) -> Pretty.doc -> Pretty.doc,
+   unit, Pretty.doc)
+  format ->
+  string -> (unit -> Pretty.doc -> Pretty.doc) -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.fprintf
+)
+"src/ocamlutil/errormsg.ml" 95 3081 3099 "src/ocamlutil/errormsg.ml" 95 3081 3100
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 95 3081 3100 "src/ocamlutil/errormsg.ml" 95 3081 3110
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 95 3081 3099 "src/ocamlutil/errormsg.ml" 95 3081 3110
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 95 3081 3111 "src/ocamlutil/errormsg.ml" 95 3081 3121
+type(
+  (string -> (unit -> Pretty.doc -> Pretty.doc) -> Pretty.doc -> Pretty.doc,
+   unit, Pretty.doc)
+  format
+)
+"src/ocamlutil/errormsg.ml" 95 3081 3122 "src/ocamlutil/errormsg.ml" 95 3081 3126
+type(
+  string
+)
+ident(
+  int_ref name "src/ocamlutil/errormsg.ml" 94 3035 3055 "src/ocamlutil/errormsg.ml" 94 3035 3059
+)
+"src/ocamlutil/errormsg.ml" 95 3081 3127 "src/ocamlutil/errormsg.ml" 95 3081 3133
+type(
+  unit -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.insert
+)
+"src/ocamlutil/errormsg.ml" 95 3081 3134 "src/ocamlutil/errormsg.ml" 95 3081 3135
+type(
+  Pretty.doc
+)
+ident(
+  int_ref d "src/ocamlutil/errormsg.ml" 94 3035 3070 "src/ocamlutil/errormsg.ml" 94 3035 3071
+)
+"src/ocamlutil/errormsg.ml" 95 3081 3090 "src/ocamlutil/errormsg.ml" 95 3081 3136
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ocamlutil/errormsg.ml" 95 3081 3083 "src/ocamlutil/errormsg.ml" 95 3081 3136
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 96 3138 3140 "src/ocamlutil/errormsg.ml" 96 3138 3151
+type(
+  unit -> unit
+)
+ident(
+  int_ref showContext "src/ocamlutil/errormsg.ml" 78 2650 2654 "src/ocamlutil/errormsg.ml" 78 2650 2665
+)
+"src/ocamlutil/errormsg.ml" 96 3138 3152 "src/ocamlutil/errormsg.ml" 96 3138 3154
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 96 3138 3140 "src/ocamlutil/errormsg.ml" 96 3138 3154
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 95 3081 3083 "src/ocamlutil/errormsg.ml" 96 3138 3154
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 98 3156 3160 "src/ocamlutil/errormsg.ml" 98 3156 3168
+type(
+  bool ref
+)
+ident(
+  def warnFlag "src/ocamlutil/errormsg.ml" 100 3182 3182 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 98 3156 3171 "src/ocamlutil/errormsg.ml" 98 3156 3174
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/errormsg.ml" 98 3156 3175 "src/ocamlutil/errormsg.ml" 98 3156 3180
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 98 3156 3171 "src/ocamlutil/errormsg.ml" 98 3156 3180
+type(
+  bool ref
+)
+"src/ocamlutil/errormsg.ml" 100 3182 3186 "src/ocamlutil/errormsg.ml" 100 3182 3195
+type(
+  string
+)
+ident(
+  def redEscStr "src/ocamlutil/errormsg.ml" 101 3211 3211 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 100 3182 3198 "src/ocamlutil/errormsg.ml" 100 3182 3210
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 101 3211 3215 "src/ocamlutil/errormsg.ml" 101 3211 3226
+type(
+  string
+)
+ident(
+  def greenEscStr "src/ocamlutil/errormsg.ml" 102 3242 3242 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 101 3211 3229 "src/ocamlutil/errormsg.ml" 101 3211 3241
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 102 3242 3246 "src/ocamlutil/errormsg.ml" 102 3242 3258
+type(
+  string
+)
+ident(
+  def yellowEscStr "src/ocamlutil/errormsg.ml" 103 3274 3274 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 102 3242 3261 "src/ocamlutil/errormsg.ml" 102 3242 3273
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 103 3274 3278 "src/ocamlutil/errormsg.ml" 103 3274 3288
+type(
+  string
+)
+ident(
+  def blueEscStr "src/ocamlutil/errormsg.ml" 104 3302 3302 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 103 3274 3291 "src/ocamlutil/errormsg.ml" 103 3274 3301
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 104 3302 3306 "src/ocamlutil/errormsg.ml" 104 3302 3318
+type(
+  string
+)
+ident(
+  def purpleEscStr "src/ocamlutil/errormsg.ml" 105 3332 3332 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 104 3302 3321 "src/ocamlutil/errormsg.ml" 104 3302 3331
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 105 3332 3336 "src/ocamlutil/errormsg.ml" 105 3332 3346
+type(
+  string
+)
+ident(
+  def cyanEscStr "src/ocamlutil/errormsg.ml" 106 3360 3360 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 105 3332 3349 "src/ocamlutil/errormsg.ml" 105 3332 3359
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 106 3360 3364 "src/ocamlutil/errormsg.ml" 106 3360 3375
+type(
+  string
+)
+ident(
+  def whiteEscStr "src/ocamlutil/errormsg.ml" 107 3389 3389 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 106 3360 3378 "src/ocamlutil/errormsg.ml" 106 3360 3388
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 107 3389 3393 "src/ocamlutil/errormsg.ml" 107 3389 3404
+type(
+  string
+)
+ident(
+  def resetEscStr "src/ocamlutil/errormsg.ml" 109 3417 3417 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 107 3389 3407 "src/ocamlutil/errormsg.ml" 107 3389 3415
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 109 3417 3421 "src/ocamlutil/errormsg.ml" 109 3417 3424
+type(
+  ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  def bug "src/ocamlutil/errormsg.ml" 119 3708 3708 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 109 3417 3426 "src/ocamlutil/errormsg.ml" 109 3417 3429
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  def fmt "src/ocamlutil/errormsg.ml" 109 3417 3460 "src/ocamlutil/errormsg.ml" 117 3684 3706
+)
+"src/ocamlutil/errormsg.ml" 110 3468 3474 "src/ocamlutil/errormsg.ml" 110 3468 3475
+type(
+  Pretty.doc -> unit
+)
+ident(
+  def f "src/ocamlutil/errormsg.ml" 117 3684 3686 "src/ocamlutil/errormsg.ml" 117 3684 3706
+)
+"src/ocamlutil/errormsg.ml" 110 3468 3476 "src/ocamlutil/errormsg.ml" 110 3468 3477
+type(
+  Pretty.doc
+)
+ident(
+  def d "src/ocamlutil/errormsg.ml" 111 3482 3486 "src/ocamlutil/errormsg.ml" 115 3657 3678
+)
+"src/ocamlutil/errormsg.ml" 111 3482 3486 "src/ocamlutil/errormsg.ml" 111 3482 3495
+type(
+  bool ref
+)
+ident(
+  int_ref hadErrors "src/ocamlutil/errormsg.ml" 51 1905 1909 "src/ocamlutil/errormsg.ml" 51 1905 1918
+)
+"src/ocamlutil/errormsg.ml" 111 3482 3496 "src/ocamlutil/errormsg.ml" 111 3482 3498
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 111 3482 3499 "src/ocamlutil/errormsg.ml" 111 3482 3503
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 111 3482 3486 "src/ocamlutil/errormsg.ml" 111 3482 3503
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 112 3505 3512 "src/ocamlutil/errormsg.ml" 112 3505 3513
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 112 3505 3513 "src/ocamlutil/errormsg.ml" 112 3505 3522
+type(
+  bool ref
+)
+ident(
+  int_ref colorFlag "src/ocamlutil/errormsg.ml" 45 1802 1806 "src/ocamlutil/errormsg.ml" 45 1802 1815
+)
+"src/ocamlutil/errormsg.ml" 112 3505 3512 "src/ocamlutil/errormsg.ml" 112 3505 3522
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 112 3505 3528 "src/ocamlutil/errormsg.ml" 112 3505 3541
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/ocamlutil/errormsg.ml" 112 3505 3542 "src/ocamlutil/errormsg.ml" 112 3505 3543
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 112 3505 3543 "src/ocamlutil/errormsg.ml" 112 3505 3553
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 112 3505 3542 "src/ocamlutil/errormsg.ml" 112 3505 3553
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 112 3505 3554 "src/ocamlutil/errormsg.ml" 112 3505 3565
+type(
+  string
+)
+ident(
+  int_ref greenEscStr "src/ocamlutil/errormsg.ml" 101 3211 3215 "src/ocamlutil/errormsg.ml" 101 3211 3226
+)
+"src/ocamlutil/errormsg.ml" 112 3505 3528 "src/ocamlutil/errormsg.ml" 112 3505 3565
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 112 3505 3509 "src/ocamlutil/errormsg.ml" 112 3505 3565
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 113 3567 3571 "src/ocamlutil/errormsg.ml" 113 3567 3585
+type(
+  string -> Pretty.doc -> unit
+)
+ident(
+  int_ref contextMessage "src/ocamlutil/errormsg.ml" 94 3035 3039 "src/ocamlutil/errormsg.ml" 94 3035 3053
+)
+"src/ocamlutil/errormsg.ml" 113 3567 3586 "src/ocamlutil/errormsg.ml" 113 3567 3591
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 113 3567 3592 "src/ocamlutil/errormsg.ml" 113 3567 3593
+type(
+  Pretty.doc
+)
+ident(
+  int_ref d "src/ocamlutil/errormsg.ml" 110 3468 3476 "src/ocamlutil/errormsg.ml" 110 3468 3477
+)
+"src/ocamlutil/errormsg.ml" 113 3567 3571 "src/ocamlutil/errormsg.ml" 113 3567 3593
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 114 3595 3602 "src/ocamlutil/errormsg.ml" 114 3595 3603
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 114 3595 3603 "src/ocamlutil/errormsg.ml" 114 3595 3612
+type(
+  bool ref
+)
+ident(
+  int_ref colorFlag "src/ocamlutil/errormsg.ml" 45 1802 1806 "src/ocamlutil/errormsg.ml" 45 1802 1815
+)
+"src/ocamlutil/errormsg.ml" 114 3595 3602 "src/ocamlutil/errormsg.ml" 114 3595 3612
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 114 3595 3618 "src/ocamlutil/errormsg.ml" 114 3595 3631
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/ocamlutil/errormsg.ml" 114 3595 3632 "src/ocamlutil/errormsg.ml" 114 3595 3633
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 114 3595 3633 "src/ocamlutil/errormsg.ml" 114 3595 3643
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 114 3595 3632 "src/ocamlutil/errormsg.ml" 114 3595 3643
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 114 3595 3644 "src/ocamlutil/errormsg.ml" 114 3595 3655
+type(
+  string
+)
+ident(
+  int_ref resetEscStr "src/ocamlutil/errormsg.ml" 107 3389 3393 "src/ocamlutil/errormsg.ml" 107 3389 3404
+)
+"src/ocamlutil/errormsg.ml" 114 3595 3618 "src/ocamlutil/errormsg.ml" 114 3595 3655
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 114 3595 3599 "src/ocamlutil/errormsg.ml" 114 3595 3655
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 115 3657 3661 "src/ocamlutil/errormsg.ml" 115 3657 3666
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/ocamlutil/errormsg.ml" 115 3657 3667 "src/ocamlutil/errormsg.ml" 115 3657 3668
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 115 3657 3668 "src/ocamlutil/errormsg.ml" 115 3657 3678
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 115 3657 3667 "src/ocamlutil/errormsg.ml" 115 3657 3678
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 115 3657 3661 "src/ocamlutil/errormsg.ml" 115 3657 3678
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 114 3595 3599 "src/ocamlutil/errormsg.ml" 115 3657 3678
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 113 3567 3571 "src/ocamlutil/errormsg.ml" 115 3657 3678
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 112 3505 3509 "src/ocamlutil/errormsg.ml" 115 3657 3678
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 111 3482 3486 "src/ocamlutil/errormsg.ml" 115 3657 3678
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 117 3684 3686 "src/ocamlutil/errormsg.ml" 117 3684 3700
+type(
+  (Pretty.doc -> unit) -> ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  ext_ref Pretty.gprintf
+)
+"src/ocamlutil/errormsg.ml" 117 3684 3701 "src/ocamlutil/errormsg.ml" 117 3684 3702
+type(
+  Pretty.doc -> unit
+)
+ident(
+  int_ref f "src/ocamlutil/errormsg.ml" 110 3468 3474 "src/ocamlutil/errormsg.ml" 110 3468 3475
+)
+"src/ocamlutil/errormsg.ml" 117 3684 3703 "src/ocamlutil/errormsg.ml" 117 3684 3706
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  int_ref fmt "src/ocamlutil/errormsg.ml" 109 3417 3426 "src/ocamlutil/errormsg.ml" 109 3417 3429
+)
+"src/ocamlutil/errormsg.ml" 117 3684 3686 "src/ocamlutil/errormsg.ml" 117 3684 3706
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 110 3468 3470 "src/ocamlutil/errormsg.ml" 117 3684 3706
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 119 3708 3712 "src/ocamlutil/errormsg.ml" 119 3708 3717
+type(
+  ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  def error "src/ocamlutil/errormsg.ml" 129 3998 3998 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 119 3708 3719 "src/ocamlutil/errormsg.ml" 119 3708 3722
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  def fmt "src/ocamlutil/errormsg.ml" 119 3708 3753 "src/ocamlutil/errormsg.ml" 127 3974 3996
+)
+"src/ocamlutil/errormsg.ml" 120 3760 3766 "src/ocamlutil/errormsg.ml" 120 3760 3767
+type(
+  Pretty.doc -> unit
+)
+ident(
+  def f "src/ocamlutil/errormsg.ml" 127 3974 3976 "src/ocamlutil/errormsg.ml" 127 3974 3996
+)
+"src/ocamlutil/errormsg.ml" 120 3760 3768 "src/ocamlutil/errormsg.ml" 120 3760 3769
+type(
+  Pretty.doc
+)
+ident(
+  def d "src/ocamlutil/errormsg.ml" 121 3772 3776 "src/ocamlutil/errormsg.ml" 125 3947 3968
+)
+"src/ocamlutil/errormsg.ml" 121 3772 3776 "src/ocamlutil/errormsg.ml" 121 3772 3785
+type(
+  bool ref
+)
+ident(
+  int_ref hadErrors "src/ocamlutil/errormsg.ml" 51 1905 1909 "src/ocamlutil/errormsg.ml" 51 1905 1918
+)
+"src/ocamlutil/errormsg.ml" 121 3772 3786 "src/ocamlutil/errormsg.ml" 121 3772 3788
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 121 3772 3789 "src/ocamlutil/errormsg.ml" 121 3772 3793
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 121 3772 3776 "src/ocamlutil/errormsg.ml" 121 3772 3793
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 122 3795 3802 "src/ocamlutil/errormsg.ml" 122 3795 3803
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 122 3795 3803 "src/ocamlutil/errormsg.ml" 122 3795 3812
+type(
+  bool ref
+)
+ident(
+  int_ref colorFlag "src/ocamlutil/errormsg.ml" 45 1802 1806 "src/ocamlutil/errormsg.ml" 45 1802 1815
+)
+"src/ocamlutil/errormsg.ml" 122 3795 3802 "src/ocamlutil/errormsg.ml" 122 3795 3812
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 122 3795 3818 "src/ocamlutil/errormsg.ml" 122 3795 3831
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/ocamlutil/errormsg.ml" 122 3795 3832 "src/ocamlutil/errormsg.ml" 122 3795 3833
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 122 3795 3833 "src/ocamlutil/errormsg.ml" 122 3795 3843
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 122 3795 3832 "src/ocamlutil/errormsg.ml" 122 3795 3843
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 122 3795 3844 "src/ocamlutil/errormsg.ml" 122 3795 3853
+type(
+  string
+)
+ident(
+  int_ref redEscStr "src/ocamlutil/errormsg.ml" 100 3182 3186 "src/ocamlutil/errormsg.ml" 100 3182 3195
+)
+"src/ocamlutil/errormsg.ml" 122 3795 3818 "src/ocamlutil/errormsg.ml" 122 3795 3853
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 122 3795 3799 "src/ocamlutil/errormsg.ml" 122 3795 3853
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 123 3855 3859 "src/ocamlutil/errormsg.ml" 123 3855 3873
+type(
+  string -> Pretty.doc -> unit
+)
+ident(
+  int_ref contextMessage "src/ocamlutil/errormsg.ml" 94 3035 3039 "src/ocamlutil/errormsg.ml" 94 3035 3053
+)
+"src/ocamlutil/errormsg.ml" 123 3855 3874 "src/ocamlutil/errormsg.ml" 123 3855 3881
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 123 3855 3882 "src/ocamlutil/errormsg.ml" 123 3855 3883
+type(
+  Pretty.doc
+)
+ident(
+  int_ref d "src/ocamlutil/errormsg.ml" 120 3760 3768 "src/ocamlutil/errormsg.ml" 120 3760 3769
+)
+"src/ocamlutil/errormsg.ml" 123 3855 3859 "src/ocamlutil/errormsg.ml" 123 3855 3883
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 124 3885 3892 "src/ocamlutil/errormsg.ml" 124 3885 3893
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 124 3885 3893 "src/ocamlutil/errormsg.ml" 124 3885 3902
+type(
+  bool ref
+)
+ident(
+  int_ref colorFlag "src/ocamlutil/errormsg.ml" 45 1802 1806 "src/ocamlutil/errormsg.ml" 45 1802 1815
+)
+"src/ocamlutil/errormsg.ml" 124 3885 3892 "src/ocamlutil/errormsg.ml" 124 3885 3902
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 124 3885 3908 "src/ocamlutil/errormsg.ml" 124 3885 3921
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/ocamlutil/errormsg.ml" 124 3885 3922 "src/ocamlutil/errormsg.ml" 124 3885 3923
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 124 3885 3923 "src/ocamlutil/errormsg.ml" 124 3885 3933
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 124 3885 3922 "src/ocamlutil/errormsg.ml" 124 3885 3933
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 124 3885 3934 "src/ocamlutil/errormsg.ml" 124 3885 3945
+type(
+  string
+)
+ident(
+  int_ref resetEscStr "src/ocamlutil/errormsg.ml" 107 3389 3393 "src/ocamlutil/errormsg.ml" 107 3389 3404
+)
+"src/ocamlutil/errormsg.ml" 124 3885 3908 "src/ocamlutil/errormsg.ml" 124 3885 3945
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 124 3885 3889 "src/ocamlutil/errormsg.ml" 124 3885 3945
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 125 3947 3951 "src/ocamlutil/errormsg.ml" 125 3947 3956
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/ocamlutil/errormsg.ml" 125 3947 3957 "src/ocamlutil/errormsg.ml" 125 3947 3958
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 125 3947 3958 "src/ocamlutil/errormsg.ml" 125 3947 3968
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 125 3947 3957 "src/ocamlutil/errormsg.ml" 125 3947 3968
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 125 3947 3951 "src/ocamlutil/errormsg.ml" 125 3947 3968
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 124 3885 3889 "src/ocamlutil/errormsg.ml" 125 3947 3968
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 123 3855 3859 "src/ocamlutil/errormsg.ml" 125 3947 3968
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 122 3795 3799 "src/ocamlutil/errormsg.ml" 125 3947 3968
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 121 3772 3776 "src/ocamlutil/errormsg.ml" 125 3947 3968
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 127 3974 3976 "src/ocamlutil/errormsg.ml" 127 3974 3990
+type(
+  (Pretty.doc -> unit) -> ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  ext_ref Pretty.gprintf
+)
+"src/ocamlutil/errormsg.ml" 127 3974 3991 "src/ocamlutil/errormsg.ml" 127 3974 3992
+type(
+  Pretty.doc -> unit
+)
+ident(
+  int_ref f "src/ocamlutil/errormsg.ml" 120 3760 3766 "src/ocamlutil/errormsg.ml" 120 3760 3767
+)
+"src/ocamlutil/errormsg.ml" 127 3974 3993 "src/ocamlutil/errormsg.ml" 127 3974 3996
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  int_ref fmt "src/ocamlutil/errormsg.ml" 119 3708 3719 "src/ocamlutil/errormsg.ml" 119 3708 3722
+)
+"src/ocamlutil/errormsg.ml" 127 3974 3976 "src/ocamlutil/errormsg.ml" 127 3974 3996
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 120 3760 3762 "src/ocamlutil/errormsg.ml" 127 3974 3996
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 129 3998 4002 "src/ocamlutil/errormsg.ml" 129 3998 4007
+type(
+  ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  def unimp "src/ocamlutil/errormsg.ml" 135 4168 4168 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 129 3998 4009 "src/ocamlutil/errormsg.ml" 129 3998 4012
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  def fmt "src/ocamlutil/errormsg.ml" 129 3998 4043 "src/ocamlutil/errormsg.ml" 133 4144 4166
+)
+"src/ocamlutil/errormsg.ml" 130 4051 4057 "src/ocamlutil/errormsg.ml" 130 4051 4058
+type(
+  Pretty.doc -> unit
+)
+ident(
+  def f "src/ocamlutil/errormsg.ml" 133 4144 4146 "src/ocamlutil/errormsg.ml" 133 4144 4166
+)
+"src/ocamlutil/errormsg.ml" 130 4051 4059 "src/ocamlutil/errormsg.ml" 130 4051 4060
+type(
+  Pretty.doc
+)
+ident(
+  def d "src/ocamlutil/errormsg.ml" 130 4051 4063 "src/ocamlutil/errormsg.ml" 131 4117 4138
+)
+"src/ocamlutil/errormsg.ml" 130 4051 4063 "src/ocamlutil/errormsg.ml" 130 4051 4072
+type(
+  bool ref
+)
+ident(
+  int_ref hadErrors "src/ocamlutil/errormsg.ml" 51 1905 1909 "src/ocamlutil/errormsg.ml" 51 1905 1918
+)
+"src/ocamlutil/errormsg.ml" 130 4051 4073 "src/ocamlutil/errormsg.ml" 130 4051 4075
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 130 4051 4076 "src/ocamlutil/errormsg.ml" 130 4051 4080
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 130 4051 4063 "src/ocamlutil/errormsg.ml" 130 4051 4080
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 130 4051 4082 "src/ocamlutil/errormsg.ml" 130 4051 4096
+type(
+  string -> Pretty.doc -> unit
+)
+ident(
+  int_ref contextMessage "src/ocamlutil/errormsg.ml" 94 3035 3039 "src/ocamlutil/errormsg.ml" 94 3035 3053
+)
+"src/ocamlutil/errormsg.ml" 130 4051 4097 "src/ocamlutil/errormsg.ml" 130 4051 4112
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 130 4051 4113 "src/ocamlutil/errormsg.ml" 130 4051 4114
+type(
+  Pretty.doc
+)
+ident(
+  int_ref d "src/ocamlutil/errormsg.ml" 130 4051 4059 "src/ocamlutil/errormsg.ml" 130 4051 4060
+)
+"src/ocamlutil/errormsg.ml" 130 4051 4082 "src/ocamlutil/errormsg.ml" 130 4051 4114
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 131 4117 4121 "src/ocamlutil/errormsg.ml" 131 4117 4126
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/ocamlutil/errormsg.ml" 131 4117 4127 "src/ocamlutil/errormsg.ml" 131 4117 4128
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 131 4117 4128 "src/ocamlutil/errormsg.ml" 131 4117 4138
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 131 4117 4127 "src/ocamlutil/errormsg.ml" 131 4117 4138
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 131 4117 4121 "src/ocamlutil/errormsg.ml" 131 4117 4138
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 130 4051 4082 "src/ocamlutil/errormsg.ml" 131 4117 4138
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 130 4051 4063 "src/ocamlutil/errormsg.ml" 131 4117 4138
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 133 4144 4146 "src/ocamlutil/errormsg.ml" 133 4144 4160
+type(
+  (Pretty.doc -> unit) -> ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  ext_ref Pretty.gprintf
+)
+"src/ocamlutil/errormsg.ml" 133 4144 4161 "src/ocamlutil/errormsg.ml" 133 4144 4162
+type(
+  Pretty.doc -> unit
+)
+ident(
+  int_ref f "src/ocamlutil/errormsg.ml" 130 4051 4057 "src/ocamlutil/errormsg.ml" 130 4051 4058
+)
+"src/ocamlutil/errormsg.ml" 133 4144 4163 "src/ocamlutil/errormsg.ml" 133 4144 4166
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  int_ref fmt "src/ocamlutil/errormsg.ml" 129 3998 4009 "src/ocamlutil/errormsg.ml" 129 3998 4012
+)
+"src/ocamlutil/errormsg.ml" 133 4144 4146 "src/ocamlutil/errormsg.ml" 133 4144 4166
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 130 4051 4053 "src/ocamlutil/errormsg.ml" 133 4144 4166
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 135 4168 4172 "src/ocamlutil/errormsg.ml" 135 4168 4176
+type(
+  ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  def warn "src/ocamlutil/errormsg.ml" 144 4440 4440 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 135 4168 4178 "src/ocamlutil/errormsg.ml" 135 4168 4181
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  def fmt "src/ocamlutil/errormsg.ml" 135 4168 4212 "src/ocamlutil/errormsg.ml" 142 4416 4438
+)
+"src/ocamlutil/errormsg.ml" 136 4220 4226 "src/ocamlutil/errormsg.ml" 136 4220 4227
+type(
+  Pretty.doc -> unit
+)
+ident(
+  def f "src/ocamlutil/errormsg.ml" 142 4416 4418 "src/ocamlutil/errormsg.ml" 142 4416 4438
+)
+"src/ocamlutil/errormsg.ml" 136 4220 4228 "src/ocamlutil/errormsg.ml" 136 4220 4229
+type(
+  Pretty.doc
+)
+ident(
+  def d "src/ocamlutil/errormsg.ml" 137 4232 4236 "src/ocamlutil/errormsg.ml" 140 4389 4410
+)
+"src/ocamlutil/errormsg.ml" 137 4232 4239 "src/ocamlutil/errormsg.ml" 137 4232 4240
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 137 4232 4240 "src/ocamlutil/errormsg.ml" 137 4232 4249
+type(
+  bool ref
+)
+ident(
+  int_ref colorFlag "src/ocamlutil/errormsg.ml" 45 1802 1806 "src/ocamlutil/errormsg.ml" 45 1802 1815
+)
+"src/ocamlutil/errormsg.ml" 137 4232 4239 "src/ocamlutil/errormsg.ml" 137 4232 4249
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 137 4232 4255 "src/ocamlutil/errormsg.ml" 137 4232 4268
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/ocamlutil/errormsg.ml" 137 4232 4269 "src/ocamlutil/errormsg.ml" 137 4232 4270
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 137 4232 4270 "src/ocamlutil/errormsg.ml" 137 4232 4280
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 137 4232 4269 "src/ocamlutil/errormsg.ml" 137 4232 4280
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 137 4232 4281 "src/ocamlutil/errormsg.ml" 137 4232 4293
+type(
+  string
+)
+ident(
+  int_ref yellowEscStr "src/ocamlutil/errormsg.ml" 102 3242 3246 "src/ocamlutil/errormsg.ml" 102 3242 3258
+)
+"src/ocamlutil/errormsg.ml" 137 4232 4255 "src/ocamlutil/errormsg.ml" 137 4232 4293
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 137 4232 4236 "src/ocamlutil/errormsg.ml" 137 4232 4293
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 138 4295 4299 "src/ocamlutil/errormsg.ml" 138 4295 4313
+type(
+  string -> Pretty.doc -> unit
+)
+ident(
+  int_ref contextMessage "src/ocamlutil/errormsg.ml" 94 3035 3039 "src/ocamlutil/errormsg.ml" 94 3035 3053
+)
+"src/ocamlutil/errormsg.ml" 138 4295 4314 "src/ocamlutil/errormsg.ml" 138 4295 4323
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 138 4295 4324 "src/ocamlutil/errormsg.ml" 138 4295 4325
+type(
+  Pretty.doc
+)
+ident(
+  int_ref d "src/ocamlutil/errormsg.ml" 136 4220 4228 "src/ocamlutil/errormsg.ml" 136 4220 4229
+)
+"src/ocamlutil/errormsg.ml" 138 4295 4299 "src/ocamlutil/errormsg.ml" 138 4295 4325
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 139 4327 4334 "src/ocamlutil/errormsg.ml" 139 4327 4335
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 139 4327 4335 "src/ocamlutil/errormsg.ml" 139 4327 4344
+type(
+  bool ref
+)
+ident(
+  int_ref colorFlag "src/ocamlutil/errormsg.ml" 45 1802 1806 "src/ocamlutil/errormsg.ml" 45 1802 1815
+)
+"src/ocamlutil/errormsg.ml" 139 4327 4334 "src/ocamlutil/errormsg.ml" 139 4327 4344
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 139 4327 4350 "src/ocamlutil/errormsg.ml" 139 4327 4363
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/ocamlutil/errormsg.ml" 139 4327 4364 "src/ocamlutil/errormsg.ml" 139 4327 4365
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 139 4327 4365 "src/ocamlutil/errormsg.ml" 139 4327 4375
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 139 4327 4364 "src/ocamlutil/errormsg.ml" 139 4327 4375
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 139 4327 4376 "src/ocamlutil/errormsg.ml" 139 4327 4387
+type(
+  string
+)
+ident(
+  int_ref resetEscStr "src/ocamlutil/errormsg.ml" 107 3389 3393 "src/ocamlutil/errormsg.ml" 107 3389 3404
+)
+"src/ocamlutil/errormsg.ml" 139 4327 4350 "src/ocamlutil/errormsg.ml" 139 4327 4387
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 139 4327 4331 "src/ocamlutil/errormsg.ml" 139 4327 4387
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 140 4389 4393 "src/ocamlutil/errormsg.ml" 140 4389 4398
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/ocamlutil/errormsg.ml" 140 4389 4399 "src/ocamlutil/errormsg.ml" 140 4389 4400
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 140 4389 4400 "src/ocamlutil/errormsg.ml" 140 4389 4410
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 140 4389 4399 "src/ocamlutil/errormsg.ml" 140 4389 4410
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 140 4389 4393 "src/ocamlutil/errormsg.ml" 140 4389 4410
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 139 4327 4331 "src/ocamlutil/errormsg.ml" 140 4389 4410
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 138 4295 4299 "src/ocamlutil/errormsg.ml" 140 4389 4410
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 137 4232 4236 "src/ocamlutil/errormsg.ml" 140 4389 4410
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 142 4416 4418 "src/ocamlutil/errormsg.ml" 142 4416 4432
+type(
+  (Pretty.doc -> unit) -> ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  ext_ref Pretty.gprintf
+)
+"src/ocamlutil/errormsg.ml" 142 4416 4433 "src/ocamlutil/errormsg.ml" 142 4416 4434
+type(
+  Pretty.doc -> unit
+)
+ident(
+  int_ref f "src/ocamlutil/errormsg.ml" 136 4220 4226 "src/ocamlutil/errormsg.ml" 136 4220 4227
+)
+"src/ocamlutil/errormsg.ml" 142 4416 4435 "src/ocamlutil/errormsg.ml" 142 4416 4438
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  int_ref fmt "src/ocamlutil/errormsg.ml" 135 4168 4178 "src/ocamlutil/errormsg.ml" 135 4168 4181
+)
+"src/ocamlutil/errormsg.ml" 142 4416 4418 "src/ocamlutil/errormsg.ml" 142 4416 4438
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 136 4220 4222 "src/ocamlutil/errormsg.ml" 142 4416 4438
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 144 4440 4444 "src/ocamlutil/errormsg.ml" 144 4440 4451
+type(
+  ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  def warnOpt "src/ocamlutil/errormsg.ml" 155 4774 4774 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 144 4440 4453 "src/ocamlutil/errormsg.ml" 144 4440 4456
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  def fmt "src/ocamlutil/errormsg.ml" 144 4440 4487 "src/ocamlutil/errormsg.ml" 152 4747 4771
+)
+"src/ocamlutil/errormsg.ml" 145 4495 4503 "src/ocamlutil/errormsg.ml" 145 4495 4504
+type(
+  Pretty.doc -> unit
+)
+ident(
+  def f "src/ocamlutil/errormsg.ml" 152 4747 4751 "src/ocamlutil/errormsg.ml" 152 4747 4771
+)
+"src/ocamlutil/errormsg.ml" 145 4495 4505 "src/ocamlutil/errormsg.ml" 145 4495 4506
+type(
+  Pretty.doc
+)
+ident(
+  def d "src/ocamlutil/errormsg.ml" 146 4510 4516 "src/ocamlutil/errormsg.ml" 151 4720 4743
+)
+"src/ocamlutil/errormsg.ml" 146 4510 4519 "src/ocamlutil/errormsg.ml" 146 4510 4520
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 146 4510 4520 "src/ocamlutil/errormsg.ml" 146 4510 4528
+type(
+  bool ref
+)
+ident(
+  int_ref warnFlag "src/ocamlutil/errormsg.ml" 98 3156 3160 "src/ocamlutil/errormsg.ml" 98 3156 3168
+)
+"src/ocamlutil/errormsg.ml" 146 4510 4519 "src/ocamlutil/errormsg.ml" 146 4510 4528
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 147 4540 4551 "src/ocamlutil/errormsg.ml" 147 4540 4552
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 147 4540 4552 "src/ocamlutil/errormsg.ml" 147 4540 4561
+type(
+  bool ref
+)
+ident(
+  int_ref colorFlag "src/ocamlutil/errormsg.ml" 45 1802 1806 "src/ocamlutil/errormsg.ml" 45 1802 1815
+)
+"src/ocamlutil/errormsg.ml" 147 4540 4551 "src/ocamlutil/errormsg.ml" 147 4540 4561
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 147 4540 4567 "src/ocamlutil/errormsg.ml" 147 4540 4580
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/ocamlutil/errormsg.ml" 147 4540 4581 "src/ocamlutil/errormsg.ml" 147 4540 4582
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 147 4540 4582 "src/ocamlutil/errormsg.ml" 147 4540 4592
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 147 4540 4581 "src/ocamlutil/errormsg.ml" 147 4540 4592
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 147 4540 4593 "src/ocamlutil/errormsg.ml" 147 4540 4605
+type(
+  string
+)
+ident(
+  int_ref yellowEscStr "src/ocamlutil/errormsg.ml" 102 3242 3246 "src/ocamlutil/errormsg.ml" 102 3242 3258
+)
+"src/ocamlutil/errormsg.ml" 147 4540 4567 "src/ocamlutil/errormsg.ml" 147 4540 4605
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 147 4540 4548 "src/ocamlutil/errormsg.ml" 147 4540 4605
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 148 4607 4615 "src/ocamlutil/errormsg.ml" 148 4607 4629
+type(
+  string -> Pretty.doc -> unit
+)
+ident(
+  int_ref contextMessage "src/ocamlutil/errormsg.ml" 94 3035 3039 "src/ocamlutil/errormsg.ml" 94 3035 3053
+)
+"src/ocamlutil/errormsg.ml" 148 4607 4630 "src/ocamlutil/errormsg.ml" 148 4607 4639
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 148 4607 4640 "src/ocamlutil/errormsg.ml" 148 4607 4641
+type(
+  Pretty.doc
+)
+ident(
+  int_ref d "src/ocamlutil/errormsg.ml" 145 4495 4505 "src/ocamlutil/errormsg.ml" 145 4495 4506
+)
+"src/ocamlutil/errormsg.ml" 148 4607 4615 "src/ocamlutil/errormsg.ml" 148 4607 4641
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 149 4643 4654 "src/ocamlutil/errormsg.ml" 149 4643 4655
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 149 4643 4655 "src/ocamlutil/errormsg.ml" 149 4643 4664
+type(
+  bool ref
+)
+ident(
+  int_ref colorFlag "src/ocamlutil/errormsg.ml" 45 1802 1806 "src/ocamlutil/errormsg.ml" 45 1802 1815
+)
+"src/ocamlutil/errormsg.ml" 149 4643 4654 "src/ocamlutil/errormsg.ml" 149 4643 4664
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 149 4643 4670 "src/ocamlutil/errormsg.ml" 149 4643 4683
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/ocamlutil/errormsg.ml" 149 4643 4684 "src/ocamlutil/errormsg.ml" 149 4643 4685
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 149 4643 4685 "src/ocamlutil/errormsg.ml" 149 4643 4695
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 149 4643 4684 "src/ocamlutil/errormsg.ml" 149 4643 4695
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 149 4643 4696 "src/ocamlutil/errormsg.ml" 149 4643 4707
+type(
+  string
+)
+ident(
+  int_ref resetEscStr "src/ocamlutil/errormsg.ml" 107 3389 3393 "src/ocamlutil/errormsg.ml" 107 3389 3404
+)
+"src/ocamlutil/errormsg.ml" 149 4643 4670 "src/ocamlutil/errormsg.ml" 149 4643 4707
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 149 4643 4651 "src/ocamlutil/errormsg.ml" 149 4643 4708
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 148 4607 4615 "src/ocamlutil/errormsg.ml" 149 4643 4708
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 146 4510 4534 "src/ocamlutil/errormsg.ml" 150 4709 4718
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 146 4510 4516 "src/ocamlutil/errormsg.ml" 150 4709 4718
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 151 4720 4726 "src/ocamlutil/errormsg.ml" 151 4720 4731
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/ocamlutil/errormsg.ml" 151 4720 4732 "src/ocamlutil/errormsg.ml" 151 4720 4733
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 151 4720 4733 "src/ocamlutil/errormsg.ml" 151 4720 4743
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 151 4720 4732 "src/ocamlutil/errormsg.ml" 151 4720 4743
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 151 4720 4726 "src/ocamlutil/errormsg.ml" 151 4720 4743
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 146 4510 4516 "src/ocamlutil/errormsg.ml" 151 4720 4743
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 152 4747 4751 "src/ocamlutil/errormsg.ml" 152 4747 4765
+type(
+  (Pretty.doc -> unit) -> ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  ext_ref Pretty.gprintf
+)
+"src/ocamlutil/errormsg.ml" 152 4747 4766 "src/ocamlutil/errormsg.ml" 152 4747 4767
+type(
+  Pretty.doc -> unit
+)
+ident(
+  int_ref f "src/ocamlutil/errormsg.ml" 145 4495 4503 "src/ocamlutil/errormsg.ml" 145 4495 4504
+)
+"src/ocamlutil/errormsg.ml" 152 4747 4768 "src/ocamlutil/errormsg.ml" 152 4747 4771
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  int_ref fmt "src/ocamlutil/errormsg.ml" 144 4440 4453 "src/ocamlutil/errormsg.ml" 144 4440 4456
+)
+"src/ocamlutil/errormsg.ml" 152 4747 4751 "src/ocamlutil/errormsg.ml" 152 4747 4771
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 145 4495 4499 "src/ocamlutil/errormsg.ml" 152 4747 4771
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 155 4774 4778 "src/ocamlutil/errormsg.ml" 155 4774 4781
+type(
+  ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  def log "src/ocamlutil/errormsg.ml" 159 4907 4907 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 155 4774 4783 "src/ocamlutil/errormsg.ml" 155 4774 4786
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  def fmt "src/ocamlutil/errormsg.ml" 155 4774 4817 "src/ocamlutil/errormsg.ml" 157 4883 4905
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4831 "src/ocamlutil/errormsg.ml" 156 4825 4832
+type(
+  Pretty.doc -> unit
+)
+ident(
+  def f "src/ocamlutil/errormsg.ml" 157 4883 4885 "src/ocamlutil/errormsg.ml" 157 4883 4905
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4833 "src/ocamlutil/errormsg.ml" 156 4825 4834
+type(
+  Pretty.doc
+)
+ident(
+  def d "src/ocamlutil/errormsg.ml" 156 4825 4837 "src/ocamlutil/errormsg.ml" 156 4825 4879
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4837 "src/ocamlutil/errormsg.ml" 156 4825 4843
+type(
+  out_channel -> width:int -> Pretty.doc -> unit
+)
+ident(
+  ext_ref Pretty.fprint
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4844 "src/ocamlutil/errormsg.ml" 156 4825 4845
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4845 "src/ocamlutil/errormsg.ml" 156 4825 4855
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4844 "src/ocamlutil/errormsg.ml" 156 4825 4855
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4856 "src/ocamlutil/errormsg.ml" 156 4825 4858
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4859 "src/ocamlutil/errormsg.ml" 156 4825 4860
+type(
+  Pretty.doc
+)
+ident(
+  int_ref d "src/ocamlutil/errormsg.ml" 156 4825 4833 "src/ocamlutil/errormsg.ml" 156 4825 4834
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4837 "src/ocamlutil/errormsg.ml" 156 4825 4860
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4862 "src/ocamlutil/errormsg.ml" 156 4825 4867
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4868 "src/ocamlutil/errormsg.ml" 156 4825 4869
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4869 "src/ocamlutil/errormsg.ml" 156 4825 4879
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4868 "src/ocamlutil/errormsg.ml" 156 4825 4879
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4862 "src/ocamlutil/errormsg.ml" 156 4825 4879
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4837 "src/ocamlutil/errormsg.ml" 156 4825 4879
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 157 4883 4885 "src/ocamlutil/errormsg.ml" 157 4883 4899
+type(
+  (Pretty.doc -> unit) -> ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  ext_ref Pretty.gprintf
+)
+"src/ocamlutil/errormsg.ml" 157 4883 4900 "src/ocamlutil/errormsg.ml" 157 4883 4901
+type(
+  Pretty.doc -> unit
+)
+ident(
+  int_ref f "src/ocamlutil/errormsg.ml" 156 4825 4831 "src/ocamlutil/errormsg.ml" 156 4825 4832
+)
+"src/ocamlutil/errormsg.ml" 157 4883 4902 "src/ocamlutil/errormsg.ml" 157 4883 4905
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  int_ref fmt "src/ocamlutil/errormsg.ml" 155 4774 4783 "src/ocamlutil/errormsg.ml" 155 4774 4786
+)
+"src/ocamlutil/errormsg.ml" 157 4883 4885 "src/ocamlutil/errormsg.ml" 157 4883 4905
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 156 4825 4827 "src/ocamlutil/errormsg.ml" 157 4883 4905
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 159 4907 4911 "src/ocamlutil/errormsg.ml" 159 4907 4915
+type(
+  ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  def logg "src/ocamlutil/errormsg.ml" 163 5046 5046 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 159 4907 4917 "src/ocamlutil/errormsg.ml" 159 4907 4920
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  def fmt "src/ocamlutil/errormsg.ml" 159 4907 4951 "src/ocamlutil/errormsg.ml" 161 5022 5044
+)
+"src/ocamlutil/errormsg.ml" 160 4958 4964 "src/ocamlutil/errormsg.ml" 160 4958 4965
+type(
+  Pretty.doc -> unit
+)
+ident(
+  def f "src/ocamlutil/errormsg.ml" 161 5022 5024 "src/ocamlutil/errormsg.ml" 161 5022 5044
+)
+"src/ocamlutil/errormsg.ml" 160 4958 4966 "src/ocamlutil/errormsg.ml" 160 4958 4967
+type(
+  Pretty.doc
+)
+ident(
+  def d "src/ocamlutil/errormsg.ml" 160 4958 4970 "src/ocamlutil/errormsg.ml" 160 4958 5018
+)
+"src/ocamlutil/errormsg.ml" 160 4958 4970 "src/ocamlutil/errormsg.ml" 160 4958 4976
+type(
+  out_channel -> width:int -> Pretty.doc -> unit
+)
+ident(
+  ext_ref Pretty.fprint
+)
+"src/ocamlutil/errormsg.ml" 160 4958 4977 "src/ocamlutil/errormsg.ml" 160 4958 4978
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 160 4958 4978 "src/ocamlutil/errormsg.ml" 160 4958 4988
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 160 4958 4977 "src/ocamlutil/errormsg.ml" 160 4958 4988
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 160 4958 4989 "src/ocamlutil/errormsg.ml" 160 4958 4997
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 160 4958 4998 "src/ocamlutil/errormsg.ml" 160 4958 4999
+type(
+  Pretty.doc
+)
+ident(
+  int_ref d "src/ocamlutil/errormsg.ml" 160 4958 4966 "src/ocamlutil/errormsg.ml" 160 4958 4967
+)
+"src/ocamlutil/errormsg.ml" 160 4958 4970 "src/ocamlutil/errormsg.ml" 160 4958 4999
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 160 4958 5001 "src/ocamlutil/errormsg.ml" 160 4958 5006
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/ocamlutil/errormsg.ml" 160 4958 5007 "src/ocamlutil/errormsg.ml" 160 4958 5008
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 160 4958 5008 "src/ocamlutil/errormsg.ml" 160 4958 5018
+type(
+  out_channel ref
+)
+ident(
+  int_ref logChannel "src/ocamlutil/errormsg.ml" 53 1932 1936 "src/ocamlutil/errormsg.ml" 53 1932 1946
+)
+"src/ocamlutil/errormsg.ml" 160 4958 5007 "src/ocamlutil/errormsg.ml" 160 4958 5018
+type(
+  out_channel
+)
+"src/ocamlutil/errormsg.ml" 160 4958 5001 "src/ocamlutil/errormsg.ml" 160 4958 5018
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 160 4958 4970 "src/ocamlutil/errormsg.ml" 160 4958 5018
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 161 5022 5024 "src/ocamlutil/errormsg.ml" 161 5022 5038
+type(
+  (Pretty.doc -> unit) -> ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  ext_ref Pretty.gprintf
+)
+"src/ocamlutil/errormsg.ml" 161 5022 5039 "src/ocamlutil/errormsg.ml" 161 5022 5040
+type(
+  Pretty.doc -> unit
+)
+ident(
+  int_ref f "src/ocamlutil/errormsg.ml" 160 4958 4964 "src/ocamlutil/errormsg.ml" 160 4958 4965
+)
+"src/ocamlutil/errormsg.ml" 161 5022 5041 "src/ocamlutil/errormsg.ml" 161 5022 5044
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  int_ref fmt "src/ocamlutil/errormsg.ml" 159 4907 4917 "src/ocamlutil/errormsg.ml" 159 4907 4920
+)
+"src/ocamlutil/errormsg.ml" 161 5022 5024 "src/ocamlutil/errormsg.ml" 161 5022 5044
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 160 4958 4960 "src/ocamlutil/errormsg.ml" 161 5022 5044
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 163 5046 5050 "src/ocamlutil/errormsg.ml" 163 5046 5054
+type(
+  ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  def null "src/ocamlutil/errormsg.ml" 168 5140 5140 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 163 5046 5056 "src/ocamlutil/errormsg.ml" 163 5046 5059
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  def fmt "src/ocamlutil/errormsg.ml" 163 5046 5090 "src/ocamlutil/errormsg.ml" 165 5115 5137
+)
+"src/ocamlutil/errormsg.ml" 164 5097 5103 "src/ocamlutil/errormsg.ml" 164 5097 5104
+type(
+  'b -> unit
+)
+ident(
+  def f "src/ocamlutil/errormsg.ml" 165 5115 5117 "src/ocamlutil/errormsg.ml" 165 5115 5137
+)
+"src/ocamlutil/errormsg.ml" 164 5097 5105 "src/ocamlutil/errormsg.ml" 164 5097 5106
+type(
+  'b
+)
+ident(
+  def d "src/ocamlutil/errormsg.ml" 164 5097 5109 "src/ocamlutil/errormsg.ml" 164 5097 5111
+)
+"src/ocamlutil/errormsg.ml" 164 5097 5109 "src/ocamlutil/errormsg.ml" 164 5097 5111
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 165 5115 5117 "src/ocamlutil/errormsg.ml" 165 5115 5131
+type(
+  (Pretty.doc -> unit) -> ('a, unit, Pretty.doc, unit) format4 -> 'a
+)
+ident(
+  ext_ref Pretty.gprintf
+)
+"src/ocamlutil/errormsg.ml" 165 5115 5132 "src/ocamlutil/errormsg.ml" 165 5115 5133
+type(
+  Pretty.doc -> unit
+)
+ident(
+  int_ref f "src/ocamlutil/errormsg.ml" 164 5097 5103 "src/ocamlutil/errormsg.ml" 164 5097 5104
+)
+"src/ocamlutil/errormsg.ml" 165 5115 5134 "src/ocamlutil/errormsg.ml" 165 5115 5137
+type(
+  ('a, unit, Pretty.doc, unit) format4
+)
+ident(
+  int_ref fmt "src/ocamlutil/errormsg.ml" 163 5046 5056 "src/ocamlutil/errormsg.ml" 163 5046 5059
+)
+"src/ocamlutil/errormsg.ml" 165 5115 5117 "src/ocamlutil/errormsg.ml" 165 5115 5137
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 164 5097 5099 "src/ocamlutil/errormsg.ml" 165 5115 5137
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 168 5140 5144 "src/ocamlutil/errormsg.ml" 168 5140 5153
+type(
+  Lexing.lexbuf ref
+)
+ident(
+  def theLexbuf "src/ocamlutil/errormsg.ml" 170 5185 5185 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 168 5140 5156 "src/ocamlutil/errormsg.ml" 168 5140 5159
+type(
+  Lexing.lexbuf -> Lexing.lexbuf ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/errormsg.ml" 168 5140 5161 "src/ocamlutil/errormsg.ml" 168 5140 5179
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"src/ocamlutil/errormsg.ml" 168 5140 5180 "src/ocamlutil/errormsg.ml" 168 5140 5182
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 168 5140 5160 "src/ocamlutil/errormsg.ml" 168 5140 5183
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 168 5140 5156 "src/ocamlutil/errormsg.ml" 168 5140 5183
+type(
+  Lexing.lexbuf ref
+)
+"src/ocamlutil/errormsg.ml" 170 5185 5189 "src/ocamlutil/errormsg.ml" 170 5185 5193
+type(
+  ('a, unit, Pretty.doc, 'b) format4 -> 'a
+)
+ident(
+  def fail "src/ocamlutil/errormsg.ml" 176 5370 5370 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 170 5185 5194 "src/ocamlutil/errormsg.ml" 170 5185 5200
+type(
+  ('a, unit, Pretty.doc, 'b) format4
+)
+ident(
+  def format "src/ocamlutil/errormsg.ml" 170 5185 5203 "src/ocamlutil/errormsg.ml" 171 5256 5325
+)
+"src/ocamlutil/errormsg.ml" 170 5185 5203 "src/ocamlutil/errormsg.ml" 170 5185 5217
+type(
+  (Pretty.doc -> 'b) -> ('a, unit, Pretty.doc, 'b) format4 -> 'a
+)
+ident(
+  ext_ref Pretty.gprintf
+)
+"src/ocamlutil/errormsg.ml" 170 5185 5223 "src/ocamlutil/errormsg.ml" 170 5185 5224
+type(
+  Pretty.doc
+)
+ident(
+  def x "src/ocamlutil/errormsg.ml" 170 5185 5228 "src/ocamlutil/errormsg.ml" 171 5256 5317
+)
+"src/ocamlutil/errormsg.ml" 170 5185 5228 "src/ocamlutil/errormsg.ml" 170 5185 5241
+type(
+  out_channel -> width:int -> Pretty.doc -> unit
+)
+ident(
+  ext_ref Pretty.fprint
+)
+"src/ocamlutil/errormsg.ml" 170 5185 5242 "src/ocamlutil/errormsg.ml" 170 5185 5248
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"src/ocamlutil/errormsg.ml" 170 5185 5249 "src/ocamlutil/errormsg.ml" 170 5185 5251
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 170 5185 5252 "src/ocamlutil/errormsg.ml" 170 5185 5253
+type(
+  Pretty.doc
+)
+ident(
+  int_ref x "src/ocamlutil/errormsg.ml" 170 5185 5223 "src/ocamlutil/errormsg.ml" 170 5185 5224
+)
+"src/ocamlutil/errormsg.ml" 170 5185 5228 "src/ocamlutil/errormsg.ml" 170 5185 5253
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 171 5256 5299 "src/ocamlutil/errormsg.ml" 171 5256 5304
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ocamlutil/errormsg.ml" 171 5256 5314 "src/ocamlutil/errormsg.ml" 171 5256 5316
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 171 5256 5305 "src/ocamlutil/errormsg.ml" 171 5256 5317
+type(
+  exn
+)
+"src/ocamlutil/errormsg.ml" 171 5256 5299 "src/ocamlutil/errormsg.ml" 171 5256 5317
+type(
+  'b
+)
+"src/ocamlutil/errormsg.ml" 170 5185 5228 "src/ocamlutil/errormsg.ml" 171 5256 5317
+type(
+  'b
+)
+"src/ocamlutil/errormsg.ml" 170 5185 5218 "src/ocamlutil/errormsg.ml" 171 5256 5318
+type(
+  Pretty.doc -> 'b
+)
+"src/ocamlutil/errormsg.ml" 171 5256 5319 "src/ocamlutil/errormsg.ml" 171 5256 5325
+type(
+  ('a, unit, Pretty.doc, 'b) format4
+)
+ident(
+  int_ref format "src/ocamlutil/errormsg.ml" 170 5185 5194 "src/ocamlutil/errormsg.ml" 170 5185 5200
+)
+"src/ocamlutil/errormsg.ml" 170 5185 5203 "src/ocamlutil/errormsg.ml" 171 5256 5325
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 188 5926 5930 "src/ocamlutil/errormsg.ml" 188 5926 5939
+type(
+  parseinfo
+)
+ident(
+  def dummyinfo "src/ocamlutil/errormsg.ml" 199 6145 6145 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 189 5943 5961 "src/ocamlutil/errormsg.ml" 189 5943 5962
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 190 5964 5982 "src/ocamlutil/errormsg.ml" 190 5964 5983
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 191 5985 6003 "src/ocamlutil/errormsg.ml" 191 5985 6005
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 192 6008 6026 "src/ocamlutil/errormsg.ml" 192 6008 6044
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"src/ocamlutil/errormsg.ml" 192 6008 6045 "src/ocamlutil/errormsg.ml" 192 6008 6047
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 192 6008 6026 "src/ocamlutil/errormsg.ml" 192 6008 6047
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 193 6049 6067 "src/ocamlutil/errormsg.ml" 193 6049 6071
+type(
+  in_channel option
+)
+"src/ocamlutil/errormsg.ml" 194 6073 6091 "src/ocamlutil/errormsg.ml" 194 6073 6093
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 195 6095 6113 "src/ocamlutil/errormsg.ml" 195 6095 6114
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 196 6116 6135 "src/ocamlutil/errormsg.ml" 196 6116 6136
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 189 5943 5947 "src/ocamlutil/errormsg.ml" 197 6138 6143
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+type(
+  parseinfo ref
+)
+ident(
+  def current "src/ocamlutil/errormsg.ml" 201 6174 6174 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 199 6145 6159 "src/ocamlutil/errormsg.ml" 199 6145 6162
+type(
+  parseinfo -> parseinfo ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/errormsg.ml" 199 6145 6163 "src/ocamlutil/errormsg.ml" 199 6145 6172
+type(
+  parseinfo
+)
+ident(
+  int_ref dummyinfo "src/ocamlutil/errormsg.ml" 188 5926 5930 "src/ocamlutil/errormsg.ml" 188 5926 5939
+)
+"src/ocamlutil/errormsg.ml" 199 6145 6159 "src/ocamlutil/errormsg.ml" 199 6145 6172
+type(
+  parseinfo ref
+)
+"src/ocamlutil/errormsg.ml" 201 6174 6178 "src/ocamlutil/errormsg.ml" 201 6174 6186
+type(
+  int -> unit
+)
+ident(
+  def setHLine "src/ocamlutil/errormsg.ml" 203 6229 6229 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 201 6174 6188 "src/ocamlutil/errormsg.ml" 201 6174 6189
+type(
+  int
+)
+ident(
+  def l "src/ocamlutil/errormsg.ml" 201 6174 6196 "src/ocamlutil/errormsg.ml" 202 6205 6228
+)
+"src/ocamlutil/errormsg.ml" 202 6205 6209 "src/ocamlutil/errormsg.ml" 202 6205 6210
+type(
+  parseinfo ref -> parseinfo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 202 6205 6210 "src/ocamlutil/errormsg.ml" 202 6205 6217
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 202 6205 6209 "src/ocamlutil/errormsg.ml" 202 6205 6217
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 202 6205 6227 "src/ocamlutil/errormsg.ml" 202 6205 6228
+type(
+  int
+)
+ident(
+  int_ref l "src/ocamlutil/errormsg.ml" 201 6174 6188 "src/ocamlutil/errormsg.ml" 201 6174 6189
+)
+"src/ocamlutil/errormsg.ml" 202 6205 6209 "src/ocamlutil/errormsg.ml" 202 6205 6228
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 203 6229 6233 "src/ocamlutil/errormsg.ml" 203 6229 6241
+type(
+  string -> unit
+)
+ident(
+  def setHFile "src/ocamlutil/errormsg.ml" 206 6292 6292 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 203 6229 6243 "src/ocamlutil/errormsg.ml" 203 6229 6244
+type(
+  string
+)
+ident(
+  def f "src/ocamlutil/errormsg.ml" 203 6229 6254 "src/ocamlutil/errormsg.ml" 204 6263 6286
+)
+"src/ocamlutil/errormsg.ml" 204 6263 6267 "src/ocamlutil/errormsg.ml" 204 6263 6268
+type(
+  parseinfo ref -> parseinfo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 204 6263 6268 "src/ocamlutil/errormsg.ml" 204 6263 6275
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 204 6263 6267 "src/ocamlutil/errormsg.ml" 204 6263 6275
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 204 6263 6285 "src/ocamlutil/errormsg.ml" 204 6263 6286
+type(
+  string
+)
+ident(
+  int_ref f "src/ocamlutil/errormsg.ml" 203 6229 6243 "src/ocamlutil/errormsg.ml" 203 6229 6244
+)
+"src/ocamlutil/errormsg.ml" 204 6263 6267 "src/ocamlutil/errormsg.ml" 204 6263 6286
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 206 6292 6296 "src/ocamlutil/errormsg.ml" 206 6292 6306
+type(
+  string -> string
+)
+ident(
+  def rem_quotes "src/ocamlutil/errormsg.ml" 209 6430 6430 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 206 6292 6307 "src/ocamlutil/errormsg.ml" 206 6292 6310
+type(
+  string
+)
+ident(
+  def str "src/ocamlutil/errormsg.ml" 206 6292 6313 "src/ocamlutil/errormsg.ml" 206 6292 6355
+)
+"src/ocamlutil/errormsg.ml" 206 6292 6313 "src/ocamlutil/errormsg.ml" 206 6292 6323
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/ocamlutil/errormsg.ml" 206 6292 6324 "src/ocamlutil/errormsg.ml" 206 6292 6327
+type(
+  string
+)
+ident(
+  int_ref str "src/ocamlutil/errormsg.ml" 206 6292 6307 "src/ocamlutil/errormsg.ml" 206 6292 6310
+)
+"src/ocamlutil/errormsg.ml" 206 6292 6328 "src/ocamlutil/errormsg.ml" 206 6292 6329
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 206 6292 6332 "src/ocamlutil/errormsg.ml" 206 6292 6345
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/ocamlutil/errormsg.ml" 206 6292 6346 "src/ocamlutil/errormsg.ml" 206 6292 6349
+type(
+  string
+)
+ident(
+  int_ref str "src/ocamlutil/errormsg.ml" 206 6292 6307 "src/ocamlutil/errormsg.ml" 206 6292 6310
+)
+"src/ocamlutil/errormsg.ml" 206 6292 6331 "src/ocamlutil/errormsg.ml" 206 6292 6350
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 206 6292 6351 "src/ocamlutil/errormsg.ml" 206 6292 6352
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/errormsg.ml" 206 6292 6353 "src/ocamlutil/errormsg.ml" 206 6292 6354
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 206 6292 6330 "src/ocamlutil/errormsg.ml" 206 6292 6355
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 206 6292 6313 "src/ocamlutil/errormsg.ml" 206 6292 6355
+call(
+  tail
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 209 6430 6434 "src/ocamlutil/errormsg.ml" 209 6430 6447
+type(
+  string -> string
+)
+ident(
+  def cleanFileName "src/ocamlutil/errormsg.ml" 231 7082 7082 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 209 6430 6448 "src/ocamlutil/errormsg.ml" 209 6430 6451
+type(
+  string
+)
+ident(
+  def str "src/ocamlutil/errormsg.ml" 210 6455 6457 "src/ocamlutil/errormsg.ml" 229 7070 7080
+)
+"src/ocamlutil/errormsg.ml" 210 6455 6461 "src/ocamlutil/errormsg.ml" 210 6455 6465
+type(
+  bytes
+)
+ident(
+  def str1 "src/ocamlutil/errormsg.ml" 213 6595 6597 "src/ocamlutil/errormsg.ml" 229 7070 7080
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6476 "src/ocamlutil/errormsg.ml" 211 6469 6479
+type(
+  string
+)
+ident(
+  int_ref str "src/ocamlutil/errormsg.ml" 209 6430 6448 "src/ocamlutil/errormsg.ml" 209 6430 6451
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6480 "src/ocamlutil/errormsg.ml" 211 6469 6482
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6483 "src/ocamlutil/errormsg.ml" 211 6469 6485
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6476 "src/ocamlutil/errormsg.ml" 211 6469 6485
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6486 "src/ocamlutil/errormsg.ml" 211 6469 6488
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6489 "src/ocamlutil/errormsg.ml" 211 6469 6499
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6500 "src/ocamlutil/errormsg.ml" 211 6469 6503
+type(
+  string
+)
+ident(
+  int_ref str "src/ocamlutil/errormsg.ml" 209 6430 6448 "src/ocamlutil/errormsg.ml" 209 6430 6451
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6504 "src/ocamlutil/errormsg.ml" 211 6469 6505
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6489 "src/ocamlutil/errormsg.ml" 211 6469 6505
+type(
+  char
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6506 "src/ocamlutil/errormsg.ml" 211 6469 6507
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6508 "src/ocamlutil/errormsg.ml" 211 6469 6511
+type(
+  char
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6489 "src/ocamlutil/errormsg.ml" 211 6469 6511
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6476 "src/ocamlutil/errormsg.ml" 211 6469 6511
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 212 6525 6534 "src/ocamlutil/errormsg.ml" 212 6525 6549
+type(
+  string -> bytes
+)
+ident(
+  ext_ref Bytes.of_string
+)
+"src/ocamlutil/errormsg.ml" 212 6525 6551 "src/ocamlutil/errormsg.ml" 212 6525 6561
+type(
+  string -> string
+)
+ident(
+  int_ref rem_quotes "src/ocamlutil/errormsg.ml" 206 6292 6296 "src/ocamlutil/errormsg.ml" 206 6292 6306
+)
+"src/ocamlutil/errormsg.ml" 212 6525 6562 "src/ocamlutil/errormsg.ml" 212 6525 6565
+type(
+  string
+)
+ident(
+  int_ref str "src/ocamlutil/errormsg.ml" 209 6430 6448 "src/ocamlutil/errormsg.ml" 209 6430 6451
+)
+"src/ocamlutil/errormsg.ml" 212 6525 6550 "src/ocamlutil/errormsg.ml" 212 6525 6566
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 212 6525 6534 "src/ocamlutil/errormsg.ml" 212 6525 6566
+call(
+  stack
+)
+type(
+  bytes
+)
+"src/ocamlutil/errormsg.ml" 212 6525 6572 "src/ocamlutil/errormsg.ml" 212 6525 6587
+type(
+  string -> bytes
+)
+ident(
+  ext_ref Bytes.of_string
+)
+"src/ocamlutil/errormsg.ml" 212 6525 6588 "src/ocamlutil/errormsg.ml" 212 6525 6591
+type(
+  string
+)
+ident(
+  int_ref str "src/ocamlutil/errormsg.ml" 209 6430 6448 "src/ocamlutil/errormsg.ml" 209 6430 6451
+)
+"src/ocamlutil/errormsg.ml" 212 6525 6572 "src/ocamlutil/errormsg.ml" 212 6525 6591
+call(
+  stack
+)
+type(
+  bytes
+)
+"src/ocamlutil/errormsg.ml" 211 6469 6473 "src/ocamlutil/errormsg.ml" 212 6525 6591
+type(
+  bytes
+)
+"src/ocamlutil/errormsg.ml" 213 6595 6601 "src/ocamlutil/errormsg.ml" 213 6595 6602
+type(
+  int
+)
+ident(
+  def l "src/ocamlutil/errormsg.ml" 214 6626 6628 "src/ocamlutil/errormsg.ml" 229 7070 7080
+)
+"src/ocamlutil/errormsg.ml" 213 6595 6605 "src/ocamlutil/errormsg.ml" 213 6595 6617
+type(
+  bytes -> int
+)
+ident(
+  ext_ref Bytes.length
+)
+"src/ocamlutil/errormsg.ml" 213 6595 6618 "src/ocamlutil/errormsg.ml" 213 6595 6622
+type(
+  bytes
+)
+ident(
+  int_ref str1 "src/ocamlutil/errormsg.ml" 210 6455 6461 "src/ocamlutil/errormsg.ml" 210 6455 6465
+)
+"src/ocamlutil/errormsg.ml" 213 6595 6605 "src/ocamlutil/errormsg.ml" 213 6595 6622
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 214 6626 6636 "src/ocamlutil/errormsg.ml" 214 6626 6640
+type(
+  int -> int -> string
+)
+ident(
+  def loop "src/ocamlutil/errormsg.ml" 214 6626 6628 "src/ocamlutil/errormsg.ml" 229 7070 7080
+)
+"src/ocamlutil/errormsg.ml" 214 6626 6642 "src/ocamlutil/errormsg.ml" 214 6626 6648
+type(
+  int
+)
+ident(
+  def copyto "src/ocamlutil/errormsg.ml" 214 6626 6655 "src/ocamlutil/errormsg.ml" 227 7055 7064
+)
+"src/ocamlutil/errormsg.ml" 214 6626 6656 "src/ocamlutil/errormsg.ml" 214 6626 6657
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/errormsg.ml" 215 6667 6671 "src/ocamlutil/errormsg.ml" 227 7055 7064
+)
+"src/ocamlutil/errormsg.ml" 215 6667 6674 "src/ocamlutil/errormsg.ml" 215 6667 6675
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 214 6626 6656 "src/ocamlutil/errormsg.ml" 214 6626 6657
+)
+"src/ocamlutil/errormsg.ml" 215 6667 6676 "src/ocamlutil/errormsg.ml" 215 6667 6678
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/errormsg.ml" 215 6667 6679 "src/ocamlutil/errormsg.ml" 215 6667 6680
+type(
+  int
+)
+ident(
+  int_ref l "src/ocamlutil/errormsg.ml" 213 6595 6601 "src/ocamlutil/errormsg.ml" 213 6595 6602
+)
+"src/ocamlutil/errormsg.ml" 215 6667 6674 "src/ocamlutil/errormsg.ml" 215 6667 6680
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 216 6686 6692 "src/ocamlutil/errormsg.ml" 216 6686 6708
+type(
+  bytes -> int -> int -> string
+)
+ident(
+  ext_ref Bytes.sub_string
+)
+"src/ocamlutil/errormsg.ml" 216 6686 6709 "src/ocamlutil/errormsg.ml" 216 6686 6713
+type(
+  bytes
+)
+ident(
+  int_ref str1 "src/ocamlutil/errormsg.ml" 210 6455 6461 "src/ocamlutil/errormsg.ml" 210 6455 6465
+)
+"src/ocamlutil/errormsg.ml" 216 6686 6714 "src/ocamlutil/errormsg.ml" 216 6686 6715
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 216 6686 6716 "src/ocamlutil/errormsg.ml" 216 6686 6722
+type(
+  int
+)
+ident(
+  int_ref copyto "src/ocamlutil/errormsg.ml" 214 6626 6642 "src/ocamlutil/errormsg.ml" 214 6626 6648
+)
+"src/ocamlutil/errormsg.ml" 216 6686 6692 "src/ocamlutil/errormsg.ml" 216 6686 6722
+call(
+  tail
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 218 6732 6742 "src/ocamlutil/errormsg.ml" 218 6732 6743
+type(
+  char
+)
+ident(
+  def c "src/ocamlutil/errormsg.ml" 219 6766 6772 "src/ocamlutil/errormsg.ml" 227 7055 7064
+)
+"src/ocamlutil/errormsg.ml" 218 6732 6746 "src/ocamlutil/errormsg.ml" 218 6732 6755
+type(
+  bytes -> int -> char
+)
+ident(
+  ext_ref Bytes.get
+)
+"src/ocamlutil/errormsg.ml" 218 6732 6756 "src/ocamlutil/errormsg.ml" 218 6732 6760
+type(
+  bytes
+)
+ident(
+  int_ref str1 "src/ocamlutil/errormsg.ml" 210 6455 6461 "src/ocamlutil/errormsg.ml" 210 6455 6465
+)
+"src/ocamlutil/errormsg.ml" 218 6732 6761 "src/ocamlutil/errormsg.ml" 218 6732 6762
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 214 6626 6656 "src/ocamlutil/errormsg.ml" 214 6626 6657
+)
+"src/ocamlutil/errormsg.ml" 218 6732 6746 "src/ocamlutil/errormsg.ml" 218 6732 6762
+type(
+  char
+)
+"src/ocamlutil/errormsg.ml" 219 6766 6775 "src/ocamlutil/errormsg.ml" 219 6766 6776
+type(
+  char
+)
+ident(
+  int_ref c "src/ocamlutil/errormsg.ml" 218 6732 6742 "src/ocamlutil/errormsg.ml" 218 6732 6743
+)
+"src/ocamlutil/errormsg.ml" 219 6766 6777 "src/ocamlutil/errormsg.ml" 219 6766 6779
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ocamlutil/errormsg.ml" 219 6766 6780 "src/ocamlutil/errormsg.ml" 219 6766 6784
+type(
+  char
+)
+"src/ocamlutil/errormsg.ml" 219 6766 6775 "src/ocamlutil/errormsg.ml" 219 6766 6784
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6804 "src/ocamlutil/errormsg.ml" 220 6796 6813
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  ext_ref Bytes.set
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6814 "src/ocamlutil/errormsg.ml" 220 6796 6818
+type(
+  bytes
+)
+ident(
+  int_ref str1 "src/ocamlutil/errormsg.ml" 210 6455 6461 "src/ocamlutil/errormsg.ml" 210 6455 6465
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6819 "src/ocamlutil/errormsg.ml" 220 6796 6825
+type(
+  int
+)
+ident(
+  int_ref copyto "src/ocamlutil/errormsg.ml" 214 6626 6642 "src/ocamlutil/errormsg.ml" 214 6626 6648
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6826 "src/ocamlutil/errormsg.ml" 220 6796 6827
+type(
+  char
+)
+ident(
+  int_ref c "src/ocamlutil/errormsg.ml" 218 6732 6742 "src/ocamlutil/errormsg.ml" 218 6732 6743
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6804 "src/ocamlutil/errormsg.ml" 220 6796 6827
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6829 "src/ocamlutil/errormsg.ml" 220 6796 6833
+type(
+  int -> int -> string
+)
+ident(
+  int_ref loop "src/ocamlutil/errormsg.ml" 214 6626 6636 "src/ocamlutil/errormsg.ml" 214 6626 6640
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6835 "src/ocamlutil/errormsg.ml" 220 6796 6841
+type(
+  int
+)
+ident(
+  int_ref copyto "src/ocamlutil/errormsg.ml" 214 6626 6642 "src/ocamlutil/errormsg.ml" 214 6626 6648
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6842 "src/ocamlutil/errormsg.ml" 220 6796 6843
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6844 "src/ocamlutil/errormsg.ml" 220 6796 6845
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6834 "src/ocamlutil/errormsg.ml" 220 6796 6846
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6848 "src/ocamlutil/errormsg.ml" 220 6796 6849
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 214 6626 6656 "src/ocamlutil/errormsg.ml" 214 6626 6657
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6850 "src/ocamlutil/errormsg.ml" 220 6796 6851
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6852 "src/ocamlutil/errormsg.ml" 220 6796 6853
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6847 "src/ocamlutil/errormsg.ml" 220 6796 6854
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 220 6796 6829 "src/ocamlutil/errormsg.ml" 220 6796 6854
+call(
+  tail
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 219 6766 6790 "src/ocamlutil/errormsg.ml" 221 6855 6864
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 222 6876 6884 "src/ocamlutil/errormsg.ml" 222 6876 6893
+type(
+  bytes -> int -> char -> unit
+)
+ident(
+  ext_ref Bytes.set
+)
+"src/ocamlutil/errormsg.ml" 222 6876 6894 "src/ocamlutil/errormsg.ml" 222 6876 6898
+type(
+  bytes
+)
+ident(
+  int_ref str1 "src/ocamlutil/errormsg.ml" 210 6455 6461 "src/ocamlutil/errormsg.ml" 210 6455 6465
+)
+"src/ocamlutil/errormsg.ml" 222 6876 6899 "src/ocamlutil/errormsg.ml" 222 6876 6905
+type(
+  int
+)
+ident(
+  int_ref copyto "src/ocamlutil/errormsg.ml" 214 6626 6642 "src/ocamlutil/errormsg.ml" 214 6626 6648
+)
+"src/ocamlutil/errormsg.ml" 222 6876 6906 "src/ocamlutil/errormsg.ml" 222 6876 6909
+type(
+  char
+)
+"src/ocamlutil/errormsg.ml" 222 6876 6884 "src/ocamlutil/errormsg.ml" 222 6876 6909
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6924 "src/ocamlutil/errormsg.ml" 223 6911 6925
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 214 6626 6656 "src/ocamlutil/errormsg.ml" 214 6626 6657
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6926 "src/ocamlutil/errormsg.ml" 223 6911 6927
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6928 "src/ocamlutil/errormsg.ml" 223 6911 6929
+type(
+  int
+)
+ident(
+  int_ref l "src/ocamlutil/errormsg.ml" 213 6595 6601 "src/ocamlutil/errormsg.ml" 213 6595 6602
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6930 "src/ocamlutil/errormsg.ml" 223 6911 6931
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6932 "src/ocamlutil/errormsg.ml" 223 6911 6933
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6928 "src/ocamlutil/errormsg.ml" 223 6911 6933
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6924 "src/ocamlutil/errormsg.ml" 223 6911 6933
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6934 "src/ocamlutil/errormsg.ml" 223 6911 6936
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6937 "src/ocamlutil/errormsg.ml" 223 6911 6946
+type(
+  bytes -> int -> char
+)
+ident(
+  ext_ref Bytes.get
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6947 "src/ocamlutil/errormsg.ml" 223 6911 6951
+type(
+  bytes
+)
+ident(
+  int_ref str1 "src/ocamlutil/errormsg.ml" 210 6455 6461 "src/ocamlutil/errormsg.ml" 210 6455 6465
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6953 "src/ocamlutil/errormsg.ml" 223 6911 6954
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 214 6626 6656 "src/ocamlutil/errormsg.ml" 214 6626 6657
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6955 "src/ocamlutil/errormsg.ml" 223 6911 6956
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6957 "src/ocamlutil/errormsg.ml" 223 6911 6958
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6952 "src/ocamlutil/errormsg.ml" 223 6911 6959
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6937 "src/ocamlutil/errormsg.ml" 223 6911 6959
+type(
+  char
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6960 "src/ocamlutil/errormsg.ml" 223 6911 6961
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6962 "src/ocamlutil/errormsg.ml" 223 6911 6966
+type(
+  char
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6937 "src/ocamlutil/errormsg.ml" 223 6911 6966
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6924 "src/ocamlutil/errormsg.ml" 223 6911 6966
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 224 6972 6984 "src/ocamlutil/errormsg.ml" 224 6972 6988
+type(
+  int -> int -> string
+)
+ident(
+  int_ref loop "src/ocamlutil/errormsg.ml" 214 6626 6636 "src/ocamlutil/errormsg.ml" 214 6626 6640
+)
+"src/ocamlutil/errormsg.ml" 224 6972 6990 "src/ocamlutil/errormsg.ml" 224 6972 6996
+type(
+  int
+)
+ident(
+  int_ref copyto "src/ocamlutil/errormsg.ml" 214 6626 6642 "src/ocamlutil/errormsg.ml" 214 6626 6648
+)
+"src/ocamlutil/errormsg.ml" 224 6972 6997 "src/ocamlutil/errormsg.ml" 224 6972 6998
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/errormsg.ml" 224 6972 6999 "src/ocamlutil/errormsg.ml" 224 6972 7000
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 224 6972 6989 "src/ocamlutil/errormsg.ml" 224 6972 7001
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 224 6972 7003 "src/ocamlutil/errormsg.ml" 224 6972 7004
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 214 6626 6656 "src/ocamlutil/errormsg.ml" 214 6626 6657
+)
+"src/ocamlutil/errormsg.ml" 224 6972 7005 "src/ocamlutil/errormsg.ml" 224 6972 7006
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/errormsg.ml" 224 6972 7007 "src/ocamlutil/errormsg.ml" 224 6972 7008
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 224 6972 7002 "src/ocamlutil/errormsg.ml" 224 6972 7009
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 224 6972 6984 "src/ocamlutil/errormsg.ml" 224 6972 7009
+call(
+  tail
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 226 7021 7029 "src/ocamlutil/errormsg.ml" 226 7021 7033
+type(
+  int -> int -> string
+)
+ident(
+  int_ref loop "src/ocamlutil/errormsg.ml" 214 6626 6636 "src/ocamlutil/errormsg.ml" 214 6626 6640
+)
+"src/ocamlutil/errormsg.ml" 226 7021 7035 "src/ocamlutil/errormsg.ml" 226 7021 7041
+type(
+  int
+)
+ident(
+  int_ref copyto "src/ocamlutil/errormsg.ml" 214 6626 6642 "src/ocamlutil/errormsg.ml" 214 6626 6648
+)
+"src/ocamlutil/errormsg.ml" 226 7021 7042 "src/ocamlutil/errormsg.ml" 226 7021 7043
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/errormsg.ml" 226 7021 7044 "src/ocamlutil/errormsg.ml" 226 7021 7045
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 226 7021 7034 "src/ocamlutil/errormsg.ml" 226 7021 7046
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 226 7021 7048 "src/ocamlutil/errormsg.ml" 226 7021 7049
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 214 6626 6656 "src/ocamlutil/errormsg.ml" 214 6626 6657
+)
+"src/ocamlutil/errormsg.ml" 226 7021 7050 "src/ocamlutil/errormsg.ml" 226 7021 7051
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/errormsg.ml" 226 7021 7052 "src/ocamlutil/errormsg.ml" 226 7021 7053
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 226 7021 7047 "src/ocamlutil/errormsg.ml" 226 7021 7054
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 226 7021 7029 "src/ocamlutil/errormsg.ml" 226 7021 7054
+call(
+  tail
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 223 6911 6921 "src/ocamlutil/errormsg.ml" 226 7021 7054
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 221 6855 6870 "src/ocamlutil/errormsg.ml" 227 7055 7064
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 219 6766 6772 "src/ocamlutil/errormsg.ml" 227 7055 7064
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 218 6732 6738 "src/ocamlutil/errormsg.ml" 227 7055 7064
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 215 6667 6671 "src/ocamlutil/errormsg.ml" 227 7055 7064
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 229 7070 7072 "src/ocamlutil/errormsg.ml" 229 7070 7076
+type(
+  int -> int -> string
+)
+ident(
+  int_ref loop "src/ocamlutil/errormsg.ml" 214 6626 6636 "src/ocamlutil/errormsg.ml" 214 6626 6640
+)
+"src/ocamlutil/errormsg.ml" 229 7070 7077 "src/ocamlutil/errormsg.ml" 229 7070 7078
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 229 7070 7079 "src/ocamlutil/errormsg.ml" 229 7070 7080
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 229 7070 7072 "src/ocamlutil/errormsg.ml" 229 7070 7080
+call(
+  tail
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 214 6626 6628 "src/ocamlutil/errormsg.ml" 229 7070 7080
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 213 6595 6597 "src/ocamlutil/errormsg.ml" 229 7070 7080
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 210 6455 6457 "src/ocamlutil/errormsg.ml" 229 7070 7080
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 231 7082 7086 "src/ocamlutil/errormsg.ml" 231 7082 7102
+type(
+  bool ref
+)
+ident(
+  def readingFromStdin "src/ocamlutil/errormsg.ml" 233 7116 7116 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 231 7082 7105 "src/ocamlutil/errormsg.ml" 231 7082 7108
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/errormsg.ml" 231 7082 7109 "src/ocamlutil/errormsg.ml" 231 7082 7114
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 231 7082 7105 "src/ocamlutil/errormsg.ml" 231 7082 7114
+type(
+  bool ref
+)
+"src/ocamlutil/errormsg.ml" 233 7116 7120 "src/ocamlutil/errormsg.ml" 233 7116 7132
+type(
+  ?useBasename:bool -> string -> Lexing.lexbuf
+)
+ident(
+  def startParsing "src/ocamlutil/errormsg.ml" 260 8043 8043 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 233 7116 7135 "src/ocamlutil/errormsg.ml" 233 7116 7146
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 233 7116 7147 "src/ocamlutil/errormsg.ml" 233 7116 7151
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "src/ocamlutil/errormsg.ml" 233 7116 7147 "src/ocamlutil/errormsg.ml" 233 7116 7151
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 233 7116 7154 "src/ocamlutil/errormsg.ml" 233 7116 7159
+type(
+  string
+)
+ident(
+  def fname "src/ocamlutil/errormsg.ml" 235 7220 7222 "src/ocamlutil/errormsg.ml" 258 8033 8041
+)
+"src/ocamlutil/errormsg.ml" 235 7220 7225 "src/ocamlutil/errormsg.ml" 235 7220 7226
+type(
+  parseinfo ref -> parseinfo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 235 7220 7226 "src/ocamlutil/errormsg.ml" 235 7220 7233
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 235 7220 7225 "src/ocamlutil/errormsg.ml" 235 7220 7233
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 235 7220 7234 "src/ocamlutil/errormsg.ml" 235 7220 7236
+type(
+  parseinfo -> parseinfo -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/ocamlutil/errormsg.ml" 235 7220 7237 "src/ocamlutil/errormsg.ml" 235 7220 7246
+type(
+  parseinfo
+)
+ident(
+  int_ref dummyinfo "src/ocamlutil/errormsg.ml" 188 5926 5930 "src/ocamlutil/errormsg.ml" 188 5926 5939
+)
+"src/ocamlutil/errormsg.ml" 235 7220 7225 "src/ocamlutil/errormsg.ml" 235 7220 7246
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 236 7258 7263 "src/ocamlutil/errormsg.ml" 236 7258 7264
+type(
+  unit -> unit
+)
+ident(
+  int_ref s "src/ocamlutil/errormsg.ml" 49 1875 1879 "src/ocamlutil/errormsg.ml" 49 1875 1880
+)
+"src/ocamlutil/errormsg.ml" 236 7258 7266 "src/ocamlutil/errormsg.ml" 236 7258 7271
+type(
+  (string -> string -> unit, unit, Pretty.doc, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  int_ref error "src/ocamlutil/errormsg.ml" 119 3708 3712 "src/ocamlutil/errormsg.ml" 119 3708 3717
+)
+"src/ocamlutil/errormsg.ml" 236 7258 7272 "src/ocamlutil/errormsg.ml" 236 7258 7367
+type(
+  (string -> string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ocamlutil/errormsg.ml" 236 7258 7368 "src/ocamlutil/errormsg.ml" 236 7258 7373
+type(
+  string
+)
+ident(
+  int_ref fname "src/ocamlutil/errormsg.ml" 233 7116 7154 "src/ocamlutil/errormsg.ml" 233 7116 7159
+)
+"src/ocamlutil/errormsg.ml" 236 7258 7374 "src/ocamlutil/errormsg.ml" 236 7258 7375
+type(
+  parseinfo ref -> parseinfo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 236 7258 7375 "src/ocamlutil/errormsg.ml" 236 7258 7382
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 236 7258 7374 "src/ocamlutil/errormsg.ml" 236 7258 7382
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 236 7258 7374 "src/ocamlutil/errormsg.ml" 236 7258 7391
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 236 7258 7265 "src/ocamlutil/errormsg.ml" 236 7258 7392
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 235 7220 7252 "src/ocamlutil/errormsg.ml" 237 7395 7400
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 235 7220 7222 "src/ocamlutil/errormsg.ml" 237 7395 7400
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 238 7403 7409 "src/ocamlutil/errormsg.ml" 238 7403 7415
+type(
+  in_channel
+)
+ident(
+  def inchan "src/ocamlutil/errormsg.ml" 248 7727 7729 "src/ocamlutil/errormsg.ml" 258 8033 8041
+)
+"src/ocamlutil/errormsg.ml" 239 7419 7430 "src/ocamlutil/errormsg.ml" 239 7419 7435
+type(
+  string
+)
+ident(
+  int_ref fname "src/ocamlutil/errormsg.ml" 233 7116 7154 "src/ocamlutil/errormsg.ml" 233 7116 7159
+)
+"src/ocamlutil/errormsg.ml" 239 7419 7436 "src/ocamlutil/errormsg.ml" 239 7419 7437
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/errormsg.ml" 239 7419 7438 "src/ocamlutil/errormsg.ml" 239 7419 7441
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 239 7419 7430 "src/ocamlutil/errormsg.ml" 239 7419 7441
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 240 7454 7465 "src/ocamlutil/errormsg.ml" 240 7454 7481
+type(
+  bool ref
+)
+ident(
+  int_ref readingFromStdin "src/ocamlutil/errormsg.ml" 231 7082 7086 "src/ocamlutil/errormsg.ml" 231 7082 7102
+)
+"src/ocamlutil/errormsg.ml" 240 7454 7482 "src/ocamlutil/errormsg.ml" 240 7454 7484
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 240 7454 7485 "src/ocamlutil/errormsg.ml" 240 7454 7489
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 240 7454 7465 "src/ocamlutil/errormsg.ml" 240 7454 7489
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 241 7491 7502 "src/ocamlutil/errormsg.ml" 241 7491 7507
+type(
+  in_channel
+)
+ident(
+  ext_ref Pervasives.stdin
+)
+"src/ocamlutil/errormsg.ml" 239 7419 7447 "src/ocamlutil/errormsg.ml" 242 7509 7520
+type(
+  in_channel
+)
+"src/ocamlutil/errormsg.ml" 243 7532 7543 "src/ocamlutil/errormsg.ml" 243 7532 7559
+type(
+  bool ref
+)
+ident(
+  int_ref readingFromStdin "src/ocamlutil/errormsg.ml" 231 7082 7086 "src/ocamlutil/errormsg.ml" 231 7082 7102
+)
+"src/ocamlutil/errormsg.ml" 243 7532 7560 "src/ocamlutil/errormsg.ml" 243 7532 7562
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 243 7532 7563 "src/ocamlutil/errormsg.ml" 243 7532 7568
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 243 7532 7543 "src/ocamlutil/errormsg.ml" 243 7532 7568
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 244 7570 7581 "src/ocamlutil/errormsg.ml" 244 7570 7588
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/ocamlutil/errormsg.ml" 244 7570 7589 "src/ocamlutil/errormsg.ml" 244 7570 7594
+type(
+  string
+)
+ident(
+  int_ref fname "src/ocamlutil/errormsg.ml" 233 7116 7154 "src/ocamlutil/errormsg.ml" 233 7116 7159
+)
+"src/ocamlutil/errormsg.ml" 244 7570 7581 "src/ocamlutil/errormsg.ml" 244 7570 7594
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/ocamlutil/errormsg.ml" 242 7509 7526 "src/ocamlutil/errormsg.ml" 245 7596 7607
+type(
+  in_channel
+)
+"src/ocamlutil/errormsg.ml" 239 7419 7427 "src/ocamlutil/errormsg.ml" 245 7596 7607
+type(
+  in_channel
+)
+"src/ocamlutil/errormsg.ml" 246 7608 7617 "src/ocamlutil/errormsg.ml" 246 7608 7618
+type(
+  exn
+)
+ident(
+  def e "src/ocamlutil/errormsg.ml" 246 7608 7622 "src/ocamlutil/errormsg.ml" 247 7674 7723
+)
+"src/ocamlutil/errormsg.ml" 246 7608 7622 "src/ocamlutil/errormsg.ml" 246 7608 7623
+type(
+  unit -> in_channel
+)
+ident(
+  int_ref s "src/ocamlutil/errormsg.ml" 49 1875 1879 "src/ocamlutil/errormsg.ml" 49 1875 1880
+)
+"src/ocamlutil/errormsg.ml" 246 7608 7625 "src/ocamlutil/errormsg.ml" 246 7608 7630
+type(
+  (string -> string -> unit, unit, Pretty.doc, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  int_ref error "src/ocamlutil/errormsg.ml" 119 3708 3712 "src/ocamlutil/errormsg.ml" 119 3708 3717
+)
+"src/ocamlutil/errormsg.ml" 246 7608 7631 "src/ocamlutil/errormsg.ml" 246 7608 7672
+type(
+  (string -> string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ocamlutil/errormsg.ml" 247 7674 7694 "src/ocamlutil/errormsg.ml" 247 7674 7699
+type(
+  string
+)
+ident(
+  int_ref fname "src/ocamlutil/errormsg.ml" 233 7116 7154 "src/ocamlutil/errormsg.ml" 233 7116 7159
+)
+"src/ocamlutil/errormsg.ml" 247 7674 7701 "src/ocamlutil/errormsg.ml" 247 7674 7719
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"src/ocamlutil/errormsg.ml" 247 7674 7720 "src/ocamlutil/errormsg.ml" 247 7674 7721
+type(
+  exn
+)
+ident(
+  int_ref e "src/ocamlutil/errormsg.ml" 246 7608 7617 "src/ocamlutil/errormsg.ml" 246 7608 7618
+)
+"src/ocamlutil/errormsg.ml" 247 7674 7700 "src/ocamlutil/errormsg.ml" 247 7674 7722
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 246 7608 7624 "src/ocamlutil/errormsg.ml" 247 7674 7723
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 246 7608 7622 "src/ocamlutil/errormsg.ml" 247 7674 7723
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/ocamlutil/errormsg.ml" 239 7419 7423 "src/ocamlutil/errormsg.ml" 247 7674 7723
+type(
+  in_channel
+)
+"src/ocamlutil/errormsg.ml" 248 7727 7733 "src/ocamlutil/errormsg.ml" 248 7727 7739
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/ocamlutil/errormsg.ml" 249 7772 7774 "src/ocamlutil/errormsg.ml" 258 8033 8041
+)
+"src/ocamlutil/errormsg.ml" 248 7727 7742 "src/ocamlutil/errormsg.ml" 248 7727 7761
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"src/ocamlutil/errormsg.ml" 248 7727 7762 "src/ocamlutil/errormsg.ml" 248 7727 7768
+type(
+  in_channel
+)
+ident(
+  int_ref inchan "src/ocamlutil/errormsg.ml" 238 7403 7409 "src/ocamlutil/errormsg.ml" 238 7403 7415
+)
+"src/ocamlutil/errormsg.ml" 248 7727 7742 "src/ocamlutil/errormsg.ml" 248 7727 7768
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 249 7772 7778 "src/ocamlutil/errormsg.ml" 249 7772 7779
+type(
+  parseinfo
+)
+ident(
+  def i "src/ocamlutil/errormsg.ml" 257 8017 8019 "src/ocamlutil/errormsg.ml" 258 8033 8041
+)
+"src/ocamlutil/errormsg.ml" 250 7783 7799 "src/ocamlutil/errormsg.ml" 250 7783 7800
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 250 7783 7814 "src/ocamlutil/errormsg.ml" 250 7783 7815
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 252 7836 7844 "src/ocamlutil/errormsg.ml" 252 7836 7857
+type(
+  string -> string
+)
+ident(
+  int_ref cleanFileName "src/ocamlutil/errormsg.ml" 209 6430 6434 "src/ocamlutil/errormsg.ml" 209 6430 6447
+)
+"src/ocamlutil/errormsg.ml" 252 7836 7862 "src/ocamlutil/errormsg.ml" 252 7836 7873
+type(
+  bool
+)
+ident(
+  int_ref useBasename "src/ocamlutil/errormsg.ml" 233 7116 7135 "src/ocamlutil/errormsg.ml" 233 7116 7146
+)
+"src/ocamlutil/errormsg.ml" 252 7836 7879 "src/ocamlutil/errormsg.ml" 252 7836 7896
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.basename
+)
+"src/ocamlutil/errormsg.ml" 252 7836 7897 "src/ocamlutil/errormsg.ml" 252 7836 7902
+type(
+  string
+)
+ident(
+  int_ref fname "src/ocamlutil/errormsg.ml" 233 7116 7154 "src/ocamlutil/errormsg.ml" 233 7116 7159
+)
+"src/ocamlutil/errormsg.ml" 252 7836 7879 "src/ocamlutil/errormsg.ml" 252 7836 7902
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 252 7836 7908 "src/ocamlutil/errormsg.ml" 252 7836 7913
+type(
+  string
+)
+ident(
+  int_ref fname "src/ocamlutil/errormsg.ml" 233 7116 7154 "src/ocamlutil/errormsg.ml" 233 7116 7159
+)
+"src/ocamlutil/errormsg.ml" 252 7836 7858 "src/ocamlutil/errormsg.ml" 252 7836 7914
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 252 7836 7844 "src/ocamlutil/errormsg.ml" 252 7836 7914
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 253 7916 7931 "src/ocamlutil/errormsg.ml" 253 7916 7937
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/ocamlutil/errormsg.ml" 248 7727 7733 "src/ocamlutil/errormsg.ml" 248 7727 7739
+)
+"src/ocamlutil/errormsg.ml" 253 7916 7953 "src/ocamlutil/errormsg.ml" 253 7916 7959
+type(
+  in_channel
+)
+ident(
+  int_ref inchan "src/ocamlutil/errormsg.ml" 238 7403 7409 "src/ocamlutil/errormsg.ml" 238 7403 7415
+)
+"src/ocamlutil/errormsg.ml" 253 7916 7948 "src/ocamlutil/errormsg.ml" 253 7916 7959
+type(
+  in_channel option
+)
+"src/ocamlutil/errormsg.ml" 254 7961 7975 "src/ocamlutil/errormsg.ml" 254 7961 7977
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 254 7961 7987 "src/ocamlutil/errormsg.ml" 254 7961 7988
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 255 7990 8009 "src/ocamlutil/errormsg.ml" 255 7990 8010
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 250 7783 7787 "src/ocamlutil/errormsg.ml" 255 7990 8012
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 257 8017 8019 "src/ocamlutil/errormsg.ml" 257 8017 8026
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 257 8017 8027 "src/ocamlutil/errormsg.ml" 257 8017 8029
+type(
+  parseinfo ref -> parseinfo -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 257 8017 8030 "src/ocamlutil/errormsg.ml" 257 8017 8031
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 249 7772 7778 "src/ocamlutil/errormsg.ml" 249 7772 7779
+)
+"src/ocamlutil/errormsg.ml" 257 8017 8019 "src/ocamlutil/errormsg.ml" 257 8017 8031
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 258 8033 8035 "src/ocamlutil/errormsg.ml" 258 8033 8041
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/ocamlutil/errormsg.ml" 248 7727 7733 "src/ocamlutil/errormsg.ml" 248 7727 7739
+)
+"src/ocamlutil/errormsg.ml" 257 8017 8019 "src/ocamlutil/errormsg.ml" 258 8033 8041
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 249 7772 7774 "src/ocamlutil/errormsg.ml" 258 8033 8041
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 248 7727 7729 "src/ocamlutil/errormsg.ml" 258 8033 8041
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 238 7403 7405 "src/ocamlutil/errormsg.ml" 258 8033 8041
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 235 7220 7222 "src/ocamlutil/errormsg.ml" 258 8033 8041
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 260 8043 8047 "src/ocamlutil/errormsg.ml" 260 8043 8069
+type(
+  ?file:string -> ?line:int -> string -> Lexing.lexbuf
+)
+ident(
+  def startParsingFromString "src/ocamlutil/errormsg.ml" 273 8363 8363 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 260 8043 8072 "src/ocamlutil/errormsg.ml" 260 8043 8076
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 260 8043 8077 "src/ocamlutil/errormsg.ml" 260 8043 8087
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref *sth* "src/ocamlutil/errormsg.ml" 260 8043 8077 "src/ocamlutil/errormsg.ml" 260 8043 8087
+)
+type(
+  string option
+)
+type(
+  string option
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 260 8043 8091 "src/ocamlutil/errormsg.ml" 260 8043 8095
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 260 8043 8096 "src/ocamlutil/errormsg.ml" 260 8043 8097
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "src/ocamlutil/errormsg.ml" 260 8043 8096 "src/ocamlutil/errormsg.ml" 260 8043 8097
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 260 8043 8100 "src/ocamlutil/errormsg.ml" 260 8043 8103
+type(
+  string
+)
+ident(
+  def str "src/ocamlutil/errormsg.ml" 261 8116 8118 "src/ocamlutil/errormsg.ml" 271 8353 8361
+)
+"src/ocamlutil/errormsg.ml" 261 8116 8122 "src/ocamlutil/errormsg.ml" 261 8116 8128
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/ocamlutil/errormsg.ml" 262 8157 8159 "src/ocamlutil/errormsg.ml" 271 8353 8361
+)
+"src/ocamlutil/errormsg.ml" 261 8116 8131 "src/ocamlutil/errormsg.ml" 261 8116 8149
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"src/ocamlutil/errormsg.ml" 261 8116 8150 "src/ocamlutil/errormsg.ml" 261 8116 8153
+type(
+  string
+)
+ident(
+  int_ref str "src/ocamlutil/errormsg.ml" 260 8043 8100 "src/ocamlutil/errormsg.ml" 260 8043 8103
+)
+"src/ocamlutil/errormsg.ml" 261 8116 8131 "src/ocamlutil/errormsg.ml" 261 8116 8153
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 262 8157 8163 "src/ocamlutil/errormsg.ml" 262 8157 8164
+type(
+  parseinfo
+)
+ident(
+  def i "src/ocamlutil/errormsg.ml" 270 8337 8339 "src/ocamlutil/errormsg.ml" 271 8353 8361
+)
+"src/ocamlutil/errormsg.ml" 263 8168 8184 "src/ocamlutil/errormsg.ml" 263 8168 8188
+type(
+  int
+)
+ident(
+  int_ref line "src/ocamlutil/errormsg.ml" 260 8043 8091 "src/ocamlutil/errormsg.ml" 260 8043 8095
+)
+"src/ocamlutil/errormsg.ml" 263 8168 8202 "src/ocamlutil/errormsg.ml" 263 8168 8206
+type(
+  int
+)
+ident(
+  int_ref line "src/ocamlutil/errormsg.ml" 260 8043 8091 "src/ocamlutil/errormsg.ml" 260 8043 8095
+)
+"src/ocamlutil/errormsg.ml" 263 8168 8207 "src/ocamlutil/errormsg.ml" 263 8168 8208
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/errormsg.ml" 263 8168 8209 "src/ocamlutil/errormsg.ml" 263 8168 8210
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 263 8168 8202 "src/ocamlutil/errormsg.ml" 263 8168 8210
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 264 8212 8229 "src/ocamlutil/errormsg.ml" 264 8212 8233
+type(
+  string
+)
+ident(
+  int_ref file "src/ocamlutil/errormsg.ml" 260 8043 8072 "src/ocamlutil/errormsg.ml" 260 8043 8076
+)
+"src/ocamlutil/errormsg.ml" 265 8235 8249 "src/ocamlutil/errormsg.ml" 265 8235 8251
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 265 8235 8261 "src/ocamlutil/errormsg.ml" 265 8235 8262
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 266 8264 8279 "src/ocamlutil/errormsg.ml" 266 8264 8285
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/ocamlutil/errormsg.ml" 261 8116 8122 "src/ocamlutil/errormsg.ml" 261 8116 8128
+)
+"src/ocamlutil/errormsg.ml" 267 8288 8303 "src/ocamlutil/errormsg.ml" 267 8288 8307
+type(
+  in_channel option
+)
+"src/ocamlutil/errormsg.ml" 268 8309 8328 "src/ocamlutil/errormsg.ml" 268 8309 8329
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 263 8168 8172 "src/ocamlutil/errormsg.ml" 268 8309 8331
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 270 8337 8339 "src/ocamlutil/errormsg.ml" 270 8337 8346
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 270 8337 8347 "src/ocamlutil/errormsg.ml" 270 8337 8349
+type(
+  parseinfo ref -> parseinfo -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 270 8337 8350 "src/ocamlutil/errormsg.ml" 270 8337 8351
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 262 8157 8163 "src/ocamlutil/errormsg.ml" 262 8157 8164
+)
+"src/ocamlutil/errormsg.ml" 270 8337 8339 "src/ocamlutil/errormsg.ml" 270 8337 8351
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 271 8353 8355 "src/ocamlutil/errormsg.ml" 271 8353 8361
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/ocamlutil/errormsg.ml" 261 8116 8122 "src/ocamlutil/errormsg.ml" 261 8116 8128
+)
+"src/ocamlutil/errormsg.ml" 270 8337 8339 "src/ocamlutil/errormsg.ml" 271 8353 8361
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 262 8157 8159 "src/ocamlutil/errormsg.ml" 271 8353 8361
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 261 8116 8118 "src/ocamlutil/errormsg.ml" 271 8353 8361
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 273 8363 8367 "src/ocamlutil/errormsg.ml" 273 8363 8380
+type(
+  unit -> unit
+)
+ident(
+  def finishParsing "src/ocamlutil/errormsg.ml" 280 8538 8538 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 273 8363 8381 "src/ocamlutil/errormsg.ml" 273 8363 8383
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 274 8387 8393 "src/ocamlutil/errormsg.ml" 274 8387 8394
+type(
+  parseinfo
+)
+ident(
+  def i "src/ocamlutil/errormsg.ml" 275 8409 8411 "src/ocamlutil/errormsg.ml" 276 8465 8487
+)
+"src/ocamlutil/errormsg.ml" 274 8387 8397 "src/ocamlutil/errormsg.ml" 274 8387 8398
+type(
+  parseinfo ref -> parseinfo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 274 8387 8398 "src/ocamlutil/errormsg.ml" 274 8387 8405
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 274 8387 8397 "src/ocamlutil/errormsg.ml" 274 8387 8405
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 275 8409 8418 "src/ocamlutil/errormsg.ml" 275 8409 8419
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 274 8387 8393 "src/ocamlutil/errormsg.ml" 274 8387 8394
+)
+"src/ocamlutil/errormsg.ml" 275 8409 8418 "src/ocamlutil/errormsg.ml" 275 8409 8426
+type(
+  in_channel option
+)
+"src/ocamlutil/errormsg.ml" 275 8409 8437 "src/ocamlutil/errormsg.ml" 275 8409 8438
+type(
+  in_channel
+)
+ident(
+  def c "src/ocamlutil/errormsg.ml" 275 8409 8442 "src/ocamlutil/errormsg.ml" 275 8409 8452
+)
+"src/ocamlutil/errormsg.ml" 275 8409 8432 "src/ocamlutil/errormsg.ml" 275 8409 8438
+type(
+  in_channel option
+)
+"src/ocamlutil/errormsg.ml" 275 8409 8442 "src/ocamlutil/errormsg.ml" 275 8409 8450
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"src/ocamlutil/errormsg.ml" 275 8409 8451 "src/ocamlutil/errormsg.ml" 275 8409 8452
+type(
+  in_channel
+)
+ident(
+  int_ref c "src/ocamlutil/errormsg.ml" 275 8409 8437 "src/ocamlutil/errormsg.ml" 275 8409 8438
+)
+"src/ocamlutil/errormsg.ml" 275 8409 8442 "src/ocamlutil/errormsg.ml" 275 8409 8452
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 275 8409 8455 "src/ocamlutil/errormsg.ml" 275 8409 8456
+type(
+  in_channel option
+)
+"src/ocamlutil/errormsg.ml" 275 8409 8460 "src/ocamlutil/errormsg.ml" 275 8409 8462
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 275 8409 8411 "src/ocamlutil/errormsg.ml" 275 8409 8463
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 276 8465 8467 "src/ocamlutil/errormsg.ml" 276 8465 8474
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 276 8465 8475 "src/ocamlutil/errormsg.ml" 276 8465 8477
+type(
+  parseinfo ref -> parseinfo -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 276 8465 8478 "src/ocamlutil/errormsg.ml" 276 8465 8487
+type(
+  parseinfo
+)
+ident(
+  int_ref dummyinfo "src/ocamlutil/errormsg.ml" 188 5926 5930 "src/ocamlutil/errormsg.ml" 188 5926 5939
+)
+"src/ocamlutil/errormsg.ml" 276 8465 8467 "src/ocamlutil/errormsg.ml" 276 8465 8487
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 275 8409 8411 "src/ocamlutil/errormsg.ml" 276 8465 8487
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 274 8387 8389 "src/ocamlutil/errormsg.ml" 276 8465 8487
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 280 8538 8542 "src/ocamlutil/errormsg.ml" 280 8538 8549
+type(
+  unit -> unit
+)
+ident(
+  def newline "src/ocamlutil/errormsg.ml" 285 8655 8655 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 280 8538 8550 "src/ocamlutil/errormsg.ml" 280 8538 8552
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 281 8556 8562 "src/ocamlutil/errormsg.ml" 281 8556 8563
+type(
+  parseinfo
+)
+ident(
+  def i "src/ocamlutil/errormsg.ml" 282 8578 8580 "src/ocamlutil/errormsg.ml" 283 8608 8653
+)
+"src/ocamlutil/errormsg.ml" 281 8556 8566 "src/ocamlutil/errormsg.ml" 281 8556 8567
+type(
+  parseinfo ref -> parseinfo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 281 8556 8567 "src/ocamlutil/errormsg.ml" 281 8556 8574
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 281 8556 8566 "src/ocamlutil/errormsg.ml" 281 8556 8574
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 282 8578 8580 "src/ocamlutil/errormsg.ml" 282 8578 8581
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 281 8556 8562 "src/ocamlutil/errormsg.ml" 281 8556 8563
+)
+"src/ocamlutil/errormsg.ml" 282 8578 8593 "src/ocamlutil/errormsg.ml" 282 8578 8594
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 282 8578 8595 "src/ocamlutil/errormsg.ml" 282 8578 8596
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/errormsg.ml" 282 8578 8597 "src/ocamlutil/errormsg.ml" 282 8578 8598
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 281 8556 8562 "src/ocamlutil/errormsg.ml" 281 8556 8563
+)
+"src/ocamlutil/errormsg.ml" 282 8578 8597 "src/ocamlutil/errormsg.ml" 282 8578 8606
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 282 8578 8593 "src/ocamlutil/errormsg.ml" 282 8578 8606
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 282 8578 8580 "src/ocamlutil/errormsg.ml" 282 8578 8606
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 283 8608 8610 "src/ocamlutil/errormsg.ml" 283 8608 8611
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 281 8556 8562 "src/ocamlutil/errormsg.ml" 281 8556 8563
+)
+"src/ocamlutil/errormsg.ml" 283 8608 8625 "src/ocamlutil/errormsg.ml" 283 8608 8644
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"src/ocamlutil/errormsg.ml" 283 8608 8645 "src/ocamlutil/errormsg.ml" 283 8608 8646
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 281 8556 8562 "src/ocamlutil/errormsg.ml" 281 8556 8563
+)
+"src/ocamlutil/errormsg.ml" 283 8608 8645 "src/ocamlutil/errormsg.ml" 283 8608 8653
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 283 8608 8625 "src/ocamlutil/errormsg.ml" 283 8608 8653
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 283 8608 8610 "src/ocamlutil/errormsg.ml" 283 8608 8653
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 282 8578 8580 "src/ocamlutil/errormsg.ml" 283 8608 8653
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 281 8556 8558 "src/ocamlutil/errormsg.ml" 283 8608 8653
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 285 8655 8659 "src/ocamlutil/errormsg.ml" 285 8655 8667
+type(
+  unit -> unit
+)
+ident(
+  def newHline "src/ocamlutil/errormsg.ml" 289 8722 8722 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 285 8655 8668 "src/ocamlutil/errormsg.ml" 285 8655 8670
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 286 8674 8680 "src/ocamlutil/errormsg.ml" 286 8674 8681
+type(
+  parseinfo
+)
+ident(
+  def i "src/ocamlutil/errormsg.ml" 287 8696 8698 "src/ocamlutil/errormsg.ml" 287 8696 8720
+)
+"src/ocamlutil/errormsg.ml" 286 8674 8684 "src/ocamlutil/errormsg.ml" 286 8674 8685
+type(
+  parseinfo ref -> parseinfo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 286 8674 8685 "src/ocamlutil/errormsg.ml" 286 8674 8692
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 286 8674 8684 "src/ocamlutil/errormsg.ml" 286 8674 8692
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 287 8696 8698 "src/ocamlutil/errormsg.ml" 287 8696 8699
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 286 8674 8680 "src/ocamlutil/errormsg.ml" 286 8674 8681
+)
+"src/ocamlutil/errormsg.ml" 287 8696 8709 "src/ocamlutil/errormsg.ml" 287 8696 8710
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 287 8696 8711 "src/ocamlutil/errormsg.ml" 287 8696 8712
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/errormsg.ml" 287 8696 8713 "src/ocamlutil/errormsg.ml" 287 8696 8714
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 286 8674 8680 "src/ocamlutil/errormsg.ml" 286 8674 8681
+)
+"src/ocamlutil/errormsg.ml" 287 8696 8713 "src/ocamlutil/errormsg.ml" 287 8696 8720
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 287 8696 8709 "src/ocamlutil/errormsg.ml" 287 8696 8720
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 287 8696 8698 "src/ocamlutil/errormsg.ml" 287 8696 8720
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 286 8674 8676 "src/ocamlutil/errormsg.ml" 287 8696 8720
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 289 8722 8726 "src/ocamlutil/errormsg.ml" 289 8722 8740
+type(
+  int -> unit
+)
+ident(
+  def setCurrentLine "src/ocamlutil/errormsg.ml" 292 8778 8778 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 289 8722 8742 "src/ocamlutil/errormsg.ml" 289 8722 8743
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/errormsg.ml" 290 8753 8755 "src/ocamlutil/errormsg.ml" 290 8753 8776
+)
+"src/ocamlutil/errormsg.ml" 290 8753 8755 "src/ocamlutil/errormsg.ml" 290 8753 8756
+type(
+  parseinfo ref -> parseinfo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 290 8753 8756 "src/ocamlutil/errormsg.ml" 290 8753 8763
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 290 8753 8755 "src/ocamlutil/errormsg.ml" 290 8753 8763
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 290 8753 8775 "src/ocamlutil/errormsg.ml" 290 8753 8776
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 289 8722 8742 "src/ocamlutil/errormsg.ml" 289 8722 8743
+)
+"src/ocamlutil/errormsg.ml" 290 8753 8755 "src/ocamlutil/errormsg.ml" 290 8753 8776
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 292 8778 8782 "src/ocamlutil/errormsg.ml" 292 8778 8796
+type(
+  string -> unit
+)
+ident(
+  def setCurrentFile "src/ocamlutil/errormsg.ml" 296 8853 8853 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 292 8778 8798 "src/ocamlutil/errormsg.ml" 292 8778 8799
+type(
+  string
+)
+ident(
+  def n "src/ocamlutil/errormsg.ml" 293 8812 8814 "src/ocamlutil/errormsg.ml" 293 8812 8850
+)
+"src/ocamlutil/errormsg.ml" 293 8812 8814 "src/ocamlutil/errormsg.ml" 293 8812 8815
+type(
+  parseinfo ref -> parseinfo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 293 8812 8815 "src/ocamlutil/errormsg.ml" 293 8812 8822
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 293 8812 8814 "src/ocamlutil/errormsg.ml" 293 8812 8822
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 293 8812 8835 "src/ocamlutil/errormsg.ml" 293 8812 8848
+type(
+  string -> string
+)
+ident(
+  int_ref cleanFileName "src/ocamlutil/errormsg.ml" 209 6430 6434 "src/ocamlutil/errormsg.ml" 209 6430 6447
+)
+"src/ocamlutil/errormsg.ml" 293 8812 8849 "src/ocamlutil/errormsg.ml" 293 8812 8850
+type(
+  string
+)
+ident(
+  int_ref n "src/ocamlutil/errormsg.ml" 292 8778 8798 "src/ocamlutil/errormsg.ml" 292 8778 8799
+)
+"src/ocamlutil/errormsg.ml" 293 8812 8835 "src/ocamlutil/errormsg.ml" 293 8812 8850
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 293 8812 8814 "src/ocamlutil/errormsg.ml" 293 8812 8850
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 296 8853 8857 "src/ocamlutil/errormsg.ml" 296 8853 8867
+type(
+  int
+)
+ident(
+  def max_errors "src/ocamlutil/errormsg.ml" 298 8902 8902 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 296 8853 8870 "src/ocamlutil/errormsg.ml" 296 8853 8872
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 298 8902 8906 "src/ocamlutil/errormsg.ml" 298 8902 8917
+type(
+  string -> 'a
+)
+ident(
+  def parse_error "src/ocamlutil/errormsg.ml" 333 9970 9970 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 298 8902 8919 "src/ocamlutil/errormsg.ml" 298 8902 8922
+type(
+  string
+)
+ident(
+  def msg "src/ocamlutil/errormsg.ml" 298 8902 8932 "src/ocamlutil/errormsg.ml" 327 9877 9904
+)
+"src/ocamlutil/errormsg.ml" 300 9019 9025 "src/ocamlutil/errormsg.ml" 300 9019 9036
+type(
+  int
+)
+ident(
+  def token_start "src/ocamlutil/errormsg.ml" 307 9217 9219 "src/ocamlutil/errormsg.ml" 327 9877 9904
+)
+"src/ocamlutil/errormsg.ml" 300 9019 9038 "src/ocamlutil/errormsg.ml" 300 9019 9047
+type(
+  int
+)
+ident(
+  def token_end "src/ocamlutil/errormsg.ml" 307 9217 9219 "src/ocamlutil/errormsg.ml" 327 9877 9904
+)
+"src/ocamlutil/errormsg.ml" 300 9019 9025 "src/ocamlutil/errormsg.ml" 300 9019 9047
+type(
+  int * int
+)
+"src/ocamlutil/errormsg.ml" 301 9051 9059 "src/ocamlutil/errormsg.ml" 301 9051 9079
+type(
+  unit -> int
+)
+ident(
+  ext_ref Parsing.symbol_start
+)
+"src/ocamlutil/errormsg.ml" 301 9051 9080 "src/ocamlutil/errormsg.ml" 301 9051 9082
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 301 9051 9059 "src/ocamlutil/errormsg.ml" 301 9051 9082
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 301 9051 9084 "src/ocamlutil/errormsg.ml" 301 9051 9102
+type(
+  unit -> int
+)
+ident(
+  ext_ref Parsing.symbol_end
+)
+"src/ocamlutil/errormsg.ml" 301 9051 9103 "src/ocamlutil/errormsg.ml" 301 9051 9105
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 301 9051 9084 "src/ocamlutil/errormsg.ml" 301 9051 9105
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 301 9051 9059 "src/ocamlutil/errormsg.ml" 301 9051 9105
+type(
+  int * int
+)
+"src/ocamlutil/errormsg.ml" 302 9106 9115 "src/ocamlutil/errormsg.ml" 302 9106 9116
+type(
+  exn
+)
+ident(
+  def e "src/ocamlutil/errormsg.ml" 302 9106 9120 "src/ocamlutil/errormsg.ml" 305 9204 9211
+)
+"src/ocamlutil/errormsg.ml" 303 9127 9133 "src/ocamlutil/errormsg.ml" 303 9127 9139
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ocamlutil/errormsg.ml" 303 9127 9141 "src/ocamlutil/errormsg.ml" 303 9127 9145
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  int_ref warn "src/ocamlutil/errormsg.ml" 135 4168 4172 "src/ocamlutil/errormsg.ml" 135 4168 4176
+)
+"src/ocamlutil/errormsg.ml" 303 9127 9146 "src/ocamlutil/errormsg.ml" 303 9127 9167
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ocamlutil/errormsg.ml" 303 9127 9169 "src/ocamlutil/errormsg.ml" 303 9127 9187
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"src/ocamlutil/errormsg.ml" 303 9127 9188 "src/ocamlutil/errormsg.ml" 303 9127 9189
+type(
+  exn
+)
+ident(
+  int_ref e "src/ocamlutil/errormsg.ml" 302 9106 9115 "src/ocamlutil/errormsg.ml" 302 9106 9116
+)
+"src/ocamlutil/errormsg.ml" 303 9127 9168 "src/ocamlutil/errormsg.ml" 303 9127 9190
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 303 9127 9140 "src/ocamlutil/errormsg.ml" 303 9127 9191
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 303 9127 9133 "src/ocamlutil/errormsg.ml" 303 9127 9191
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 304 9193 9199 "src/ocamlutil/errormsg.ml" 304 9193 9200
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 304 9193 9202 "src/ocamlutil/errormsg.ml" 304 9193 9203
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 304 9193 9199 "src/ocamlutil/errormsg.ml" 304 9193 9203
+type(
+  int * int
+)
+"src/ocamlutil/errormsg.ml" 302 9106 9120 "src/ocamlutil/errormsg.ml" 305 9204 9211
+type(
+  int * int
+)
+"src/ocamlutil/errormsg.ml" 301 9051 9055 "src/ocamlutil/errormsg.ml" 305 9204 9211
+type(
+  int * int
+)
+"src/ocamlutil/errormsg.ml" 307 9217 9223 "src/ocamlutil/errormsg.ml" 307 9217 9224
+type(
+  parseinfo
+)
+ident(
+  def i "src/ocamlutil/errormsg.ml" 308 9239 9241 "src/ocamlutil/errormsg.ml" 327 9877 9904
+)
+"src/ocamlutil/errormsg.ml" 307 9217 9227 "src/ocamlutil/errormsg.ml" 307 9217 9228
+type(
+  parseinfo ref -> parseinfo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 307 9217 9228 "src/ocamlutil/errormsg.ml" 307 9217 9235
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 307 9217 9227 "src/ocamlutil/errormsg.ml" 307 9217 9235
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 308 9239 9245 "src/ocamlutil/errormsg.ml" 308 9239 9253
+type(
+  int
+)
+ident(
+  def adjStart "src/ocamlutil/errormsg.ml" 310 9331 9333 "src/ocamlutil/errormsg.ml" 327 9877 9904
+)
+"src/ocamlutil/errormsg.ml" 309 9257 9264 "src/ocamlutil/errormsg.ml" 309 9257 9275
+type(
+  int
+)
+ident(
+  int_ref token_start "src/ocamlutil/errormsg.ml" 300 9019 9025 "src/ocamlutil/errormsg.ml" 300 9019 9036
+)
+"src/ocamlutil/errormsg.ml" 309 9257 9276 "src/ocamlutil/errormsg.ml" 309 9257 9277
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ocamlutil/errormsg.ml" 309 9257 9278 "src/ocamlutil/errormsg.ml" 309 9257 9279
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 307 9217 9223 "src/ocamlutil/errormsg.ml" 307 9217 9224
+)
+"src/ocamlutil/errormsg.ml" 309 9257 9278 "src/ocamlutil/errormsg.ml" 309 9257 9289
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 309 9257 9264 "src/ocamlutil/errormsg.ml" 309 9257 9289
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 309 9257 9295 "src/ocamlutil/errormsg.ml" 309 9257 9296
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 309 9257 9302 "src/ocamlutil/errormsg.ml" 309 9257 9313
+type(
+  int
+)
+ident(
+  int_ref token_start "src/ocamlutil/errormsg.ml" 300 9019 9025 "src/ocamlutil/errormsg.ml" 300 9019 9036
+)
+"src/ocamlutil/errormsg.ml" 309 9257 9314 "src/ocamlutil/errormsg.ml" 309 9257 9315
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/errormsg.ml" 309 9257 9316 "src/ocamlutil/errormsg.ml" 309 9257 9317
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 307 9217 9223 "src/ocamlutil/errormsg.ml" 307 9217 9224
+)
+"src/ocamlutil/errormsg.ml" 309 9257 9316 "src/ocamlutil/errormsg.ml" 309 9257 9327
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 309 9257 9302 "src/ocamlutil/errormsg.ml" 309 9257 9327
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 309 9257 9261 "src/ocamlutil/errormsg.ml" 309 9257 9327
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 310 9331 9337 "src/ocamlutil/errormsg.ml" 310 9331 9343
+type(
+  int
+)
+ident(
+  def adjEnd "src/ocamlutil/errormsg.ml" 312 9417 9419 "src/ocamlutil/errormsg.ml" 327 9877 9904
+)
+"src/ocamlutil/errormsg.ml" 311 9347 9354 "src/ocamlutil/errormsg.ml" 311 9347 9363
+type(
+  int
+)
+ident(
+  int_ref token_end "src/ocamlutil/errormsg.ml" 300 9019 9038 "src/ocamlutil/errormsg.ml" 300 9019 9047
+)
+"src/ocamlutil/errormsg.ml" 311 9347 9364 "src/ocamlutil/errormsg.ml" 311 9347 9365
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ocamlutil/errormsg.ml" 311 9347 9366 "src/ocamlutil/errormsg.ml" 311 9347 9367
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 307 9217 9223 "src/ocamlutil/errormsg.ml" 307 9217 9224
+)
+"src/ocamlutil/errormsg.ml" 311 9347 9366 "src/ocamlutil/errormsg.ml" 311 9347 9377
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 311 9347 9354 "src/ocamlutil/errormsg.ml" 311 9347 9377
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 311 9347 9383 "src/ocamlutil/errormsg.ml" 311 9347 9384
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 311 9347 9390 "src/ocamlutil/errormsg.ml" 311 9347 9399
+type(
+  int
+)
+ident(
+  int_ref token_end "src/ocamlutil/errormsg.ml" 300 9019 9038 "src/ocamlutil/errormsg.ml" 300 9019 9047
+)
+"src/ocamlutil/errormsg.ml" 311 9347 9400 "src/ocamlutil/errormsg.ml" 311 9347 9401
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/errormsg.ml" 311 9347 9402 "src/ocamlutil/errormsg.ml" 311 9347 9403
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 307 9217 9223 "src/ocamlutil/errormsg.ml" 307 9217 9224
+)
+"src/ocamlutil/errormsg.ml" 311 9347 9402 "src/ocamlutil/errormsg.ml" 311 9347 9413
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 311 9347 9390 "src/ocamlutil/errormsg.ml" 311 9347 9413
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 311 9347 9351 "src/ocamlutil/errormsg.ml" 311 9347 9413
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 312 9417 9419 "src/ocamlutil/errormsg.ml" 312 9417 9432
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/ocamlutil/errormsg.ml" 313 9434 9438 "src/ocamlutil/errormsg.ml" 313 9434 9444
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9450 "src/ocamlutil/errormsg.ml" 314 9445 9451
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 307 9217 9223 "src/ocamlutil/errormsg.ml" 307 9217 9224
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9450 "src/ocamlutil/errormsg.ml" 314 9445 9460
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9461 "src/ocamlutil/errormsg.ml" 314 9445 9462
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9463 "src/ocamlutil/errormsg.ml" 314 9445 9466
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9467 "src/ocamlutil/errormsg.ml" 314 9445 9468
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9470 "src/ocamlutil/errormsg.ml" 314 9445 9483
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9484 "src/ocamlutil/errormsg.ml" 314 9445 9485
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 307 9217 9223 "src/ocamlutil/errormsg.ml" 307 9217 9224
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9484 "src/ocamlutil/errormsg.ml" 314 9445 9493
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9469 "src/ocamlutil/errormsg.ml" 314 9445 9494
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9495 "src/ocamlutil/errormsg.ml" 314 9445 9496
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9497 "src/ocamlutil/errormsg.ml" 314 9445 9500
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 315 9502 9526 "src/ocamlutil/errormsg.ml" 315 9502 9527
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ocamlutil/errormsg.ml" 315 9502 9529 "src/ocamlutil/errormsg.ml" 315 9502 9542
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/ocamlutil/errormsg.ml" 315 9502 9543 "src/ocamlutil/errormsg.ml" 315 9502 9551
+type(
+  int
+)
+ident(
+  int_ref adjStart "src/ocamlutil/errormsg.ml" 308 9239 9245 "src/ocamlutil/errormsg.ml" 308 9239 9253
+)
+"src/ocamlutil/errormsg.ml" 315 9502 9528 "src/ocamlutil/errormsg.ml" 315 9502 9552
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 315 9502 9553 "src/ocamlutil/errormsg.ml" 315 9502 9554
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ocamlutil/errormsg.ml" 315 9502 9555 "src/ocamlutil/errormsg.ml" 315 9502 9558
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 316 9560 9584 "src/ocamlutil/errormsg.ml" 316 9560 9585
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ocamlutil/errormsg.ml" 316 9560 9587 "src/ocamlutil/errormsg.ml" 316 9560 9600
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/ocamlutil/errormsg.ml" 316 9560 9601 "src/ocamlutil/errormsg.ml" 316 9560 9607
+type(
+  int
+)
+ident(
+  int_ref adjEnd "src/ocamlutil/errormsg.ml" 310 9331 9337 "src/ocamlutil/errormsg.ml" 310 9331 9343
+)
+"src/ocamlutil/errormsg.ml" 316 9560 9586 "src/ocamlutil/errormsg.ml" 316 9560 9608
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 317 9610 9628 "src/ocamlutil/errormsg.ml" 317 9610 9629
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ocamlutil/errormsg.ml" 317 9610 9630 "src/ocamlutil/errormsg.ml" 317 9610 9633
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 318 9634 9639 "src/ocamlutil/errormsg.ml" 318 9634 9640
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ocamlutil/errormsg.ml" 318 9634 9641 "src/ocamlutil/errormsg.ml" 318 9634 9646
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 318 9634 9647 "src/ocamlutil/errormsg.ml" 318 9634 9648
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ocamlutil/errormsg.ml" 318 9634 9649 "src/ocamlutil/errormsg.ml" 318 9634 9652
+type(
+  string
+)
+ident(
+  int_ref msg "src/ocamlutil/errormsg.ml" 298 8902 8919 "src/ocamlutil/errormsg.ml" 298 8902 8922
+)
+"src/ocamlutil/errormsg.ml" 318 9634 9641 "src/ocamlutil/errormsg.ml" 318 9634 9652
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 317 9610 9630 "src/ocamlutil/errormsg.ml" 318 9634 9652
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 316 9560 9586 "src/ocamlutil/errormsg.ml" 318 9634 9652
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 315 9502 9555 "src/ocamlutil/errormsg.ml" 318 9634 9652
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 315 9502 9528 "src/ocamlutil/errormsg.ml" 318 9634 9652
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9497 "src/ocamlutil/errormsg.ml" 318 9634 9652
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9469 "src/ocamlutil/errormsg.ml" 318 9634 9652
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9463 "src/ocamlutil/errormsg.ml" 318 9634 9652
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 314 9445 9449 "src/ocamlutil/errormsg.ml" 318 9634 9653
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 312 9417 9419 "src/ocamlutil/errormsg.ml" 318 9634 9653
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 319 9655 9657 "src/ocamlutil/errormsg.ml" 319 9655 9670
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/ocamlutil/errormsg.ml" 319 9655 9671 "src/ocamlutil/errormsg.ml" 319 9655 9677
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"src/ocamlutil/errormsg.ml" 319 9655 9678 "src/ocamlutil/errormsg.ml" 319 9655 9682
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 319 9655 9657 "src/ocamlutil/errormsg.ml" 319 9655 9682
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 320 9684 9686 "src/ocamlutil/errormsg.ml" 320 9684 9691
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/ocamlutil/errormsg.ml" 320 9684 9692 "src/ocamlutil/errormsg.ml" 320 9684 9698
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"src/ocamlutil/errormsg.ml" 320 9684 9686 "src/ocamlutil/errormsg.ml" 320 9684 9698
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 321 9701 9703 "src/ocamlutil/errormsg.ml" 321 9701 9704
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 307 9217 9223 "src/ocamlutil/errormsg.ml" 307 9217 9224
+)
+"src/ocamlutil/errormsg.ml" 321 9701 9719 "src/ocamlutil/errormsg.ml" 321 9701 9720
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 307 9217 9223 "src/ocamlutil/errormsg.ml" 307 9217 9224
+)
+"src/ocamlutil/errormsg.ml" 321 9701 9719 "src/ocamlutil/errormsg.ml" 321 9701 9731
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 321 9701 9732 "src/ocamlutil/errormsg.ml" 321 9701 9733
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/errormsg.ml" 321 9701 9734 "src/ocamlutil/errormsg.ml" 321 9701 9735
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 321 9701 9719 "src/ocamlutil/errormsg.ml" 321 9701 9735
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 321 9701 9703 "src/ocamlutil/errormsg.ml" 321 9701 9735
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 322 9737 9742 "src/ocamlutil/errormsg.ml" 322 9737 9743
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 307 9217 9223 "src/ocamlutil/errormsg.ml" 307 9217 9224
+)
+"src/ocamlutil/errormsg.ml" 322 9737 9742 "src/ocamlutil/errormsg.ml" 322 9737 9754
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 322 9737 9755 "src/ocamlutil/errormsg.ml" 322 9737 9756
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/errormsg.ml" 322 9737 9757 "src/ocamlutil/errormsg.ml" 322 9737 9767
+type(
+  int
+)
+ident(
+  int_ref max_errors "src/ocamlutil/errormsg.ml" 296 8853 8857 "src/ocamlutil/errormsg.ml" 296 8853 8867
+)
+"src/ocamlutil/errormsg.ml" 322 9737 9742 "src/ocamlutil/errormsg.ml" 322 9737 9767
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 323 9779 9783 "src/ocamlutil/errormsg.ml" 323 9779 9796
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/ocamlutil/errormsg.ml" 323 9779 9797 "src/ocamlutil/errormsg.ml" 323 9779 9803
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"src/ocamlutil/errormsg.ml" 323 9779 9804 "src/ocamlutil/errormsg.ml" 323 9779 9834
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 323 9779 9783 "src/ocamlutil/errormsg.ml" 323 9779 9834
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 324 9837 9841 "src/ocamlutil/errormsg.ml" 324 9837 9845
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"src/ocamlutil/errormsg.ml" 324 9837 9846 "src/ocamlutil/errormsg.ml" 324 9837 9847
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 324 9837 9841 "src/ocamlutil/errormsg.ml" 324 9837 9847
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 322 9737 9773 "src/ocamlutil/errormsg.ml" 325 9849 9854
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 322 9737 9739 "src/ocamlutil/errormsg.ml" 325 9849 9854
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 326 9856 9858 "src/ocamlutil/errormsg.ml" 326 9856 9867
+type(
+  bool ref
+)
+ident(
+  int_ref hadErrors "src/ocamlutil/errormsg.ml" 51 1905 1909 "src/ocamlutil/errormsg.ml" 51 1905 1918
+)
+"src/ocamlutil/errormsg.ml" 326 9856 9868 "src/ocamlutil/errormsg.ml" 326 9856 9870
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/errormsg.ml" 326 9856 9871 "src/ocamlutil/errormsg.ml" 326 9856 9875
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 326 9856 9858 "src/ocamlutil/errormsg.ml" 326 9856 9875
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 327 9877 9879 "src/ocamlutil/errormsg.ml" 327 9877 9884
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ocamlutil/errormsg.ml" 327 9877 9885 "src/ocamlutil/errormsg.ml" 327 9877 9904
+type(
+  exn
+)
+"src/ocamlutil/errormsg.ml" 327 9877 9879 "src/ocamlutil/errormsg.ml" 327 9877 9904
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 326 9856 9858 "src/ocamlutil/errormsg.ml" 327 9877 9904
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 322 9737 9739 "src/ocamlutil/errormsg.ml" 327 9877 9904
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 321 9701 9703 "src/ocamlutil/errormsg.ml" 327 9877 9904
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 320 9684 9686 "src/ocamlutil/errormsg.ml" 327 9877 9904
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 319 9655 9657 "src/ocamlutil/errormsg.ml" 327 9877 9904
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 312 9417 9419 "src/ocamlutil/errormsg.ml" 327 9877 9904
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 310 9331 9333 "src/ocamlutil/errormsg.ml" 327 9877 9904
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 308 9239 9241 "src/ocamlutil/errormsg.ml" 327 9877 9904
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 307 9217 9219 "src/ocamlutil/errormsg.ml" 327 9877 9904
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 300 9019 9021 "src/ocamlutil/errormsg.ml" 327 9877 9904
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ocamlutil/errormsg.ml" 333 9970 9974 "src/ocamlutil/errormsg.ml" 333 9970 9985
+type(
+  unit -> int * string * int
+)
+ident(
+  def getPosition "src/ocamlutil/errormsg.ml" 338 10092 10092 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 333 9970 9986 "src/ocamlutil/errormsg.ml" 333 9970 9988
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 334 10013 10019 "src/ocamlutil/errormsg.ml" 334 10013 10020
+type(
+  parseinfo
+)
+ident(
+  def i "src/ocamlutil/errormsg.ml" 335 10036 10038 "src/ocamlutil/errormsg.ml" 335 10036 10089
+)
+"src/ocamlutil/errormsg.ml" 334 10013 10023 "src/ocamlutil/errormsg.ml" 334 10013 10024
+type(
+  parseinfo ref -> parseinfo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 334 10013 10024 "src/ocamlutil/errormsg.ml" 334 10013 10031
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 334 10013 10023 "src/ocamlutil/errormsg.ml" 334 10013 10031
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 335 10036 10038 "src/ocamlutil/errormsg.ml" 335 10036 10039
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 334 10013 10019 "src/ocamlutil/errormsg.ml" 334 10013 10020
+)
+"src/ocamlutil/errormsg.ml" 335 10036 10038 "src/ocamlutil/errormsg.ml" 335 10036 10047
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 335 10036 10049 "src/ocamlutil/errormsg.ml" 335 10036 10050
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 334 10013 10019 "src/ocamlutil/errormsg.ml" 334 10013 10020
+)
+"src/ocamlutil/errormsg.ml" 335 10036 10049 "src/ocamlutil/errormsg.ml" 335 10036 10059
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 335 10036 10061 "src/ocamlutil/errormsg.ml" 335 10036 10080
+type(
+  Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.lexeme_start
+)
+"src/ocamlutil/errormsg.ml" 335 10036 10081 "src/ocamlutil/errormsg.ml" 335 10036 10082
+type(
+  parseinfo
+)
+ident(
+  int_ref i "src/ocamlutil/errormsg.ml" 334 10013 10019 "src/ocamlutil/errormsg.ml" 334 10013 10020
+)
+"src/ocamlutil/errormsg.ml" 335 10036 10081 "src/ocamlutil/errormsg.ml" 335 10036 10089
+type(
+  Lexing.lexbuf
+)
+"src/ocamlutil/errormsg.ml" 335 10036 10061 "src/ocamlutil/errormsg.ml" 335 10036 10089
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 335 10036 10038 "src/ocamlutil/errormsg.ml" 335 10036 10089
+type(
+  int * string * int
+)
+"src/ocamlutil/errormsg.ml" 334 10013 10015 "src/ocamlutil/errormsg.ml" 335 10036 10089
+type(
+  int * string * int
+)
+type(
+  int * string * int
+)
+"src/ocamlutil/errormsg.ml" 338 10092 10096 "src/ocamlutil/errormsg.ml" 338 10092 10108
+type(
+  unit -> int * string
+)
+ident(
+  def getHPosition "src/ocamlutil/errormsg.ml" 342 10187 10187 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 338 10092 10109 "src/ocamlutil/errormsg.ml" 338 10092 10111
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 339 10115 10117 "src/ocamlutil/errormsg.ml" 339 10115 10118
+type(
+  parseinfo ref -> parseinfo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 339 10115 10118 "src/ocamlutil/errormsg.ml" 339 10115 10125
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 339 10115 10117 "src/ocamlutil/errormsg.ml" 339 10115 10125
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 339 10115 10117 "src/ocamlutil/errormsg.ml" 339 10115 10131
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 339 10115 10133 "src/ocamlutil/errormsg.ml" 339 10115 10134
+type(
+  parseinfo ref -> parseinfo
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/errormsg.ml" 339 10115 10134 "src/ocamlutil/errormsg.ml" 339 10115 10141
+type(
+  parseinfo ref
+)
+ident(
+  int_ref current "src/ocamlutil/errormsg.ml" 199 6145 6149 "src/ocamlutil/errormsg.ml" 199 6145 6156
+)
+"src/ocamlutil/errormsg.ml" 339 10115 10133 "src/ocamlutil/errormsg.ml" 339 10115 10141
+type(
+  parseinfo
+)
+"src/ocamlutil/errormsg.ml" 339 10115 10133 "src/ocamlutil/errormsg.ml" 339 10115 10147
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 339 10115 10117 "src/ocamlutil/errormsg.ml" 339 10115 10147
+type(
+  int * string
+)
+"src/ocamlutil/errormsg.ml" 349 10447 10451 "src/ocamlutil/errormsg.ml" 349 10447 10456
+type(
+  unit -> location -> Pretty.doc
+)
+ident(
+  def d_loc "src/ocamlutil/errormsg.ml" 352 10515 10515 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 349 10447 10457 "src/ocamlutil/errormsg.ml" 349 10447 10459
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 349 10447 10460 "src/ocamlutil/errormsg.ml" 349 10447 10461
+type(
+  location
+)
+ident(
+  def l "src/ocamlutil/errormsg.ml" 350 10465 10467 "src/ocamlutil/errormsg.ml" 350 10465 10509
+)
+"src/ocamlutil/errormsg.ml" 350 10465 10467 "src/ocamlutil/errormsg.ml" 350 10465 10471
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ocamlutil/errormsg.ml" 350 10465 10473 "src/ocamlutil/errormsg.ml" 350 10465 10474
+type(
+  location
+)
+ident(
+  int_ref l "src/ocamlutil/errormsg.ml" 349 10447 10460 "src/ocamlutil/errormsg.ml" 349 10447 10461
+)
+"src/ocamlutil/errormsg.ml" 350 10465 10473 "src/ocamlutil/errormsg.ml" 350 10465 10479
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 350 10465 10480 "src/ocamlutil/errormsg.ml" 350 10465 10481
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ocamlutil/errormsg.ml" 350 10465 10482 "src/ocamlutil/errormsg.ml" 350 10465 10485
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 350 10465 10486 "src/ocamlutil/errormsg.ml" 350 10465 10487
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ocamlutil/errormsg.ml" 350 10465 10488 "src/ocamlutil/errormsg.ml" 350 10465 10501
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/ocamlutil/errormsg.ml" 350 10465 10502 "src/ocamlutil/errormsg.ml" 350 10465 10503
+type(
+  location
+)
+ident(
+  int_ref l "src/ocamlutil/errormsg.ml" 349 10447 10460 "src/ocamlutil/errormsg.ml" 349 10447 10461
+)
+"src/ocamlutil/errormsg.ml" 350 10465 10502 "src/ocamlutil/errormsg.ml" 350 10465 10508
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 350 10465 10488 "src/ocamlutil/errormsg.ml" 350 10465 10508
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 350 10465 10482 "src/ocamlutil/errormsg.ml" 350 10465 10508
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 350 10465 10472 "src/ocamlutil/errormsg.ml" 350 10465 10509
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 350 10465 10467 "src/ocamlutil/errormsg.ml" 350 10465 10509
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ocamlutil/errormsg.ml" 352 10515 10519 "src/ocamlutil/errormsg.ml" 352 10515 10525
+type(
+  unit -> location -> Pretty.doc
+)
+ident(
+  def d_hloc "src/ocamlutil/errormsg.ml" 356 10658 10658 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 352 10515 10526 "src/ocamlutil/errormsg.ml" 352 10515 10528
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 352 10515 10530 "src/ocamlutil/errormsg.ml" 352 10515 10531
+type(
+  location
+)
+ident(
+  def l "src/ocamlutil/errormsg.ml" 353 10546 10548 "src/ocamlutil/errormsg.ml" 354 10580 10656
+)
+"src/ocamlutil/errormsg.ml" 353 10546 10548 "src/ocamlutil/errormsg.ml" 353 10546 10555
+type(
+  (string ->
+   int -> (unit -> Pretty.doc -> Pretty.doc) -> Pretty.doc -> Pretty.doc,
+   unit, Pretty.doc, Pretty.doc)
+  format4 ->
+  string ->
+  int -> (unit -> Pretty.doc -> Pretty.doc) -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/ocamlutil/errormsg.ml" 353 10546 10556 "src/ocamlutil/errormsg.ml" 353 10546 10565
+type(
+  (string ->
+   int -> (unit -> Pretty.doc -> Pretty.doc) -> Pretty.doc -> Pretty.doc,
+   unit, Pretty.doc, Pretty.doc)
+  format4
+)
+"src/ocamlutil/errormsg.ml" 353 10546 10566 "src/ocamlutil/errormsg.ml" 353 10546 10567
+type(
+  location
+)
+ident(
+  int_ref l "src/ocamlutil/errormsg.ml" 352 10515 10530 "src/ocamlutil/errormsg.ml" 352 10515 10531
+)
+"src/ocamlutil/errormsg.ml" 353 10546 10566 "src/ocamlutil/errormsg.ml" 353 10546 10572
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 353 10546 10573 "src/ocamlutil/errormsg.ml" 353 10546 10574
+type(
+  location
+)
+ident(
+  int_ref l "src/ocamlutil/errormsg.ml" 352 10515 10530 "src/ocamlutil/errormsg.ml" 352 10515 10531
+)
+"src/ocamlutil/errormsg.ml" 353 10546 10573 "src/ocamlutil/errormsg.ml" 353 10546 10579
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10584 "src/ocamlutil/errormsg.ml" 354 10580 10590
+type(
+  unit -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.insert
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10595 "src/ocamlutil/errormsg.ml" 354 10580 10596
+type(
+  location
+)
+ident(
+  int_ref l "src/ocamlutil/errormsg.ml" 352 10515 10530 "src/ocamlutil/errormsg.ml" 352 10515 10531
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10595 "src/ocamlutil/errormsg.ml" 354 10580 10602
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10603 "src/ocamlutil/errormsg.ml" 354 10580 10604
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10605 "src/ocamlutil/errormsg.ml" 354 10580 10606
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10595 "src/ocamlutil/errormsg.ml" 354 10580 10606
+type(
+  bool
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10612 "src/ocamlutil/errormsg.ml" 354 10580 10619
+type(
+  (string -> int -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4 ->
+  string -> int -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10620 "src/ocamlutil/errormsg.ml" 354 10580 10630
+type(
+  (string -> int -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10631 "src/ocamlutil/errormsg.ml" 354 10580 10632
+type(
+  location
+)
+ident(
+  int_ref l "src/ocamlutil/errormsg.ml" 352 10515 10530 "src/ocamlutil/errormsg.ml" 352 10515 10531
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10631 "src/ocamlutil/errormsg.ml" 354 10580 10638
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10639 "src/ocamlutil/errormsg.ml" 354 10580 10640
+type(
+  location
+)
+ident(
+  int_ref l "src/ocamlutil/errormsg.ml" 352 10515 10530 "src/ocamlutil/errormsg.ml" 352 10515 10531
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10639 "src/ocamlutil/errormsg.ml" 354 10580 10646
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10612 "src/ocamlutil/errormsg.ml" 354 10580 10646
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10652 "src/ocamlutil/errormsg.ml" 354 10580 10655
+type(
+  Pretty.doc
+)
+ident(
+  ext_ref Pretty.nil
+)
+"src/ocamlutil/errormsg.ml" 354 10580 10591 "src/ocamlutil/errormsg.ml" 354 10580 10656
+type(
+  Pretty.doc
+)
+"src/ocamlutil/errormsg.ml" 353 10546 10548 "src/ocamlutil/errormsg.ml" 354 10580 10656
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ocamlutil/errormsg.ml" 356 10658 10662 "src/ocamlutil/errormsg.ml" 356 10658 10672
+type(
+  location
+)
+ident(
+  def locUnknown "src/ocamlutil/errormsg.ml" 358 10725 10725 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 356 10658 10684 "src/ocamlutil/errormsg.ml" 356 10658 10686
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 356 10658 10696 "src/ocamlutil/errormsg.ml" 356 10658 10698
+type(
+  string
+)
+"src/ocamlutil/errormsg.ml" 356 10658 10707 "src/ocamlutil/errormsg.ml" 356 10658 10709
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 356 10658 10719 "src/ocamlutil/errormsg.ml" 356 10658 10721
+type(
+  int
+)
+"src/ocamlutil/errormsg.ml" 356 10658 10675 "src/ocamlutil/errormsg.ml" 356 10658 10723
+type(
+  location
+)
+"src/ocamlutil/errormsg.ml" 358 10725 10729 "src/ocamlutil/errormsg.ml" 358 10725 10740
+type(
+  unit -> location
+)
+ident(
+  def getLocation "src/ocamlutil/errormsg.ml" 362 10843 10867 "src/ocamlutil/errormsg.ml" 1 0 -1
+)
+"src/ocamlutil/errormsg.ml" 358 10725 10741 "src/ocamlutil/errormsg.ml" 358 10725 10743
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 359 10747 10753 "src/ocamlutil/errormsg.ml" 359 10747 10755
+type(
+  int
+)
+ident(
+  def hl "src/ocamlutil/errormsg.ml" 360 10781 10783 "src/ocamlutil/errormsg.ml" 362 10843 10867
+)
+"src/ocamlutil/errormsg.ml" 359 10747 10757 "src/ocamlutil/errormsg.ml" 359 10747 10759
+type(
+  string
+)
+ident(
+  def hf "src/ocamlutil/errormsg.ml" 360 10781 10783 "src/ocamlutil/errormsg.ml" 362 10843 10867
+)
+"src/ocamlutil/errormsg.ml" 359 10747 10753 "src/ocamlutil/errormsg.ml" 359 10747 10759
+type(
+  int * string
+)
+"src/ocamlutil/errormsg.ml" 359 10747 10762 "src/ocamlutil/errormsg.ml" 359 10747 10774
+type(
+  unit -> int * string
+)
+ident(
+  int_ref getHPosition "src/ocamlutil/errormsg.ml" 338 10092 10096 "src/ocamlutil/errormsg.ml" 338 10092 10108
+)
+"src/ocamlutil/errormsg.ml" 359 10747 10775 "src/ocamlutil/errormsg.ml" 359 10747 10777
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 359 10747 10762 "src/ocamlutil/errormsg.ml" 359 10747 10777
+call(
+  stack
+)
+type(
+  int * string
+)
+"src/ocamlutil/errormsg.ml" 360 10781 10787 "src/ocamlutil/errormsg.ml" 360 10781 10788
+type(
+  int
+)
+ident(
+  def l "src/ocamlutil/errormsg.ml" 361 10815 10817 "src/ocamlutil/errormsg.ml" 362 10843 10867
+)
+"src/ocamlutil/errormsg.ml" 360 10781 10790 "src/ocamlutil/errormsg.ml" 360 10781 10791
+type(
+  string
+)
+ident(
+  def f "src/ocamlutil/errormsg.ml" 361 10815 10817 "src/ocamlutil/errormsg.ml" 362 10843 10867
+)
+"src/ocamlutil/errormsg.ml" 360 10781 10793 "src/ocamlutil/errormsg.ml" 360 10781 10794
+type(
+  int
+)
+ident(
+  def c "src/ocamlutil/errormsg.ml" 361 10815 10817 "src/ocamlutil/errormsg.ml" 362 10843 10867
+)
+"src/ocamlutil/errormsg.ml" 360 10781 10787 "src/ocamlutil/errormsg.ml" 360 10781 10794
+type(
+  int * string * int
+)
+"src/ocamlutil/errormsg.ml" 360 10781 10797 "src/ocamlutil/errormsg.ml" 360 10781 10808
+type(
+  unit -> int * string * int
+)
+ident(
+  int_ref getPosition "src/ocamlutil/errormsg.ml" 333 9970 9974 "src/ocamlutil/errormsg.ml" 333 9970 9985
+)
+"src/ocamlutil/errormsg.ml" 360 10781 10809 "src/ocamlutil/errormsg.ml" 360 10781 10811
+type(
+  unit
+)
+"src/ocamlutil/errormsg.ml" 360 10781 10797 "src/ocamlutil/errormsg.ml" 360 10781 10811
+call(
+  stack
+)
+type(
+  int * string * int
+)
+"src/ocamlutil/errormsg.ml" 361 10815 10827 "src/ocamlutil/errormsg.ml" 361 10815 10829
+type(
+  string
+)
+ident(
+  int_ref hf "src/ocamlutil/errormsg.ml" 359 10747 10757 "src/ocamlutil/errormsg.ml" 359 10747 10759
+)
+"src/ocamlutil/errormsg.ml" 361 10815 10839 "src/ocamlutil/errormsg.ml" 361 10815 10841
+type(
+  int
+)
+ident(
+  int_ref hl "src/ocamlutil/errormsg.ml" 359 10747 10753 "src/ocamlutil/errormsg.ml" 359 10747 10755
+)
+"src/ocamlutil/errormsg.ml" 362 10843 10854 "src/ocamlutil/errormsg.ml" 362 10843 10855
+type(
+  string
+)
+ident(
+  int_ref f "src/ocamlutil/errormsg.ml" 360 10781 10790 "src/ocamlutil/errormsg.ml" 360 10781 10791
+)
+"src/ocamlutil/errormsg.ml" 362 10843 10864 "src/ocamlutil/errormsg.ml" 362 10843 10865
+type(
+  int
+)
+ident(
+  int_ref l "src/ocamlutil/errormsg.ml" 360 10781 10787 "src/ocamlutil/errormsg.ml" 360 10781 10788
+)
+"src/ocamlutil/errormsg.ml" 361 10815 10817 "src/ocamlutil/errormsg.ml" 362 10843 10867
+type(
+  location
+)
+"src/ocamlutil/errormsg.ml" 360 10781 10783 "src/ocamlutil/errormsg.ml" 362 10843 10867
+type(
+  location
+)
+"src/ocamlutil/errormsg.ml" 359 10747 10749 "src/ocamlutil/errormsg.ml" 362 10843 10867
+type(
+  location
+)

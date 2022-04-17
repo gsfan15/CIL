@@ -1,0 +1,1563 @@
+"src/ext/pta/uref.ml" 42 1687 1695 "src/ext/pta/uref.ml" 42 1687 1699
+type(
+  'a uref -> 'a uref
+)
+ident(
+  def find "src/ext/pta/uref.ml" 42 1687 1687 "src/ext/pta/uref.ml" 1 0 -1
+)
+"src/ext/pta/uref.ml" 42 1687 1700 "src/ext/pta/uref.ml" 42 1687 1701
+type(
+  'a uref
+)
+ident(
+  def p "src/ext/pta/uref.ml" 43 1705 1707 "src/ext/pta/uref.ml" 47 1775 1797
+)
+"src/ext/pta/uref.ml" 43 1705 1713 "src/ext/pta/uref.ml" 43 1705 1714
+type(
+  'a uref -> 'a urefC
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/pta/uref.ml" 43 1705 1714 "src/ext/pta/uref.ml" 43 1705 1715
+type(
+  'a uref
+)
+ident(
+  int_ref p "src/ext/pta/uref.ml" 42 1687 1700 "src/ext/pta/uref.ml" 42 1687 1701
+)
+"src/ext/pta/uref.ml" 43 1705 1713 "src/ext/pta/uref.ml" 43 1705 1715
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 44 1721 1731 "src/ext/pta/uref.ml" 44 1721 1732
+type(
+  int
+)
+type(
+  'a
+)
+"src/ext/pta/uref.ml" 44 1721 1727 "src/ext/pta/uref.ml" 44 1721 1732
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 44 1721 1736 "src/ext/pta/uref.ml" 44 1721 1737
+type(
+  'a uref
+)
+ident(
+  int_ref p "src/ext/pta/uref.ml" 42 1687 1700 "src/ext/pta/uref.ml" 42 1687 1701
+)
+"src/ext/pta/uref.ml" 45 1738 1749 "src/ext/pta/uref.ml" 45 1738 1751
+type(
+  'a uref
+)
+ident(
+  def p' "src/ext/pta/uref.ml" 46 1755 1756 "src/ext/pta/uref.ml" 47 1775 1797
+)
+"src/ext/pta/uref.ml" 45 1738 1744 "src/ext/pta/uref.ml" 45 1738 1751
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 46 1755 1760 "src/ext/pta/uref.ml" 46 1755 1763
+type(
+  'a uref
+)
+ident(
+  def p'' "src/ext/pta/uref.ml" 47 1775 1779 "src/ext/pta/uref.ml" 47 1775 1797
+)
+"src/ext/pta/uref.ml" 46 1755 1766 "src/ext/pta/uref.ml" 46 1755 1770
+type(
+  'a uref -> 'a uref
+)
+ident(
+  int_ref find "src/ext/pta/uref.ml" 42 1687 1695 "src/ext/pta/uref.ml" 42 1687 1699
+)
+"src/ext/pta/uref.ml" 46 1755 1771 "src/ext/pta/uref.ml" 46 1755 1773
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 45 1738 1749 "src/ext/pta/uref.ml" 45 1738 1751
+)
+"src/ext/pta/uref.ml" 46 1755 1766 "src/ext/pta/uref.ml" 46 1755 1773
+call(
+  stack
+)
+type(
+  'a uref
+)
+"src/ext/pta/uref.ml" 47 1775 1779 "src/ext/pta/uref.ml" 47 1775 1780
+type(
+  'a uref
+)
+ident(
+  int_ref p "src/ext/pta/uref.ml" 42 1687 1700 "src/ext/pta/uref.ml" 42 1687 1701
+)
+"src/ext/pta/uref.ml" 47 1775 1781 "src/ext/pta/uref.ml" 47 1775 1783
+type(
+  'a uref -> 'a urefC -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/pta/uref.ml" 47 1775 1789 "src/ext/pta/uref.ml" 47 1775 1792
+type(
+  'a uref
+)
+ident(
+  int_ref p'' "src/ext/pta/uref.ml" 46 1755 1760 "src/ext/pta/uref.ml" 46 1755 1763
+)
+"src/ext/pta/uref.ml" 47 1775 1784 "src/ext/pta/uref.ml" 47 1775 1792
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 47 1775 1779 "src/ext/pta/uref.ml" 47 1775 1792
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 47 1775 1794 "src/ext/pta/uref.ml" 47 1775 1797
+type(
+  'a uref
+)
+ident(
+  int_ref p'' "src/ext/pta/uref.ml" 46 1755 1760 "src/ext/pta/uref.ml" 46 1755 1763
+)
+"src/ext/pta/uref.ml" 47 1775 1779 "src/ext/pta/uref.ml" 47 1775 1797
+type(
+  'a uref
+)
+"src/ext/pta/uref.ml" 46 1755 1756 "src/ext/pta/uref.ml" 47 1775 1797
+type(
+  'a uref
+)
+"src/ext/pta/uref.ml" 43 1705 1707 "src/ext/pta/uref.ml" 47 1775 1797
+type(
+  'a uref
+)
+"src/ext/pta/uref.ml" 49 1799 1803 "src/ext/pta/uref.ml" 49 1799 1807
+type(
+  'a -> 'a urefC ref
+)
+ident(
+  def uref "src/ext/pta/uref.ml" 51 1828 1828 "src/ext/pta/uref.ml" 1 0 -1
+)
+"src/ext/pta/uref.ml" 49 1799 1808 "src/ext/pta/uref.ml" 49 1799 1809
+type(
+  'a
+)
+ident(
+  def x "src/ext/pta/uref.ml" 49 1799 1812 "src/ext/pta/uref.ml" 49 1799 1826
+)
+"src/ext/pta/uref.ml" 49 1799 1812 "src/ext/pta/uref.ml" 49 1799 1815
+type(
+  'a urefC -> 'a urefC ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/pta/uref.ml" 49 1799 1821 "src/ext/pta/uref.ml" 49 1799 1822
+type(
+  'a
+)
+ident(
+  int_ref x "src/ext/pta/uref.ml" 49 1799 1808 "src/ext/pta/uref.ml" 49 1799 1809
+)
+"src/ext/pta/uref.ml" 49 1799 1823 "src/ext/pta/uref.ml" 49 1799 1824
+type(
+  int
+)
+"src/ext/pta/uref.ml" 49 1799 1816 "src/ext/pta/uref.ml" 49 1799 1826
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 49 1799 1812 "src/ext/pta/uref.ml" 49 1799 1826
+type(
+  'a urefC ref
+)
+"src/ext/pta/uref.ml" 51 1828 1832 "src/ext/pta/uref.ml" 51 1828 1837
+type(
+  'a uref * 'a uref -> bool
+)
+ident(
+  def equal "src/ext/pta/uref.ml" 53 1868 1868 "src/ext/pta/uref.ml" 1 0 -1
+)
+"src/ext/pta/uref.ml" 51 1828 1839 "src/ext/pta/uref.ml" 51 1828 1840
+type(
+  'a uref
+)
+ident(
+  def p "src/ext/pta/uref.ml" 51 1828 1847 "src/ext/pta/uref.ml" 51 1828 1866
+)
+"src/ext/pta/uref.ml" 51 1828 1841 "src/ext/pta/uref.ml" 51 1828 1843
+type(
+  'a uref
+)
+ident(
+  def p' "src/ext/pta/uref.ml" 51 1828 1847 "src/ext/pta/uref.ml" 51 1828 1866
+)
+"src/ext/pta/uref.ml" 51 1828 1838 "src/ext/pta/uref.ml" 51 1828 1844
+type(
+  'a uref * 'a uref
+)
+"src/ext/pta/uref.ml" 51 1828 1848 "src/ext/pta/uref.ml" 51 1828 1852
+type(
+  'a uref -> 'a uref
+)
+ident(
+  int_ref find "src/ext/pta/uref.ml" 42 1687 1695 "src/ext/pta/uref.ml" 42 1687 1699
+)
+"src/ext/pta/uref.ml" 51 1828 1853 "src/ext/pta/uref.ml" 51 1828 1854
+type(
+  'a uref
+)
+ident(
+  int_ref p "src/ext/pta/uref.ml" 51 1828 1839 "src/ext/pta/uref.ml" 51 1828 1840
+)
+"src/ext/pta/uref.ml" 51 1828 1848 "src/ext/pta/uref.ml" 51 1828 1854
+call(
+  stack
+)
+type(
+  'a uref
+)
+"src/ext/pta/uref.ml" 51 1828 1855 "src/ext/pta/uref.ml" 51 1828 1857
+type(
+  'a uref -> 'a uref -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/ext/pta/uref.ml" 51 1828 1858 "src/ext/pta/uref.ml" 51 1828 1862
+type(
+  'a uref -> 'a uref
+)
+ident(
+  int_ref find "src/ext/pta/uref.ml" 42 1687 1695 "src/ext/pta/uref.ml" 42 1687 1699
+)
+"src/ext/pta/uref.ml" 51 1828 1863 "src/ext/pta/uref.ml" 51 1828 1865
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 51 1828 1841 "src/ext/pta/uref.ml" 51 1828 1843
+)
+"src/ext/pta/uref.ml" 51 1828 1858 "src/ext/pta/uref.ml" 51 1828 1865
+call(
+  stack
+)
+type(
+  'a uref
+)
+"src/ext/pta/uref.ml" 51 1828 1847 "src/ext/pta/uref.ml" 51 1828 1866
+type(
+  bool
+)
+"src/ext/pta/uref.ml" 53 1868 1872 "src/ext/pta/uref.ml" 53 1868 1877
+type(
+  'a uref -> 'a
+)
+ident(
+  def deref "src/ext/pta/uref.ml" 58 1956 1956 "src/ext/pta/uref.ml" 1 0 -1
+)
+"src/ext/pta/uref.ml" 53 1868 1878 "src/ext/pta/uref.ml" 53 1868 1879
+type(
+  'a uref
+)
+ident(
+  def p "src/ext/pta/uref.ml" 54 1883 1885 "src/ext/pta/uref.ml" 56 1929 1954
+)
+"src/ext/pta/uref.ml" 54 1883 1891 "src/ext/pta/uref.ml" 54 1883 1892
+type(
+  'a uref -> 'a urefC
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/pta/uref.ml" 54 1883 1894 "src/ext/pta/uref.ml" 54 1883 1898
+type(
+  'a uref -> 'a uref
+)
+ident(
+  int_ref find "src/ext/pta/uref.ml" 42 1687 1695 "src/ext/pta/uref.ml" 42 1687 1699
+)
+"src/ext/pta/uref.ml" 54 1883 1899 "src/ext/pta/uref.ml" 54 1883 1900
+type(
+  'a uref
+)
+ident(
+  int_ref p "src/ext/pta/uref.ml" 53 1868 1878 "src/ext/pta/uref.ml" 53 1868 1879
+)
+"src/ext/pta/uref.ml" 54 1883 1893 "src/ext/pta/uref.ml" 54 1883 1901
+call(
+  stack
+)
+type(
+  'a uref
+)
+"src/ext/pta/uref.ml" 54 1883 1891 "src/ext/pta/uref.ml" 54 1883 1901
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 55 1908 1919 "src/ext/pta/uref.ml" 55 1908 1920
+type(
+  'a
+)
+ident(
+  def x "src/ext/pta/uref.ml" 55 1908 1927 "src/ext/pta/uref.ml" 55 1908 1928
+)
+"src/ext/pta/uref.ml" 55 1908 1921 "src/ext/pta/uref.ml" 55 1908 1922
+type(
+  int
+)
+"src/ext/pta/uref.ml" 55 1908 1914 "src/ext/pta/uref.ml" 55 1908 1923
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 55 1908 1927 "src/ext/pta/uref.ml" 55 1908 1928
+type(
+  'a
+)
+ident(
+  int_ref x "src/ext/pta/uref.ml" 55 1908 1919 "src/ext/pta/uref.ml" 55 1908 1920
+)
+"src/ext/pta/uref.ml" 56 1929 1935 "src/ext/pta/uref.ml" 56 1929 1936
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 56 1929 1940 "src/ext/pta/uref.ml" 56 1929 1945
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/pta/uref.ml" 56 1929 1946 "src/ext/pta/uref.ml" 56 1929 1954
+type(
+  exn
+)
+"src/ext/pta/uref.ml" 56 1929 1940 "src/ext/pta/uref.ml" 56 1929 1954
+type(
+  'a
+)
+"src/ext/pta/uref.ml" 54 1883 1885 "src/ext/pta/uref.ml" 56 1929 1954
+type(
+  'a
+)
+"src/ext/pta/uref.ml" 58 1956 1960 "src/ext/pta/uref.ml" 58 1956 1966
+type(
+  'a uref * 'a -> unit
+)
+ident(
+  def update "src/ext/pta/uref.ml" 65 2093 2093 "src/ext/pta/uref.ml" 1 0 -1
+)
+"src/ext/pta/uref.ml" 58 1956 1968 "src/ext/pta/uref.ml" 58 1956 1969
+type(
+  'a uref
+)
+ident(
+  def p "src/ext/pta/uref.ml" 59 1976 1978 "src/ext/pta/uref.ml" 63 2061 2088
+)
+"src/ext/pta/uref.ml" 58 1956 1970 "src/ext/pta/uref.ml" 58 1956 1971
+type(
+  'a
+)
+ident(
+  def x "src/ext/pta/uref.ml" 59 1976 1978 "src/ext/pta/uref.ml" 63 2061 2088
+)
+"src/ext/pta/uref.ml" 58 1956 1967 "src/ext/pta/uref.ml" 58 1956 1972
+type(
+  'a uref * 'a
+)
+"src/ext/pta/uref.ml" 59 1976 1982 "src/ext/pta/uref.ml" 59 1976 1984
+type(
+  'a uref
+)
+ident(
+  def p' "src/ext/pta/uref.ml" 61 2000 2004 "src/ext/pta/uref.ml" 63 2061 2088
+)
+"src/ext/pta/uref.ml" 59 1976 1987 "src/ext/pta/uref.ml" 59 1976 1991
+type(
+  'a uref -> 'a uref
+)
+ident(
+  int_ref find "src/ext/pta/uref.ml" 42 1687 1695 "src/ext/pta/uref.ml" 42 1687 1699
+)
+"src/ext/pta/uref.ml" 59 1976 1992 "src/ext/pta/uref.ml" 59 1976 1993
+type(
+  'a uref
+)
+ident(
+  int_ref p "src/ext/pta/uref.ml" 58 1956 1968 "src/ext/pta/uref.ml" 58 1956 1969
+)
+"src/ext/pta/uref.ml" 59 1976 1987 "src/ext/pta/uref.ml" 59 1976 1993
+call(
+  stack
+)
+type(
+  'a uref
+)
+"src/ext/pta/uref.ml" 61 2000 2010 "src/ext/pta/uref.ml" 61 2000 2011
+type(
+  'a uref -> 'a urefC
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/pta/uref.ml" 61 2000 2011 "src/ext/pta/uref.ml" 61 2000 2013
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 59 1976 1982 "src/ext/pta/uref.ml" 59 1976 1984
+)
+"src/ext/pta/uref.ml" 61 2000 2010 "src/ext/pta/uref.ml" 61 2000 2013
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 62 2019 2032 "src/ext/pta/uref.ml" 62 2019 2033
+type(
+  'a
+)
+"src/ext/pta/uref.ml" 62 2019 2034 "src/ext/pta/uref.ml" 62 2019 2038
+type(
+  int
+)
+ident(
+  def rank "src/ext/pta/uref.ml" 62 2019 2043 "src/ext/pta/uref.ml" 62 2019 2060
+)
+"src/ext/pta/uref.ml" 62 2019 2027 "src/ext/pta/uref.ml" 62 2019 2039
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 62 2019 2043 "src/ext/pta/uref.ml" 62 2019 2045
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 59 1976 1982 "src/ext/pta/uref.ml" 59 1976 1984
+)
+"src/ext/pta/uref.ml" 62 2019 2046 "src/ext/pta/uref.ml" 62 2019 2048
+type(
+  'a uref -> 'a urefC -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/pta/uref.ml" 62 2019 2053 "src/ext/pta/uref.ml" 62 2019 2054
+type(
+  'a
+)
+ident(
+  int_ref x "src/ext/pta/uref.ml" 58 1956 1970 "src/ext/pta/uref.ml" 58 1956 1971
+)
+"src/ext/pta/uref.ml" 62 2019 2055 "src/ext/pta/uref.ml" 62 2019 2059
+type(
+  int
+)
+ident(
+  int_ref rank "src/ext/pta/uref.ml" 62 2019 2034 "src/ext/pta/uref.ml" 62 2019 2038
+)
+"src/ext/pta/uref.ml" 62 2019 2049 "src/ext/pta/uref.ml" 62 2019 2060
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 62 2019 2043 "src/ext/pta/uref.ml" 62 2019 2060
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 63 2061 2069 "src/ext/pta/uref.ml" 63 2061 2070
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 63 2061 2074 "src/ext/pta/uref.ml" 63 2061 2079
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/pta/uref.ml" 63 2061 2080 "src/ext/pta/uref.ml" 63 2061 2088
+type(
+  exn
+)
+"src/ext/pta/uref.ml" 63 2061 2074 "src/ext/pta/uref.ml" 63 2061 2088
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 61 2000 2004 "src/ext/pta/uref.ml" 63 2061 2088
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 59 1976 1978 "src/ext/pta/uref.ml" 63 2061 2088
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 65 2093 2097 "src/ext/pta/uref.ml" 65 2093 2102
+type(
+  ('a * 'a -> 'a) -> 'a uref * 'a uref -> unit
+)
+ident(
+  def unify "src/ext/pta/uref.ml" 80 2526 2526 "src/ext/pta/uref.ml" 1 0 -1
+)
+"src/ext/pta/uref.ml" 65 2093 2103 "src/ext/pta/uref.ml" 65 2093 2104
+type(
+  'a * 'a -> 'a
+)
+ident(
+  def f "src/ext/pta/uref.ml" 65 2093 2105 "src/ext/pta/uref.ml" 78 2494 2521
+)
+"src/ext/pta/uref.ml" 65 2093 2106 "src/ext/pta/uref.ml" 65 2093 2107
+type(
+  'a uref
+)
+ident(
+  def p "src/ext/pta/uref.ml" 66 2114 2116 "src/ext/pta/uref.ml" 78 2494 2521
+)
+"src/ext/pta/uref.ml" 65 2093 2108 "src/ext/pta/uref.ml" 65 2093 2109
+type(
+  'a uref
+)
+ident(
+  def q "src/ext/pta/uref.ml" 66 2114 2116 "src/ext/pta/uref.ml" 78 2494 2521
+)
+"src/ext/pta/uref.ml" 65 2093 2105 "src/ext/pta/uref.ml" 65 2093 2110
+type(
+  'a uref * 'a uref
+)
+"src/ext/pta/uref.ml" 66 2114 2120 "src/ext/pta/uref.ml" 66 2114 2122
+type(
+  'a uref
+)
+ident(
+  def p' "src/ext/pta/uref.ml" 67 2146 2150 "src/ext/pta/uref.ml" 78 2494 2521
+)
+"src/ext/pta/uref.ml" 66 2114 2123 "src/ext/pta/uref.ml" 66 2114 2125
+type(
+  'a uref
+)
+ident(
+  def q' "src/ext/pta/uref.ml" 67 2146 2150 "src/ext/pta/uref.ml" 78 2494 2521
+)
+"src/ext/pta/uref.ml" 66 2114 2120 "src/ext/pta/uref.ml" 66 2114 2125
+type(
+  'a uref * 'a uref
+)
+"src/ext/pta/uref.ml" 66 2114 2128 "src/ext/pta/uref.ml" 66 2114 2132
+type(
+  'a uref -> 'a uref
+)
+ident(
+  int_ref find "src/ext/pta/uref.ml" 42 1687 1695 "src/ext/pta/uref.ml" 42 1687 1699
+)
+"src/ext/pta/uref.ml" 66 2114 2133 "src/ext/pta/uref.ml" 66 2114 2134
+type(
+  'a uref
+)
+ident(
+  int_ref p "src/ext/pta/uref.ml" 65 2093 2106 "src/ext/pta/uref.ml" 65 2093 2107
+)
+"src/ext/pta/uref.ml" 66 2114 2128 "src/ext/pta/uref.ml" 66 2114 2134
+call(
+  stack
+)
+type(
+  'a uref
+)
+"src/ext/pta/uref.ml" 66 2114 2136 "src/ext/pta/uref.ml" 66 2114 2140
+type(
+  'a uref -> 'a uref
+)
+ident(
+  int_ref find "src/ext/pta/uref.ml" 42 1687 1695 "src/ext/pta/uref.ml" 42 1687 1699
+)
+"src/ext/pta/uref.ml" 66 2114 2141 "src/ext/pta/uref.ml" 66 2114 2142
+type(
+  'a uref
+)
+ident(
+  int_ref q "src/ext/pta/uref.ml" 65 2093 2108 "src/ext/pta/uref.ml" 65 2093 2109
+)
+"src/ext/pta/uref.ml" 66 2114 2136 "src/ext/pta/uref.ml" 66 2114 2142
+call(
+  stack
+)
+type(
+  'a uref
+)
+"src/ext/pta/uref.ml" 66 2114 2128 "src/ext/pta/uref.ml" 66 2114 2142
+type(
+  'a uref * 'a uref
+)
+"src/ext/pta/uref.ml" 67 2146 2157 "src/ext/pta/uref.ml" 67 2146 2158
+type(
+  'a uref -> 'a urefC
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/pta/uref.ml" 67 2146 2158 "src/ext/pta/uref.ml" 67 2146 2160
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 66 2114 2120 "src/ext/pta/uref.ml" 66 2114 2122
+)
+"src/ext/pta/uref.ml" 67 2146 2157 "src/ext/pta/uref.ml" 67 2146 2160
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 67 2146 2161 "src/ext/pta/uref.ml" 67 2146 2162
+type(
+  'a uref -> 'a urefC
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/pta/uref.ml" 67 2146 2162 "src/ext/pta/uref.ml" 67 2146 2164
+type(
+  'a uref
+)
+ident(
+  int_ref q' "src/ext/pta/uref.ml" 66 2114 2123 "src/ext/pta/uref.ml" 66 2114 2125
+)
+"src/ext/pta/uref.ml" 67 2146 2161 "src/ext/pta/uref.ml" 67 2146 2164
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 67 2146 2156 "src/ext/pta/uref.ml" 67 2146 2165
+type(
+  'a urefC * 'a urefC
+)
+"src/ext/pta/uref.ml" 68 2172 2185 "src/ext/pta/uref.ml" 68 2172 2187
+type(
+  'a
+)
+ident(
+  def px "src/ext/pta/uref.ml" 69 2207 2208 "src/ext/pta/uref.ml" 77 2446 2493
+)
+"src/ext/pta/uref.ml" 68 2172 2188 "src/ext/pta/uref.ml" 68 2172 2190
+type(
+  int
+)
+ident(
+  def pr "src/ext/pta/uref.ml" 69 2207 2208 "src/ext/pta/uref.ml" 77 2446 2493
+)
+"src/ext/pta/uref.ml" 68 2172 2181 "src/ext/pta/uref.ml" 68 2172 2191
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 68 2172 2196 "src/ext/pta/uref.ml" 68 2172 2198
+type(
+  'a
+)
+ident(
+  def qx "src/ext/pta/uref.ml" 69 2207 2208 "src/ext/pta/uref.ml" 77 2446 2493
+)
+"src/ext/pta/uref.ml" 68 2172 2199 "src/ext/pta/uref.ml" 68 2172 2201
+type(
+  int
+)
+ident(
+  def qr "src/ext/pta/uref.ml" 69 2207 2208 "src/ext/pta/uref.ml" 77 2446 2493
+)
+"src/ext/pta/uref.ml" 68 2172 2192 "src/ext/pta/uref.ml" 68 2172 2202
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 68 2172 2180 "src/ext/pta/uref.ml" 68 2172 2203
+type(
+  'a urefC * 'a urefC
+)
+"src/ext/pta/uref.ml" 69 2207 2212 "src/ext/pta/uref.ml" 69 2207 2213
+type(
+  unit -> 'a
+)
+ident(
+  def x "src/ext/pta/uref.ml" 70 2231 2234 "src/ext/pta/uref.ml" 77 2446 2493
+)
+"src/ext/pta/uref.ml" 69 2207 2214 "src/ext/pta/uref.ml" 69 2207 2216
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 69 2207 2219 "src/ext/pta/uref.ml" 69 2207 2220
+type(
+  'a * 'a -> 'a
+)
+ident(
+  int_ref f "src/ext/pta/uref.ml" 65 2093 2103 "src/ext/pta/uref.ml" 65 2093 2104
+)
+"src/ext/pta/uref.ml" 69 2207 2221 "src/ext/pta/uref.ml" 69 2207 2223
+type(
+  'a
+)
+ident(
+  int_ref px "src/ext/pta/uref.ml" 68 2172 2185 "src/ext/pta/uref.ml" 68 2172 2187
+)
+"src/ext/pta/uref.ml" 69 2207 2224 "src/ext/pta/uref.ml" 69 2207 2226
+type(
+  'a
+)
+ident(
+  int_ref qx "src/ext/pta/uref.ml" 68 2172 2196 "src/ext/pta/uref.ml" 68 2172 2198
+)
+"src/ext/pta/uref.ml" 69 2207 2220 "src/ext/pta/uref.ml" 69 2207 2227
+type(
+  'a * 'a
+)
+"src/ext/pta/uref.ml" 69 2207 2219 "src/ext/pta/uref.ml" 69 2207 2227
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ext/pta/uref.ml" 70 2231 2238 "src/ext/pta/uref.ml" 70 2231 2240
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 66 2114 2120 "src/ext/pta/uref.ml" 66 2114 2122
+)
+"src/ext/pta/uref.ml" 70 2231 2241 "src/ext/pta/uref.ml" 70 2231 2243
+type(
+  'a uref -> 'a uref -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/ext/pta/uref.ml" 70 2231 2244 "src/ext/pta/uref.ml" 70 2231 2246
+type(
+  'a uref
+)
+ident(
+  int_ref q' "src/ext/pta/uref.ml" 66 2114 2123 "src/ext/pta/uref.ml" 66 2114 2125
+)
+"src/ext/pta/uref.ml" 70 2231 2237 "src/ext/pta/uref.ml" 70 2231 2247
+type(
+  bool
+)
+"src/ext/pta/uref.ml" 71 2253 2258 "src/ext/pta/uref.ml" 71 2253 2260
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 66 2114 2120 "src/ext/pta/uref.ml" 66 2114 2122
+)
+"src/ext/pta/uref.ml" 71 2253 2261 "src/ext/pta/uref.ml" 71 2253 2263
+type(
+  'a uref -> 'a urefC -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/pta/uref.ml" 71 2253 2268 "src/ext/pta/uref.ml" 71 2253 2269
+type(
+  unit -> 'a
+)
+ident(
+  int_ref x "src/ext/pta/uref.ml" 69 2207 2212 "src/ext/pta/uref.ml" 69 2207 2213
+)
+"src/ext/pta/uref.ml" 71 2253 2270 "src/ext/pta/uref.ml" 71 2253 2272
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 71 2253 2268 "src/ext/pta/uref.ml" 71 2253 2272
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ext/pta/uref.ml" 71 2253 2273 "src/ext/pta/uref.ml" 71 2253 2275
+type(
+  int
+)
+ident(
+  int_ref pr "src/ext/pta/uref.ml" 68 2172 2188 "src/ext/pta/uref.ml" 68 2172 2190
+)
+"src/ext/pta/uref.ml" 71 2253 2264 "src/ext/pta/uref.ml" 71 2253 2276
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 71 2253 2258 "src/ext/pta/uref.ml" 71 2253 2276
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 72 2277 2288 "src/ext/pta/uref.ml" 72 2277 2290
+type(
+  int
+)
+ident(
+  int_ref pr "src/ext/pta/uref.ml" 68 2172 2188 "src/ext/pta/uref.ml" 68 2172 2190
+)
+"src/ext/pta/uref.ml" 72 2277 2291 "src/ext/pta/uref.ml" 72 2277 2293
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/ext/pta/uref.ml" 72 2277 2294 "src/ext/pta/uref.ml" 72 2277 2296
+type(
+  int
+)
+ident(
+  int_ref qr "src/ext/pta/uref.ml" 68 2172 2199 "src/ext/pta/uref.ml" 68 2172 2201
+)
+"src/ext/pta/uref.ml" 72 2277 2288 "src/ext/pta/uref.ml" 72 2277 2296
+type(
+  bool
+)
+"src/ext/pta/uref.ml" 73 2302 2315 "src/ext/pta/uref.ml" 73 2302 2317
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 66 2114 2120 "src/ext/pta/uref.ml" 66 2114 2122
+)
+"src/ext/pta/uref.ml" 73 2302 2318 "src/ext/pta/uref.ml" 73 2302 2320
+type(
+  'a uref -> 'a urefC -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/pta/uref.ml" 73 2302 2326 "src/ext/pta/uref.ml" 73 2302 2328
+type(
+  'a uref
+)
+ident(
+  int_ref q' "src/ext/pta/uref.ml" 66 2114 2123 "src/ext/pta/uref.ml" 66 2114 2125
+)
+"src/ext/pta/uref.ml" 73 2302 2321 "src/ext/pta/uref.ml" 73 2302 2328
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 73 2302 2315 "src/ext/pta/uref.ml" 73 2302 2328
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 73 2302 2330 "src/ext/pta/uref.ml" 73 2302 2332
+type(
+  'a uref
+)
+ident(
+  int_ref q' "src/ext/pta/uref.ml" 66 2114 2123 "src/ext/pta/uref.ml" 66 2114 2125
+)
+"src/ext/pta/uref.ml" 73 2302 2333 "src/ext/pta/uref.ml" 73 2302 2335
+type(
+  'a uref -> 'a urefC -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/pta/uref.ml" 73 2302 2340 "src/ext/pta/uref.ml" 73 2302 2341
+type(
+  unit -> 'a
+)
+ident(
+  int_ref x "src/ext/pta/uref.ml" 69 2207 2212 "src/ext/pta/uref.ml" 69 2207 2213
+)
+"src/ext/pta/uref.ml" 73 2302 2342 "src/ext/pta/uref.ml" 73 2302 2344
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 73 2302 2340 "src/ext/pta/uref.ml" 73 2302 2344
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ext/pta/uref.ml" 73 2302 2345 "src/ext/pta/uref.ml" 73 2302 2347
+type(
+  int
+)
+ident(
+  int_ref qr "src/ext/pta/uref.ml" 68 2172 2199 "src/ext/pta/uref.ml" 68 2172 2201
+)
+"src/ext/pta/uref.ml" 73 2302 2347 "src/ext/pta/uref.ml" 73 2302 2348
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/pta/uref.ml" 73 2302 2348 "src/ext/pta/uref.ml" 73 2302 2349
+type(
+  int
+)
+"src/ext/pta/uref.ml" 73 2302 2345 "src/ext/pta/uref.ml" 73 2302 2349
+type(
+  int
+)
+"src/ext/pta/uref.ml" 73 2302 2336 "src/ext/pta/uref.ml" 73 2302 2350
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 73 2302 2330 "src/ext/pta/uref.ml" 73 2302 2350
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 73 2302 2314 "src/ext/pta/uref.ml" 73 2302 2351
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 74 2352 2363 "src/ext/pta/uref.ml" 74 2352 2365
+type(
+  int
+)
+ident(
+  int_ref pr "src/ext/pta/uref.ml" 68 2172 2188 "src/ext/pta/uref.ml" 68 2172 2190
+)
+"src/ext/pta/uref.ml" 74 2352 2366 "src/ext/pta/uref.ml" 74 2352 2367
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ext/pta/uref.ml" 74 2352 2368 "src/ext/pta/uref.ml" 74 2352 2370
+type(
+  int
+)
+ident(
+  int_ref qr "src/ext/pta/uref.ml" 68 2172 2199 "src/ext/pta/uref.ml" 68 2172 2201
+)
+"src/ext/pta/uref.ml" 74 2352 2363 "src/ext/pta/uref.ml" 74 2352 2370
+type(
+  bool
+)
+"src/ext/pta/uref.ml" 75 2376 2389 "src/ext/pta/uref.ml" 75 2376 2391
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 66 2114 2120 "src/ext/pta/uref.ml" 66 2114 2122
+)
+"src/ext/pta/uref.ml" 75 2376 2392 "src/ext/pta/uref.ml" 75 2376 2394
+type(
+  'a uref -> 'a urefC -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/pta/uref.ml" 75 2376 2400 "src/ext/pta/uref.ml" 75 2376 2402
+type(
+  'a uref
+)
+ident(
+  int_ref q' "src/ext/pta/uref.ml" 66 2114 2123 "src/ext/pta/uref.ml" 66 2114 2125
+)
+"src/ext/pta/uref.ml" 75 2376 2395 "src/ext/pta/uref.ml" 75 2376 2402
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 75 2376 2389 "src/ext/pta/uref.ml" 75 2376 2402
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 75 2376 2404 "src/ext/pta/uref.ml" 75 2376 2406
+type(
+  'a uref
+)
+ident(
+  int_ref q' "src/ext/pta/uref.ml" 66 2114 2123 "src/ext/pta/uref.ml" 66 2114 2125
+)
+"src/ext/pta/uref.ml" 75 2376 2407 "src/ext/pta/uref.ml" 75 2376 2409
+type(
+  'a uref -> 'a urefC -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/pta/uref.ml" 75 2376 2414 "src/ext/pta/uref.ml" 75 2376 2415
+type(
+  unit -> 'a
+)
+ident(
+  int_ref x "src/ext/pta/uref.ml" 69 2207 2212 "src/ext/pta/uref.ml" 69 2207 2213
+)
+"src/ext/pta/uref.ml" 75 2376 2416 "src/ext/pta/uref.ml" 75 2376 2418
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 75 2376 2414 "src/ext/pta/uref.ml" 75 2376 2418
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ext/pta/uref.ml" 75 2376 2419 "src/ext/pta/uref.ml" 75 2376 2421
+type(
+  int
+)
+ident(
+  int_ref qr "src/ext/pta/uref.ml" 68 2172 2199 "src/ext/pta/uref.ml" 68 2172 2201
+)
+"src/ext/pta/uref.ml" 75 2376 2410 "src/ext/pta/uref.ml" 75 2376 2422
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 75 2376 2404 "src/ext/pta/uref.ml" 75 2376 2422
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 75 2376 2388 "src/ext/pta/uref.ml" 75 2376 2423
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 77 2446 2459 "src/ext/pta/uref.ml" 77 2446 2461
+type(
+  'a uref
+)
+ident(
+  int_ref q' "src/ext/pta/uref.ml" 66 2114 2123 "src/ext/pta/uref.ml" 66 2114 2125
+)
+"src/ext/pta/uref.ml" 77 2446 2462 "src/ext/pta/uref.ml" 77 2446 2464
+type(
+  'a uref -> 'a urefC -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/pta/uref.ml" 77 2446 2470 "src/ext/pta/uref.ml" 77 2446 2472
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 66 2114 2120 "src/ext/pta/uref.ml" 66 2114 2122
+)
+"src/ext/pta/uref.ml" 77 2446 2465 "src/ext/pta/uref.ml" 77 2446 2472
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 77 2446 2459 "src/ext/pta/uref.ml" 77 2446 2472
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 77 2446 2474 "src/ext/pta/uref.ml" 77 2446 2476
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 66 2114 2120 "src/ext/pta/uref.ml" 66 2114 2122
+)
+"src/ext/pta/uref.ml" 77 2446 2477 "src/ext/pta/uref.ml" 77 2446 2479
+type(
+  'a uref -> 'a urefC -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/pta/uref.ml" 77 2446 2484 "src/ext/pta/uref.ml" 77 2446 2485
+type(
+  unit -> 'a
+)
+ident(
+  int_ref x "src/ext/pta/uref.ml" 69 2207 2212 "src/ext/pta/uref.ml" 69 2207 2213
+)
+"src/ext/pta/uref.ml" 77 2446 2486 "src/ext/pta/uref.ml" 77 2446 2488
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 77 2446 2484 "src/ext/pta/uref.ml" 77 2446 2488
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ext/pta/uref.ml" 77 2446 2489 "src/ext/pta/uref.ml" 77 2446 2491
+type(
+  int
+)
+ident(
+  int_ref pr "src/ext/pta/uref.ml" 68 2172 2188 "src/ext/pta/uref.ml" 68 2172 2190
+)
+"src/ext/pta/uref.ml" 77 2446 2480 "src/ext/pta/uref.ml" 77 2446 2492
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 77 2446 2474 "src/ext/pta/uref.ml" 77 2446 2492
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 77 2446 2458 "src/ext/pta/uref.ml" 77 2446 2493
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 74 2352 2360 "src/ext/pta/uref.ml" 77 2446 2493
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 72 2277 2285 "src/ext/pta/uref.ml" 77 2446 2493
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 70 2231 2234 "src/ext/pta/uref.ml" 77 2446 2493
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 69 2207 2208 "src/ext/pta/uref.ml" 77 2446 2493
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 78 2494 2502 "src/ext/pta/uref.ml" 78 2494 2503
+type(
+  'a urefC * 'a urefC
+)
+"src/ext/pta/uref.ml" 78 2494 2507 "src/ext/pta/uref.ml" 78 2494 2512
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/pta/uref.ml" 78 2494 2513 "src/ext/pta/uref.ml" 78 2494 2521
+type(
+  exn
+)
+"src/ext/pta/uref.ml" 78 2494 2507 "src/ext/pta/uref.ml" 78 2494 2521
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 67 2146 2150 "src/ext/pta/uref.ml" 78 2494 2521
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 66 2114 2116 "src/ext/pta/uref.ml" 78 2494 2521
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 80 2526 2530 "src/ext/pta/uref.ml" 80 2526 2535
+type(
+  'a uref * 'a uref -> unit
+)
+ident(
+  def union "src/ext/pta/uref.ml" 92 2820 2847 "src/ext/pta/uref.ml" 1 0 -1
+)
+"src/ext/pta/uref.ml" 80 2526 2537 "src/ext/pta/uref.ml" 80 2526 2538
+type(
+  'a uref
+)
+ident(
+  def p "src/ext/pta/uref.ml" 81 2545 2547 "src/ext/pta/uref.ml" 92 2820 2847
+)
+"src/ext/pta/uref.ml" 80 2526 2539 "src/ext/pta/uref.ml" 80 2526 2540
+type(
+  'a uref
+)
+ident(
+  def q "src/ext/pta/uref.ml" 81 2545 2547 "src/ext/pta/uref.ml" 92 2820 2847
+)
+"src/ext/pta/uref.ml" 80 2526 2536 "src/ext/pta/uref.ml" 80 2526 2541
+type(
+  'a uref * 'a uref
+)
+"src/ext/pta/uref.ml" 81 2545 2551 "src/ext/pta/uref.ml" 81 2545 2553
+type(
+  'a uref
+)
+ident(
+  def p' "src/ext/pta/uref.ml" 82 2577 2581 "src/ext/pta/uref.ml" 92 2820 2847
+)
+"src/ext/pta/uref.ml" 81 2545 2554 "src/ext/pta/uref.ml" 81 2545 2556
+type(
+  'a uref
+)
+ident(
+  def q' "src/ext/pta/uref.ml" 82 2577 2581 "src/ext/pta/uref.ml" 92 2820 2847
+)
+"src/ext/pta/uref.ml" 81 2545 2551 "src/ext/pta/uref.ml" 81 2545 2556
+type(
+  'a uref * 'a uref
+)
+"src/ext/pta/uref.ml" 81 2545 2559 "src/ext/pta/uref.ml" 81 2545 2563
+type(
+  'a uref -> 'a uref
+)
+ident(
+  int_ref find "src/ext/pta/uref.ml" 42 1687 1695 "src/ext/pta/uref.ml" 42 1687 1699
+)
+"src/ext/pta/uref.ml" 81 2545 2564 "src/ext/pta/uref.ml" 81 2545 2565
+type(
+  'a uref
+)
+ident(
+  int_ref p "src/ext/pta/uref.ml" 80 2526 2537 "src/ext/pta/uref.ml" 80 2526 2538
+)
+"src/ext/pta/uref.ml" 81 2545 2559 "src/ext/pta/uref.ml" 81 2545 2565
+call(
+  stack
+)
+type(
+  'a uref
+)
+"src/ext/pta/uref.ml" 81 2545 2567 "src/ext/pta/uref.ml" 81 2545 2571
+type(
+  'a uref -> 'a uref
+)
+ident(
+  int_ref find "src/ext/pta/uref.ml" 42 1687 1695 "src/ext/pta/uref.ml" 42 1687 1699
+)
+"src/ext/pta/uref.ml" 81 2545 2572 "src/ext/pta/uref.ml" 81 2545 2573
+type(
+  'a uref
+)
+ident(
+  int_ref q "src/ext/pta/uref.ml" 80 2526 2539 "src/ext/pta/uref.ml" 80 2526 2540
+)
+"src/ext/pta/uref.ml" 81 2545 2567 "src/ext/pta/uref.ml" 81 2545 2573
+call(
+  stack
+)
+type(
+  'a uref
+)
+"src/ext/pta/uref.ml" 81 2545 2559 "src/ext/pta/uref.ml" 81 2545 2573
+type(
+  'a uref * 'a uref
+)
+"src/ext/pta/uref.ml" 82 2577 2588 "src/ext/pta/uref.ml" 82 2577 2589
+type(
+  'a uref -> 'a urefC
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/pta/uref.ml" 82 2577 2589 "src/ext/pta/uref.ml" 82 2577 2591
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 81 2545 2551 "src/ext/pta/uref.ml" 81 2545 2553
+)
+"src/ext/pta/uref.ml" 82 2577 2588 "src/ext/pta/uref.ml" 82 2577 2591
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 82 2577 2592 "src/ext/pta/uref.ml" 82 2577 2593
+type(
+  'a uref -> 'a urefC
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/pta/uref.ml" 82 2577 2593 "src/ext/pta/uref.ml" 82 2577 2595
+type(
+  'a uref
+)
+ident(
+  int_ref q' "src/ext/pta/uref.ml" 81 2545 2554 "src/ext/pta/uref.ml" 81 2545 2556
+)
+"src/ext/pta/uref.ml" 82 2577 2592 "src/ext/pta/uref.ml" 82 2577 2595
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 82 2577 2587 "src/ext/pta/uref.ml" 82 2577 2596
+type(
+  'a urefC * 'a urefC
+)
+"src/ext/pta/uref.ml" 83 2603 2616 "src/ext/pta/uref.ml" 83 2603 2618
+type(
+  'a
+)
+ident(
+  def px "src/ext/pta/uref.ml" 84 2638 2641 "src/ext/pta/uref.ml" 91 2801 2819
+)
+"src/ext/pta/uref.ml" 83 2603 2619 "src/ext/pta/uref.ml" 83 2603 2621
+type(
+  int
+)
+ident(
+  def pr "src/ext/pta/uref.ml" 84 2638 2641 "src/ext/pta/uref.ml" 91 2801 2819
+)
+"src/ext/pta/uref.ml" 83 2603 2612 "src/ext/pta/uref.ml" 83 2603 2622
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 83 2603 2627 "src/ext/pta/uref.ml" 83 2603 2629
+type(
+  'a
+)
+ident(
+  def qx "src/ext/pta/uref.ml" 84 2638 2641 "src/ext/pta/uref.ml" 91 2801 2819
+)
+"src/ext/pta/uref.ml" 83 2603 2630 "src/ext/pta/uref.ml" 83 2603 2632
+type(
+  int
+)
+ident(
+  def qr "src/ext/pta/uref.ml" 84 2638 2641 "src/ext/pta/uref.ml" 91 2801 2819
+)
+"src/ext/pta/uref.ml" 83 2603 2623 "src/ext/pta/uref.ml" 83 2603 2633
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 83 2603 2611 "src/ext/pta/uref.ml" 83 2603 2634
+type(
+  'a urefC * 'a urefC
+)
+"src/ext/pta/uref.ml" 84 2638 2645 "src/ext/pta/uref.ml" 84 2638 2647
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 81 2545 2551 "src/ext/pta/uref.ml" 81 2545 2553
+)
+"src/ext/pta/uref.ml" 84 2638 2648 "src/ext/pta/uref.ml" 84 2638 2650
+type(
+  'a uref -> 'a uref -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/ext/pta/uref.ml" 84 2638 2651 "src/ext/pta/uref.ml" 84 2638 2653
+type(
+  'a uref
+)
+ident(
+  int_ref q' "src/ext/pta/uref.ml" 81 2545 2554 "src/ext/pta/uref.ml" 81 2545 2556
+)
+"src/ext/pta/uref.ml" 84 2638 2644 "src/ext/pta/uref.ml" 84 2638 2654
+type(
+  bool
+)
+"src/ext/pta/uref.ml" 85 2661 2666 "src/ext/pta/uref.ml" 85 2661 2668
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 86 2669 2680 "src/ext/pta/uref.ml" 86 2669 2682
+type(
+  int
+)
+ident(
+  int_ref pr "src/ext/pta/uref.ml" 83 2603 2619 "src/ext/pta/uref.ml" 83 2603 2621
+)
+"src/ext/pta/uref.ml" 86 2669 2683 "src/ext/pta/uref.ml" 86 2669 2685
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/ext/pta/uref.ml" 86 2669 2686 "src/ext/pta/uref.ml" 86 2669 2688
+type(
+  int
+)
+ident(
+  int_ref qr "src/ext/pta/uref.ml" 83 2603 2630 "src/ext/pta/uref.ml" 83 2603 2632
+)
+"src/ext/pta/uref.ml" 86 2669 2680 "src/ext/pta/uref.ml" 86 2669 2688
+type(
+  bool
+)
+"src/ext/pta/uref.ml" 87 2694 2700 "src/ext/pta/uref.ml" 87 2694 2702
+type(
+  'a uref
+)
+ident(
+  int_ref q' "src/ext/pta/uref.ml" 81 2545 2554 "src/ext/pta/uref.ml" 81 2545 2556
+)
+"src/ext/pta/uref.ml" 87 2694 2703 "src/ext/pta/uref.ml" 87 2694 2705
+type(
+  'a uref -> 'a urefC -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/pta/uref.ml" 87 2694 2710 "src/ext/pta/uref.ml" 87 2694 2712
+type(
+  'a
+)
+ident(
+  int_ref qx "src/ext/pta/uref.ml" 83 2603 2627 "src/ext/pta/uref.ml" 83 2603 2629
+)
+"src/ext/pta/uref.ml" 87 2694 2714 "src/ext/pta/uref.ml" 87 2694 2716
+type(
+  int
+)
+ident(
+  int_ref qr "src/ext/pta/uref.ml" 83 2603 2630 "src/ext/pta/uref.ml" 83 2603 2632
+)
+"src/ext/pta/uref.ml" 87 2694 2716 "src/ext/pta/uref.ml" 87 2694 2717
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/pta/uref.ml" 87 2694 2717 "src/ext/pta/uref.ml" 87 2694 2718
+type(
+  int
+)
+"src/ext/pta/uref.ml" 87 2694 2714 "src/ext/pta/uref.ml" 87 2694 2718
+type(
+  int
+)
+"src/ext/pta/uref.ml" 87 2694 2706 "src/ext/pta/uref.ml" 87 2694 2719
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 87 2694 2700 "src/ext/pta/uref.ml" 87 2694 2719
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 87 2694 2721 "src/ext/pta/uref.ml" 87 2694 2723
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 81 2545 2551 "src/ext/pta/uref.ml" 81 2545 2553
+)
+"src/ext/pta/uref.ml" 87 2694 2724 "src/ext/pta/uref.ml" 87 2694 2726
+type(
+  'a uref -> 'a urefC -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/pta/uref.ml" 87 2694 2732 "src/ext/pta/uref.ml" 87 2694 2734
+type(
+  'a uref
+)
+ident(
+  int_ref q' "src/ext/pta/uref.ml" 81 2545 2554 "src/ext/pta/uref.ml" 81 2545 2556
+)
+"src/ext/pta/uref.ml" 87 2694 2727 "src/ext/pta/uref.ml" 87 2694 2734
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 87 2694 2721 "src/ext/pta/uref.ml" 87 2694 2734
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 87 2694 2699 "src/ext/pta/uref.ml" 87 2694 2735
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 88 2736 2747 "src/ext/pta/uref.ml" 88 2736 2749
+type(
+  int
+)
+ident(
+  int_ref pr "src/ext/pta/uref.ml" 83 2603 2619 "src/ext/pta/uref.ml" 83 2603 2621
+)
+"src/ext/pta/uref.ml" 88 2736 2750 "src/ext/pta/uref.ml" 88 2736 2751
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ext/pta/uref.ml" 88 2736 2752 "src/ext/pta/uref.ml" 88 2736 2754
+type(
+  int
+)
+ident(
+  int_ref qr "src/ext/pta/uref.ml" 83 2603 2630 "src/ext/pta/uref.ml" 83 2603 2632
+)
+"src/ext/pta/uref.ml" 88 2736 2747 "src/ext/pta/uref.ml" 88 2736 2754
+type(
+  bool
+)
+"src/ext/pta/uref.ml" 89 2760 2765 "src/ext/pta/uref.ml" 89 2760 2767
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 81 2545 2551 "src/ext/pta/uref.ml" 81 2545 2553
+)
+"src/ext/pta/uref.ml" 89 2760 2768 "src/ext/pta/uref.ml" 89 2760 2770
+type(
+  'a uref -> 'a urefC -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/pta/uref.ml" 89 2760 2776 "src/ext/pta/uref.ml" 89 2760 2778
+type(
+  'a uref
+)
+ident(
+  int_ref q' "src/ext/pta/uref.ml" 81 2545 2554 "src/ext/pta/uref.ml" 81 2545 2556
+)
+"src/ext/pta/uref.ml" 89 2760 2771 "src/ext/pta/uref.ml" 89 2760 2778
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 89 2760 2765 "src/ext/pta/uref.ml" 89 2760 2778
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 91 2801 2806 "src/ext/pta/uref.ml" 91 2801 2808
+type(
+  'a uref
+)
+ident(
+  int_ref q' "src/ext/pta/uref.ml" 81 2545 2554 "src/ext/pta/uref.ml" 81 2545 2556
+)
+"src/ext/pta/uref.ml" 91 2801 2809 "src/ext/pta/uref.ml" 91 2801 2811
+type(
+  'a uref -> 'a urefC -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/pta/uref.ml" 91 2801 2817 "src/ext/pta/uref.ml" 91 2801 2819
+type(
+  'a uref
+)
+ident(
+  int_ref p' "src/ext/pta/uref.ml" 81 2545 2551 "src/ext/pta/uref.ml" 81 2545 2553
+)
+"src/ext/pta/uref.ml" 91 2801 2812 "src/ext/pta/uref.ml" 91 2801 2819
+type(
+  'a urefC
+)
+"src/ext/pta/uref.ml" 91 2801 2806 "src/ext/pta/uref.ml" 91 2801 2819
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 88 2736 2744 "src/ext/pta/uref.ml" 91 2801 2819
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 86 2669 2677 "src/ext/pta/uref.ml" 91 2801 2819
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 84 2638 2641 "src/ext/pta/uref.ml" 91 2801 2819
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 92 2820 2828 "src/ext/pta/uref.ml" 92 2820 2829
+type(
+  'a urefC * 'a urefC
+)
+"src/ext/pta/uref.ml" 92 2820 2833 "src/ext/pta/uref.ml" 92 2820 2838
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/pta/uref.ml" 92 2820 2839 "src/ext/pta/uref.ml" 92 2820 2847
+type(
+  exn
+)
+"src/ext/pta/uref.ml" 92 2820 2833 "src/ext/pta/uref.ml" 92 2820 2847
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 82 2577 2581 "src/ext/pta/uref.ml" 92 2820 2847
+type(
+  unit
+)
+"src/ext/pta/uref.ml" 81 2545 2547 "src/ext/pta/uref.ml" 92 2820 2847
+type(
+  unit
+)

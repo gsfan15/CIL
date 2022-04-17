@@ -1,0 +1,5665 @@
+"src/ext/sfi/sfi.ml" 45 1746 1750 "src/ext/sfi/sfi.ml" 45 1746 1755
+type(
+  bool ref
+)
+ident(
+  def doSfi "src/ext/sfi/sfi.ml" 46 1768 1768 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 45 1746 1758 "src/ext/sfi/sfi.ml" 45 1746 1761
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/sfi/sfi.ml" 45 1746 1762 "src/ext/sfi/sfi.ml" 45 1746 1767
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 45 1746 1758 "src/ext/sfi/sfi.ml" 45 1746 1767
+type(
+  bool ref
+)
+"src/ext/sfi/sfi.ml" 46 1768 1772 "src/ext/sfi/sfi.ml" 46 1768 1782
+type(
+  bool ref
+)
+ident(
+  def doSfiReads "src/ext/sfi/sfi.ml" 47 1795 1795 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 46 1768 1785 "src/ext/sfi/sfi.ml" 46 1768 1788
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/sfi/sfi.ml" 46 1768 1789 "src/ext/sfi/sfi.ml" 46 1768 1794
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 46 1768 1785 "src/ext/sfi/sfi.ml" 46 1768 1794
+type(
+  bool ref
+)
+"src/ext/sfi/sfi.ml" 47 1795 1799 "src/ext/sfi/sfi.ml" 47 1795 1810
+type(
+  bool ref
+)
+ident(
+  def doSfiWrites "src/ext/sfi/sfi.ml" 50 1865 1865 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 47 1795 1813 "src/ext/sfi/sfi.ml" 47 1795 1816
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/sfi/sfi.ml" 47 1795 1817 "src/ext/sfi/sfi.ml" 47 1795 1821
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 47 1795 1813 "src/ext/sfi/sfi.ml" 47 1795 1821
+type(
+  bool ref
+)
+"src/ext/sfi/sfi.ml" 50 1865 1869 "src/ext/sfi/sfi.ml" 50 1865 1882
+type(
+  (string, unit) H.t
+)
+ident(
+  def skipFunctions "src/ext/sfi/sfi.ml" 51 1918 1918 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 50 1865 1906 "src/ext/sfi/sfi.ml" 50 1865 1914
+type(
+  ?random:bool -> int -> (string, unit) H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/ext/sfi/sfi.ml" 50 1865 1915 "src/ext/sfi/sfi.ml" 50 1865 1917
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 50 1865 1906 "src/ext/sfi/sfi.ml" 50 1865 1917
+call(
+  stack
+)
+type(
+  (string, unit) H.t
+)
+type(
+  (string, unit) H.t
+)
+"src/ext/sfi/sfi.ml" 51 1918 1922 "src/ext/sfi/sfi.ml" 51 1918 1937
+type(
+  Cil.fundec -> bool
+)
+ident(
+  def mustSfiFunction "src/ext/sfi/sfi.ml" 55 2051 2051 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 51 1918 1939 "src/ext/sfi/sfi.ml" 51 1918 1940
+type(
+  Cil.fundec
+)
+ident(
+  def f "src/ext/sfi/sfi.ml" 51 1918 1950 "src/ext/sfi/sfi.ml" 52 1960 2000
+)
+"src/ext/sfi/sfi.ml" 52 1960 1962 "src/ext/sfi/sfi.ml" 52 1960 1965
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/sfi/sfi.ml" 52 1960 1967 "src/ext/sfi/sfi.ml" 52 1960 1972
+type(
+  (string, unit) H.t -> string -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/ext/sfi/sfi.ml" 52 1960 1973 "src/ext/sfi/sfi.ml" 52 1960 1986
+type(
+  (string, unit) H.t
+)
+ident(
+  int_ref skipFunctions "src/ext/sfi/sfi.ml" 50 1865 1869 "src/ext/sfi/sfi.ml" 50 1865 1882
+)
+"src/ext/sfi/sfi.ml" 52 1960 1987 "src/ext/sfi/sfi.ml" 52 1960 1988
+type(
+  Cil.fundec
+)
+ident(
+  int_ref f "src/ext/sfi/sfi.ml" 51 1918 1939 "src/ext/sfi/sfi.ml" 51 1918 1940
+)
+"src/ext/sfi/sfi.ml" 52 1960 1987 "src/ext/sfi/sfi.ml" 52 1960 1993
+type(
+  Cil.varinfo
+)
+"src/ext/sfi/sfi.ml" 52 1960 1987 "src/ext/sfi/sfi.ml" 52 1960 1999
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 52 1960 1966 "src/ext/sfi/sfi.ml" 52 1960 2000
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 52 1960 1962 "src/ext/sfi/sfi.ml" 52 1960 2000
+type(
+  bool
+)
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 63 2446 2450 "src/ext/sfi/sfi.ml" 63 2446 2461
+type(
+  dataLocation -> Cil.exp list -> Cil.lval option -> Cil.exp
+)
+ident(
+  def extractData "src/ext/sfi/sfi.ml" 89 3277 3277 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 63 2446 2463 "src/ext/sfi/sfi.ml" 63 2446 2465
+type(
+  dataLocation
+)
+ident(
+  def dl "src/ext/sfi/sfi.ml" 63 2446 2481 "src/ext/sfi/sfi.ml" 84 3168 3197
+)
+"src/ext/sfi/sfi.ml" 63 2446 2482 "src/ext/sfi/sfi.ml" 63 2446 2486
+type(
+  Cil.exp list
+)
+ident(
+  def args "src/ext/sfi/sfi.ml" 63 2446 2498 "src/ext/sfi/sfi.ml" 84 3168 3197
+)
+"src/ext/sfi/sfi.ml" 63 2446 2499 "src/ext/sfi/sfi.ml" 63 2446 2502
+type(
+  Cil.lval option
+)
+ident(
+  def res "src/ext/sfi/sfi.ml" 63 2446 2517 "src/ext/sfi/sfi.ml" 84 3168 3197
+)
+"src/ext/sfi/sfi.ml" 64 2526 2532 "src/ext/sfi/sfi.ml" 64 2526 2538
+type(
+  int -> Cil.exp
+)
+ident(
+  def getArg "src/ext/sfi/sfi.ml" 69 2715 2717 "src/ext/sfi/sfi.ml" 84 3168 3197
+)
+"src/ext/sfi/sfi.ml" 64 2526 2540 "src/ext/sfi/sfi.ml" 64 2526 2541
+type(
+  int
+)
+ident(
+  def n "src/ext/sfi/sfi.ml" 65 2551 2555 "src/ext/sfi/sfi.ml" 67 2668 2709
+)
+"src/ext/sfi/sfi.ml" 65 2551 2559 "src/ext/sfi/sfi.ml" 65 2551 2567
+type(
+  Cil.exp list -> int -> Cil.exp
+)
+ident(
+  ext_ref List.nth
+)
+"src/ext/sfi/sfi.ml" 65 2551 2568 "src/ext/sfi/sfi.ml" 65 2551 2572
+type(
+  Cil.exp list
+)
+ident(
+  int_ref args "src/ext/sfi/sfi.ml" 63 2446 2482 "src/ext/sfi/sfi.ml" 63 2446 2486
+)
+"src/ext/sfi/sfi.ml" 65 2551 2574 "src/ext/sfi/sfi.ml" 65 2551 2575
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/sfi/sfi.ml" 64 2526 2540 "src/ext/sfi/sfi.ml" 64 2526 2541
+)
+"src/ext/sfi/sfi.ml" 65 2551 2576 "src/ext/sfi/sfi.ml" 65 2551 2577
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ext/sfi/sfi.ml" 65 2551 2578 "src/ext/sfi/sfi.ml" 65 2551 2579
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 65 2551 2573 "src/ext/sfi/sfi.ml" 65 2551 2580
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 65 2551 2559 "src/ext/sfi/sfi.ml" 65 2551 2580
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 66 2607 2616 "src/ext/sfi/sfi.ml" 66 2607 2617
+type(
+  exn
+)
+"src/ext/sfi/sfi.ml" 66 2607 2621 "src/ext/sfi/sfi.ml" 66 2607 2624
+type(
+  unit -> Cil.exp
+)
+ident(
+  ext_ref E.s
+)
+"src/ext/sfi/sfi.ml" 66 2607 2626 "src/ext/sfi/sfi.ml" 66 2607 2631
+type(
+  (int -> (unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit, 
+   unit, Pretty.doc, unit)
+  format4 ->
+  int -> (unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit
+)
+ident(
+  ext_ref E.bug
+)
+"src/ext/sfi/sfi.ml" 66 2607 2632 "src/ext/sfi/sfi.ml" 66 2607 2666
+type(
+  (int -> (unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit, 
+   unit, Pretty.doc, unit)
+  format4
+)
+"src/ext/sfi/sfi.ml" 67 2668 2689 "src/ext/sfi/sfi.ml" 67 2668 2690
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/sfi/sfi.ml" 64 2526 2540 "src/ext/sfi/sfi.ml" 64 2526 2541
+)
+"src/ext/sfi/sfi.ml" 67 2668 2691 "src/ext/sfi/sfi.ml" 67 2668 2696
+type(
+  unit -> Cil.location -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_loc
+)
+"src/ext/sfi/sfi.ml" 67 2668 2697 "src/ext/sfi/sfi.ml" 67 2668 2698
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 67 2668 2698 "src/ext/sfi/sfi.ml" 67 2668 2708
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 67 2668 2697 "src/ext/sfi/sfi.ml" 67 2668 2708
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 66 2607 2625 "src/ext/sfi/sfi.ml" 67 2668 2709
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 66 2607 2621 "src/ext/sfi/sfi.ml" 67 2668 2709
+call(
+  tail
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 65 2551 2555 "src/ext/sfi/sfi.ml" 67 2668 2709
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 69 2715 2723 "src/ext/sfi/sfi.ml" 69 2715 2725
+type(
+  dataLocation
+)
+ident(
+  int_ref dl "src/ext/sfi/sfi.ml" 63 2446 2463 "src/ext/sfi/sfi.ml" 63 2446 2465
+)
+"src/ext/sfi/sfi.ml" 70 2732 2736 "src/ext/sfi/sfi.ml" 70 2732 2744
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 71 2754 2766 "src/ext/sfi/sfi.ml" 71 2754 2769
+type(
+  Cil.lval option
+)
+ident(
+  int_ref res "src/ext/sfi/sfi.ml" 63 2446 2499 "src/ext/sfi/sfi.ml" 63 2446 2502
+)
+"src/ext/sfi/sfi.ml" 72 2776 2784 "src/ext/sfi/sfi.ml" 72 2776 2788
+type(
+  Cil.lval option
+)
+"src/ext/sfi/sfi.ml" 73 2793 2803 "src/ext/sfi/sfi.ml" 73 2793 2806
+type(
+  unit -> Cil.exp
+)
+ident(
+  ext_ref E.s
+)
+"src/ext/sfi/sfi.ml" 73 2793 2808 "src/ext/sfi/sfi.ml" 73 2793 2813
+type(
+  ((unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit, unit,
+   Pretty.doc, unit)
+  format4 -> (unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit
+)
+ident(
+  ext_ref E.bug
+)
+"src/ext/sfi/sfi.ml" 73 2793 2814 "src/ext/sfi/sfi.ml" 73 2793 2852
+type(
+  ((unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit, unit,
+   Pretty.doc, unit)
+  format4
+)
+"src/ext/sfi/sfi.ml" 73 2793 2853 "src/ext/sfi/sfi.ml" 73 2793 2858
+type(
+  unit -> Cil.location -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_loc
+)
+"src/ext/sfi/sfi.ml" 73 2793 2859 "src/ext/sfi/sfi.ml" 73 2793 2860
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 73 2793 2860 "src/ext/sfi/sfi.ml" 73 2793 2870
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 73 2793 2859 "src/ext/sfi/sfi.ml" 73 2793 2870
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 73 2793 2807 "src/ext/sfi/sfi.ml" 73 2793 2871
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 73 2793 2803 "src/ext/sfi/sfi.ml" 73 2793 2871
+call(
+  tail
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 74 2872 2885 "src/ext/sfi/sfi.ml" 74 2872 2886
+type(
+  Cil.lval
+)
+ident(
+  def r "src/ext/sfi/sfi.ml" 74 2872 2890 "src/ext/sfi/sfi.ml" 74 2872 2896
+)
+"src/ext/sfi/sfi.ml" 74 2872 2880 "src/ext/sfi/sfi.ml" 74 2872 2886
+type(
+  Cil.lval option
+)
+"src/ext/sfi/sfi.ml" 74 2872 2895 "src/ext/sfi/sfi.ml" 74 2872 2896
+type(
+  Cil.lval
+)
+ident(
+  int_ref r "src/ext/sfi/sfi.ml" 74 2872 2885 "src/ext/sfi/sfi.ml" 74 2872 2886
+)
+"src/ext/sfi/sfi.ml" 74 2872 2890 "src/ext/sfi/sfi.ml" 74 2872 2896
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 70 2732 2748 "src/ext/sfi/sfi.ml" 75 2897 2904
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 76 2905 2915 "src/ext/sfi/sfi.ml" 76 2905 2916
+type(
+  int
+)
+ident(
+  def n "src/ext/sfi/sfi.ml" 76 2905 2920 "src/ext/sfi/sfi.ml" 76 2905 2928
+)
+"src/ext/sfi/sfi.ml" 76 2905 2909 "src/ext/sfi/sfi.ml" 76 2905 2916
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 76 2905 2920 "src/ext/sfi/sfi.ml" 76 2905 2926
+type(
+  int -> Cil.exp
+)
+ident(
+  int_ref getArg "src/ext/sfi/sfi.ml" 64 2526 2532 "src/ext/sfi/sfi.ml" 64 2526 2538
+)
+"src/ext/sfi/sfi.ml" 76 2905 2927 "src/ext/sfi/sfi.ml" 76 2905 2928
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/sfi/sfi.ml" 76 2905 2915 "src/ext/sfi/sfi.ml" 76 2905 2916
+)
+"src/ext/sfi/sfi.ml" 76 2905 2920 "src/ext/sfi/sfi.ml" 76 2905 2928
+call(
+  tail
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 77 2929 2948 "src/ext/sfi/sfi.ml" 77 2929 2950
+type(
+  int
+)
+ident(
+  def n1 "src/ext/sfi/sfi.ml" 78 2960 2966 "src/ext/sfi/sfi.ml" 81 3065 3115
+)
+"src/ext/sfi/sfi.ml" 77 2929 2952 "src/ext/sfi/sfi.ml" 77 2929 2954
+type(
+  int
+)
+ident(
+  def n2 "src/ext/sfi/sfi.ml" 78 2960 2966 "src/ext/sfi/sfi.ml" 81 3065 3115
+)
+"src/ext/sfi/sfi.ml" 77 2929 2933 "src/ext/sfi/sfi.ml" 77 2929 2955
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 78 2960 2970 "src/ext/sfi/sfi.ml" 78 2960 2972
+type(
+  Cil.exp
+)
+ident(
+  def a1 "src/ext/sfi/sfi.ml" 79 2988 2994 "src/ext/sfi/sfi.ml" 81 3065 3115
+)
+"src/ext/sfi/sfi.ml" 78 2960 2975 "src/ext/sfi/sfi.ml" 78 2960 2981
+type(
+  int -> Cil.exp
+)
+ident(
+  int_ref getArg "src/ext/sfi/sfi.ml" 64 2526 2532 "src/ext/sfi/sfi.ml" 64 2526 2538
+)
+"src/ext/sfi/sfi.ml" 78 2960 2982 "src/ext/sfi/sfi.ml" 78 2960 2984
+type(
+  int
+)
+ident(
+  int_ref n1 "src/ext/sfi/sfi.ml" 77 2929 2948 "src/ext/sfi/sfi.ml" 77 2929 2950
+)
+"src/ext/sfi/sfi.ml" 78 2960 2975 "src/ext/sfi/sfi.ml" 78 2960 2984
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 79 2988 2998 "src/ext/sfi/sfi.ml" 79 2988 3000
+type(
+  Cil.exp
+)
+ident(
+  def a2 "src/ext/sfi/sfi.ml" 80 3017 3023 "src/ext/sfi/sfi.ml" 81 3065 3115
+)
+"src/ext/sfi/sfi.ml" 79 2988 3003 "src/ext/sfi/sfi.ml" 79 2988 3009
+type(
+  int -> Cil.exp
+)
+ident(
+  int_ref getArg "src/ext/sfi/sfi.ml" 64 2526 2532 "src/ext/sfi/sfi.ml" 64 2526 2538
+)
+"src/ext/sfi/sfi.ml" 79 2988 3010 "src/ext/sfi/sfi.ml" 79 2988 3012
+type(
+  int
+)
+ident(
+  int_ref n2 "src/ext/sfi/sfi.ml" 77 2929 2952 "src/ext/sfi/sfi.ml" 77 2929 2954
+)
+"src/ext/sfi/sfi.ml" 79 2988 3003 "src/ext/sfi/sfi.ml" 79 2988 3012
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 80 3017 3029 "src/ext/sfi/sfi.ml" 80 3017 3033
+type(
+  Cil.binop
+)
+"src/ext/sfi/sfi.ml" 80 3017 3035 "src/ext/sfi/sfi.ml" 80 3017 3041
+type(
+  e:Cil.exp -> newt:Cil.typ -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkCast
+)
+"src/ext/sfi/sfi.ml" 80 3017 3045 "src/ext/sfi/sfi.ml" 80 3017 3047
+type(
+  Cil.exp
+)
+ident(
+  int_ref a1 "src/ext/sfi/sfi.ml" 78 2960 2970 "src/ext/sfi/sfi.ml" 78 2960 2972
+)
+"src/ext/sfi/sfi.ml" 80 3017 3054 "src/ext/sfi/sfi.ml" 80 3017 3062
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.longType
+)
+"src/ext/sfi/sfi.ml" 80 3017 3035 "src/ext/sfi/sfi.ml" 80 3017 3062
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 81 3065 3077 "src/ext/sfi/sfi.ml" 81 3065 3083
+type(
+  e:Cil.exp -> newt:Cil.typ -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkCast
+)
+"src/ext/sfi/sfi.ml" 81 3065 3087 "src/ext/sfi/sfi.ml" 81 3065 3089
+type(
+  Cil.exp
+)
+ident(
+  int_ref a2 "src/ext/sfi/sfi.ml" 79 2988 2998 "src/ext/sfi/sfi.ml" 79 2988 3000
+)
+"src/ext/sfi/sfi.ml" 81 3065 3096 "src/ext/sfi/sfi.ml" 81 3065 3104
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.longType
+)
+"src/ext/sfi/sfi.ml" 81 3065 3077 "src/ext/sfi/sfi.ml" 81 3065 3104
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 81 3065 3106 "src/ext/sfi/sfi.ml" 81 3065 3114
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.longType
+)
+"src/ext/sfi/sfi.ml" 80 3017 3023 "src/ext/sfi/sfi.ml" 81 3065 3115
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 79 2988 2994 "src/ext/sfi/sfi.ml" 81 3065 3115
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 78 2960 2966 "src/ext/sfi/sfi.ml" 81 3065 3115
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 82 3116 3135 "src/ext/sfi/sfi.ml" 82 3116 3136
+type(
+  int
+)
+ident(
+  def n "src/ext/sfi/sfi.ml" 83 3141 3147 "src/ext/sfi/sfi.ml" 84 3168 3197
+)
+"src/ext/sfi/sfi.ml" 82 3116 3120 "src/ext/sfi/sfi.ml" 82 3116 3136
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 83 3141 3151 "src/ext/sfi/sfi.ml" 83 3141 3152
+type(
+  Cil.exp
+)
+ident(
+  def a "src/ext/sfi/sfi.ml" 84 3168 3174 "src/ext/sfi/sfi.ml" 84 3168 3197
+)
+"src/ext/sfi/sfi.ml" 83 3141 3155 "src/ext/sfi/sfi.ml" 83 3141 3161
+type(
+  int -> Cil.exp
+)
+ident(
+  int_ref getArg "src/ext/sfi/sfi.ml" 64 2526 2532 "src/ext/sfi/sfi.ml" 64 2526 2538
+)
+"src/ext/sfi/sfi.ml" 83 3141 3162 "src/ext/sfi/sfi.ml" 83 3141 3163
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/sfi/sfi.ml" 82 3116 3135 "src/ext/sfi/sfi.ml" 82 3116 3136
+)
+"src/ext/sfi/sfi.ml" 83 3141 3155 "src/ext/sfi/sfi.ml" 83 3141 3163
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 84 3168 3180 "src/ext/sfi/sfi.ml" 84 3168 3185
+type(
+  addr:Cil.exp -> off:Cil.offset -> Cil.lval
+)
+ident(
+  ext_ref Cil.mkMem
+)
+"src/ext/sfi/sfi.ml" 84 3168 3186 "src/ext/sfi/sfi.ml" 84 3168 3187
+type(
+  Cil.exp
+)
+ident(
+  int_ref a "src/ext/sfi/sfi.ml" 83 3141 3151 "src/ext/sfi/sfi.ml" 83 3141 3152
+)
+"src/ext/sfi/sfi.ml" 84 3168 3188 "src/ext/sfi/sfi.ml" 84 3168 3196
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 84 3168 3179 "src/ext/sfi/sfi.ml" 84 3168 3197
+call(
+  stack
+)
+type(
+  Cil.lval
+)
+"src/ext/sfi/sfi.ml" 84 3168 3174 "src/ext/sfi/sfi.ml" 84 3168 3197
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 83 3141 3147 "src/ext/sfi/sfi.ml" 84 3168 3197
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 69 2715 2717 "src/ext/sfi/sfi.ml" 84 3168 3197
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 64 2526 2528 "src/ext/sfi/sfi.ml" 84 3168 3197
+type(
+  Cil.exp
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 89 3277 3281 "src/ext/sfi/sfi.ml" 89 3277 3291
+type(
+  (string, dataLocation * dataLocation) H.t
+)
+ident(
+  def allocators "src/ext/sfi/sfi.ml" 90 3351 3351 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 89 3277 3339 "src/ext/sfi/sfi.ml" 89 3277 3347
+type(
+  ?random:bool -> int -> (string, dataLocation * dataLocation) H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/ext/sfi/sfi.ml" 89 3277 3348 "src/ext/sfi/sfi.ml" 89 3277 3350
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 89 3277 3339 "src/ext/sfi/sfi.ml" 89 3277 3350
+call(
+  stack
+)
+type(
+  (string, dataLocation * dataLocation) H.t
+)
+type(
+  (string, dataLocation * dataLocation) H.t
+)
+"src/ext/sfi/sfi.ml" 91 3360 3362 "src/ext/sfi/sfi.ml" 91 3360 3367
+type(
+  (string, dataLocation * dataLocation) H.t ->
+  string -> dataLocation * dataLocation -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/ext/sfi/sfi.ml" 91 3360 3368 "src/ext/sfi/sfi.ml" 91 3360 3378
+type(
+  (string, dataLocation * dataLocation) H.t
+)
+ident(
+  int_ref allocators "src/ext/sfi/sfi.ml" 89 3277 3281 "src/ext/sfi/sfi.ml" 89 3277 3291
+)
+"src/ext/sfi/sfi.ml" 91 3360 3379 "src/ext/sfi/sfi.ml" 91 3360 3387
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 91 3360 3395 "src/ext/sfi/sfi.ml" 91 3360 3396
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 91 3360 3389 "src/ext/sfi/sfi.ml" 91 3360 3396
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 91 3360 3398 "src/ext/sfi/sfi.ml" 91 3360 3406
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 91 3360 3388 "src/ext/sfi/sfi.ml" 91 3360 3407
+type(
+  dataLocation * dataLocation
+)
+"src/ext/sfi/sfi.ml" 91 3360 3362 "src/ext/sfi/sfi.ml" 91 3360 3407
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 92 3409 3411 "src/ext/sfi/sfi.ml" 92 3409 3416
+type(
+  (string, dataLocation * dataLocation) H.t ->
+  string -> dataLocation * dataLocation -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/ext/sfi/sfi.ml" 92 3409 3417 "src/ext/sfi/sfi.ml" 92 3409 3427
+type(
+  (string, dataLocation * dataLocation) H.t
+)
+ident(
+  int_ref allocators "src/ext/sfi/sfi.ml" 89 3277 3281 "src/ext/sfi/sfi.ml" 89 3277 3291
+)
+"src/ext/sfi/sfi.ml" 92 3409 3428 "src/ext/sfi/sfi.ml" 92 3409 3436
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 92 3409 3453 "src/ext/sfi/sfi.ml" 92 3409 3454
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 92 3409 3456 "src/ext/sfi/sfi.ml" 92 3409 3457
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 92 3409 3438 "src/ext/sfi/sfi.ml" 92 3409 3458
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 92 3409 3460 "src/ext/sfi/sfi.ml" 92 3409 3468
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 92 3409 3437 "src/ext/sfi/sfi.ml" 92 3409 3469
+type(
+  dataLocation * dataLocation
+)
+"src/ext/sfi/sfi.ml" 92 3409 3411 "src/ext/sfi/sfi.ml" 92 3409 3469
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 93 3471 3473 "src/ext/sfi/sfi.ml" 93 3471 3478
+type(
+  (string, dataLocation * dataLocation) H.t ->
+  string -> dataLocation * dataLocation -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/ext/sfi/sfi.ml" 93 3471 3479 "src/ext/sfi/sfi.ml" 93 3471 3489
+type(
+  (string, dataLocation * dataLocation) H.t
+)
+ident(
+  int_ref allocators "src/ext/sfi/sfi.ml" 89 3277 3281 "src/ext/sfi/sfi.ml" 89 3277 3291
+)
+"src/ext/sfi/sfi.ml" 93 3471 3490 "src/ext/sfi/sfi.ml" 93 3471 3499
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 93 3471 3507 "src/ext/sfi/sfi.ml" 93 3471 3508
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 93 3471 3501 "src/ext/sfi/sfi.ml" 93 3471 3508
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 93 3471 3510 "src/ext/sfi/sfi.ml" 93 3471 3518
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 93 3471 3500 "src/ext/sfi/sfi.ml" 93 3471 3519
+type(
+  dataLocation * dataLocation
+)
+"src/ext/sfi/sfi.ml" 93 3471 3473 "src/ext/sfi/sfi.ml" 93 3471 3519
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 92 3409 3411 "src/ext/sfi/sfi.ml" 93 3471 3519
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 91 3360 3362 "src/ext/sfi/sfi.ml" 93 3471 3519
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 96 3585 3589 "src/ext/sfi/sfi.ml" 96 3585 3601
+type(
+  (string, dataLocation) H.t
+)
+ident(
+  def deallocators "src/ext/sfi/sfi.ml" 97 3644 3644 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 96 3585 3632 "src/ext/sfi/sfi.ml" 96 3585 3640
+type(
+  ?random:bool -> int -> (string, dataLocation) H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/ext/sfi/sfi.ml" 96 3585 3641 "src/ext/sfi/sfi.ml" 96 3585 3643
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 96 3585 3632 "src/ext/sfi/sfi.ml" 96 3585 3643
+call(
+  stack
+)
+type(
+  (string, dataLocation) H.t
+)
+type(
+  (string, dataLocation) H.t
+)
+"src/ext/sfi/sfi.ml" 98 3652 3654 "src/ext/sfi/sfi.ml" 98 3652 3659
+type(
+  (string, dataLocation) H.t -> string -> dataLocation -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/ext/sfi/sfi.ml" 98 3652 3660 "src/ext/sfi/sfi.ml" 98 3652 3672
+type(
+  (string, dataLocation) H.t
+)
+ident(
+  int_ref deallocators "src/ext/sfi/sfi.ml" 96 3585 3589 "src/ext/sfi/sfi.ml" 96 3585 3601
+)
+"src/ext/sfi/sfi.ml" 98 3652 3673 "src/ext/sfi/sfi.ml" 98 3652 3679
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 98 3652 3687 "src/ext/sfi/sfi.ml" 98 3652 3688
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 98 3652 3680 "src/ext/sfi/sfi.ml" 98 3652 3689
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 98 3652 3654 "src/ext/sfi/sfi.ml" 98 3652 3689
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 99 3691 3693 "src/ext/sfi/sfi.ml" 99 3691 3698
+type(
+  (string, dataLocation) H.t -> string -> dataLocation -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/ext/sfi/sfi.ml" 99 3691 3699 "src/ext/sfi/sfi.ml" 99 3691 3711
+type(
+  (string, dataLocation) H.t
+)
+ident(
+  int_ref deallocators "src/ext/sfi/sfi.ml" 96 3585 3589 "src/ext/sfi/sfi.ml" 96 3585 3601
+)
+"src/ext/sfi/sfi.ml" 99 3691 3712 "src/ext/sfi/sfi.ml" 99 3691 3721
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 99 3691 3729 "src/ext/sfi/sfi.ml" 99 3691 3730
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 99 3691 3722 "src/ext/sfi/sfi.ml" 99 3691 3731
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 99 3691 3693 "src/ext/sfi/sfi.ml" 99 3691 3731
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 98 3652 3654 "src/ext/sfi/sfi.ml" 99 3691 3731
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 102 3809 3817 "src/ext/sfi/sfi.ml" 102 3809 3828
+type(
+  Cil.offset -> bool
+)
+ident(
+  def is_bitfield "src/ext/sfi/sfi.ml" 102 3809 3809 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 102 3809 3829 "src/ext/sfi/sfi.ml" 102 3809 3831
+type(
+  Cil.offset
+)
+ident(
+  def lo "src/ext/sfi/sfi.ml" 102 3809 3834 "src/ext/sfi/sfi.ml" 106 3956 3989
+)
+"src/ext/sfi/sfi.ml" 102 3809 3840 "src/ext/sfi/sfi.ml" 102 3809 3842
+type(
+  Cil.offset
+)
+ident(
+  int_ref lo "src/ext/sfi/sfi.ml" 102 3809 3829 "src/ext/sfi/sfi.ml" 102 3809 3831
+)
+"src/ext/sfi/sfi.ml" 103 3848 3852 "src/ext/sfi/sfi.ml" 103 3848 3860
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 103 3848 3864 "src/ext/sfi/sfi.ml" 103 3848 3869
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 104 3870 3880 "src/ext/sfi/sfi.ml" 104 3870 3882
+type(
+  Cil.fieldinfo
+)
+ident(
+  def fi "src/ext/sfi/sfi.ml" 104 3870 3896 "src/ext/sfi/sfi.ml" 104 3870 3921
+)
+"src/ext/sfi/sfi.ml" 104 3870 3883 "src/ext/sfi/sfi.ml" 104 3870 3891
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 104 3870 3874 "src/ext/sfi/sfi.ml" 104 3870 3892
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 104 3870 3896 "src/ext/sfi/sfi.ml" 104 3870 3899
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/sfi/sfi.ml" 104 3870 3901 "src/ext/sfi/sfi.ml" 104 3870 3903
+type(
+  Cil.fieldinfo
+)
+ident(
+  int_ref fi "src/ext/sfi/sfi.ml" 104 3870 3880 "src/ext/sfi/sfi.ml" 104 3870 3882
+)
+"src/ext/sfi/sfi.ml" 104 3870 3901 "src/ext/sfi/sfi.ml" 104 3870 3913
+type(
+  int option
+)
+"src/ext/sfi/sfi.ml" 104 3870 3914 "src/ext/sfi/sfi.ml" 104 3870 3915
+type(
+  int option -> int option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/sfi/sfi.ml" 104 3870 3916 "src/ext/sfi/sfi.ml" 104 3870 3920
+type(
+  int option
+)
+"src/ext/sfi/sfi.ml" 104 3870 3900 "src/ext/sfi/sfi.ml" 104 3870 3921
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 104 3870 3896 "src/ext/sfi/sfi.ml" 104 3870 3921
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 105 3922 3932 "src/ext/sfi/sfi.ml" 105 3922 3933
+type(
+  Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 105 3922 3934 "src/ext/sfi/sfi.ml" 105 3922 3936
+type(
+  Cil.offset
+)
+ident(
+  def lo "src/ext/sfi/sfi.ml" 105 3922 3941 "src/ext/sfi/sfi.ml" 105 3922 3955
+)
+"src/ext/sfi/sfi.ml" 105 3922 3926 "src/ext/sfi/sfi.ml" 105 3922 3937
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 105 3922 3941 "src/ext/sfi/sfi.ml" 105 3922 3952
+type(
+  Cil.offset -> bool
+)
+ident(
+  int_ref is_bitfield "src/ext/sfi/sfi.ml" 102 3809 3817 "src/ext/sfi/sfi.ml" 102 3809 3828
+)
+"src/ext/sfi/sfi.ml" 105 3922 3953 "src/ext/sfi/sfi.ml" 105 3922 3955
+type(
+  Cil.offset
+)
+ident(
+  int_ref lo "src/ext/sfi/sfi.ml" 105 3922 3934 "src/ext/sfi/sfi.ml" 105 3922 3936
+)
+"src/ext/sfi/sfi.ml" 105 3922 3941 "src/ext/sfi/sfi.ml" 105 3922 3955
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 106 3956 3966 "src/ext/sfi/sfi.ml" 106 3956 3967
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 106 3956 3968 "src/ext/sfi/sfi.ml" 106 3956 3970
+type(
+  Cil.offset
+)
+ident(
+  def lo "src/ext/sfi/sfi.ml" 106 3956 3975 "src/ext/sfi/sfi.ml" 106 3956 3989
+)
+"src/ext/sfi/sfi.ml" 106 3956 3960 "src/ext/sfi/sfi.ml" 106 3956 3971
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 106 3956 3975 "src/ext/sfi/sfi.ml" 106 3956 3986
+type(
+  Cil.offset -> bool
+)
+ident(
+  int_ref is_bitfield "src/ext/sfi/sfi.ml" 102 3809 3817 "src/ext/sfi/sfi.ml" 102 3809 3828
+)
+"src/ext/sfi/sfi.ml" 106 3956 3987 "src/ext/sfi/sfi.ml" 106 3956 3989
+type(
+  Cil.offset
+)
+ident(
+  int_ref lo "src/ext/sfi/sfi.ml" 106 3956 3968 "src/ext/sfi/sfi.ml" 106 3956 3970
+)
+"src/ext/sfi/sfi.ml" 106 3956 3975 "src/ext/sfi/sfi.ml" 106 3956 3989
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 102 3809 3834 "src/ext/sfi/sfi.ml" 106 3956 3989
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 112 4176 4180 "src/ext/sfi/sfi.ml" 112 4176 4190
+type(
+  Cil.lval -> Cil.exp
+)
+ident(
+  def addr_of_lv "src/ext/sfi/sfi.ml" 138 5276 5276 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 112 4176 4192 "src/ext/sfi/sfi.ml" 112 4176 4194
+type(
+  Cil.lval
+)
+ident(
+  def lv "src/ext/sfi/sfi.ml" 113 4205 4207 "src/ext/sfi/sfi.ml" 135 5250 5272
+)
+"src/ext/sfi/sfi.ml" 113 4205 4211 "src/ext/sfi/sfi.ml" 113 4205 4213
+type(
+  Cil.lhost
+)
+ident(
+  def lh "src/ext/sfi/sfi.ml" 114 4227 4229 "src/ext/sfi/sfi.ml" 135 5250 5272
+)
+"src/ext/sfi/sfi.ml" 113 4205 4215 "src/ext/sfi/sfi.ml" 113 4205 4217
+type(
+  Cil.offset
+)
+ident(
+  def lo "src/ext/sfi/sfi.ml" 114 4227 4229 "src/ext/sfi/sfi.ml" 135 5250 5272
+)
+"src/ext/sfi/sfi.ml" 113 4205 4211 "src/ext/sfi/sfi.ml" 113 4205 4217
+type(
+  Cil.lval
+)
+"src/ext/sfi/sfi.ml" 113 4205 4220 "src/ext/sfi/sfi.ml" 113 4205 4222
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/sfi/sfi.ml" 112 4176 4192 "src/ext/sfi/sfi.ml" 112 4176 4194
+)
+"src/ext/sfi/sfi.ml" 114 4227 4232 "src/ext/sfi/sfi.ml" 114 4227 4243
+type(
+  Cil.offset -> bool
+)
+ident(
+  int_ref is_bitfield "src/ext/sfi/sfi.ml" 102 3809 3817 "src/ext/sfi/sfi.ml" 102 3809 3828
+)
+"src/ext/sfi/sfi.ml" 114 4227 4244 "src/ext/sfi/sfi.ml" 114 4227 4246
+type(
+  Cil.offset
+)
+ident(
+  int_ref lo "src/ext/sfi/sfi.ml" 113 4205 4215 "src/ext/sfi/sfi.ml" 113 4205 4217
+)
+"src/ext/sfi/sfi.ml" 114 4227 4232 "src/ext/sfi/sfi.ml" 114 4227 4246
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 118 4445 4457 "src/ext/sfi/sfi.ml" 118 4445 4482
+type(
+  Cil.offset -> Cil.offset * Cil.fieldinfo
+)
+ident(
+  def split_offset_and_bitfield "src/ext/sfi/sfi.ml" 114 4227 4252 "src/ext/sfi/sfi.ml" 134 5238 5243
+)
+"src/ext/sfi/sfi.ml" 118 4445 4483 "src/ext/sfi/sfi.ml" 118 4445 4485
+type(
+  Cil.offset
+)
+ident(
+  def lo "src/ext/sfi/sfi.ml" 118 4445 4488 "src/ext/sfi/sfi.ml" 124 4775 4815
+)
+"src/ext/sfi/sfi.ml" 118 4445 4494 "src/ext/sfi/sfi.ml" 118 4445 4496
+type(
+  Cil.offset
+)
+ident(
+  int_ref lo "src/ext/sfi/sfi.ml" 118 4445 4483 "src/ext/sfi/sfi.ml" 118 4445 4485
+)
+"src/ext/sfi/sfi.ml" 119 4503 4511 "src/ext/sfi/sfi.ml" 119 4503 4519
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 119 4503 4523 "src/ext/sfi/sfi.ml" 119 4503 4531
+type(
+  string -> Cil.offset * Cil.fieldinfo
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/ext/sfi/sfi.ml" 119 4503 4532 "src/ext/sfi/sfi.ml" 119 4503 4555
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 119 4503 4523 "src/ext/sfi/sfi.ml" 119 4503 4555
+call(
+  tail
+)
+type(
+  Cil.offset * Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 120 4557 4571 "src/ext/sfi/sfi.ml" 120 4557 4573
+type(
+  Cil.fieldinfo
+)
+ident(
+  def fi "src/ext/sfi/sfi.ml" 120 4557 4587 "src/ext/sfi/sfi.ml" 120 4557 4600
+)
+"src/ext/sfi/sfi.ml" 120 4557 4574 "src/ext/sfi/sfi.ml" 120 4557 4582
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 120 4557 4565 "src/ext/sfi/sfi.ml" 120 4557 4583
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 120 4557 4588 "src/ext/sfi/sfi.ml" 120 4557 4596
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 120 4557 4597 "src/ext/sfi/sfi.ml" 120 4557 4599
+type(
+  Cil.fieldinfo
+)
+ident(
+  int_ref fi "src/ext/sfi/sfi.ml" 120 4557 4571 "src/ext/sfi/sfi.ml" 120 4557 4573
+)
+"src/ext/sfi/sfi.ml" 120 4557 4587 "src/ext/sfi/sfi.ml" 120 4557 4600
+type(
+  Cil.offset * Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 121 4601 4615 "src/ext/sfi/sfi.ml" 121 4601 4616
+type(
+  Cil.fieldinfo
+)
+ident(
+  def e "src/ext/sfi/sfi.ml" 121 4601 4625 "src/ext/sfi/sfi.ml" 122 4668 4708
+)
+"src/ext/sfi/sfi.ml" 121 4601 4617 "src/ext/sfi/sfi.ml" 121 4601 4619
+type(
+  Cil.offset
+)
+ident(
+  def lo "src/ext/sfi/sfi.ml" 121 4601 4625 "src/ext/sfi/sfi.ml" 122 4668 4708
+)
+"src/ext/sfi/sfi.ml" 121 4601 4609 "src/ext/sfi/sfi.ml" 121 4601 4620
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 121 4601 4629 "src/ext/sfi/sfi.ml" 121 4601 4630
+type(
+  Cil.offset
+)
+ident(
+  def a "src/ext/sfi/sfi.ml" 122 4668 4692 "src/ext/sfi/sfi.ml" 122 4668 4708
+)
+"src/ext/sfi/sfi.ml" 121 4601 4631 "src/ext/sfi/sfi.ml" 121 4601 4632
+type(
+  Cil.fieldinfo
+)
+ident(
+  def b "src/ext/sfi/sfi.ml" 122 4668 4692 "src/ext/sfi/sfi.ml" 122 4668 4708
+)
+"src/ext/sfi/sfi.ml" 121 4601 4629 "src/ext/sfi/sfi.ml" 121 4601 4632
+type(
+  Cil.offset * Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 121 4601 4635 "src/ext/sfi/sfi.ml" 121 4601 4660
+type(
+  Cil.offset -> Cil.offset * Cil.fieldinfo
+)
+ident(
+  int_ref split_offset_and_bitfield "src/ext/sfi/sfi.ml" 118 4445 4457 "src/ext/sfi/sfi.ml" 118 4445 4482
+)
+"src/ext/sfi/sfi.ml" 121 4601 4661 "src/ext/sfi/sfi.ml" 121 4601 4663
+type(
+  Cil.offset
+)
+ident(
+  int_ref lo "src/ext/sfi/sfi.ml" 121 4601 4617 "src/ext/sfi/sfi.ml" 121 4601 4619
+)
+"src/ext/sfi/sfi.ml" 121 4601 4635 "src/ext/sfi/sfi.ml" 121 4601 4663
+call(
+  stack
+)
+type(
+  Cil.offset * Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 122 4668 4700 "src/ext/sfi/sfi.ml" 122 4668 4701
+type(
+  Cil.fieldinfo
+)
+ident(
+  int_ref e "src/ext/sfi/sfi.ml" 121 4601 4615 "src/ext/sfi/sfi.ml" 121 4601 4616
+)
+"src/ext/sfi/sfi.ml" 122 4668 4702 "src/ext/sfi/sfi.ml" 122 4668 4703
+type(
+  Cil.offset
+)
+ident(
+  int_ref a "src/ext/sfi/sfi.ml" 121 4601 4629 "src/ext/sfi/sfi.ml" 121 4601 4630
+)
+"src/ext/sfi/sfi.ml" 122 4668 4693 "src/ext/sfi/sfi.ml" 122 4668 4705
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 122 4668 4706 "src/ext/sfi/sfi.ml" 122 4668 4707
+type(
+  Cil.fieldinfo
+)
+ident(
+  int_ref b "src/ext/sfi/sfi.ml" 121 4601 4631 "src/ext/sfi/sfi.ml" 121 4601 4632
+)
+"src/ext/sfi/sfi.ml" 122 4668 4692 "src/ext/sfi/sfi.ml" 122 4668 4708
+type(
+  Cil.offset * Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 121 4601 4625 "src/ext/sfi/sfi.ml" 122 4668 4708
+type(
+  Cil.offset * Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 123 4709 4723 "src/ext/sfi/sfi.ml" 123 4709 4724
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/sfi/sfi.ml" 123 4709 4733 "src/ext/sfi/sfi.ml" 124 4775 4815
+)
+"src/ext/sfi/sfi.ml" 123 4709 4725 "src/ext/sfi/sfi.ml" 123 4709 4727
+type(
+  Cil.offset
+)
+ident(
+  def lo "src/ext/sfi/sfi.ml" 123 4709 4733 "src/ext/sfi/sfi.ml" 124 4775 4815
+)
+"src/ext/sfi/sfi.ml" 123 4709 4717 "src/ext/sfi/sfi.ml" 123 4709 4728
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 123 4709 4737 "src/ext/sfi/sfi.ml" 123 4709 4738
+type(
+  Cil.offset
+)
+ident(
+  def a "src/ext/sfi/sfi.ml" 124 4775 4799 "src/ext/sfi/sfi.ml" 124 4775 4815
+)
+"src/ext/sfi/sfi.ml" 123 4709 4739 "src/ext/sfi/sfi.ml" 123 4709 4740
+type(
+  Cil.fieldinfo
+)
+ident(
+  def b "src/ext/sfi/sfi.ml" 124 4775 4799 "src/ext/sfi/sfi.ml" 124 4775 4815
+)
+"src/ext/sfi/sfi.ml" 123 4709 4737 "src/ext/sfi/sfi.ml" 123 4709 4740
+type(
+  Cil.offset * Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 123 4709 4743 "src/ext/sfi/sfi.ml" 123 4709 4768
+type(
+  Cil.offset -> Cil.offset * Cil.fieldinfo
+)
+ident(
+  int_ref split_offset_and_bitfield "src/ext/sfi/sfi.ml" 118 4445 4457 "src/ext/sfi/sfi.ml" 118 4445 4482
+)
+"src/ext/sfi/sfi.ml" 123 4709 4769 "src/ext/sfi/sfi.ml" 123 4709 4771
+type(
+  Cil.offset
+)
+ident(
+  int_ref lo "src/ext/sfi/sfi.ml" 123 4709 4725 "src/ext/sfi/sfi.ml" 123 4709 4727
+)
+"src/ext/sfi/sfi.ml" 123 4709 4743 "src/ext/sfi/sfi.ml" 123 4709 4771
+call(
+  stack
+)
+type(
+  Cil.offset * Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 124 4775 4807 "src/ext/sfi/sfi.ml" 124 4775 4808
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/sfi/sfi.ml" 123 4709 4723 "src/ext/sfi/sfi.ml" 123 4709 4724
+)
+"src/ext/sfi/sfi.ml" 124 4775 4809 "src/ext/sfi/sfi.ml" 124 4775 4810
+type(
+  Cil.offset
+)
+ident(
+  int_ref a "src/ext/sfi/sfi.ml" 123 4709 4737 "src/ext/sfi/sfi.ml" 123 4709 4738
+)
+"src/ext/sfi/sfi.ml" 124 4775 4800 "src/ext/sfi/sfi.ml" 124 4775 4812
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 124 4775 4813 "src/ext/sfi/sfi.ml" 124 4775 4814
+type(
+  Cil.fieldinfo
+)
+ident(
+  int_ref b "src/ext/sfi/sfi.ml" 123 4709 4739 "src/ext/sfi/sfi.ml" 123 4709 4740
+)
+"src/ext/sfi/sfi.ml" 124 4775 4799 "src/ext/sfi/sfi.ml" 124 4775 4815
+type(
+  Cil.offset * Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 123 4709 4733 "src/ext/sfi/sfi.ml" 124 4775 4815
+type(
+  Cil.offset * Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 118 4445 4488 "src/ext/sfi/sfi.ml" 124 4775 4815
+type(
+  Cil.offset * Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 126 4824 4832 "src/ext/sfi/sfi.ml" 126 4824 4845
+type(
+  Cil.offset
+)
+ident(
+  def new_lv_offset "src/ext/sfi/sfi.ml" 127 4884 4888 "src/ext/sfi/sfi.ml" 133 5176 5237
+)
+"src/ext/sfi/sfi.ml" 126 4824 4847 "src/ext/sfi/sfi.ml" 126 4824 4849
+type(
+  Cil.fieldinfo
+)
+ident(
+  def bf "src/ext/sfi/sfi.ml" 127 4884 4888 "src/ext/sfi/sfi.ml" 133 5176 5237
+)
+"src/ext/sfi/sfi.ml" 126 4824 4832 "src/ext/sfi/sfi.ml" 126 4824 4849
+type(
+  Cil.offset * Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 126 4824 4852 "src/ext/sfi/sfi.ml" 126 4824 4877
+type(
+  Cil.offset -> Cil.offset * Cil.fieldinfo
+)
+ident(
+  int_ref split_offset_and_bitfield "src/ext/sfi/sfi.ml" 118 4445 4457 "src/ext/sfi/sfi.ml" 118 4445 4482
+)
+"src/ext/sfi/sfi.ml" 126 4824 4878 "src/ext/sfi/sfi.ml" 126 4824 4880
+type(
+  Cil.offset
+)
+ident(
+  int_ref lo "src/ext/sfi/sfi.ml" 113 4205 4215 "src/ext/sfi/sfi.ml" 113 4205 4217
+)
+"src/ext/sfi/sfi.ml" 126 4824 4852 "src/ext/sfi/sfi.ml" 126 4824 4880
+call(
+  stack
+)
+type(
+  Cil.offset * Cil.fieldinfo
+)
+"src/ext/sfi/sfi.ml" 127 4884 4892 "src/ext/sfi/sfi.ml" 127 4884 4898
+type(
+  Cil.lhost * Cil.offset
+)
+ident(
+  def new_lv "src/ext/sfi/sfi.ml" 128 4925 4929 "src/ext/sfi/sfi.ml" 133 5176 5237
+)
+"src/ext/sfi/sfi.ml" 127 4884 4902 "src/ext/sfi/sfi.ml" 127 4884 4904
+type(
+  Cil.lhost
+)
+ident(
+  int_ref lh "src/ext/sfi/sfi.ml" 113 4205 4211 "src/ext/sfi/sfi.ml" 113 4205 4213
+)
+"src/ext/sfi/sfi.ml" 127 4884 4906 "src/ext/sfi/sfi.ml" 127 4884 4919
+type(
+  Cil.offset
+)
+ident(
+  int_ref new_lv_offset "src/ext/sfi/sfi.ml" 126 4824 4832 "src/ext/sfi/sfi.ml" 126 4824 4845
+)
+"src/ext/sfi/sfi.ml" 127 4884 4901 "src/ext/sfi/sfi.ml" 127 4884 4920
+type(
+  Cil.lhost * Cil.offset
+)
+"src/ext/sfi/sfi.ml" 128 4925 4933 "src/ext/sfi/sfi.ml" 128 4925 4947
+type(
+  Cil.typ
+)
+ident(
+  def enclosing_type "src/ext/sfi/sfi.ml" 129 4974 4978 "src/ext/sfi/sfi.ml" 133 5176 5237
+)
+"src/ext/sfi/sfi.ml" 128 4925 4956 "src/ext/sfi/sfi.ml" 128 4925 4958
+type(
+  Cil.fieldinfo
+)
+ident(
+  int_ref bf "src/ext/sfi/sfi.ml" 126 4824 4847 "src/ext/sfi/sfi.ml" 126 4824 4849
+)
+"src/ext/sfi/sfi.ml" 128 4925 4956 "src/ext/sfi/sfi.ml" 128 4925 4964
+type(
+  Cil.compinfo
+)
+"src/ext/sfi/sfi.ml" 128 4925 4966 "src/ext/sfi/sfi.ml" 128 4925 4968
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 128 4925 4950 "src/ext/sfi/sfi.ml" 128 4925 4969
+type(
+  Cil.typ
+)
+"src/ext/sfi/sfi.ml" 129 4974 4982 "src/ext/sfi/sfi.ml" 129 4974 4993
+type(
+  int
+)
+ident(
+  def bits_offset "src/ext/sfi/sfi.ml" 131 5065 5069 "src/ext/sfi/sfi.ml" 133 5176 5237
+)
+"src/ext/sfi/sfi.ml" 129 4974 4995 "src/ext/sfi/sfi.ml" 129 4974 5005
+type(
+  int
+)
+ident(
+  def bits_width "src/ext/sfi/sfi.ml" 131 5065 5069 "src/ext/sfi/sfi.ml" 133 5176 5237
+)
+"src/ext/sfi/sfi.ml" 129 4974 4982 "src/ext/sfi/sfi.ml" 129 4974 5005
+type(
+  int * int
+)
+"src/ext/sfi/sfi.ml" 130 5009 5015 "src/ext/sfi/sfi.ml" 130 5009 5025
+type(
+  Cil.typ -> Cil.offset -> int * int
+)
+ident(
+  ext_ref Cil.bitsOffset
+)
+"src/ext/sfi/sfi.ml" 130 5009 5026 "src/ext/sfi/sfi.ml" 130 5009 5040
+type(
+  Cil.typ
+)
+ident(
+  int_ref enclosing_type "src/ext/sfi/sfi.ml" 128 4925 4933 "src/ext/sfi/sfi.ml" 128 4925 4947
+)
+"src/ext/sfi/sfi.ml" 130 5009 5048 "src/ext/sfi/sfi.ml" 130 5009 5050
+type(
+  Cil.fieldinfo
+)
+ident(
+  int_ref bf "src/ext/sfi/sfi.ml" 126 4824 4847 "src/ext/sfi/sfi.ml" 126 4824 4849
+)
+"src/ext/sfi/sfi.ml" 130 5009 5051 "src/ext/sfi/sfi.ml" 130 5009 5059
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 130 5009 5041 "src/ext/sfi/sfi.ml" 130 5009 5061
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 130 5009 5015 "src/ext/sfi/sfi.ml" 130 5009 5061
+call(
+  stack
+)
+type(
+  int * int
+)
+"src/ext/sfi/sfi.ml" 131 5065 5073 "src/ext/sfi/sfi.ml" 131 5065 5085
+type(
+  int
+)
+ident(
+  def bytes_offset "src/ext/sfi/sfi.ml" 132 5107 5111 "src/ext/sfi/sfi.ml" 133 5176 5237
+)
+"src/ext/sfi/sfi.ml" 131 5065 5088 "src/ext/sfi/sfi.ml" 131 5065 5099
+type(
+  int
+)
+ident(
+  int_ref bits_offset "src/ext/sfi/sfi.ml" 129 4974 4982 "src/ext/sfi/sfi.ml" 129 4974 4993
+)
+"src/ext/sfi/sfi.ml" 131 5065 5100 "src/ext/sfi/sfi.ml" 131 5065 5101
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"src/ext/sfi/sfi.ml" 131 5065 5102 "src/ext/sfi/sfi.ml" 131 5065 5103
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 131 5065 5088 "src/ext/sfi/sfi.ml" 131 5065 5103
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 132 5107 5115 "src/ext/sfi/sfi.ml" 132 5107 5120
+type(
+  Cil.exp
+)
+ident(
+  def lvPtr "src/ext/sfi/sfi.ml" 133 5176 5180 "src/ext/sfi/sfi.ml" 133 5176 5237
+)
+"src/ext/sfi/sfi.ml" 132 5107 5123 "src/ext/sfi/sfi.ml" 132 5107 5129
+type(
+  e:Cil.exp -> newt:Cil.typ -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkCast
+)
+"src/ext/sfi/sfi.ml" 132 5107 5134 "src/ext/sfi/sfi.ml" 132 5107 5142
+type(
+  Cil.lval -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkAddrOf
+)
+"src/ext/sfi/sfi.ml" 132 5107 5143 "src/ext/sfi/sfi.ml" 132 5107 5151
+type(
+  Cil.lval
+)
+ident(
+  int_ref new_lv "src/ext/sfi/sfi.ml" 127 4884 4892 "src/ext/sfi/sfi.ml" 127 4884 4898
+)
+"src/ext/sfi/sfi.ml" 132 5107 5133 "src/ext/sfi/sfi.ml" 132 5107 5152
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 132 5107 5159 "src/ext/sfi/sfi.ml" 132 5107 5172
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.charPtrType
+)
+"src/ext/sfi/sfi.ml" 132 5107 5123 "src/ext/sfi/sfi.ml" 132 5107 5172
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 133 5176 5187 "src/ext/sfi/sfi.ml" 133 5176 5193
+type(
+  Cil.binop
+)
+"src/ext/sfi/sfi.ml" 133 5176 5195 "src/ext/sfi/sfi.ml" 133 5176 5200
+type(
+  Cil.exp
+)
+ident(
+  int_ref lvPtr "src/ext/sfi/sfi.ml" 132 5107 5115 "src/ext/sfi/sfi.ml" 132 5107 5120
+)
+"src/ext/sfi/sfi.ml" 133 5176 5203 "src/ext/sfi/sfi.ml" 133 5176 5210
+type(
+  int -> Cil.exp
+)
+ident(
+  ext_ref Cil.integer
+)
+"src/ext/sfi/sfi.ml" 133 5176 5211 "src/ext/sfi/sfi.ml" 133 5176 5223
+type(
+  int
+)
+ident(
+  int_ref bytes_offset "src/ext/sfi/sfi.ml" 131 5065 5073 "src/ext/sfi/sfi.ml" 131 5065 5085
+)
+"src/ext/sfi/sfi.ml" 133 5176 5202 "src/ext/sfi/sfi.ml" 133 5176 5224
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 133 5176 5226 "src/ext/sfi/sfi.ml" 133 5176 5235
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.ulongType
+)
+"src/ext/sfi/sfi.ml" 133 5176 5180 "src/ext/sfi/sfi.ml" 133 5176 5237
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 132 5107 5111 "src/ext/sfi/sfi.ml" 133 5176 5237
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 131 5065 5069 "src/ext/sfi/sfi.ml" 133 5176 5237
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 129 4974 4978 "src/ext/sfi/sfi.ml" 133 5176 5237
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 128 4925 4929 "src/ext/sfi/sfi.ml" 133 5176 5237
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 127 4884 4888 "src/ext/sfi/sfi.ml" 133 5176 5237
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 126 4824 4828 "src/ext/sfi/sfi.ml" 133 5176 5237
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 114 4227 4252 "src/ext/sfi/sfi.ml" 134 5238 5243
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 135 5250 5255 "src/ext/sfi/sfi.ml" 135 5250 5263
+type(
+  Cil.lval -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkAddrOf
+)
+"src/ext/sfi/sfi.ml" 135 5250 5265 "src/ext/sfi/sfi.ml" 135 5250 5267
+type(
+  Cil.lhost
+)
+ident(
+  int_ref lh "src/ext/sfi/sfi.ml" 113 4205 4211 "src/ext/sfi/sfi.ml" 113 4205 4213
+)
+"src/ext/sfi/sfi.ml" 135 5250 5268 "src/ext/sfi/sfi.ml" 135 5250 5270
+type(
+  Cil.offset
+)
+ident(
+  int_ref lo "src/ext/sfi/sfi.ml" 113 4205 4215 "src/ext/sfi/sfi.ml" 113 4205 4217
+)
+"src/ext/sfi/sfi.ml" 135 5250 5264 "src/ext/sfi/sfi.ml" 135 5250 5271
+type(
+  Cil.lval
+)
+"src/ext/sfi/sfi.ml" 135 5250 5254 "src/ext/sfi/sfi.ml" 135 5250 5272
+call(
+  tail
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 114 4227 4229 "src/ext/sfi/sfi.ml" 135 5250 5272
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 113 4205 4207 "src/ext/sfi/sfi.ml" 135 5250 5272
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 138 5276 5280 "src/ext/sfi/sfi.ml" 138 5276 5291
+type(
+  bool -> Cil.lval -> bool
+)
+ident(
+  def mustLogLval "src/ext/sfi/sfi.ml" 155 5790 5790 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 138 5276 5293 "src/ext/sfi/sfi.ml" 138 5276 5301
+type(
+  bool
+)
+ident(
+  def forwrite "src/ext/sfi/sfi.ml" 138 5276 5309 "src/ext/sfi/sfi.ml" 152 5726 5738
+)
+"src/ext/sfi/sfi.ml" 138 5276 5310 "src/ext/sfi/sfi.ml" 138 5276 5312
+type(
+  Cil.lval
+)
+ident(
+  def lv "src/ext/sfi/sfi.ml" 138 5276 5320 "src/ext/sfi/sfi.ml" 152 5726 5738
+)
+"src/ext/sfi/sfi.ml" 139 5330 5338 "src/ext/sfi/sfi.ml" 139 5330 5340
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/sfi/sfi.ml" 138 5276 5310 "src/ext/sfi/sfi.ml" 138 5276 5312
+)
+"src/ext/sfi/sfi.ml" 140 5346 5354 "src/ext/sfi/sfi.ml" 140 5346 5355
+type(
+  Cil.varinfo
+)
+ident(
+  def v "src/ext/sfi/sfi.ml" 141 5426 5432 "src/ext/sfi/sfi.ml" 141 5426 5437
+)
+"src/ext/sfi/sfi.ml" 140 5346 5350 "src/ext/sfi/sfi.ml" 140 5346 5355
+type(
+  Cil.lhost
+)
+"src/ext/sfi/sfi.ml" 140 5346 5357 "src/ext/sfi/sfi.ml" 140 5346 5360
+type(
+  Cil.offset
+)
+ident(
+  def off "src/ext/sfi/sfi.ml" 141 5426 5432 "src/ext/sfi/sfi.ml" 141 5426 5437
+)
+"src/ext/sfi/sfi.ml" 140 5346 5350 "src/ext/sfi/sfi.ml" 140 5346 5360
+type(
+  Cil.lval
+)
+"src/ext/sfi/sfi.ml" 141 5426 5432 "src/ext/sfi/sfi.ml" 141 5426 5437
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 142 5438 5446 "src/ext/sfi/sfi.ml" 142 5438 5447
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/sfi/sfi.ml" 143 5457 5463 "src/ext/sfi/sfi.ml" 152 5726 5738
+)
+"src/ext/sfi/sfi.ml" 142 5438 5442 "src/ext/sfi/sfi.ml" 142 5438 5447
+type(
+  Cil.lhost
+)
+"src/ext/sfi/sfi.ml" 142 5438 5449 "src/ext/sfi/sfi.ml" 142 5438 5452
+type(
+  Cil.offset
+)
+ident(
+  def off "src/ext/sfi/sfi.ml" 143 5457 5463 "src/ext/sfi/sfi.ml" 152 5726 5738
+)
+"src/ext/sfi/sfi.ml" 142 5438 5442 "src/ext/sfi/sfi.ml" 142 5438 5452
+type(
+  Cil.lval
+)
+"src/ext/sfi/sfi.ml" 143 5457 5466 "src/ext/sfi/sfi.ml" 143 5457 5474
+type(
+  bool
+)
+ident(
+  int_ref forwrite "src/ext/sfi/sfi.ml" 138 5276 5293 "src/ext/sfi/sfi.ml" 138 5276 5301
+)
+"src/ext/sfi/sfi.ml" 143 5457 5475 "src/ext/sfi/sfi.ml" 143 5457 5477
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/sfi/sfi.ml" 143 5457 5478 "src/ext/sfi/sfi.ml" 143 5457 5481
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/sfi/sfi.ml" 143 5457 5482 "src/ext/sfi/sfi.ml" 143 5457 5483
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 143 5457 5483 "src/ext/sfi/sfi.ml" 143 5457 5494
+type(
+  bool ref
+)
+ident(
+  int_ref doSfiWrites "src/ext/sfi/sfi.ml" 47 1795 1799 "src/ext/sfi/sfi.ml" 47 1795 1810
+)
+"src/ext/sfi/sfi.ml" 143 5457 5482 "src/ext/sfi/sfi.ml" 143 5457 5494
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 143 5457 5478 "src/ext/sfi/sfi.ml" 143 5457 5494
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 143 5457 5466 "src/ext/sfi/sfi.ml" 143 5457 5494
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 144 5501 5509 "src/ext/sfi/sfi.ml" 144 5501 5514
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 145 5515 5529 "src/ext/sfi/sfi.ml" 145 5515 5532
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/sfi/sfi.ml" 145 5515 5533 "src/ext/sfi/sfi.ml" 145 5515 5541
+type(
+  bool
+)
+ident(
+  int_ref forwrite "src/ext/sfi/sfi.ml" 138 5276 5293 "src/ext/sfi/sfi.ml" 138 5276 5301
+)
+"src/ext/sfi/sfi.ml" 145 5515 5529 "src/ext/sfi/sfi.ml" 145 5515 5541
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 145 5515 5542 "src/ext/sfi/sfi.ml" 145 5515 5544
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/sfi/sfi.ml" 145 5515 5545 "src/ext/sfi/sfi.ml" 145 5515 5548
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/sfi/sfi.ml" 145 5515 5549 "src/ext/sfi/sfi.ml" 145 5515 5550
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 145 5515 5550 "src/ext/sfi/sfi.ml" 145 5515 5560
+type(
+  bool ref
+)
+ident(
+  int_ref doSfiReads "src/ext/sfi/sfi.ml" 46 1768 1772 "src/ext/sfi/sfi.ml" 46 1768 1782
+)
+"src/ext/sfi/sfi.ml" 145 5515 5549 "src/ext/sfi/sfi.ml" 145 5515 5560
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 145 5515 5545 "src/ext/sfi/sfi.ml" 145 5515 5560
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 145 5515 5529 "src/ext/sfi/sfi.ml" 145 5515 5560
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 146 5567 5575 "src/ext/sfi/sfi.ml" 146 5567 5580
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 149 5649 5663 "src/ext/sfi/sfi.ml" 149 5649 5677
+type(
+  Cil.typ -> bool
+)
+ident(
+  ext_ref Cil.isFunctionType
+)
+"src/ext/sfi/sfi.ml" 149 5649 5679 "src/ext/sfi/sfi.ml" 149 5649 5689
+type(
+  Cil.lval -> Cil.typ
+)
+ident(
+  ext_ref Cil.typeOfLval
+)
+"src/ext/sfi/sfi.ml" 149 5649 5690 "src/ext/sfi/sfi.ml" 149 5649 5692
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/sfi/sfi.ml" 138 5276 5310 "src/ext/sfi/sfi.ml" 138 5276 5312
+)
+"src/ext/sfi/sfi.ml" 149 5649 5678 "src/ext/sfi/sfi.ml" 149 5649 5693
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/sfi/sfi.ml" 149 5649 5663 "src/ext/sfi/sfi.ml" 149 5649 5693
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 150 5700 5708 "src/ext/sfi/sfi.ml" 150 5700 5713
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 152 5726 5734 "src/ext/sfi/sfi.ml" 152 5726 5738
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 149 5649 5660 "src/ext/sfi/sfi.ml" 152 5726 5738
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 145 5515 5526 "src/ext/sfi/sfi.ml" 152 5726 5738
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 143 5457 5463 "src/ext/sfi/sfi.ml" 152 5726 5738
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 139 5330 5332 "src/ext/sfi/sfi.ml" 152 5726 5738
+type(
+  bool
+)
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 155 5790 5794 "src/ext/sfi/sfi.ml" 155 5790 5801
+type(
+  string -> (string * Cil.typ * Cil.attributes) list -> Cil.fundec
+)
+ident(
+  def mkProto "src/ext/sfi/sfi.ml" 162 5993 5993 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 155 5790 5803 "src/ext/sfi/sfi.ml" 155 5790 5807
+type(
+  string
+)
+ident(
+  def name "src/ext/sfi/sfi.ml" 155 5790 5817 "src/ext/sfi/sfi.ml" 159 5982 5988
+)
+"src/ext/sfi/sfi.ml" 155 5790 5818 "src/ext/sfi/sfi.ml" 155 5790 5822
+type(
+  (string * Cil.typ * Cil.attributes) list
+)
+ident(
+  def args "src/ext/sfi/sfi.ml" 156 5861 5863 "src/ext/sfi/sfi.ml" 159 5982 5988
+)
+"src/ext/sfi/sfi.ml" 156 5861 5867 "src/ext/sfi/sfi.ml" 156 5861 5871
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "src/ext/sfi/sfi.ml" 157 5896 5898 "src/ext/sfi/sfi.ml" 159 5982 5988
+)
+"src/ext/sfi/sfi.ml" 156 5861 5874 "src/ext/sfi/sfi.ml" 156 5861 5887
+type(
+  string -> Cil.fundec
+)
+ident(
+  ext_ref Cil.emptyFunction
+)
+"src/ext/sfi/sfi.ml" 156 5861 5888 "src/ext/sfi/sfi.ml" 156 5861 5892
+type(
+  string
+)
+ident(
+  int_ref name "src/ext/sfi/sfi.ml" 155 5790 5803 "src/ext/sfi/sfi.ml" 155 5790 5807
+)
+"src/ext/sfi/sfi.ml" 156 5861 5874 "src/ext/sfi/sfi.ml" 156 5861 5892
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"src/ext/sfi/sfi.ml" 157 5896 5898 "src/ext/sfi/sfi.ml" 157 5896 5902
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "src/ext/sfi/sfi.ml" 156 5861 5867 "src/ext/sfi/sfi.ml" 156 5861 5871
+)
+"src/ext/sfi/sfi.ml" 157 5896 5898 "src/ext/sfi/sfi.ml" 157 5896 5907
+type(
+  Cil.varinfo
+)
+"src/ext/sfi/sfi.ml" 157 5896 5922 "src/ext/sfi/sfi.ml" 157 5896 5930
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.voidType
+)
+"src/ext/sfi/sfi.ml" 158 5933 5964 "src/ext/sfi/sfi.ml" 158 5933 5968
+type(
+  (string * Cil.typ * Cil.attributes) list
+)
+ident(
+  int_ref args "src/ext/sfi/sfi.ml" 155 5790 5818 "src/ext/sfi/sfi.ml" 155 5790 5822
+)
+"src/ext/sfi/sfi.ml" 158 5933 5959 "src/ext/sfi/sfi.ml" 158 5933 5968
+type(
+  (string * Cil.typ * Cil.attributes) list option
+)
+"src/ext/sfi/sfi.ml" 158 5933 5970 "src/ext/sfi/sfi.ml" 158 5933 5975
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 158 5933 5977 "src/ext/sfi/sfi.ml" 158 5933 5979
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 157 5896 5917 "src/ext/sfi/sfi.ml" 158 5933 5980
+type(
+  Cil.typ
+)
+"src/ext/sfi/sfi.ml" 157 5896 5898 "src/ext/sfi/sfi.ml" 158 5933 5980
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 159 5982 5984 "src/ext/sfi/sfi.ml" 159 5982 5988
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "src/ext/sfi/sfi.ml" 156 5861 5867 "src/ext/sfi/sfi.ml" 156 5861 5871
+)
+"src/ext/sfi/sfi.ml" 157 5896 5898 "src/ext/sfi/sfi.ml" 159 5982 5988
+type(
+  Cil.fundec
+)
+"src/ext/sfi/sfi.ml" 156 5861 5863 "src/ext/sfi/sfi.ml" 159 5982 5988
+type(
+  Cil.fundec
+)
+"src/ext/sfi/sfi.ml" 162 5993 5997 "src/ext/sfi/sfi.ml" 162 5993 6005
+type(
+  Cil.fundec
+)
+ident(
+  def logReads "src/ext/sfi/sfi.ml" 166 6238 6238 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 162 5993 6008 "src/ext/sfi/sfi.ml" 162 5993 6015
+type(
+  string -> (string * Cil.typ * Cil.attributes) list -> Cil.fundec
+)
+ident(
+  int_ref mkProto "src/ext/sfi/sfi.ml" 155 5790 5794 "src/ext/sfi/sfi.ml" 155 5790 5801
+)
+"src/ext/sfi/sfi.ml" 162 5993 6016 "src/ext/sfi/sfi.ml" 162 5993 6025
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 162 5993 6029 "src/ext/sfi/sfi.ml" 162 5993 6035
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 162 5993 6037 "src/ext/sfi/sfi.ml" 162 5993 6048
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.voidPtrType
+)
+"src/ext/sfi/sfi.ml" 162 5993 6050 "src/ext/sfi/sfi.ml" 162 5993 6052
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 162 5993 6028 "src/ext/sfi/sfi.ml" 162 5993 6053
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 163 6055 6091 "src/ext/sfi/sfi.ml" 163 6055 6097
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 163 6055 6099 "src/ext/sfi/sfi.ml" 163 6055 6110
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.charPtrType
+)
+"src/ext/sfi/sfi.ml" 163 6055 6112 "src/ext/sfi/sfi.ml" 163 6055 6114
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 163 6055 6090 "src/ext/sfi/sfi.ml" 163 6055 6115
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 164 6117 6153 "src/ext/sfi/sfi.ml" 164 6117 6159
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 164 6117 6161 "src/ext/sfi/sfi.ml" 164 6117 6172
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.charPtrType
+)
+"src/ext/sfi/sfi.ml" 164 6117 6174 "src/ext/sfi/sfi.ml" 164 6117 6176
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 164 6117 6152 "src/ext/sfi/sfi.ml" 164 6117 6177
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 165 6179 6215 "src/ext/sfi/sfi.ml" 165 6179 6221
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 165 6179 6223 "src/ext/sfi/sfi.ml" 165 6179 6230
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.intType
+)
+"src/ext/sfi/sfi.ml" 165 6179 6232 "src/ext/sfi/sfi.ml" 165 6179 6234
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 165 6179 6214 "src/ext/sfi/sfi.ml" 165 6179 6235
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 162 5993 6026 "src/ext/sfi/sfi.ml" 165 6179 6237
+type(
+  (string * Cil.typ * Cil.attributes) list
+)
+"src/ext/sfi/sfi.ml" 162 5993 6008 "src/ext/sfi/sfi.ml" 165 6179 6237
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"src/ext/sfi/sfi.ml" 166 6238 6242 "src/ext/sfi/sfi.ml" 166 6238 6253
+type(
+  Cil.lval -> Cil.instr
+)
+ident(
+  def callLogRead "src/ext/sfi/sfi.ml" 173 6490 6490 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 166 6238 6255 "src/ext/sfi/sfi.ml" 166 6238 6257
+type(
+  Cil.lval
+)
+ident(
+  def lv "src/ext/sfi/sfi.ml" 167 6268 6270 "src/ext/sfi/sfi.ml" 171 6439 6488
+)
+"src/ext/sfi/sfi.ml" 167 6268 6274 "src/ext/sfi/sfi.ml" 167 6268 6278
+type(
+  string
+)
+ident(
+  def what "src/ext/sfi/sfi.ml" 168 6316 6318 "src/ext/sfi/sfi.ml" 171 6439 6488
+)
+"src/ext/sfi/sfi.ml" 167 6268 6281 "src/ext/sfi/sfi.ml" 167 6268 6294
+type(
+  width:int -> Pretty.doc -> string
+)
+ident(
+  ext_ref Pretty.sprint
+)
+"src/ext/sfi/sfi.ml" 167 6268 6295 "src/ext/sfi/sfi.ml" 167 6268 6297
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 167 6268 6299 "src/ext/sfi/sfi.ml" 167 6268 6305
+type(
+  unit -> Cil.lval -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_lval
+)
+"src/ext/sfi/sfi.ml" 167 6268 6306 "src/ext/sfi/sfi.ml" 167 6268 6308
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 167 6268 6309 "src/ext/sfi/sfi.ml" 167 6268 6311
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/sfi/sfi.ml" 166 6238 6255 "src/ext/sfi/sfi.ml" 166 6238 6257
+)
+"src/ext/sfi/sfi.ml" 167 6268 6298 "src/ext/sfi/sfi.ml" 167 6268 6312
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/sfi/sfi.ml" 167 6268 6281 "src/ext/sfi/sfi.ml" 167 6268 6312
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 168 6316 6323 "src/ext/sfi/sfi.ml" 168 6316 6327
+type(
+  Cil.lval option
+)
+"src/ext/sfi/sfi.ml" 169 6330 6346 "src/ext/sfi/sfi.ml" 169 6330 6354
+type(
+  Cil.fundec
+)
+ident(
+  int_ref logReads "src/ext/sfi/sfi.ml" 162 5993 5997 "src/ext/sfi/sfi.ml" 162 5993 6005
+)
+"src/ext/sfi/sfi.ml" 169 6330 6345 "src/ext/sfi/sfi.ml" 169 6330 6360
+type(
+  Cil.varinfo
+)
+"src/ext/sfi/sfi.ml" 169 6330 6342 "src/ext/sfi/sfi.ml" 169 6330 6360
+type(
+  Cil.lhost
+)
+"src/ext/sfi/sfi.ml" 169 6330 6361 "src/ext/sfi/sfi.ml" 169 6330 6369
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 169 6330 6341 "src/ext/sfi/sfi.ml" 169 6330 6370
+type(
+  Cil.lval
+)
+"src/ext/sfi/sfi.ml" 169 6330 6337 "src/ext/sfi/sfi.ml" 169 6330 6370
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 170 6373 6382 "src/ext/sfi/sfi.ml" 170 6373 6392
+type(
+  Cil.lval -> Cil.exp
+)
+ident(
+  int_ref addr_of_lv "src/ext/sfi/sfi.ml" 112 4176 4180 "src/ext/sfi/sfi.ml" 112 4176 4190
+)
+"src/ext/sfi/sfi.ml" 170 6373 6393 "src/ext/sfi/sfi.ml" 170 6373 6395
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/sfi/sfi.ml" 166 6238 6255 "src/ext/sfi/sfi.ml" 166 6238 6257
+)
+"src/ext/sfi/sfi.ml" 170 6373 6382 "src/ext/sfi/sfi.ml" 170 6373 6395
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 170 6373 6397 "src/ext/sfi/sfi.ml" 170 6373 6405
+type(
+  string -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkString
+)
+"src/ext/sfi/sfi.ml" 170 6373 6406 "src/ext/sfi/sfi.ml" 170 6373 6410
+type(
+  string
+)
+ident(
+  int_ref what "src/ext/sfi/sfi.ml" 167 6268 6274 "src/ext/sfi/sfi.ml" 167 6268 6278
+)
+"src/ext/sfi/sfi.ml" 170 6373 6397 "src/ext/sfi/sfi.ml" 170 6373 6410
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 170 6373 6412 "src/ext/sfi/sfi.ml" 170 6373 6420
+type(
+  string -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkString
+)
+"src/ext/sfi/sfi.ml" 170 6373 6421 "src/ext/sfi/sfi.ml" 170 6373 6422
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 170 6373 6422 "src/ext/sfi/sfi.ml" 170 6373 6432
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 170 6373 6421 "src/ext/sfi/sfi.ml" 170 6373 6432
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 170 6373 6421 "src/ext/sfi/sfi.ml" 170 6373 6437
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 170 6373 6412 "src/ext/sfi/sfi.ml" 170 6373 6437
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 171 6439 6448 "src/ext/sfi/sfi.ml" 171 6439 6455
+type(
+  int -> Cil.exp
+)
+ident(
+  ext_ref Cil.integer
+)
+"src/ext/sfi/sfi.ml" 171 6439 6456 "src/ext/sfi/sfi.ml" 171 6439 6457
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 171 6439 6457 "src/ext/sfi/sfi.ml" 171 6439 6467
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 171 6439 6456 "src/ext/sfi/sfi.ml" 171 6439 6467
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 171 6439 6456 "src/ext/sfi/sfi.ml" 171 6439 6472
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 171 6439 6448 "src/ext/sfi/sfi.ml" 171 6439 6472
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 170 6373 6380 "src/ext/sfi/sfi.ml" 171 6439 6473
+type(
+  Cil.exp list
+)
+"src/ext/sfi/sfi.ml" 171 6439 6475 "src/ext/sfi/sfi.ml" 171 6439 6476
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 171 6439 6476 "src/ext/sfi/sfi.ml" 171 6439 6486
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 171 6439 6475 "src/ext/sfi/sfi.ml" 171 6439 6486
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 168 6316 6318 "src/ext/sfi/sfi.ml" 171 6439 6488
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 167 6268 6270 "src/ext/sfi/sfi.ml" 171 6439 6488
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 173 6490 6494 "src/ext/sfi/sfi.ml" 173 6490 6503
+type(
+  Cil.fundec
+)
+ident(
+  def logWrites "src/ext/sfi/sfi.ml" 177 6743 6743 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 173 6490 6506 "src/ext/sfi/sfi.ml" 173 6490 6513
+type(
+  string -> (string * Cil.typ * Cil.attributes) list -> Cil.fundec
+)
+ident(
+  int_ref mkProto "src/ext/sfi/sfi.ml" 155 5790 5794 "src/ext/sfi/sfi.ml" 155 5790 5801
+)
+"src/ext/sfi/sfi.ml" 173 6490 6514 "src/ext/sfi/sfi.ml" 173 6490 6524
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 173 6490 6528 "src/ext/sfi/sfi.ml" 173 6490 6534
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 173 6490 6536 "src/ext/sfi/sfi.ml" 173 6490 6547
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.voidPtrType
+)
+"src/ext/sfi/sfi.ml" 173 6490 6549 "src/ext/sfi/sfi.ml" 173 6490 6551
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 173 6490 6527 "src/ext/sfi/sfi.ml" 173 6490 6552
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 174 6554 6592 "src/ext/sfi/sfi.ml" 174 6554 6598
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 174 6554 6600 "src/ext/sfi/sfi.ml" 174 6554 6611
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.charPtrType
+)
+"src/ext/sfi/sfi.ml" 174 6554 6613 "src/ext/sfi/sfi.ml" 174 6554 6615
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 174 6554 6591 "src/ext/sfi/sfi.ml" 174 6554 6616
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 175 6618 6656 "src/ext/sfi/sfi.ml" 175 6618 6662
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 175 6618 6664 "src/ext/sfi/sfi.ml" 175 6618 6675
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.charPtrType
+)
+"src/ext/sfi/sfi.ml" 175 6618 6677 "src/ext/sfi/sfi.ml" 175 6618 6679
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 175 6618 6655 "src/ext/sfi/sfi.ml" 175 6618 6680
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 176 6682 6720 "src/ext/sfi/sfi.ml" 176 6682 6726
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 176 6682 6728 "src/ext/sfi/sfi.ml" 176 6682 6735
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.intType
+)
+"src/ext/sfi/sfi.ml" 176 6682 6737 "src/ext/sfi/sfi.ml" 176 6682 6739
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 176 6682 6719 "src/ext/sfi/sfi.ml" 176 6682 6740
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 173 6490 6525 "src/ext/sfi/sfi.ml" 176 6682 6742
+type(
+  (string * Cil.typ * Cil.attributes) list
+)
+"src/ext/sfi/sfi.ml" 173 6490 6506 "src/ext/sfi/sfi.ml" 176 6682 6742
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"src/ext/sfi/sfi.ml" 177 6743 6747 "src/ext/sfi/sfi.ml" 177 6743 6759
+type(
+  Cil.lval -> Cil.instr
+)
+ident(
+  def callLogWrite "src/ext/sfi/sfi.ml" 184 6998 6998 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 177 6743 6761 "src/ext/sfi/sfi.ml" 177 6743 6763
+type(
+  Cil.lval
+)
+ident(
+  def lv "src/ext/sfi/sfi.ml" 178 6774 6776 "src/ext/sfi/sfi.ml" 182 6947 6996
+)
+"src/ext/sfi/sfi.ml" 178 6774 6780 "src/ext/sfi/sfi.ml" 178 6774 6784
+type(
+  string
+)
+ident(
+  def what "src/ext/sfi/sfi.ml" 179 6822 6824 "src/ext/sfi/sfi.ml" 182 6947 6996
+)
+"src/ext/sfi/sfi.ml" 178 6774 6787 "src/ext/sfi/sfi.ml" 178 6774 6800
+type(
+  width:int -> Pretty.doc -> string
+)
+ident(
+  ext_ref Pretty.sprint
+)
+"src/ext/sfi/sfi.ml" 178 6774 6801 "src/ext/sfi/sfi.ml" 178 6774 6803
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 178 6774 6805 "src/ext/sfi/sfi.ml" 178 6774 6811
+type(
+  unit -> Cil.lval -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_lval
+)
+"src/ext/sfi/sfi.ml" 178 6774 6812 "src/ext/sfi/sfi.ml" 178 6774 6814
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 178 6774 6815 "src/ext/sfi/sfi.ml" 178 6774 6817
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/sfi/sfi.ml" 177 6743 6761 "src/ext/sfi/sfi.ml" 177 6743 6763
+)
+"src/ext/sfi/sfi.ml" 178 6774 6804 "src/ext/sfi/sfi.ml" 178 6774 6818
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/sfi/sfi.ml" 178 6774 6787 "src/ext/sfi/sfi.ml" 178 6774 6818
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 179 6822 6829 "src/ext/sfi/sfi.ml" 179 6822 6833
+type(
+  Cil.lval option
+)
+"src/ext/sfi/sfi.ml" 180 6836 6852 "src/ext/sfi/sfi.ml" 180 6836 6861
+type(
+  Cil.fundec
+)
+ident(
+  int_ref logWrites "src/ext/sfi/sfi.ml" 173 6490 6494 "src/ext/sfi/sfi.ml" 173 6490 6503
+)
+"src/ext/sfi/sfi.ml" 180 6836 6851 "src/ext/sfi/sfi.ml" 180 6836 6867
+type(
+  Cil.varinfo
+)
+"src/ext/sfi/sfi.ml" 180 6836 6848 "src/ext/sfi/sfi.ml" 180 6836 6867
+type(
+  Cil.lhost
+)
+"src/ext/sfi/sfi.ml" 180 6836 6869 "src/ext/sfi/sfi.ml" 180 6836 6877
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 180 6836 6847 "src/ext/sfi/sfi.ml" 180 6836 6878
+type(
+  Cil.lval
+)
+"src/ext/sfi/sfi.ml" 180 6836 6843 "src/ext/sfi/sfi.ml" 180 6836 6878
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 181 6881 6890 "src/ext/sfi/sfi.ml" 181 6881 6900
+type(
+  Cil.lval -> Cil.exp
+)
+ident(
+  int_ref addr_of_lv "src/ext/sfi/sfi.ml" 112 4176 4180 "src/ext/sfi/sfi.ml" 112 4176 4190
+)
+"src/ext/sfi/sfi.ml" 181 6881 6901 "src/ext/sfi/sfi.ml" 181 6881 6903
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/sfi/sfi.ml" 177 6743 6761 "src/ext/sfi/sfi.ml" 177 6743 6763
+)
+"src/ext/sfi/sfi.ml" 181 6881 6890 "src/ext/sfi/sfi.ml" 181 6881 6903
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 181 6881 6905 "src/ext/sfi/sfi.ml" 181 6881 6913
+type(
+  string -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkString
+)
+"src/ext/sfi/sfi.ml" 181 6881 6914 "src/ext/sfi/sfi.ml" 181 6881 6918
+type(
+  string
+)
+ident(
+  int_ref what "src/ext/sfi/sfi.ml" 178 6774 6780 "src/ext/sfi/sfi.ml" 178 6774 6784
+)
+"src/ext/sfi/sfi.ml" 181 6881 6905 "src/ext/sfi/sfi.ml" 181 6881 6918
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 181 6881 6920 "src/ext/sfi/sfi.ml" 181 6881 6928
+type(
+  string -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkString
+)
+"src/ext/sfi/sfi.ml" 181 6881 6929 "src/ext/sfi/sfi.ml" 181 6881 6930
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 181 6881 6930 "src/ext/sfi/sfi.ml" 181 6881 6940
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 181 6881 6929 "src/ext/sfi/sfi.ml" 181 6881 6940
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 181 6881 6929 "src/ext/sfi/sfi.ml" 181 6881 6945
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 181 6881 6920 "src/ext/sfi/sfi.ml" 181 6881 6945
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 182 6947 6956 "src/ext/sfi/sfi.ml" 182 6947 6963
+type(
+  int -> Cil.exp
+)
+ident(
+  ext_ref Cil.integer
+)
+"src/ext/sfi/sfi.ml" 182 6947 6964 "src/ext/sfi/sfi.ml" 182 6947 6965
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 182 6947 6965 "src/ext/sfi/sfi.ml" 182 6947 6975
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 182 6947 6964 "src/ext/sfi/sfi.ml" 182 6947 6975
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 182 6947 6964 "src/ext/sfi/sfi.ml" 182 6947 6980
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 182 6947 6956 "src/ext/sfi/sfi.ml" 182 6947 6980
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 181 6881 6888 "src/ext/sfi/sfi.ml" 182 6947 6981
+type(
+  Cil.exp list
+)
+"src/ext/sfi/sfi.ml" 182 6947 6983 "src/ext/sfi/sfi.ml" 182 6947 6984
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 182 6947 6984 "src/ext/sfi/sfi.ml" 182 6947 6994
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 182 6947 6983 "src/ext/sfi/sfi.ml" 182 6947 6994
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 179 6822 6824 "src/ext/sfi/sfi.ml" 182 6947 6996
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 178 6774 6776 "src/ext/sfi/sfi.ml" 182 6947 6996
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 184 6998 7002 "src/ext/sfi/sfi.ml" 184 6998 7015
+type(
+  Cil.fundec
+)
+ident(
+  def logStackFrame "src/ext/sfi/sfi.ml" 185 7073 7073 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 184 6998 7019 "src/ext/sfi/sfi.ml" 184 6998 7026
+type(
+  string -> (string * Cil.typ * Cil.attributes) list -> Cil.fundec
+)
+ident(
+  int_ref mkProto "src/ext/sfi/sfi.ml" 155 5790 5794 "src/ext/sfi/sfi.ml" 155 5790 5801
+)
+"src/ext/sfi/sfi.ml" 184 6998 7027 "src/ext/sfi/sfi.ml" 184 6998 7042
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 184 6998 7046 "src/ext/sfi/sfi.ml" 184 6998 7052
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 184 6998 7054 "src/ext/sfi/sfi.ml" 184 6998 7065
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.charPtrType
+)
+"src/ext/sfi/sfi.ml" 184 6998 7067 "src/ext/sfi/sfi.ml" 184 6998 7069
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 184 6998 7045 "src/ext/sfi/sfi.ml" 184 6998 7070
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 184 6998 7043 "src/ext/sfi/sfi.ml" 184 6998 7072
+type(
+  (string * Cil.typ * Cil.attributes) list
+)
+"src/ext/sfi/sfi.ml" 184 6998 7019 "src/ext/sfi/sfi.ml" 184 6998 7072
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"src/ext/sfi/sfi.ml" 185 7073 7077 "src/ext/sfi/sfi.ml" 185 7073 7089
+type(
+  string -> Cil.instr
+)
+ident(
+  def callLogStack "src/ext/sfi/sfi.ml" 190 7215 7215 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 185 7073 7091 "src/ext/sfi/sfi.ml" 185 7073 7096
+type(
+  string
+)
+ident(
+  def fname "src/ext/sfi/sfi.ml" 186 7109 7111 "src/ext/sfi/sfi.ml" 188 7172 7213
+)
+"src/ext/sfi/sfi.ml" 186 7109 7116 "src/ext/sfi/sfi.ml" 186 7109 7120
+type(
+  Cil.lval option
+)
+"src/ext/sfi/sfi.ml" 187 7123 7139 "src/ext/sfi/sfi.ml" 187 7123 7152
+type(
+  Cil.fundec
+)
+ident(
+  int_ref logStackFrame "src/ext/sfi/sfi.ml" 184 6998 7002 "src/ext/sfi/sfi.ml" 184 6998 7015
+)
+"src/ext/sfi/sfi.ml" 187 7123 7138 "src/ext/sfi/sfi.ml" 187 7123 7158
+type(
+  Cil.varinfo
+)
+"src/ext/sfi/sfi.ml" 187 7123 7135 "src/ext/sfi/sfi.ml" 187 7123 7158
+type(
+  Cil.lhost
+)
+"src/ext/sfi/sfi.ml" 187 7123 7160 "src/ext/sfi/sfi.ml" 187 7123 7168
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 187 7123 7134 "src/ext/sfi/sfi.ml" 187 7123 7169
+type(
+  Cil.lval
+)
+"src/ext/sfi/sfi.ml" 187 7123 7130 "src/ext/sfi/sfi.ml" 187 7123 7169
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 188 7172 7181 "src/ext/sfi/sfi.ml" 188 7172 7189
+type(
+  string -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkString
+)
+"src/ext/sfi/sfi.ml" 188 7172 7190 "src/ext/sfi/sfi.ml" 188 7172 7195
+type(
+  string
+)
+ident(
+  int_ref fname "src/ext/sfi/sfi.ml" 185 7073 7091 "src/ext/sfi/sfi.ml" 185 7073 7096
+)
+"src/ext/sfi/sfi.ml" 188 7172 7181 "src/ext/sfi/sfi.ml" 188 7172 7195
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 188 7172 7179 "src/ext/sfi/sfi.ml" 188 7172 7198
+type(
+  Cil.exp list
+)
+"src/ext/sfi/sfi.ml" 188 7172 7200 "src/ext/sfi/sfi.ml" 188 7172 7201
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 188 7172 7201 "src/ext/sfi/sfi.ml" 188 7172 7211
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 188 7172 7200 "src/ext/sfi/sfi.ml" 188 7172 7211
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 186 7109 7111 "src/ext/sfi/sfi.ml" 188 7172 7213
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 190 7215 7219 "src/ext/sfi/sfi.ml" 190 7215 7227
+type(
+  Cil.fundec
+)
+ident(
+  def logAlloc "src/ext/sfi/sfi.ml" 194 7460 7460 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 190 7215 7230 "src/ext/sfi/sfi.ml" 190 7215 7237
+type(
+  string -> (string * Cil.typ * Cil.attributes) list -> Cil.fundec
+)
+ident(
+  int_ref mkProto "src/ext/sfi/sfi.ml" 155 5790 5794 "src/ext/sfi/sfi.ml" 155 5790 5801
+)
+"src/ext/sfi/sfi.ml" 190 7215 7238 "src/ext/sfi/sfi.ml" 190 7215 7248
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 190 7215 7252 "src/ext/sfi/sfi.ml" 190 7215 7258
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 190 7215 7260 "src/ext/sfi/sfi.ml" 190 7215 7271
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.voidPtrType
+)
+"src/ext/sfi/sfi.ml" 190 7215 7273 "src/ext/sfi/sfi.ml" 190 7215 7275
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 190 7215 7251 "src/ext/sfi/sfi.ml" 190 7215 7276
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 191 7278 7315 "src/ext/sfi/sfi.ml" 191 7278 7321
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 191 7278 7323 "src/ext/sfi/sfi.ml" 191 7278 7330
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.intType
+)
+"src/ext/sfi/sfi.ml" 191 7278 7332 "src/ext/sfi/sfi.ml" 191 7278 7334
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 191 7278 7314 "src/ext/sfi/sfi.ml" 191 7278 7335
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 192 7337 7374 "src/ext/sfi/sfi.ml" 192 7337 7380
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 192 7337 7382 "src/ext/sfi/sfi.ml" 192 7337 7393
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.charPtrType
+)
+"src/ext/sfi/sfi.ml" 192 7337 7395 "src/ext/sfi/sfi.ml" 192 7337 7397
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 192 7337 7373 "src/ext/sfi/sfi.ml" 192 7337 7398
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 193 7400 7437 "src/ext/sfi/sfi.ml" 193 7400 7443
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 193 7400 7445 "src/ext/sfi/sfi.ml" 193 7400 7452
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.intType
+)
+"src/ext/sfi/sfi.ml" 193 7400 7454 "src/ext/sfi/sfi.ml" 193 7400 7456
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 193 7400 7436 "src/ext/sfi/sfi.ml" 193 7400 7457
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 190 7215 7249 "src/ext/sfi/sfi.ml" 193 7400 7459
+type(
+  (string * Cil.typ * Cil.attributes) list
+)
+"src/ext/sfi/sfi.ml" 190 7215 7230 "src/ext/sfi/sfi.ml" 193 7400 7459
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"src/ext/sfi/sfi.ml" 194 7460 7464 "src/ext/sfi/sfi.ml" 194 7460 7476
+type(
+  dataLocation ->
+  dataLocation -> Cil.exp list -> Cil.lval option -> Cil.instr
+)
+ident(
+  def callLogAlloc "src/ext/sfi/sfi.ml" 206 7863 7863 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 194 7460 7478 "src/ext/sfi/sfi.ml" 194 7460 7483
+type(
+  dataLocation
+)
+ident(
+  def szloc "src/ext/sfi/sfi.ml" 195 7500 7517 "src/ext/sfi/sfi.ml" 203 7804 7854
+)
+"src/ext/sfi/sfi.ml" 195 7500 7518 "src/ext/sfi/sfi.ml" 195 7500 7524
+type(
+  dataLocation
+)
+ident(
+  def resLoc "src/ext/sfi/sfi.ml" 196 7541 7558 "src/ext/sfi/sfi.ml" 203 7804 7854
+)
+"src/ext/sfi/sfi.ml" 196 7541 7559 "src/ext/sfi/sfi.ml" 196 7541 7563
+type(
+  Cil.exp list
+)
+ident(
+  def args "src/ext/sfi/sfi.ml" 197 7576 7593 "src/ext/sfi/sfi.ml" 203 7804 7854
+)
+"src/ext/sfi/sfi.ml" 197 7576 7594 "src/ext/sfi/sfi.ml" 197 7576 7597
+type(
+  Cil.lval option
+)
+ident(
+  def res "src/ext/sfi/sfi.ml" 198 7615 7617 "src/ext/sfi/sfi.ml" 203 7804 7854
+)
+"src/ext/sfi/sfi.ml" 198 7615 7621 "src/ext/sfi/sfi.ml" 198 7615 7623
+type(
+  Cil.exp
+)
+ident(
+  def sz "src/ext/sfi/sfi.ml" 199 7657 7659 "src/ext/sfi/sfi.ml" 203 7804 7854
+)
+"src/ext/sfi/sfi.ml" 198 7615 7626 "src/ext/sfi/sfi.ml" 198 7615 7637
+type(
+  dataLocation -> Cil.exp list -> Cil.lval option -> Cil.exp
+)
+ident(
+  int_ref extractData "src/ext/sfi/sfi.ml" 63 2446 2450 "src/ext/sfi/sfi.ml" 63 2446 2461
+)
+"src/ext/sfi/sfi.ml" 198 7615 7638 "src/ext/sfi/sfi.ml" 198 7615 7643
+type(
+  dataLocation
+)
+ident(
+  int_ref szloc "src/ext/sfi/sfi.ml" 194 7460 7478 "src/ext/sfi/sfi.ml" 194 7460 7483
+)
+"src/ext/sfi/sfi.ml" 198 7615 7644 "src/ext/sfi/sfi.ml" 198 7615 7648
+type(
+  Cil.exp list
+)
+ident(
+  int_ref args "src/ext/sfi/sfi.ml" 196 7541 7559 "src/ext/sfi/sfi.ml" 196 7541 7563
+)
+"src/ext/sfi/sfi.ml" 198 7615 7649 "src/ext/sfi/sfi.ml" 198 7615 7652
+type(
+  Cil.lval option
+)
+ident(
+  int_ref res "src/ext/sfi/sfi.ml" 197 7576 7594 "src/ext/sfi/sfi.ml" 197 7576 7597
+)
+"src/ext/sfi/sfi.ml" 198 7615 7626 "src/ext/sfi/sfi.ml" 198 7615 7652
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 199 7657 7663 "src/ext/sfi/sfi.ml" 199 7657 7666
+type(
+  Cil.exp
+)
+ident(
+  def res "src/ext/sfi/sfi.ml" 200 7701 7703 "src/ext/sfi/sfi.ml" 203 7804 7854
+)
+"src/ext/sfi/sfi.ml" 199 7657 7669 "src/ext/sfi/sfi.ml" 199 7657 7680
+type(
+  dataLocation -> Cil.exp list -> Cil.lval option -> Cil.exp
+)
+ident(
+  int_ref extractData "src/ext/sfi/sfi.ml" 63 2446 2450 "src/ext/sfi/sfi.ml" 63 2446 2461
+)
+"src/ext/sfi/sfi.ml" 199 7657 7681 "src/ext/sfi/sfi.ml" 199 7657 7687
+type(
+  dataLocation
+)
+ident(
+  int_ref resLoc "src/ext/sfi/sfi.ml" 195 7500 7518 "src/ext/sfi/sfi.ml" 195 7500 7524
+)
+"src/ext/sfi/sfi.ml" 199 7657 7688 "src/ext/sfi/sfi.ml" 199 7657 7692
+type(
+  Cil.exp list
+)
+ident(
+  int_ref args "src/ext/sfi/sfi.ml" 196 7541 7559 "src/ext/sfi/sfi.ml" 196 7541 7563
+)
+"src/ext/sfi/sfi.ml" 199 7657 7693 "src/ext/sfi/sfi.ml" 199 7657 7696
+type(
+  Cil.lval option
+)
+ident(
+  int_ref res "src/ext/sfi/sfi.ml" 197 7576 7594 "src/ext/sfi/sfi.ml" 197 7576 7597
+)
+"src/ext/sfi/sfi.ml" 199 7657 7669 "src/ext/sfi/sfi.ml" 199 7657 7696
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 200 7701 7708 "src/ext/sfi/sfi.ml" 200 7701 7712
+type(
+  Cil.lval option
+)
+"src/ext/sfi/sfi.ml" 201 7715 7731 "src/ext/sfi/sfi.ml" 201 7715 7739
+type(
+  Cil.fundec
+)
+ident(
+  int_ref logAlloc "src/ext/sfi/sfi.ml" 190 7215 7219 "src/ext/sfi/sfi.ml" 190 7215 7227
+)
+"src/ext/sfi/sfi.ml" 201 7715 7730 "src/ext/sfi/sfi.ml" 201 7715 7745
+type(
+  Cil.varinfo
+)
+"src/ext/sfi/sfi.ml" 201 7715 7727 "src/ext/sfi/sfi.ml" 201 7715 7745
+type(
+  Cil.lhost
+)
+"src/ext/sfi/sfi.ml" 201 7715 7747 "src/ext/sfi/sfi.ml" 201 7715 7755
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 201 7715 7726 "src/ext/sfi/sfi.ml" 201 7715 7756
+type(
+  Cil.lval
+)
+"src/ext/sfi/sfi.ml" 201 7715 7722 "src/ext/sfi/sfi.ml" 201 7715 7756
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 202 7759 7768 "src/ext/sfi/sfi.ml" 202 7759 7771
+type(
+  Cil.exp
+)
+ident(
+  int_ref res "src/ext/sfi/sfi.ml" 199 7657 7663 "src/ext/sfi/sfi.ml" 199 7657 7666
+)
+"src/ext/sfi/sfi.ml" 202 7759 7773 "src/ext/sfi/sfi.ml" 202 7759 7775
+type(
+  Cil.exp
+)
+ident(
+  int_ref sz "src/ext/sfi/sfi.ml" 198 7615 7621 "src/ext/sfi/sfi.ml" 198 7615 7623
+)
+"src/ext/sfi/sfi.ml" 202 7759 7777 "src/ext/sfi/sfi.ml" 202 7759 7785
+type(
+  string -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkString
+)
+"src/ext/sfi/sfi.ml" 202 7759 7786 "src/ext/sfi/sfi.ml" 202 7759 7787
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 202 7759 7787 "src/ext/sfi/sfi.ml" 202 7759 7797
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 202 7759 7786 "src/ext/sfi/sfi.ml" 202 7759 7797
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 202 7759 7786 "src/ext/sfi/sfi.ml" 202 7759 7802
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 202 7759 7777 "src/ext/sfi/sfi.ml" 202 7759 7802
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 203 7804 7813 "src/ext/sfi/sfi.ml" 203 7804 7820
+type(
+  int -> Cil.exp
+)
+ident(
+  ext_ref Cil.integer
+)
+"src/ext/sfi/sfi.ml" 203 7804 7821 "src/ext/sfi/sfi.ml" 203 7804 7822
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 203 7804 7822 "src/ext/sfi/sfi.ml" 203 7804 7832
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 203 7804 7821 "src/ext/sfi/sfi.ml" 203 7804 7832
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 203 7804 7821 "src/ext/sfi/sfi.ml" 203 7804 7837
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 203 7804 7813 "src/ext/sfi/sfi.ml" 203 7804 7837
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 202 7759 7766 "src/ext/sfi/sfi.ml" 203 7804 7839
+type(
+  Cil.exp list
+)
+"src/ext/sfi/sfi.ml" 203 7804 7841 "src/ext/sfi/sfi.ml" 203 7804 7842
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 203 7804 7842 "src/ext/sfi/sfi.ml" 203 7804 7852
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 203 7804 7841 "src/ext/sfi/sfi.ml" 203 7804 7852
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 200 7701 7703 "src/ext/sfi/sfi.ml" 203 7804 7854
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 199 7657 7659 "src/ext/sfi/sfi.ml" 203 7804 7854
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 198 7615 7617 "src/ext/sfi/sfi.ml" 203 7804 7854
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 206 7863 7867 "src/ext/sfi/sfi.ml" 206 7863 7874
+type(
+  Cil.fundec
+)
+ident(
+  def logFree "src/ext/sfi/sfi.ml" 209 8043 8043 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 206 7863 7877 "src/ext/sfi/sfi.ml" 206 7863 7884
+type(
+  string -> (string * Cil.typ * Cil.attributes) list -> Cil.fundec
+)
+ident(
+  int_ref mkProto "src/ext/sfi/sfi.ml" 155 5790 5794 "src/ext/sfi/sfi.ml" 155 5790 5801
+)
+"src/ext/sfi/sfi.ml" 206 7863 7885 "src/ext/sfi/sfi.ml" 206 7863 7894
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 206 7863 7898 "src/ext/sfi/sfi.ml" 206 7863 7904
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 206 7863 7906 "src/ext/sfi/sfi.ml" 206 7863 7917
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.voidPtrType
+)
+"src/ext/sfi/sfi.ml" 206 7863 7919 "src/ext/sfi/sfi.ml" 206 7863 7921
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 206 7863 7897 "src/ext/sfi/sfi.ml" 206 7863 7922
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 207 7924 7959 "src/ext/sfi/sfi.ml" 207 7924 7965
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 207 7924 7967 "src/ext/sfi/sfi.ml" 207 7924 7978
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.charPtrType
+)
+"src/ext/sfi/sfi.ml" 207 7924 7980 "src/ext/sfi/sfi.ml" 207 7924 7982
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 207 7924 7958 "src/ext/sfi/sfi.ml" 207 7924 7983
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 208 7985 8020 "src/ext/sfi/sfi.ml" 208 7985 8026
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 208 7985 8028 "src/ext/sfi/sfi.ml" 208 7985 8035
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.intType
+)
+"src/ext/sfi/sfi.ml" 208 7985 8037 "src/ext/sfi/sfi.ml" 208 7985 8039
+type(
+  Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 208 7985 8019 "src/ext/sfi/sfi.ml" 208 7985 8040
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/sfi/sfi.ml" 206 7863 7895 "src/ext/sfi/sfi.ml" 208 7985 8042
+type(
+  (string * Cil.typ * Cil.attributes) list
+)
+"src/ext/sfi/sfi.ml" 206 7863 7877 "src/ext/sfi/sfi.ml" 208 7985 8042
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"src/ext/sfi/sfi.ml" 209 8043 8047 "src/ext/sfi/sfi.ml" 209 8043 8058
+type(
+  dataLocation -> Cil.exp list -> Cil.lval option -> Cil.instr
+)
+ident(
+  def callLogFree "src/ext/sfi/sfi.ml" 218 8356 8356 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 209 8043 8061 "src/ext/sfi/sfi.ml" 209 8043 8068
+type(
+  dataLocation
+)
+ident(
+  def dataloc "src/ext/sfi/sfi.ml" 210 8085 8102 "src/ext/sfi/sfi.ml" 216 8304 8354
+)
+"src/ext/sfi/sfi.ml" 210 8085 8103 "src/ext/sfi/sfi.ml" 210 8085 8107
+type(
+  Cil.exp list
+)
+ident(
+  def args "src/ext/sfi/sfi.ml" 211 8120 8137 "src/ext/sfi/sfi.ml" 216 8304 8354
+)
+"src/ext/sfi/sfi.ml" 211 8120 8138 "src/ext/sfi/sfi.ml" 211 8120 8141
+type(
+  Cil.lval option
+)
+ident(
+  def res "src/ext/sfi/sfi.ml" 212 8159 8161 "src/ext/sfi/sfi.ml" 216 8304 8354
+)
+"src/ext/sfi/sfi.ml" 212 8159 8165 "src/ext/sfi/sfi.ml" 212 8159 8169
+type(
+  Cil.exp
+)
+ident(
+  def data "src/ext/sfi/sfi.ml" 213 8205 8207 "src/ext/sfi/sfi.ml" 216 8304 8354
+)
+"src/ext/sfi/sfi.ml" 212 8159 8172 "src/ext/sfi/sfi.ml" 212 8159 8183
+type(
+  dataLocation -> Cil.exp list -> Cil.lval option -> Cil.exp
+)
+ident(
+  int_ref extractData "src/ext/sfi/sfi.ml" 63 2446 2450 "src/ext/sfi/sfi.ml" 63 2446 2461
+)
+"src/ext/sfi/sfi.ml" 212 8159 8184 "src/ext/sfi/sfi.ml" 212 8159 8191
+type(
+  dataLocation
+)
+ident(
+  int_ref dataloc "src/ext/sfi/sfi.ml" 209 8043 8061 "src/ext/sfi/sfi.ml" 209 8043 8068
+)
+"src/ext/sfi/sfi.ml" 212 8159 8192 "src/ext/sfi/sfi.ml" 212 8159 8196
+type(
+  Cil.exp list
+)
+ident(
+  int_ref args "src/ext/sfi/sfi.ml" 210 8085 8103 "src/ext/sfi/sfi.ml" 210 8085 8107
+)
+"src/ext/sfi/sfi.ml" 212 8159 8197 "src/ext/sfi/sfi.ml" 212 8159 8200
+type(
+  Cil.lval option
+)
+ident(
+  int_ref res "src/ext/sfi/sfi.ml" 211 8120 8138 "src/ext/sfi/sfi.ml" 211 8120 8141
+)
+"src/ext/sfi/sfi.ml" 212 8159 8172 "src/ext/sfi/sfi.ml" 212 8159 8200
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 213 8205 8212 "src/ext/sfi/sfi.ml" 213 8205 8216
+type(
+  Cil.lval option
+)
+"src/ext/sfi/sfi.ml" 214 8219 8235 "src/ext/sfi/sfi.ml" 214 8219 8242
+type(
+  Cil.fundec
+)
+ident(
+  int_ref logFree "src/ext/sfi/sfi.ml" 206 7863 7867 "src/ext/sfi/sfi.ml" 206 7863 7874
+)
+"src/ext/sfi/sfi.ml" 214 8219 8234 "src/ext/sfi/sfi.ml" 214 8219 8248
+type(
+  Cil.varinfo
+)
+"src/ext/sfi/sfi.ml" 214 8219 8231 "src/ext/sfi/sfi.ml" 214 8219 8248
+type(
+  Cil.lhost
+)
+"src/ext/sfi/sfi.ml" 214 8219 8250 "src/ext/sfi/sfi.ml" 214 8219 8258
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 214 8219 8230 "src/ext/sfi/sfi.ml" 214 8219 8259
+type(
+  Cil.lval
+)
+"src/ext/sfi/sfi.ml" 214 8219 8226 "src/ext/sfi/sfi.ml" 214 8219 8259
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 215 8262 8271 "src/ext/sfi/sfi.ml" 215 8262 8275
+type(
+  Cil.exp
+)
+ident(
+  int_ref data "src/ext/sfi/sfi.ml" 212 8159 8165 "src/ext/sfi/sfi.ml" 212 8159 8169
+)
+"src/ext/sfi/sfi.ml" 215 8262 8277 "src/ext/sfi/sfi.ml" 215 8262 8285
+type(
+  string -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkString
+)
+"src/ext/sfi/sfi.ml" 215 8262 8286 "src/ext/sfi/sfi.ml" 215 8262 8287
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 215 8262 8287 "src/ext/sfi/sfi.ml" 215 8262 8297
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 215 8262 8286 "src/ext/sfi/sfi.ml" 215 8262 8297
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 215 8262 8286 "src/ext/sfi/sfi.ml" 215 8262 8302
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 215 8262 8277 "src/ext/sfi/sfi.ml" 215 8262 8302
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 216 8304 8313 "src/ext/sfi/sfi.ml" 216 8304 8320
+type(
+  int -> Cil.exp
+)
+ident(
+  ext_ref Cil.integer
+)
+"src/ext/sfi/sfi.ml" 216 8304 8321 "src/ext/sfi/sfi.ml" 216 8304 8322
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 216 8304 8322 "src/ext/sfi/sfi.ml" 216 8304 8332
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 216 8304 8321 "src/ext/sfi/sfi.ml" 216 8304 8332
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 216 8304 8321 "src/ext/sfi/sfi.ml" 216 8304 8337
+type(
+  int
+)
+"src/ext/sfi/sfi.ml" 216 8304 8313 "src/ext/sfi/sfi.ml" 216 8304 8337
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 215 8262 8269 "src/ext/sfi/sfi.ml" 216 8304 8339
+type(
+  Cil.exp list
+)
+"src/ext/sfi/sfi.ml" 216 8304 8341 "src/ext/sfi/sfi.ml" 216 8304 8342
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/sfi/sfi.ml" 216 8304 8342 "src/ext/sfi/sfi.ml" 216 8304 8352
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 216 8304 8341 "src/ext/sfi/sfi.ml" 216 8304 8352
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 213 8205 8207 "src/ext/sfi/sfi.ml" 216 8304 8354
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 212 8159 8161 "src/ext/sfi/sfi.ml" 216 8304 8354
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 218 8356 8404 "src/ext/sfi/sfi.ml" 218 8356 8410
+type(
+  < queueInstr : Cil.instr list -> unit;
+    unqueueInstr : unit -> Cil.instr list;
+    vattr : Cil.attribute -> Cil.attribute list Cil.visitAction;
+    vattrparam : Cil.attrparam -> Cil.attrparam Cil.visitAction;
+    vblock : Cil.block -> Cil.block Cil.visitAction;
+    vexpr : Cil.exp -> Cil.exp Cil.visitAction;
+    vfunc : Cil.fundec -> Cil.fundec Cil.visitAction;
+    vglob : Cil.global -> Cil.global list Cil.visitAction;
+    vinit : Cil.varinfo -> Cil.offset -> Cil.init -> Cil.init Cil.visitAction;
+    vinitoffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vinst : Cil.instr -> Cil.instr list Cil.visitAction;
+    vlval : Cil.lval -> Cil.lval Cil.visitAction;
+    voffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vstmt : Cil.stmt -> Cil.stmt Cil.visitAction;
+    vtype : Cil.typ -> Cil.typ Cil.visitAction;
+    vvdec : Cil.varinfo -> Cil.varinfo Cil.visitAction;
+    vvrbl : Cil.varinfo -> Cil.varinfo Cil.visitAction; .. >
+)
+"src/ext/sfi/sfi.ml" 221 8442 8458 "src/ext/sfi/sfi.ml" 221 8442 8459
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/sfi/sfi.ml" 221 8442 8466 "src/ext/sfi/sfi.ml" 227 8625 8646
+)
+"src/ext/sfi/sfi.ml" 222 8487 8497 "src/ext/sfi/sfi.ml" 222 8487 8498
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/sfi/sfi.ml" 221 8442 8458 "src/ext/sfi/sfi.ml" 221 8442 8459
+)
+"src/ext/sfi/sfi.ml" 223 8505 8516 "src/ext/sfi/sfi.ml" 223 8505 8518
+type(
+  Cil.lval
+)
+ident(
+  def lv "src/ext/sfi/sfi.ml" 223 8505 8524 "src/ext/sfi/sfi.ml" 225 8605 8623
+)
+"src/ext/sfi/sfi.ml" 223 8505 8511 "src/ext/sfi/sfi.ml" 223 8505 8518
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 223 8505 8524 "src/ext/sfi/sfi.ml" 223 8505 8535
+type(
+  bool -> Cil.lval -> bool
+)
+ident(
+  int_ref mustLogLval "src/ext/sfi/sfi.ml" 138 5276 5280 "src/ext/sfi/sfi.ml" 138 5276 5291
+)
+"src/ext/sfi/sfi.ml" 223 8505 8536 "src/ext/sfi/sfi.ml" 223 8505 8541
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 223 8505 8542 "src/ext/sfi/sfi.ml" 223 8505 8544
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/sfi/sfi.ml" 223 8505 8516 "src/ext/sfi/sfi.ml" 223 8505 8518
+)
+"src/ext/sfi/sfi.ml" 223 8505 8524 "src/ext/sfi/sfi.ml" 223 8505 8544
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 224 8561 8569 "src/ext/sfi/sfi.ml" 224 8561 8573
+type(
+  < queueInstr : Cil.instr list -> unit;
+    unqueueInstr : unit -> Cil.instr list;
+    vattr : Cil.attribute -> Cil.attribute list Cil.visitAction;
+    vattrparam : Cil.attrparam -> Cil.attrparam Cil.visitAction;
+    vblock : Cil.block -> Cil.block Cil.visitAction;
+    vexpr : Cil.exp -> Cil.exp Cil.visitAction;
+    vfunc : Cil.fundec -> Cil.fundec Cil.visitAction;
+    vglob : Cil.global -> Cil.global list Cil.visitAction;
+    vinit : Cil.varinfo -> Cil.offset -> Cil.init -> Cil.init Cil.visitAction;
+    vinitoffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vinst : Cil.instr -> Cil.instr list Cil.visitAction;
+    vlval : Cil.lval -> Cil.lval Cil.visitAction;
+    voffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vstmt : Cil.stmt -> Cil.stmt Cil.visitAction;
+    vtype : Cil.typ -> Cil.typ Cil.visitAction;
+    vvdec : Cil.varinfo -> Cil.varinfo Cil.visitAction;
+    vvrbl : Cil.varinfo -> Cil.varinfo Cil.visitAction; .. >
+  as 'a
+)
+ident(
+  int_ref self "src/ext/sfi/sfi.ml" 218 8356 8404 "src/ext/sfi/sfi.ml" 218 8356 8410
+)
+"src/ext/sfi/sfi.ml" 224 8561 8569 "src/ext/sfi/sfi.ml" 224 8561 8584
+call(
+  stack
+)
+type(
+  Cil.instr list -> unit
+)
+"src/ext/sfi/sfi.ml" 224 8561 8587 "src/ext/sfi/sfi.ml" 224 8561 8598
+type(
+  Cil.lval -> Cil.instr
+)
+ident(
+  int_ref callLogRead "src/ext/sfi/sfi.ml" 166 6238 6242 "src/ext/sfi/sfi.ml" 166 6238 6253
+)
+"src/ext/sfi/sfi.ml" 224 8561 8599 "src/ext/sfi/sfi.ml" 224 8561 8601
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/sfi/sfi.ml" 223 8505 8516 "src/ext/sfi/sfi.ml" 223 8505 8518
+)
+"src/ext/sfi/sfi.ml" 224 8561 8587 "src/ext/sfi/sfi.ml" 224 8561 8601
+call(
+  stack
+)
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 224 8561 8585 "src/ext/sfi/sfi.ml" 224 8561 8603
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 224 8561 8569 "src/ext/sfi/sfi.ml" 224 8561 8603
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 225 8605 8613 "src/ext/sfi/sfi.ml" 225 8605 8623
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/sfi/sfi.ml" 224 8561 8569 "src/ext/sfi/sfi.ml" 225 8605 8623
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/sfi/sfi.ml" 227 8625 8631 "src/ext/sfi/sfi.ml" 227 8625 8632
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 227 8625 8636 "src/ext/sfi/sfi.ml" 227 8625 8646
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/sfi/sfi.ml" 222 8487 8491 "src/ext/sfi/sfi.ml" 227 8625 8646
+type(
+  Cil.exp Cil.visitAction
+)
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/sfi/sfi.ml" 230 8661 8677 "src/ext/sfi/sfi.ml" 230 8661 8678
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/sfi/sfi.ml" 230 8661 8687 "src/ext/sfi/sfi.ml" 265 9901 9922
+)
+"src/ext/sfi/sfi.ml" 231 8715 8725 "src/ext/sfi/sfi.ml" 231 8715 8726
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/sfi/sfi.ml" 230 8661 8677 "src/ext/sfi/sfi.ml" 230 8661 8678
+)
+"src/ext/sfi/sfi.ml" 232 8733 8743 "src/ext/sfi/sfi.ml" 232 8733 8745
+type(
+  Cil.lval
+)
+ident(
+  def lv "src/ext/sfi/sfi.ml" 232 8733 8758 "src/ext/sfi/sfi.ml" 234 8826 8844
+)
+"src/ext/sfi/sfi.ml" 232 8733 8747 "src/ext/sfi/sfi.ml" 232 8733 8748
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/sfi/sfi.ml" 232 8733 8758 "src/ext/sfi/sfi.ml" 234 8826 8844
+)
+"src/ext/sfi/sfi.ml" 232 8733 8750 "src/ext/sfi/sfi.ml" 232 8733 8751
+type(
+  Cil.location
+)
+ident(
+  def l "src/ext/sfi/sfi.ml" 232 8733 8758 "src/ext/sfi/sfi.ml" 234 8826 8844
+)
+"src/ext/sfi/sfi.ml" 232 8733 8739 "src/ext/sfi/sfi.ml" 232 8733 8752
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 232 8733 8758 "src/ext/sfi/sfi.ml" 232 8733 8769
+type(
+  bool -> Cil.lval -> bool
+)
+ident(
+  int_ref mustLogLval "src/ext/sfi/sfi.ml" 138 5276 5280 "src/ext/sfi/sfi.ml" 138 5276 5291
+)
+"src/ext/sfi/sfi.ml" 232 8733 8770 "src/ext/sfi/sfi.ml" 232 8733 8774
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 232 8733 8775 "src/ext/sfi/sfi.ml" 232 8733 8777
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/sfi/sfi.ml" 232 8733 8743 "src/ext/sfi/sfi.ml" 232 8733 8745
+)
+"src/ext/sfi/sfi.ml" 232 8733 8758 "src/ext/sfi/sfi.ml" 232 8733 8777
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 233 8781 8789 "src/ext/sfi/sfi.ml" 233 8781 8793
+type(
+  'a
+)
+ident(
+  int_ref self "src/ext/sfi/sfi.ml" 218 8356 8404 "src/ext/sfi/sfi.ml" 218 8356 8410
+)
+"src/ext/sfi/sfi.ml" 233 8781 8789 "src/ext/sfi/sfi.ml" 233 8781 8804
+call(
+  stack
+)
+type(
+  Cil.instr list -> unit
+)
+"src/ext/sfi/sfi.ml" 233 8781 8807 "src/ext/sfi/sfi.ml" 233 8781 8819
+type(
+  Cil.lval -> Cil.instr
+)
+ident(
+  int_ref callLogWrite "src/ext/sfi/sfi.ml" 177 6743 6747 "src/ext/sfi/sfi.ml" 177 6743 6759
+)
+"src/ext/sfi/sfi.ml" 233 8781 8820 "src/ext/sfi/sfi.ml" 233 8781 8822
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/sfi/sfi.ml" 232 8733 8743 "src/ext/sfi/sfi.ml" 232 8733 8745
+)
+"src/ext/sfi/sfi.ml" 233 8781 8807 "src/ext/sfi/sfi.ml" 233 8781 8822
+call(
+  stack
+)
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 233 8781 8805 "src/ext/sfi/sfi.ml" 233 8781 8824
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 233 8781 8789 "src/ext/sfi/sfi.ml" 233 8781 8824
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 234 8826 8834 "src/ext/sfi/sfi.ml" 234 8826 8844
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/sfi/sfi.ml" 233 8781 8789 "src/ext/sfi/sfi.ml" 234 8826 8844
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/sfi/sfi.ml" 236 8846 8857 "src/ext/sfi/sfi.ml" 236 8846 8860
+type(
+  Cil.lval option
+)
+ident(
+  def lvo "src/ext/sfi/sfi.ml" 238 8913 8921 "src/ext/sfi/sfi.ml" 263 9875 9899
+)
+"src/ext/sfi/sfi.ml" 236 8846 8862 "src/ext/sfi/sfi.ml" 236 8846 8863
+type(
+  Cil.exp
+)
+ident(
+  def f "src/ext/sfi/sfi.ml" 238 8913 8921 "src/ext/sfi/sfi.ml" 263 9875 9899
+)
+"src/ext/sfi/sfi.ml" 236 8846 8865 "src/ext/sfi/sfi.ml" 236 8846 8869
+type(
+  Cil.exp list
+)
+ident(
+  def args "src/ext/sfi/sfi.ml" 238 8913 8921 "src/ext/sfi/sfi.ml" 263 9875 9899
+)
+"src/ext/sfi/sfi.ml" 236 8846 8871 "src/ext/sfi/sfi.ml" 236 8846 8872
+type(
+  Cil.location
+)
+ident(
+  def l "src/ext/sfi/sfi.ml" 238 8913 8921 "src/ext/sfi/sfi.ml" 263 9875 9899
+)
+"src/ext/sfi/sfi.ml" 236 8846 8852 "src/ext/sfi/sfi.ml" 236 8846 8873
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 238 8913 8928 "src/ext/sfi/sfi.ml" 238 8913 8931
+type(
+  Cil.lval option
+)
+ident(
+  int_ref lvo "src/ext/sfi/sfi.ml" 236 8846 8857 "src/ext/sfi/sfi.ml" 236 8846 8860
+)
+"src/ext/sfi/sfi.ml" 239 8938 8953 "src/ext/sfi/sfi.ml" 239 8938 8955
+type(
+  Cil.lval
+)
+ident(
+  def lv "src/ext/sfi/sfi.ml" 239 8938 8961 "src/ext/sfi/sfi.ml" 240 8985 9032
+)
+"src/ext/sfi/sfi.ml" 239 8938 8948 "src/ext/sfi/sfi.ml" 239 8938 8955
+type(
+  Cil.lval option
+)
+"src/ext/sfi/sfi.ml" 239 8938 8961 "src/ext/sfi/sfi.ml" 239 8938 8972
+type(
+  bool -> Cil.lval -> bool
+)
+ident(
+  int_ref mustLogLval "src/ext/sfi/sfi.ml" 138 5276 5280 "src/ext/sfi/sfi.ml" 138 5276 5291
+)
+"src/ext/sfi/sfi.ml" 239 8938 8973 "src/ext/sfi/sfi.ml" 239 8938 8977
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 239 8938 8978 "src/ext/sfi/sfi.ml" 239 8938 8980
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/sfi/sfi.ml" 239 8938 8953 "src/ext/sfi/sfi.ml" 239 8938 8955
+)
+"src/ext/sfi/sfi.ml" 239 8938 8961 "src/ext/sfi/sfi.ml" 239 8938 8980
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 240 8985 8997 "src/ext/sfi/sfi.ml" 240 8985 9001
+type(
+  'a
+)
+ident(
+  int_ref self "src/ext/sfi/sfi.ml" 218 8356 8404 "src/ext/sfi/sfi.ml" 218 8356 8410
+)
+"src/ext/sfi/sfi.ml" 240 8985 8997 "src/ext/sfi/sfi.ml" 240 8985 9012
+call(
+  stack
+)
+type(
+  Cil.instr list -> unit
+)
+"src/ext/sfi/sfi.ml" 240 8985 9015 "src/ext/sfi/sfi.ml" 240 8985 9027
+type(
+  Cil.lval -> Cil.instr
+)
+ident(
+  int_ref callLogWrite "src/ext/sfi/sfi.ml" 177 6743 6747 "src/ext/sfi/sfi.ml" 177 6743 6759
+)
+"src/ext/sfi/sfi.ml" 240 8985 9028 "src/ext/sfi/sfi.ml" 240 8985 9030
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/sfi/sfi.ml" 239 8938 8953 "src/ext/sfi/sfi.ml" 239 8938 8955
+)
+"src/ext/sfi/sfi.ml" 240 8985 9015 "src/ext/sfi/sfi.ml" 240 8985 9030
+call(
+  stack
+)
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 240 8985 9013 "src/ext/sfi/sfi.ml" 240 8985 9032
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 240 8985 8997 "src/ext/sfi/sfi.ml" 240 8985 9032
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 241 9033 9043 "src/ext/sfi/sfi.ml" 241 9033 9044
+type(
+  Cil.lval option
+)
+"src/ext/sfi/sfi.ml" 241 9033 9048 "src/ext/sfi/sfi.ml" 241 9033 9050
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 238 8913 8921 "src/ext/sfi/sfi.ml" 241 9033 9051
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 245 9196 9208 "src/ext/sfi/sfi.ml" 245 9196 9209
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/sfi/sfi.ml" 230 8661 8677 "src/ext/sfi/sfi.ml" 230 8661 8678
+)
+"src/ext/sfi/sfi.ml" 245 9196 9207 "src/ext/sfi/sfi.ml" 245 9196 9210
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 246 9213 9229 "src/ext/sfi/sfi.ml" 246 9213 9231
+type(
+  Cil.instr list
+)
+ident(
+  def il "src/ext/sfi/sfi.ml" 247 9236 9249 "src/ext/sfi/sfi.ml" 263 9875 9897
+)
+"src/ext/sfi/sfi.ml" 247 9236 9249 "src/ext/sfi/sfi.ml" 247 9236 9259
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/sfi/sfi.ml" 247 9236 9260 "src/ext/sfi/sfi.ml" 247 9236 9262
+type(
+  Cil.location ref -> Cil.location -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/sfi/sfi.ml" 247 9236 9263 "src/ext/sfi/sfi.ml" 247 9236 9264
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/sfi/sfi.ml" 236 8846 8871 "src/ext/sfi/sfi.ml" 236 8846 8872
+)
+"src/ext/sfi/sfi.ml" 247 9236 9249 "src/ext/sfi/sfi.ml" 247 9236 9264
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 248 9266 9285 "src/ext/sfi/sfi.ml" 248 9266 9286
+type(
+  Cil.exp
+)
+ident(
+  int_ref f "src/ext/sfi/sfi.ml" 236 8846 8862 "src/ext/sfi/sfi.ml" 236 8846 8863
+)
+"src/ext/sfi/sfi.ml" 249 9293 9318 "src/ext/sfi/sfi.ml" 249 9293 9320
+type(
+  Cil.varinfo
+)
+ident(
+  def fv "src/ext/sfi/sfi.ml" 249 9293 9335 "src/ext/sfi/sfi.ml" 262 9856 9874
+)
+"src/ext/sfi/sfi.ml" 249 9293 9314 "src/ext/sfi/sfi.ml" 249 9293 9320
+type(
+  Cil.lhost
+)
+"src/ext/sfi/sfi.ml" 249 9293 9322 "src/ext/sfi/sfi.ml" 249 9293 9330
+type(
+  Cil.offset
+)
+"src/ext/sfi/sfi.ml" 249 9293 9313 "src/ext/sfi/sfi.ml" 249 9293 9331
+type(
+  Cil.lval
+)
+"src/ext/sfi/sfi.ml" 249 9293 9308 "src/ext/sfi/sfi.ml" 249 9293 9331
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 252 9407 9430 "src/ext/sfi/sfi.ml" 252 9407 9435
+type(
+  dataLocation
+)
+ident(
+  def szloc "src/ext/sfi/sfi.ml" 253 9476 9495 "src/ext/sfi/sfi.ml" 253 9476 9536
+)
+"src/ext/sfi/sfi.ml" 252 9407 9437 "src/ext/sfi/sfi.ml" 252 9407 9443
+type(
+  dataLocation
+)
+ident(
+  def resloc "src/ext/sfi/sfi.ml" 253 9476 9495 "src/ext/sfi/sfi.ml" 253 9476 9536
+)
+"src/ext/sfi/sfi.ml" 252 9407 9430 "src/ext/sfi/sfi.ml" 252 9407 9443
+type(
+  dataLocation * dataLocation
+)
+"src/ext/sfi/sfi.ml" 252 9407 9446 "src/ext/sfi/sfi.ml" 252 9407 9452
+type(
+  (string, dataLocation * dataLocation) H.t ->
+  string -> dataLocation * dataLocation
+)
+ident(
+  ext_ref H.find
+)
+"src/ext/sfi/sfi.ml" 252 9407 9453 "src/ext/sfi/sfi.ml" 252 9407 9463
+type(
+  (string, dataLocation * dataLocation) H.t
+)
+ident(
+  int_ref allocators "src/ext/sfi/sfi.ml" 89 3277 3281 "src/ext/sfi/sfi.ml" 89 3277 3291
+)
+"src/ext/sfi/sfi.ml" 252 9407 9464 "src/ext/sfi/sfi.ml" 252 9407 9466
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref fv "src/ext/sfi/sfi.ml" 249 9293 9318 "src/ext/sfi/sfi.ml" 249 9293 9320
+)
+"src/ext/sfi/sfi.ml" 252 9407 9464 "src/ext/sfi/sfi.ml" 252 9407 9472
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 252 9407 9446 "src/ext/sfi/sfi.ml" 252 9407 9472
+call(
+  stack
+)
+type(
+  dataLocation * dataLocation
+)
+"src/ext/sfi/sfi.ml" 253 9476 9495 "src/ext/sfi/sfi.ml" 253 9476 9497
+type(
+  Cil.instr list
+)
+ident(
+  int_ref il "src/ext/sfi/sfi.ml" 246 9213 9229 "src/ext/sfi/sfi.ml" 246 9213 9231
+)
+"src/ext/sfi/sfi.ml" 253 9476 9498 "src/ext/sfi/sfi.ml" 253 9476 9499
+type(
+  Cil.instr list -> Cil.instr list -> Cil.instr list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/sfi/sfi.ml" 253 9476 9501 "src/ext/sfi/sfi.ml" 253 9476 9513
+type(
+  dataLocation ->
+  dataLocation -> Cil.exp list -> Cil.lval option -> Cil.instr
+)
+ident(
+  int_ref callLogAlloc "src/ext/sfi/sfi.ml" 194 7460 7464 "src/ext/sfi/sfi.ml" 194 7460 7476
+)
+"src/ext/sfi/sfi.ml" 253 9476 9514 "src/ext/sfi/sfi.ml" 253 9476 9519
+type(
+  dataLocation
+)
+ident(
+  int_ref szloc "src/ext/sfi/sfi.ml" 252 9407 9430 "src/ext/sfi/sfi.ml" 252 9407 9435
+)
+"src/ext/sfi/sfi.ml" 253 9476 9520 "src/ext/sfi/sfi.ml" 253 9476 9526
+type(
+  dataLocation
+)
+ident(
+  int_ref resloc "src/ext/sfi/sfi.ml" 252 9407 9437 "src/ext/sfi/sfi.ml" 252 9407 9443
+)
+"src/ext/sfi/sfi.ml" 253 9476 9527 "src/ext/sfi/sfi.ml" 253 9476 9531
+type(
+  Cil.exp list
+)
+ident(
+  int_ref args "src/ext/sfi/sfi.ml" 236 8846 8865 "src/ext/sfi/sfi.ml" 236 8846 8869
+)
+"src/ext/sfi/sfi.ml" 253 9476 9532 "src/ext/sfi/sfi.ml" 253 9476 9535
+type(
+  Cil.lval option
+)
+ident(
+  int_ref lvo "src/ext/sfi/sfi.ml" 236 8846 8857 "src/ext/sfi/sfi.ml" 236 8846 8860
+)
+"src/ext/sfi/sfi.ml" 253 9476 9501 "src/ext/sfi/sfi.ml" 253 9476 9535
+call(
+  stack
+)
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 253 9476 9500 "src/ext/sfi/sfi.ml" 253 9476 9536
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 253 9476 9495 "src/ext/sfi/sfi.ml" 253 9476 9536
+call(
+  stack
+)
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 252 9407 9426 "src/ext/sfi/sfi.ml" 253 9476 9536
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 254 9537 9559 "src/ext/sfi/sfi.ml" 254 9537 9568
+type(
+  exn
+)
+"src/ext/sfi/sfi.ml" 257 9648 9673 "src/ext/sfi/sfi.ml" 257 9648 9679
+type(
+  dataLocation
+)
+ident(
+  def resloc "src/ext/sfi/sfi.ml" 258 9715 9736 "src/ext/sfi/sfi.ml" 258 9715 9772
+)
+"src/ext/sfi/sfi.ml" 257 9648 9682 "src/ext/sfi/sfi.ml" 257 9648 9688
+type(
+  (string, dataLocation) H.t -> string -> dataLocation
+)
+ident(
+  ext_ref H.find
+)
+"src/ext/sfi/sfi.ml" 257 9648 9689 "src/ext/sfi/sfi.ml" 257 9648 9701
+type(
+  (string, dataLocation) H.t
+)
+ident(
+  int_ref deallocators "src/ext/sfi/sfi.ml" 96 3585 3589 "src/ext/sfi/sfi.ml" 96 3585 3601
+)
+"src/ext/sfi/sfi.ml" 257 9648 9702 "src/ext/sfi/sfi.ml" 257 9648 9704
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref fv "src/ext/sfi/sfi.ml" 249 9293 9318 "src/ext/sfi/sfi.ml" 249 9293 9320
+)
+"src/ext/sfi/sfi.ml" 257 9648 9702 "src/ext/sfi/sfi.ml" 257 9648 9710
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 257 9648 9682 "src/ext/sfi/sfi.ml" 257 9648 9710
+call(
+  stack
+)
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 258 9715 9736 "src/ext/sfi/sfi.ml" 258 9715 9738
+type(
+  Cil.instr list
+)
+ident(
+  int_ref il "src/ext/sfi/sfi.ml" 246 9213 9229 "src/ext/sfi/sfi.ml" 246 9213 9231
+)
+"src/ext/sfi/sfi.ml" 258 9715 9739 "src/ext/sfi/sfi.ml" 258 9715 9740
+type(
+  Cil.instr list -> Cil.instr list -> Cil.instr list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/sfi/sfi.ml" 258 9715 9743 "src/ext/sfi/sfi.ml" 258 9715 9754
+type(
+  dataLocation -> Cil.exp list -> Cil.lval option -> Cil.instr
+)
+ident(
+  int_ref callLogFree "src/ext/sfi/sfi.ml" 209 8043 8047 "src/ext/sfi/sfi.ml" 209 8043 8058
+)
+"src/ext/sfi/sfi.ml" 258 9715 9755 "src/ext/sfi/sfi.ml" 258 9715 9761
+type(
+  dataLocation
+)
+ident(
+  int_ref resloc "src/ext/sfi/sfi.ml" 257 9648 9673 "src/ext/sfi/sfi.ml" 257 9648 9679
+)
+"src/ext/sfi/sfi.ml" 258 9715 9762 "src/ext/sfi/sfi.ml" 258 9715 9766
+type(
+  Cil.exp list
+)
+ident(
+  int_ref args "src/ext/sfi/sfi.ml" 236 8846 8865 "src/ext/sfi/sfi.ml" 236 8846 8869
+)
+"src/ext/sfi/sfi.ml" 258 9715 9767 "src/ext/sfi/sfi.ml" 258 9715 9770
+type(
+  Cil.lval option
+)
+ident(
+  int_ref lvo "src/ext/sfi/sfi.ml" 236 8846 8857 "src/ext/sfi/sfi.ml" 236 8846 8860
+)
+"src/ext/sfi/sfi.ml" 258 9715 9743 "src/ext/sfi/sfi.ml" 258 9715 9770
+call(
+  stack
+)
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 258 9715 9741 "src/ext/sfi/sfi.ml" 258 9715 9772
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 258 9715 9736 "src/ext/sfi/sfi.ml" 258 9715 9772
+call(
+  stack
+)
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 257 9648 9669 "src/ext/sfi/sfi.ml" 258 9715 9772
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 259 9773 9797 "src/ext/sfi/sfi.ml" 259 9773 9806
+type(
+  exn
+)
+"src/ext/sfi/sfi.ml" 260 9811 9832 "src/ext/sfi/sfi.ml" 260 9811 9834
+type(
+  Cil.instr list
+)
+ident(
+  int_ref il "src/ext/sfi/sfi.ml" 246 9213 9229 "src/ext/sfi/sfi.ml" 246 9213 9231
+)
+"src/ext/sfi/sfi.ml" 254 9537 9572 "src/ext/sfi/sfi.ml" 261 9835 9855
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 249 9293 9335 "src/ext/sfi/sfi.ml" 262 9856 9874
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 263 9875 9890 "src/ext/sfi/sfi.ml" 263 9875 9891
+type(
+  Cil.exp
+)
+"src/ext/sfi/sfi.ml" 263 9875 9895 "src/ext/sfi/sfi.ml" 263 9875 9897
+type(
+  Cil.instr list
+)
+ident(
+  int_ref il "src/ext/sfi/sfi.ml" 246 9213 9229 "src/ext/sfi/sfi.ml" 246 9213 9231
+)
+"src/ext/sfi/sfi.ml" 248 9266 9279 "src/ext/sfi/sfi.ml" 263 9875 9897
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 247 9236 9249 "src/ext/sfi/sfi.ml" 263 9875 9897
+type(
+  Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 246 9213 9224 "src/ext/sfi/sfi.ml" 263 9875 9898
+type(
+  Cil.instr list -> Cil.instr list
+)
+"src/ext/sfi/sfi.ml" 244 9167 9175 "src/ext/sfi/sfi.ml" 263 9875 9899
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/sfi/sfi.ml" 238 8913 8921 "src/ext/sfi/sfi.ml" 263 9875 9899
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/sfi/sfi.ml" 265 9901 9907 "src/ext/sfi/sfi.ml" 265 9901 9908
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 265 9901 9912 "src/ext/sfi/sfi.ml" 265 9901 9922
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/sfi/sfi.ml" 231 8715 8719 "src/ext/sfi/sfi.ml" 265 9901 9922
+type(
+  Cil.instr list Cil.visitAction
+)
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/sfi/sfi.ml" 267 9924 9940 "src/ext/sfi/sfi.ml" 267 9924 9944
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "src/ext/sfi/sfi.ml" 269 10014 10018 "src/ext/sfi/sfi.ml" 276 10223 10237
+)
+"src/ext/sfi/sfi.ml" 270 10040 10047 "src/ext/sfi/sfi.ml" 270 10040 10051
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "src/ext/sfi/sfi.ml" 267 9924 9940 "src/ext/sfi/sfi.ml" 267 9924 9944
+)
+"src/ext/sfi/sfi.ml" 271 10053 10064 "src/ext/sfi/sfi.ml" 271 10053 10068
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "src/ext/sfi/sfi.ml" 272 10073 10082 "src/ext/sfi/sfi.ml" 276 10223 10236
+)
+"src/ext/sfi/sfi.ml" 272 10073 10082 "src/ext/sfi/sfi.ml" 272 10073 10086
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "src/ext/sfi/sfi.ml" 271 10053 10064 "src/ext/sfi/sfi.ml" 271 10053 10068
+)
+"src/ext/sfi/sfi.ml" 273 10097 10108 "src/ext/sfi/sfi.ml" 273 10097 10115
+type(
+  Cil.stmt list -> Cil.block
+)
+ident(
+  ext_ref Cil.mkBlock
+)
+"src/ext/sfi/sfi.ml" 274 10117 10132 "src/ext/sfi/sfi.ml" 274 10117 10146
+type(
+  Cil.instr -> Cil.stmt
+)
+ident(
+  ext_ref Cil.mkStmtOneInstr
+)
+"src/ext/sfi/sfi.ml" 274 10117 10148 "src/ext/sfi/sfi.ml" 274 10117 10160
+type(
+  string -> Cil.instr
+)
+ident(
+  int_ref callLogStack "src/ext/sfi/sfi.ml" 185 7073 7077 "src/ext/sfi/sfi.ml" 185 7073 7089
+)
+"src/ext/sfi/sfi.ml" 274 10117 10161 "src/ext/sfi/sfi.ml" 274 10117 10165
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "src/ext/sfi/sfi.ml" 271 10053 10064 "src/ext/sfi/sfi.ml" 271 10053 10068
+)
+"src/ext/sfi/sfi.ml" 274 10117 10161 "src/ext/sfi/sfi.ml" 274 10117 10170
+type(
+  Cil.varinfo
+)
+"src/ext/sfi/sfi.ml" 274 10117 10161 "src/ext/sfi/sfi.ml" 274 10117 10176
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 274 10117 10147 "src/ext/sfi/sfi.ml" 274 10117 10177
+call(
+  stack
+)
+type(
+  Cil.instr
+)
+"src/ext/sfi/sfi.ml" 274 10117 10132 "src/ext/sfi/sfi.ml" 274 10117 10177
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"src/ext/sfi/sfi.ml" 275 10179 10194 "src/ext/sfi/sfi.ml" 275 10179 10200
+type(
+  Cil.stmtkind -> Cil.stmt
+)
+ident(
+  ext_ref Cil.mkStmt
+)
+"src/ext/sfi/sfi.ml" 275 10179 10208 "src/ext/sfi/sfi.ml" 275 10179 10212
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "src/ext/sfi/sfi.ml" 271 10053 10064 "src/ext/sfi/sfi.ml" 271 10053 10068
+)
+"src/ext/sfi/sfi.ml" 275 10179 10208 "src/ext/sfi/sfi.ml" 275 10179 10218
+type(
+  Cil.block
+)
+"src/ext/sfi/sfi.ml" 275 10179 10201 "src/ext/sfi/sfi.ml" 275 10179 10219
+type(
+  Cil.stmtkind
+)
+"src/ext/sfi/sfi.ml" 275 10179 10194 "src/ext/sfi/sfi.ml" 275 10179 10219
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"src/ext/sfi/sfi.ml" 274 10117 10130 "src/ext/sfi/sfi.ml" 275 10179 10221
+type(
+  Cil.stmt list
+)
+"src/ext/sfi/sfi.ml" 273 10097 10108 "src/ext/sfi/sfi.ml" 275 10179 10221
+call(
+  stack
+)
+type(
+  Cil.block
+)
+"src/ext/sfi/sfi.ml" 272 10073 10082 "src/ext/sfi/sfi.ml" 275 10179 10221
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 276 10223 10232 "src/ext/sfi/sfi.ml" 276 10223 10236
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "src/ext/sfi/sfi.ml" 271 10053 10064 "src/ext/sfi/sfi.ml" 271 10053 10068
+)
+"src/ext/sfi/sfi.ml" 272 10073 10082 "src/ext/sfi/sfi.ml" 276 10223 10236
+type(
+  Cil.fundec
+)
+"src/ext/sfi/sfi.ml" 271 10053 10060 "src/ext/sfi/sfi.ml" 276 10223 10236
+type(
+  Cil.fundec -> Cil.fundec
+)
+"src/ext/sfi/sfi.ml" 269 10014 10018 "src/ext/sfi/sfi.ml" 276 10223 10237
+type(
+  Cil.fundec Cil.visitAction
+)
+"src/ext/sfi/sfi.ml" 280 10250 10254 "src/ext/sfi/sfi.ml" 280 10250 10258
+type(
+  Cil.file -> unit
+)
+ident(
+  def doit "src/ext/sfi/sfi.ml" 327 11955 11955 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 280 10250 10260 "src/ext/sfi/sfi.ml" 280 10250 10261
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/sfi/sfi.ml" 281 10271 10273 "src/ext/sfi/sfi.ml" 324 11900 11952
+)
+"src/ext/sfi/sfi.ml" 281 10271 10277 "src/ext/sfi/sfi.ml" 281 10271 10287
+type(
+  sfiVisitorClass
+)
+ident(
+  def sfiVisitor "src/ext/sfi/sfi.ml" 282 10313 10315 "src/ext/sfi/sfi.ml" 324 11900 11952
+)
+"src/ext/sfi/sfi.ml" 281 10271 10290 "src/ext/sfi/sfi.ml" 281 10271 10309
+type(
+  sfiVisitorClass
+)
+"src/ext/sfi/sfi.ml" 282 10313 10319 "src/ext/sfi/sfi.ml" 282 10313 10329
+type(
+  Cil.location -> Cil.attrparam -> dataLocation
+)
+ident(
+  def compileLoc "src/ext/sfi/sfi.ml" 290 10634 10636 "src/ext/sfi/sfi.ml" 324 11900 11952
+)
+"src/ext/sfi/sfi.ml" 282 10313 10331 "src/ext/sfi/sfi.ml" 282 10313 10332
+type(
+  Cil.location
+)
+ident(
+  def l "src/ext/sfi/sfi.ml" 282 10313 10346 "src/ext/sfi/sfi.ml" 288 10612 10628
+)
+"src/ext/sfi/sfi.ml" 283 10355 10367 "src/ext/sfi/sfi.ml" 283 10355 10374
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 283 10355 10376 "src/ext/sfi/sfi.ml" 283 10355 10378
+type(
+  Cil.attrparam list
+)
+"src/ext/sfi/sfi.ml" 283 10355 10361 "src/ext/sfi/sfi.ml" 283 10355 10379
+type(
+  Cil.attrparam
+)
+"src/ext/sfi/sfi.ml" 283 10355 10383 "src/ext/sfi/sfi.ml" 283 10355 10391
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 284 10392 10404 "src/ext/sfi/sfi.ml" 284 10392 10411
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 284 10392 10419 "src/ext/sfi/sfi.ml" 284 10392 10420
+type(
+  int
+)
+ident(
+  def n "src/ext/sfi/sfi.ml" 284 10392 10426 "src/ext/sfi/sfi.ml" 284 10392 10433
+)
+"src/ext/sfi/sfi.ml" 284 10392 10414 "src/ext/sfi/sfi.ml" 284 10392 10420
+type(
+  Cil.attrparam
+)
+"src/ext/sfi/sfi.ml" 284 10392 10413 "src/ext/sfi/sfi.ml" 284 10392 10421
+type(
+  Cil.attrparam list
+)
+"src/ext/sfi/sfi.ml" 284 10392 10398 "src/ext/sfi/sfi.ml" 284 10392 10422
+type(
+  Cil.attrparam
+)
+"src/ext/sfi/sfi.ml" 284 10392 10432 "src/ext/sfi/sfi.ml" 284 10392 10433
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/sfi/sfi.ml" 284 10392 10419 "src/ext/sfi/sfi.ml" 284 10392 10420
+)
+"src/ext/sfi/sfi.ml" 284 10392 10426 "src/ext/sfi/sfi.ml" 284 10392 10433
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 285 10434 10446 "src/ext/sfi/sfi.ml" 285 10434 10457
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 285 10434 10465 "src/ext/sfi/sfi.ml" 285 10434 10467
+type(
+  int
+)
+ident(
+  def n1 "src/ext/sfi/sfi.ml" 285 10434 10482 "src/ext/sfi/sfi.ml" 285 10434 10504
+)
+"src/ext/sfi/sfi.ml" 285 10434 10460 "src/ext/sfi/sfi.ml" 285 10434 10467
+type(
+  Cil.attrparam
+)
+"src/ext/sfi/sfi.ml" 285 10434 10474 "src/ext/sfi/sfi.ml" 285 10434 10476
+type(
+  int
+)
+ident(
+  def n2 "src/ext/sfi/sfi.ml" 285 10434 10482 "src/ext/sfi/sfi.ml" 285 10434 10504
+)
+"src/ext/sfi/sfi.ml" 285 10434 10469 "src/ext/sfi/sfi.ml" 285 10434 10476
+type(
+  Cil.attrparam
+)
+"src/ext/sfi/sfi.ml" 285 10434 10459 "src/ext/sfi/sfi.ml" 285 10434 10477
+type(
+  Cil.attrparam list
+)
+"src/ext/sfi/sfi.ml" 285 10434 10440 "src/ext/sfi/sfi.ml" 285 10434 10478
+type(
+  Cil.attrparam
+)
+"src/ext/sfi/sfi.ml" 285 10434 10497 "src/ext/sfi/sfi.ml" 285 10434 10499
+type(
+  int
+)
+ident(
+  int_ref n1 "src/ext/sfi/sfi.ml" 285 10434 10465 "src/ext/sfi/sfi.ml" 285 10434 10467
+)
+"src/ext/sfi/sfi.ml" 285 10434 10501 "src/ext/sfi/sfi.ml" 285 10434 10503
+type(
+  int
+)
+ident(
+  int_ref n2 "src/ext/sfi/sfi.ml" 285 10434 10474 "src/ext/sfi/sfi.ml" 285 10434 10476
+)
+"src/ext/sfi/sfi.ml" 285 10434 10482 "src/ext/sfi/sfi.ml" 285 10434 10504
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 286 10505 10517 "src/ext/sfi/sfi.ml" 286 10505 10528
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 286 10505 10536 "src/ext/sfi/sfi.ml" 286 10505 10537
+type(
+  int
+)
+ident(
+  def n "src/ext/sfi/sfi.ml" 286 10505 10543 "src/ext/sfi/sfi.ml" 286 10505 10559
+)
+"src/ext/sfi/sfi.ml" 286 10505 10531 "src/ext/sfi/sfi.ml" 286 10505 10537
+type(
+  Cil.attrparam
+)
+"src/ext/sfi/sfi.ml" 286 10505 10530 "src/ext/sfi/sfi.ml" 286 10505 10538
+type(
+  Cil.attrparam list
+)
+"src/ext/sfi/sfi.ml" 286 10505 10511 "src/ext/sfi/sfi.ml" 286 10505 10539
+type(
+  Cil.attrparam
+)
+"src/ext/sfi/sfi.ml" 286 10505 10558 "src/ext/sfi/sfi.ml" 286 10505 10559
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/sfi/sfi.ml" 286 10505 10536 "src/ext/sfi/sfi.ml" 286 10505 10537
+)
+"src/ext/sfi/sfi.ml" 286 10505 10543 "src/ext/sfi/sfi.ml" 286 10505 10559
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 287 10560 10566 "src/ext/sfi/sfi.ml" 287 10560 10567
+type(
+  Cil.attrparam
+)
+"src/ext/sfi/sfi.ml" 287 10560 10571 "src/ext/sfi/sfi.ml" 287 10560 10577
+type(
+  ((unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit, unit,
+   Pretty.doc, unit)
+  format4 -> (unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit
+)
+ident(
+  ext_ref E.warn
+)
+"src/ext/sfi/sfi.ml" 287 10560 10578 "src/ext/sfi/sfi.ml" 287 10560 10602
+type(
+  ((unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit, unit,
+   Pretty.doc, unit)
+  format4
+)
+"src/ext/sfi/sfi.ml" 287 10560 10603 "src/ext/sfi/sfi.ml" 287 10560 10608
+type(
+  unit -> Cil.location -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_loc
+)
+"src/ext/sfi/sfi.ml" 287 10560 10609 "src/ext/sfi/sfi.ml" 287 10560 10610
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/sfi/sfi.ml" 282 10313 10331 "src/ext/sfi/sfi.ml" 282 10313 10332
+)
+"src/ext/sfi/sfi.ml" 287 10560 10571 "src/ext/sfi/sfi.ml" 287 10560 10610
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 288 10612 10620 "src/ext/sfi/sfi.ml" 288 10612 10628
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 287 10560 10571 "src/ext/sfi/sfi.ml" 288 10612 10628
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 282 10313 10346 "src/ext/sfi/sfi.ml" 288 10612 10628
+type(
+  Cil.attrparam -> dataLocation
+)
+"src/ext/sfi/sfi.ml" 290 10634 10636 "src/ext/sfi/sfi.ml" 290 10634 10647
+type(
+  Cil.file -> (Cil.global -> unit) -> unit
+)
+ident(
+  ext_ref Cil.iterGlobals
+)
+"src/ext/sfi/sfi.ml" 290 10634 10648 "src/ext/sfi/sfi.ml" 290 10634 10649
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/sfi/sfi.ml" 280 10250 10260 "src/ext/sfi/sfi.ml" 280 10250 10261
+)
+"src/ext/sfi/sfi.ml" 291 10650 10659 "src/ext/sfi/sfi.ml" 291 10650 10663
+type(
+  Cil.global
+)
+ident(
+  def glob "src/ext/sfi/sfi.ml" 292 10668 10674 "src/ext/sfi/sfi.ml" 317 11619 11634
+)
+"src/ext/sfi/sfi.ml" 292 10668 10680 "src/ext/sfi/sfi.ml" 292 10668 10684
+type(
+  Cil.global
+)
+ident(
+  int_ref glob "src/ext/sfi/sfi.ml" 291 10650 10659 "src/ext/sfi/sfi.ml" 291 10650 10663
+)
+"src/ext/sfi/sfi.ml" 293 10691 10704 "src/ext/sfi/sfi.ml" 293 10691 10708
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "src/ext/sfi/sfi.ml" 293 10691 10718 "src/ext/sfi/sfi.ml" 294 10743 10794
+)
+"src/ext/sfi/sfi.ml" 293 10691 10710 "src/ext/sfi/sfi.ml" 293 10691 10711
+type(
+  Cil.location
+)
+"src/ext/sfi/sfi.ml" 293 10691 10699 "src/ext/sfi/sfi.ml" 293 10691 10712
+type(
+  Cil.global
+)
+"src/ext/sfi/sfi.ml" 293 10691 10718 "src/ext/sfi/sfi.ml" 293 10691 10733
+type(
+  Cil.fundec -> bool
+)
+ident(
+  int_ref mustSfiFunction "src/ext/sfi/sfi.ml" 51 1918 1922 "src/ext/sfi/sfi.ml" 51 1918 1937
+)
+"src/ext/sfi/sfi.ml" 293 10691 10734 "src/ext/sfi/sfi.ml" 293 10691 10738
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "src/ext/sfi/sfi.ml" 293 10691 10704 "src/ext/sfi/sfi.ml" 293 10691 10708
+)
+"src/ext/sfi/sfi.ml" 293 10691 10718 "src/ext/sfi/sfi.ml" 293 10691 10738
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 294 10743 10753 "src/ext/sfi/sfi.ml" 294 10743 10759
+type(
+  Cil.fundec -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/sfi/sfi.ml" 294 10743 10761 "src/ext/sfi/sfi.ml" 294 10743 10777
+type(
+  Cil.cilVisitor -> Cil.fundec -> Cil.fundec
+)
+ident(
+  ext_ref Cil.visitCilFunction
+)
+"src/ext/sfi/sfi.ml" 294 10743 10778 "src/ext/sfi/sfi.ml" 294 10743 10788
+type(
+  sfiVisitorClass
+)
+ident(
+  int_ref sfiVisitor "src/ext/sfi/sfi.ml" 281 10271 10277 "src/ext/sfi/sfi.ml" 281 10271 10287
+)
+"src/ext/sfi/sfi.ml" 294 10743 10789 "src/ext/sfi/sfi.ml" 294 10743 10793
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "src/ext/sfi/sfi.ml" 293 10691 10704 "src/ext/sfi/sfi.ml" 293 10691 10708
+)
+"src/ext/sfi/sfi.ml" 294 10743 10760 "src/ext/sfi/sfi.ml" 294 10743 10794
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"src/ext/sfi/sfi.ml" 294 10743 10753 "src/ext/sfi/sfi.ml" 294 10743 10794
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 295 10795 10816 "src/ext/sfi/sfi.ml" 295 10795 10827
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 295 10795 10829 "src/ext/sfi/sfi.ml" 295 10795 10831
+type(
+  Cil.attrparam list
+)
+ident(
+  def al "src/ext/sfi/sfi.ml" 296 10841 10851 "src/ext/sfi/sfi.ml" 300 11035 11049
+)
+"src/ext/sfi/sfi.ml" 295 10795 10811 "src/ext/sfi/sfi.ml" 295 10795 10832
+type(
+  Cil.attribute
+)
+"src/ext/sfi/sfi.ml" 295 10795 10834 "src/ext/sfi/sfi.ml" 295 10795 10835
+type(
+  Cil.location
+)
+ident(
+  def l "src/ext/sfi/sfi.ml" 296 10841 10851 "src/ext/sfi/sfi.ml" 300 11035 11049
+)
+"src/ext/sfi/sfi.ml" 295 10795 10803 "src/ext/sfi/sfi.ml" 295 10795 10836
+type(
+  Cil.global
+)
+"src/ext/sfi/sfi.ml" 296 10841 10851 "src/ext/sfi/sfi.ml" 296 10841 10860
+type(
+  (Cil.attrparam -> unit) -> Cil.attrparam list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/sfi/sfi.ml" 297 10862 10889 "src/ext/sfi/sfi.ml" 297 10862 10891
+type(
+  string
+)
+ident(
+  def fn "src/ext/sfi/sfi.ml" 297 10862 10895 "src/ext/sfi/sfi.ml" 297 10862 10920
+)
+"src/ext/sfi/sfi.ml" 297 10862 10884 "src/ext/sfi/sfi.ml" 297 10862 10891
+type(
+  Cil.attrparam
+)
+"src/ext/sfi/sfi.ml" 297 10862 10895 "src/ext/sfi/sfi.ml" 297 10862 10900
+type(
+  (string, unit) H.t -> string -> unit -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/ext/sfi/sfi.ml" 297 10862 10901 "src/ext/sfi/sfi.ml" 297 10862 10914
+type(
+  (string, unit) H.t
+)
+ident(
+  int_ref skipFunctions "src/ext/sfi/sfi.ml" 50 1865 1869 "src/ext/sfi/sfi.ml" 50 1865 1882
+)
+"src/ext/sfi/sfi.ml" 297 10862 10915 "src/ext/sfi/sfi.ml" 297 10862 10917
+type(
+  string
+)
+ident(
+  int_ref fn "src/ext/sfi/sfi.ml" 297 10862 10889 "src/ext/sfi/sfi.ml" 297 10862 10891
+)
+"src/ext/sfi/sfi.ml" 297 10862 10918 "src/ext/sfi/sfi.ml" 297 10862 10920
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 297 10862 10895 "src/ext/sfi/sfi.ml" 297 10862 10920
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 298 10921 10937 "src/ext/sfi/sfi.ml" 298 10921 10938
+type(
+  Cil.attrparam
+)
+"src/ext/sfi/sfi.ml" 298 10921 10942 "src/ext/sfi/sfi.ml" 298 10921 10948
+type(
+  ((unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit, unit,
+   Pretty.doc, unit)
+  format4 -> (unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit
+)
+ident(
+  ext_ref E.warn
+)
+"src/ext/sfi/sfi.ml" 298 10921 10949 "src/ext/sfi/sfi.ml" 298 10921 10997
+type(
+  ((unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit, unit,
+   Pretty.doc, unit)
+  format4
+)
+"src/ext/sfi/sfi.ml" 299 10998 11026 "src/ext/sfi/sfi.ml" 299 10998 11031
+type(
+  unit -> Cil.location -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_loc
+)
+"src/ext/sfi/sfi.ml" 299 10998 11032 "src/ext/sfi/sfi.ml" 299 10998 11033
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/sfi/sfi.ml" 295 10795 10834 "src/ext/sfi/sfi.ml" 295 10795 10835
+)
+"src/ext/sfi/sfi.ml" 298 10921 10942 "src/ext/sfi/sfi.ml" 299 10998 11033
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 297 10862 10874 "src/ext/sfi/sfi.ml" 299 10998 11034
+type(
+  Cil.attrparam -> unit
+)
+"src/ext/sfi/sfi.ml" 300 11035 11047 "src/ext/sfi/sfi.ml" 300 11035 11049
+type(
+  Cil.attrparam list
+)
+ident(
+  int_ref al "src/ext/sfi/sfi.ml" 295 10795 10829 "src/ext/sfi/sfi.ml" 295 10795 10831
+)
+"src/ext/sfi/sfi.ml" 296 10841 10851 "src/ext/sfi/sfi.ml" 300 11035 11049
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 302 11051 11072 "src/ext/sfi/sfi.ml" 302 11051 11082
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 302 11051 11084 "src/ext/sfi/sfi.ml" 302 11051 11086
+type(
+  Cil.attrparam list
+)
+ident(
+  def al "src/ext/sfi/sfi.ml" 302 11051 11095 "src/ext/sfi/sfi.ml" 307 11321 11330
+)
+"src/ext/sfi/sfi.ml" 302 11051 11067 "src/ext/sfi/sfi.ml" 302 11051 11087
+type(
+  Cil.attribute
+)
+"src/ext/sfi/sfi.ml" 302 11051 11089 "src/ext/sfi/sfi.ml" 302 11051 11090
+type(
+  Cil.location
+)
+ident(
+  def l "src/ext/sfi/sfi.ml" 302 11051 11095 "src/ext/sfi/sfi.ml" 307 11321 11330
+)
+"src/ext/sfi/sfi.ml" 302 11051 11059 "src/ext/sfi/sfi.ml" 302 11051 11091
+type(
+  Cil.global
+)
+"src/ext/sfi/sfi.ml" 303 11101 11117 "src/ext/sfi/sfi.ml" 303 11101 11119
+type(
+  Cil.attrparam list
+)
+ident(
+  int_ref al "src/ext/sfi/sfi.ml" 302 11051 11084 "src/ext/sfi/sfi.ml" 302 11051 11086
+)
+"src/ext/sfi/sfi.ml" 304 11126 11143 "src/ext/sfi/sfi.ml" 304 11126 11148
+type(
+  string
+)
+ident(
+  def fname "src/ext/sfi/sfi.ml" 305 11178 11192 "src/ext/sfi/sfi.ml" 305 11178 11256
+)
+"src/ext/sfi/sfi.ml" 304 11126 11138 "src/ext/sfi/sfi.ml" 304 11126 11148
+type(
+  Cil.attrparam
+)
+"src/ext/sfi/sfi.ml" 304 11126 11152 "src/ext/sfi/sfi.ml" 304 11126 11157
+type(
+  Cil.attrparam
+)
+ident(
+  def locsz "src/ext/sfi/sfi.ml" 305 11178 11192 "src/ext/sfi/sfi.ml" 305 11178 11256
+)
+"src/ext/sfi/sfi.ml" 304 11126 11161 "src/ext/sfi/sfi.ml" 304 11126 11167
+type(
+  Cil.attrparam
+)
+ident(
+  def locres "src/ext/sfi/sfi.ml" 305 11178 11192 "src/ext/sfi/sfi.ml" 305 11178 11256
+)
+"src/ext/sfi/sfi.ml" 304 11126 11171 "src/ext/sfi/sfi.ml" 304 11126 11173
+type(
+  Cil.attrparam list
+)
+"src/ext/sfi/sfi.ml" 304 11126 11161 "src/ext/sfi/sfi.ml" 304 11126 11173
+type(
+  Cil.attrparam list
+)
+"src/ext/sfi/sfi.ml" 304 11126 11152 "src/ext/sfi/sfi.ml" 304 11126 11173
+type(
+  Cil.attrparam list
+)
+"src/ext/sfi/sfi.ml" 304 11126 11138 "src/ext/sfi/sfi.ml" 304 11126 11173
+type(
+  Cil.attrparam list
+)
+"src/ext/sfi/sfi.ml" 305 11178 11192 "src/ext/sfi/sfi.ml" 305 11178 11197
+type(
+  (string, dataLocation * dataLocation) H.t ->
+  string -> dataLocation * dataLocation -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/ext/sfi/sfi.ml" 305 11178 11198 "src/ext/sfi/sfi.ml" 305 11178 11208
+type(
+  (string, dataLocation * dataLocation) H.t
+)
+ident(
+  int_ref allocators "src/ext/sfi/sfi.ml" 89 3277 3281 "src/ext/sfi/sfi.ml" 89 3277 3291
+)
+"src/ext/sfi/sfi.ml" 305 11178 11209 "src/ext/sfi/sfi.ml" 305 11178 11214
+type(
+  string
+)
+ident(
+  int_ref fname "src/ext/sfi/sfi.ml" 304 11126 11143 "src/ext/sfi/sfi.ml" 304 11126 11148
+)
+"src/ext/sfi/sfi.ml" 305 11178 11216 "src/ext/sfi/sfi.ml" 305 11178 11226
+type(
+  Cil.location -> Cil.attrparam -> dataLocation
+)
+ident(
+  int_ref compileLoc "src/ext/sfi/sfi.ml" 282 10313 10319 "src/ext/sfi/sfi.ml" 282 10313 10329
+)
+"src/ext/sfi/sfi.ml" 305 11178 11227 "src/ext/sfi/sfi.ml" 305 11178 11228
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/sfi/sfi.ml" 302 11051 11089 "src/ext/sfi/sfi.ml" 302 11051 11090
+)
+"src/ext/sfi/sfi.ml" 305 11178 11229 "src/ext/sfi/sfi.ml" 305 11178 11234
+type(
+  Cil.attrparam
+)
+ident(
+  int_ref locsz "src/ext/sfi/sfi.ml" 304 11126 11152 "src/ext/sfi/sfi.ml" 304 11126 11157
+)
+"src/ext/sfi/sfi.ml" 305 11178 11216 "src/ext/sfi/sfi.ml" 305 11178 11234
+call(
+  stack
+)
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 305 11178 11236 "src/ext/sfi/sfi.ml" 305 11178 11246
+type(
+  Cil.location -> Cil.attrparam -> dataLocation
+)
+ident(
+  int_ref compileLoc "src/ext/sfi/sfi.ml" 282 10313 10319 "src/ext/sfi/sfi.ml" 282 10313 10329
+)
+"src/ext/sfi/sfi.ml" 305 11178 11247 "src/ext/sfi/sfi.ml" 305 11178 11248
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/sfi/sfi.ml" 302 11051 11089 "src/ext/sfi/sfi.ml" 302 11051 11090
+)
+"src/ext/sfi/sfi.ml" 305 11178 11249 "src/ext/sfi/sfi.ml" 305 11178 11255
+type(
+  Cil.attrparam
+)
+ident(
+  int_ref locres "src/ext/sfi/sfi.ml" 304 11126 11161 "src/ext/sfi/sfi.ml" 304 11126 11167
+)
+"src/ext/sfi/sfi.ml" 305 11178 11236 "src/ext/sfi/sfi.ml" 305 11178 11255
+call(
+  stack
+)
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 305 11178 11215 "src/ext/sfi/sfi.ml" 305 11178 11256
+type(
+  dataLocation * dataLocation
+)
+"src/ext/sfi/sfi.ml" 305 11178 11192 "src/ext/sfi/sfi.ml" 305 11178 11256
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 306 11257 11269 "src/ext/sfi/sfi.ml" 306 11257 11270
+type(
+  Cil.attrparam list
+)
+"src/ext/sfi/sfi.ml" 306 11257 11274 "src/ext/sfi/sfi.ml" 306 11257 11280
+type(
+  ((unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit, unit,
+   Pretty.doc, unit)
+  format4 -> (unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit
+)
+ident(
+  ext_ref E.warn
+)
+"src/ext/sfi/sfi.ml" 306 11257 11281 "src/ext/sfi/sfi.ml" 306 11257 11312
+type(
+  ((unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit, unit,
+   Pretty.doc, unit)
+  format4
+)
+"src/ext/sfi/sfi.ml" 306 11257 11313 "src/ext/sfi/sfi.ml" 306 11257 11318
+type(
+  unit -> Cil.location -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_loc
+)
+"src/ext/sfi/sfi.ml" 306 11257 11319 "src/ext/sfi/sfi.ml" 306 11257 11320
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/sfi/sfi.ml" 302 11051 11089 "src/ext/sfi/sfi.ml" 302 11051 11090
+)
+"src/ext/sfi/sfi.ml" 306 11257 11274 "src/ext/sfi/sfi.ml" 306 11257 11320
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 302 11051 11095 "src/ext/sfi/sfi.ml" 307 11321 11330
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 309 11348 11369 "src/ext/sfi/sfi.ml" 309 11348 11378
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 309 11348 11380 "src/ext/sfi/sfi.ml" 309 11348 11382
+type(
+  Cil.attrparam list
+)
+ident(
+  def al "src/ext/sfi/sfi.ml" 309 11348 11391 "src/ext/sfi/sfi.ml" 314 11591 11600
+)
+"src/ext/sfi/sfi.ml" 309 11348 11364 "src/ext/sfi/sfi.ml" 309 11348 11383
+type(
+  Cil.attribute
+)
+"src/ext/sfi/sfi.ml" 309 11348 11385 "src/ext/sfi/sfi.ml" 309 11348 11386
+type(
+  Cil.location
+)
+ident(
+  def l "src/ext/sfi/sfi.ml" 309 11348 11391 "src/ext/sfi/sfi.ml" 314 11591 11600
+)
+"src/ext/sfi/sfi.ml" 309 11348 11356 "src/ext/sfi/sfi.ml" 309 11348 11387
+type(
+  Cil.global
+)
+"src/ext/sfi/sfi.ml" 310 11397 11413 "src/ext/sfi/sfi.ml" 310 11397 11415
+type(
+  Cil.attrparam list
+)
+ident(
+  int_ref al "src/ext/sfi/sfi.ml" 309 11348 11380 "src/ext/sfi/sfi.ml" 309 11348 11382
+)
+"src/ext/sfi/sfi.ml" 311 11422 11439 "src/ext/sfi/sfi.ml" 311 11422 11444
+type(
+  string
+)
+ident(
+  def fname "src/ext/sfi/sfi.ml" 312 11466 11480 "src/ext/sfi/sfi.ml" 312 11466 11527
+)
+"src/ext/sfi/sfi.ml" 311 11422 11434 "src/ext/sfi/sfi.ml" 311 11422 11444
+type(
+  Cil.attrparam
+)
+"src/ext/sfi/sfi.ml" 311 11422 11448 "src/ext/sfi/sfi.ml" 311 11422 11455
+type(
+  Cil.attrparam
+)
+ident(
+  def locwhat "src/ext/sfi/sfi.ml" 312 11466 11480 "src/ext/sfi/sfi.ml" 312 11466 11527
+)
+"src/ext/sfi/sfi.ml" 311 11422 11459 "src/ext/sfi/sfi.ml" 311 11422 11461
+type(
+  Cil.attrparam list
+)
+"src/ext/sfi/sfi.ml" 311 11422 11448 "src/ext/sfi/sfi.ml" 311 11422 11461
+type(
+  Cil.attrparam list
+)
+"src/ext/sfi/sfi.ml" 311 11422 11434 "src/ext/sfi/sfi.ml" 311 11422 11461
+type(
+  Cil.attrparam list
+)
+"src/ext/sfi/sfi.ml" 312 11466 11480 "src/ext/sfi/sfi.ml" 312 11466 11485
+type(
+  (string, dataLocation) H.t -> string -> dataLocation -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/ext/sfi/sfi.ml" 312 11466 11486 "src/ext/sfi/sfi.ml" 312 11466 11498
+type(
+  (string, dataLocation) H.t
+)
+ident(
+  int_ref deallocators "src/ext/sfi/sfi.ml" 96 3585 3589 "src/ext/sfi/sfi.ml" 96 3585 3601
+)
+"src/ext/sfi/sfi.ml" 312 11466 11499 "src/ext/sfi/sfi.ml" 312 11466 11504
+type(
+  string
+)
+ident(
+  int_ref fname "src/ext/sfi/sfi.ml" 311 11422 11439 "src/ext/sfi/sfi.ml" 311 11422 11444
+)
+"src/ext/sfi/sfi.ml" 312 11466 11506 "src/ext/sfi/sfi.ml" 312 11466 11516
+type(
+  Cil.location -> Cil.attrparam -> dataLocation
+)
+ident(
+  int_ref compileLoc "src/ext/sfi/sfi.ml" 282 10313 10319 "src/ext/sfi/sfi.ml" 282 10313 10329
+)
+"src/ext/sfi/sfi.ml" 312 11466 11517 "src/ext/sfi/sfi.ml" 312 11466 11518
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/sfi/sfi.ml" 309 11348 11385 "src/ext/sfi/sfi.ml" 309 11348 11386
+)
+"src/ext/sfi/sfi.ml" 312 11466 11519 "src/ext/sfi/sfi.ml" 312 11466 11526
+type(
+  Cil.attrparam
+)
+ident(
+  int_ref locwhat "src/ext/sfi/sfi.ml" 311 11422 11448 "src/ext/sfi/sfi.ml" 311 11422 11455
+)
+"src/ext/sfi/sfi.ml" 312 11466 11505 "src/ext/sfi/sfi.ml" 312 11466 11527
+call(
+  stack
+)
+type(
+  dataLocation
+)
+"src/ext/sfi/sfi.ml" 312 11466 11480 "src/ext/sfi/sfi.ml" 312 11466 11527
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 313 11528 11540 "src/ext/sfi/sfi.ml" 313 11528 11541
+type(
+  Cil.attrparam list
+)
+"src/ext/sfi/sfi.ml" 313 11528 11545 "src/ext/sfi/sfi.ml" 313 11528 11551
+type(
+  ((unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit, unit,
+   Pretty.doc, unit)
+  format4 -> (unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit
+)
+ident(
+  ext_ref E.warn
+)
+"src/ext/sfi/sfi.ml" 313 11528 11552 "src/ext/sfi/sfi.ml" 313 11528 11582
+type(
+  ((unit -> Cil.location -> Pretty.doc) -> Cil.location -> unit, unit,
+   Pretty.doc, unit)
+  format4
+)
+"src/ext/sfi/sfi.ml" 313 11528 11583 "src/ext/sfi/sfi.ml" 313 11528 11588
+type(
+  unit -> Cil.location -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_loc
+)
+"src/ext/sfi/sfi.ml" 313 11528 11589 "src/ext/sfi/sfi.ml" 313 11528 11590
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/sfi/sfi.ml" 309 11348 11385 "src/ext/sfi/sfi.ml" 309 11348 11386
+)
+"src/ext/sfi/sfi.ml" 313 11528 11545 "src/ext/sfi/sfi.ml" 313 11528 11590
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 309 11348 11391 "src/ext/sfi/sfi.ml" 314 11591 11600
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 317 11619 11627 "src/ext/sfi/sfi.ml" 317 11619 11628
+type(
+  Cil.global
+)
+"src/ext/sfi/sfi.ml" 317 11619 11632 "src/ext/sfi/sfi.ml" 317 11619 11634
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 292 10668 10674 "src/ext/sfi/sfi.ml" 317 11619 11634
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 291 10650 10654 "src/ext/sfi/sfi.ml" 317 11619 11635
+type(
+  Cil.global -> unit
+)
+"src/ext/sfi/sfi.ml" 290 10634 10636 "src/ext/sfi/sfi.ml" 317 11619 11635
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 319 11702 11704 "src/ext/sfi/sfi.ml" 319 11702 11705
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/sfi/sfi.ml" 280 10250 10260 "src/ext/sfi/sfi.ml" 280 10250 10261
+)
+"src/ext/sfi/sfi.ml" 320 11717 11731 "src/ext/sfi/sfi.ml" 320 11717 11739
+type(
+  Cil.fundec
+)
+ident(
+  int_ref logReads "src/ext/sfi/sfi.ml" 162 5993 5997 "src/ext/sfi/sfi.ml" 162 5993 6005
+)
+"src/ext/sfi/sfi.ml" 320 11717 11731 "src/ext/sfi/sfi.ml" 320 11717 11744
+type(
+  Cil.varinfo
+)
+"src/ext/sfi/sfi.ml" 320 11717 11746 "src/ext/sfi/sfi.ml" 320 11717 11756
+type(
+  Cil.location
+)
+ident(
+  ext_ref Cil.locUnknown
+)
+"src/ext/sfi/sfi.ml" 320 11717 11721 "src/ext/sfi/sfi.ml" 320 11717 11757
+type(
+  Cil.global
+)
+"src/ext/sfi/sfi.ml" 321 11761 11775 "src/ext/sfi/sfi.ml" 321 11761 11784
+type(
+  Cil.fundec
+)
+ident(
+  int_ref logWrites "src/ext/sfi/sfi.ml" 173 6490 6494 "src/ext/sfi/sfi.ml" 173 6490 6503
+)
+"src/ext/sfi/sfi.ml" 321 11761 11775 "src/ext/sfi/sfi.ml" 321 11761 11789
+type(
+  Cil.varinfo
+)
+"src/ext/sfi/sfi.ml" 321 11761 11791 "src/ext/sfi/sfi.ml" 321 11761 11801
+type(
+  Cil.location
+)
+ident(
+  ext_ref Cil.locUnknown
+)
+"src/ext/sfi/sfi.ml" 321 11761 11765 "src/ext/sfi/sfi.ml" 321 11761 11802
+type(
+  Cil.global
+)
+"src/ext/sfi/sfi.ml" 322 11806 11820 "src/ext/sfi/sfi.ml" 322 11806 11833
+type(
+  Cil.fundec
+)
+ident(
+  int_ref logStackFrame "src/ext/sfi/sfi.ml" 184 6998 7002 "src/ext/sfi/sfi.ml" 184 6998 7015
+)
+"src/ext/sfi/sfi.ml" 322 11806 11820 "src/ext/sfi/sfi.ml" 322 11806 11838
+type(
+  Cil.varinfo
+)
+"src/ext/sfi/sfi.ml" 322 11806 11840 "src/ext/sfi/sfi.ml" 322 11806 11850
+type(
+  Cil.location
+)
+ident(
+  ext_ref Cil.locUnknown
+)
+"src/ext/sfi/sfi.ml" 322 11806 11810 "src/ext/sfi/sfi.ml" 322 11806 11851
+type(
+  Cil.global
+)
+"src/ext/sfi/sfi.ml" 323 11855 11869 "src/ext/sfi/sfi.ml" 323 11855 11877
+type(
+  Cil.fundec
+)
+ident(
+  int_ref logAlloc "src/ext/sfi/sfi.ml" 190 7215 7219 "src/ext/sfi/sfi.ml" 190 7215 7227
+)
+"src/ext/sfi/sfi.ml" 323 11855 11869 "src/ext/sfi/sfi.ml" 323 11855 11882
+type(
+  Cil.varinfo
+)
+"src/ext/sfi/sfi.ml" 323 11855 11884 "src/ext/sfi/sfi.ml" 323 11855 11894
+type(
+  Cil.location
+)
+ident(
+  ext_ref Cil.locUnknown
+)
+"src/ext/sfi/sfi.ml" 323 11855 11859 "src/ext/sfi/sfi.ml" 323 11855 11895
+type(
+  Cil.global
+)
+"src/ext/sfi/sfi.ml" 324 11900 11914 "src/ext/sfi/sfi.ml" 324 11900 11921
+type(
+  Cil.fundec
+)
+ident(
+  int_ref logFree "src/ext/sfi/sfi.ml" 206 7863 7867 "src/ext/sfi/sfi.ml" 206 7863 7874
+)
+"src/ext/sfi/sfi.ml" 324 11900 11914 "src/ext/sfi/sfi.ml" 324 11900 11926
+type(
+  Cil.varinfo
+)
+"src/ext/sfi/sfi.ml" 324 11900 11928 "src/ext/sfi/sfi.ml" 324 11900 11938
+type(
+  Cil.location
+)
+ident(
+  ext_ref Cil.locUnknown
+)
+"src/ext/sfi/sfi.ml" 324 11900 11904 "src/ext/sfi/sfi.ml" 324 11900 11939
+type(
+  Cil.global
+)
+"src/ext/sfi/sfi.ml" 324 11900 11943 "src/ext/sfi/sfi.ml" 324 11900 11944
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/sfi/sfi.ml" 280 10250 10260 "src/ext/sfi/sfi.ml" 280 10250 10261
+)
+"src/ext/sfi/sfi.ml" 324 11900 11943 "src/ext/sfi/sfi.ml" 324 11900 11952
+type(
+  Cil.global list
+)
+"src/ext/sfi/sfi.ml" 324 11900 11904 "src/ext/sfi/sfi.ml" 324 11900 11952
+type(
+  Cil.global list
+)
+"src/ext/sfi/sfi.ml" 323 11855 11859 "src/ext/sfi/sfi.ml" 324 11900 11952
+type(
+  Cil.global list
+)
+"src/ext/sfi/sfi.ml" 322 11806 11810 "src/ext/sfi/sfi.ml" 324 11900 11952
+type(
+  Cil.global list
+)
+"src/ext/sfi/sfi.ml" 321 11761 11765 "src/ext/sfi/sfi.ml" 324 11900 11952
+type(
+  Cil.global list
+)
+"src/ext/sfi/sfi.ml" 320 11717 11721 "src/ext/sfi/sfi.ml" 324 11900 11952
+type(
+  Cil.global list
+)
+"src/ext/sfi/sfi.ml" 319 11702 11704 "src/ext/sfi/sfi.ml" 324 11900 11952
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 290 10634 10636 "src/ext/sfi/sfi.ml" 324 11900 11952
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 282 10313 10315 "src/ext/sfi/sfi.ml" 324 11900 11952
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 281 10271 10273 "src/ext/sfi/sfi.ml" 324 11900 11952
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 327 11955 11959 "src/ext/sfi/sfi.ml" 327 11955 11966
+type(
+  Feature.t
+)
+ident(
+  def feature "src/ext/sfi/sfi.ml" 339 12262 12262 "src/ext/sfi/sfi.ml" 1 0 -1
+)
+"src/ext/sfi/sfi.ml" 328 11970 11984 "src/ext/sfi/sfi.ml" 328 11970 11989
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 329 11991 12008 "src/ext/sfi/sfi.ml" 329 11991 12013
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 330 12015 12036 "src/ext/sfi/sfi.ml" 330 12015 12066
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 332 12088 12092 "src/ext/sfi/sfi.ml" 332 12088 12104
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 332 12088 12114 "src/ext/sfi/sfi.ml" 332 12088 12124
+type(
+  bool ref
+)
+ident(
+  int_ref doSfiReads "src/ext/sfi/sfi.ml" 46 1768 1772 "src/ext/sfi/sfi.ml" 46 1768 1782
+)
+"src/ext/sfi/sfi.ml" 332 12088 12106 "src/ext/sfi/sfi.ml" 332 12088 12124
+type(
+  Arg.spec
+)
+"src/ext/sfi/sfi.ml" 332 12088 12126 "src/ext/sfi/sfi.ml" 332 12088 12142
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 332 12088 12092 "src/ext/sfi/sfi.ml" 332 12088 12142
+type(
+  string * Arg.spec * string
+)
+"src/ext/sfi/sfi.ml" 333 12144 12148 "src/ext/sfi/sfi.ml" 333 12144 12161
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 333 12144 12171 "src/ext/sfi/sfi.ml" 333 12144 12182
+type(
+  bool ref
+)
+ident(
+  int_ref doSfiWrites "src/ext/sfi/sfi.ml" 47 1795 1799 "src/ext/sfi/sfi.ml" 47 1795 1810
+)
+"src/ext/sfi/sfi.ml" 333 12144 12163 "src/ext/sfi/sfi.ml" 333 12144 12182
+type(
+  Arg.spec
+)
+"src/ext/sfi/sfi.ml" 333 12144 12184 "src/ext/sfi/sfi.ml" 333 12144 12201
+type(
+  string
+)
+"src/ext/sfi/sfi.ml" 333 12144 12148 "src/ext/sfi/sfi.ml" 333 12144 12201
+type(
+  string * Arg.spec * string
+)
+"src/ext/sfi/sfi.ml" 331 12068 12086 "src/ext/sfi/sfi.ml" 334 12203 12208
+type(
+  (string * Arg.spec * string) list
+)
+"src/ext/sfi/sfi.ml" 335 12210 12224 "src/ext/sfi/sfi.ml" 335 12210 12228
+type(
+  Cil.file -> unit
+)
+ident(
+  int_ref doit "src/ext/sfi/sfi.ml" 280 10250 10254 "src/ext/sfi/sfi.ml" 280 10250 10258
+)
+"src/ext/sfi/sfi.ml" 336 12230 12250 "src/ext/sfi/sfi.ml" 336 12230 12254
+type(
+  bool
+)
+"src/ext/sfi/sfi.ml" 328 11970 11972 "src/ext/sfi/sfi.ml" 337 12256 12259
+type(
+  Feature.t
+)
+"src/ext/sfi/sfi.ml" 339 12262 12266 "src/ext/sfi/sfi.ml" 339 12262 12268
+type(
+  unit
+)
+"src/ext/sfi/sfi.ml" 339 12262 12271 "src/ext/sfi/sfi.ml" 339 12262 12287
+type(
+  Feature.t -> unit
+)
+ident(
+  ext_ref Feature.register
+)
+"src/ext/sfi/sfi.ml" 339 12262 12288 "src/ext/sfi/sfi.ml" 339 12262 12295
+type(
+  Feature.t
+)
+ident(
+  int_ref feature "src/ext/sfi/sfi.ml" 327 11955 11959 "src/ext/sfi/sfi.ml" 327 11955 11966
+)
+"src/ext/sfi/sfi.ml" 339 12262 12271 "src/ext/sfi/sfi.ml" 339 12262 12295
+call(
+  stack
+)
+type(
+  unit
+)

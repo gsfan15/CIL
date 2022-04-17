@@ -1,0 +1,1728 @@
+"src/ext/logcalls/logcalls.ml" 12 183 187 "src/ext/logcalls/logcalls.ml" 12 183 188
+type(
+  int ref
+)
+ident(
+  def i "src/ext/logcalls/logcalls.ml" 13 197 197 "src/ext/logcalls/logcalls.ml" 1 0 -1
+)
+"src/ext/logcalls/logcalls.ml" 12 183 191 "src/ext/logcalls/logcalls.ml" 12 183 194
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/logcalls/logcalls.ml" 12 183 195 "src/ext/logcalls/logcalls.ml" 12 183 196
+type(
+  int
+)
+"src/ext/logcalls/logcalls.ml" 12 183 191 "src/ext/logcalls/logcalls.ml" 12 183 196
+type(
+  int ref
+)
+"src/ext/logcalls/logcalls.ml" 13 197 201 "src/ext/logcalls/logcalls.ml" 13 197 205
+type(
+  string ref
+)
+ident(
+  def name "src/ext/logcalls/logcalls.ml" 16 231 231 "src/ext/logcalls/logcalls.ml" 1 0 -1
+)
+"src/ext/logcalls/logcalls.ml" 13 197 208 "src/ext/logcalls/logcalls.ml" 13 197 211
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/logcalls/logcalls.ml" 13 197 212 "src/ext/logcalls/logcalls.ml" 13 197 214
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 13 197 208 "src/ext/logcalls/logcalls.ml" 13 197 214
+type(
+  string ref
+)
+"src/ext/logcalls/logcalls.ml" 16 231 235 "src/ext/logcalls/logcalls.ml" 16 231 252
+type(
+  string ref
+)
+ident(
+  def printFunctionName "src/ext/logcalls/logcalls.ml" 18 269 269 "src/ext/logcalls/logcalls.ml" 1 0 -1
+)
+"src/ext/logcalls/logcalls.ml" 16 231 255 "src/ext/logcalls/logcalls.ml" 16 231 258
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/logcalls/logcalls.ml" 16 231 259 "src/ext/logcalls/logcalls.ml" 16 231 267
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 16 231 255 "src/ext/logcalls/logcalls.ml" 16 231 267
+type(
+  string ref
+)
+"src/ext/logcalls/logcalls.ml" 18 269 273 "src/ext/logcalls/logcalls.ml" 18 269 281
+type(
+  bool ref
+)
+ident(
+  def addProto "src/ext/logcalls/logcalls.ml" 20 295 295 "src/ext/logcalls/logcalls.ml" 1 0 -1
+)
+"src/ext/logcalls/logcalls.ml" 18 269 284 "src/ext/logcalls/logcalls.ml" 18 269 287
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/logcalls/logcalls.ml" 18 269 288 "src/ext/logcalls/logcalls.ml" 18 269 293
+type(
+  bool
+)
+"src/ext/logcalls/logcalls.ml" 18 269 284 "src/ext/logcalls/logcalls.ml" 18 269 293
+type(
+  bool ref
+)
+"src/ext/logcalls/logcalls.ml" 20 295 299 "src/ext/logcalls/logcalls.ml" 20 295 305
+type(
+  Cil.varinfo option ref
+)
+ident(
+  def printf "src/ext/logcalls/logcalls.ml" 21 337 337 "src/ext/logcalls/logcalls.ml" 1 0 -1
+)
+"src/ext/logcalls/logcalls.ml" 20 295 328 "src/ext/logcalls/logcalls.ml" 20 295 331
+type(
+  Cil.varinfo option -> Cil.varinfo option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/logcalls/logcalls.ml" 20 295 332 "src/ext/logcalls/logcalls.ml" 20 295 336
+type(
+  Cil.varinfo option
+)
+"src/ext/logcalls/logcalls.ml" 20 295 328 "src/ext/logcalls/logcalls.ml" 20 295 336
+type(
+  Cil.varinfo option ref
+)
+type(
+  Cil.varinfo option ref
+)
+"src/ext/logcalls/logcalls.ml" 21 337 341 "src/ext/logcalls/logcalls.ml" 21 337 359
+type(
+  unit -> Cil.varinfo
+)
+ident(
+  def makePrintfFunction "src/ext/logcalls/logcalls.ml" 33 676 676 "src/ext/logcalls/logcalls.ml" 1 0 -1
+)
+"src/ext/logcalls/logcalls.ml" 21 337 360 "src/ext/logcalls/logcalls.ml" 21 337 362
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 22 376 386 "src/ext/logcalls/logcalls.ml" 22 376 387
+type(
+  Cil.varinfo option ref -> Cil.varinfo option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/logcalls/logcalls.ml" 22 376 387 "src/ext/logcalls/logcalls.ml" 22 376 393
+type(
+  Cil.varinfo option ref
+)
+ident(
+  int_ref printf "src/ext/logcalls/logcalls.ml" 20 295 299 "src/ext/logcalls/logcalls.ml" 20 295 305
+)
+"src/ext/logcalls/logcalls.ml" 22 376 386 "src/ext/logcalls/logcalls.ml" 22 376 393
+type(
+  Cil.varinfo option
+)
+"src/ext/logcalls/logcalls.ml" 23 400 411 "src/ext/logcalls/logcalls.ml" 23 400 412
+type(
+  Cil.varinfo
+)
+ident(
+  def v "src/ext/logcalls/logcalls.ml" 23 400 416 "src/ext/logcalls/logcalls.ml" 23 400 417
+)
+"src/ext/logcalls/logcalls.ml" 23 400 406 "src/ext/logcalls/logcalls.ml" 23 400 412
+type(
+  Cil.varinfo option
+)
+"src/ext/logcalls/logcalls.ml" 23 400 416 "src/ext/logcalls/logcalls.ml" 23 400 417
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref v "src/ext/logcalls/logcalls.ml" 23 400 411 "src/ext/logcalls/logcalls.ml" 23 400 412
+)
+"src/ext/logcalls/logcalls.ml" 24 418 424 "src/ext/logcalls/logcalls.ml" 24 418 428
+type(
+  Cil.varinfo option
+)
+"src/ext/logcalls/logcalls.ml" 25 439 451 "src/ext/logcalls/logcalls.ml" 25 439 452
+type(
+  Cil.varinfo
+)
+ident(
+  def v "src/ext/logcalls/logcalls.ml" 28 605 613 "src/ext/logcalls/logcalls.ml" 30 657 666
+)
+"src/ext/logcalls/logcalls.ml" 25 439 455 "src/ext/logcalls/logcalls.ml" 25 439 468
+type(
+  string -> Cil.typ -> Cil.varinfo
+)
+ident(
+  ext_ref Cil.makeGlobalVar
+)
+"src/ext/logcalls/logcalls.ml" 25 439 469 "src/ext/logcalls/logcalls.ml" 25 439 470
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/logcalls/logcalls.ml" 25 439 470 "src/ext/logcalls/logcalls.ml" 25 439 487
+type(
+  string ref
+)
+ident(
+  int_ref printFunctionName "src/ext/logcalls/logcalls.ml" 16 231 235 "src/ext/logcalls/logcalls.ml" 16 231 252
+)
+"src/ext/logcalls/logcalls.ml" 25 439 469 "src/ext/logcalls/logcalls.ml" 25 439 487
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 26 489 516 "src/ext/logcalls/logcalls.ml" 26 489 524
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.voidType
+)
+"src/ext/logcalls/logcalls.ml" 26 489 533 "src/ext/logcalls/logcalls.ml" 26 489 541
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 26 489 543 "src/ext/logcalls/logcalls.ml" 26 489 554
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.charPtrType
+)
+"src/ext/logcalls/logcalls.ml" 26 489 556 "src/ext/logcalls/logcalls.ml" 26 489 558
+type(
+  Cil.attributes
+)
+"src/ext/logcalls/logcalls.ml" 26 489 532 "src/ext/logcalls/logcalls.ml" 26 489 559
+type(
+  string * Cil.typ * Cil.attributes
+)
+"src/ext/logcalls/logcalls.ml" 26 489 531 "src/ext/logcalls/logcalls.ml" 26 489 560
+type(
+  (string * Cil.typ * Cil.attributes) list
+)
+"src/ext/logcalls/logcalls.ml" 26 489 526 "src/ext/logcalls/logcalls.ml" 26 489 560
+type(
+  (string * Cil.typ * Cil.attributes) list option
+)
+"src/ext/logcalls/logcalls.ml" 27 562 591 "src/ext/logcalls/logcalls.ml" 27 562 595
+type(
+  bool
+)
+"src/ext/logcalls/logcalls.ml" 27 562 597 "src/ext/logcalls/logcalls.ml" 27 562 599
+type(
+  Cil.attributes
+)
+"src/ext/logcalls/logcalls.ml" 26 489 510 "src/ext/logcalls/logcalls.ml" 27 562 601
+type(
+  Cil.typ
+)
+"src/ext/logcalls/logcalls.ml" 25 439 455 "src/ext/logcalls/logcalls.ml" 27 562 601
+call(
+  stack
+)
+type(
+  Cil.varinfo
+)
+"src/ext/logcalls/logcalls.ml" 28 605 613 "src/ext/logcalls/logcalls.ml" 28 605 619
+type(
+  Cil.varinfo option ref
+)
+ident(
+  int_ref printf "src/ext/logcalls/logcalls.ml" 20 295 299 "src/ext/logcalls/logcalls.ml" 20 295 305
+)
+"src/ext/logcalls/logcalls.ml" 28 605 620 "src/ext/logcalls/logcalls.ml" 28 605 622
+type(
+  Cil.varinfo option ref -> Cil.varinfo option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/logcalls/logcalls.ml" 28 605 628 "src/ext/logcalls/logcalls.ml" 28 605 629
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref v "src/ext/logcalls/logcalls.ml" 25 439 451 "src/ext/logcalls/logcalls.ml" 25 439 452
+)
+"src/ext/logcalls/logcalls.ml" 28 605 623 "src/ext/logcalls/logcalls.ml" 28 605 629
+type(
+  Cil.varinfo option
+)
+"src/ext/logcalls/logcalls.ml" 28 605 613 "src/ext/logcalls/logcalls.ml" 28 605 629
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 29 631 639 "src/ext/logcalls/logcalls.ml" 29 631 647
+type(
+  bool ref
+)
+ident(
+  int_ref addProto "src/ext/logcalls/logcalls.ml" 18 269 273 "src/ext/logcalls/logcalls.ml" 18 269 281
+)
+"src/ext/logcalls/logcalls.ml" 29 631 648 "src/ext/logcalls/logcalls.ml" 29 631 650
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/logcalls/logcalls.ml" 29 631 651 "src/ext/logcalls/logcalls.ml" 29 631 655
+type(
+  bool
+)
+"src/ext/logcalls/logcalls.ml" 29 631 639 "src/ext/logcalls/logcalls.ml" 29 631 655
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 30 657 665 "src/ext/logcalls/logcalls.ml" 30 657 666
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref v "src/ext/logcalls/logcalls.ml" 25 439 451 "src/ext/logcalls/logcalls.ml" 25 439 452
+)
+"src/ext/logcalls/logcalls.ml" 29 631 639 "src/ext/logcalls/logcalls.ml" 30 657 666
+type(
+  Cil.varinfo
+)
+"src/ext/logcalls/logcalls.ml" 28 605 613 "src/ext/logcalls/logcalls.ml" 30 657 666
+type(
+  Cil.varinfo
+)
+"src/ext/logcalls/logcalls.ml" 24 418 432 "src/ext/logcalls/logcalls.ml" 31 667 674
+type(
+  Cil.varinfo
+)
+"src/ext/logcalls/logcalls.ml" 22 376 380 "src/ext/logcalls/logcalls.ml" 31 667 674
+type(
+  Cil.varinfo
+)
+type(
+  Cil.varinfo
+)
+"src/ext/logcalls/logcalls.ml" 33 676 680 "src/ext/logcalls/logcalls.ml" 33 676 687
+type(
+  string -> Cil.exp list -> Cil.instr
+)
+ident(
+  def mkPrint "src/ext/logcalls/logcalls.ml" 38 848 848 "src/ext/logcalls/logcalls.ml" 1 0 -1
+)
+"src/ext/logcalls/logcalls.ml" 33 676 689 "src/ext/logcalls/logcalls.ml" 33 676 695
+type(
+  string
+)
+ident(
+  def format "src/ext/logcalls/logcalls.ml" 33 676 705 "src/ext/logcalls/logcalls.ml" 35 778 843
+)
+"src/ext/logcalls/logcalls.ml" 33 676 706 "src/ext/logcalls/logcalls.ml" 33 676 710
+type(
+  Cil.exp list
+)
+ident(
+  def args "src/ext/logcalls/logcalls.ml" 33 676 722 "src/ext/logcalls/logcalls.ml" 35 778 843
+)
+"src/ext/logcalls/logcalls.ml" 34 733 739 "src/ext/logcalls/logcalls.ml" 34 733 740
+type(
+  Cil.varinfo
+)
+ident(
+  def p "src/ext/logcalls/logcalls.ml" 35 778 780 "src/ext/logcalls/logcalls.ml" 35 778 843
+)
+"src/ext/logcalls/logcalls.ml" 34 733 752 "src/ext/logcalls/logcalls.ml" 34 733 770
+type(
+  unit -> Cil.varinfo
+)
+ident(
+  int_ref makePrintfFunction "src/ext/logcalls/logcalls.ml" 21 337 341 "src/ext/logcalls/logcalls.ml" 21 337 359
+)
+"src/ext/logcalls/logcalls.ml" 34 733 771 "src/ext/logcalls/logcalls.ml" 34 733 773
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 34 733 752 "src/ext/logcalls/logcalls.ml" 34 733 773
+call(
+  stack
+)
+type(
+  Cil.varinfo
+)
+type(
+  Cil.varinfo
+)
+"src/ext/logcalls/logcalls.ml" 35 778 785 "src/ext/logcalls/logcalls.ml" 35 778 789
+type(
+  Cil.lval option
+)
+"src/ext/logcalls/logcalls.ml" 35 778 796 "src/ext/logcalls/logcalls.ml" 35 778 799
+type(
+  Cil.varinfo -> Cil.lval
+)
+ident(
+  ext_ref Cil.var
+)
+"src/ext/logcalls/logcalls.ml" 35 778 800 "src/ext/logcalls/logcalls.ml" 35 778 801
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref p "src/ext/logcalls/logcalls.ml" 34 733 739 "src/ext/logcalls/logcalls.ml" 34 733 740
+)
+"src/ext/logcalls/logcalls.ml" 35 778 795 "src/ext/logcalls/logcalls.ml" 35 778 802
+call(
+  stack
+)
+type(
+  Cil.lval
+)
+"src/ext/logcalls/logcalls.ml" 35 778 791 "src/ext/logcalls/logcalls.ml" 35 778 802
+type(
+  Cil.exp
+)
+"src/ext/logcalls/logcalls.ml" 35 778 805 "src/ext/logcalls/logcalls.ml" 35 778 813
+type(
+  string -> Cil.exp
+)
+ident(
+  ext_ref Cil.mkString
+)
+"src/ext/logcalls/logcalls.ml" 35 778 814 "src/ext/logcalls/logcalls.ml" 35 778 820
+type(
+  string
+)
+ident(
+  int_ref format "src/ext/logcalls/logcalls.ml" 33 676 689 "src/ext/logcalls/logcalls.ml" 33 676 695
+)
+"src/ext/logcalls/logcalls.ml" 35 778 804 "src/ext/logcalls/logcalls.ml" 35 778 821
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/logcalls/logcalls.ml" 35 778 825 "src/ext/logcalls/logcalls.ml" 35 778 829
+type(
+  Cil.exp list
+)
+ident(
+  int_ref args "src/ext/logcalls/logcalls.ml" 33 676 706 "src/ext/logcalls/logcalls.ml" 33 676 710
+)
+"src/ext/logcalls/logcalls.ml" 35 778 804 "src/ext/logcalls/logcalls.ml" 35 778 829
+type(
+  Cil.exp list
+)
+"src/ext/logcalls/logcalls.ml" 35 778 831 "src/ext/logcalls/logcalls.ml" 35 778 832
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/logcalls/logcalls.ml" 35 778 832 "src/ext/logcalls/logcalls.ml" 35 778 842
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/logcalls/logcalls.ml" 35 778 831 "src/ext/logcalls/logcalls.ml" 35 778 842
+type(
+  Cil.location
+)
+"src/ext/logcalls/logcalls.ml" 35 778 780 "src/ext/logcalls/logcalls.ml" 35 778 843
+type(
+  Cil.instr
+)
+"src/ext/logcalls/logcalls.ml" 34 733 735 "src/ext/logcalls/logcalls.ml" 35 778 843
+type(
+  Cil.instr
+)
+type(
+  Cil.instr
+)
+"src/ext/logcalls/logcalls.ml" 38 848 852 "src/ext/logcalls/logcalls.ml" 38 848 860
+type(
+  ('a, unit, Pretty.doc, string) format4 -> 'a
+)
+ident(
+  def d_string "src/ext/logcalls/logcalls.ml" 44 989 989 "src/ext/logcalls/logcalls.ml" 1 0 -1
+)
+"src/ext/logcalls/logcalls.ml" 38 848 862 "src/ext/logcalls/logcalls.ml" 38 848 865
+type(
+  ('a, unit, Pretty.doc, string) format4
+)
+ident(
+  def fmt "src/ext/logcalls/logcalls.ml" 38 848 898 "src/ext/logcalls/logcalls.ml" 42 964 986
+)
+"src/ext/logcalls/logcalls.ml" 39 906 912 "src/ext/logcalls/logcalls.ml" 39 906 913
+type(
+  Pretty.doc -> string
+)
+ident(
+  def f "src/ext/logcalls/logcalls.ml" 42 964 966 "src/ext/logcalls/logcalls.ml" 42 964 986
+)
+"src/ext/logcalls/logcalls.ml" 39 906 915 "src/ext/logcalls/logcalls.ml" 39 906 916
+type(
+  Pretty.doc
+)
+ident(
+  def d "src/ext/logcalls/logcalls.ml" 39 906 923 "src/ext/logcalls/logcalls.ml" 40 935 958
+)
+"src/ext/logcalls/logcalls.ml" 40 935 939 "src/ext/logcalls/logcalls.ml" 40 935 952
+type(
+  width:int -> Pretty.doc -> string
+)
+ident(
+  ext_ref Pretty.sprint
+)
+"src/ext/logcalls/logcalls.ml" 40 935 953 "src/ext/logcalls/logcalls.ml" 40 935 956
+type(
+  int
+)
+"src/ext/logcalls/logcalls.ml" 40 935 957 "src/ext/logcalls/logcalls.ml" 40 935 958
+type(
+  Pretty.doc
+)
+ident(
+  int_ref d "src/ext/logcalls/logcalls.ml" 39 906 915 "src/ext/logcalls/logcalls.ml" 39 906 916
+)
+"src/ext/logcalls/logcalls.ml" 40 935 939 "src/ext/logcalls/logcalls.ml" 40 935 958
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 42 964 966 "src/ext/logcalls/logcalls.ml" 42 964 980
+type(
+  (Pretty.doc -> string) -> ('a, unit, Pretty.doc, string) format4 -> 'a
+)
+ident(
+  ext_ref Pretty.gprintf
+)
+"src/ext/logcalls/logcalls.ml" 42 964 981 "src/ext/logcalls/logcalls.ml" 42 964 982
+type(
+  Pretty.doc -> string
+)
+ident(
+  int_ref f "src/ext/logcalls/logcalls.ml" 39 906 912 "src/ext/logcalls/logcalls.ml" 39 906 913
+)
+"src/ext/logcalls/logcalls.ml" 42 964 983 "src/ext/logcalls/logcalls.ml" 42 964 986
+type(
+  ('a, unit, Pretty.doc, string) format4
+)
+ident(
+  int_ref fmt "src/ext/logcalls/logcalls.ml" 38 848 862 "src/ext/logcalls/logcalls.ml" 38 848 865
+)
+"src/ext/logcalls/logcalls.ml" 42 964 966 "src/ext/logcalls/logcalls.ml" 42 964 986
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ext/logcalls/logcalls.ml" 39 906 908 "src/ext/logcalls/logcalls.ml" 42 964 986
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ext/logcalls/logcalls.ml" 44 989 993 "src/ext/logcalls/logcalls.ml" 44 989 1004
+type(
+  string ref
+)
+ident(
+  def currentFunc "src/ext/logcalls/logcalls.ml" 46 1027 1027 "src/ext/logcalls/logcalls.ml" 1 0 -1
+)
+"src/ext/logcalls/logcalls.ml" 44 989 1019 "src/ext/logcalls/logcalls.ml" 44 989 1022
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/logcalls/logcalls.ml" 44 989 1023 "src/ext/logcalls/logcalls.ml" 44 989 1025
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 44 989 1019 "src/ext/logcalls/logcalls.ml" 44 989 1025
+type(
+  string ref
+)
+type(
+  string ref
+)
+"src/ext/logcalls/logcalls.ml" 51 1139 1154 "src/ext/logcalls/logcalls.ml" 51 1139 1155
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/logcalls/logcalls.ml" 51 1139 1158 "src/ext/logcalls/logcalls.ml" 83 2493 2498
+)
+"src/ext/logcalls/logcalls.ml" 52 1164 1174 "src/ext/logcalls/logcalls.ml" 52 1164 1175
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/logcalls/logcalls.ml" 51 1139 1154 "src/ext/logcalls/logcalls.ml" 51 1139 1155
+)
+"src/ext/logcalls/logcalls.ml" 53 1181 1192 "src/ext/logcalls/logcalls.ml" 53 1181 1194
+type(
+  Cil.lval option
+)
+ident(
+  def lo "src/ext/logcalls/logcalls.ml" 54 1206 1214 "src/ext/logcalls/logcalls.ml" 80 2439 2468
+)
+"src/ext/logcalls/logcalls.ml" 53 1181 1195 "src/ext/logcalls/logcalls.ml" 53 1181 1196
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/logcalls/logcalls.ml" 54 1206 1214 "src/ext/logcalls/logcalls.ml" 80 2439 2468
+)
+"src/ext/logcalls/logcalls.ml" 53 1181 1197 "src/ext/logcalls/logcalls.ml" 53 1181 1199
+type(
+  Cil.exp list
+)
+ident(
+  def al "src/ext/logcalls/logcalls.ml" 54 1206 1214 "src/ext/logcalls/logcalls.ml" 80 2439 2468
+)
+"src/ext/logcalls/logcalls.ml" 53 1181 1200 "src/ext/logcalls/logcalls.ml" 53 1181 1201
+type(
+  Cil.location
+)
+ident(
+  def l "src/ext/logcalls/logcalls.ml" 54 1206 1214 "src/ext/logcalls/logcalls.ml" 80 2439 2468
+)
+"src/ext/logcalls/logcalls.ml" 53 1181 1187 "src/ext/logcalls/logcalls.ml" 53 1181 1202
+type(
+  Cil.instr
+)
+"src/ext/logcalls/logcalls.ml" 54 1206 1218 "src/ext/logcalls/logcalls.ml" 54 1206 1221
+type(
+  Cil.instr
+)
+ident(
+  def pre "src/ext/logcalls/logcalls.ml" 55 1269 1277 "src/ext/logcalls/logcalls.ml" 80 2439 2468
+)
+"src/ext/logcalls/logcalls.ml" 54 1206 1224 "src/ext/logcalls/logcalls.ml" 54 1206 1231
+type(
+  string -> Cil.exp list -> Cil.instr
+)
+ident(
+  int_ref mkPrint "src/ext/logcalls/logcalls.ml" 33 676 680 "src/ext/logcalls/logcalls.ml" 33 676 687
+)
+"src/ext/logcalls/logcalls.ml" 54 1206 1233 "src/ext/logcalls/logcalls.ml" 54 1206 1241
+type(
+  ((unit -> Cil.exp -> Pretty.doc) -> Cil.exp -> string, unit, Pretty.doc,
+   string)
+  format4 -> (unit -> Cil.exp -> Pretty.doc) -> Cil.exp -> string
+)
+ident(
+  int_ref d_string "src/ext/logcalls/logcalls.ml" 38 848 852 "src/ext/logcalls/logcalls.ml" 38 848 860
+)
+"src/ext/logcalls/logcalls.ml" 54 1206 1242 "src/ext/logcalls/logcalls.ml" 54 1206 1253
+type(
+  ((unit -> Cil.exp -> Pretty.doc) -> Cil.exp -> string, unit, Pretty.doc,
+   string)
+  format4
+)
+"src/ext/logcalls/logcalls.ml" 54 1206 1254 "src/ext/logcalls/logcalls.ml" 54 1206 1259
+type(
+  unit -> Cil.exp -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_exp
+)
+"src/ext/logcalls/logcalls.ml" 54 1206 1260 "src/ext/logcalls/logcalls.ml" 54 1206 1261
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/logcalls/logcalls.ml" 53 1181 1195 "src/ext/logcalls/logcalls.ml" 53 1181 1196
+)
+"src/ext/logcalls/logcalls.ml" 54 1206 1232 "src/ext/logcalls/logcalls.ml" 54 1206 1262
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 54 1206 1263 "src/ext/logcalls/logcalls.ml" 54 1206 1265
+type(
+  Cil.exp list
+)
+"src/ext/logcalls/logcalls.ml" 54 1206 1224 "src/ext/logcalls/logcalls.ml" 54 1206 1265
+call(
+  stack
+)
+type(
+  Cil.instr
+)
+"src/ext/logcalls/logcalls.ml" 55 1269 1281 "src/ext/logcalls/logcalls.ml" 55 1269 1285
+type(
+  Cil.instr
+)
+ident(
+  def post "src/ext/logcalls/logcalls.ml" 80 2439 2443 "src/ext/logcalls/logcalls.ml" 80 2439 2468
+)
+"src/ext/logcalls/logcalls.ml" 55 1269 1288 "src/ext/logcalls/logcalls.ml" 55 1269 1295
+type(
+  string -> Cil.exp list -> Cil.instr
+)
+ident(
+  int_ref mkPrint "src/ext/logcalls/logcalls.ml" 33 676 680 "src/ext/logcalls/logcalls.ml" 33 676 687
+)
+"src/ext/logcalls/logcalls.ml" 55 1269 1297 "src/ext/logcalls/logcalls.ml" 55 1269 1305
+type(
+  ((unit -> Cil.exp -> Pretty.doc) -> Cil.exp -> string, unit, Pretty.doc,
+   string)
+  format4 -> (unit -> Cil.exp -> Pretty.doc) -> Cil.exp -> string
+)
+ident(
+  int_ref d_string "src/ext/logcalls/logcalls.ml" 38 848 852 "src/ext/logcalls/logcalls.ml" 38 848 860
+)
+"src/ext/logcalls/logcalls.ml" 55 1269 1306 "src/ext/logcalls/logcalls.ml" 55 1269 1324
+type(
+  ((unit -> Cil.exp -> Pretty.doc) -> Cil.exp -> string, unit, Pretty.doc,
+   string)
+  format4
+)
+"src/ext/logcalls/logcalls.ml" 55 1269 1325 "src/ext/logcalls/logcalls.ml" 55 1269 1330
+type(
+  unit -> Cil.exp -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_exp
+)
+"src/ext/logcalls/logcalls.ml" 55 1269 1331 "src/ext/logcalls/logcalls.ml" 55 1269 1332
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/logcalls/logcalls.ml" 53 1181 1195 "src/ext/logcalls/logcalls.ml" 53 1181 1196
+)
+"src/ext/logcalls/logcalls.ml" 55 1269 1296 "src/ext/logcalls/logcalls.ml" 55 1269 1333
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 55 1269 1334 "src/ext/logcalls/logcalls.ml" 55 1269 1336
+type(
+  Cil.exp list
+)
+"src/ext/logcalls/logcalls.ml" 55 1269 1288 "src/ext/logcalls/logcalls.ml" 55 1269 1336
+call(
+  stack
+)
+type(
+  Cil.instr
+)
+"src/ext/logcalls/logcalls.ml" 80 2439 2454 "src/ext/logcalls/logcalls.ml" 80 2439 2457
+type(
+  Cil.instr
+)
+ident(
+  int_ref pre "src/ext/logcalls/logcalls.ml" 54 1206 1218 "src/ext/logcalls/logcalls.ml" 54 1206 1221
+)
+"src/ext/logcalls/logcalls.ml" 80 2439 2459 "src/ext/logcalls/logcalls.ml" 80 2439 2460
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/logcalls/logcalls.ml" 51 1139 1154 "src/ext/logcalls/logcalls.ml" 51 1139 1155
+)
+"src/ext/logcalls/logcalls.ml" 80 2439 2462 "src/ext/logcalls/logcalls.ml" 80 2439 2466
+type(
+  Cil.instr
+)
+ident(
+  int_ref post "src/ext/logcalls/logcalls.ml" 55 1269 1281 "src/ext/logcalls/logcalls.ml" 55 1269 1285
+)
+"src/ext/logcalls/logcalls.ml" 80 2439 2452 "src/ext/logcalls/logcalls.ml" 80 2439 2468
+type(
+  Cil.instr list
+)
+"src/ext/logcalls/logcalls.ml" 80 2439 2443 "src/ext/logcalls/logcalls.ml" 80 2439 2468
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/logcalls/logcalls.ml" 55 1269 1277 "src/ext/logcalls/logcalls.ml" 80 2439 2468
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/logcalls/logcalls.ml" 54 1206 1214 "src/ext/logcalls/logcalls.ml" 80 2439 2468
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/logcalls/logcalls.ml" 82 2471 2477 "src/ext/logcalls/logcalls.ml" 82 2471 2478
+type(
+  Cil.instr
+)
+"src/ext/logcalls/logcalls.ml" 82 2471 2482 "src/ext/logcalls/logcalls.ml" 82 2471 2492
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/logcalls/logcalls.ml" 51 1139 1158 "src/ext/logcalls/logcalls.ml" 83 2493 2498
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/logcalls/logcalls.ml" 84 2499 2515 "src/ext/logcalls/logcalls.ml" 84 2499 2516
+type(
+  Cil.stmt
+)
+ident(
+  def s "src/ext/logcalls/logcalls.ml" 84 2499 2527 "src/ext/logcalls/logcalls.ml" 112 3645 3650
+)
+"src/ext/logcalls/logcalls.ml" 85 2533 2543 "src/ext/logcalls/logcalls.ml" 85 2533 2544
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/logcalls/logcalls.ml" 84 2499 2515 "src/ext/logcalls/logcalls.ml" 84 2499 2516
+)
+"src/ext/logcalls/logcalls.ml" 85 2533 2543 "src/ext/logcalls/logcalls.ml" 85 2533 2550
+type(
+  Cil.stmtkind
+)
+"src/ext/logcalls/logcalls.ml" 86 2556 2569 "src/ext/logcalls/logcalls.ml" 86 2556 2570
+type(
+  Cil.location
+)
+type(
+  Cil.exp option
+)
+"src/ext/logcalls/logcalls.ml" 86 2556 2562 "src/ext/logcalls/logcalls.ml" 86 2556 2570
+type(
+  Cil.stmtkind
+)
+"src/ext/logcalls/logcalls.ml" 87 2575 2587 "src/ext/logcalls/logcalls.ml" 87 2575 2590
+type(
+  Cil.instr
+)
+ident(
+  def pre "src/ext/logcalls/logcalls.ml" 88 2644 2652 "src/ext/logcalls/logcalls.ml" 88 2644 2713
+)
+"src/ext/logcalls/logcalls.ml" 87 2575 2593 "src/ext/logcalls/logcalls.ml" 87 2575 2600
+type(
+  string -> Cil.exp list -> Cil.instr
+)
+ident(
+  int_ref mkPrint "src/ext/logcalls/logcalls.ml" 33 676 680 "src/ext/logcalls/logcalls.ml" 33 676 687
+)
+"src/ext/logcalls/logcalls.ml" 87 2575 2602 "src/ext/logcalls/logcalls.ml" 87 2575 2610
+type(
+  (string -> string, unit, Pretty.doc, string) format4 -> string -> string
+)
+ident(
+  int_ref d_string "src/ext/logcalls/logcalls.ml" 38 848 852 "src/ext/logcalls/logcalls.ml" 38 848 860
+)
+"src/ext/logcalls/logcalls.ml" 87 2575 2611 "src/ext/logcalls/logcalls.ml" 87 2575 2622
+type(
+  (string -> string, unit, Pretty.doc, string) format4
+)
+"src/ext/logcalls/logcalls.ml" 87 2575 2623 "src/ext/logcalls/logcalls.ml" 87 2575 2624
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/logcalls/logcalls.ml" 87 2575 2624 "src/ext/logcalls/logcalls.ml" 87 2575 2635
+type(
+  string ref
+)
+ident(
+  int_ref currentFunc "src/ext/logcalls/logcalls.ml" 44 989 993 "src/ext/logcalls/logcalls.ml" 44 989 1004
+)
+"src/ext/logcalls/logcalls.ml" 87 2575 2623 "src/ext/logcalls/logcalls.ml" 87 2575 2635
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 87 2575 2601 "src/ext/logcalls/logcalls.ml" 87 2575 2636
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 87 2575 2637 "src/ext/logcalls/logcalls.ml" 87 2575 2639
+type(
+  Cil.exp list
+)
+"src/ext/logcalls/logcalls.ml" 87 2575 2593 "src/ext/logcalls/logcalls.ml" 87 2575 2639
+call(
+  stack
+)
+type(
+  Cil.instr
+)
+"src/ext/logcalls/logcalls.ml" 88 2644 2662 "src/ext/logcalls/logcalls.ml" 88 2644 2668
+type(
+  Cil.stmtkind -> Cil.stmt
+)
+ident(
+  ext_ref Cil.mkStmt
+)
+"src/ext/logcalls/logcalls.ml" 88 2644 2677 "src/ext/logcalls/logcalls.ml" 88 2644 2684
+type(
+  Cil.stmt list -> Cil.block
+)
+ident(
+  ext_ref Cil.mkBlock
+)
+"src/ext/logcalls/logcalls.ml" 88 2644 2687 "src/ext/logcalls/logcalls.ml" 88 2644 2701
+type(
+  Cil.instr -> Cil.stmt
+)
+ident(
+  ext_ref Cil.mkStmtOneInstr
+)
+"src/ext/logcalls/logcalls.ml" 88 2644 2702 "src/ext/logcalls/logcalls.ml" 88 2644 2705
+type(
+  Cil.instr
+)
+ident(
+  int_ref pre "src/ext/logcalls/logcalls.ml" 87 2575 2587 "src/ext/logcalls/logcalls.ml" 87 2575 2590
+)
+"src/ext/logcalls/logcalls.ml" 88 2644 2687 "src/ext/logcalls/logcalls.ml" 88 2644 2705
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"src/ext/logcalls/logcalls.ml" 88 2644 2707 "src/ext/logcalls/logcalls.ml" 88 2644 2708
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/logcalls/logcalls.ml" 84 2499 2515 "src/ext/logcalls/logcalls.ml" 84 2499 2516
+)
+"src/ext/logcalls/logcalls.ml" 88 2644 2685 "src/ext/logcalls/logcalls.ml" 88 2644 2710
+type(
+  Cil.stmt list
+)
+"src/ext/logcalls/logcalls.ml" 88 2644 2676 "src/ext/logcalls/logcalls.ml" 88 2644 2711
+call(
+  stack
+)
+type(
+  Cil.block
+)
+"src/ext/logcalls/logcalls.ml" 88 2644 2669 "src/ext/logcalls/logcalls.ml" 88 2644 2712
+type(
+  Cil.stmtkind
+)
+"src/ext/logcalls/logcalls.ml" 88 2644 2661 "src/ext/logcalls/logcalls.ml" 88 2644 2713
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"src/ext/logcalls/logcalls.ml" 88 2644 2652 "src/ext/logcalls/logcalls.ml" 88 2644 2713
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/logcalls/logcalls.ml" 87 2575 2583 "src/ext/logcalls/logcalls.ml" 88 2644 2713
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/logcalls/logcalls.ml" 89 2714 2720 "src/ext/logcalls/logcalls.ml" 89 2714 2721
+type(
+  Cil.stmtkind
+)
+"src/ext/logcalls/logcalls.ml" 89 2714 2725 "src/ext/logcalls/logcalls.ml" 89 2714 2735
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/logcalls/logcalls.ml" 84 2499 2527 "src/ext/logcalls/logcalls.ml" 112 3645 3650
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/logcalls/logcalls.ml" 115 3656 3660 "src/ext/logcalls/logcalls.ml" 115 3656 3675
+type(
+  logCallsVisitorClass
+)
+ident(
+  def logCallsVisitor "src/ext/logcalls/logcalls.ml" 118 3705 3705 "src/ext/logcalls/logcalls.ml" 1 0 -1
+)
+"src/ext/logcalls/logcalls.ml" 115 3656 3678 "src/ext/logcalls/logcalls.ml" 115 3656 3702
+type(
+  logCallsVisitorClass
+)
+"src/ext/logcalls/logcalls.ml" 118 3705 3709 "src/ext/logcalls/logcalls.ml" 118 3705 3717
+type(
+  Cil.file -> unit
+)
+ident(
+  def logCalls "src/ext/logcalls/logcalls.ml" 220 7778 7778 "src/ext/logcalls/logcalls.ml" 1 0 -1
+)
+"src/ext/logcalls/logcalls.ml" 118 3705 3719 "src/ext/logcalls/logcalls.ml" 118 3705 3720
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/logcalls/logcalls.ml" 118 3705 3728 "src/ext/logcalls/logcalls.ml" 218 7769 7774
+)
+"src/ext/logcalls/logcalls.ml" 120 3738 3744 "src/ext/logcalls/logcalls.ml" 120 3738 3752
+type(
+  Cil.global -> unit
+)
+ident(
+  def doGlobal "src/ext/logcalls/logcalls.ml" 213 7528 7530 "src/ext/logcalls/logcalls.ml" 218 7769 7774
+)
+"src/ext/logcalls/logcalls.ml" 121 3764 3780 "src/ext/logcalls/logcalls.ml" 121 3764 3781
+type(
+  Cil.varinfo
+)
+ident(
+  def v "src/ext/logcalls/logcalls.ml" 121 3764 3791 "src/ext/logcalls/logcalls.ml" 123 3857 3886
+)
+"src/ext/logcalls/logcalls.ml" 121 3764 3783 "src/ext/logcalls/logcalls.ml" 121 3764 3784
+type(
+  Cil.location
+)
+"src/ext/logcalls/logcalls.ml" 121 3764 3770 "src/ext/logcalls/logcalls.ml" 121 3764 3785
+type(
+  Cil.global
+)
+"src/ext/logcalls/logcalls.ml" 121 3764 3791 "src/ext/logcalls/logcalls.ml" 121 3764 3792
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref v "src/ext/logcalls/logcalls.ml" 121 3764 3780 "src/ext/logcalls/logcalls.ml" 121 3764 3781
+)
+"src/ext/logcalls/logcalls.ml" 121 3764 3791 "src/ext/logcalls/logcalls.ml" 121 3764 3798
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 121 3764 3799 "src/ext/logcalls/logcalls.ml" 121 3764 3800
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/logcalls/logcalls.ml" 121 3764 3801 "src/ext/logcalls/logcalls.ml" 121 3764 3802
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/logcalls/logcalls.ml" 121 3764 3802 "src/ext/logcalls/logcalls.ml" 121 3764 3819
+type(
+  string ref
+)
+ident(
+  int_ref printFunctionName "src/ext/logcalls/logcalls.ml" 16 231 235 "src/ext/logcalls/logcalls.ml" 16 231 252
+)
+"src/ext/logcalls/logcalls.ml" 121 3764 3801 "src/ext/logcalls/logcalls.ml" 121 3764 3819
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 121 3764 3791 "src/ext/logcalls/logcalls.ml" 121 3764 3819
+type(
+  bool
+)
+"src/ext/logcalls/logcalls.ml" 122 3824 3837 "src/ext/logcalls/logcalls.ml" 122 3824 3838
+type(
+  Cil.varinfo option ref -> Cil.varinfo option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/logcalls/logcalls.ml" 122 3824 3838 "src/ext/logcalls/logcalls.ml" 122 3824 3844
+type(
+  Cil.varinfo option ref
+)
+ident(
+  int_ref printf "src/ext/logcalls/logcalls.ml" 20 295 299 "src/ext/logcalls/logcalls.ml" 20 295 305
+)
+"src/ext/logcalls/logcalls.ml" 122 3824 3837 "src/ext/logcalls/logcalls.ml" 122 3824 3844
+type(
+  Cil.varinfo option
+)
+"src/ext/logcalls/logcalls.ml" 122 3824 3845 "src/ext/logcalls/logcalls.ml" 122 3824 3846
+type(
+  Cil.varinfo option -> Cil.varinfo option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/logcalls/logcalls.ml" 122 3824 3847 "src/ext/logcalls/logcalls.ml" 122 3824 3851
+type(
+  Cil.varinfo option
+)
+"src/ext/logcalls/logcalls.ml" 122 3824 3837 "src/ext/logcalls/logcalls.ml" 122 3824 3851
+type(
+  bool
+)
+"src/ext/logcalls/logcalls.ml" 123 3857 3870 "src/ext/logcalls/logcalls.ml" 123 3857 3876
+type(
+  Cil.varinfo option ref
+)
+ident(
+  int_ref printf "src/ext/logcalls/logcalls.ml" 20 295 299 "src/ext/logcalls/logcalls.ml" 20 295 305
+)
+"src/ext/logcalls/logcalls.ml" 123 3857 3877 "src/ext/logcalls/logcalls.ml" 123 3857 3879
+type(
+  Cil.varinfo option ref -> Cil.varinfo option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/logcalls/logcalls.ml" 123 3857 3885 "src/ext/logcalls/logcalls.ml" 123 3857 3886
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref v "src/ext/logcalls/logcalls.ml" 121 3764 3780 "src/ext/logcalls/logcalls.ml" 121 3764 3781
+)
+"src/ext/logcalls/logcalls.ml" 123 3857 3880 "src/ext/logcalls/logcalls.ml" 123 3857 3886
+type(
+  Cil.varinfo option
+)
+"src/ext/logcalls/logcalls.ml" 123 3857 3870 "src/ext/logcalls/logcalls.ml" 123 3857 3886
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 122 3824 3834 "src/ext/logcalls/logcalls.ml" 123 3857 3886
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 125 3888 3900 "src/ext/logcalls/logcalls.ml" 125 3888 3904
+type(
+  Cil.fundec
+)
+ident(
+  def fdec "src/ext/logcalls/logcalls.ml" 126 3914 3922 "src/ext/logcalls/logcalls.ml" 133 4213 4260
+)
+"src/ext/logcalls/logcalls.ml" 125 3888 3906 "src/ext/logcalls/logcalls.ml" 125 3888 3909
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/logcalls/logcalls.ml" 126 3914 3922 "src/ext/logcalls/logcalls.ml" 133 4213 4260
+)
+"src/ext/logcalls/logcalls.ml" 125 3888 3894 "src/ext/logcalls/logcalls.ml" 125 3888 3910
+type(
+  Cil.global
+)
+"src/ext/logcalls/logcalls.ml" 126 3914 3922 "src/ext/logcalls/logcalls.ml" 126 3914 3933
+type(
+  string ref
+)
+ident(
+  int_ref currentFunc "src/ext/logcalls/logcalls.ml" 44 989 993 "src/ext/logcalls/logcalls.ml" 44 989 1004
+)
+"src/ext/logcalls/logcalls.ml" 126 3914 3934 "src/ext/logcalls/logcalls.ml" 126 3914 3936
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/logcalls/logcalls.ml" 126 3914 3937 "src/ext/logcalls/logcalls.ml" 126 3914 3941
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "src/ext/logcalls/logcalls.ml" 125 3888 3900 "src/ext/logcalls/logcalls.ml" 125 3888 3904
+)
+"src/ext/logcalls/logcalls.ml" 126 3914 3937 "src/ext/logcalls/logcalls.ml" 126 3914 3946
+type(
+  Cil.varinfo
+)
+"src/ext/logcalls/logcalls.ml" 126 3914 3937 "src/ext/logcalls/logcalls.ml" 126 3914 3952
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 126 3914 3922 "src/ext/logcalls/logcalls.ml" 126 3914 3952
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 128 3980 3988 "src/ext/logcalls/logcalls.ml" 128 3980 3994
+type(
+  Cil.fundec -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/logcalls/logcalls.ml" 128 3980 3996 "src/ext/logcalls/logcalls.ml" 128 3980 4012
+type(
+  Cil.cilVisitor -> Cil.fundec -> Cil.fundec
+)
+ident(
+  ext_ref Cil.visitCilFunction
+)
+"src/ext/logcalls/logcalls.ml" 128 3980 4013 "src/ext/logcalls/logcalls.ml" 128 3980 4028
+type(
+  logCallsVisitorClass
+)
+ident(
+  int_ref logCallsVisitor "src/ext/logcalls/logcalls.ml" 115 3656 3660 "src/ext/logcalls/logcalls.ml" 115 3656 3675
+)
+"src/ext/logcalls/logcalls.ml" 128 3980 4029 "src/ext/logcalls/logcalls.ml" 128 3980 4033
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "src/ext/logcalls/logcalls.ml" 125 3888 3900 "src/ext/logcalls/logcalls.ml" 125 3888 3904
+)
+"src/ext/logcalls/logcalls.ml" 128 3980 3995 "src/ext/logcalls/logcalls.ml" 128 3980 4034
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"src/ext/logcalls/logcalls.ml" 128 3980 3988 "src/ext/logcalls/logcalls.ml" 128 3980 4034
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 130 4080 4092 "src/ext/logcalls/logcalls.ml" 130 4080 4095
+type(
+  Cil.instr
+)
+ident(
+  def pre "src/ext/logcalls/logcalls.ml" 131 4150 4158 "src/ext/logcalls/logcalls.ml" 133 4213 4260
+)
+"src/ext/logcalls/logcalls.ml" 130 4080 4098 "src/ext/logcalls/logcalls.ml" 130 4080 4105
+type(
+  string -> Cil.exp list -> Cil.instr
+)
+ident(
+  int_ref mkPrint "src/ext/logcalls/logcalls.ml" 33 676 680 "src/ext/logcalls/logcalls.ml" 33 676 687
+)
+"src/ext/logcalls/logcalls.ml" 130 4080 4107 "src/ext/logcalls/logcalls.ml" 130 4080 4115
+type(
+  (string -> string, unit, Pretty.doc, string) format4 -> string -> string
+)
+ident(
+  int_ref d_string "src/ext/logcalls/logcalls.ml" 38 848 852 "src/ext/logcalls/logcalls.ml" 38 848 860
+)
+"src/ext/logcalls/logcalls.ml" 130 4080 4116 "src/ext/logcalls/logcalls.ml" 130 4080 4128
+type(
+  (string -> string, unit, Pretty.doc, string) format4
+)
+"src/ext/logcalls/logcalls.ml" 130 4080 4129 "src/ext/logcalls/logcalls.ml" 130 4080 4130
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/logcalls/logcalls.ml" 130 4080 4130 "src/ext/logcalls/logcalls.ml" 130 4080 4141
+type(
+  string ref
+)
+ident(
+  int_ref currentFunc "src/ext/logcalls/logcalls.ml" 44 989 993 "src/ext/logcalls/logcalls.ml" 44 989 1004
+)
+"src/ext/logcalls/logcalls.ml" 130 4080 4129 "src/ext/logcalls/logcalls.ml" 130 4080 4141
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 130 4080 4106 "src/ext/logcalls/logcalls.ml" 130 4080 4142
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 130 4080 4143 "src/ext/logcalls/logcalls.ml" 130 4080 4145
+type(
+  Cil.exp list
+)
+"src/ext/logcalls/logcalls.ml" 130 4080 4098 "src/ext/logcalls/logcalls.ml" 130 4080 4145
+call(
+  stack
+)
+type(
+  Cil.instr
+)
+"src/ext/logcalls/logcalls.ml" 131 4150 4158 "src/ext/logcalls/logcalls.ml" 131 4150 4162
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "src/ext/logcalls/logcalls.ml" 125 3888 3900 "src/ext/logcalls/logcalls.ml" 125 3888 3904
+)
+"src/ext/logcalls/logcalls.ml" 132 4173 4183 "src/ext/logcalls/logcalls.ml" 132 4173 4190
+type(
+  Cil.stmt list -> Cil.block
+)
+ident(
+  ext_ref Cil.mkBlock
+)
+"src/ext/logcalls/logcalls.ml" 132 4173 4193 "src/ext/logcalls/logcalls.ml" 132 4173 4207
+type(
+  Cil.instr -> Cil.stmt
+)
+ident(
+  ext_ref Cil.mkStmtOneInstr
+)
+"src/ext/logcalls/logcalls.ml" 132 4173 4208 "src/ext/logcalls/logcalls.ml" 132 4173 4211
+type(
+  Cil.instr
+)
+ident(
+  int_ref pre "src/ext/logcalls/logcalls.ml" 130 4080 4092 "src/ext/logcalls/logcalls.ml" 130 4080 4095
+)
+"src/ext/logcalls/logcalls.ml" 132 4173 4193 "src/ext/logcalls/logcalls.ml" 132 4173 4211
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"src/ext/logcalls/logcalls.ml" 133 4213 4233 "src/ext/logcalls/logcalls.ml" 133 4213 4239
+type(
+  Cil.stmtkind -> Cil.stmt
+)
+ident(
+  ext_ref Cil.mkStmt
+)
+"src/ext/logcalls/logcalls.ml" 133 4213 4247 "src/ext/logcalls/logcalls.ml" 133 4213 4251
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fdec "src/ext/logcalls/logcalls.ml" 125 3888 3900 "src/ext/logcalls/logcalls.ml" 125 3888 3904
+)
+"src/ext/logcalls/logcalls.ml" 133 4213 4247 "src/ext/logcalls/logcalls.ml" 133 4213 4257
+type(
+  Cil.block
+)
+"src/ext/logcalls/logcalls.ml" 133 4213 4240 "src/ext/logcalls/logcalls.ml" 133 4213 4258
+type(
+  Cil.stmtkind
+)
+"src/ext/logcalls/logcalls.ml" 133 4213 4233 "src/ext/logcalls/logcalls.ml" 133 4213 4258
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"src/ext/logcalls/logcalls.ml" 132 4173 4191 "src/ext/logcalls/logcalls.ml" 133 4213 4260
+type(
+  Cil.stmt list
+)
+"src/ext/logcalls/logcalls.ml" 132 4173 4183 "src/ext/logcalls/logcalls.ml" 133 4213 4260
+call(
+  stack
+)
+type(
+  Cil.block
+)
+"src/ext/logcalls/logcalls.ml" 131 4150 4158 "src/ext/logcalls/logcalls.ml" 133 4213 4260
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 130 4080 4088 "src/ext/logcalls/logcalls.ml" 133 4213 4260
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 128 3980 3988 "src/ext/logcalls/logcalls.ml" 133 4213 4260
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 126 3914 3922 "src/ext/logcalls/logcalls.ml" 133 4213 4260
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 211 7509 7515 "src/ext/logcalls/logcalls.ml" 211 7509 7516
+type(
+  Cil.global
+)
+"src/ext/logcalls/logcalls.ml" 211 7509 7520 "src/ext/logcalls/logcalls.ml" 211 7509 7522
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 120 3738 3755 "src/ext/logcalls/logcalls.ml" 211 7509 7522
+type(
+  Cil.global -> unit
+)
+"src/ext/logcalls/logcalls.ml" 213 7528 7530 "src/ext/logcalls/logcalls.ml" 213 7528 7540
+type(
+  string -> ((Cil.global -> unit) -> unit) -> (Cil.global -> unit) -> unit
+)
+ident(
+  ext_ref Stats.time
+)
+"src/ext/logcalls/logcalls.ml" 213 7528 7541 "src/ext/logcalls/logcalls.ml" 213 7528 7551
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 213 7528 7553 "src/ext/logcalls/logcalls.ml" 213 7528 7564
+type(
+  Cil.file -> (Cil.global -> unit) -> unit
+)
+ident(
+  ext_ref Cil.iterGlobals
+)
+"src/ext/logcalls/logcalls.ml" 213 7528 7565 "src/ext/logcalls/logcalls.ml" 213 7528 7566
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/logcalls/logcalls.ml" 118 3705 3719 "src/ext/logcalls/logcalls.ml" 118 3705 3720
+)
+"src/ext/logcalls/logcalls.ml" 213 7528 7552 "src/ext/logcalls/logcalls.ml" 213 7528 7567
+call(
+  stack
+)
+type(
+  (Cil.global -> unit) -> unit
+)
+"src/ext/logcalls/logcalls.ml" 213 7528 7568 "src/ext/logcalls/logcalls.ml" 213 7528 7576
+type(
+  Cil.global -> unit
+)
+ident(
+  int_ref doGlobal "src/ext/logcalls/logcalls.ml" 120 3738 3744 "src/ext/logcalls/logcalls.ml" 120 3738 3752
+)
+"src/ext/logcalls/logcalls.ml" 213 7528 7530 "src/ext/logcalls/logcalls.ml" 213 7528 7576
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 214 7578 7583 "src/ext/logcalls/logcalls.ml" 214 7578 7584
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/logcalls/logcalls.ml" 214 7578 7584 "src/ext/logcalls/logcalls.ml" 214 7578 7592
+type(
+  bool ref
+)
+ident(
+  int_ref addProto "src/ext/logcalls/logcalls.ml" 18 269 273 "src/ext/logcalls/logcalls.ml" 18 269 281
+)
+"src/ext/logcalls/logcalls.ml" 214 7578 7583 "src/ext/logcalls/logcalls.ml" 214 7578 7592
+type(
+  bool
+)
+"src/ext/logcalls/logcalls.ml" 215 7604 7613 "src/ext/logcalls/logcalls.ml" 215 7604 7614
+type(
+  Cil.varinfo
+)
+ident(
+  def p "src/ext/logcalls/logcalls.ml" 216 7643 7648 "src/ext/logcalls/logcalls.ml" 217 7713 7768
+)
+"src/ext/logcalls/logcalls.ml" 215 7604 7617 "src/ext/logcalls/logcalls.ml" 215 7604 7635
+type(
+  unit -> Cil.varinfo
+)
+ident(
+  int_ref makePrintfFunction "src/ext/logcalls/logcalls.ml" 21 337 341 "src/ext/logcalls/logcalls.ml" 21 337 359
+)
+"src/ext/logcalls/logcalls.ml" 215 7604 7636 "src/ext/logcalls/logcalls.ml" 215 7604 7638
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 215 7604 7617 "src/ext/logcalls/logcalls.ml" 215 7604 7638
+call(
+  stack
+)
+type(
+  Cil.varinfo
+)
+"src/ext/logcalls/logcalls.ml" 216 7643 7648 "src/ext/logcalls/logcalls.ml" 216 7643 7653
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/logcalls/logcalls.ml" 216 7643 7654 "src/ext/logcalls/logcalls.ml" 216 7643 7703
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/logcalls/logcalls.ml" 216 7643 7704 "src/ext/logcalls/logcalls.ml" 216 7643 7705
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref p "src/ext/logcalls/logcalls.ml" 215 7604 7613 "src/ext/logcalls/logcalls.ml" 215 7604 7614
+)
+"src/ext/logcalls/logcalls.ml" 216 7643 7704 "src/ext/logcalls/logcalls.ml" 216 7643 7711
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 216 7643 7648 "src/ext/logcalls/logcalls.ml" 216 7643 7711
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 217 7713 7718 "src/ext/logcalls/logcalls.ml" 217 7713 7719
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/logcalls/logcalls.ml" 118 3705 3719 "src/ext/logcalls/logcalls.ml" 118 3705 3720
+)
+"src/ext/logcalls/logcalls.ml" 217 7713 7741 "src/ext/logcalls/logcalls.ml" 217 7713 7742
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref p "src/ext/logcalls/logcalls.ml" 215 7604 7613 "src/ext/logcalls/logcalls.ml" 215 7604 7614
+)
+"src/ext/logcalls/logcalls.ml" 217 7713 7744 "src/ext/logcalls/logcalls.ml" 217 7713 7754
+type(
+  Cil.location
+)
+ident(
+  ext_ref Cil.locUnknown
+)
+"src/ext/logcalls/logcalls.ml" 217 7713 7731 "src/ext/logcalls/logcalls.ml" 217 7713 7755
+type(
+  Cil.global
+)
+"src/ext/logcalls/logcalls.ml" 217 7713 7759 "src/ext/logcalls/logcalls.ml" 217 7713 7760
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/logcalls/logcalls.ml" 118 3705 3719 "src/ext/logcalls/logcalls.ml" 118 3705 3720
+)
+"src/ext/logcalls/logcalls.ml" 217 7713 7759 "src/ext/logcalls/logcalls.ml" 217 7713 7768
+type(
+  Cil.global list
+)
+"src/ext/logcalls/logcalls.ml" 217 7713 7731 "src/ext/logcalls/logcalls.ml" 217 7713 7768
+type(
+  Cil.global list
+)
+"src/ext/logcalls/logcalls.ml" 217 7713 7718 "src/ext/logcalls/logcalls.ml" 217 7713 7768
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 216 7643 7648 "src/ext/logcalls/logcalls.ml" 217 7713 7768
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 214 7578 7598 "src/ext/logcalls/logcalls.ml" 218 7769 7774
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 214 7578 7580 "src/ext/logcalls/logcalls.ml" 218 7769 7774
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 213 7528 7530 "src/ext/logcalls/logcalls.ml" 218 7769 7774
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 120 3738 3740 "src/ext/logcalls/logcalls.ml" 218 7769 7774
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 220 7778 7782 "src/ext/logcalls/logcalls.ml" 220 7778 7789
+type(
+  Feature.t
+)
+ident(
+  def feature "src/ext/logcalls/logcalls.ml" 234 8245 8245 "src/ext/logcalls/logcalls.ml" 1 0 -1
+)
+"src/ext/logcalls/logcalls.ml" 221 7793 7807 "src/ext/logcalls/logcalls.ml" 221 7793 7817
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 222 7819 7836 "src/ext/logcalls/logcalls.ml" 222 7819 7841
+type(
+  bool
+)
+"src/ext/logcalls/logcalls.ml" 223 7843 7864 "src/ext/logcalls/logcalls.ml" 223 7843 7906
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 225 7928 7935 "src/ext/logcalls/logcalls.ml" 225 7928 7952
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 225 7928 7970 "src/ext/logcalls/logcalls.ml" 225 7928 7971
+type(
+  string
+)
+ident(
+  def s "src/ext/logcalls/logcalls.ml" 225 7928 7975 "src/ext/logcalls/logcalls.ml" 225 7928 7997
+)
+"src/ext/logcalls/logcalls.ml" 225 7928 7975 "src/ext/logcalls/logcalls.ml" 225 7928 7992
+type(
+  string ref
+)
+ident(
+  int_ref printFunctionName "src/ext/logcalls/logcalls.ml" 16 231 235 "src/ext/logcalls/logcalls.ml" 16 231 252
+)
+"src/ext/logcalls/logcalls.ml" 225 7928 7993 "src/ext/logcalls/logcalls.ml" 225 7928 7995
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/logcalls/logcalls.ml" 225 7928 7996 "src/ext/logcalls/logcalls.ml" 225 7928 7997
+type(
+  string
+)
+ident(
+  int_ref s "src/ext/logcalls/logcalls.ml" 225 7928 7970 "src/ext/logcalls/logcalls.ml" 225 7928 7971
+)
+"src/ext/logcalls/logcalls.ml" 225 7928 7975 "src/ext/logcalls/logcalls.ml" 225 7928 7997
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 225 7928 7965 "src/ext/logcalls/logcalls.ml" 225 7928 7998
+type(
+  string -> unit
+)
+"src/ext/logcalls/logcalls.ml" 225 7928 7954 "src/ext/logcalls/logcalls.ml" 225 7928 7998
+type(
+  Arg.spec
+)
+"src/ext/logcalls/logcalls.ml" 226 8001 8008 "src/ext/logcalls/logcalls.ml" 226 8001 8049
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 225 7928 7934 "src/ext/logcalls/logcalls.ml" 226 8001 8050
+type(
+  string * Arg.spec * string
+)
+"src/ext/logcalls/logcalls.ml" 227 8052 8059 "src/ext/logcalls/logcalls.ml" 227 8052 8078
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 227 8052 8094 "src/ext/logcalls/logcalls.ml" 227 8052 8095
+type(
+  unit
+)
+ident(
+  def s "src/ext/logcalls/logcalls.ml" 227 8052 8099 "src/ext/logcalls/logcalls.ml" 227 8052 8115
+)
+"src/ext/logcalls/logcalls.ml" 227 8052 8099 "src/ext/logcalls/logcalls.ml" 227 8052 8107
+type(
+  bool ref
+)
+ident(
+  int_ref addProto "src/ext/logcalls/logcalls.ml" 18 269 273 "src/ext/logcalls/logcalls.ml" 18 269 281
+)
+"src/ext/logcalls/logcalls.ml" 227 8052 8108 "src/ext/logcalls/logcalls.ml" 227 8052 8110
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/logcalls/logcalls.ml" 227 8052 8111 "src/ext/logcalls/logcalls.ml" 227 8052 8115
+type(
+  bool
+)
+"src/ext/logcalls/logcalls.ml" 227 8052 8099 "src/ext/logcalls/logcalls.ml" 227 8052 8115
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 227 8052 8089 "src/ext/logcalls/logcalls.ml" 227 8052 8116
+type(
+  unit -> unit
+)
+"src/ext/logcalls/logcalls.ml" 227 8052 8080 "src/ext/logcalls/logcalls.ml" 227 8052 8116
+type(
+  Arg.spec
+)
+"src/ext/logcalls/logcalls.ml" 228 8119 8126 "src/ext/logcalls/logcalls.ml" 228 8119 8181
+type(
+  string
+)
+"src/ext/logcalls/logcalls.ml" 227 8052 8058 "src/ext/logcalls/logcalls.ml" 228 8119 8182
+type(
+  string * Arg.spec * string
+)
+"src/ext/logcalls/logcalls.ml" 224 7908 7926 "src/ext/logcalls/logcalls.ml" 229 8183 8188
+type(
+  (string * Arg.spec * string) list
+)
+"src/ext/logcalls/logcalls.ml" 230 8190 8204 "src/ext/logcalls/logcalls.ml" 230 8190 8212
+type(
+  Cil.file -> unit
+)
+ident(
+  int_ref logCalls "src/ext/logcalls/logcalls.ml" 118 3705 3709 "src/ext/logcalls/logcalls.ml" 118 3705 3717
+)
+"src/ext/logcalls/logcalls.ml" 231 8214 8234 "src/ext/logcalls/logcalls.ml" 231 8214 8238
+type(
+  bool
+)
+"src/ext/logcalls/logcalls.ml" 221 7793 7795 "src/ext/logcalls/logcalls.ml" 232 8239 8242
+type(
+  Feature.t
+)
+"src/ext/logcalls/logcalls.ml" 234 8245 8249 "src/ext/logcalls/logcalls.ml" 234 8245 8251
+type(
+  unit
+)
+"src/ext/logcalls/logcalls.ml" 234 8245 8254 "src/ext/logcalls/logcalls.ml" 234 8245 8270
+type(
+  Feature.t -> unit
+)
+ident(
+  ext_ref Feature.register
+)
+"src/ext/logcalls/logcalls.ml" 234 8245 8271 "src/ext/logcalls/logcalls.ml" 234 8245 8278
+type(
+  Feature.t
+)
+ident(
+  int_ref feature "src/ext/logcalls/logcalls.ml" 220 7778 7782 "src/ext/logcalls/logcalls.ml" 220 7778 7789
+)
+"src/ext/logcalls/logcalls.ml" 234 8245 8254 "src/ext/logcalls/logcalls.ml" 234 8245 8278
+call(
+  stack
+)
+type(
+  unit
+)

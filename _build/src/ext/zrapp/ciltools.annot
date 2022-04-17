@@ -1,0 +1,2792 @@
+"src/ext/zrapp/ciltools.ml" 6 61 65 "src/ext/zrapp/ciltools.ml" 6 61 70
+type(
+  Cil.exp -> bool
+)
+ident(
+  def isOne "src/ext/zrapp/ciltools.ml" 13 187 187 "src/ext/zrapp/ciltools.ml" 1 0 -1
+)
+"src/ext/zrapp/ciltools.ml" 6 61 71 "src/ext/zrapp/ciltools.ml" 6 61 72
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/ciltools.ml" 7 76 78 "src/ext/zrapp/ciltools.ml" 9 148 162
+)
+"src/ext/zrapp/ciltools.ml" 7 76 84 "src/ext/zrapp/ciltools.ml" 7 76 94
+type(
+  Cil.exp -> Cilint.cilint option
+)
+ident(
+  ext_ref Cil.getInteger
+)
+"src/ext/zrapp/ciltools.ml" 7 76 95 "src/ext/zrapp/ciltools.ml" 7 76 96
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/ciltools.ml" 6 61 71 "src/ext/zrapp/ciltools.ml" 6 61 72
+)
+"src/ext/zrapp/ciltools.ml" 7 76 84 "src/ext/zrapp/ciltools.ml" 7 76 96
+call(
+  stack
+)
+type(
+  Cilint.cilint option
+)
+"src/ext/zrapp/ciltools.ml" 8 102 111 "src/ext/zrapp/ciltools.ml" 8 102 112
+type(
+  Cilint.cilint
+)
+ident(
+  def n "src/ext/zrapp/ciltools.ml" 8 102 116 "src/ext/zrapp/ciltools.ml" 8 102 147
+)
+"src/ext/zrapp/ciltools.ml" 8 102 106 "src/ext/zrapp/ciltools.ml" 8 102 112
+type(
+  Cilint.cilint option
+)
+"src/ext/zrapp/ciltools.ml" 8 102 116 "src/ext/zrapp/ciltools.ml" 8 102 130
+type(
+  Cilint.cilint -> Cilint.cilint -> int
+)
+ident(
+  ext_ref Cilint.compare_cilint
+)
+"src/ext/zrapp/ciltools.ml" 8 102 131 "src/ext/zrapp/ciltools.ml" 8 102 132
+type(
+  Cilint.cilint
+)
+ident(
+  int_ref n "src/ext/zrapp/ciltools.ml" 8 102 111 "src/ext/zrapp/ciltools.ml" 8 102 112
+)
+"src/ext/zrapp/ciltools.ml" 8 102 133 "src/ext/zrapp/ciltools.ml" 8 102 143
+type(
+  Cilint.cilint
+)
+ident(
+  ext_ref Cilint.one_cilint
+)
+"src/ext/zrapp/ciltools.ml" 8 102 116 "src/ext/zrapp/ciltools.ml" 8 102 143
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 8 102 144 "src/ext/zrapp/ciltools.ml" 8 102 145
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 8 102 146 "src/ext/zrapp/ciltools.ml" 8 102 147
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 8 102 116 "src/ext/zrapp/ciltools.ml" 8 102 147
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 9 148 152 "src/ext/zrapp/ciltools.ml" 9 148 153
+type(
+  Cilint.cilint option
+)
+"src/ext/zrapp/ciltools.ml" 9 148 157 "src/ext/zrapp/ciltools.ml" 9 148 162
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 7 76 78 "src/ext/zrapp/ciltools.ml" 9 148 162
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 13 187 191 "src/ext/zrapp/ciltools.ml" 13 187 205
+type(
+  Cil.typ -> bool
+)
+ident(
+  def is_volatile_tp "src/ext/zrapp/ciltools.ml" 18 326 326 "src/ext/zrapp/ciltools.ml" 1 0 -1
+)
+"src/ext/zrapp/ciltools.ml" 13 187 206 "src/ext/zrapp/ciltools.ml" 13 187 208
+type(
+  Cil.typ
+)
+ident(
+  def tp "src/ext/zrapp/ciltools.ml" 14 211 213 "src/ext/zrapp/ciltools.ml" 15 265 297
+)
+"src/ext/zrapp/ciltools.ml" 14 211 213 "src/ext/zrapp/ciltools.ml" 14 211 224
+type(
+  (Cil.attribute -> bool) -> Cil.attribute list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"src/ext/zrapp/ciltools.ml" 14 211 241 "src/ext/zrapp/ciltools.ml" 14 211 251
+type(
+  string
+)
+"src/ext/zrapp/ciltools.ml" 14 211 252 "src/ext/zrapp/ciltools.ml" 14 211 253
+type(
+  Cil.attrparam list
+)
+"src/ext/zrapp/ciltools.ml" 14 211 235 "src/ext/zrapp/ciltools.ml" 14 211 255
+type(
+  Cil.attribute
+)
+"src/ext/zrapp/ciltools.ml" 14 211 259 "src/ext/zrapp/ciltools.ml" 14 211 263
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 15 265 271 "src/ext/zrapp/ciltools.ml" 15 265 272
+type(
+  Cil.attribute
+)
+"src/ext/zrapp/ciltools.ml" 15 265 276 "src/ext/zrapp/ciltools.ml" 15 265 281
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 14 211 225 "src/ext/zrapp/ciltools.ml" 15 265 282
+type(
+  Cil.attribute -> bool
+)
+"src/ext/zrapp/ciltools.ml" 15 265 284 "src/ext/zrapp/ciltools.ml" 15 265 293
+type(
+  Cil.typ -> Cil.attribute list
+)
+ident(
+  ext_ref Cil.typeAttrs
+)
+"src/ext/zrapp/ciltools.ml" 15 265 294 "src/ext/zrapp/ciltools.ml" 15 265 296
+type(
+  Cil.typ
+)
+ident(
+  int_ref tp "src/ext/zrapp/ciltools.ml" 13 187 206 "src/ext/zrapp/ciltools.ml" 13 187 208
+)
+"src/ext/zrapp/ciltools.ml" 15 265 283 "src/ext/zrapp/ciltools.ml" 15 265 297
+call(
+  stack
+)
+type(
+  Cil.attribute list
+)
+"src/ext/zrapp/ciltools.ml" 14 211 213 "src/ext/zrapp/ciltools.ml" 15 265 297
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 18 326 330 "src/ext/zrapp/ciltools.ml" 18 326 344
+type(
+  Cil.varinfo -> bool
+)
+ident(
+  def is_volatile_vi "src/ext/zrapp/ciltools.ml" 30 814 814 "src/ext/zrapp/ciltools.ml" 1 0 -1
+)
+"src/ext/zrapp/ciltools.ml" 18 326 345 "src/ext/zrapp/ciltools.ml" 18 326 347
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/zrapp/ciltools.ml" 19 350 352 "src/ext/zrapp/ciltools.ml" 23 496 515
+)
+"src/ext/zrapp/ciltools.ml" 19 350 356 "src/ext/zrapp/ciltools.ml" 19 350 362
+type(
+  bool
+)
+ident(
+  def vi_vol "src/ext/zrapp/ciltools.ml" 22 453 455 "src/ext/zrapp/ciltools.ml" 23 496 515
+)
+"src/ext/zrapp/ciltools.ml" 20 365 369 "src/ext/zrapp/ciltools.ml" 20 365 380
+type(
+  (Cil.attribute -> bool) -> Cil.attributes -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"src/ext/zrapp/ciltools.ml" 20 365 397 "src/ext/zrapp/ciltools.ml" 20 365 407
+type(
+  string
+)
+"src/ext/zrapp/ciltools.ml" 20 365 408 "src/ext/zrapp/ciltools.ml" 20 365 409
+type(
+  Cil.attrparam list
+)
+"src/ext/zrapp/ciltools.ml" 20 365 391 "src/ext/zrapp/ciltools.ml" 20 365 411
+type(
+  Cil.attribute
+)
+"src/ext/zrapp/ciltools.ml" 20 365 415 "src/ext/zrapp/ciltools.ml" 20 365 419
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 21 421 429 "src/ext/zrapp/ciltools.ml" 21 421 430
+type(
+  Cil.attribute
+)
+"src/ext/zrapp/ciltools.ml" 21 421 434 "src/ext/zrapp/ciltools.ml" 21 421 439
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 20 365 381 "src/ext/zrapp/ciltools.ml" 21 421 440
+type(
+  Cil.attribute -> bool
+)
+"src/ext/zrapp/ciltools.ml" 21 421 441 "src/ext/zrapp/ciltools.ml" 21 421 443
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/ciltools.ml" 18 326 345 "src/ext/zrapp/ciltools.ml" 18 326 347
+)
+"src/ext/zrapp/ciltools.ml" 21 421 441 "src/ext/zrapp/ciltools.ml" 21 421 449
+type(
+  Cil.attributes
+)
+"src/ext/zrapp/ciltools.ml" 20 365 369 "src/ext/zrapp/ciltools.ml" 21 421 449
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 22 453 459 "src/ext/zrapp/ciltools.ml" 22 453 466
+type(
+  bool
+)
+ident(
+  def typ_vol "src/ext/zrapp/ciltools.ml" 23 496 498 "src/ext/zrapp/ciltools.ml" 23 496 515
+)
+"src/ext/zrapp/ciltools.ml" 22 453 469 "src/ext/zrapp/ciltools.ml" 22 453 483
+type(
+  Cil.typ -> bool
+)
+ident(
+  int_ref is_volatile_tp "src/ext/zrapp/ciltools.ml" 13 187 191 "src/ext/zrapp/ciltools.ml" 13 187 205
+)
+"src/ext/zrapp/ciltools.ml" 22 453 484 "src/ext/zrapp/ciltools.ml" 22 453 486
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/ciltools.ml" 18 326 345 "src/ext/zrapp/ciltools.ml" 18 326 347
+)
+"src/ext/zrapp/ciltools.ml" 22 453 484 "src/ext/zrapp/ciltools.ml" 22 453 492
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 22 453 469 "src/ext/zrapp/ciltools.ml" 22 453 492
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 23 496 498 "src/ext/zrapp/ciltools.ml" 23 496 504
+type(
+  bool
+)
+ident(
+  int_ref vi_vol "src/ext/zrapp/ciltools.ml" 19 350 356 "src/ext/zrapp/ciltools.ml" 19 350 362
+)
+"src/ext/zrapp/ciltools.ml" 23 496 505 "src/ext/zrapp/ciltools.ml" 23 496 507
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ext/zrapp/ciltools.ml" 23 496 508 "src/ext/zrapp/ciltools.ml" 23 496 515
+type(
+  bool
+)
+ident(
+  int_ref typ_vol "src/ext/zrapp/ciltools.ml" 22 453 459 "src/ext/zrapp/ciltools.ml" 22 453 466
+)
+"src/ext/zrapp/ciltools.ml" 23 496 498 "src/ext/zrapp/ciltools.ml" 23 496 515
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 22 453 455 "src/ext/zrapp/ciltools.ml" 23 496 515
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 19 350 352 "src/ext/zrapp/ciltools.ml" 23 496 515
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 40 1192 1196 "src/ext/zrapp/ciltools.ml" 40 1192 1210
+type(
+  Cil.typ -> int * sign
+)
+ident(
+  def unbox_int_type "src/ext/zrapp/ciltools.ml" 53 1430 1430 "src/ext/zrapp/ciltools.ml" 1 0 -1
+)
+"src/ext/zrapp/ciltools.ml" 40 1192 1212 "src/ext/zrapp/ciltools.ml" 40 1192 1214
+type(
+  Cil.typ
+)
+ident(
+  def ye "src/ext/zrapp/ciltools.ml" 40 1192 1222 "src/ext/zrapp/ciltools.ml" 51 1406 1426
+)
+"src/ext/zrapp/ciltools.ml" 41 1239 1245 "src/ext/zrapp/ciltools.ml" 41 1239 1247
+type(
+  Cil.typ
+)
+ident(
+  def tp "src/ext/zrapp/ciltools.ml" 42 1267 1269 "src/ext/zrapp/ciltools.ml" 51 1406 1426
+)
+"src/ext/zrapp/ciltools.ml" 41 1239 1250 "src/ext/zrapp/ciltools.ml" 41 1239 1260
+type(
+  Cil.typ -> Cil.typ
+)
+ident(
+  ext_ref Cil.unrollType
+)
+"src/ext/zrapp/ciltools.ml" 41 1239 1261 "src/ext/zrapp/ciltools.ml" 41 1239 1263
+type(
+  Cil.typ
+)
+ident(
+  int_ref ye "src/ext/zrapp/ciltools.ml" 40 1192 1212 "src/ext/zrapp/ciltools.ml" 40 1192 1214
+)
+"src/ext/zrapp/ciltools.ml" 41 1239 1250 "src/ext/zrapp/ciltools.ml" 41 1239 1263
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 42 1267 1273 "src/ext/zrapp/ciltools.ml" 42 1267 1274
+type(
+  sign
+)
+ident(
+  def s "src/ext/zrapp/ciltools.ml" 51 1406 1408 "src/ext/zrapp/ciltools.ml" 51 1406 1426
+)
+"src/ext/zrapp/ciltools.ml" 43 1278 1288 "src/ext/zrapp/ciltools.ml" 43 1278 1290
+type(
+  Cil.typ
+)
+ident(
+  int_ref tp "src/ext/zrapp/ciltools.ml" 41 1239 1245 "src/ext/zrapp/ciltools.ml" 41 1239 1247
+)
+"src/ext/zrapp/ciltools.ml" 44 1297 1309 "src/ext/zrapp/ciltools.ml" 44 1297 1310
+type(
+  Cil.ikind
+)
+ident(
+  def i "src/ext/zrapp/ciltools.ml" 45 1319 1320 "src/ext/zrapp/ciltools.ml" 48 1357 1368
+)
+"src/ext/zrapp/ciltools.ml" 44 1297 1312 "src/ext/zrapp/ciltools.ml" 44 1297 1313
+type(
+  Cil.attributes
+)
+"src/ext/zrapp/ciltools.ml" 44 1297 1303 "src/ext/zrapp/ciltools.ml" 44 1297 1314
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 45 1319 1324 "src/ext/zrapp/ciltools.ml" 45 1319 1332
+type(
+  Cil.ikind -> bool
+)
+ident(
+  ext_ref Cil.isSigned
+)
+"src/ext/zrapp/ciltools.ml" 45 1319 1333 "src/ext/zrapp/ciltools.ml" 45 1319 1334
+type(
+  Cil.ikind
+)
+ident(
+  int_ref i "src/ext/zrapp/ciltools.ml" 44 1297 1309 "src/ext/zrapp/ciltools.ml" 44 1297 1310
+)
+"src/ext/zrapp/ciltools.ml" 45 1319 1323 "src/ext/zrapp/ciltools.ml" 45 1319 1335
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 46 1341 1344 "src/ext/zrapp/ciltools.ml" 46 1341 1350
+type(
+  sign
+)
+"src/ext/zrapp/ciltools.ml" 48 1357 1360 "src/ext/zrapp/ciltools.ml" 48 1357 1368
+type(
+  sign
+)
+"src/ext/zrapp/ciltools.ml" 45 1319 1320 "src/ext/zrapp/ciltools.ml" 48 1357 1368
+type(
+  sign
+)
+"src/ext/zrapp/ciltools.ml" 49 1369 1375 "src/ext/zrapp/ciltools.ml" 49 1369 1376
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 49 1369 1380 "src/ext/zrapp/ciltools.ml" 49 1369 1385
+type(
+  exn -> sign
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/zrapp/ciltools.ml" 49 1369 1386 "src/ext/zrapp/ciltools.ml" 49 1369 1400
+type(
+  exn
+)
+"src/ext/zrapp/ciltools.ml" 49 1369 1380 "src/ext/zrapp/ciltools.ml" 49 1369 1400
+type(
+  sign
+)
+"src/ext/zrapp/ciltools.ml" 43 1278 1282 "src/ext/zrapp/ciltools.ml" 49 1369 1400
+type(
+  sign
+)
+"src/ext/zrapp/ciltools.ml" 51 1406 1409 "src/ext/zrapp/ciltools.ml" 51 1406 1419
+type(
+  Cil.typ -> int
+)
+ident(
+  ext_ref Cil.bitsSizeOf
+)
+"src/ext/zrapp/ciltools.ml" 51 1406 1420 "src/ext/zrapp/ciltools.ml" 51 1406 1422
+type(
+  Cil.typ
+)
+ident(
+  int_ref tp "src/ext/zrapp/ciltools.ml" 41 1239 1245 "src/ext/zrapp/ciltools.ml" 41 1239 1247
+)
+"src/ext/zrapp/ciltools.ml" 51 1406 1408 "src/ext/zrapp/ciltools.ml" 51 1406 1423
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 51 1406 1425 "src/ext/zrapp/ciltools.ml" 51 1406 1426
+type(
+  sign
+)
+ident(
+  int_ref s "src/ext/zrapp/ciltools.ml" 42 1267 1273 "src/ext/zrapp/ciltools.ml" 42 1267 1274
+)
+"src/ext/zrapp/ciltools.ml" 51 1406 1408 "src/ext/zrapp/ciltools.ml" 51 1406 1426
+type(
+  int * sign
+)
+"src/ext/zrapp/ciltools.ml" 42 1267 1269 "src/ext/zrapp/ciltools.ml" 51 1406 1426
+type(
+  int * sign
+)
+"src/ext/zrapp/ciltools.ml" 41 1239 1241 "src/ext/zrapp/ciltools.ml" 51 1406 1426
+type(
+  int * sign
+)
+type(
+  int * sign
+)
+"src/ext/zrapp/ciltools.ml" 56 1489 1493 "src/ext/zrapp/ciltools.ml" 56 1489 1509
+type(
+  int64 -> int -> sign -> Cil.exp
+)
+ident(
+  def ocaml_int_to_cil "src/ext/zrapp/ciltools.ml" 97 2518 2518 "src/ext/zrapp/ciltools.ml" 1 0 -1
+)
+"src/ext/zrapp/ciltools.ml" 56 1489 1510 "src/ext/zrapp/ciltools.ml" 56 1489 1511
+type(
+  int64
+)
+ident(
+  def v "src/ext/zrapp/ciltools.ml" 56 1489 1512 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+)
+"src/ext/zrapp/ciltools.ml" 56 1489 1512 "src/ext/zrapp/ciltools.ml" 56 1489 1513
+type(
+  int
+)
+ident(
+  def n "src/ext/zrapp/ciltools.ml" 56 1489 1514 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+)
+"src/ext/zrapp/ciltools.ml" 56 1489 1514 "src/ext/zrapp/ciltools.ml" 56 1489 1515
+type(
+  sign
+)
+ident(
+  def s "src/ext/zrapp/ciltools.ml" 57 1518 1520 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+)
+"src/ext/zrapp/ciltools.ml" 57 1518 1524 "src/ext/zrapp/ciltools.ml" 57 1518 1533
+type(
+  int
+)
+ident(
+  def char_size "src/ext/zrapp/ciltools.ml" 58 1560 1562 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+)
+"src/ext/zrapp/ciltools.ml" 57 1518 1536 "src/ext/zrapp/ciltools.ml" 57 1518 1546
+type(
+  Cil.typ -> int
+)
+ident(
+  ext_ref Cil.bitsSizeOf
+)
+"src/ext/zrapp/ciltools.ml" 57 1518 1547 "src/ext/zrapp/ciltools.ml" 57 1518 1555
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.charType
+)
+"src/ext/zrapp/ciltools.ml" 57 1518 1536 "src/ext/zrapp/ciltools.ml" 57 1518 1555
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 58 1560 1566 "src/ext/zrapp/ciltools.ml" 58 1560 1574
+type(
+  int
+)
+ident(
+  def int_size "src/ext/zrapp/ciltools.ml" 59 1599 1601 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+)
+"src/ext/zrapp/ciltools.ml" 58 1560 1577 "src/ext/zrapp/ciltools.ml" 58 1560 1587
+type(
+  Cil.typ -> int
+)
+ident(
+  ext_ref Cil.bitsSizeOf
+)
+"src/ext/zrapp/ciltools.ml" 58 1560 1588 "src/ext/zrapp/ciltools.ml" 58 1560 1595
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.intType
+)
+"src/ext/zrapp/ciltools.ml" 58 1560 1577 "src/ext/zrapp/ciltools.ml" 58 1560 1595
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 59 1599 1605 "src/ext/zrapp/ciltools.ml" 59 1599 1615
+type(
+  int
+)
+ident(
+  def short_size "src/ext/zrapp/ciltools.ml" 60 1650 1652 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+)
+"src/ext/zrapp/ciltools.ml" 59 1599 1618 "src/ext/zrapp/ciltools.ml" 59 1599 1628
+type(
+  Cil.typ -> int
+)
+ident(
+  ext_ref Cil.bitsSizeOf
+)
+"src/ext/zrapp/ciltools.ml" 59 1599 1635 "src/ext/zrapp/ciltools.ml" 59 1599 1641
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 59 1599 1642 "src/ext/zrapp/ciltools.ml" 59 1599 1644
+type(
+  Cil.attributes
+)
+"src/ext/zrapp/ciltools.ml" 59 1599 1629 "src/ext/zrapp/ciltools.ml" 59 1599 1646
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 59 1599 1618 "src/ext/zrapp/ciltools.ml" 59 1599 1646
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 60 1650 1656 "src/ext/zrapp/ciltools.ml" 60 1650 1665
+type(
+  int
+)
+ident(
+  def long_size "src/ext/zrapp/ciltools.ml" 61 1691 1693 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+)
+"src/ext/zrapp/ciltools.ml" 60 1650 1668 "src/ext/zrapp/ciltools.ml" 60 1650 1678
+type(
+  Cil.typ -> int
+)
+ident(
+  ext_ref Cil.bitsSizeOf
+)
+"src/ext/zrapp/ciltools.ml" 60 1650 1679 "src/ext/zrapp/ciltools.ml" 60 1650 1687
+type(
+  Cil.typ
+)
+ident(
+  ext_ref Cil.longType
+)
+"src/ext/zrapp/ciltools.ml" 60 1650 1668 "src/ext/zrapp/ciltools.ml" 60 1650 1687
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 61 1691 1697 "src/ext/zrapp/ciltools.ml" 61 1691 1710
+type(
+  int
+)
+ident(
+  def longlong_size "src/ext/zrapp/ciltools.ml" 62 1748 1750 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+)
+"src/ext/zrapp/ciltools.ml" 61 1691 1713 "src/ext/zrapp/ciltools.ml" 61 1691 1723
+type(
+  Cil.typ -> int
+)
+ident(
+  ext_ref Cil.bitsSizeOf
+)
+"src/ext/zrapp/ciltools.ml" 61 1691 1730 "src/ext/zrapp/ciltools.ml" 61 1691 1739
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 61 1691 1740 "src/ext/zrapp/ciltools.ml" 61 1691 1742
+type(
+  Cil.attributes
+)
+"src/ext/zrapp/ciltools.ml" 61 1691 1724 "src/ext/zrapp/ciltools.ml" 61 1691 1744
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 61 1691 1713 "src/ext/zrapp/ciltools.ml" 61 1691 1744
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 62 1748 1754 "src/ext/zrapp/ciltools.ml" 62 1748 1755
+type(
+  Cil.ikind
+)
+ident(
+  def i "src/ext/zrapp/ciltools.ml" 91 2279 2281 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+)
+"src/ext/zrapp/ciltools.ml" 63 1759 1769 "src/ext/zrapp/ciltools.ml" 63 1759 1770
+type(
+  sign
+)
+ident(
+  int_ref s "src/ext/zrapp/ciltools.ml" 56 1489 1514 "src/ext/zrapp/ciltools.ml" 56 1489 1515
+)
+"src/ext/zrapp/ciltools.ml" 64 1776 1782 "src/ext/zrapp/ciltools.ml" 64 1776 1788
+type(
+  sign
+)
+"src/ext/zrapp/ciltools.ml" 65 1792 1797 "src/ext/zrapp/ciltools.ml" 65 1792 1798
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/zrapp/ciltools.ml" 56 1489 1512 "src/ext/zrapp/ciltools.ml" 56 1489 1513
+)
+"src/ext/zrapp/ciltools.ml" 65 1792 1799 "src/ext/zrapp/ciltools.ml" 65 1792 1800
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 65 1792 1801 "src/ext/zrapp/ciltools.ml" 65 1792 1810
+type(
+  int
+)
+ident(
+  int_ref char_size "src/ext/zrapp/ciltools.ml" 57 1518 1524 "src/ext/zrapp/ciltools.ml" 57 1518 1533
+)
+"src/ext/zrapp/ciltools.ml" 65 1792 1796 "src/ext/zrapp/ciltools.ml" 65 1792 1811
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 66 1818 1821 "src/ext/zrapp/ciltools.ml" 66 1818 1827
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 67 1828 1838 "src/ext/zrapp/ciltools.ml" 67 1828 1839
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/zrapp/ciltools.ml" 56 1489 1512 "src/ext/zrapp/ciltools.ml" 56 1489 1513
+)
+"src/ext/zrapp/ciltools.ml" 67 1828 1840 "src/ext/zrapp/ciltools.ml" 67 1828 1841
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 67 1828 1842 "src/ext/zrapp/ciltools.ml" 67 1828 1850
+type(
+  int
+)
+ident(
+  int_ref int_size "src/ext/zrapp/ciltools.ml" 58 1560 1566 "src/ext/zrapp/ciltools.ml" 58 1560 1574
+)
+"src/ext/zrapp/ciltools.ml" 67 1828 1837 "src/ext/zrapp/ciltools.ml" 67 1828 1851
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 68 1857 1860 "src/ext/zrapp/ciltools.ml" 68 1857 1864
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 69 1865 1875 "src/ext/zrapp/ciltools.ml" 69 1865 1876
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/zrapp/ciltools.ml" 56 1489 1512 "src/ext/zrapp/ciltools.ml" 56 1489 1513
+)
+"src/ext/zrapp/ciltools.ml" 69 1865 1877 "src/ext/zrapp/ciltools.ml" 69 1865 1878
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 69 1865 1879 "src/ext/zrapp/ciltools.ml" 69 1865 1889
+type(
+  int
+)
+ident(
+  int_ref short_size "src/ext/zrapp/ciltools.ml" 59 1599 1605 "src/ext/zrapp/ciltools.ml" 59 1599 1615
+)
+"src/ext/zrapp/ciltools.ml" 69 1865 1874 "src/ext/zrapp/ciltools.ml" 69 1865 1890
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 70 1896 1899 "src/ext/zrapp/ciltools.ml" 70 1896 1905
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 71 1906 1916 "src/ext/zrapp/ciltools.ml" 71 1906 1917
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/zrapp/ciltools.ml" 56 1489 1512 "src/ext/zrapp/ciltools.ml" 56 1489 1513
+)
+"src/ext/zrapp/ciltools.ml" 71 1906 1918 "src/ext/zrapp/ciltools.ml" 71 1906 1919
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 71 1906 1920 "src/ext/zrapp/ciltools.ml" 71 1906 1929
+type(
+  int
+)
+ident(
+  int_ref long_size "src/ext/zrapp/ciltools.ml" 60 1650 1656 "src/ext/zrapp/ciltools.ml" 60 1650 1665
+)
+"src/ext/zrapp/ciltools.ml" 71 1906 1915 "src/ext/zrapp/ciltools.ml" 71 1906 1930
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 72 1936 1939 "src/ext/zrapp/ciltools.ml" 72 1936 1944
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 73 1945 1955 "src/ext/zrapp/ciltools.ml" 73 1945 1956
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/zrapp/ciltools.ml" 56 1489 1512 "src/ext/zrapp/ciltools.ml" 56 1489 1513
+)
+"src/ext/zrapp/ciltools.ml" 73 1945 1957 "src/ext/zrapp/ciltools.ml" 73 1945 1958
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 73 1945 1959 "src/ext/zrapp/ciltools.ml" 73 1945 1972
+type(
+  int
+)
+ident(
+  int_ref longlong_size "src/ext/zrapp/ciltools.ml" 61 1691 1697 "src/ext/zrapp/ciltools.ml" 61 1691 1710
+)
+"src/ext/zrapp/ciltools.ml" 73 1945 1954 "src/ext/zrapp/ciltools.ml" 73 1945 1973
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 74 1979 1982 "src/ext/zrapp/ciltools.ml" 74 1979 1991
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 76 1998 2001 "src/ext/zrapp/ciltools.ml" 76 1998 2006
+type(
+  exn -> Cil.ikind
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/zrapp/ciltools.ml" 76 1998 2007 "src/ext/zrapp/ciltools.ml" 76 1998 2021
+type(
+  exn
+)
+"src/ext/zrapp/ciltools.ml" 76 1998 2001 "src/ext/zrapp/ciltools.ml" 76 1998 2021
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 73 1945 1951 "src/ext/zrapp/ciltools.ml" 76 1998 2021
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 71 1906 1912 "src/ext/zrapp/ciltools.ml" 76 1998 2021
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 69 1865 1871 "src/ext/zrapp/ciltools.ml" 76 1998 2021
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 67 1828 1834 "src/ext/zrapp/ciltools.ml" 76 1998 2021
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 65 1792 1793 "src/ext/zrapp/ciltools.ml" 76 1998 2021
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 77 2022 2028 "src/ext/zrapp/ciltools.ml" 77 2022 2036
+type(
+  sign
+)
+"src/ext/zrapp/ciltools.ml" 78 2040 2045 "src/ext/zrapp/ciltools.ml" 78 2040 2046
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/zrapp/ciltools.ml" 56 1489 1512 "src/ext/zrapp/ciltools.ml" 56 1489 1513
+)
+"src/ext/zrapp/ciltools.ml" 78 2040 2047 "src/ext/zrapp/ciltools.ml" 78 2040 2048
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 78 2040 2049 "src/ext/zrapp/ciltools.ml" 78 2040 2058
+type(
+  int
+)
+ident(
+  int_ref char_size "src/ext/zrapp/ciltools.ml" 57 1518 1524 "src/ext/zrapp/ciltools.ml" 57 1518 1533
+)
+"src/ext/zrapp/ciltools.ml" 78 2040 2044 "src/ext/zrapp/ciltools.ml" 78 2040 2059
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 79 2066 2069 "src/ext/zrapp/ciltools.ml" 79 2066 2075
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 80 2076 2086 "src/ext/zrapp/ciltools.ml" 80 2076 2087
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/zrapp/ciltools.ml" 56 1489 1512 "src/ext/zrapp/ciltools.ml" 56 1489 1513
+)
+"src/ext/zrapp/ciltools.ml" 80 2076 2088 "src/ext/zrapp/ciltools.ml" 80 2076 2089
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 80 2076 2090 "src/ext/zrapp/ciltools.ml" 80 2076 2098
+type(
+  int
+)
+ident(
+  int_ref int_size "src/ext/zrapp/ciltools.ml" 58 1560 1566 "src/ext/zrapp/ciltools.ml" 58 1560 1574
+)
+"src/ext/zrapp/ciltools.ml" 80 2076 2085 "src/ext/zrapp/ciltools.ml" 80 2076 2099
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 81 2105 2108 "src/ext/zrapp/ciltools.ml" 81 2105 2113
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 82 2114 2124 "src/ext/zrapp/ciltools.ml" 82 2114 2125
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/zrapp/ciltools.ml" 56 1489 1512 "src/ext/zrapp/ciltools.ml" 56 1489 1513
+)
+"src/ext/zrapp/ciltools.ml" 82 2114 2126 "src/ext/zrapp/ciltools.ml" 82 2114 2127
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 82 2114 2128 "src/ext/zrapp/ciltools.ml" 82 2114 2138
+type(
+  int
+)
+ident(
+  int_ref short_size "src/ext/zrapp/ciltools.ml" 59 1599 1605 "src/ext/zrapp/ciltools.ml" 59 1599 1615
+)
+"src/ext/zrapp/ciltools.ml" 82 2114 2123 "src/ext/zrapp/ciltools.ml" 82 2114 2139
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 83 2145 2148 "src/ext/zrapp/ciltools.ml" 83 2145 2155
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 84 2156 2166 "src/ext/zrapp/ciltools.ml" 84 2156 2167
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/zrapp/ciltools.ml" 56 1489 1512 "src/ext/zrapp/ciltools.ml" 56 1489 1513
+)
+"src/ext/zrapp/ciltools.ml" 84 2156 2168 "src/ext/zrapp/ciltools.ml" 84 2156 2169
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 84 2156 2170 "src/ext/zrapp/ciltools.ml" 84 2156 2179
+type(
+  int
+)
+ident(
+  int_ref long_size "src/ext/zrapp/ciltools.ml" 60 1650 1656 "src/ext/zrapp/ciltools.ml" 60 1650 1665
+)
+"src/ext/zrapp/ciltools.ml" 84 2156 2165 "src/ext/zrapp/ciltools.ml" 84 2156 2180
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 85 2186 2189 "src/ext/zrapp/ciltools.ml" 85 2186 2195
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 86 2196 2206 "src/ext/zrapp/ciltools.ml" 86 2196 2207
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/zrapp/ciltools.ml" 56 1489 1512 "src/ext/zrapp/ciltools.ml" 56 1489 1513
+)
+"src/ext/zrapp/ciltools.ml" 86 2196 2208 "src/ext/zrapp/ciltools.ml" 86 2196 2209
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 86 2196 2210 "src/ext/zrapp/ciltools.ml" 86 2196 2223
+type(
+  int
+)
+ident(
+  int_ref longlong_size "src/ext/zrapp/ciltools.ml" 61 1691 1697 "src/ext/zrapp/ciltools.ml" 61 1691 1710
+)
+"src/ext/zrapp/ciltools.ml" 86 2196 2205 "src/ext/zrapp/ciltools.ml" 86 2196 2224
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 87 2230 2233 "src/ext/zrapp/ciltools.ml" 87 2230 2243
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 89 2250 2253 "src/ext/zrapp/ciltools.ml" 89 2250 2258
+type(
+  exn -> Cil.ikind
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/zrapp/ciltools.ml" 89 2250 2259 "src/ext/zrapp/ciltools.ml" 89 2250 2273
+type(
+  exn
+)
+"src/ext/zrapp/ciltools.ml" 89 2250 2253 "src/ext/zrapp/ciltools.ml" 89 2250 2273
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 86 2196 2202 "src/ext/zrapp/ciltools.ml" 89 2250 2273
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 84 2156 2162 "src/ext/zrapp/ciltools.ml" 89 2250 2273
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 82 2114 2120 "src/ext/zrapp/ciltools.ml" 89 2250 2273
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 80 2076 2082 "src/ext/zrapp/ciltools.ml" 89 2250 2273
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 78 2040 2041 "src/ext/zrapp/ciltools.ml" 89 2250 2273
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 63 1759 1763 "src/ext/zrapp/ciltools.ml" 89 2250 2273
+type(
+  Cil.ikind
+)
+"src/ext/zrapp/ciltools.ml" 91 2279 2281 "src/ext/zrapp/ciltools.ml" 91 2279 2291
+type(
+  Cil.ikind -> int64 -> Cil.exp
+)
+ident(
+  ext_ref Cil.kinteger64
+)
+"src/ext/zrapp/ciltools.ml" 91 2279 2292 "src/ext/zrapp/ciltools.ml" 91 2279 2293
+type(
+  Cil.ikind
+)
+ident(
+  int_ref i "src/ext/zrapp/ciltools.ml" 62 1748 1754 "src/ext/zrapp/ciltools.ml" 62 1748 1755
+)
+"src/ext/zrapp/ciltools.ml" 91 2279 2294 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+type(
+  int64
+)
+ident(
+  int_ref v "src/ext/zrapp/ciltools.ml" 56 1489 1510 "src/ext/zrapp/ciltools.ml" 56 1489 1511
+)
+"src/ext/zrapp/ciltools.ml" 91 2279 2281 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+call(
+  tail
+)
+type(
+  Cil.exp
+)
+"src/ext/zrapp/ciltools.ml" 62 1748 1750 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+type(
+  Cil.exp
+)
+"src/ext/zrapp/ciltools.ml" 61 1691 1693 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+type(
+  Cil.exp
+)
+"src/ext/zrapp/ciltools.ml" 60 1650 1652 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+type(
+  Cil.exp
+)
+"src/ext/zrapp/ciltools.ml" 59 1599 1601 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+type(
+  Cil.exp
+)
+"src/ext/zrapp/ciltools.ml" 58 1560 1562 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+type(
+  Cil.exp
+)
+"src/ext/zrapp/ciltools.ml" 57 1518 1520 "src/ext/zrapp/ciltools.ml" 91 2279 2295
+type(
+  Cil.exp
+)
+"src/ext/zrapp/ciltools.ml" 97 2518 2526 "src/ext/zrapp/ciltools.ml" 97 2518 2541
+type(
+  Cil.typ -> bool
+)
+ident(
+  def isCompositeType "src/ext/zrapp/ciltools.ml" 97 2518 2518 "src/ext/zrapp/ciltools.ml" 1 0 -1
+)
+"src/ext/zrapp/ciltools.ml" 97 2518 2542 "src/ext/zrapp/ciltools.ml" 97 2518 2544
+type(
+  Cil.typ
+)
+ident(
+  def tp "src/ext/zrapp/ciltools.ml" 98 2547 2549 "src/ext/zrapp/ciltools.ml" 104 2742 2756
+)
+"src/ext/zrapp/ciltools.ml" 98 2547 2555 "src/ext/zrapp/ciltools.ml" 98 2547 2557
+type(
+  Cil.typ
+)
+ident(
+  int_ref tp "src/ext/zrapp/ciltools.ml" 97 2518 2542 "src/ext/zrapp/ciltools.ml" 97 2518 2544
+)
+"src/ext/zrapp/ciltools.ml" 99 2563 2573 "src/ext/zrapp/ciltools.ml" 99 2563 2574
+type(
+  Cil.attributes
+)
+type(
+  Cil.compinfo
+)
+"src/ext/zrapp/ciltools.ml" 99 2563 2567 "src/ext/zrapp/ciltools.ml" 99 2563 2574
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 99 2563 2579 "src/ext/zrapp/ciltools.ml" 99 2563 2583
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 100 2584 2593 "src/ext/zrapp/ciltools.ml" 100 2584 2594
+type(
+  Cil.typ
+)
+ident(
+  def x "src/ext/zrapp/ciltools.ml" 100 2584 2602 "src/ext/zrapp/ciltools.ml" 100 2584 2619
+)
+"src/ext/zrapp/ciltools.ml" 100 2584 2596 "src/ext/zrapp/ciltools.ml" 100 2584 2597
+type(
+  Cil.attributes
+)
+"src/ext/zrapp/ciltools.ml" 100 2584 2588 "src/ext/zrapp/ciltools.ml" 100 2584 2598
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 100 2584 2602 "src/ext/zrapp/ciltools.ml" 100 2584 2617
+type(
+  Cil.typ -> bool
+)
+ident(
+  int_ref isCompositeType "src/ext/zrapp/ciltools.ml" 97 2518 2526 "src/ext/zrapp/ciltools.ml" 97 2518 2541
+)
+"src/ext/zrapp/ciltools.ml" 100 2584 2618 "src/ext/zrapp/ciltools.ml" 100 2584 2619
+type(
+  Cil.typ
+)
+ident(
+  int_ref x "src/ext/zrapp/ciltools.ml" 100 2584 2593 "src/ext/zrapp/ciltools.ml" 100 2584 2594
+)
+"src/ext/zrapp/ciltools.ml" 100 2584 2602 "src/ext/zrapp/ciltools.ml" 100 2584 2619
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 101 2620 2631 "src/ext/zrapp/ciltools.ml" 101 2620 2632
+type(
+  Cil.typ
+)
+ident(
+  def x "src/ext/zrapp/ciltools.ml" 101 2620 2641 "src/ext/zrapp/ciltools.ml" 101 2620 2658
+)
+"src/ext/zrapp/ciltools.ml" 101 2620 2633 "src/ext/zrapp/ciltools.ml" 101 2620 2634
+type(
+  Cil.exp option
+)
+"src/ext/zrapp/ciltools.ml" 101 2620 2635 "src/ext/zrapp/ciltools.ml" 101 2620 2636
+type(
+  Cil.attributes
+)
+"src/ext/zrapp/ciltools.ml" 101 2620 2624 "src/ext/zrapp/ciltools.ml" 101 2620 2637
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 101 2620 2641 "src/ext/zrapp/ciltools.ml" 101 2620 2656
+type(
+  Cil.typ -> bool
+)
+ident(
+  int_ref isCompositeType "src/ext/zrapp/ciltools.ml" 97 2518 2526 "src/ext/zrapp/ciltools.ml" 97 2518 2541
+)
+"src/ext/zrapp/ciltools.ml" 101 2620 2657 "src/ext/zrapp/ciltools.ml" 101 2620 2658
+type(
+  Cil.typ
+)
+ident(
+  int_ref x "src/ext/zrapp/ciltools.ml" 101 2620 2631 "src/ext/zrapp/ciltools.ml" 101 2620 2632
+)
+"src/ext/zrapp/ciltools.ml" 101 2620 2641 "src/ext/zrapp/ciltools.ml" 101 2620 2658
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 102 2659 2668 "src/ext/zrapp/ciltools.ml" 102 2659 2669
+type(
+  Cil.typ
+)
+ident(
+  def x "src/ext/zrapp/ciltools.ml" 102 2659 2680 "src/ext/zrapp/ciltools.ml" 102 2659 2697
+)
+"src/ext/zrapp/ciltools.ml" 102 2659 2670 "src/ext/zrapp/ciltools.ml" 102 2659 2671
+type(
+  (string * Cil.typ * Cil.attributes) list option
+)
+"src/ext/zrapp/ciltools.ml" 102 2659 2672 "src/ext/zrapp/ciltools.ml" 102 2659 2673
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 102 2659 2674 "src/ext/zrapp/ciltools.ml" 102 2659 2675
+type(
+  Cil.attributes
+)
+"src/ext/zrapp/ciltools.ml" 102 2659 2663 "src/ext/zrapp/ciltools.ml" 102 2659 2676
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 102 2659 2680 "src/ext/zrapp/ciltools.ml" 102 2659 2695
+type(
+  Cil.typ -> bool
+)
+ident(
+  int_ref isCompositeType "src/ext/zrapp/ciltools.ml" 97 2518 2526 "src/ext/zrapp/ciltools.ml" 97 2518 2541
+)
+"src/ext/zrapp/ciltools.ml" 102 2659 2696 "src/ext/zrapp/ciltools.ml" 102 2659 2697
+type(
+  Cil.typ
+)
+ident(
+  int_ref x "src/ext/zrapp/ciltools.ml" 102 2659 2668 "src/ext/zrapp/ciltools.ml" 102 2659 2669
+)
+"src/ext/zrapp/ciltools.ml" 102 2659 2680 "src/ext/zrapp/ciltools.ml" 102 2659 2697
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 103 2698 2710 "src/ext/zrapp/ciltools.ml" 103 2698 2711
+type(
+  Cil.typeinfo
+)
+ident(
+  def x "src/ext/zrapp/ciltools.ml" 103 2698 2718 "src/ext/zrapp/ciltools.ml" 103 2698 2741
+)
+"src/ext/zrapp/ciltools.ml" 103 2698 2712 "src/ext/zrapp/ciltools.ml" 103 2698 2713
+type(
+  Cil.attributes
+)
+"src/ext/zrapp/ciltools.ml" 103 2698 2702 "src/ext/zrapp/ciltools.ml" 103 2698 2714
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 103 2698 2718 "src/ext/zrapp/ciltools.ml" 103 2698 2733
+type(
+  Cil.typ -> bool
+)
+ident(
+  int_ref isCompositeType "src/ext/zrapp/ciltools.ml" 97 2518 2526 "src/ext/zrapp/ciltools.ml" 97 2518 2541
+)
+"src/ext/zrapp/ciltools.ml" 103 2698 2734 "src/ext/zrapp/ciltools.ml" 103 2698 2735
+type(
+  Cil.typeinfo
+)
+ident(
+  int_ref x "src/ext/zrapp/ciltools.ml" 103 2698 2710 "src/ext/zrapp/ciltools.ml" 103 2698 2711
+)
+"src/ext/zrapp/ciltools.ml" 103 2698 2734 "src/ext/zrapp/ciltools.ml" 103 2698 2741
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 103 2698 2718 "src/ext/zrapp/ciltools.ml" 103 2698 2741
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 104 2742 2746 "src/ext/zrapp/ciltools.ml" 104 2742 2747
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 104 2742 2751 "src/ext/zrapp/ciltools.ml" 104 2742 2756
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 98 2547 2549 "src/ext/zrapp/ciltools.ml" 104 2742 2756
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 107 2838 2842 "src/ext/zrapp/ciltools.ml" 107 2838 2849
+type(
+  string list ref
+)
+ident(
+  def visited "src/ext/zrapp/ciltools.ml" 108 2860 2860 "src/ext/zrapp/ciltools.ml" 1 0 -1
+)
+"src/ext/zrapp/ciltools.ml" 107 2838 2852 "src/ext/zrapp/ciltools.ml" 107 2838 2855
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/zrapp/ciltools.ml" 107 2838 2856 "src/ext/zrapp/ciltools.ml" 107 2838 2858
+type(
+  string list
+)
+"src/ext/zrapp/ciltools.ml" 107 2838 2852 "src/ext/zrapp/ciltools.ml" 107 2838 2858
+type(
+  string list ref
+)
+"src/ext/zrapp/ciltools.ml" 108 2860 2884 "src/ext/zrapp/ciltools.ml" 108 2860 2890
+type(
+  string
+)
+"src/ext/zrapp/ciltools.ml" 108 2860 2891 "src/ext/zrapp/ciltools.ml" 108 2860 2896
+type(
+  bool ref
+)
+"src/ext/zrapp/ciltools.ml" 108 2860 2906 "src/ext/zrapp/ciltools.ml" 108 2860 2912
+type(
+  < queueInstr : Cil.instr list -> unit;
+    unqueueInstr : unit -> Cil.instr list;
+    vattr : Cil.attribute -> Cil.attribute list Cil.visitAction;
+    vattrparam : Cil.attrparam -> Cil.attrparam Cil.visitAction;
+    vblock : Cil.block -> Cil.block Cil.visitAction;
+    vexpr : Cil.exp -> Cil.exp Cil.visitAction;
+    vfunc : Cil.fundec -> Cil.fundec Cil.visitAction;
+    vglob : Cil.global -> Cil.global list Cil.visitAction;
+    vinit : Cil.varinfo -> Cil.offset -> Cil.init -> Cil.init Cil.visitAction;
+    vinitoffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vinst : Cil.instr -> Cil.instr list Cil.visitAction;
+    vlval : Cil.lval -> Cil.lval Cil.visitAction;
+    voffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vstmt : Cil.stmt -> Cil.stmt Cil.visitAction;
+    vtype : Cil.typ -> Cil.typ Cil.visitAction;
+    vvdec : Cil.varinfo -> Cil.varinfo Cil.visitAction;
+    vvrbl : Cil.varinfo -> Cil.varinfo Cil.visitAction; .. >
+)
+"src/ext/zrapp/ciltools.ml" 110 2937 2952 "src/ext/zrapp/ciltools.ml" 110 2937 2953
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/zrapp/ciltools.ml" 111 2956 2960 "src/ext/zrapp/ciltools.ml" 131 3548 3559
+)
+"src/ext/zrapp/ciltools.ml" 111 2956 2966 "src/ext/zrapp/ciltools.ml" 111 2956 2967
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/zrapp/ciltools.ml" 110 2937 2952 "src/ext/zrapp/ciltools.ml" 110 2937 2953
+)
+"src/ext/zrapp/ciltools.ml" 112 2974 2986 "src/ext/zrapp/ciltools.ml" 112 2974 2991
+type(
+  Cil.compinfo
+)
+ident(
+  def cinfo "src/ext/zrapp/ciltools.ml" 113 2999 3000 "src/ext/zrapp/ciltools.ml" 123 3308 3319
+)
+"src/ext/zrapp/ciltools.ml" 112 2974 2993 "src/ext/zrapp/ciltools.ml" 112 2974 2994
+type(
+  Cil.attributes
+)
+ident(
+  def a "src/ext/zrapp/ciltools.ml" 113 2999 3000 "src/ext/zrapp/ciltools.ml" 123 3308 3319
+)
+"src/ext/zrapp/ciltools.ml" 112 2974 2980 "src/ext/zrapp/ciltools.ml" 112 2974 2995
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3003 "src/ext/zrapp/ciltools.ml" 113 2999 3006
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3008 "src/ext/zrapp/ciltools.ml" 113 2999 3019
+type(
+  (string -> bool) -> string list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3025 "src/ext/zrapp/ciltools.ml" 113 2999 3026
+type(
+  string
+)
+ident(
+  def x "src/ext/zrapp/ciltools.ml" 113 2999 3030 "src/ext/zrapp/ciltools.ml" 113 2999 3045
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3030 "src/ext/zrapp/ciltools.ml" 113 2999 3035
+type(
+  Cil.compinfo
+)
+ident(
+  int_ref cinfo "src/ext/zrapp/ciltools.ml" 112 2974 2986 "src/ext/zrapp/ciltools.ml" 112 2974 2991
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3030 "src/ext/zrapp/ciltools.ml" 113 2999 3041
+type(
+  string
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3042 "src/ext/zrapp/ciltools.ml" 113 2999 3043
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3044 "src/ext/zrapp/ciltools.ml" 113 2999 3045
+type(
+  string
+)
+ident(
+  int_ref x "src/ext/zrapp/ciltools.ml" 113 2999 3025 "src/ext/zrapp/ciltools.ml" 113 2999 3026
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3030 "src/ext/zrapp/ciltools.ml" 113 2999 3045
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3020 "src/ext/zrapp/ciltools.ml" 113 2999 3046
+type(
+  string -> bool
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3047 "src/ext/zrapp/ciltools.ml" 113 2999 3048
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3048 "src/ext/zrapp/ciltools.ml" 113 2999 3055
+type(
+  string list ref
+)
+ident(
+  int_ref visited "src/ext/zrapp/ciltools.ml" 107 2838 2842 "src/ext/zrapp/ciltools.ml" 107 2838 2849
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3047 "src/ext/zrapp/ciltools.ml" 113 2999 3055
+type(
+  string list
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3007 "src/ext/zrapp/ciltools.ml" 113 2999 3057
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3002 "src/ext/zrapp/ciltools.ml" 113 2999 3058
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 114 3070 3073 "src/ext/zrapp/ciltools.ml" 114 3070 3080
+type(
+  string list ref
+)
+ident(
+  int_ref visited "src/ext/zrapp/ciltools.ml" 107 2838 2842 "src/ext/zrapp/ciltools.ml" 107 2838 2849
+)
+"src/ext/zrapp/ciltools.ml" 114 3070 3081 "src/ext/zrapp/ciltools.ml" 114 3070 3083
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/zrapp/ciltools.ml" 114 3070 3084 "src/ext/zrapp/ciltools.ml" 114 3070 3089
+type(
+  Cil.compinfo
+)
+ident(
+  int_ref cinfo "src/ext/zrapp/ciltools.ml" 112 2974 2986 "src/ext/zrapp/ciltools.ml" 112 2974 2991
+)
+"src/ext/zrapp/ciltools.ml" 114 3070 3084 "src/ext/zrapp/ciltools.ml" 114 3070 3095
+type(
+  string
+)
+"src/ext/zrapp/ciltools.ml" 114 3070 3099 "src/ext/zrapp/ciltools.ml" 114 3070 3100
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/ciltools.ml" 114 3070 3100 "src/ext/zrapp/ciltools.ml" 114 3070 3107
+type(
+  string list ref
+)
+ident(
+  int_ref visited "src/ext/zrapp/ciltools.ml" 107 2838 2842 "src/ext/zrapp/ciltools.ml" 107 2838 2849
+)
+"src/ext/zrapp/ciltools.ml" 114 3070 3099 "src/ext/zrapp/ciltools.ml" 114 3070 3107
+type(
+  string list
+)
+"src/ext/zrapp/ciltools.ml" 114 3070 3084 "src/ext/zrapp/ciltools.ml" 114 3070 3107
+type(
+  string list
+)
+"src/ext/zrapp/ciltools.ml" 114 3070 3073 "src/ext/zrapp/ciltools.ml" 114 3070 3107
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 115 3109 3112 "src/ext/zrapp/ciltools.ml" 115 3109 3121
+type(
+  (Cil.fieldinfo -> unit) -> Cil.fieldinfo list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/zrapp/ciltools.ml" 116 3123 3133 "src/ext/zrapp/ciltools.ml" 116 3123 3134
+type(
+  Cil.fieldinfo
+)
+ident(
+  def f "src/ext/zrapp/ciltools.ml" 117 3139 3146 "src/ext/zrapp/ciltools.ml" 121 3273 3285
+)
+"src/ext/zrapp/ciltools.ml" 117 3139 3150 "src/ext/zrapp/ciltools.ml" 117 3139 3162
+type(
+  string -> Cil.attributes -> bool
+)
+ident(
+  ext_ref Cil.hasAttribute
+)
+"src/ext/zrapp/ciltools.ml" 117 3139 3163 "src/ext/zrapp/ciltools.ml" 117 3139 3169
+type(
+  string
+)
+ident(
+  int_ref target "src/ext/zrapp/ciltools.ml" 108 2860 2884 "src/ext/zrapp/ciltools.ml" 108 2860 2890
+)
+"src/ext/zrapp/ciltools.ml" 117 3139 3170 "src/ext/zrapp/ciltools.ml" 117 3139 3171
+type(
+  Cil.fieldinfo
+)
+ident(
+  int_ref f "src/ext/zrapp/ciltools.ml" 116 3123 3133 "src/ext/zrapp/ciltools.ml" 116 3123 3134
+)
+"src/ext/zrapp/ciltools.ml" 117 3139 3170 "src/ext/zrapp/ciltools.ml" 117 3139 3177
+type(
+  Cil.attributes
+)
+"src/ext/zrapp/ciltools.ml" 117 3139 3149 "src/ext/zrapp/ciltools.ml" 117 3139 3178
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 118 3185 3187 "src/ext/zrapp/ciltools.ml" 118 3185 3192
+type(
+  bool ref
+)
+ident(
+  int_ref rflag "src/ext/zrapp/ciltools.ml" 108 2860 2891 "src/ext/zrapp/ciltools.ml" 108 2860 2896
+)
+"src/ext/zrapp/ciltools.ml" 118 3185 3193 "src/ext/zrapp/ciltools.ml" 118 3185 3195
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/zrapp/ciltools.ml" 118 3185 3196 "src/ext/zrapp/ciltools.ml" 118 3185 3200
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 118 3185 3187 "src/ext/zrapp/ciltools.ml" 118 3185 3200
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 120 3213 3215 "src/ext/zrapp/ciltools.ml" 120 3213 3221
+type(
+  Cil.typ -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/ciltools.ml" 120 3213 3222 "src/ext/zrapp/ciltools.ml" 120 3213 3234
+type(
+  Cil.cilVisitor -> Cil.typ -> Cil.typ
+)
+ident(
+  ext_ref Cil.visitCilType
+)
+"src/ext/zrapp/ciltools.ml" 120 3213 3236 "src/ext/zrapp/ciltools.ml" 120 3213 3257
+type(
+  string -> bool ref -> Cil.cilVisitor
+)
+"src/ext/zrapp/ciltools.ml" 120 3213 3258 "src/ext/zrapp/ciltools.ml" 120 3213 3264
+type(
+  string
+)
+ident(
+  int_ref target "src/ext/zrapp/ciltools.ml" 108 2860 2884 "src/ext/zrapp/ciltools.ml" 108 2860 2890
+)
+"src/ext/zrapp/ciltools.ml" 120 3213 3265 "src/ext/zrapp/ciltools.ml" 120 3213 3270
+type(
+  bool ref
+)
+ident(
+  int_ref rflag "src/ext/zrapp/ciltools.ml" 108 2860 2891 "src/ext/zrapp/ciltools.ml" 108 2860 2896
+)
+"src/ext/zrapp/ciltools.ml" 120 3213 3235 "src/ext/zrapp/ciltools.ml" 120 3213 3271
+call(
+  stack
+)
+type(
+  Cil.cilVisitor
+)
+"src/ext/zrapp/ciltools.ml" 121 3273 3277 "src/ext/zrapp/ciltools.ml" 121 3273 3278
+type(
+  Cil.fieldinfo
+)
+ident(
+  int_ref f "src/ext/zrapp/ciltools.ml" 116 3123 3133 "src/ext/zrapp/ciltools.ml" 116 3123 3134
+)
+"src/ext/zrapp/ciltools.ml" 121 3273 3277 "src/ext/zrapp/ciltools.ml" 121 3273 3284
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 120 3213 3221 "src/ext/zrapp/ciltools.ml" 121 3273 3285
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 120 3213 3215 "src/ext/zrapp/ciltools.ml" 121 3273 3285
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 117 3139 3146 "src/ext/zrapp/ciltools.ml" 121 3273 3285
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 116 3123 3128 "src/ext/zrapp/ciltools.ml" 121 3273 3286
+type(
+  Cil.fieldinfo -> unit
+)
+"src/ext/zrapp/ciltools.ml" 121 3273 3287 "src/ext/zrapp/ciltools.ml" 121 3273 3292
+type(
+  Cil.compinfo
+)
+ident(
+  int_ref cinfo "src/ext/zrapp/ciltools.ml" 112 2974 2986 "src/ext/zrapp/ciltools.ml" 112 2974 2991
+)
+"src/ext/zrapp/ciltools.ml" 121 3273 3287 "src/ext/zrapp/ciltools.ml" 121 3273 3300
+type(
+  Cil.fieldinfo list
+)
+"src/ext/zrapp/ciltools.ml" 115 3109 3112 "src/ext/zrapp/ciltools.ml" 121 3273 3301
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3064 "src/ext/zrapp/ciltools.ml" 122 3302 3306
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3000 "src/ext/zrapp/ciltools.ml" 122 3302 3306
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 123 3308 3309 "src/ext/zrapp/ciltools.ml" 123 3308 3319
+type(
+  Cil.typ Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 113 2999 3000 "src/ext/zrapp/ciltools.ml" 123 3308 3319
+type(
+  Cil.typ Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 124 3321 3334 "src/ext/zrapp/ciltools.ml" 124 3321 3336
+type(
+  Cil.typeinfo
+)
+ident(
+  def t1 "src/ext/zrapp/ciltools.ml" 125 3344 3345 "src/ext/zrapp/ciltools.ml" 129 3525 3536
+)
+"src/ext/zrapp/ciltools.ml" 124 3321 3338 "src/ext/zrapp/ciltools.ml" 124 3321 3339
+type(
+  Cil.attributes
+)
+ident(
+  def a "src/ext/zrapp/ciltools.ml" 125 3344 3345 "src/ext/zrapp/ciltools.ml" 129 3525 3536
+)
+"src/ext/zrapp/ciltools.ml" 124 3321 3327 "src/ext/zrapp/ciltools.ml" 124 3321 3340
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3348 "src/ext/zrapp/ciltools.ml" 125 3344 3351
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3353 "src/ext/zrapp/ciltools.ml" 125 3344 3364
+type(
+  (string -> bool) -> string list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3370 "src/ext/zrapp/ciltools.ml" 125 3344 3371
+type(
+  string
+)
+ident(
+  def x "src/ext/zrapp/ciltools.ml" 125 3344 3375 "src/ext/zrapp/ciltools.ml" 125 3344 3387
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3375 "src/ext/zrapp/ciltools.ml" 125 3344 3377
+type(
+  Cil.typeinfo
+)
+ident(
+  int_ref t1 "src/ext/zrapp/ciltools.ml" 124 3321 3334 "src/ext/zrapp/ciltools.ml" 124 3321 3336
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3375 "src/ext/zrapp/ciltools.ml" 125 3344 3383
+type(
+  string
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3384 "src/ext/zrapp/ciltools.ml" 125 3344 3385
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3386 "src/ext/zrapp/ciltools.ml" 125 3344 3387
+type(
+  string
+)
+ident(
+  int_ref x "src/ext/zrapp/ciltools.ml" 125 3344 3370 "src/ext/zrapp/ciltools.ml" 125 3344 3371
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3375 "src/ext/zrapp/ciltools.ml" 125 3344 3387
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3365 "src/ext/zrapp/ciltools.ml" 125 3344 3388
+type(
+  string -> bool
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3389 "src/ext/zrapp/ciltools.ml" 125 3344 3390
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3390 "src/ext/zrapp/ciltools.ml" 125 3344 3397
+type(
+  string list ref
+)
+ident(
+  int_ref visited "src/ext/zrapp/ciltools.ml" 107 2838 2842 "src/ext/zrapp/ciltools.ml" 107 2838 2849
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3389 "src/ext/zrapp/ciltools.ml" 125 3344 3397
+type(
+  string list
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3352 "src/ext/zrapp/ciltools.ml" 125 3344 3399
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3347 "src/ext/zrapp/ciltools.ml" 125 3344 3400
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 126 3412 3415 "src/ext/zrapp/ciltools.ml" 126 3412 3422
+type(
+  string list ref
+)
+ident(
+  int_ref visited "src/ext/zrapp/ciltools.ml" 107 2838 2842 "src/ext/zrapp/ciltools.ml" 107 2838 2849
+)
+"src/ext/zrapp/ciltools.ml" 126 3412 3423 "src/ext/zrapp/ciltools.ml" 126 3412 3425
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/zrapp/ciltools.ml" 126 3412 3426 "src/ext/zrapp/ciltools.ml" 126 3412 3428
+type(
+  Cil.typeinfo
+)
+ident(
+  int_ref t1 "src/ext/zrapp/ciltools.ml" 124 3321 3334 "src/ext/zrapp/ciltools.ml" 124 3321 3336
+)
+"src/ext/zrapp/ciltools.ml" 126 3412 3426 "src/ext/zrapp/ciltools.ml" 126 3412 3434
+type(
+  string
+)
+"src/ext/zrapp/ciltools.ml" 126 3412 3438 "src/ext/zrapp/ciltools.ml" 126 3412 3439
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/ciltools.ml" 126 3412 3439 "src/ext/zrapp/ciltools.ml" 126 3412 3446
+type(
+  string list ref
+)
+ident(
+  int_ref visited "src/ext/zrapp/ciltools.ml" 107 2838 2842 "src/ext/zrapp/ciltools.ml" 107 2838 2849
+)
+"src/ext/zrapp/ciltools.ml" 126 3412 3438 "src/ext/zrapp/ciltools.ml" 126 3412 3446
+type(
+  string list
+)
+"src/ext/zrapp/ciltools.ml" 126 3412 3426 "src/ext/zrapp/ciltools.ml" 126 3412 3446
+type(
+  string list
+)
+"src/ext/zrapp/ciltools.ml" 126 3412 3415 "src/ext/zrapp/ciltools.ml" 126 3412 3446
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 127 3448 3451 "src/ext/zrapp/ciltools.ml" 127 3448 3457
+type(
+  Cil.typ -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/ciltools.ml" 127 3448 3458 "src/ext/zrapp/ciltools.ml" 127 3448 3470
+type(
+  Cil.cilVisitor -> Cil.typ -> Cil.typ
+)
+ident(
+  ext_ref Cil.visitCilType
+)
+"src/ext/zrapp/ciltools.ml" 127 3448 3472 "src/ext/zrapp/ciltools.ml" 127 3448 3493
+type(
+  string -> bool ref -> Cil.cilVisitor
+)
+"src/ext/zrapp/ciltools.ml" 127 3448 3494 "src/ext/zrapp/ciltools.ml" 127 3448 3500
+type(
+  string
+)
+ident(
+  int_ref target "src/ext/zrapp/ciltools.ml" 108 2860 2884 "src/ext/zrapp/ciltools.ml" 108 2860 2890
+)
+"src/ext/zrapp/ciltools.ml" 127 3448 3501 "src/ext/zrapp/ciltools.ml" 127 3448 3506
+type(
+  bool ref
+)
+ident(
+  int_ref rflag "src/ext/zrapp/ciltools.ml" 108 2860 2891 "src/ext/zrapp/ciltools.ml" 108 2860 2896
+)
+"src/ext/zrapp/ciltools.ml" 127 3448 3471 "src/ext/zrapp/ciltools.ml" 127 3448 3507
+call(
+  stack
+)
+type(
+  Cil.cilVisitor
+)
+"src/ext/zrapp/ciltools.ml" 127 3448 3508 "src/ext/zrapp/ciltools.ml" 127 3448 3510
+type(
+  Cil.typeinfo
+)
+ident(
+  int_ref t1 "src/ext/zrapp/ciltools.ml" 124 3321 3334 "src/ext/zrapp/ciltools.ml" 124 3321 3336
+)
+"src/ext/zrapp/ciltools.ml" 127 3448 3508 "src/ext/zrapp/ciltools.ml" 127 3448 3516
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 127 3448 3457 "src/ext/zrapp/ciltools.ml" 127 3448 3517
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 127 3448 3451 "src/ext/zrapp/ciltools.ml" 127 3448 3518
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3406 "src/ext/zrapp/ciltools.ml" 128 3519 3523
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3345 "src/ext/zrapp/ciltools.ml" 128 3519 3523
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 129 3525 3526 "src/ext/zrapp/ciltools.ml" 129 3525 3536
+type(
+  Cil.typ Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 125 3344 3345 "src/ext/zrapp/ciltools.ml" 129 3525 3536
+type(
+  Cil.typ Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 130 3537 3543 "src/ext/zrapp/ciltools.ml" 130 3537 3544
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 131 3548 3549 "src/ext/zrapp/ciltools.ml" 131 3548 3559
+type(
+  Cil.typ Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 111 2956 2960 "src/ext/zrapp/ciltools.ml" 131 3548 3559
+type(
+  Cil.typ Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 132 3560 3581 "src/ext/zrapp/ciltools.ml" 132 3560 3585
+type(
+  string
+)
+ident(
+  def name "src/ext/zrapp/ciltools.ml" 133 3597 3601 "src/ext/zrapp/ciltools.ml" 134 3640 3654
+)
+"src/ext/zrapp/ciltools.ml" 132 3560 3586 "src/ext/zrapp/ciltools.ml" 132 3560 3592
+type(
+  Cil.attrparam list
+)
+ident(
+  def params "src/ext/zrapp/ciltools.ml" 133 3597 3601 "src/ext/zrapp/ciltools.ml" 134 3640 3654
+)
+"src/ext/zrapp/ciltools.ml" 132 3560 3575 "src/ext/zrapp/ciltools.ml" 132 3560 3594
+type(
+  Cil.attribute
+)
+"src/ext/zrapp/ciltools.ml" 133 3597 3605 "src/ext/zrapp/ciltools.ml" 133 3597 3609
+type(
+  string
+)
+ident(
+  int_ref name "src/ext/zrapp/ciltools.ml" 132 3560 3581 "src/ext/zrapp/ciltools.ml" 132 3560 3585
+)
+"src/ext/zrapp/ciltools.ml" 133 3597 3610 "src/ext/zrapp/ciltools.ml" 133 3597 3611
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/ciltools.ml" 133 3597 3612 "src/ext/zrapp/ciltools.ml" 133 3597 3618
+type(
+  string
+)
+ident(
+  int_ref target "src/ext/zrapp/ciltools.ml" 108 2860 2884 "src/ext/zrapp/ciltools.ml" 108 2860 2890
+)
+"src/ext/zrapp/ciltools.ml" 133 3597 3604 "src/ext/zrapp/ciltools.ml" 133 3597 3619
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 133 3597 3625 "src/ext/zrapp/ciltools.ml" 133 3597 3630
+type(
+  bool ref
+)
+ident(
+  int_ref rflag "src/ext/zrapp/ciltools.ml" 108 2860 2891 "src/ext/zrapp/ciltools.ml" 108 2860 2896
+)
+"src/ext/zrapp/ciltools.ml" 133 3597 3631 "src/ext/zrapp/ciltools.ml" 133 3597 3633
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/zrapp/ciltools.ml" 133 3597 3634 "src/ext/zrapp/ciltools.ml" 133 3597 3638
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 133 3597 3625 "src/ext/zrapp/ciltools.ml" 133 3597 3638
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 133 3597 3601 "src/ext/zrapp/ciltools.ml" 133 3597 3638
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 134 3640 3644 "src/ext/zrapp/ciltools.ml" 134 3640 3654
+type(
+  Cil.attribute list Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 133 3597 3601 "src/ext/zrapp/ciltools.ml" 134 3640 3654
+type(
+  Cil.attribute list Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 137 3660 3664 "src/ext/zrapp/ciltools.ml" 137 3660 3680
+type(
+  string -> Cil.typ -> bool
+)
+ident(
+  def deepHasAttribute "src/ext/zrapp/ciltools.ml" 144 3879 3879 "src/ext/zrapp/ciltools.ml" 1 0 -1
+)
+"src/ext/zrapp/ciltools.ml" 137 3660 3681 "src/ext/zrapp/ciltools.ml" 137 3660 3682
+type(
+  string
+)
+ident(
+  def s "src/ext/zrapp/ciltools.ml" 137 3660 3683 "src/ext/zrapp/ciltools.ml" 141 3789 3797
+)
+"src/ext/zrapp/ciltools.ml" 137 3660 3683 "src/ext/zrapp/ciltools.ml" 137 3660 3684
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/zrapp/ciltools.ml" 138 3687 3689 "src/ext/zrapp/ciltools.ml" 141 3789 3797
+)
+"src/ext/zrapp/ciltools.ml" 138 3687 3693 "src/ext/zrapp/ciltools.ml" 138 3687 3698
+type(
+  bool ref
+)
+ident(
+  def found "src/ext/zrapp/ciltools.ml" 139 3714 3716 "src/ext/zrapp/ciltools.ml" 141 3789 3797
+)
+"src/ext/zrapp/ciltools.ml" 138 3687 3701 "src/ext/zrapp/ciltools.ml" 138 3687 3704
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/zrapp/ciltools.ml" 138 3687 3705 "src/ext/zrapp/ciltools.ml" 138 3687 3710
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 138 3687 3701 "src/ext/zrapp/ciltools.ml" 138 3687 3710
+type(
+  bool ref
+)
+"src/ext/zrapp/ciltools.ml" 139 3714 3716 "src/ext/zrapp/ciltools.ml" 139 3714 3723
+type(
+  string list ref
+)
+ident(
+  int_ref visited "src/ext/zrapp/ciltools.ml" 107 2838 2842 "src/ext/zrapp/ciltools.ml" 107 2838 2849
+)
+"src/ext/zrapp/ciltools.ml" 139 3714 3724 "src/ext/zrapp/ciltools.ml" 139 3714 3726
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/zrapp/ciltools.ml" 139 3714 3727 "src/ext/zrapp/ciltools.ml" 139 3714 3729
+type(
+  string list
+)
+"src/ext/zrapp/ciltools.ml" 139 3714 3716 "src/ext/zrapp/ciltools.ml" 139 3714 3729
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 140 3731 3733 "src/ext/zrapp/ciltools.ml" 140 3731 3739
+type(
+  Cil.typ -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/ciltools.ml" 140 3731 3740 "src/ext/zrapp/ciltools.ml" 140 3731 3752
+type(
+  Cil.cilVisitor -> Cil.typ -> Cil.typ
+)
+ident(
+  ext_ref Cil.visitCilType
+)
+"src/ext/zrapp/ciltools.ml" 140 3731 3754 "src/ext/zrapp/ciltools.ml" 140 3731 3775
+type(
+  string -> bool ref -> Cil.cilVisitor
+)
+"src/ext/zrapp/ciltools.ml" 140 3731 3776 "src/ext/zrapp/ciltools.ml" 140 3731 3777
+type(
+  string
+)
+ident(
+  int_ref s "src/ext/zrapp/ciltools.ml" 137 3660 3681 "src/ext/zrapp/ciltools.ml" 137 3660 3682
+)
+"src/ext/zrapp/ciltools.ml" 140 3731 3778 "src/ext/zrapp/ciltools.ml" 140 3731 3783
+type(
+  bool ref
+)
+ident(
+  int_ref found "src/ext/zrapp/ciltools.ml" 138 3687 3693 "src/ext/zrapp/ciltools.ml" 138 3687 3698
+)
+"src/ext/zrapp/ciltools.ml" 140 3731 3753 "src/ext/zrapp/ciltools.ml" 140 3731 3784
+call(
+  stack
+)
+type(
+  Cil.cilVisitor
+)
+"src/ext/zrapp/ciltools.ml" 140 3731 3785 "src/ext/zrapp/ciltools.ml" 140 3731 3786
+type(
+  Cil.typ
+)
+ident(
+  int_ref t "src/ext/zrapp/ciltools.ml" 137 3660 3683 "src/ext/zrapp/ciltools.ml" 137 3660 3684
+)
+"src/ext/zrapp/ciltools.ml" 140 3731 3739 "src/ext/zrapp/ciltools.ml" 140 3731 3787
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 140 3731 3733 "src/ext/zrapp/ciltools.ml" 140 3731 3787
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 141 3789 3791 "src/ext/zrapp/ciltools.ml" 141 3789 3792
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/ciltools.ml" 141 3789 3792 "src/ext/zrapp/ciltools.ml" 141 3789 3797
+type(
+  bool ref
+)
+ident(
+  int_ref found "src/ext/zrapp/ciltools.ml" 138 3687 3693 "src/ext/zrapp/ciltools.ml" 138 3687 3698
+)
+"src/ext/zrapp/ciltools.ml" 141 3789 3791 "src/ext/zrapp/ciltools.ml" 141 3789 3797
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 140 3731 3733 "src/ext/zrapp/ciltools.ml" 141 3789 3797
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 139 3714 3716 "src/ext/zrapp/ciltools.ml" 141 3789 3797
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 138 3687 3689 "src/ext/zrapp/ciltools.ml" 141 3789 3797
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 153 4247 4262 "src/ext/zrapp/ciltools.ml" 153 4247 4263
+type(
+  Cil.stmt
+)
+ident(
+  def s "src/ext/zrapp/ciltools.ml" 154 4266 4270 "src/ext/zrapp/ciltools.ml" 165 4571 4592
+)
+"src/ext/zrapp/ciltools.ml" 154 4266 4276 "src/ext/zrapp/ciltools.ml" 154 4266 4277
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/zrapp/ciltools.ml" 153 4247 4262 "src/ext/zrapp/ciltools.ml" 153 4247 4263
+)
+"src/ext/zrapp/ciltools.ml" 154 4266 4276 "src/ext/zrapp/ciltools.ml" 154 4266 4283
+type(
+  Cil.stmtkind
+)
+"src/ext/zrapp/ciltools.ml" 155 4289 4301 "src/ext/zrapp/ciltools.ml" 155 4289 4303
+ident(
+  def il "src/ext/zrapp/ciltools.ml" 155 4289 4308 "src/ext/zrapp/ciltools.ml" 164 4561 4570
+)
+"src/ext/zrapp/ciltools.ml" 155 4289 4300 "src/ext/zrapp/ciltools.ml" 155 4289 4304
+type(
+  Cil.instr list
+)
+"src/ext/zrapp/ciltools.ml" 155 4289 4295 "src/ext/zrapp/ciltools.ml" 155 4289 4304
+type(
+  Cil.stmtkind
+)
+"src/ext/zrapp/ciltools.ml" 156 4314 4319 "src/ext/zrapp/ciltools.ml" 156 4314 4330
+type(
+  Cil.instr list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/ext/zrapp/ciltools.ml" 156 4314 4331 "src/ext/zrapp/ciltools.ml" 156 4314 4333
+type(
+  Cil.instr list
+)
+ident(
+  int_ref il "src/ext/zrapp/ciltools.ml" 155 4289 4300 "src/ext/zrapp/ciltools.ml" 155 4289 4304
+)
+"src/ext/zrapp/ciltools.ml" 156 4314 4319 "src/ext/zrapp/ciltools.ml" 156 4314 4333
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 156 4314 4334 "src/ext/zrapp/ciltools.ml" 156 4314 4335
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ext/zrapp/ciltools.ml" 156 4314 4336 "src/ext/zrapp/ciltools.ml" 156 4314 4337
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 156 4314 4318 "src/ext/zrapp/ciltools.ml" 156 4314 4338
+type(
+  bool
+)
+"src/ext/zrapp/ciltools.ml" 157 4345 4359 "src/ext/zrapp/ciltools.ml" 157 4345 4372
+type(
+  Cil.stmt list
+)
+ident(
+  def list_of_stmts "src/ext/zrapp/ciltools.ml" 159 4450 4460 "src/ext/zrapp/ciltools.ml" 161 4524 4538
+)
+"src/ext/zrapp/ciltools.ml" 157 4345 4375 "src/ext/zrapp/ciltools.ml" 157 4345 4388
+type(
+  (Cil.instr -> Cil.stmt) -> Cil.instr list -> Cil.stmt list
+)
+ident(
+  ext_ref Util.list_map
+)
+"src/ext/zrapp/ciltools.ml" 157 4345 4394 "src/ext/zrapp/ciltools.ml" 157 4345 4402
+type(
+  Cil.instr
+)
+ident(
+  def one_inst "src/ext/zrapp/ciltools.ml" 158 4407 4419 "src/ext/zrapp/ciltools.ml" 158 4407 4442
+)
+"src/ext/zrapp/ciltools.ml" 158 4407 4419 "src/ext/zrapp/ciltools.ml" 158 4407 4433
+type(
+  Cil.instr -> Cil.stmt
+)
+ident(
+  ext_ref Cil.mkStmtOneInstr
+)
+"src/ext/zrapp/ciltools.ml" 158 4407 4434 "src/ext/zrapp/ciltools.ml" 158 4407 4442
+type(
+  Cil.instr
+)
+ident(
+  int_ref one_inst "src/ext/zrapp/ciltools.ml" 157 4345 4394 "src/ext/zrapp/ciltools.ml" 157 4345 4402
+)
+"src/ext/zrapp/ciltools.ml" 158 4407 4419 "src/ext/zrapp/ciltools.ml" 158 4407 4442
+call(
+  tail
+)
+type(
+  Cil.stmt
+)
+"src/ext/zrapp/ciltools.ml" 157 4345 4389 "src/ext/zrapp/ciltools.ml" 158 4407 4443
+type(
+  Cil.instr -> Cil.stmt
+)
+"src/ext/zrapp/ciltools.ml" 158 4407 4444 "src/ext/zrapp/ciltools.ml" 158 4407 4446
+type(
+  Cil.instr list
+)
+ident(
+  int_ref il "src/ext/zrapp/ciltools.ml" 155 4289 4300 "src/ext/zrapp/ciltools.ml" 155 4289 4304
+)
+"src/ext/zrapp/ciltools.ml" 157 4345 4375 "src/ext/zrapp/ciltools.ml" 158 4407 4446
+call(
+  stack
+)
+type(
+  Cil.stmt list
+)
+"src/ext/zrapp/ciltools.ml" 159 4450 4464 "src/ext/zrapp/ciltools.ml" 159 4450 4469
+type(
+  Cil.block
+)
+ident(
+  def block "src/ext/zrapp/ciltools.ml" 160 4497 4500 "src/ext/zrapp/ciltools.ml" 161 4524 4538
+)
+"src/ext/zrapp/ciltools.ml" 159 4450 4472 "src/ext/zrapp/ciltools.ml" 159 4450 4479
+type(
+  Cil.stmt list -> Cil.block
+)
+ident(
+  ext_ref Cil.mkBlock
+)
+"src/ext/zrapp/ciltools.ml" 159 4450 4480 "src/ext/zrapp/ciltools.ml" 159 4450 4493
+type(
+  Cil.stmt list
+)
+ident(
+  int_ref list_of_stmts "src/ext/zrapp/ciltools.ml" 157 4345 4359 "src/ext/zrapp/ciltools.ml" 157 4345 4372
+)
+"src/ext/zrapp/ciltools.ml" 159 4450 4472 "src/ext/zrapp/ciltools.ml" 159 4450 4493
+call(
+  stack
+)
+type(
+  Cil.block
+)
+"src/ext/zrapp/ciltools.ml" 160 4497 4500 "src/ext/zrapp/ciltools.ml" 160 4497 4501
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/zrapp/ciltools.ml" 153 4247 4262 "src/ext/zrapp/ciltools.ml" 153 4247 4263
+)
+"src/ext/zrapp/ciltools.ml" 160 4497 4517 "src/ext/zrapp/ciltools.ml" 160 4497 4522
+type(
+  Cil.block
+)
+ident(
+  int_ref block "src/ext/zrapp/ciltools.ml" 159 4450 4464 "src/ext/zrapp/ciltools.ml" 159 4450 4469
+)
+"src/ext/zrapp/ciltools.ml" 160 4497 4511 "src/ext/zrapp/ciltools.ml" 160 4497 4522
+type(
+  Cil.stmtkind
+)
+"src/ext/zrapp/ciltools.ml" 160 4497 4500 "src/ext/zrapp/ciltools.ml" 160 4497 4522
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 161 4524 4535 "src/ext/zrapp/ciltools.ml" 161 4524 4538
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/zrapp/ciltools.ml" 153 4247 4262 "src/ext/zrapp/ciltools.ml" 153 4247 4263
+)
+"src/ext/zrapp/ciltools.ml" 161 4524 4527 "src/ext/zrapp/ciltools.ml" 161 4524 4538
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 160 4497 4500 "src/ext/zrapp/ciltools.ml" 161 4524 4538
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 159 4450 4460 "src/ext/zrapp/ciltools.ml" 161 4524 4538
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 157 4345 4355 "src/ext/zrapp/ciltools.ml" 161 4524 4538
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 163 4545 4548 "src/ext/zrapp/ciltools.ml" 163 4545 4560
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 155 4289 4308 "src/ext/zrapp/ciltools.ml" 164 4561 4570
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 165 4571 4577 "src/ext/zrapp/ciltools.ml" 165 4571 4578
+type(
+  Cil.stmtkind
+)
+"src/ext/zrapp/ciltools.ml" 165 4571 4582 "src/ext/zrapp/ciltools.ml" 165 4571 4592
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 154 4266 4270 "src/ext/zrapp/ciltools.ml" 165 4571 4592
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 167 4594 4609 "src/ext/zrapp/ciltools.ml" 167 4594 4610
+type(
+  Cil.varinfo
+)
+"src/ext/zrapp/ciltools.ml" 167 4594 4613 "src/ext/zrapp/ciltools.ml" 167 4594 4625
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 168 4626 4641 "src/ext/zrapp/ciltools.ml" 168 4626 4642
+type(
+  Cil.exp
+)
+"src/ext/zrapp/ciltools.ml" 168 4626 4645 "src/ext/zrapp/ciltools.ml" 168 4626 4657
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 169 4658 4673 "src/ext/zrapp/ciltools.ml" 169 4658 4674
+type(
+  Cil.lval
+)
+"src/ext/zrapp/ciltools.ml" 169 4658 4677 "src/ext/zrapp/ciltools.ml" 169 4658 4689
+type(
+  Cil.lval Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 170 4690 4705 "src/ext/zrapp/ciltools.ml" 170 4690 4706
+type(
+  Cil.typ
+)
+"src/ext/zrapp/ciltools.ml" 170 4690 4709 "src/ext/zrapp/ciltools.ml" 170 4690 4721
+type(
+  Cil.typ Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 173 4728 4732 "src/ext/zrapp/ciltools.ml" 173 4728 4761
+type(
+  Cil.file -> unit
+)
+ident(
+  def one_instruction_per_statement "src/ext/zrapp/ciltools.ml" 181 5076 5076 "src/ext/zrapp/ciltools.ml" 1 0 -1
+)
+"src/ext/zrapp/ciltools.ml" 173 4728 4762 "src/ext/zrapp/ciltools.ml" 173 4728 4763
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/zrapp/ciltools.ml" 174 4766 4768 "src/ext/zrapp/ciltools.ml" 175 4807 4846
+)
+"src/ext/zrapp/ciltools.ml" 174 4766 4772 "src/ext/zrapp/ciltools.ml" 174 4766 4783
+type(
+  callBBVisitor
+)
+ident(
+  def thisVisitor "src/ext/zrapp/ciltools.ml" 175 4807 4809 "src/ext/zrapp/ciltools.ml" 175 4807 4846
+)
+"src/ext/zrapp/ciltools.ml" 174 4766 4786 "src/ext/zrapp/ciltools.ml" 174 4766 4803
+type(
+  callBBVisitor
+)
+"src/ext/zrapp/ciltools.ml" 175 4807 4809 "src/ext/zrapp/ciltools.ml" 175 4807 4832
+type(
+  Cil.cilVisitor -> Cil.file -> unit
+)
+ident(
+  ext_ref Cil.visitCilFileSameGlobals
+)
+"src/ext/zrapp/ciltools.ml" 175 4807 4833 "src/ext/zrapp/ciltools.ml" 175 4807 4844
+type(
+  callBBVisitor
+)
+ident(
+  int_ref thisVisitor "src/ext/zrapp/ciltools.ml" 174 4766 4772 "src/ext/zrapp/ciltools.ml" 174 4766 4783
+)
+"src/ext/zrapp/ciltools.ml" 175 4807 4845 "src/ext/zrapp/ciltools.ml" 175 4807 4846
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/zrapp/ciltools.ml" 173 4728 4762 "src/ext/zrapp/ciltools.ml" 173 4728 4763
+)
+"src/ext/zrapp/ciltools.ml" 175 4807 4809 "src/ext/zrapp/ciltools.ml" 175 4807 4846
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 174 4766 4768 "src/ext/zrapp/ciltools.ml" 175 4807 4846
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 183 5127 5141 "src/ext/zrapp/ciltools.ml" 183 5127 5144
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/zrapp/ciltools.ml" 183 5127 5145 "src/ext/zrapp/ciltools.ml" 183 5127 5146
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 183 5127 5141 "src/ext/zrapp/ciltools.ml" 183 5127 5146
+type(
+  int ref
+)
+"src/ext/zrapp/ciltools.ml" 185 5149 5164 "src/ext/zrapp/ciltools.ml" 185 5149 5166
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/zrapp/ciltools.ml" 186 5170 5174 "src/ext/zrapp/ciltools.ml" 187 5193 5222
+)
+"src/ext/zrapp/ciltools.ml" 186 5170 5174 "src/ext/zrapp/ciltools.ml" 186 5170 5176
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/ciltools.ml" 185 5149 5164 "src/ext/zrapp/ciltools.ml" 185 5149 5166
+)
+"src/ext/zrapp/ciltools.ml" 186 5170 5184 "src/ext/zrapp/ciltools.ml" 186 5170 5185
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/ciltools.ml" 186 5170 5185 "src/ext/zrapp/ciltools.ml" 186 5170 5190
+type(
+  int ref
+)
+ident(
+  ext_ref count
+)
+"src/ext/zrapp/ciltools.ml" 186 5170 5184 "src/ext/zrapp/ciltools.ml" 186 5170 5190
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 186 5170 5174 "src/ext/zrapp/ciltools.ml" 186 5170 5190
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 187 5193 5197 "src/ext/zrapp/ciltools.ml" 187 5193 5201
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/ext/zrapp/ciltools.ml" 187 5193 5202 "src/ext/zrapp/ciltools.ml" 187 5193 5207
+type(
+  int ref
+)
+ident(
+  ext_ref count
+)
+"src/ext/zrapp/ciltools.ml" 187 5193 5197 "src/ext/zrapp/ciltools.ml" 187 5193 5207
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 187 5193 5210 "src/ext/zrapp/ciltools.ml" 187 5193 5222
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 187 5193 5197 "src/ext/zrapp/ciltools.ml" 187 5193 5222
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 186 5170 5174 "src/ext/zrapp/ciltools.ml" 187 5193 5222
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 190 5229 5233 "src/ext/zrapp/ciltools.ml" 190 5229 5253
+type(
+  Cil.file -> unit
+)
+ident(
+  def globally_unique_vids "src/ext/zrapp/ciltools.ml" 194 5338 5338 "src/ext/zrapp/ciltools.ml" 1 0 -1
+)
+"src/ext/zrapp/ciltools.ml" 190 5229 5254 "src/ext/zrapp/ciltools.ml" 190 5229 5255
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/zrapp/ciltools.ml" 191 5258 5260 "src/ext/zrapp/ciltools.ml" 192 5296 5335
+)
+"src/ext/zrapp/ciltools.ml" 191 5258 5264 "src/ext/zrapp/ciltools.ml" 191 5258 5275
+type(
+  vidVisitor
+)
+ident(
+  def thisVisitor "src/ext/zrapp/ciltools.ml" 192 5296 5298 "src/ext/zrapp/ciltools.ml" 192 5296 5335
+)
+"src/ext/zrapp/ciltools.ml" 191 5258 5278 "src/ext/zrapp/ciltools.ml" 191 5258 5292
+type(
+  vidVisitor
+)
+"src/ext/zrapp/ciltools.ml" 192 5296 5298 "src/ext/zrapp/ciltools.ml" 192 5296 5321
+type(
+  Cil.cilVisitor -> Cil.file -> unit
+)
+ident(
+  ext_ref Cil.visitCilFileSameGlobals
+)
+"src/ext/zrapp/ciltools.ml" 192 5296 5322 "src/ext/zrapp/ciltools.ml" 192 5296 5333
+type(
+  vidVisitor
+)
+ident(
+  int_ref thisVisitor "src/ext/zrapp/ciltools.ml" 191 5258 5264 "src/ext/zrapp/ciltools.ml" 191 5258 5275
+)
+"src/ext/zrapp/ciltools.ml" 192 5296 5334 "src/ext/zrapp/ciltools.ml" 192 5296 5335
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/zrapp/ciltools.ml" 190 5229 5254 "src/ext/zrapp/ciltools.ml" 190 5229 5255
+)
+"src/ext/zrapp/ciltools.ml" 192 5296 5298 "src/ext/zrapp/ciltools.ml" 192 5296 5335
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 191 5258 5260 "src/ext/zrapp/ciltools.ml" 192 5296 5335
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 198 5470 5484 "src/ext/zrapp/ciltools.ml" 198 5470 5487
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/zrapp/ciltools.ml" 198 5470 5488 "src/ext/zrapp/ciltools.ml" 198 5470 5489
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 198 5470 5484 "src/ext/zrapp/ciltools.ml" 198 5470 5489
+type(
+  int ref
+)
+"src/ext/zrapp/ciltools.ml" 200 5492 5507 "src/ext/zrapp/ciltools.ml" 200 5492 5508
+type(
+  Cil.stmt
+)
+ident(
+  def s "src/ext/zrapp/ciltools.ml" 201 5512 5516 "src/ext/zrapp/ciltools.ml" 203 5551 5565
+)
+"src/ext/zrapp/ciltools.ml" 201 5512 5516 "src/ext/zrapp/ciltools.ml" 201 5512 5517
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/zrapp/ciltools.ml" 200 5492 5507 "src/ext/zrapp/ciltools.ml" 200 5492 5508
+)
+"src/ext/zrapp/ciltools.ml" 201 5512 5525 "src/ext/zrapp/ciltools.ml" 201 5512 5526
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/ciltools.ml" 201 5512 5526 "src/ext/zrapp/ciltools.ml" 201 5512 5531
+type(
+  int ref
+)
+ident(
+  ext_ref count
+)
+"src/ext/zrapp/ciltools.ml" 201 5512 5525 "src/ext/zrapp/ciltools.ml" 201 5512 5531
+type(
+  int
+)
+"src/ext/zrapp/ciltools.ml" 201 5512 5516 "src/ext/zrapp/ciltools.ml" 201 5512 5531
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 202 5534 5538 "src/ext/zrapp/ciltools.ml" 202 5534 5542
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/ext/zrapp/ciltools.ml" 202 5534 5543 "src/ext/zrapp/ciltools.ml" 202 5534 5548
+type(
+  int ref
+)
+ident(
+  ext_ref count
+)
+"src/ext/zrapp/ciltools.ml" 202 5534 5538 "src/ext/zrapp/ciltools.ml" 202 5534 5548
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 203 5551 5555 "src/ext/zrapp/ciltools.ml" 203 5551 5565
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 202 5534 5538 "src/ext/zrapp/ciltools.ml" 203 5551 5565
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 201 5512 5516 "src/ext/zrapp/ciltools.ml" 203 5551 5565
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/ciltools.ml" 206 5572 5576 "src/ext/zrapp/ciltools.ml" 206 5572 5596
+type(
+  Cil.file -> unit
+)
+ident(
+  def globally_unique_sids "src/ext/zrapp/ciltools.ml" 210 5681 5681 "src/ext/zrapp/ciltools.ml" 1 0 -1
+)
+"src/ext/zrapp/ciltools.ml" 206 5572 5597 "src/ext/zrapp/ciltools.ml" 206 5572 5598
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/zrapp/ciltools.ml" 207 5601 5603 "src/ext/zrapp/ciltools.ml" 208 5639 5678
+)
+"src/ext/zrapp/ciltools.ml" 207 5601 5607 "src/ext/zrapp/ciltools.ml" 207 5601 5618
+type(
+  sidVisitor
+)
+ident(
+  def thisVisitor "src/ext/zrapp/ciltools.ml" 208 5639 5641 "src/ext/zrapp/ciltools.ml" 208 5639 5678
+)
+"src/ext/zrapp/ciltools.ml" 207 5601 5621 "src/ext/zrapp/ciltools.ml" 207 5601 5635
+type(
+  sidVisitor
+)
+"src/ext/zrapp/ciltools.ml" 208 5639 5641 "src/ext/zrapp/ciltools.ml" 208 5639 5664
+type(
+  Cil.cilVisitor -> Cil.file -> unit
+)
+ident(
+  ext_ref Cil.visitCilFileSameGlobals
+)
+"src/ext/zrapp/ciltools.ml" 208 5639 5665 "src/ext/zrapp/ciltools.ml" 208 5639 5676
+type(
+  sidVisitor
+)
+ident(
+  int_ref thisVisitor "src/ext/zrapp/ciltools.ml" 207 5601 5607 "src/ext/zrapp/ciltools.ml" 207 5601 5618
+)
+"src/ext/zrapp/ciltools.ml" 208 5639 5677 "src/ext/zrapp/ciltools.ml" 208 5639 5678
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/zrapp/ciltools.ml" 206 5572 5597 "src/ext/zrapp/ciltools.ml" 206 5572 5598
+)
+"src/ext/zrapp/ciltools.ml" 208 5639 5641 "src/ext/zrapp/ciltools.ml" 208 5639 5678
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 207 5601 5603 "src/ext/zrapp/ciltools.ml" 208 5639 5678
+type(
+  unit
+)
+"src/ext/zrapp/ciltools.ml" 212 5762 5766 "src/ext/zrapp/ciltools.ml" 212 5762 5777
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare_exp "src/ext/zrapp/ciltools.ml" 213 5784 5797 "src/ext/zrapp/ciltools.ml" 1 0 -1
+)
+"src/ext/zrapp/ciltools.ml" 212 5762 5778 "src/ext/zrapp/ciltools.ml" 212 5762 5779
+type(
+  'a
+)
+ident(
+  def x "src/ext/zrapp/ciltools.ml" 212 5762 5780 "src/ext/zrapp/ciltools.ml" 213 5784 5797
+)
+"src/ext/zrapp/ciltools.ml" 212 5762 5780 "src/ext/zrapp/ciltools.ml" 212 5762 5781
+type(
+  'a
+)
+ident(
+  def y "src/ext/zrapp/ciltools.ml" 213 5784 5786 "src/ext/zrapp/ciltools.ml" 213 5784 5797
+)
+"src/ext/zrapp/ciltools.ml" 213 5784 5786 "src/ext/zrapp/ciltools.ml" 213 5784 5793
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/ext/zrapp/ciltools.ml" 213 5784 5794 "src/ext/zrapp/ciltools.ml" 213 5784 5795
+type(
+  'a
+)
+ident(
+  int_ref x "src/ext/zrapp/ciltools.ml" 212 5762 5778 "src/ext/zrapp/ciltools.ml" 212 5762 5779
+)
+"src/ext/zrapp/ciltools.ml" 213 5784 5796 "src/ext/zrapp/ciltools.ml" 213 5784 5797
+type(
+  'a
+)
+ident(
+  int_ref y "src/ext/zrapp/ciltools.ml" 212 5762 5780 "src/ext/zrapp/ciltools.ml" 212 5762 5781
+)
+"src/ext/zrapp/ciltools.ml" 213 5784 5786 "src/ext/zrapp/ciltools.ml" 213 5784 5797
+type(
+  int
+)

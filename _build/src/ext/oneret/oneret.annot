@@ -1,0 +1,2803 @@
+"src/ext/oneret/oneret.ml" 48 1981 1985 "src/ext/oneret/oneret.ml" 48 1981 1997
+type(
+  Cil.nopCilVisitor
+)
+ident(
+  def dummyVisitor "src/ext/oneret/oneret.ml" 50 2019 2019 "src/ext/oneret/oneret.ml" 1 0 -1
+)
+"src/ext/oneret/oneret.ml" 48 1981 2000 "src/ext/oneret/oneret.ml" 48 1981 2017
+type(
+  Cil.nopCilVisitor
+)
+"src/ext/oneret/oneret.ml" 50 2019 2023 "src/ext/oneret/oneret.ml" 50 2019 2029
+type(
+  Cil.fundec -> unit
+)
+ident(
+  def oneret "src/ext/oneret/oneret.ml" 165 6206 6206 "src/ext/oneret/oneret.ml" 1 0 -1
+)
+"src/ext/oneret/oneret.ml" 50 2019 2031 "src/ext/oneret/oneret.ml" 50 2019 2032
+type(
+  Cil.fundec
+)
+ident(
+  def f "src/ext/oneret/oneret.ml" 50 2019 2046 "src/ext/oneret/oneret.ml" 162 6154 6189
+)
+"src/ext/oneret/oneret.ml" 51 2056 2062 "src/ext/oneret/oneret.ml" 51 2056 2067
+type(
+  string
+)
+ident(
+  def fname "src/ext/oneret/oneret.ml" 53 2114 2116 "src/ext/oneret/oneret.ml" 162 6154 6189
+)
+"src/ext/oneret/oneret.ml" 51 2056 2070 "src/ext/oneret/oneret.ml" 51 2056 2071
+type(
+  Cil.fundec
+)
+ident(
+  int_ref f "src/ext/oneret/oneret.ml" 50 2019 2031 "src/ext/oneret/oneret.ml" 50 2019 2032
+)
+"src/ext/oneret/oneret.ml" 51 2056 2070 "src/ext/oneret/oneret.ml" 51 2056 2076
+type(
+  Cil.varinfo
+)
+"src/ext/oneret/oneret.ml" 51 2056 2070 "src/ext/oneret/oneret.ml" 51 2056 2082
+type(
+  string
+)
+"src/ext/oneret/oneret.ml" 53 2114 2120 "src/ext/oneret/oneret.ml" 53 2114 2126
+type(
+  Cil.typ
+)
+ident(
+  def retTyp "src/ext/oneret/oneret.ml" 60 2328 2330 "src/ext/oneret/oneret.ml" 162 6154 6189
+)
+"src/ext/oneret/oneret.ml" 54 2130 2140 "src/ext/oneret/oneret.ml" 54 2130 2141
+type(
+  Cil.fundec
+)
+ident(
+  int_ref f "src/ext/oneret/oneret.ml" 50 2019 2031 "src/ext/oneret/oneret.ml" 50 2019 2032
+)
+"src/ext/oneret/oneret.ml" 54 2130 2140 "src/ext/oneret/oneret.ml" 54 2130 2146
+type(
+  Cil.varinfo
+)
+"src/ext/oneret/oneret.ml" 54 2130 2140 "src/ext/oneret/oneret.ml" 54 2130 2152
+type(
+  Cil.typ
+)
+"src/ext/oneret/oneret.ml" 55 2158 2169 "src/ext/oneret/oneret.ml" 55 2158 2171
+type(
+  Cil.typ
+)
+ident(
+  def rt "src/ext/oneret/oneret.ml" 55 2158 2185 "src/ext/oneret/oneret.ml" 55 2158 2187
+)
+"src/ext/oneret/oneret.ml" 55 2158 2173 "src/ext/oneret/oneret.ml" 55 2158 2174
+type(
+  (string * Cil.typ * Cil.attributes) list option
+)
+"src/ext/oneret/oneret.ml" 55 2158 2176 "src/ext/oneret/oneret.ml" 55 2158 2177
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 55 2158 2179 "src/ext/oneret/oneret.ml" 55 2158 2180
+type(
+  Cil.attributes
+)
+"src/ext/oneret/oneret.ml" 55 2158 2164 "src/ext/oneret/oneret.ml" 55 2158 2181
+type(
+  Cil.typ
+)
+"src/ext/oneret/oneret.ml" 55 2158 2185 "src/ext/oneret/oneret.ml" 55 2158 2187
+type(
+  Cil.typ
+)
+ident(
+  int_ref rt "src/ext/oneret/oneret.ml" 55 2158 2169 "src/ext/oneret/oneret.ml" 55 2158 2171
+)
+"src/ext/oneret/oneret.ml" 56 2188 2194 "src/ext/oneret/oneret.ml" 56 2188 2195
+type(
+  Cil.typ
+)
+"src/ext/oneret/oneret.ml" 56 2188 2199 "src/ext/oneret/oneret.ml" 56 2188 2202
+type(
+  unit -> Cil.typ
+)
+ident(
+  ext_ref E.s
+)
+"src/ext/oneret/oneret.ml" 56 2188 2204 "src/ext/oneret/oneret.ml" 56 2188 2209
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.bug
+)
+"src/ext/oneret/oneret.ml" 56 2188 2210 "src/ext/oneret/oneret.ml" 56 2188 2255
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/oneret/oneret.ml" 57 2257 2275 "src/ext/oneret/oneret.ml" 57 2257 2276
+type(
+  Cil.fundec
+)
+ident(
+  int_ref f "src/ext/oneret/oneret.ml" 50 2019 2031 "src/ext/oneret/oneret.ml" 50 2019 2032
+)
+"src/ext/oneret/oneret.ml" 57 2257 2275 "src/ext/oneret/oneret.ml" 57 2257 2281
+type(
+  Cil.varinfo
+)
+"src/ext/oneret/oneret.ml" 57 2257 2275 "src/ext/oneret/oneret.ml" 57 2257 2287
+type(
+  string
+)
+"src/ext/oneret/oneret.ml" 56 2188 2203 "src/ext/oneret/oneret.ml" 57 2257 2288
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 56 2188 2199 "src/ext/oneret/oneret.ml" 57 2257 2288
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/oneret/oneret.ml" 54 2130 2134 "src/ext/oneret/oneret.ml" 57 2257 2288
+type(
+  Cil.typ
+)
+"src/ext/oneret/oneret.ml" 60 2328 2334 "src/ext/oneret/oneret.ml" 60 2328 2340
+type(
+  bool
+)
+ident(
+  def hasRet "src/ext/oneret/oneret.ml" 63 2468 2470 "src/ext/oneret/oneret.ml" 162 6154 6189
+)
+"src/ext/oneret/oneret.ml" 60 2328 2349 "src/ext/oneret/oneret.ml" 60 2328 2359
+type(
+  Cil.typ -> Cil.typ
+)
+ident(
+  ext_ref Cil.unrollType
+)
+"src/ext/oneret/oneret.ml" 60 2328 2360 "src/ext/oneret/oneret.ml" 60 2328 2366
+type(
+  Cil.typ
+)
+ident(
+  int_ref retTyp "src/ext/oneret/oneret.ml" 53 2114 2120 "src/ext/oneret/oneret.ml" 53 2114 2126
+)
+"src/ext/oneret/oneret.ml" 60 2328 2349 "src/ext/oneret/oneret.ml" 60 2328 2366
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/oneret/oneret.ml" 60 2328 2378 "src/ext/oneret/oneret.ml" 60 2328 2379
+type(
+  Cil.attributes
+)
+"src/ext/oneret/oneret.ml" 60 2328 2372 "src/ext/oneret/oneret.ml" 60 2328 2379
+type(
+  Cil.typ
+)
+"src/ext/oneret/oneret.ml" 60 2328 2383 "src/ext/oneret/oneret.ml" 60 2328 2388
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 60 2328 2391 "src/ext/oneret/oneret.ml" 60 2328 2392
+type(
+  Cil.typ
+)
+"src/ext/oneret/oneret.ml" 60 2328 2396 "src/ext/oneret/oneret.ml" 60 2328 2400
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 60 2328 2343 "src/ext/oneret/oneret.ml" 60 2328 2400
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 63 2468 2474 "src/ext/oneret/oneret.ml" 63 2468 2481
+type(
+  Cil.location ref
+)
+ident(
+  def lastloc "src/ext/oneret/oneret.ml" 64 2503 2505 "src/ext/oneret/oneret.ml" 162 6154 6189
+)
+"src/ext/oneret/oneret.ml" 63 2468 2484 "src/ext/oneret/oneret.ml" 63 2468 2487
+type(
+  Cil.location -> Cil.location ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/oneret/oneret.ml" 63 2468 2488 "src/ext/oneret/oneret.ml" 63 2468 2498
+type(
+  Cil.location
+)
+ident(
+  ext_ref Cil.locUnknown
+)
+"src/ext/oneret/oneret.ml" 63 2468 2484 "src/ext/oneret/oneret.ml" 63 2468 2498
+type(
+  Cil.location ref
+)
+"src/ext/oneret/oneret.ml" 64 2503 2509 "src/ext/oneret/oneret.ml" 64 2503 2515
+type(
+  Cil.varinfo option ref
+)
+ident(
+  def retVar "src/ext/oneret/oneret.ml" 65 2551 2553 "src/ext/oneret/oneret.ml" 162 6154 6189
+)
+"src/ext/oneret/oneret.ml" 64 2503 2539 "src/ext/oneret/oneret.ml" 64 2503 2542
+type(
+  Cil.varinfo option -> Cil.varinfo option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/oneret/oneret.ml" 64 2503 2543 "src/ext/oneret/oneret.ml" 64 2503 2547
+type(
+  Cil.varinfo option
+)
+"src/ext/oneret/oneret.ml" 64 2503 2539 "src/ext/oneret/oneret.ml" 64 2503 2547
+type(
+  Cil.varinfo option ref
+)
+type(
+  Cil.varinfo option ref
+)
+"src/ext/oneret/oneret.ml" 65 2551 2557 "src/ext/oneret/oneret.ml" 65 2551 2566
+type(
+  unit -> Cil.varinfo
+)
+ident(
+  def getRetVar "src/ext/oneret/oneret.ml" 75 2828 2830 "src/ext/oneret/oneret.ml" 162 6154 6189
+)
+"src/ext/oneret/oneret.ml" 65 2551 2568 "src/ext/oneret/oneret.ml" 65 2551 2569
+type(
+  unit
+)
+ident(
+  def x "src/ext/oneret/oneret.ml" 65 2551 2577 "src/ext/oneret/oneret.ml" 72 2769 2776
+)
+"src/ext/oneret/oneret.ml" 66 2590 2600 "src/ext/oneret/oneret.ml" 66 2590 2601
+type(
+  Cil.varinfo option ref -> Cil.varinfo option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/oneret/oneret.ml" 66 2590 2601 "src/ext/oneret/oneret.ml" 66 2590 2607
+type(
+  Cil.varinfo option ref
+)
+ident(
+  int_ref retVar "src/ext/oneret/oneret.ml" 64 2503 2509 "src/ext/oneret/oneret.ml" 64 2503 2515
+)
+"src/ext/oneret/oneret.ml" 66 2590 2600 "src/ext/oneret/oneret.ml" 66 2590 2607
+type(
+  Cil.varinfo option
+)
+"src/ext/oneret/oneret.ml" 67 2613 2624 "src/ext/oneret/oneret.ml" 67 2613 2626
+type(
+  Cil.varinfo
+)
+ident(
+  def rv "src/ext/oneret/oneret.ml" 67 2613 2630 "src/ext/oneret/oneret.ml" 67 2613 2632
+)
+"src/ext/oneret/oneret.ml" 67 2613 2619 "src/ext/oneret/oneret.ml" 67 2613 2626
+type(
+  Cil.varinfo option
+)
+"src/ext/oneret/oneret.ml" 67 2613 2630 "src/ext/oneret/oneret.ml" 67 2613 2632
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref rv "src/ext/oneret/oneret.ml" 67 2613 2624 "src/ext/oneret/oneret.ml" 67 2613 2626
+)
+"src/ext/oneret/oneret.ml" 68 2633 2639 "src/ext/oneret/oneret.ml" 68 2633 2643
+type(
+  Cil.varinfo option
+)
+"src/ext/oneret/oneret.ml" 69 2653 2665 "src/ext/oneret/oneret.ml" 69 2653 2667
+type(
+  Cil.varinfo
+)
+ident(
+  def rv "src/ext/oneret/oneret.ml" 70 2731 2739 "src/ext/oneret/oneret.ml" 71 2758 2768
+)
+"src/ext/oneret/oneret.ml" 69 2653 2670 "src/ext/oneret/oneret.ml" 69 2653 2681
+type(
+  Cil.fundec ->
+  ?insert:bool ->
+  ?name:string ->
+  ?descr:Pretty.doc -> ?descrpure:bool -> Cil.typ -> Cil.varinfo
+)
+ident(
+  ext_ref Cil.makeTempVar
+)
+"src/ext/oneret/oneret.ml" 69 2653 2682 "src/ext/oneret/oneret.ml" 69 2653 2683
+type(
+  Cil.fundec
+)
+ident(
+  int_ref f "src/ext/oneret/oneret.ml" 50 2019 2031 "src/ext/oneret/oneret.ml" 50 2019 2032
+)
+"src/ext/oneret/oneret.ml" 69 2653 2690 "src/ext/oneret/oneret.ml" 69 2653 2700
+type(
+  string
+)
+"src/ext/oneret/oneret.ml" 69 2653 2701 "src/ext/oneret/oneret.ml" 69 2653 2707
+type(
+  Cil.typ
+)
+ident(
+  int_ref retTyp "src/ext/oneret/oneret.ml" 53 2114 2120 "src/ext/oneret/oneret.ml" 53 2114 2126
+)
+"src/ext/oneret/oneret.ml" 69 2653 2670 "src/ext/oneret/oneret.ml" 69 2653 2707
+call(
+  stack
+)
+type(
+  Cil.varinfo
+)
+"src/ext/oneret/oneret.ml" 70 2731 2739 "src/ext/oneret/oneret.ml" 70 2731 2745
+type(
+  Cil.varinfo option ref
+)
+ident(
+  int_ref retVar "src/ext/oneret/oneret.ml" 64 2503 2509 "src/ext/oneret/oneret.ml" 64 2503 2515
+)
+"src/ext/oneret/oneret.ml" 70 2731 2746 "src/ext/oneret/oneret.ml" 70 2731 2748
+type(
+  Cil.varinfo option ref -> Cil.varinfo option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/oneret/oneret.ml" 70 2731 2754 "src/ext/oneret/oneret.ml" 70 2731 2756
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref rv "src/ext/oneret/oneret.ml" 69 2653 2665 "src/ext/oneret/oneret.ml" 69 2653 2667
+)
+"src/ext/oneret/oneret.ml" 70 2731 2749 "src/ext/oneret/oneret.ml" 70 2731 2756
+type(
+  Cil.varinfo option
+)
+"src/ext/oneret/oneret.ml" 70 2731 2739 "src/ext/oneret/oneret.ml" 70 2731 2756
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 71 2758 2766 "src/ext/oneret/oneret.ml" 71 2758 2768
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref rv "src/ext/oneret/oneret.ml" 69 2653 2665 "src/ext/oneret/oneret.ml" 69 2653 2667
+)
+"src/ext/oneret/oneret.ml" 70 2731 2739 "src/ext/oneret/oneret.ml" 71 2758 2768
+type(
+  Cil.varinfo
+)
+"src/ext/oneret/oneret.ml" 68 2633 2647 "src/ext/oneret/oneret.ml" 72 2769 2776
+type(
+  Cil.varinfo
+)
+"src/ext/oneret/oneret.ml" 66 2590 2594 "src/ext/oneret/oneret.ml" 72 2769 2776
+type(
+  Cil.varinfo
+)
+type(
+  Cil.varinfo
+)
+"src/ext/oneret/oneret.ml" 75 2828 2834 "src/ext/oneret/oneret.ml" 75 2828 2842
+type(
+  bool ref
+)
+ident(
+  def haveGoto "src/ext/oneret/oneret.ml" 77 2895 2897 "src/ext/oneret/oneret.ml" 162 6154 6189
+)
+"src/ext/oneret/oneret.ml" 75 2828 2845 "src/ext/oneret/oneret.ml" 75 2828 2848
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/oneret/oneret.ml" 75 2828 2849 "src/ext/oneret/oneret.ml" 75 2828 2854
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 75 2828 2845 "src/ext/oneret/oneret.ml" 75 2828 2854
+type(
+  bool ref
+)
+"src/ext/oneret/oneret.ml" 77 2895 2901 "src/ext/oneret/oneret.ml" 77 2895 2908
+type(
+  Cil.stmt ref
+)
+ident(
+  def retStmt "src/ext/oneret/oneret.ml" 78 2939 2941 "src/ext/oneret/oneret.ml" 162 6154 6189
+)
+"src/ext/oneret/oneret.ml" 77 2895 2922 "src/ext/oneret/oneret.ml" 77 2895 2925
+type(
+  Cil.stmt -> Cil.stmt ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/oneret/oneret.ml" 77 2895 2926 "src/ext/oneret/oneret.ml" 77 2895 2935
+type(
+  Cil.stmt
+)
+ident(
+  ext_ref Cil.dummyStmt
+)
+"src/ext/oneret/oneret.ml" 77 2895 2922 "src/ext/oneret/oneret.ml" 77 2895 2935
+type(
+  Cil.stmt ref
+)
+type(
+  Cil.stmt ref
+)
+"src/ext/oneret/oneret.ml" 78 2939 2945 "src/ext/oneret/oneret.ml" 78 2939 2955
+type(
+  unit -> Cil.stmt
+)
+ident(
+  def getRetStmt "src/ext/oneret/oneret.ml" 92 3402 3404 "src/ext/oneret/oneret.ml" 162 6154 6189
+)
+"src/ext/oneret/oneret.ml" 78 2939 2957 "src/ext/oneret/oneret.ml" 78 2939 2958
+type(
+  unit
+)
+ident(
+  def x "src/ext/oneret/oneret.ml" 78 2939 2966 "src/ext/oneret/oneret.ml" 88 3244 3258
+)
+"src/ext/oneret/oneret.ml" 79 2976 2983 "src/ext/oneret/oneret.ml" 79 2976 2984
+type(
+  Cil.stmt ref -> Cil.stmt
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/oneret/oneret.ml" 79 2976 2984 "src/ext/oneret/oneret.ml" 79 2976 2991
+type(
+  Cil.stmt ref
+)
+ident(
+  int_ref retStmt "src/ext/oneret/oneret.ml" 77 2895 2901 "src/ext/oneret/oneret.ml" 77 2895 2908
+)
+"src/ext/oneret/oneret.ml" 79 2976 2983 "src/ext/oneret/oneret.ml" 79 2976 2991
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 79 2976 2992 "src/ext/oneret/oneret.ml" 79 2976 2994
+type(
+  Cil.stmt -> Cil.stmt -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/ext/oneret/oneret.ml" 79 2976 2995 "src/ext/oneret/oneret.ml" 79 2976 3004
+type(
+  Cil.stmt
+)
+ident(
+  ext_ref Cil.dummyStmt
+)
+"src/ext/oneret/oneret.ml" 79 2976 2983 "src/ext/oneret/oneret.ml" 79 2976 3004
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 81 3052 3062 "src/ext/oneret/oneret.ml" 81 3052 3064
+type(
+  Cil.exp option
+)
+ident(
+  def rv "src/ext/oneret/oneret.ml" 84 3152 3158 "src/ext/oneret/oneret.ml" 86 3222 3230
+)
+"src/ext/oneret/oneret.ml" 82 3068 3079 "src/ext/oneret/oneret.ml" 82 3068 3085
+type(
+  bool
+)
+ident(
+  int_ref hasRet "src/ext/oneret/oneret.ml" 60 2328 2334 "src/ext/oneret/oneret.ml" 60 2328 2340
+)
+"src/ext/oneret/oneret.ml" 82 3068 3107 "src/ext/oneret/oneret.ml" 82 3068 3116
+type(
+  unit -> Cil.varinfo
+)
+ident(
+  int_ref getRetVar "src/ext/oneret/oneret.ml" 65 2551 2557 "src/ext/oneret/oneret.ml" 65 2551 2566
+)
+"src/ext/oneret/oneret.ml" 82 3068 3117 "src/ext/oneret/oneret.ml" 82 3068 3119
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 82 3068 3106 "src/ext/oneret/oneret.ml" 82 3068 3120
+call(
+  stack
+)
+type(
+  Cil.varinfo
+)
+"src/ext/oneret/oneret.ml" 82 3068 3102 "src/ext/oneret/oneret.ml" 82 3068 3120
+type(
+  Cil.lhost
+)
+"src/ext/oneret/oneret.ml" 82 3068 3122 "src/ext/oneret/oneret.ml" 82 3068 3130
+type(
+  Cil.offset
+)
+"src/ext/oneret/oneret.ml" 82 3068 3101 "src/ext/oneret/oneret.ml" 82 3068 3131
+type(
+  Cil.lval
+)
+"src/ext/oneret/oneret.ml" 82 3068 3096 "src/ext/oneret/oneret.ml" 82 3068 3132
+type(
+  Cil.exp
+)
+"src/ext/oneret/oneret.ml" 82 3068 3091 "src/ext/oneret/oneret.ml" 82 3068 3132
+type(
+  Cil.exp option
+)
+"src/ext/oneret/oneret.ml" 82 3068 3138 "src/ext/oneret/oneret.ml" 82 3068 3142
+type(
+  Cil.exp option
+)
+"src/ext/oneret/oneret.ml" 82 3068 3076 "src/ext/oneret/oneret.ml" 82 3068 3142
+type(
+  Cil.exp option
+)
+"src/ext/oneret/oneret.ml" 84 3152 3162 "src/ext/oneret/oneret.ml" 84 3152 3164
+type(
+  Cil.stmt
+)
+ident(
+  def sr "src/ext/oneret/oneret.ml" 85 3201 3207 "src/ext/oneret/oneret.ml" 86 3222 3230
+)
+"src/ext/oneret/oneret.ml" 84 3152 3167 "src/ext/oneret/oneret.ml" 84 3152 3173
+type(
+  Cil.stmtkind -> Cil.stmt
+)
+ident(
+  ext_ref Cil.mkStmt
+)
+"src/ext/oneret/oneret.ml" 84 3152 3183 "src/ext/oneret/oneret.ml" 84 3152 3185
+type(
+  Cil.exp option
+)
+ident(
+  int_ref rv "src/ext/oneret/oneret.ml" 81 3052 3062 "src/ext/oneret/oneret.ml" 81 3052 3064
+)
+"src/ext/oneret/oneret.ml" 84 3152 3187 "src/ext/oneret/oneret.ml" 84 3152 3188
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/oneret/oneret.ml" 84 3152 3188 "src/ext/oneret/oneret.ml" 84 3152 3195
+type(
+  Cil.location ref
+)
+ident(
+  int_ref lastloc "src/ext/oneret/oneret.ml" 63 2468 2474 "src/ext/oneret/oneret.ml" 63 2468 2481
+)
+"src/ext/oneret/oneret.ml" 84 3152 3187 "src/ext/oneret/oneret.ml" 84 3152 3195
+type(
+  Cil.location
+)
+"src/ext/oneret/oneret.ml" 84 3152 3174 "src/ext/oneret/oneret.ml" 84 3152 3197
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 84 3152 3167 "src/ext/oneret/oneret.ml" 84 3152 3197
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 85 3201 3207 "src/ext/oneret/oneret.ml" 85 3201 3214
+type(
+  Cil.stmt ref
+)
+ident(
+  int_ref retStmt "src/ext/oneret/oneret.ml" 77 2895 2901 "src/ext/oneret/oneret.ml" 77 2895 2908
+)
+"src/ext/oneret/oneret.ml" 85 3201 3215 "src/ext/oneret/oneret.ml" 85 3201 3217
+type(
+  Cil.stmt ref -> Cil.stmt -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/oneret/oneret.ml" 85 3201 3218 "src/ext/oneret/oneret.ml" 85 3201 3220
+type(
+  Cil.stmt
+)
+ident(
+  int_ref sr "src/ext/oneret/oneret.ml" 84 3152 3162 "src/ext/oneret/oneret.ml" 84 3152 3164
+)
+"src/ext/oneret/oneret.ml" 85 3201 3207 "src/ext/oneret/oneret.ml" 85 3201 3220
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 86 3222 3228 "src/ext/oneret/oneret.ml" 86 3222 3230
+type(
+  Cil.stmt
+)
+ident(
+  int_ref sr "src/ext/oneret/oneret.ml" 84 3152 3162 "src/ext/oneret/oneret.ml" 84 3152 3164
+)
+"src/ext/oneret/oneret.ml" 85 3201 3207 "src/ext/oneret/oneret.ml" 86 3222 3230
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 84 3152 3158 "src/ext/oneret/oneret.ml" 86 3222 3230
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 79 2976 3010 "src/ext/oneret/oneret.ml" 87 3231 3238
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 88 3244 3250 "src/ext/oneret/oneret.ml" 88 3244 3251
+type(
+  Cil.stmt ref -> Cil.stmt
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/oneret/oneret.ml" 88 3244 3251 "src/ext/oneret/oneret.ml" 88 3244 3258
+type(
+  Cil.stmt ref
+)
+ident(
+  int_ref retStmt "src/ext/oneret/oneret.ml" 77 2895 2901 "src/ext/oneret/oneret.ml" 77 2895 2908
+)
+"src/ext/oneret/oneret.ml" 88 3244 3250 "src/ext/oneret/oneret.ml" 88 3244 3258
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 79 2976 2980 "src/ext/oneret/oneret.ml" 88 3244 3258
+type(
+  Cil.stmt
+)
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 92 3402 3412 "src/ext/oneret/oneret.ml" 92 3402 3421
+type(
+  bool -> Cil.stmt list -> Cil.stmt list
+)
+ident(
+  def scanStmts "src/ext/oneret/oneret.ml" 92 3402 3404 "src/ext/oneret/oneret.ml" 162 6154 6189
+)
+"src/ext/oneret/oneret.ml" 92 3402 3423 "src/ext/oneret/oneret.ml" 92 3402 3431
+type(
+  bool
+)
+ident(
+  def mainbody "src/ext/oneret/oneret.ml" 92 3402 3441 "src/ext/oneret/oneret.ml" 154 5853 5900
+)
+"src/ext/oneret/oneret.ml" 93 3450 3456 "src/ext/oneret/oneret.ml" 93 3450 3458
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 93 3450 3464 "src/ext/oneret/oneret.ml" 93 3450 3472
+type(
+  bool
+)
+ident(
+  int_ref mainbody "src/ext/oneret/oneret.ml" 92 3402 3423 "src/ext/oneret/oneret.ml" 92 3402 3431
+)
+"src/ext/oneret/oneret.ml" 95 3590 3602 "src/ext/oneret/oneret.ml" 95 3590 3604
+type(
+  Cil.stmt
+)
+ident(
+  def rs "src/ext/oneret/oneret.ml" 96 3624 3632 "src/ext/oneret/oneret.ml" 98 3728 3740
+)
+"src/ext/oneret/oneret.ml" 95 3590 3607 "src/ext/oneret/oneret.ml" 95 3590 3617
+type(
+  unit -> Cil.stmt
+)
+ident(
+  int_ref getRetStmt "src/ext/oneret/oneret.ml" 78 2939 2945 "src/ext/oneret/oneret.ml" 78 2939 2955
+)
+"src/ext/oneret/oneret.ml" 95 3590 3618 "src/ext/oneret/oneret.ml" 95 3590 3620
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 95 3590 3607 "src/ext/oneret/oneret.ml" 95 3590 3620
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 96 3624 3635 "src/ext/oneret/oneret.ml" 96 3624 3636
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/oneret/oneret.ml" 96 3624 3636 "src/ext/oneret/oneret.ml" 96 3624 3644
+type(
+  bool ref
+)
+ident(
+  int_ref haveGoto "src/ext/oneret/oneret.ml" 75 2828 2834 "src/ext/oneret/oneret.ml" 75 2828 2842
+)
+"src/ext/oneret/oneret.ml" 96 3624 3635 "src/ext/oneret/oneret.ml" 96 3624 3644
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 97 3650 3660 "src/ext/oneret/oneret.ml" 97 3650 3662
+type(
+  Cil.stmt
+)
+ident(
+  int_ref rs "src/ext/oneret/oneret.ml" 95 3590 3602 "src/ext/oneret/oneret.ml" 95 3590 3604
+)
+"src/ext/oneret/oneret.ml" 97 3650 3680 "src/ext/oneret/oneret.ml" 97 3650 3694
+type(
+  string
+)
+"src/ext/oneret/oneret.ml" 97 3650 3696 "src/ext/oneret/oneret.ml" 97 3650 3697
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/oneret/oneret.ml" 97 3650 3697 "src/ext/oneret/oneret.ml" 97 3650 3704
+type(
+  Cil.location ref
+)
+ident(
+  int_ref lastloc "src/ext/oneret/oneret.ml" 63 2468 2474 "src/ext/oneret/oneret.ml" 63 2468 2481
+)
+"src/ext/oneret/oneret.ml" 97 3650 3696 "src/ext/oneret/oneret.ml" 97 3650 3704
+type(
+  Cil.location
+)
+"src/ext/oneret/oneret.ml" 97 3650 3706 "src/ext/oneret/oneret.ml" 97 3650 3711
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 97 3650 3673 "src/ext/oneret/oneret.ml" 97 3650 3713
+type(
+  Cil.label
+)
+"src/ext/oneret/oneret.ml" 97 3650 3717 "src/ext/oneret/oneret.ml" 97 3650 3719
+type(
+  Cil.stmt
+)
+ident(
+  int_ref rs "src/ext/oneret/oneret.ml" 95 3590 3602 "src/ext/oneret/oneret.ml" 95 3590 3604
+)
+"src/ext/oneret/oneret.ml" 97 3650 3717 "src/ext/oneret/oneret.ml" 97 3650 3726
+type(
+  Cil.label list
+)
+"src/ext/oneret/oneret.ml" 97 3650 3673 "src/ext/oneret/oneret.ml" 97 3650 3726
+type(
+  Cil.label list
+)
+"src/ext/oneret/oneret.ml" 97 3650 3660 "src/ext/oneret/oneret.ml" 97 3650 3726
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 96 3624 3632 "src/ext/oneret/oneret.ml" 97 3650 3726
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 98 3728 3737 "src/ext/oneret/oneret.ml" 98 3728 3739
+type(
+  Cil.stmt
+)
+ident(
+  int_ref rs "src/ext/oneret/oneret.ml" 95 3590 3602 "src/ext/oneret/oneret.ml" 95 3590 3604
+)
+"src/ext/oneret/oneret.ml" 98 3728 3736 "src/ext/oneret/oneret.ml" 98 3728 3740
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 96 3624 3632 "src/ext/oneret/oneret.ml" 98 3728 3740
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 95 3590 3598 "src/ext/oneret/oneret.ml" 98 3728 3740
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 100 3742 3748 "src/ext/oneret/oneret.ml" 100 3742 3750
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 100 3742 3754 "src/ext/oneret/oneret.ml" 100 3742 3756
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 102 3758 3795 "src/ext/oneret/oneret.ml" 102 3758 3796
+type(
+  Cil.varinfo
+)
+"src/ext/oneret/oneret.ml" 102 3758 3791 "src/ext/oneret/oneret.ml" 102 3758 3796
+type(
+  Cil.lhost
+)
+"src/ext/oneret/oneret.ml" 102 3758 3797 "src/ext/oneret/oneret.ml" 102 3758 3805
+type(
+  Cil.offset
+)
+"src/ext/oneret/oneret.ml" 102 3758 3790 "src/ext/oneret/oneret.ml" 102 3758 3806
+type(
+  Cil.lval
+)
+"src/ext/oneret/oneret.ml" 102 3758 3785 "src/ext/oneret/oneret.ml" 102 3758 3807
+type(
+  Cil.exp
+)
+"src/ext/oneret/oneret.ml" 102 3758 3780 "src/ext/oneret/oneret.ml" 102 3758 3807
+type(
+  Cil.exp option
+)
+"src/ext/oneret/oneret.ml" 102 3758 3809 "src/ext/oneret/oneret.ml" 102 3758 3810
+type(
+  Cil.location
+)
+"src/ext/oneret/oneret.ml" 102 3758 3772 "src/ext/oneret/oneret.ml" 102 3758 3811
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 102 3758 3765 "src/ext/oneret/oneret.ml" 102 3758 3812
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 102 3758 3816 "src/ext/oneret/oneret.ml" 102 3758 3817
+ident(
+  def s "src/ext/oneret/oneret.ml" 103 3819 3833 "src/ext/oneret/oneret.ml" 104 3859 3876
+)
+"src/ext/oneret/oneret.ml" 102 3758 3765 "src/ext/oneret/oneret.ml" 102 3758 3817
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 102 3758 3764 "src/ext/oneret/oneret.ml" 102 3758 3818
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 103 3819 3833 "src/ext/oneret/oneret.ml" 103 3819 3841
+type(
+  bool
+)
+ident(
+  int_ref mainbody "src/ext/oneret/oneret.ml" 92 3402 3423 "src/ext/oneret/oneret.ml" 92 3402 3431
+)
+"src/ext/oneret/oneret.ml" 103 3819 3842 "src/ext/oneret/oneret.ml" 103 3819 3844
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/oneret/oneret.ml" 103 3819 3845 "src/ext/oneret/oneret.ml" 103 3819 3848
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/oneret/oneret.ml" 103 3819 3849 "src/ext/oneret/oneret.ml" 103 3819 3850
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/oneret/oneret.ml" 103 3819 3850 "src/ext/oneret/oneret.ml" 103 3819 3858
+type(
+  bool ref
+)
+ident(
+  int_ref haveGoto "src/ext/oneret/oneret.ml" 75 2828 2834 "src/ext/oneret/oneret.ml" 75 2828 2842
+)
+"src/ext/oneret/oneret.ml" 103 3819 3849 "src/ext/oneret/oneret.ml" 103 3819 3858
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 103 3819 3845 "src/ext/oneret/oneret.ml" 103 3819 3858
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 103 3819 3833 "src/ext/oneret/oneret.ml" 103 3819 3858
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 104 3859 3874 "src/ext/oneret/oneret.ml" 104 3859 3875
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/oneret/oneret.ml" 102 3758 3765 "src/ext/oneret/oneret.ml" 102 3758 3817
+)
+"src/ext/oneret/oneret.ml" 104 3859 3873 "src/ext/oneret/oneret.ml" 104 3859 3876
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 106 3878 3900 "src/ext/oneret/oneret.ml" 106 3878 3906
+type(
+  Cil.exp option
+)
+ident(
+  def retval "src/ext/oneret/oneret.ml" 107 3931 3939 "src/ext/oneret/oneret.ml" 135 5062 5073
+)
+"src/ext/oneret/oneret.ml" 106 3878 3908 "src/ext/oneret/oneret.ml" 106 3878 3909
+type(
+  Cil.location
+)
+ident(
+  def l "src/ext/oneret/oneret.ml" 107 3931 3939 "src/ext/oneret/oneret.ml" 135 5062 5073
+)
+"src/ext/oneret/oneret.ml" 106 3878 3892 "src/ext/oneret/oneret.ml" 106 3878 3910
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 106 3878 3885 "src/ext/oneret/oneret.ml" 106 3878 3911
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 106 3878 3915 "src/ext/oneret/oneret.ml" 106 3878 3916
+ident(
+  def s "src/ext/oneret/oneret.ml" 107 3931 3939 "src/ext/oneret/oneret.ml" 135 5062 5073
+)
+"src/ext/oneret/oneret.ml" 106 3878 3884 "src/ext/oneret/oneret.ml" 106 3878 3917
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 106 3878 3921 "src/ext/oneret/oneret.ml" 106 3878 3926
+type(
+  Cil.stmt list
+)
+ident(
+  def rests "src/ext/oneret/oneret.ml" 107 3931 3939 "src/ext/oneret/oneret.ml" 135 5062 5073
+)
+"src/ext/oneret/oneret.ml" 106 3878 3884 "src/ext/oneret/oneret.ml" 106 3878 3926
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 107 3931 3939 "src/ext/oneret/oneret.ml" 107 3931 3949
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/oneret/oneret.ml" 107 3931 3950 "src/ext/oneret/oneret.ml" 107 3931 3952
+type(
+  Cil.location ref -> Cil.location -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/oneret/oneret.ml" 107 3931 3953 "src/ext/oneret/oneret.ml" 107 3931 3954
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/oneret/oneret.ml" 106 3878 3908 "src/ext/oneret/oneret.ml" 106 3878 3909
+)
+"src/ext/oneret/oneret.ml" 107 3931 3939 "src/ext/oneret/oneret.ml" 107 3931 3954
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 115 4165 4176 "src/ext/oneret/oneret.ml" 115 4165 4182
+type(
+  bool
+)
+ident(
+  int_ref hasRet "src/ext/oneret/oneret.ml" 60 2328 2334 "src/ext/oneret/oneret.ml" 60 2328 2340
+)
+"src/ext/oneret/oneret.ml" 115 4165 4183 "src/ext/oneret/oneret.ml" 115 4165 4185
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/oneret/oneret.ml" 115 4165 4186 "src/ext/oneret/oneret.ml" 115 4165 4192
+type(
+  Cil.exp option
+)
+ident(
+  int_ref retval "src/ext/oneret/oneret.ml" 106 3878 3900 "src/ext/oneret/oneret.ml" 106 3878 3906
+)
+"src/ext/oneret/oneret.ml" 115 4165 4193 "src/ext/oneret/oneret.ml" 115 4165 4194
+type(
+  Cil.exp option -> Cil.exp option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/oneret/oneret.ml" 115 4165 4195 "src/ext/oneret/oneret.ml" 115 4165 4199
+type(
+  Cil.exp option
+)
+"src/ext/oneret/oneret.ml" 115 4165 4186 "src/ext/oneret/oneret.ml" 115 4165 4199
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 115 4165 4176 "src/ext/oneret/oneret.ml" 115 4165 4199
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 116 4206 4216 "src/ext/oneret/oneret.ml" 116 4206 4219
+type(
+  Pretty.doc -> unit
+)
+ident(
+  ext_ref E.s
+)
+"src/ext/oneret/oneret.ml" 116 4206 4221 "src/ext/oneret/oneret.ml" 116 4206 4226
+type(
+  (string -> Pretty.doc, unit, Pretty.doc) format -> string -> Pretty.doc
+)
+ident(
+  ext_ref Cil.error
+)
+"src/ext/oneret/oneret.ml" 116 4206 4227 "src/ext/oneret/oneret.ml" 116 4206 4270
+type(
+  (string -> Pretty.doc, unit, Pretty.doc) format
+)
+"src/ext/oneret/oneret.ml" 116 4206 4271 "src/ext/oneret/oneret.ml" 116 4206 4276
+type(
+  string
+)
+ident(
+  int_ref fname "src/ext/oneret/oneret.ml" 51 2056 2062 "src/ext/oneret/oneret.ml" 51 2056 2067
+)
+"src/ext/oneret/oneret.ml" 116 4206 4220 "src/ext/oneret/oneret.ml" 116 4206 4277
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/oneret/oneret.ml" 116 4206 4216 "src/ext/oneret/oneret.ml" 116 4206 4277
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 115 4165 4173 "src/ext/oneret/oneret.ml" 116 4206 4277
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 117 4279 4290 "src/ext/oneret/oneret.ml" 117 4279 4293
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/oneret/oneret.ml" 117 4279 4294 "src/ext/oneret/oneret.ml" 117 4279 4300
+type(
+  bool
+)
+ident(
+  int_ref hasRet "src/ext/oneret/oneret.ml" 60 2328 2334 "src/ext/oneret/oneret.ml" 60 2328 2340
+)
+"src/ext/oneret/oneret.ml" 117 4279 4290 "src/ext/oneret/oneret.ml" 117 4279 4300
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 117 4279 4301 "src/ext/oneret/oneret.ml" 117 4279 4303
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/oneret/oneret.ml" 117 4279 4304 "src/ext/oneret/oneret.ml" 117 4279 4310
+type(
+  Cil.exp option
+)
+ident(
+  int_ref retval "src/ext/oneret/oneret.ml" 106 3878 3900 "src/ext/oneret/oneret.ml" 106 3878 3906
+)
+"src/ext/oneret/oneret.ml" 117 4279 4311 "src/ext/oneret/oneret.ml" 117 4279 4313
+type(
+  Cil.exp option -> Cil.exp option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ext/oneret/oneret.ml" 117 4279 4314 "src/ext/oneret/oneret.ml" 117 4279 4318
+type(
+  Cil.exp option
+)
+"src/ext/oneret/oneret.ml" 117 4279 4304 "src/ext/oneret/oneret.ml" 117 4279 4318
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 117 4279 4290 "src/ext/oneret/oneret.ml" 117 4279 4318
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 118 4325 4335 "src/ext/oneret/oneret.ml" 118 4325 4338
+type(
+  Pretty.doc -> unit
+)
+ident(
+  ext_ref E.s
+)
+"src/ext/oneret/oneret.ml" 118 4325 4340 "src/ext/oneret/oneret.ml" 118 4325 4345
+type(
+  (string -> Pretty.doc, unit, Pretty.doc) format -> string -> Pretty.doc
+)
+ident(
+  ext_ref Cil.error
+)
+"src/ext/oneret/oneret.ml" 118 4325 4346 "src/ext/oneret/oneret.ml" 118 4325 4377
+type(
+  (string -> Pretty.doc, unit, Pretty.doc) format
+)
+"src/ext/oneret/oneret.ml" 118 4325 4378 "src/ext/oneret/oneret.ml" 118 4325 4383
+type(
+  string
+)
+ident(
+  int_ref fname "src/ext/oneret/oneret.ml" 51 2056 2062 "src/ext/oneret/oneret.ml" 51 2056 2067
+)
+"src/ext/oneret/oneret.ml" 118 4325 4339 "src/ext/oneret/oneret.ml" 118 4325 4384
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/oneret/oneret.ml" 118 4325 4335 "src/ext/oneret/oneret.ml" 118 4325 4384
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 117 4279 4287 "src/ext/oneret/oneret.ml" 118 4325 4384
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 121 4531 4539 "src/ext/oneret/oneret.ml" 121 4531 4540
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/oneret/oneret.ml" 106 3878 3884 "src/ext/oneret/oneret.ml" 106 3878 3917
+)
+"src/ext/oneret/oneret.ml" 122 4556 4573 "src/ext/oneret/oneret.ml" 122 4556 4579
+type(
+  Cil.exp option
+)
+ident(
+  int_ref retval "src/ext/oneret/oneret.ml" 106 3878 3900 "src/ext/oneret/oneret.ml" 106 3878 3906
+)
+"src/ext/oneret/oneret.ml" 123 4586 4604 "src/ext/oneret/oneret.ml" 123 4586 4608
+type(
+  Cil.exp
+)
+ident(
+  def rval "src/ext/oneret/oneret.ml" 123 4586 4612 "src/ext/oneret/oneret.ml" 123 4586 4664
+)
+"src/ext/oneret/oneret.ml" 123 4586 4599 "src/ext/oneret/oneret.ml" 123 4586 4608
+type(
+  Cil.exp option
+)
+"src/ext/oneret/oneret.ml" 123 4586 4629 "src/ext/oneret/oneret.ml" 123 4586 4638
+type(
+  unit -> Cil.varinfo
+)
+ident(
+  int_ref getRetVar "src/ext/oneret/oneret.ml" 65 2551 2557 "src/ext/oneret/oneret.ml" 65 2551 2566
+)
+"src/ext/oneret/oneret.ml" 123 4586 4639 "src/ext/oneret/oneret.ml" 123 4586 4641
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 123 4586 4628 "src/ext/oneret/oneret.ml" 123 4586 4642
+call(
+  stack
+)
+type(
+  Cil.varinfo
+)
+"src/ext/oneret/oneret.ml" 123 4586 4624 "src/ext/oneret/oneret.ml" 123 4586 4642
+type(
+  Cil.lhost
+)
+"src/ext/oneret/oneret.ml" 123 4586 4644 "src/ext/oneret/oneret.ml" 123 4586 4652
+type(
+  Cil.offset
+)
+"src/ext/oneret/oneret.ml" 123 4586 4623 "src/ext/oneret/oneret.ml" 123 4586 4653
+type(
+  Cil.lval
+)
+"src/ext/oneret/oneret.ml" 123 4586 4655 "src/ext/oneret/oneret.ml" 123 4586 4659
+type(
+  Cil.exp
+)
+ident(
+  int_ref rval "src/ext/oneret/oneret.ml" 123 4586 4604 "src/ext/oneret/oneret.ml" 123 4586 4608
+)
+"src/ext/oneret/oneret.ml" 123 4586 4661 "src/ext/oneret/oneret.ml" 123 4586 4662
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/oneret/oneret.ml" 106 3878 3908 "src/ext/oneret/oneret.ml" 106 3878 3909
+)
+"src/ext/oneret/oneret.ml" 123 4586 4619 "src/ext/oneret/oneret.ml" 123 4586 4663
+type(
+  Cil.instr
+)
+"src/ext/oneret/oneret.ml" 123 4586 4618 "src/ext/oneret/oneret.ml" 123 4586 4664
+type(
+  Cil.instr list
+)
+"src/ext/oneret/oneret.ml" 123 4586 4612 "src/ext/oneret/oneret.ml" 123 4586 4664
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 124 4665 4678 "src/ext/oneret/oneret.ml" 124 4665 4682
+type(
+  Cil.exp option
+)
+"src/ext/oneret/oneret.ml" 124 4665 4692 "src/ext/oneret/oneret.ml" 124 4665 4694
+type(
+  Cil.instr list
+)
+"src/ext/oneret/oneret.ml" 124 4665 4686 "src/ext/oneret/oneret.ml" 124 4665 4694
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 121 4531 4550 "src/ext/oneret/oneret.ml" 125 4695 4706
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 121 4531 4539 "src/ext/oneret/oneret.ml" 125 4695 4706
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 127 4768 4779 "src/ext/oneret/oneret.ml" 127 4768 4787
+type(
+  bool
+)
+ident(
+  int_ref mainbody "src/ext/oneret/oneret.ml" 92 3402 3423 "src/ext/oneret/oneret.ml" 92 3402 3431
+)
+"src/ext/oneret/oneret.ml" 127 4768 4788 "src/ext/oneret/oneret.ml" 127 4768 4790
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/oneret/oneret.ml" 127 4768 4791 "src/ext/oneret/oneret.ml" 127 4768 4796
+type(
+  Cil.stmt list
+)
+ident(
+  int_ref rests "src/ext/oneret/oneret.ml" 106 3878 3921 "src/ext/oneret/oneret.ml" 106 3878 3926
+)
+"src/ext/oneret/oneret.ml" 127 4768 4797 "src/ext/oneret/oneret.ml" 127 4768 4799
+type(
+  Cil.stmt list -> Cil.stmt list -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/ext/oneret/oneret.ml" 127 4768 4800 "src/ext/oneret/oneret.ml" 127 4768 4802
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 127 4768 4791 "src/ext/oneret/oneret.ml" 127 4768 4802
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 127 4768 4779 "src/ext/oneret/oneret.ml" 127 4768 4802
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 128 4808 4818 "src/ext/oneret/oneret.ml" 128 4808 4819
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/oneret/oneret.ml" 106 3878 3884 "src/ext/oneret/oneret.ml" 106 3878 3917
+)
+"src/ext/oneret/oneret.ml" 128 4808 4823 "src/ext/oneret/oneret.ml" 128 4808 4832
+type(
+  bool -> Cil.stmt list -> Cil.stmt list
+)
+ident(
+  int_ref scanStmts "src/ext/oneret/oneret.ml" 92 3402 3412 "src/ext/oneret/oneret.ml" 92 3402 3421
+)
+"src/ext/oneret/oneret.ml" 128 4808 4833 "src/ext/oneret/oneret.ml" 128 4808 4841
+type(
+  bool
+)
+ident(
+  int_ref mainbody "src/ext/oneret/oneret.ml" 92 3402 3423 "src/ext/oneret/oneret.ml" 92 3402 3431
+)
+"src/ext/oneret/oneret.ml" 128 4808 4842 "src/ext/oneret/oneret.ml" 128 4808 4847
+type(
+  Cil.stmt list
+)
+ident(
+  int_ref rests "src/ext/oneret/oneret.ml" 106 3878 3921 "src/ext/oneret/oneret.ml" 106 3878 3926
+)
+"src/ext/oneret/oneret.ml" 128 4808 4823 "src/ext/oneret/oneret.ml" 128 4808 4847
+call(
+  stack
+)
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 128 4808 4818 "src/ext/oneret/oneret.ml" 128 4808 4847
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 131 4894 4908 "src/ext/oneret/oneret.ml" 131 4894 4913
+type(
+  Cil.stmt ref
+)
+ident(
+  def sgref "src/ext/oneret/oneret.ml" 132 4939 4949 "src/ext/oneret/oneret.ml" 134 5014 5061
+)
+"src/ext/oneret/oneret.ml" 131 4894 4916 "src/ext/oneret/oneret.ml" 131 4894 4919
+type(
+  Cil.stmt -> Cil.stmt ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/oneret/oneret.ml" 131 4894 4921 "src/ext/oneret/oneret.ml" 131 4894 4931
+type(
+  unit -> Cil.stmt
+)
+ident(
+  int_ref getRetStmt "src/ext/oneret/oneret.ml" 78 2939 2945 "src/ext/oneret/oneret.ml" 78 2939 2955
+)
+"src/ext/oneret/oneret.ml" 131 4894 4932 "src/ext/oneret/oneret.ml" 131 4894 4934
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 131 4894 4920 "src/ext/oneret/oneret.ml" 131 4894 4935
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 131 4894 4916 "src/ext/oneret/oneret.ml" 131 4894 4935
+type(
+  Cil.stmt ref
+)
+"src/ext/oneret/oneret.ml" 132 4939 4953 "src/ext/oneret/oneret.ml" 132 4939 4955
+type(
+  Cil.stmt
+)
+ident(
+  def sg "src/ext/oneret/oneret.ml" 133 4986 4996 "src/ext/oneret/oneret.ml" 134 5014 5061
+)
+"src/ext/oneret/oneret.ml" 132 4939 4958 "src/ext/oneret/oneret.ml" 132 4939 4964
+type(
+  Cil.stmtkind -> Cil.stmt
+)
+ident(
+  ext_ref Cil.mkStmt
+)
+"src/ext/oneret/oneret.ml" 132 4939 4972 "src/ext/oneret/oneret.ml" 132 4939 4977
+type(
+  Cil.stmt ref
+)
+ident(
+  int_ref sgref "src/ext/oneret/oneret.ml" 131 4894 4908 "src/ext/oneret/oneret.ml" 131 4894 4913
+)
+"src/ext/oneret/oneret.ml" 132 4939 4979 "src/ext/oneret/oneret.ml" 132 4939 4980
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/oneret/oneret.ml" 106 3878 3908 "src/ext/oneret/oneret.ml" 106 3878 3909
+)
+"src/ext/oneret/oneret.ml" 132 4939 4965 "src/ext/oneret/oneret.ml" 132 4939 4982
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 132 4939 4958 "src/ext/oneret/oneret.ml" 132 4939 4982
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 133 4986 4996 "src/ext/oneret/oneret.ml" 133 4986 5004
+type(
+  bool ref
+)
+ident(
+  int_ref haveGoto "src/ext/oneret/oneret.ml" 75 2828 2834 "src/ext/oneret/oneret.ml" 75 2828 2842
+)
+"src/ext/oneret/oneret.ml" 133 4986 5005 "src/ext/oneret/oneret.ml" 133 4986 5007
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/oneret/oneret.ml" 133 4986 5008 "src/ext/oneret/oneret.ml" 133 4986 5012
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 133 4986 4996 "src/ext/oneret/oneret.ml" 133 4986 5012
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 134 5014 5024 "src/ext/oneret/oneret.ml" 134 5014 5025
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/oneret/oneret.ml" 106 3878 3884 "src/ext/oneret/oneret.ml" 106 3878 3917
+)
+"src/ext/oneret/oneret.ml" 134 5014 5029 "src/ext/oneret/oneret.ml" 134 5014 5031
+type(
+  Cil.stmt
+)
+ident(
+  int_ref sg "src/ext/oneret/oneret.ml" 132 4939 4953 "src/ext/oneret/oneret.ml" 132 4939 4955
+)
+"src/ext/oneret/oneret.ml" 134 5014 5036 "src/ext/oneret/oneret.ml" 134 5014 5045
+type(
+  bool -> Cil.stmt list -> Cil.stmt list
+)
+ident(
+  int_ref scanStmts "src/ext/oneret/oneret.ml" 92 3402 3412 "src/ext/oneret/oneret.ml" 92 3402 3421
+)
+"src/ext/oneret/oneret.ml" 134 5014 5046 "src/ext/oneret/oneret.ml" 134 5014 5054
+type(
+  bool
+)
+ident(
+  int_ref mainbody "src/ext/oneret/oneret.ml" 92 3402 3423 "src/ext/oneret/oneret.ml" 92 3402 3431
+)
+"src/ext/oneret/oneret.ml" 134 5014 5055 "src/ext/oneret/oneret.ml" 134 5014 5060
+type(
+  Cil.stmt list
+)
+ident(
+  int_ref rests "src/ext/oneret/oneret.ml" 106 3878 3921 "src/ext/oneret/oneret.ml" 106 3878 3926
+)
+"src/ext/oneret/oneret.ml" 134 5014 5035 "src/ext/oneret/oneret.ml" 134 5014 5061
+call(
+  stack
+)
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 134 5014 5029 "src/ext/oneret/oneret.ml" 134 5014 5061
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 134 5014 5024 "src/ext/oneret/oneret.ml" 134 5014 5061
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 133 4986 4996 "src/ext/oneret/oneret.ml" 134 5014 5061
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 132 4939 4949 "src/ext/oneret/oneret.ml" 134 5014 5061
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 129 4848 4861 "src/ext/oneret/oneret.ml" 135 5062 5073
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 127 4768 4776 "src/ext/oneret/oneret.ml" 135 5062 5073
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 121 4531 4539 "src/ext/oneret/oneret.ml" 135 5062 5073
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 117 4279 4287 "src/ext/oneret/oneret.ml" 135 5062 5073
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 115 4165 4173 "src/ext/oneret/oneret.ml" 135 5062 5073
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 107 3931 3939 "src/ext/oneret/oneret.ml" 135 5062 5073
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 137 5075 5092 "src/ext/oneret/oneret.ml" 137 5075 5094
+type(
+  Cil.exp
+)
+ident(
+  def eb "src/ext/oneret/oneret.ml" 138 5122 5130 "src/ext/oneret/oneret.ml" 140 5215 5252
+)
+"src/ext/oneret/oneret.ml" 137 5075 5095 "src/ext/oneret/oneret.ml" 137 5075 5096
+type(
+  Cil.block
+)
+ident(
+  def t "src/ext/oneret/oneret.ml" 138 5122 5130 "src/ext/oneret/oneret.ml" 140 5215 5252
+)
+"src/ext/oneret/oneret.ml" 137 5075 5097 "src/ext/oneret/oneret.ml" 137 5075 5098
+type(
+  Cil.block
+)
+ident(
+  def e "src/ext/oneret/oneret.ml" 138 5122 5130 "src/ext/oneret/oneret.ml" 140 5215 5252
+)
+"src/ext/oneret/oneret.ml" 137 5075 5099 "src/ext/oneret/oneret.ml" 137 5075 5100
+type(
+  Cil.location
+)
+ident(
+  def l "src/ext/oneret/oneret.ml" 138 5122 5130 "src/ext/oneret/oneret.ml" 140 5215 5252
+)
+"src/ext/oneret/oneret.ml" 137 5075 5089 "src/ext/oneret/oneret.ml" 137 5075 5101
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 137 5075 5082 "src/ext/oneret/oneret.ml" 137 5075 5102
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 137 5075 5106 "src/ext/oneret/oneret.ml" 137 5075 5107
+ident(
+  def s "src/ext/oneret/oneret.ml" 138 5122 5130 "src/ext/oneret/oneret.ml" 140 5215 5252
+)
+"src/ext/oneret/oneret.ml" 137 5075 5081 "src/ext/oneret/oneret.ml" 137 5075 5108
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 137 5075 5112 "src/ext/oneret/oneret.ml" 137 5075 5117
+type(
+  Cil.stmt list
+)
+ident(
+  def rests "src/ext/oneret/oneret.ml" 138 5122 5130 "src/ext/oneret/oneret.ml" 140 5215 5252
+)
+"src/ext/oneret/oneret.ml" 137 5075 5081 "src/ext/oneret/oneret.ml" 137 5075 5117
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 138 5122 5130 "src/ext/oneret/oneret.ml" 138 5122 5140
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/oneret/oneret.ml" 138 5122 5141 "src/ext/oneret/oneret.ml" 138 5122 5143
+type(
+  Cil.location ref -> Cil.location -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/oneret/oneret.ml" 138 5122 5144 "src/ext/oneret/oneret.ml" 138 5122 5145
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/oneret/oneret.ml" 137 5075 5099 "src/ext/oneret/oneret.ml" 137 5075 5100
+)
+"src/ext/oneret/oneret.ml" 138 5122 5130 "src/ext/oneret/oneret.ml" 138 5122 5145
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 139 5147 5155 "src/ext/oneret/oneret.ml" 139 5147 5156
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/oneret/oneret.ml" 137 5075 5081 "src/ext/oneret/oneret.ml" 137 5075 5108
+)
+"src/ext/oneret/oneret.ml" 139 5147 5169 "src/ext/oneret/oneret.ml" 139 5147 5171
+type(
+  Cil.exp
+)
+ident(
+  int_ref eb "src/ext/oneret/oneret.ml" 137 5075 5092 "src/ext/oneret/oneret.ml" 137 5075 5094
+)
+"src/ext/oneret/oneret.ml" 139 5147 5173 "src/ext/oneret/oneret.ml" 139 5147 5182
+type(
+  bool -> Cil.block -> Cil.block
+)
+ident(
+  int_ref scanBlock "src/ext/oneret/oneret.ml" 156 5902 5908 "src/ext/oneret/oneret.ml" 156 5902 5917
+)
+"src/ext/oneret/oneret.ml" 139 5147 5183 "src/ext/oneret/oneret.ml" 139 5147 5188
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 139 5147 5189 "src/ext/oneret/oneret.ml" 139 5147 5190
+type(
+  Cil.block
+)
+ident(
+  int_ref t "src/ext/oneret/oneret.ml" 137 5075 5095 "src/ext/oneret/oneret.ml" 137 5075 5096
+)
+"src/ext/oneret/oneret.ml" 139 5147 5173 "src/ext/oneret/oneret.ml" 139 5147 5190
+call(
+  stack
+)
+type(
+  Cil.block
+)
+"src/ext/oneret/oneret.ml" 139 5147 5192 "src/ext/oneret/oneret.ml" 139 5147 5201
+type(
+  bool -> Cil.block -> Cil.block
+)
+ident(
+  int_ref scanBlock "src/ext/oneret/oneret.ml" 156 5902 5908 "src/ext/oneret/oneret.ml" 156 5902 5917
+)
+"src/ext/oneret/oneret.ml" 139 5147 5202 "src/ext/oneret/oneret.ml" 139 5147 5207
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 139 5147 5208 "src/ext/oneret/oneret.ml" 139 5147 5209
+type(
+  Cil.block
+)
+ident(
+  int_ref e "src/ext/oneret/oneret.ml" 137 5075 5097 "src/ext/oneret/oneret.ml" 137 5075 5098
+)
+"src/ext/oneret/oneret.ml" 139 5147 5192 "src/ext/oneret/oneret.ml" 139 5147 5209
+call(
+  stack
+)
+type(
+  Cil.block
+)
+"src/ext/oneret/oneret.ml" 139 5147 5211 "src/ext/oneret/oneret.ml" 139 5147 5212
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/oneret/oneret.ml" 137 5075 5099 "src/ext/oneret/oneret.ml" 137 5075 5100
+)
+"src/ext/oneret/oneret.ml" 139 5147 5166 "src/ext/oneret/oneret.ml" 139 5147 5213
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 139 5147 5155 "src/ext/oneret/oneret.ml" 139 5147 5213
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 140 5215 5223 "src/ext/oneret/oneret.ml" 140 5215 5224
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/oneret/oneret.ml" 137 5075 5081 "src/ext/oneret/oneret.ml" 137 5075 5108
+)
+"src/ext/oneret/oneret.ml" 140 5215 5228 "src/ext/oneret/oneret.ml" 140 5215 5237
+type(
+  bool -> Cil.stmt list -> Cil.stmt list
+)
+ident(
+  int_ref scanStmts "src/ext/oneret/oneret.ml" 92 3402 3412 "src/ext/oneret/oneret.ml" 92 3402 3421
+)
+"src/ext/oneret/oneret.ml" 140 5215 5238 "src/ext/oneret/oneret.ml" 140 5215 5246
+type(
+  bool
+)
+ident(
+  int_ref mainbody "src/ext/oneret/oneret.ml" 92 3402 3423 "src/ext/oneret/oneret.ml" 92 3402 3431
+)
+"src/ext/oneret/oneret.ml" 140 5215 5247 "src/ext/oneret/oneret.ml" 140 5215 5252
+type(
+  Cil.stmt list
+)
+ident(
+  int_ref rests "src/ext/oneret/oneret.ml" 137 5075 5112 "src/ext/oneret/oneret.ml" 137 5075 5117
+)
+"src/ext/oneret/oneret.ml" 140 5215 5228 "src/ext/oneret/oneret.ml" 140 5215 5252
+call(
+  stack
+)
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 140 5215 5223 "src/ext/oneret/oneret.ml" 140 5215 5252
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 139 5147 5155 "src/ext/oneret/oneret.ml" 140 5215 5252
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 138 5122 5130 "src/ext/oneret/oneret.ml" 140 5215 5252
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 141 5253 5272 "src/ext/oneret/oneret.ml" 141 5253 5273
+type(
+  Cil.block
+)
+ident(
+  def b "src/ext/oneret/oneret.ml" 142 5305 5313 "src/ext/oneret/oneret.ml" 144 5385 5422
+)
+"src/ext/oneret/oneret.ml" 141 5253 5274 "src/ext/oneret/oneret.ml" 141 5253 5275
+type(
+  Cil.location
+)
+ident(
+  def l "src/ext/oneret/oneret.ml" 142 5305 5313 "src/ext/oneret/oneret.ml" 144 5385 5422
+)
+"src/ext/oneret/oneret.ml" 141 5253 5276 "src/ext/oneret/oneret.ml" 141 5253 5279
+type(
+  Cil.stmt option
+)
+ident(
+  def lb1 "src/ext/oneret/oneret.ml" 142 5305 5313 "src/ext/oneret/oneret.ml" 144 5385 5422
+)
+"src/ext/oneret/oneret.ml" 141 5253 5280 "src/ext/oneret/oneret.ml" 141 5253 5283
+type(
+  Cil.stmt option
+)
+ident(
+  def lb2 "src/ext/oneret/oneret.ml" 142 5305 5313 "src/ext/oneret/oneret.ml" 144 5385 5422
+)
+"src/ext/oneret/oneret.ml" 141 5253 5267 "src/ext/oneret/oneret.ml" 141 5253 5284
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 141 5253 5260 "src/ext/oneret/oneret.ml" 141 5253 5285
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 141 5253 5289 "src/ext/oneret/oneret.ml" 141 5253 5290
+ident(
+  def s "src/ext/oneret/oneret.ml" 142 5305 5313 "src/ext/oneret/oneret.ml" 144 5385 5422
+)
+"src/ext/oneret/oneret.ml" 141 5253 5259 "src/ext/oneret/oneret.ml" 141 5253 5291
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 141 5253 5295 "src/ext/oneret/oneret.ml" 141 5253 5300
+type(
+  Cil.stmt list
+)
+ident(
+  def rests "src/ext/oneret/oneret.ml" 142 5305 5313 "src/ext/oneret/oneret.ml" 144 5385 5422
+)
+"src/ext/oneret/oneret.ml" 141 5253 5259 "src/ext/oneret/oneret.ml" 141 5253 5300
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 142 5305 5313 "src/ext/oneret/oneret.ml" 142 5305 5323
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/oneret/oneret.ml" 142 5305 5324 "src/ext/oneret/oneret.ml" 142 5305 5326
+type(
+  Cil.location ref -> Cil.location -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/oneret/oneret.ml" 142 5305 5327 "src/ext/oneret/oneret.ml" 142 5305 5328
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/oneret/oneret.ml" 141 5253 5274 "src/ext/oneret/oneret.ml" 141 5253 5275
+)
+"src/ext/oneret/oneret.ml" 142 5305 5313 "src/ext/oneret/oneret.ml" 142 5305 5328
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 143 5330 5338 "src/ext/oneret/oneret.ml" 143 5330 5339
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/oneret/oneret.ml" 141 5253 5259 "src/ext/oneret/oneret.ml" 141 5253 5291
+)
+"src/ext/oneret/oneret.ml" 143 5330 5354 "src/ext/oneret/oneret.ml" 143 5330 5363
+type(
+  bool -> Cil.block -> Cil.block
+)
+ident(
+  int_ref scanBlock "src/ext/oneret/oneret.ml" 156 5902 5908 "src/ext/oneret/oneret.ml" 156 5902 5917
+)
+"src/ext/oneret/oneret.ml" 143 5330 5364 "src/ext/oneret/oneret.ml" 143 5330 5369
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 143 5330 5370 "src/ext/oneret/oneret.ml" 143 5330 5371
+type(
+  Cil.block
+)
+ident(
+  int_ref b "src/ext/oneret/oneret.ml" 141 5253 5272 "src/ext/oneret/oneret.ml" 141 5253 5273
+)
+"src/ext/oneret/oneret.ml" 143 5330 5354 "src/ext/oneret/oneret.ml" 143 5330 5371
+call(
+  stack
+)
+type(
+  Cil.block
+)
+"src/ext/oneret/oneret.ml" 143 5330 5373 "src/ext/oneret/oneret.ml" 143 5330 5374
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/oneret/oneret.ml" 141 5253 5274 "src/ext/oneret/oneret.ml" 141 5253 5275
+)
+"src/ext/oneret/oneret.ml" 143 5330 5375 "src/ext/oneret/oneret.ml" 143 5330 5378
+type(
+  Cil.stmt option
+)
+ident(
+  int_ref lb1 "src/ext/oneret/oneret.ml" 141 5253 5276 "src/ext/oneret/oneret.ml" 141 5253 5279
+)
+"src/ext/oneret/oneret.ml" 143 5330 5379 "src/ext/oneret/oneret.ml" 143 5330 5382
+type(
+  Cil.stmt option
+)
+ident(
+  int_ref lb2 "src/ext/oneret/oneret.ml" 141 5253 5280 "src/ext/oneret/oneret.ml" 141 5253 5283
+)
+"src/ext/oneret/oneret.ml" 143 5330 5349 "src/ext/oneret/oneret.ml" 143 5330 5383
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 143 5330 5338 "src/ext/oneret/oneret.ml" 143 5330 5383
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 144 5385 5393 "src/ext/oneret/oneret.ml" 144 5385 5394
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/oneret/oneret.ml" 141 5253 5259 "src/ext/oneret/oneret.ml" 141 5253 5291
+)
+"src/ext/oneret/oneret.ml" 144 5385 5398 "src/ext/oneret/oneret.ml" 144 5385 5407
+type(
+  bool -> Cil.stmt list -> Cil.stmt list
+)
+ident(
+  int_ref scanStmts "src/ext/oneret/oneret.ml" 92 3402 3412 "src/ext/oneret/oneret.ml" 92 3402 3421
+)
+"src/ext/oneret/oneret.ml" 144 5385 5408 "src/ext/oneret/oneret.ml" 144 5385 5416
+type(
+  bool
+)
+ident(
+  int_ref mainbody "src/ext/oneret/oneret.ml" 92 3402 3423 "src/ext/oneret/oneret.ml" 92 3402 3431
+)
+"src/ext/oneret/oneret.ml" 144 5385 5417 "src/ext/oneret/oneret.ml" 144 5385 5422
+type(
+  Cil.stmt list
+)
+ident(
+  int_ref rests "src/ext/oneret/oneret.ml" 141 5253 5295 "src/ext/oneret/oneret.ml" 141 5253 5300
+)
+"src/ext/oneret/oneret.ml" 144 5385 5398 "src/ext/oneret/oneret.ml" 144 5385 5422
+call(
+  stack
+)
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 144 5385 5393 "src/ext/oneret/oneret.ml" 144 5385 5422
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 143 5330 5338 "src/ext/oneret/oneret.ml" 144 5385 5422
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 142 5305 5313 "src/ext/oneret/oneret.ml" 144 5385 5422
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 145 5423 5444 "src/ext/oneret/oneret.ml" 145 5423 5445
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/oneret/oneret.ml" 146 5480 5488 "src/ext/oneret/oneret.ml" 148 5564 5601
+)
+"src/ext/oneret/oneret.ml" 145 5423 5447 "src/ext/oneret/oneret.ml" 145 5423 5448
+type(
+  Cil.block
+)
+ident(
+  def b "src/ext/oneret/oneret.ml" 146 5480 5488 "src/ext/oneret/oneret.ml" 148 5564 5601
+)
+"src/ext/oneret/oneret.ml" 145 5423 5450 "src/ext/oneret/oneret.ml" 145 5423 5455
+type(
+  Cil.stmt list
+)
+ident(
+  def cases "src/ext/oneret/oneret.ml" 146 5480 5488 "src/ext/oneret/oneret.ml" 148 5564 5601
+)
+"src/ext/oneret/oneret.ml" 145 5423 5457 "src/ext/oneret/oneret.ml" 145 5423 5458
+type(
+  Cil.location
+)
+ident(
+  def l "src/ext/oneret/oneret.ml" 146 5480 5488 "src/ext/oneret/oneret.ml" 148 5564 5601
+)
+"src/ext/oneret/oneret.ml" 145 5423 5437 "src/ext/oneret/oneret.ml" 145 5423 5459
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 145 5423 5430 "src/ext/oneret/oneret.ml" 145 5423 5460
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 145 5423 5464 "src/ext/oneret/oneret.ml" 145 5423 5465
+ident(
+  def s "src/ext/oneret/oneret.ml" 146 5480 5488 "src/ext/oneret/oneret.ml" 148 5564 5601
+)
+"src/ext/oneret/oneret.ml" 145 5423 5429 "src/ext/oneret/oneret.ml" 145 5423 5466
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 145 5423 5470 "src/ext/oneret/oneret.ml" 145 5423 5475
+type(
+  Cil.stmt list
+)
+ident(
+  def rests "src/ext/oneret/oneret.ml" 146 5480 5488 "src/ext/oneret/oneret.ml" 148 5564 5601
+)
+"src/ext/oneret/oneret.ml" 145 5423 5429 "src/ext/oneret/oneret.ml" 145 5423 5475
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 146 5480 5488 "src/ext/oneret/oneret.ml" 146 5480 5498
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/oneret/oneret.ml" 146 5480 5499 "src/ext/oneret/oneret.ml" 146 5480 5501
+type(
+  Cil.location ref -> Cil.location -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/oneret/oneret.ml" 146 5480 5502 "src/ext/oneret/oneret.ml" 146 5480 5503
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/oneret/oneret.ml" 145 5423 5457 "src/ext/oneret/oneret.ml" 145 5423 5458
+)
+"src/ext/oneret/oneret.ml" 146 5480 5488 "src/ext/oneret/oneret.ml" 146 5480 5503
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 147 5505 5513 "src/ext/oneret/oneret.ml" 147 5505 5514
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/oneret/oneret.ml" 145 5423 5429 "src/ext/oneret/oneret.ml" 145 5423 5466
+)
+"src/ext/oneret/oneret.ml" 147 5505 5531 "src/ext/oneret/oneret.ml" 147 5505 5532
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/oneret/oneret.ml" 145 5423 5444 "src/ext/oneret/oneret.ml" 145 5423 5445
+)
+"src/ext/oneret/oneret.ml" 147 5505 5534 "src/ext/oneret/oneret.ml" 147 5505 5543
+type(
+  bool -> Cil.block -> Cil.block
+)
+ident(
+  int_ref scanBlock "src/ext/oneret/oneret.ml" 156 5902 5908 "src/ext/oneret/oneret.ml" 156 5902 5917
+)
+"src/ext/oneret/oneret.ml" 147 5505 5544 "src/ext/oneret/oneret.ml" 147 5505 5549
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 147 5505 5550 "src/ext/oneret/oneret.ml" 147 5505 5551
+type(
+  Cil.block
+)
+ident(
+  int_ref b "src/ext/oneret/oneret.ml" 145 5423 5447 "src/ext/oneret/oneret.ml" 145 5423 5448
+)
+"src/ext/oneret/oneret.ml" 147 5505 5534 "src/ext/oneret/oneret.ml" 147 5505 5551
+call(
+  stack
+)
+type(
+  Cil.block
+)
+"src/ext/oneret/oneret.ml" 147 5505 5553 "src/ext/oneret/oneret.ml" 147 5505 5558
+type(
+  Cil.stmt list
+)
+ident(
+  int_ref cases "src/ext/oneret/oneret.ml" 145 5423 5450 "src/ext/oneret/oneret.ml" 145 5423 5455
+)
+"src/ext/oneret/oneret.ml" 147 5505 5560 "src/ext/oneret/oneret.ml" 147 5505 5561
+type(
+  Cil.location
+)
+ident(
+  int_ref l "src/ext/oneret/oneret.ml" 145 5423 5457 "src/ext/oneret/oneret.ml" 145 5423 5458
+)
+"src/ext/oneret/oneret.ml" 147 5505 5524 "src/ext/oneret/oneret.ml" 147 5505 5562
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 147 5505 5513 "src/ext/oneret/oneret.ml" 147 5505 5562
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 148 5564 5572 "src/ext/oneret/oneret.ml" 148 5564 5573
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/oneret/oneret.ml" 145 5423 5429 "src/ext/oneret/oneret.ml" 145 5423 5466
+)
+"src/ext/oneret/oneret.ml" 148 5564 5577 "src/ext/oneret/oneret.ml" 148 5564 5586
+type(
+  bool -> Cil.stmt list -> Cil.stmt list
+)
+ident(
+  int_ref scanStmts "src/ext/oneret/oneret.ml" 92 3402 3412 "src/ext/oneret/oneret.ml" 92 3402 3421
+)
+"src/ext/oneret/oneret.ml" 148 5564 5587 "src/ext/oneret/oneret.ml" 148 5564 5595
+type(
+  bool
+)
+ident(
+  int_ref mainbody "src/ext/oneret/oneret.ml" 92 3402 3423 "src/ext/oneret/oneret.ml" 92 3402 3431
+)
+"src/ext/oneret/oneret.ml" 148 5564 5596 "src/ext/oneret/oneret.ml" 148 5564 5601
+type(
+  Cil.stmt list
+)
+ident(
+  int_ref rests "src/ext/oneret/oneret.ml" 145 5423 5470 "src/ext/oneret/oneret.ml" 145 5423 5475
+)
+"src/ext/oneret/oneret.ml" 148 5564 5577 "src/ext/oneret/oneret.ml" 148 5564 5601
+call(
+  stack
+)
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 148 5564 5572 "src/ext/oneret/oneret.ml" 148 5564 5601
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 147 5505 5513 "src/ext/oneret/oneret.ml" 148 5564 5601
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 146 5480 5488 "src/ext/oneret/oneret.ml" 148 5564 5601
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 149 5602 5622 "src/ext/oneret/oneret.ml" 149 5602 5623
+type(
+  Cil.block
+)
+ident(
+  def b "src/ext/oneret/oneret.ml" 150 5644 5652 "src/ext/oneret/oneret.ml" 151 5690 5727
+)
+"src/ext/oneret/oneret.ml" 149 5602 5616 "src/ext/oneret/oneret.ml" 149 5602 5623
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 149 5602 5609 "src/ext/oneret/oneret.ml" 149 5602 5624
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 149 5602 5628 "src/ext/oneret/oneret.ml" 149 5602 5629
+ident(
+  def s "src/ext/oneret/oneret.ml" 150 5644 5652 "src/ext/oneret/oneret.ml" 151 5690 5727
+)
+"src/ext/oneret/oneret.ml" 149 5602 5608 "src/ext/oneret/oneret.ml" 149 5602 5630
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 149 5602 5634 "src/ext/oneret/oneret.ml" 149 5602 5639
+type(
+  Cil.stmt list
+)
+ident(
+  def rests "src/ext/oneret/oneret.ml" 150 5644 5652 "src/ext/oneret/oneret.ml" 151 5690 5727
+)
+"src/ext/oneret/oneret.ml" 149 5602 5608 "src/ext/oneret/oneret.ml" 149 5602 5639
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 150 5644 5652 "src/ext/oneret/oneret.ml" 150 5644 5653
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/oneret/oneret.ml" 149 5602 5608 "src/ext/oneret/oneret.ml" 149 5602 5630
+)
+"src/ext/oneret/oneret.ml" 150 5644 5670 "src/ext/oneret/oneret.ml" 150 5644 5679
+type(
+  bool -> Cil.block -> Cil.block
+)
+ident(
+  int_ref scanBlock "src/ext/oneret/oneret.ml" 156 5902 5908 "src/ext/oneret/oneret.ml" 156 5902 5917
+)
+"src/ext/oneret/oneret.ml" 150 5644 5680 "src/ext/oneret/oneret.ml" 150 5644 5685
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 150 5644 5686 "src/ext/oneret/oneret.ml" 150 5644 5687
+type(
+  Cil.block
+)
+ident(
+  int_ref b "src/ext/oneret/oneret.ml" 149 5602 5622 "src/ext/oneret/oneret.ml" 149 5602 5623
+)
+"src/ext/oneret/oneret.ml" 150 5644 5669 "src/ext/oneret/oneret.ml" 150 5644 5688
+call(
+  stack
+)
+type(
+  Cil.block
+)
+"src/ext/oneret/oneret.ml" 150 5644 5663 "src/ext/oneret/oneret.ml" 150 5644 5688
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 150 5644 5652 "src/ext/oneret/oneret.ml" 150 5644 5688
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 151 5690 5698 "src/ext/oneret/oneret.ml" 151 5690 5699
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/oneret/oneret.ml" 149 5602 5608 "src/ext/oneret/oneret.ml" 149 5602 5630
+)
+"src/ext/oneret/oneret.ml" 151 5690 5703 "src/ext/oneret/oneret.ml" 151 5690 5712
+type(
+  bool -> Cil.stmt list -> Cil.stmt list
+)
+ident(
+  int_ref scanStmts "src/ext/oneret/oneret.ml" 92 3402 3412 "src/ext/oneret/oneret.ml" 92 3402 3421
+)
+"src/ext/oneret/oneret.ml" 151 5690 5713 "src/ext/oneret/oneret.ml" 151 5690 5721
+type(
+  bool
+)
+ident(
+  int_ref mainbody "src/ext/oneret/oneret.ml" 92 3402 3423 "src/ext/oneret/oneret.ml" 92 3402 3431
+)
+"src/ext/oneret/oneret.ml" 151 5690 5722 "src/ext/oneret/oneret.ml" 151 5690 5727
+type(
+  Cil.stmt list
+)
+ident(
+  int_ref rests "src/ext/oneret/oneret.ml" 149 5602 5634 "src/ext/oneret/oneret.ml" 149 5602 5639
+)
+"src/ext/oneret/oneret.ml" 151 5690 5703 "src/ext/oneret/oneret.ml" 151 5690 5727
+call(
+  stack
+)
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 151 5690 5698 "src/ext/oneret/oneret.ml" 151 5690 5727
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 150 5644 5652 "src/ext/oneret/oneret.ml" 151 5690 5727
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 152 5728 5748 "src/ext/oneret/oneret.ml" 152 5728 5749
+type(
+  Cil.location
+)
+type(
+  Cil.stmt ref
+)
+"src/ext/oneret/oneret.ml" 152 5728 5743 "src/ext/oneret/oneret.ml" 152 5728 5749
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 152 5728 5765 "src/ext/oneret/oneret.ml" 152 5728 5766
+type(
+  Cil.location
+)
+type(
+  Cil.exp
+)
+"src/ext/oneret/oneret.ml" 152 5728 5752 "src/ext/oneret/oneret.ml" 152 5728 5766
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 152 5728 5743 "src/ext/oneret/oneret.ml" 152 5728 5766
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 152 5728 5775 "src/ext/oneret/oneret.ml" 152 5728 5776
+type(
+  Cil.instr list
+)
+"src/ext/oneret/oneret.ml" 152 5728 5769 "src/ext/oneret/oneret.ml" 152 5728 5776
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 152 5728 5743 "src/ext/oneret/oneret.ml" 152 5728 5776
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 152 5728 5788 "src/ext/oneret/oneret.ml" 152 5728 5789
+type(
+  Cil.location
+)
+"src/ext/oneret/oneret.ml" 152 5728 5779 "src/ext/oneret/oneret.ml" 152 5728 5789
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 152 5728 5743 "src/ext/oneret/oneret.ml" 152 5728 5789
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 152 5728 5798 "src/ext/oneret/oneret.ml" 152 5728 5799
+type(
+  Cil.location
+)
+"src/ext/oneret/oneret.ml" 152 5728 5792 "src/ext/oneret/oneret.ml" 152 5728 5799
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 152 5728 5743 "src/ext/oneret/oneret.ml" 152 5728 5799
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 153 5801 5828 "src/ext/oneret/oneret.ml" 153 5801 5829
+type(
+  Cil.location
+)
+type(
+  Cil.block
+)
+type(
+  Cil.instr list * Cil.exp
+)
+type(
+  Cil.block
+)
+"src/ext/oneret/oneret.ml" 153 5801 5818 "src/ext/oneret/oneret.ml" 153 5801 5829
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 152 5728 5743 "src/ext/oneret/oneret.ml" 153 5801 5829
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 153 5801 5843 "src/ext/oneret/oneret.ml" 153 5801 5844
+type(
+  Cil.location
+)
+type(
+  Cil.block
+)
+type(
+  Cil.block
+)
+"src/ext/oneret/oneret.ml" 153 5801 5832 "src/ext/oneret/oneret.ml" 153 5801 5844
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 152 5728 5742 "src/ext/oneret/oneret.ml" 153 5801 5845
+type(
+  Cil.stmtkind
+)
+"src/ext/oneret/oneret.ml" 152 5728 5735 "src/ext/oneret/oneret.ml" 153 5801 5846
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 153 5801 5850 "src/ext/oneret/oneret.ml" 153 5801 5851
+ident(
+  def s "src/ext/oneret/oneret.ml" 154 5853 5871 "src/ext/oneret/oneret.ml" 154 5853 5900
+)
+"src/ext/oneret/oneret.ml" 152 5728 5734 "src/ext/oneret/oneret.ml" 153 5801 5852
+type(
+  Cil.stmt
+)
+"src/ext/oneret/oneret.ml" 154 5853 5862 "src/ext/oneret/oneret.ml" 154 5853 5867
+type(
+  Cil.stmt list
+)
+ident(
+  def rests "src/ext/oneret/oneret.ml" 154 5853 5871 "src/ext/oneret/oneret.ml" 154 5853 5900
+)
+"src/ext/oneret/oneret.ml" 152 5728 5734 "src/ext/oneret/oneret.ml" 154 5853 5867
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 154 5853 5871 "src/ext/oneret/oneret.ml" 154 5853 5872
+type(
+  Cil.stmt
+)
+ident(
+  int_ref s "src/ext/oneret/oneret.ml" 152 5728 5734 "src/ext/oneret/oneret.ml" 153 5801 5852
+)
+"src/ext/oneret/oneret.ml" 154 5853 5876 "src/ext/oneret/oneret.ml" 154 5853 5885
+type(
+  bool -> Cil.stmt list -> Cil.stmt list
+)
+ident(
+  int_ref scanStmts "src/ext/oneret/oneret.ml" 92 3402 3412 "src/ext/oneret/oneret.ml" 92 3402 3421
+)
+"src/ext/oneret/oneret.ml" 154 5853 5886 "src/ext/oneret/oneret.ml" 154 5853 5894
+type(
+  bool
+)
+ident(
+  int_ref mainbody "src/ext/oneret/oneret.ml" 92 3402 3423 "src/ext/oneret/oneret.ml" 92 3402 3431
+)
+"src/ext/oneret/oneret.ml" 154 5853 5895 "src/ext/oneret/oneret.ml" 154 5853 5900
+type(
+  Cil.stmt list
+)
+ident(
+  int_ref rests "src/ext/oneret/oneret.ml" 154 5853 5862 "src/ext/oneret/oneret.ml" 154 5853 5867
+)
+"src/ext/oneret/oneret.ml" 154 5853 5876 "src/ext/oneret/oneret.ml" 154 5853 5900
+call(
+  stack
+)
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 154 5853 5871 "src/ext/oneret/oneret.ml" 154 5853 5900
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 92 3402 3441 "src/ext/oneret/oneret.ml" 154 5853 5900
+type(
+  Cil.stmt list -> Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 156 5902 5908 "src/ext/oneret/oneret.ml" 156 5902 5917
+type(
+  bool -> Cil.block -> Cil.block
+)
+ident(
+  def scanBlock "src/ext/oneret/oneret.ml" 92 3402 3404 "src/ext/oneret/oneret.ml" 162 6154 6189
+)
+"src/ext/oneret/oneret.ml" 156 5902 5919 "src/ext/oneret/oneret.ml" 156 5902 5927
+type(
+  bool
+)
+ident(
+  def mainbody "src/ext/oneret/oneret.ml" 156 5902 5935 "src/ext/oneret/oneret.ml" 157 5949 6013
+)
+"src/ext/oneret/oneret.ml" 156 5902 5936 "src/ext/oneret/oneret.ml" 156 5902 5937
+type(
+  Cil.block
+)
+ident(
+  def b "src/ext/oneret/oneret.ml" 157 5949 5953 "src/ext/oneret/oneret.ml" 157 5949 6013
+)
+"src/ext/oneret/oneret.ml" 157 5949 5964 "src/ext/oneret/oneret.ml" 157 5949 5973
+type(
+  bool -> Cil.stmt list -> Cil.stmt list
+)
+ident(
+  int_ref scanStmts "src/ext/oneret/oneret.ml" 92 3402 3412 "src/ext/oneret/oneret.ml" 92 3402 3421
+)
+"src/ext/oneret/oneret.ml" 157 5949 5974 "src/ext/oneret/oneret.ml" 157 5949 5982
+type(
+  bool
+)
+ident(
+  int_ref mainbody "src/ext/oneret/oneret.ml" 156 5902 5919 "src/ext/oneret/oneret.ml" 156 5902 5927
+)
+"src/ext/oneret/oneret.ml" 157 5949 5983 "src/ext/oneret/oneret.ml" 157 5949 5984
+type(
+  Cil.block
+)
+ident(
+  int_ref b "src/ext/oneret/oneret.ml" 156 5902 5936 "src/ext/oneret/oneret.ml" 156 5902 5937
+)
+"src/ext/oneret/oneret.ml" 157 5949 5983 "src/ext/oneret/oneret.ml" 157 5949 5991
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 157 5949 5964 "src/ext/oneret/oneret.ml" 157 5949 5991
+call(
+  stack
+)
+type(
+  Cil.stmt list
+)
+"src/ext/oneret/oneret.ml" 157 5949 6002 "src/ext/oneret/oneret.ml" 157 5949 6003
+type(
+  Cil.block
+)
+ident(
+  int_ref b "src/ext/oneret/oneret.ml" 156 5902 5936 "src/ext/oneret/oneret.ml" 156 5902 5937
+)
+"src/ext/oneret/oneret.ml" 157 5949 6002 "src/ext/oneret/oneret.ml" 157 5949 6010
+type(
+  Cil.attributes
+)
+"src/ext/oneret/oneret.ml" 157 5949 5953 "src/ext/oneret/oneret.ml" 157 5949 6013
+type(
+  Cil.block
+)
+"src/ext/oneret/oneret.ml" 160 6020 6022 "src/ext/oneret/oneret.ml" 160 6020 6028
+type(
+  Cil.block -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/oneret/oneret.ml" 160 6020 6030 "src/ext/oneret/oneret.ml" 160 6020 6043
+type(
+  Cil.cilVisitor -> Cil.block -> Cil.block
+)
+ident(
+  ext_ref Cil.visitCilBlock
+)
+"src/ext/oneret/oneret.ml" 160 6020 6044 "src/ext/oneret/oneret.ml" 160 6020 6056
+type(
+  Cil.nopCilVisitor
+)
+ident(
+  int_ref dummyVisitor "src/ext/oneret/oneret.ml" 48 1981 1985 "src/ext/oneret/oneret.ml" 48 1981 1997
+)
+"src/ext/oneret/oneret.ml" 160 6020 6057 "src/ext/oneret/oneret.ml" 160 6020 6058
+type(
+  Cil.fundec
+)
+ident(
+  int_ref f "src/ext/oneret/oneret.ml" 50 2019 2031 "src/ext/oneret/oneret.ml" 50 2019 2032
+)
+"src/ext/oneret/oneret.ml" 160 6020 6057 "src/ext/oneret/oneret.ml" 160 6020 6064
+type(
+  Cil.block
+)
+"src/ext/oneret/oneret.ml" 160 6020 6029 "src/ext/oneret/oneret.ml" 160 6020 6065
+call(
+  stack
+)
+type(
+  Cil.block
+)
+"src/ext/oneret/oneret.ml" 160 6020 6022 "src/ext/oneret/oneret.ml" 160 6020 6065
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 161 6090 6092 "src/ext/oneret/oneret.ml" 161 6090 6099
+type(
+  Cil.location ref
+)
+ident(
+  int_ref lastloc "src/ext/oneret/oneret.ml" 63 2468 2474 "src/ext/oneret/oneret.ml" 63 2468 2481
+)
+"src/ext/oneret/oneret.ml" 161 6090 6100 "src/ext/oneret/oneret.ml" 161 6090 6102
+type(
+  Cil.location ref -> Cil.location -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/oneret/oneret.ml" 161 6090 6103 "src/ext/oneret/oneret.ml" 161 6090 6104
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/oneret/oneret.ml" 161 6090 6104 "src/ext/oneret/oneret.ml" 161 6090 6114
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/oneret/oneret.ml" 161 6090 6103 "src/ext/oneret/oneret.ml" 161 6090 6114
+type(
+  Cil.location
+)
+"src/ext/oneret/oneret.ml" 161 6090 6092 "src/ext/oneret/oneret.ml" 161 6090 6114
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 162 6154 6156 "src/ext/oneret/oneret.ml" 162 6154 6157
+type(
+  Cil.fundec
+)
+ident(
+  int_ref f "src/ext/oneret/oneret.ml" 50 2019 2031 "src/ext/oneret/oneret.ml" 50 2019 2032
+)
+"src/ext/oneret/oneret.ml" 162 6154 6167 "src/ext/oneret/oneret.ml" 162 6154 6176
+type(
+  bool -> Cil.block -> Cil.block
+)
+ident(
+  int_ref scanBlock "src/ext/oneret/oneret.ml" 156 5902 5908 "src/ext/oneret/oneret.ml" 156 5902 5917
+)
+"src/ext/oneret/oneret.ml" 162 6154 6177 "src/ext/oneret/oneret.ml" 162 6154 6181
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 162 6154 6182 "src/ext/oneret/oneret.ml" 162 6154 6183
+type(
+  Cil.fundec
+)
+ident(
+  int_ref f "src/ext/oneret/oneret.ml" 50 2019 2031 "src/ext/oneret/oneret.ml" 50 2019 2032
+)
+"src/ext/oneret/oneret.ml" 162 6154 6182 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  Cil.block
+)
+"src/ext/oneret/oneret.ml" 162 6154 6167 "src/ext/oneret/oneret.ml" 162 6154 6189
+call(
+  stack
+)
+type(
+  Cil.block
+)
+"src/ext/oneret/oneret.ml" 162 6154 6156 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 161 6090 6092 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 160 6020 6022 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 92 3402 3404 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 78 2939 2941 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 77 2895 2897 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 75 2828 2830 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 65 2551 2553 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 64 2503 2505 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 63 2468 2470 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 60 2328 2330 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 53 2114 2116 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 51 2056 2058 "src/ext/oneret/oneret.ml" 162 6154 6189
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 165 6206 6210 "src/ext/oneret/oneret.ml" 165 6206 6217
+type(
+  Feature.t
+)
+ident(
+  def feature "src/ext/oneret/oneret.ml" 177 6541 6541 "src/ext/oneret/oneret.ml" 1 0 -1
+)
+"src/ext/oneret/oneret.ml" 166 6221 6235 "src/ext/oneret/oneret.ml" 166 6221 6243
+type(
+  string
+)
+"src/ext/oneret/oneret.ml" 167 6245 6262 "src/ext/oneret/oneret.ml" 167 6245 6267
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 168 6269 6290 "src/ext/oneret/oneret.ml" 168 6269 6336
+type(
+  string
+)
+"src/ext/oneret/oneret.ml" 169 6339 6357 "src/ext/oneret/oneret.ml" 169 6339 6359
+type(
+  (string * Arg.spec * string) list
+)
+"src/ext/oneret/oneret.ml" 170 6361 6386 "src/ext/oneret/oneret.ml" 170 6361 6387
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/oneret/oneret.ml" 171 6399 6405 "src/ext/oneret/oneret.ml" 173 6490 6506
+)
+"src/ext/oneret/oneret.ml" 171 6399 6405 "src/ext/oneret/oneret.ml" 171 6399 6420
+type(
+  Cil.file -> (Cil.global -> unit) -> unit
+)
+ident(
+  ext_ref Cil.iterGlobals
+)
+"src/ext/oneret/oneret.ml" 171 6399 6421 "src/ext/oneret/oneret.ml" 171 6399 6422
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/oneret/oneret.ml" 170 6361 6386 "src/ext/oneret/oneret.ml" 170 6361 6387
+)
+"src/ext/oneret/oneret.ml" 171 6399 6428 "src/ext/oneret/oneret.ml" 171 6399 6432
+type(
+  Cil.global
+)
+ident(
+  def glob "src/ext/oneret/oneret.ml" 171 6399 6436 "src/ext/oneret/oneret.ml" 173 6490 6505
+)
+"src/ext/oneret/oneret.ml" 171 6399 6442 "src/ext/oneret/oneret.ml" 171 6399 6446
+type(
+  Cil.global
+)
+ident(
+  int_ref glob "src/ext/oneret/oneret.ml" 171 6399 6428 "src/ext/oneret/oneret.ml" 171 6399 6432
+)
+"src/ext/oneret/oneret.ml" 172 6452 6469 "src/ext/oneret/oneret.ml" 172 6452 6471
+type(
+  Cil.fundec
+)
+ident(
+  def fd "src/ext/oneret/oneret.ml" 172 6452 6478 "src/ext/oneret/oneret.ml" 172 6452 6488
+)
+"src/ext/oneret/oneret.ml" 172 6452 6472 "src/ext/oneret/oneret.ml" 172 6452 6473
+type(
+  Cil.location
+)
+"src/ext/oneret/oneret.ml" 172 6452 6460 "src/ext/oneret/oneret.ml" 172 6452 6474
+type(
+  Cil.global
+)
+"src/ext/oneret/oneret.ml" 172 6452 6478 "src/ext/oneret/oneret.ml" 172 6452 6484
+type(
+  Cil.fundec -> unit
+)
+ident(
+  int_ref oneret "src/ext/oneret/oneret.ml" 50 2019 2023 "src/ext/oneret/oneret.ml" 50 2019 2029
+)
+"src/ext/oneret/oneret.ml" 172 6452 6485 "src/ext/oneret/oneret.ml" 172 6452 6487
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/oneret/oneret.ml" 172 6452 6469 "src/ext/oneret/oneret.ml" 172 6452 6471
+)
+"src/ext/oneret/oneret.ml" 172 6452 6478 "src/ext/oneret/oneret.ml" 172 6452 6488
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 173 6490 6498 "src/ext/oneret/oneret.ml" 173 6490 6499
+type(
+  Cil.global
+)
+"src/ext/oneret/oneret.ml" 173 6490 6503 "src/ext/oneret/oneret.ml" 173 6490 6505
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 171 6399 6436 "src/ext/oneret/oneret.ml" 173 6490 6505
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 171 6399 6423 "src/ext/oneret/oneret.ml" 173 6490 6506
+type(
+  Cil.global -> unit
+)
+"src/ext/oneret/oneret.ml" 171 6399 6405 "src/ext/oneret/oneret.ml" 173 6490 6506
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 170 6361 6375 "src/ext/oneret/oneret.ml" 173 6490 6507
+type(
+  Cil.file -> unit
+)
+"src/ext/oneret/oneret.ml" 174 6509 6529 "src/ext/oneret/oneret.ml" 174 6509 6533
+type(
+  bool
+)
+"src/ext/oneret/oneret.ml" 166 6221 6223 "src/ext/oneret/oneret.ml" 175 6535 6538
+type(
+  Feature.t
+)
+"src/ext/oneret/oneret.ml" 177 6541 6545 "src/ext/oneret/oneret.ml" 177 6541 6547
+type(
+  unit
+)
+"src/ext/oneret/oneret.ml" 177 6541 6550 "src/ext/oneret/oneret.ml" 177 6541 6566
+type(
+  Feature.t -> unit
+)
+ident(
+  ext_ref Feature.register
+)
+"src/ext/oneret/oneret.ml" 177 6541 6567 "src/ext/oneret/oneret.ml" 177 6541 6574
+type(
+  Feature.t
+)
+ident(
+  int_ref feature "src/ext/oneret/oneret.ml" 165 6206 6210 "src/ext/oneret/oneret.ml" 165 6206 6217
+)
+"src/ext/oneret/oneret.ml" 177 6541 6550 "src/ext/oneret/oneret.ml" 177 6541 6574
+call(
+  stack
+)
+type(
+  unit
+)

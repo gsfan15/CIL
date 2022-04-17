@@ -1,0 +1,4930 @@
+"src/ciloptions.ml" 42 1749 1753 "src/ciloptions.ml" 42 1749 1765
+type(
+  bool -> 'a -> unit
+)
+ident(
+  def setDebugFlag "src/ciloptions.ml" 46 1835 1835 "src/ciloptions.ml" 1 0 -1
+)
+"src/ciloptions.ml" 42 1749 1766 "src/ciloptions.ml" 42 1749 1767
+type(
+  bool
+)
+ident(
+  def v "src/ciloptions.ml" 42 1749 1768 "src/ciloptions.ml" 44 1796 1833
+)
+"src/ciloptions.ml" 42 1749 1768 "src/ciloptions.ml" 42 1749 1772
+type(
+  'a
+)
+ident(
+  def name "src/ciloptions.ml" 43 1776 1778 "src/ciloptions.ml" 44 1796 1833
+)
+"src/ciloptions.ml" 43 1776 1778 "src/ciloptions.ml" 43 1776 1789
+type(
+  bool ref
+)
+ident(
+  ext_ref E.debugFlag
+)
+"src/ciloptions.ml" 43 1776 1790 "src/ciloptions.ml" 43 1776 1792
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 43 1776 1793 "src/ciloptions.ml" 43 1776 1794
+type(
+  bool
+)
+ident(
+  int_ref v "src/ciloptions.ml" 42 1749 1766 "src/ciloptions.ml" 42 1749 1767
+)
+"src/ciloptions.ml" 43 1776 1778 "src/ciloptions.ml" 43 1776 1794
+type(
+  unit
+)
+"src/ciloptions.ml" 44 1796 1801 "src/ciloptions.ml" 44 1796 1802
+type(
+  bool
+)
+ident(
+  int_ref v "src/ciloptions.ml" 42 1749 1766 "src/ciloptions.ml" 42 1749 1767
+)
+"src/ciloptions.ml" 44 1796 1808 "src/ciloptions.ml" 44 1796 1825
+type(
+  bool ref
+)
+ident(
+  ext_ref Pretty.flushOften
+)
+"src/ciloptions.ml" 44 1796 1826 "src/ciloptions.ml" 44 1796 1828
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 44 1796 1829 "src/ciloptions.ml" 44 1796 1833
+type(
+  bool
+)
+"src/ciloptions.ml" 44 1796 1808 "src/ciloptions.ml" 44 1796 1833
+type(
+  unit
+)
+"src/ciloptions.ml" 44 1796 1798 "src/ciloptions.ml" 44 1796 1833
+type(
+  unit
+)
+"src/ciloptions.ml" 43 1776 1778 "src/ciloptions.ml" 44 1796 1833
+type(
+  unit
+)
+"src/ciloptions.ml" 51 1949 1953 "src/ciloptions.ml" 51 1949 1961
+type(
+  string -> (outfile -> unit) -> string -> unit
+)
+ident(
+  def openFile "src/ciloptions.ml" 60 2242 2242 "src/ciloptions.ml" 1 0 -1
+)
+"src/ciloptions.ml" 51 1949 1963 "src/ciloptions.ml" 51 1949 1967
+type(
+  string
+)
+ident(
+  def what "src/ciloptions.ml" 51 1949 1977 "src/ciloptions.ml" 57 2179 2239
+)
+"src/ciloptions.ml" 51 1949 1978 "src/ciloptions.ml" 51 1949 1984
+type(
+  outfile -> unit
+)
+ident(
+  def takeit "src/ciloptions.ml" 51 1949 2003 "src/ciloptions.ml" 57 2179 2239
+)
+"src/ciloptions.ml" 51 1949 2004 "src/ciloptions.ml" 51 1949 2006
+type(
+  string
+)
+ident(
+  def fl "src/ciloptions.ml" 52 2019 2021 "src/ciloptions.ml" 57 2179 2239
+)
+"src/ciloptions.ml" 52 2019 2024 "src/ciloptions.ml" 52 2019 2025
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 52 2019 2025 "src/ciloptions.ml" 52 2019 2038
+type(
+  bool ref
+)
+ident(
+  ext_ref E.verboseFlag
+)
+"src/ciloptions.ml" 52 2019 2024 "src/ciloptions.ml" 52 2019 2038
+type(
+  bool
+)
+"src/ciloptions.ml" 53 2044 2048 "src/ciloptions.ml" 53 2044 2054
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ciloptions.ml" 53 2044 2056 "src/ciloptions.ml" 53 2044 2069
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"src/ciloptions.ml" 53 2044 2070 "src/ciloptions.ml" 53 2044 2090
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"src/ciloptions.ml" 53 2044 2091 "src/ciloptions.ml" 53 2044 2095
+type(
+  string
+)
+ident(
+  int_ref what "src/ciloptions.ml" 51 1949 1963 "src/ciloptions.ml" 51 1949 1967
+)
+"src/ciloptions.ml" 53 2044 2096 "src/ciloptions.ml" 53 2044 2098
+type(
+  string
+)
+ident(
+  int_ref fl "src/ciloptions.ml" 51 1949 2004 "src/ciloptions.ml" 51 1949 2006
+)
+"src/ciloptions.ml" 53 2044 2055 "src/ciloptions.ml" 53 2044 2099
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 53 2044 2048 "src/ciloptions.ml" 53 2044 2099
+type(
+  unit
+)
+"src/ciloptions.ml" 52 2019 2021 "src/ciloptions.ml" 53 2044 2099
+type(
+  unit
+)
+"src/ciloptions.ml" 54 2101 2108 "src/ciloptions.ml" 54 2101 2114
+type(
+  outfile -> unit
+)
+ident(
+  int_ref takeit "src/ciloptions.ml" 51 1949 1978 "src/ciloptions.ml" 51 1949 1984
+)
+"src/ciloptions.ml" 54 2101 2125 "src/ciloptions.ml" 54 2101 2127
+type(
+  string
+)
+ident(
+  int_ref fl "src/ciloptions.ml" 51 1949 2004 "src/ciloptions.ml" 51 1949 2006
+)
+"src/ciloptions.ml" 55 2129 2153 "src/ciloptions.ml" 55 2129 2161
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"src/ciloptions.ml" 55 2129 2162 "src/ciloptions.ml" 55 2129 2164
+type(
+  string
+)
+ident(
+  int_ref fl "src/ciloptions.ml" 51 1949 2004 "src/ciloptions.ml" 51 1949 2006
+)
+"src/ciloptions.ml" 55 2129 2153 "src/ciloptions.ml" 55 2129 2164
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/ciloptions.ml" 54 2101 2115 "src/ciloptions.ml" 55 2129 2166
+type(
+  outfile
+)
+"src/ciloptions.ml" 54 2101 2108 "src/ciloptions.ml" 55 2129 2166
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 56 2167 2174 "src/ciloptions.ml" 56 2167 2175
+type(
+  exn
+)
+"src/ciloptions.ml" 57 2179 2183 "src/ciloptions.ml" 57 2179 2188
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ciloptions.ml" 57 2179 2199 "src/ciloptions.ml" 57 2179 2213
+type(
+  string
+)
+"src/ciloptions.ml" 57 2179 2214 "src/ciloptions.ml" 57 2179 2215
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 57 2179 2216 "src/ciloptions.ml" 57 2179 2220
+type(
+  string
+)
+ident(
+  int_ref what "src/ciloptions.ml" 51 1949 1963 "src/ciloptions.ml" 51 1949 1967
+)
+"src/ciloptions.ml" 57 2179 2221 "src/ciloptions.ml" 57 2179 2222
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 57 2179 2223 "src/ciloptions.ml" 57 2179 2231
+type(
+  string
+)
+"src/ciloptions.ml" 57 2179 2232 "src/ciloptions.ml" 57 2179 2233
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 57 2179 2234 "src/ciloptions.ml" 57 2179 2236
+type(
+  string
+)
+ident(
+  int_ref fl "src/ciloptions.ml" 51 1949 2004 "src/ciloptions.ml" 51 1949 2006
+)
+"src/ciloptions.ml" 57 2179 2223 "src/ciloptions.ml" 57 2179 2236
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 57 2179 2216 "src/ciloptions.ml" 57 2179 2236
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 57 2179 2198 "src/ciloptions.ml" 57 2179 2237
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 57 2179 2189 "src/ciloptions.ml" 57 2179 2238
+type(
+  exn
+)
+"src/ciloptions.ml" 57 2179 2183 "src/ciloptions.ml" 57 2179 2238
+type(
+  unit
+)
+"src/ciloptions.ml" 54 2101 2103 "src/ciloptions.ml" 57 2179 2239
+type(
+  unit
+)
+"src/ciloptions.ml" 52 2019 2021 "src/ciloptions.ml" 57 2179 2239
+type(
+  unit
+)
+"src/ciloptions.ml" 60 2242 2246 "src/ciloptions.ml" 60 2242 2255
+type(
+  string list ref
+)
+ident(
+  def fileNames "src/ciloptions.ml" 61 2283 2283 "src/ciloptions.ml" 1 0 -1
+)
+"src/ciloptions.ml" 60 2242 2276 "src/ciloptions.ml" 60 2242 2279
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ciloptions.ml" 60 2242 2280 "src/ciloptions.ml" 60 2242 2282
+type(
+  string list
+)
+"src/ciloptions.ml" 60 2242 2276 "src/ciloptions.ml" 60 2242 2282
+type(
+  string list ref
+)
+type(
+  string list ref
+)
+"src/ciloptions.ml" 61 2283 2287 "src/ciloptions.ml" 61 2283 2297
+type(
+  string -> unit
+)
+ident(
+  def recordFile "src/ciloptions.ml" 65 2416 2416 "src/ciloptions.ml" 1 0 -1
+)
+"src/ciloptions.ml" 61 2283 2298 "src/ciloptions.ml" 61 2283 2303
+type(
+  string
+)
+ident(
+  def fname "src/ciloptions.ml" 62 2307 2309 "src/ciloptions.ml" 62 2307 2343
+)
+"src/ciloptions.ml" 62 2307 2309 "src/ciloptions.ml" 62 2307 2318
+type(
+  string list ref
+)
+ident(
+  int_ref fileNames "src/ciloptions.ml" 60 2242 2246 "src/ciloptions.ml" 60 2242 2255
+)
+"src/ciloptions.ml" 62 2307 2319 "src/ciloptions.ml" 62 2307 2321
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 62 2307 2322 "src/ciloptions.ml" 62 2307 2327
+type(
+  string
+)
+ident(
+  int_ref fname "src/ciloptions.ml" 61 2283 2298 "src/ciloptions.ml" 61 2283 2303
+)
+"src/ciloptions.ml" 62 2307 2332 "src/ciloptions.ml" 62 2307 2333
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 62 2307 2333 "src/ciloptions.ml" 62 2307 2342
+type(
+  string list ref
+)
+ident(
+  int_ref fileNames "src/ciloptions.ml" 60 2242 2246 "src/ciloptions.ml" 60 2242 2255
+)
+"src/ciloptions.ml" 62 2307 2331 "src/ciloptions.ml" 62 2307 2343
+type(
+  string list
+)
+"src/ciloptions.ml" 62 2307 2322 "src/ciloptions.ml" 62 2307 2343
+type(
+  string list
+)
+"src/ciloptions.ml" 62 2307 2309 "src/ciloptions.ml" 62 2307 2343
+type(
+  unit
+)
+"src/ciloptions.ml" 65 2416 2420 "src/ciloptions.ml" 65 2416 2434
+type(
+  string -> unit
+)
+ident(
+  def parseExtraFile "src/ciloptions.ml" 101 3594 3594 "src/ciloptions.ml" 1 0 -1
+)
+"src/ciloptions.ml" 65 2416 2436 "src/ciloptions.ml" 65 2416 2437
+type(
+  string
+)
+ident(
+  def s "src/ciloptions.ml" 66 2450 2452 "src/ciloptions.ml" 98 3568 3590
+)
+"src/ciloptions.ml" 67 2456 2464 "src/ciloptions.ml" 67 2456 2469
+type(
+  in_channel
+)
+ident(
+  def sfile "src/ciloptions.ml" 68 2485 2489 "src/ciloptions.ml" 96 3492 3500
+)
+"src/ciloptions.ml" 67 2456 2472 "src/ciloptions.ml" 67 2456 2479
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/ciloptions.ml" 67 2456 2480 "src/ciloptions.ml" 67 2456 2481
+type(
+  string
+)
+ident(
+  int_ref s "src/ciloptions.ml" 65 2416 2436 "src/ciloptions.ml" 65 2416 2437
+)
+"src/ciloptions.ml" 67 2456 2472 "src/ciloptions.ml" 67 2456 2481
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/ciloptions.ml" 68 2485 2495 "src/ciloptions.ml" 68 2485 2499
+type(
+  bool
+)
+"src/ciloptions.ml" 69 2503 2513 "src/ciloptions.ml" 69 2503 2517
+type(
+  string
+)
+ident(
+  def line "src/ciloptions.ml" 70 2580 2586 "src/ciloptions.ml" 95 3472 3491
+)
+"src/ciloptions.ml" 69 2503 2524 "src/ciloptions.ml" 69 2503 2534
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"src/ciloptions.ml" 69 2503 2535 "src/ciloptions.ml" 69 2503 2540
+type(
+  in_channel
+)
+ident(
+  int_ref sfile "src/ciloptions.ml" 67 2456 2464 "src/ciloptions.ml" 67 2456 2469
+)
+"src/ciloptions.ml" 69 2503 2524 "src/ciloptions.ml" 69 2503 2540
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 69 2503 2546 "src/ciloptions.ml" 69 2503 2547
+type(
+  exn
+)
+ident(
+  def e "src/ciloptions.ml" 69 2503 2551 "src/ciloptions.ml" 69 2503 2576
+)
+"src/ciloptions.ml" 69 2503 2552 "src/ciloptions.ml" 69 2503 2560
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"src/ciloptions.ml" 69 2503 2561 "src/ciloptions.ml" 69 2503 2566
+type(
+  in_channel
+)
+ident(
+  int_ref sfile "src/ciloptions.ml" 67 2456 2464 "src/ciloptions.ml" 67 2456 2469
+)
+"src/ciloptions.ml" 69 2503 2552 "src/ciloptions.ml" 69 2503 2566
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 69 2503 2568 "src/ciloptions.ml" 69 2503 2573
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ciloptions.ml" 69 2503 2574 "src/ciloptions.ml" 69 2503 2575
+type(
+  exn
+)
+ident(
+  int_ref e "src/ciloptions.ml" 69 2503 2546 "src/ciloptions.ml" 69 2503 2547
+)
+"src/ciloptions.ml" 69 2503 2568 "src/ciloptions.ml" 69 2503 2575
+type(
+  string
+)
+"src/ciloptions.ml" 69 2503 2551 "src/ciloptions.ml" 69 2503 2576
+type(
+  string
+)
+"src/ciloptions.ml" 69 2503 2520 "src/ciloptions.ml" 69 2503 2576
+type(
+  string
+)
+"src/ciloptions.ml" 70 2580 2590 "src/ciloptions.ml" 70 2580 2597
+type(
+  int
+)
+ident(
+  def linelen "src/ciloptions.ml" 71 2622 2628 "src/ciloptions.ml" 95 3472 3491
+)
+"src/ciloptions.ml" 70 2580 2600 "src/ciloptions.ml" 70 2580 2613
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/ciloptions.ml" 70 2580 2614 "src/ciloptions.ml" 70 2580 2618
+type(
+  string
+)
+ident(
+  int_ref line "src/ciloptions.ml" 69 2503 2513 "src/ciloptions.ml" 69 2503 2517
+)
+"src/ciloptions.ml" 70 2580 2600 "src/ciloptions.ml" 70 2580 2618
+type(
+  int
+)
+"src/ciloptions.ml" 71 2622 2636 "src/ciloptions.ml" 71 2622 2640
+type(
+  int -> int -> unit
+)
+ident(
+  def scan "src/ciloptions.ml" 71 2622 2628 "src/ciloptions.ml" 95 3472 3491
+)
+"src/ciloptions.ml" 71 2622 2642 "src/ciloptions.ml" 71 2622 2645
+type(
+  int
+)
+ident(
+  def pos "src/ciloptions.ml" 72 2679 2689 "src/ciloptions.ml" 93 3428 3462
+)
+"src/ciloptions.ml" 72 2679 2690 "src/ciloptions.ml" 72 2679 2695
+type(
+  int
+)
+ident(
+  def start "src/ciloptions.ml" 72 2679 2702 "src/ciloptions.ml" 93 3428 3462
+)
+"src/ciloptions.ml" 74 2784 2795 "src/ciloptions.ml" 74 2784 2798
+type(
+  int
+)
+ident(
+  int_ref pos "src/ciloptions.ml" 71 2622 2642 "src/ciloptions.ml" 71 2622 2645
+)
+"src/ciloptions.ml" 74 2784 2799 "src/ciloptions.ml" 74 2784 2801
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ciloptions.ml" 74 2784 2802 "src/ciloptions.ml" 74 2784 2809
+type(
+  int
+)
+ident(
+  int_ref linelen "src/ciloptions.ml" 70 2580 2590 "src/ciloptions.ml" 70 2580 2597
+)
+"src/ciloptions.ml" 74 2784 2795 "src/ciloptions.ml" 74 2784 2809
+type(
+  bool
+)
+"src/ciloptions.ml" 75 2816 2829 "src/ciloptions.ml" 75 2816 2834
+type(
+  int
+)
+ident(
+  int_ref start "src/ciloptions.ml" 72 2679 2690 "src/ciloptions.ml" 72 2679 2695
+)
+"src/ciloptions.ml" 75 2816 2835 "src/ciloptions.ml" 75 2816 2837
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ciloptions.ml" 75 2816 2838 "src/ciloptions.ml" 75 2816 2839
+type(
+  int
+)
+"src/ciloptions.ml" 75 2816 2829 "src/ciloptions.ml" 75 2816 2839
+type(
+  bool
+)
+"src/ciloptions.ml" 76 2846 2858 "src/ciloptions.ml" 76 2846 2868
+type(
+  string -> unit
+)
+ident(
+  int_ref recordFile "src/ciloptions.ml" 61 2283 2287 "src/ciloptions.ml" 61 2283 2297
+)
+"src/ciloptions.ml" 76 2846 2870 "src/ciloptions.ml" 76 2846 2880
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/ciloptions.ml" 76 2846 2881 "src/ciloptions.ml" 76 2846 2885
+type(
+  string
+)
+ident(
+  int_ref line "src/ciloptions.ml" 69 2503 2513 "src/ciloptions.ml" 69 2503 2517
+)
+"src/ciloptions.ml" 76 2846 2886 "src/ciloptions.ml" 76 2846 2891
+type(
+  int
+)
+ident(
+  int_ref start "src/ciloptions.ml" 72 2679 2690 "src/ciloptions.ml" 72 2679 2695
+)
+"src/ciloptions.ml" 76 2846 2893 "src/ciloptions.ml" 76 2846 2896
+type(
+  int
+)
+ident(
+  int_ref pos "src/ciloptions.ml" 71 2622 2642 "src/ciloptions.ml" 71 2622 2645
+)
+"src/ciloptions.ml" 76 2846 2897 "src/ciloptions.ml" 76 2846 2898
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ciloptions.ml" 76 2846 2899 "src/ciloptions.ml" 76 2846 2904
+type(
+  int
+)
+ident(
+  int_ref start "src/ciloptions.ml" 72 2679 2690 "src/ciloptions.ml" 72 2679 2695
+)
+"src/ciloptions.ml" 76 2846 2892 "src/ciloptions.ml" 76 2846 2905
+type(
+  int
+)
+"src/ciloptions.ml" 76 2846 2869 "src/ciloptions.ml" 76 2846 2906
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 76 2846 2858 "src/ciloptions.ml" 76 2846 2906
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 78 2923 2935 "src/ciloptions.ml" 78 2923 2937
+type(
+  unit
+)
+"src/ciloptions.ml" 75 2816 2826 "src/ciloptions.ml" 78 2923 2937
+type(
+  unit
+)
+"src/ciloptions.ml" 80 2987 3001 "src/ciloptions.ml" 80 2987 3002
+type(
+  char
+)
+ident(
+  def c "src/ciloptions.ml" 81 3028 3038 "src/ciloptions.ml" 93 3428 3462
+)
+"src/ciloptions.ml" 80 2987 3005 "src/ciloptions.ml" 80 2987 3015
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"src/ciloptions.ml" 80 2987 3016 "src/ciloptions.ml" 80 2987 3020
+type(
+  string
+)
+ident(
+  int_ref line "src/ciloptions.ml" 69 2503 2513 "src/ciloptions.ml" 69 2503 2517
+)
+"src/ciloptions.ml" 80 2987 3021 "src/ciloptions.ml" 80 2987 3024
+type(
+  int
+)
+ident(
+  int_ref pos "src/ciloptions.ml" 71 2622 2642 "src/ciloptions.ml" 71 2622 2645
+)
+"src/ciloptions.ml" 80 2987 3005 "src/ciloptions.ml" 80 2987 3024
+type(
+  char
+)
+"src/ciloptions.ml" 81 3028 3044 "src/ciloptions.ml" 81 3028 3045
+type(
+  char
+)
+ident(
+  int_ref c "src/ciloptions.ml" 80 2987 3001 "src/ciloptions.ml" 80 2987 3002
+)
+"src/ciloptions.ml" 82 3052 3064 "src/ciloptions.ml" 82 3052 3067
+type(
+  char
+)
+"src/ciloptions.ml" 82 3052 3070 "src/ciloptions.ml" 82 3052 3074
+type(
+  char
+)
+"src/ciloptions.ml" 82 3052 3064 "src/ciloptions.ml" 82 3052 3074
+type(
+  char
+)
+"src/ciloptions.ml" 82 3052 3077 "src/ciloptions.ml" 82 3052 3081
+type(
+  char
+)
+"src/ciloptions.ml" 82 3052 3064 "src/ciloptions.ml" 82 3052 3081
+type(
+  char
+)
+"src/ciloptions.ml" 82 3052 3084 "src/ciloptions.ml" 82 3052 3088
+type(
+  char
+)
+"src/ciloptions.ml" 82 3052 3064 "src/ciloptions.ml" 82 3052 3088
+type(
+  char
+)
+"src/ciloptions.ml" 84 3124 3141 "src/ciloptions.ml" 84 3124 3146
+type(
+  int
+)
+ident(
+  int_ref start "src/ciloptions.ml" 72 2679 2690 "src/ciloptions.ml" 72 2679 2695
+)
+"src/ciloptions.ml" 84 3124 3147 "src/ciloptions.ml" 84 3124 3149
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ciloptions.ml" 84 3124 3150 "src/ciloptions.ml" 84 3124 3151
+type(
+  int
+)
+"src/ciloptions.ml" 84 3124 3141 "src/ciloptions.ml" 84 3124 3151
+type(
+  bool
+)
+"src/ciloptions.ml" 85 3163 3179 "src/ciloptions.ml" 85 3163 3189
+type(
+  string -> unit
+)
+ident(
+  int_ref recordFile "src/ciloptions.ml" 61 2283 2287 "src/ciloptions.ml" 61 2283 2297
+)
+"src/ciloptions.ml" 85 3163 3191 "src/ciloptions.ml" 85 3163 3201
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/ciloptions.ml" 85 3163 3202 "src/ciloptions.ml" 85 3163 3206
+type(
+  string
+)
+ident(
+  int_ref line "src/ciloptions.ml" 69 2503 2513 "src/ciloptions.ml" 69 2503 2517
+)
+"src/ciloptions.ml" 85 3163 3207 "src/ciloptions.ml" 85 3163 3212
+type(
+  int
+)
+ident(
+  int_ref start "src/ciloptions.ml" 72 2679 2690 "src/ciloptions.ml" 72 2679 2695
+)
+"src/ciloptions.ml" 85 3163 3214 "src/ciloptions.ml" 85 3163 3217
+type(
+  int
+)
+ident(
+  int_ref pos "src/ciloptions.ml" 71 2622 2642 "src/ciloptions.ml" 71 2622 2645
+)
+"src/ciloptions.ml" 85 3163 3218 "src/ciloptions.ml" 85 3163 3219
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ciloptions.ml" 85 3163 3220 "src/ciloptions.ml" 85 3163 3225
+type(
+  int
+)
+ident(
+  int_ref start "src/ciloptions.ml" 72 2679 2690 "src/ciloptions.ml" 72 2679 2695
+)
+"src/ciloptions.ml" 85 3163 3213 "src/ciloptions.ml" 85 3163 3226
+type(
+  int
+)
+"src/ciloptions.ml" 85 3163 3190 "src/ciloptions.ml" 85 3163 3227
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 84 3124 3157 "src/ciloptions.ml" 86 3229 3246
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 84 3124 3138 "src/ciloptions.ml" 86 3229 3246
+type(
+  unit
+)
+"src/ciloptions.ml" 87 3248 3262 "src/ciloptions.ml" 87 3248 3266
+type(
+  int -> int -> unit
+)
+ident(
+  int_ref scan "src/ciloptions.ml" 71 2622 2636 "src/ciloptions.ml" 71 2622 2640
+)
+"src/ciloptions.ml" 87 3248 3268 "src/ciloptions.ml" 87 3248 3271
+type(
+  int
+)
+ident(
+  int_ref pos "src/ciloptions.ml" 71 2622 2642 "src/ciloptions.ml" 71 2622 2645
+)
+"src/ciloptions.ml" 87 3248 3272 "src/ciloptions.ml" 87 3248 3273
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ciloptions.ml" 87 3248 3274 "src/ciloptions.ml" 87 3248 3275
+type(
+  int
+)
+"src/ciloptions.ml" 87 3248 3267 "src/ciloptions.ml" 87 3248 3276
+type(
+  int
+)
+"src/ciloptions.ml" 87 3248 3277 "src/ciloptions.ml" 87 3248 3281
+type(
+  int
+)
+"src/ciloptions.ml" 87 3248 3262 "src/ciloptions.ml" 87 3248 3281
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 84 3124 3138 "src/ciloptions.ml" 87 3248 3281
+type(
+  unit
+)
+"src/ciloptions.ml" 89 3299 3311 "src/ciloptions.ml" 89 3299 3312
+type(
+  char
+)
+"src/ciloptions.ml" 90 3337 3354 "src/ciloptions.ml" 90 3337 3359
+type(
+  int
+)
+ident(
+  int_ref start "src/ciloptions.ml" 72 2679 2690 "src/ciloptions.ml" 72 2679 2695
+)
+"src/ciloptions.ml" 90 3337 3360 "src/ciloptions.ml" 90 3337 3362
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ciloptions.ml" 90 3337 3363 "src/ciloptions.ml" 90 3337 3364
+type(
+  int
+)
+"src/ciloptions.ml" 90 3337 3354 "src/ciloptions.ml" 90 3337 3364
+type(
+  bool
+)
+"src/ciloptions.ml" 91 3371 3387 "src/ciloptions.ml" 91 3371 3391
+type(
+  int -> int -> unit
+)
+ident(
+  int_ref scan "src/ciloptions.ml" 71 2622 2636 "src/ciloptions.ml" 71 2622 2640
+)
+"src/ciloptions.ml" 91 3371 3393 "src/ciloptions.ml" 91 3371 3396
+type(
+  int
+)
+ident(
+  int_ref pos "src/ciloptions.ml" 71 2622 2642 "src/ciloptions.ml" 71 2622 2645
+)
+"src/ciloptions.ml" 91 3371 3397 "src/ciloptions.ml" 91 3371 3398
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ciloptions.ml" 91 3371 3399 "src/ciloptions.ml" 91 3371 3400
+type(
+  int
+)
+"src/ciloptions.ml" 91 3371 3392 "src/ciloptions.ml" 91 3371 3401
+type(
+  int
+)
+"src/ciloptions.ml" 91 3371 3402 "src/ciloptions.ml" 91 3371 3407
+type(
+  int
+)
+ident(
+  int_ref start "src/ciloptions.ml" 72 2679 2690 "src/ciloptions.ml" 72 2679 2695
+)
+"src/ciloptions.ml" 91 3371 3387 "src/ciloptions.ml" 91 3371 3407
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 93 3428 3444 "src/ciloptions.ml" 93 3428 3448
+type(
+  int -> int -> unit
+)
+ident(
+  int_ref scan "src/ciloptions.ml" 71 2622 2636 "src/ciloptions.ml" 71 2622 2640
+)
+"src/ciloptions.ml" 93 3428 3450 "src/ciloptions.ml" 93 3428 3453
+type(
+  int
+)
+ident(
+  int_ref pos "src/ciloptions.ml" 71 2622 2642 "src/ciloptions.ml" 71 2622 2645
+)
+"src/ciloptions.ml" 93 3428 3454 "src/ciloptions.ml" 93 3428 3455
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ciloptions.ml" 93 3428 3456 "src/ciloptions.ml" 93 3428 3457
+type(
+  int
+)
+"src/ciloptions.ml" 93 3428 3449 "src/ciloptions.ml" 93 3428 3458
+type(
+  int
+)
+"src/ciloptions.ml" 93 3428 3459 "src/ciloptions.ml" 93 3428 3462
+type(
+  int
+)
+ident(
+  int_ref pos "src/ciloptions.ml" 71 2622 2642 "src/ciloptions.ml" 71 2622 2645
+)
+"src/ciloptions.ml" 93 3428 3444 "src/ciloptions.ml" 93 3428 3462
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 90 3337 3351 "src/ciloptions.ml" 93 3428 3462
+type(
+  unit
+)
+"src/ciloptions.ml" 81 3028 3038 "src/ciloptions.ml" 93 3428 3462
+type(
+  unit
+)
+"src/ciloptions.ml" 80 2987 2997 "src/ciloptions.ml" 93 3428 3462
+type(
+  unit
+)
+"src/ciloptions.ml" 74 2784 2792 "src/ciloptions.ml" 93 3428 3462
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 95 3472 3480 "src/ciloptions.ml" 95 3472 3484
+type(
+  int -> int -> unit
+)
+ident(
+  int_ref scan "src/ciloptions.ml" 71 2622 2636 "src/ciloptions.ml" 71 2622 2640
+)
+"src/ciloptions.ml" 95 3472 3485 "src/ciloptions.ml" 95 3472 3486
+type(
+  int
+)
+"src/ciloptions.ml" 95 3472 3487 "src/ciloptions.ml" 95 3472 3491
+type(
+  int
+)
+"src/ciloptions.ml" 95 3472 3480 "src/ciloptions.ml" 95 3472 3491
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 71 2622 2628 "src/ciloptions.ml" 95 3472 3491
+type(
+  unit
+)
+"src/ciloptions.ml" 70 2580 2586 "src/ciloptions.ml" 95 3472 3491
+type(
+  unit
+)
+"src/ciloptions.ml" 69 2503 2509 "src/ciloptions.ml" 95 3472 3491
+type(
+  unit
+)
+"src/ciloptions.ml" 68 2485 2489 "src/ciloptions.ml" 96 3492 3500
+type(
+  unit
+)
+"src/ciloptions.ml" 67 2456 2460 "src/ciloptions.ml" 96 3492 3500
+type(
+  unit
+)
+"src/ciloptions.ml" 97 3501 3518 "src/ciloptions.ml" 97 3501 3519
+type(
+  string
+)
+"src/ciloptions.ml" 97 3501 3508 "src/ciloptions.ml" 97 3501 3519
+type(
+  exn
+)
+"src/ciloptions.ml" 97 3501 3523 "src/ciloptions.ml" 97 3501 3526
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.s
+)
+"src/ciloptions.ml" 97 3501 3528 "src/ciloptions.ml" 97 3501 3535
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.error
+)
+"src/ciloptions.ml" 97 3501 3536 "src/ciloptions.ml" 97 3501 3564
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ciloptions.ml" 97 3501 3565 "src/ciloptions.ml" 97 3501 3566
+type(
+  string
+)
+ident(
+  int_ref s "src/ciloptions.ml" 65 2416 2436 "src/ciloptions.ml" 65 2416 2437
+)
+"src/ciloptions.ml" 97 3501 3527 "src/ciloptions.ml" 97 3501 3567
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 97 3501 3523 "src/ciloptions.ml" 97 3501 3567
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 98 3568 3573 "src/ciloptions.ml" 98 3568 3584
+type(
+  exn
+)
+"src/ciloptions.ml" 98 3568 3588 "src/ciloptions.ml" 98 3568 3590
+type(
+  unit
+)
+"src/ciloptions.ml" 66 2450 2452 "src/ciloptions.ml" 98 3568 3590
+type(
+  unit
+)
+"src/ciloptions.ml" 101 3594 3598 "src/ciloptions.ml" 101 3594 3605
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def options "src/ciloptions.ml" 379 12905 12908 "src/ciloptions.ml" 1 0 -1
+)
+"src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+type(
+  bool -> string
+)
+ident(
+  def is_default "src/ciloptions.ml" 105 3720 3722 "src/ciloptions.ml" 379 12905 12908
+)
+"src/ciloptions.ml" 103 3672 3678 "src/ciloptions.ml" 103 3672 3682
+type(
+  bool
+)
+"src/ciloptions.ml" 103 3672 3686 "src/ciloptions.ml" 103 3672 3698
+type(
+  string
+)
+"src/ciloptions.ml" 104 3699 3705 "src/ciloptions.ml" 104 3699 3710
+type(
+  bool
+)
+"src/ciloptions.ml" 104 3699 3714 "src/ciloptions.ml" 104 3699 3716
+type(
+  string
+)
+"src/ciloptions.ml" 102 3644 3663 "src/ciloptions.ml" 104 3699 3716
+type(
+  bool -> string
+)
+"src/ciloptions.ml" 107 3750 3754 "src/ciloptions.ml" 107 3750 3756
+type(
+  string
+)
+"src/ciloptions.ml" 107 3750 3772 "src/ciloptions.ml" 107 3750 3774
+type(
+  unit
+)
+"src/ciloptions.ml" 107 3750 3778 "src/ciloptions.ml" 107 3750 3780
+type(
+  unit
+)
+"src/ciloptions.ml" 107 3750 3767 "src/ciloptions.ml" 107 3750 3781
+type(
+  unit -> unit
+)
+"src/ciloptions.ml" 107 3750 3758 "src/ciloptions.ml" 107 3750 3781
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 107 3750 3783 "src/ciloptions.ml" 107 3750 3809
+type(
+  string
+)
+"src/ciloptions.ml" 107 3750 3754 "src/ciloptions.ml" 107 3750 3809
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 109 3812 3816 "src/ciloptions.ml" 109 3812 3827
+type(
+  string
+)
+"src/ciloptions.ml" 110 3829 3847 "src/ciloptions.ml" 110 3829 3848
+type(
+  unit
+)
+"src/ciloptions.ml" 111 3852 3868 "src/ciloptions.ml" 111 3852 3881
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/ciloptions.ml" 111 3852 3883 "src/ciloptions.ml" 111 3852 3897
+type(
+  string
+)
+"src/ciloptions.ml" 111 3852 3898 "src/ciloptions.ml" 111 3852 3899
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 111 3852 3900 "src/ciloptions.ml" 111 3852 3914
+type(
+  string
+)
+ident(
+  ext_ref Cil.cilVersion
+)
+"src/ciloptions.ml" 111 3852 3915 "src/ciloptions.ml" 111 3852 3916
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 112 3917 3950 "src/ciloptions.ml" 112 3917 4003
+type(
+  string
+)
+"src/ciloptions.ml" 111 3852 3900 "src/ciloptions.ml" 112 3917 4003
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 111 3852 3882 "src/ciloptions.ml" 112 3917 4004
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 111 3852 3868 "src/ciloptions.ml" 112 3917 4004
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 113 4006 4022 "src/ciloptions.ml" 113 4006 4026
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"src/ciloptions.ml" 113 4006 4027 "src/ciloptions.ml" 113 4006 4028
+type(
+  int
+)
+"src/ciloptions.ml" 113 4006 4022 "src/ciloptions.ml" 113 4006 4028
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 111 3852 3868 "src/ciloptions.ml" 113 4006 4028
+type(
+  unit
+)
+"src/ciloptions.ml" 110 3829 3842 "src/ciloptions.ml" 113 4006 4029
+type(
+  unit -> unit
+)
+"src/ciloptions.ml" 110 3829 3833 "src/ciloptions.ml" 113 4006 4029
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 114 4031 4035 "src/ciloptions.ml" 114 4031 4073
+type(
+  string
+)
+"src/ciloptions.ml" 109 3812 3816 "src/ciloptions.ml" 114 4031 4073
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 116 4076 4080 "src/ciloptions.ml" 116 4076 4091
+type(
+  string
+)
+"src/ciloptions.ml" 117 4093 4105 "src/ciloptions.ml" 117 4093 4118
+type(
+  bool ref
+)
+ident(
+  ext_ref E.verboseFlag
+)
+"src/ciloptions.ml" 117 4093 4097 "src/ciloptions.ml" 117 4093 4118
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 118 4120 4125 "src/ciloptions.ml" 118 4120 4184
+type(
+  string
+)
+"src/ciloptions.ml" 118 4120 4185 "src/ciloptions.ml" 118 4120 4186
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 119 4187 4194 "src/ciloptions.ml" 119 4187 4204
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 119 4187 4205 "src/ciloptions.ml" 119 4187 4206
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 119 4187 4206 "src/ciloptions.ml" 119 4187 4219
+type(
+  bool ref
+)
+ident(
+  ext_ref E.verboseFlag
+)
+"src/ciloptions.ml" 119 4187 4205 "src/ciloptions.ml" 119 4187 4219
+type(
+  bool
+)
+"src/ciloptions.ml" 119 4187 4194 "src/ciloptions.ml" 119 4187 4219
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 118 4120 4124 "src/ciloptions.ml" 119 4187 4220
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 116 4076 4080 "src/ciloptions.ml" 119 4187 4220
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 121 4223 4227 "src/ciloptions.ml" 121 4223 4240
+type(
+  string
+)
+"src/ciloptions.ml" 122 4242 4256 "src/ciloptions.ml" 122 4242 4269
+type(
+  bool ref
+)
+ident(
+  ext_ref E.verboseFlag
+)
+"src/ciloptions.ml" 122 4242 4246 "src/ciloptions.ml" 122 4242 4269
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 123 4271 4276 "src/ciloptions.ml" 123 4271 4306
+type(
+  string
+)
+"src/ciloptions.ml" 123 4271 4307 "src/ciloptions.ml" 123 4271 4308
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 123 4271 4309 "src/ciloptions.ml" 123 4271 4319
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 123 4271 4321 "src/ciloptions.ml" 123 4271 4324
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 123 4271 4325 "src/ciloptions.ml" 123 4271 4326
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 123 4271 4326 "src/ciloptions.ml" 123 4271 4339
+type(
+  bool ref
+)
+ident(
+  ext_ref E.verboseFlag
+)
+"src/ciloptions.ml" 123 4271 4325 "src/ciloptions.ml" 123 4271 4339
+type(
+  bool
+)
+"src/ciloptions.ml" 123 4271 4320 "src/ciloptions.ml" 123 4271 4340
+type(
+  bool
+)
+"src/ciloptions.ml" 123 4271 4309 "src/ciloptions.ml" 123 4271 4340
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 123 4271 4275 "src/ciloptions.ml" 123 4271 4341
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 121 4223 4227 "src/ciloptions.ml" 123 4271 4341
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 125 4344 4348 "src/ciloptions.ml" 125 4344 4359
+type(
+  string
+)
+"src/ciloptions.ml" 126 4361 4373 "src/ciloptions.ml" 126 4361 4383
+type(
+  bool ref
+)
+ident(
+  ext_ref E.warnFlag
+)
+"src/ciloptions.ml" 126 4361 4365 "src/ciloptions.ml" 126 4361 4383
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 127 4385 4390 "src/ciloptions.ml" 127 4385 4415
+type(
+  string
+)
+"src/ciloptions.ml" 127 4385 4416 "src/ciloptions.ml" 127 4385 4417
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 127 4385 4418 "src/ciloptions.ml" 127 4385 4428
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 127 4385 4429 "src/ciloptions.ml" 127 4385 4430
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 127 4385 4430 "src/ciloptions.ml" 127 4385 4440
+type(
+  bool ref
+)
+ident(
+  ext_ref E.warnFlag
+)
+"src/ciloptions.ml" 127 4385 4429 "src/ciloptions.ml" 127 4385 4440
+type(
+  bool
+)
+"src/ciloptions.ml" 127 4385 4418 "src/ciloptions.ml" 127 4385 4440
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 127 4385 4389 "src/ciloptions.ml" 127 4385 4441
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 125 4344 4348 "src/ciloptions.ml" 127 4385 4441
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 129 4444 4448 "src/ciloptions.ml" 129 4444 4461
+type(
+  string
+)
+"src/ciloptions.ml" 130 4463 4477 "src/ciloptions.ml" 130 4463 4487
+type(
+  bool ref
+)
+ident(
+  ext_ref E.warnFlag
+)
+"src/ciloptions.ml" 130 4463 4467 "src/ciloptions.ml" 130 4463 4487
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 131 4489 4494 "src/ciloptions.ml" 131 4489 4522
+type(
+  string
+)
+"src/ciloptions.ml" 131 4489 4523 "src/ciloptions.ml" 131 4489 4524
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 131 4489 4525 "src/ciloptions.ml" 131 4489 4535
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 131 4489 4537 "src/ciloptions.ml" 131 4489 4540
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 131 4489 4541 "src/ciloptions.ml" 131 4489 4542
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 131 4489 4542 "src/ciloptions.ml" 131 4489 4552
+type(
+  bool ref
+)
+ident(
+  ext_ref E.warnFlag
+)
+"src/ciloptions.ml" 131 4489 4541 "src/ciloptions.ml" 131 4489 4552
+type(
+  bool
+)
+"src/ciloptions.ml" 131 4489 4536 "src/ciloptions.ml" 131 4489 4553
+type(
+  bool
+)
+"src/ciloptions.ml" 131 4489 4525 "src/ciloptions.ml" 131 4489 4553
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 131 4489 4493 "src/ciloptions.ml" 131 4489 4554
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 129 4444 4448 "src/ciloptions.ml" 131 4489 4554
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 133 4557 4561 "src/ciloptions.ml" 133 4557 4582
+type(
+  string
+)
+"src/ciloptions.ml" 134 4585 4599 "src/ciloptions.ml" 134 4585 4615
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.warnTruncate
+)
+"src/ciloptions.ml" 134 4585 4589 "src/ciloptions.ml" 134 4585 4615
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 135 4617 4621 "src/ciloptions.ml" 135 4617 4675
+type(
+  string
+)
+"src/ciloptions.ml" 133 4557 4561 "src/ciloptions.ml" 135 4617 4675
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 137 4678 4682 "src/ciloptions.ml" 137 4678 4691
+type(
+  string
+)
+"src/ciloptions.ml" 138 4693 4709 "src/ciloptions.ml" 138 4693 4721
+type(
+  bool -> string -> unit
+)
+ident(
+  int_ref setDebugFlag "src/ciloptions.ml" 42 1749 1753 "src/ciloptions.ml" 42 1749 1765
+)
+"src/ciloptions.ml" 138 4693 4722 "src/ciloptions.ml" 138 4693 4726
+type(
+  bool
+)
+"src/ciloptions.ml" 138 4693 4708 "src/ciloptions.ml" 138 4693 4727
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"src/ciloptions.ml" 138 4693 4697 "src/ciloptions.ml" 138 4693 4727
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 139 4729 4733 "src/ciloptions.ml" 139 4729 4767
+type(
+  string
+)
+"src/ciloptions.ml" 137 4678 4682 "src/ciloptions.ml" 139 4729 4767
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 141 4770 4774 "src/ciloptions.ml" 141 4770 4785
+type(
+  string
+)
+"src/ciloptions.ml" 142 4787 4803 "src/ciloptions.ml" 142 4787 4815
+type(
+  bool -> string -> unit
+)
+ident(
+  int_ref setDebugFlag "src/ciloptions.ml" 42 1749 1753 "src/ciloptions.ml" 42 1749 1765
+)
+"src/ciloptions.ml" 142 4787 4816 "src/ciloptions.ml" 142 4787 4821
+type(
+  bool
+)
+"src/ciloptions.ml" 142 4787 4802 "src/ciloptions.ml" 142 4787 4822
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"src/ciloptions.ml" 142 4787 4791 "src/ciloptions.ml" 142 4787 4822
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 143 4824 4828 "src/ciloptions.ml" 143 4824 4863
+type(
+  string
+)
+"src/ciloptions.ml" 141 4770 4774 "src/ciloptions.ml" 143 4824 4863
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 145 4866 4870 "src/ciloptions.ml" 145 4866 4879
+type(
+  string
+)
+"src/ciloptions.ml" 146 4881 4893 "src/ciloptions.ml" 146 4881 4910
+type(
+  bool ref
+)
+ident(
+  ext_ref Pretty.flushOften
+)
+"src/ciloptions.ml" 146 4881 4885 "src/ciloptions.ml" 146 4881 4910
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 147 4912 4917 "src/ciloptions.ml" 147 4912 4966
+type(
+  string
+)
+"src/ciloptions.ml" 147 4912 4967 "src/ciloptions.ml" 147 4912 4968
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 148 4969 4976 "src/ciloptions.ml" 148 4969 4986
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 148 4969 4987 "src/ciloptions.ml" 148 4969 4988
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 148 4969 4988 "src/ciloptions.ml" 148 4969 5005
+type(
+  bool ref
+)
+ident(
+  ext_ref Pretty.flushOften
+)
+"src/ciloptions.ml" 148 4969 4987 "src/ciloptions.ml" 148 4969 5005
+type(
+  bool
+)
+"src/ciloptions.ml" 148 4969 4976 "src/ciloptions.ml" 148 4969 5005
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 147 4912 4916 "src/ciloptions.ml" 148 4969 5006
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 145 4866 4870 "src/ciloptions.ml" 148 4969 5006
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 150 5009 5013 "src/ciloptions.ml" 150 5009 5024
+type(
+  string
+)
+"src/ciloptions.ml" 151 5026 5040 "src/ciloptions.ml" 151 5026 5057
+type(
+  bool ref
+)
+ident(
+  ext_ref Pretty.flushOften
+)
+"src/ciloptions.ml" 151 5026 5030 "src/ciloptions.ml" 151 5026 5057
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 152 5059 5064 "src/ciloptions.ml" 152 5059 5108
+type(
+  string
+)
+"src/ciloptions.ml" 152 5059 5109 "src/ciloptions.ml" 152 5059 5110
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 153 5111 5118 "src/ciloptions.ml" 153 5111 5128
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 153 5111 5130 "src/ciloptions.ml" 153 5111 5133
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 153 5111 5134 "src/ciloptions.ml" 153 5111 5135
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 153 5111 5135 "src/ciloptions.ml" 153 5111 5152
+type(
+  bool ref
+)
+ident(
+  ext_ref Pretty.flushOften
+)
+"src/ciloptions.ml" 153 5111 5134 "src/ciloptions.ml" 153 5111 5152
+type(
+  bool
+)
+"src/ciloptions.ml" 153 5111 5129 "src/ciloptions.ml" 153 5111 5153
+type(
+  bool
+)
+"src/ciloptions.ml" 153 5111 5118 "src/ciloptions.ml" 153 5111 5153
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 152 5059 5063 "src/ciloptions.ml" 153 5111 5154
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 150 5009 5013 "src/ciloptions.ml" 153 5111 5154
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 155 5157 5161 "src/ciloptions.ml" 155 5157 5170
+type(
+  string
+)
+"src/ciloptions.ml" 156 5172 5184 "src/ciloptions.ml" 156 5172 5199
+type(
+  bool ref
+)
+ident(
+  ext_ref Cilutil.doCheck
+)
+"src/ciloptions.ml" 156 5172 5176 "src/ciloptions.ml" 156 5172 5199
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 157 5201 5206 "src/ciloptions.ml" 157 5201 5267
+type(
+  string
+)
+"src/ciloptions.ml" 157 5201 5268 "src/ciloptions.ml" 157 5201 5269
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 158 5270 5277 "src/ciloptions.ml" 158 5270 5287
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 158 5270 5288 "src/ciloptions.ml" 158 5270 5289
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 158 5270 5289 "src/ciloptions.ml" 158 5270 5304
+type(
+  bool ref
+)
+ident(
+  ext_ref Cilutil.doCheck
+)
+"src/ciloptions.ml" 158 5270 5288 "src/ciloptions.ml" 158 5270 5304
+type(
+  bool
+)
+"src/ciloptions.ml" 158 5270 5277 "src/ciloptions.ml" 158 5270 5304
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 157 5201 5205 "src/ciloptions.ml" 158 5270 5305
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 155 5157 5161 "src/ciloptions.ml" 158 5270 5305
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 160 5308 5312 "src/ciloptions.ml" 160 5308 5323
+type(
+  string
+)
+"src/ciloptions.ml" 161 5325 5339 "src/ciloptions.ml" 161 5325 5354
+type(
+  bool ref
+)
+ident(
+  ext_ref Cilutil.doCheck
+)
+"src/ciloptions.ml" 161 5325 5329 "src/ciloptions.ml" 161 5325 5354
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 162 5356 5361 "src/ciloptions.ml" 162 5356 5400
+type(
+  string
+)
+"src/ciloptions.ml" 162 5356 5401 "src/ciloptions.ml" 162 5356 5402
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 163 5403 5410 "src/ciloptions.ml" 163 5403 5420
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 163 5403 5422 "src/ciloptions.ml" 163 5403 5425
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 163 5403 5426 "src/ciloptions.ml" 163 5403 5427
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 163 5403 5427 "src/ciloptions.ml" 163 5403 5442
+type(
+  bool ref
+)
+ident(
+  ext_ref Cilutil.doCheck
+)
+"src/ciloptions.ml" 163 5403 5426 "src/ciloptions.ml" 163 5403 5442
+type(
+  bool
+)
+"src/ciloptions.ml" 163 5403 5421 "src/ciloptions.ml" 163 5403 5443
+type(
+  bool
+)
+"src/ciloptions.ml" 163 5403 5410 "src/ciloptions.ml" 163 5403 5443
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 162 5356 5360 "src/ciloptions.ml" 163 5403 5444
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 160 5308 5312 "src/ciloptions.ml" 163 5403 5444
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 165 5447 5451 "src/ciloptions.ml" 165 5447 5466
+type(
+  string
+)
+"src/ciloptions.ml" 165 5447 5482 "src/ciloptions.ml" 165 5447 5483
+type(
+  unit
+)
+"src/ciloptions.ml" 165 5447 5487 "src/ciloptions.ml" 165 5447 5502
+type(
+  bool ref
+)
+ident(
+  ext_ref Cilutil.doCheck
+)
+"src/ciloptions.ml" 165 5447 5503 "src/ciloptions.ml" 165 5447 5505
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 165 5447 5506 "src/ciloptions.ml" 165 5447 5510
+type(
+  bool
+)
+"src/ciloptions.ml" 165 5447 5487 "src/ciloptions.ml" 165 5447 5510
+type(
+  unit
+)
+"src/ciloptions.ml" 166 5512 5552 "src/ciloptions.ml" 166 5512 5574
+type(
+  bool ref
+)
+ident(
+  ext_ref Cilutil.strictChecking
+)
+"src/ciloptions.ml" 166 5512 5575 "src/ciloptions.ml" 166 5512 5577
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 166 5512 5578 "src/ciloptions.ml" 166 5512 5582
+type(
+  bool
+)
+"src/ciloptions.ml" 166 5512 5552 "src/ciloptions.ml" 166 5512 5582
+type(
+  unit
+)
+"src/ciloptions.ml" 165 5447 5487 "src/ciloptions.ml" 166 5512 5582
+type(
+  unit
+)
+"src/ciloptions.ml" 165 5447 5477 "src/ciloptions.ml" 166 5512 5583
+type(
+  unit -> unit
+)
+"src/ciloptions.ml" 165 5447 5468 "src/ciloptions.ml" 166 5512 5583
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 167 5585 5606 "src/ciloptions.ml" 167 5585 5669
+type(
+  string
+)
+"src/ciloptions.ml" 165 5447 5451 "src/ciloptions.ml" 167 5585 5669
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 168 5671 5675 "src/ciloptions.ml" 168 5671 5677
+type(
+  string
+)
+"src/ciloptions.ml" 168 5671 5693 "src/ciloptions.ml" 168 5671 5694
+type(
+  unit
+)
+"src/ciloptions.ml" 168 5671 5698 "src/ciloptions.ml" 168 5671 5700
+type(
+  unit
+)
+"src/ciloptions.ml" 168 5671 5688 "src/ciloptions.ml" 168 5671 5701
+type(
+  unit -> unit
+)
+"src/ciloptions.ml" 168 5671 5679 "src/ciloptions.ml" 168 5671 5701
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 168 5671 5703 "src/ciloptions.ml" 168 5671 5705
+type(
+  string
+)
+"src/ciloptions.ml" 168 5671 5675 "src/ciloptions.ml" 168 5671 5705
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 170 5708 5712 "src/ciloptions.ml" 170 5708 5725
+type(
+  string
+)
+"src/ciloptions.ml" 171 5727 5745 "src/ciloptions.ml" 171 5727 5746
+type(
+  unit
+)
+"src/ciloptions.ml" 172 5750 5766 "src/ciloptions.ml" 172 5750 5788
+type(
+  Cil.lineDirectiveStyle option ref
+)
+ident(
+  ext_ref Cil.lineDirectiveStyle
+)
+"src/ciloptions.ml" 172 5750 5789 "src/ciloptions.ml" 172 5750 5791
+type(
+  Cil.lineDirectiveStyle option ref -> Cil.lineDirectiveStyle option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 172 5750 5792 "src/ciloptions.ml" 172 5750 5796
+type(
+  Cil.lineDirectiveStyle option
+)
+"src/ciloptions.ml" 172 5750 5766 "src/ciloptions.ml" 172 5750 5796
+type(
+  unit
+)
+"src/ciloptions.ml" 173 5798 5814 "src/ciloptions.ml" 173 5798 5828
+type(
+  bool ref
+)
+ident(
+  ext_ref Cprint.printLn
+)
+"src/ciloptions.ml" 173 5798 5829 "src/ciloptions.ml" 173 5798 5831
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 173 5798 5832 "src/ciloptions.ml" 173 5798 5837
+type(
+  bool
+)
+"src/ciloptions.ml" 173 5798 5814 "src/ciloptions.ml" 173 5798 5837
+type(
+  unit
+)
+"src/ciloptions.ml" 172 5750 5766 "src/ciloptions.ml" 173 5798 5837
+type(
+  unit
+)
+"src/ciloptions.ml" 171 5727 5740 "src/ciloptions.ml" 173 5798 5838
+type(
+  unit -> unit
+)
+"src/ciloptions.ml" 171 5727 5731 "src/ciloptions.ml" 173 5798 5838
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 174 5840 5844 "src/ciloptions.ml" 174 5840 5891
+type(
+  string
+)
+"src/ciloptions.ml" 170 5708 5712 "src/ciloptions.ml" 174 5840 5891
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 176 5894 5898 "src/ciloptions.ml" 176 5894 5913
+type(
+  string
+)
+"src/ciloptions.ml" 177 5915 5933 "src/ciloptions.ml" 177 5915 5934
+type(
+  unit
+)
+"src/ciloptions.ml" 178 5938 5954 "src/ciloptions.ml" 178 5938 5976
+type(
+  Cil.lineDirectiveStyle option ref
+)
+ident(
+  ext_ref Cil.lineDirectiveStyle
+)
+"src/ciloptions.ml" 178 5938 5977 "src/ciloptions.ml" 178 5938 5979
+type(
+  Cil.lineDirectiveStyle option ref -> Cil.lineDirectiveStyle option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 178 5938 5985 "src/ciloptions.ml" 178 5938 6000
+type(
+  Cil.lineDirectiveStyle
+)
+"src/ciloptions.ml" 178 5938 5980 "src/ciloptions.ml" 178 5938 6000
+type(
+  Cil.lineDirectiveStyle option
+)
+"src/ciloptions.ml" 178 5938 5954 "src/ciloptions.ml" 178 5938 6000
+type(
+  unit
+)
+"src/ciloptions.ml" 179 6002 6018 "src/ciloptions.ml" 179 6002 6039
+type(
+  bool ref
+)
+ident(
+  ext_ref Cprint.printLnComment
+)
+"src/ciloptions.ml" 179 6002 6040 "src/ciloptions.ml" 179 6002 6042
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 179 6002 6043 "src/ciloptions.ml" 179 6002 6047
+type(
+  bool
+)
+"src/ciloptions.ml" 179 6002 6018 "src/ciloptions.ml" 179 6002 6047
+type(
+  unit
+)
+"src/ciloptions.ml" 178 5938 5954 "src/ciloptions.ml" 179 6002 6047
+type(
+  unit
+)
+"src/ciloptions.ml" 177 5915 5928 "src/ciloptions.ml" 179 6002 6048
+type(
+  unit -> unit
+)
+"src/ciloptions.ml" 177 5915 5919 "src/ciloptions.ml" 179 6002 6048
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 180 6050 6054 "src/ciloptions.ml" 180 6050 6119
+type(
+  string
+)
+"src/ciloptions.ml" 176 5894 5898 "src/ciloptions.ml" 180 6050 6119
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 182 6122 6126 "src/ciloptions.ml" 182 6122 6147
+type(
+  string
+)
+"src/ciloptions.ml" 183 6150 6168 "src/ciloptions.ml" 183 6150 6169
+type(
+  unit
+)
+"src/ciloptions.ml" 184 6173 6189 "src/ciloptions.ml" 184 6173 6211
+type(
+  Cil.lineDirectiveStyle option ref
+)
+ident(
+  ext_ref Cil.lineDirectiveStyle
+)
+"src/ciloptions.ml" 184 6173 6212 "src/ciloptions.ml" 184 6173 6214
+type(
+  Cil.lineDirectiveStyle option ref -> Cil.lineDirectiveStyle option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 184 6173 6220 "src/ciloptions.ml" 184 6173 6241
+type(
+  Cil.lineDirectiveStyle
+)
+"src/ciloptions.ml" 184 6173 6215 "src/ciloptions.ml" 184 6173 6241
+type(
+  Cil.lineDirectiveStyle option
+)
+"src/ciloptions.ml" 184 6173 6189 "src/ciloptions.ml" 184 6173 6241
+type(
+  unit
+)
+"src/ciloptions.ml" 185 6243 6259 "src/ciloptions.ml" 185 6243 6280
+type(
+  bool ref
+)
+ident(
+  ext_ref Cprint.printLnComment
+)
+"src/ciloptions.ml" 185 6243 6281 "src/ciloptions.ml" 185 6243 6283
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 185 6243 6284 "src/ciloptions.ml" 185 6243 6288
+type(
+  bool
+)
+"src/ciloptions.ml" 185 6243 6259 "src/ciloptions.ml" 185 6243 6288
+type(
+  unit
+)
+"src/ciloptions.ml" 184 6173 6189 "src/ciloptions.ml" 185 6243 6288
+type(
+  unit
+)
+"src/ciloptions.ml" 183 6150 6163 "src/ciloptions.ml" 185 6243 6289
+type(
+  unit -> unit
+)
+"src/ciloptions.ml" 183 6150 6154 "src/ciloptions.ml" 185 6243 6289
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 186 6291 6295 "src/ciloptions.ml" 186 6291 6388
+type(
+  string
+)
+"src/ciloptions.ml" 182 6122 6126 "src/ciloptions.ml" 186 6291 6388
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 188 6391 6395 "src/ciloptions.ml" 188 6391 6404
+type(
+  string
+)
+"src/ciloptions.ml" 189 6406 6418 "src/ciloptions.ml" 189 6406 6436
+type(
+  bool ref
+)
+ident(
+  ext_ref Cilutil.printStats
+)
+"src/ciloptions.ml" 189 6406 6410 "src/ciloptions.ml" 189 6406 6436
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 190 6438 6443 "src/ciloptions.ml" 190 6438 6499
+type(
+  string
+)
+"src/ciloptions.ml" 190 6438 6500 "src/ciloptions.ml" 190 6438 6501
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 191 6502 6509 "src/ciloptions.ml" 191 6502 6519
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 191 6502 6520 "src/ciloptions.ml" 191 6502 6521
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 191 6502 6521 "src/ciloptions.ml" 191 6502 6539
+type(
+  bool ref
+)
+ident(
+  ext_ref Cilutil.printStats
+)
+"src/ciloptions.ml" 191 6502 6520 "src/ciloptions.ml" 191 6502 6539
+type(
+  bool
+)
+"src/ciloptions.ml" 191 6502 6509 "src/ciloptions.ml" 191 6502 6539
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 190 6438 6442 "src/ciloptions.ml" 191 6502 6540
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 188 6391 6395 "src/ciloptions.ml" 191 6502 6540
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 193 6543 6547 "src/ciloptions.ml" 193 6543 6558
+type(
+  string
+)
+"src/ciloptions.ml" 194 6560 6574 "src/ciloptions.ml" 194 6560 6592
+type(
+  bool ref
+)
+ident(
+  ext_ref Cilutil.printStats
+)
+"src/ciloptions.ml" 194 6560 6564 "src/ciloptions.ml" 194 6560 6592
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 195 6594 6599 "src/ciloptions.ml" 195 6594 6625
+type(
+  string
+)
+"src/ciloptions.ml" 195 6594 6626 "src/ciloptions.ml" 195 6594 6627
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 196 6628 6635 "src/ciloptions.ml" 196 6628 6645
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 196 6628 6647 "src/ciloptions.ml" 196 6628 6650
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 196 6628 6651 "src/ciloptions.ml" 196 6628 6652
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 196 6628 6652 "src/ciloptions.ml" 196 6628 6670
+type(
+  bool ref
+)
+ident(
+  ext_ref Cilutil.printStats
+)
+"src/ciloptions.ml" 196 6628 6651 "src/ciloptions.ml" 196 6628 6670
+type(
+  bool
+)
+"src/ciloptions.ml" 196 6628 6646 "src/ciloptions.ml" 196 6628 6671
+type(
+  bool
+)
+"src/ciloptions.ml" 196 6628 6635 "src/ciloptions.ml" 196 6628 6671
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 195 6594 6598 "src/ciloptions.ml" 196 6628 6672
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 193 6543 6547 "src/ciloptions.ml" 196 6628 6672
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 198 6675 6679 "src/ciloptions.ml" 198 6675 6686
+type(
+  string
+)
+"src/ciloptions.ml" 199 6688 6704 "src/ciloptions.ml" 199 6688 6712
+type(
+  string -> (outfile -> unit) -> string -> unit
+)
+ident(
+  int_ref openFile "src/ciloptions.ml" 51 1949 1953 "src/ciloptions.ml" 51 1949 1961
+)
+"src/ciloptions.ml" 199 6688 6713 "src/ciloptions.ml" 199 6688 6718
+type(
+  string
+)
+"src/ciloptions.ml" 199 6688 6724 "src/ciloptions.ml" 199 6688 6726
+type(
+  outfile
+)
+ident(
+  def oc "src/ciloptions.ml" 199 6688 6730 "src/ciloptions.ml" 199 6688 6754
+)
+"src/ciloptions.ml" 199 6688 6730 "src/ciloptions.ml" 199 6688 6742
+type(
+  out_channel ref
+)
+ident(
+  ext_ref E.logChannel
+)
+"src/ciloptions.ml" 199 6688 6743 "src/ciloptions.ml" 199 6688 6745
+type(
+  out_channel ref -> out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 199 6688 6746 "src/ciloptions.ml" 199 6688 6748
+type(
+  outfile
+)
+ident(
+  int_ref oc "src/ciloptions.ml" 199 6688 6724 "src/ciloptions.ml" 199 6688 6726
+)
+"src/ciloptions.ml" 199 6688 6746 "src/ciloptions.ml" 199 6688 6754
+type(
+  out_channel
+)
+"src/ciloptions.ml" 199 6688 6730 "src/ciloptions.ml" 199 6688 6754
+type(
+  unit
+)
+"src/ciloptions.ml" 199 6688 6719 "src/ciloptions.ml" 199 6688 6755
+type(
+  outfile -> unit
+)
+"src/ciloptions.ml" 199 6688 6703 "src/ciloptions.ml" 199 6688 6756
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"src/ciloptions.ml" 199 6688 6692 "src/ciloptions.ml" 199 6688 6756
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 200 6758 6762 "src/ciloptions.ml" 200 6758 6826
+type(
+  string
+)
+"src/ciloptions.ml" 198 6675 6679 "src/ciloptions.ml" 200 6758 6826
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 202 6829 6833 "src/ciloptions.ml" 202 6829 6841
+type(
+  string
+)
+"src/ciloptions.ml" 203 6843 6861 "src/ciloptions.ml" 203 6843 6862
+type(
+  unit
+)
+"src/ciloptions.ml" 204 6866 6882 "src/ciloptions.ml" 204 6866 6894
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.msvcMode
+)
+"src/ciloptions.ml" 204 6866 6895 "src/ciloptions.ml" 204 6866 6897
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 204 6866 6898 "src/ciloptions.ml" 204 6866 6902
+type(
+  bool
+)
+"src/ciloptions.ml" 204 6866 6882 "src/ciloptions.ml" 204 6866 6902
+type(
+  unit
+)
+"src/ciloptions.ml" 205 6904 6920 "src/ciloptions.ml" 205 6904 6938
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Frontc.setMSVCMode
+)
+"src/ciloptions.ml" 205 6904 6939 "src/ciloptions.ml" 205 6904 6941
+type(
+  unit
+)
+"src/ciloptions.ml" 205 6904 6920 "src/ciloptions.ml" 205 6904 6941
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 206 6943 6962 "src/ciloptions.ml" 206 6943 6965
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 206 6943 6966 "src/ciloptions.ml" 206 6943 6981
+type(
+  bool
+)
+ident(
+  ext_ref Machdep.hasMSVC
+)
+"src/ciloptions.ml" 206 6943 6962 "src/ciloptions.ml" 206 6943 6981
+type(
+  bool
+)
+"src/ciloptions.ml" 207 6987 7005 "src/ciloptions.ml" 207 6987 7011
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ciloptions.ml" 207 6987 7013 "src/ciloptions.ml" 207 6987 7019
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.warn
+)
+"src/ciloptions.ml" 207 6987 7020 "src/ciloptions.ml" 207 6987 7149
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ciloptions.ml" 207 6987 7012 "src/ciloptions.ml" 207 6987 7150
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 207 6987 7005 "src/ciloptions.ml" 207 6987 7150
+type(
+  unit
+)
+"src/ciloptions.ml" 206 6943 6959 "src/ciloptions.ml" 207 6987 7150
+type(
+  unit
+)
+"src/ciloptions.ml" 205 6904 6920 "src/ciloptions.ml" 207 6987 7150
+type(
+  unit
+)
+"src/ciloptions.ml" 204 6866 6882 "src/ciloptions.ml" 207 6987 7150
+type(
+  unit
+)
+"src/ciloptions.ml" 203 6843 6856 "src/ciloptions.ml" 207 6987 7151
+type(
+  unit -> unit
+)
+"src/ciloptions.ml" 203 6843 6847 "src/ciloptions.ml" 207 6987 7151
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 208 7153 7157 "src/ciloptions.ml" 208 7153 7201
+type(
+  string
+)
+"src/ciloptions.ml" 202 6829 6833 "src/ciloptions.ml" 208 7153 7201
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 210 7204 7207 "src/ciloptions.ml" 210 7204 7221
+type(
+  string
+)
+"src/ciloptions.ml" 211 7223 7240 "src/ciloptions.ml" 211 7223 7241
+type(
+  unit
+)
+"src/ciloptions.ml" 213 7254 7265 "src/ciloptions.ml" 213 7254 7277
+type(
+  string
+)
+ident(
+  def machineModel "src/ciloptions.ml" 214 7308 7315 "src/ciloptions.ml" 214 7308 7375
+)
+"src/ciloptions.ml" 213 7254 7280 "src/ciloptions.ml" 213 7254 7290
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"src/ciloptions.ml" 213 7254 7291 "src/ciloptions.ml" 213 7254 7304
+type(
+  string
+)
+"src/ciloptions.ml" 213 7254 7280 "src/ciloptions.ml" 213 7254 7304
+type(
+  string
+)
+"src/ciloptions.ml" 214 7308 7315 "src/ciloptions.ml" 214 7308 7329
+type(
+  Machdep.mach option ref
+)
+ident(
+  ext_ref Cil.envMachine
+)
+"src/ciloptions.ml" 214 7308 7330 "src/ciloptions.ml" 214 7308 7332
+type(
+  Machdep.mach option ref -> Machdep.mach option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 214 7308 7339 "src/ciloptions.ml" 214 7308 7360
+type(
+  string -> Machdep.mach
+)
+ident(
+  ext_ref Machdepenv.modelParse
+)
+"src/ciloptions.ml" 214 7308 7361 "src/ciloptions.ml" 214 7308 7373
+type(
+  string
+)
+ident(
+  int_ref machineModel "src/ciloptions.ml" 213 7254 7265 "src/ciloptions.ml" 213 7254 7277
+)
+"src/ciloptions.ml" 214 7308 7338 "src/ciloptions.ml" 214 7308 7374
+call(
+  stack
+)
+type(
+  Machdep.mach
+)
+"src/ciloptions.ml" 214 7308 7333 "src/ciloptions.ml" 214 7308 7374
+type(
+  Machdep.mach option
+)
+"src/ciloptions.ml" 214 7308 7315 "src/ciloptions.ml" 214 7308 7375
+type(
+  unit
+)
+"src/ciloptions.ml" 213 7254 7261 "src/ciloptions.ml" 214 7308 7375
+type(
+  unit
+)
+"src/ciloptions.ml" 216 7387 7394 "src/ciloptions.ml" 216 7387 7403
+type(
+  exn
+)
+"src/ciloptions.ml" 217 7407 7409 "src/ciloptions.ml" 217 7407 7415
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ciloptions.ml" 217 7407 7417 "src/ciloptions.ml" 217 7407 7424
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.error
+)
+"src/ciloptions.ml" 217 7407 7425 "src/ciloptions.ml" 217 7407 7470
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ciloptions.ml" 217 7407 7416 "src/ciloptions.ml" 217 7407 7471
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 217 7407 7409 "src/ciloptions.ml" 217 7407 7471
+type(
+  unit
+)
+"src/ciloptions.ml" 218 7472 7487 "src/ciloptions.ml" 218 7472 7490
+type(
+  string
+)
+ident(
+  def msg "src/ciloptions.ml" 219 7494 7496 "src/ciloptions.ml" 219 7494 7559
+)
+"src/ciloptions.ml" 218 7472 7479 "src/ciloptions.ml" 218 7472 7490
+type(
+  exn
+)
+"src/ciloptions.ml" 219 7494 7496 "src/ciloptions.ml" 219 7494 7502
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ciloptions.ml" 219 7494 7504 "src/ciloptions.ml" 219 7494 7511
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.error
+)
+"src/ciloptions.ml" 219 7494 7512 "src/ciloptions.ml" 219 7494 7554
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ciloptions.ml" 219 7494 7555 "src/ciloptions.ml" 219 7494 7558
+type(
+  string
+)
+ident(
+  int_ref msg "src/ciloptions.ml" 218 7472 7487 "src/ciloptions.ml" 218 7472 7490
+)
+"src/ciloptions.ml" 219 7494 7503 "src/ciloptions.ml" 219 7494 7559
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ciloptions.ml" 219 7494 7496 "src/ciloptions.ml" 219 7494 7559
+type(
+  unit
+)
+"src/ciloptions.ml" 212 7245 7250 "src/ciloptions.ml" 219 7494 7559
+type(
+  unit
+)
+"src/ciloptions.ml" 211 7223 7235 "src/ciloptions.ml" 219 7494 7560
+type(
+  unit -> unit
+)
+"src/ciloptions.ml" 211 7223 7226 "src/ciloptions.ml" 219 7494 7560
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 220 7562 7565 "src/ciloptions.ml" 220 7562 7631
+type(
+  string
+)
+"src/ciloptions.ml" 210 7204 7207 "src/ciloptions.ml" 220 7562 7631
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 222 7634 7638 "src/ciloptions.ml" 222 7634 7664
+type(
+  string
+)
+"src/ciloptions.ml" 223 7666 7678 "src/ciloptions.ml" 223 7666 7709
+type(
+  bool ref
+)
+ident(
+  ext_ref Mergecil.ignore_merge_conflicts
+)
+"src/ciloptions.ml" 223 7666 7670 "src/ciloptions.ml" 223 7666 7709
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 224 7711 7716 "src/ciloptions.ml" 224 7711 7743
+type(
+  string
+)
+"src/ciloptions.ml" 224 7711 7744 "src/ciloptions.ml" 224 7711 7745
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 225 7746 7753 "src/ciloptions.ml" 225 7746 7763
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 225 7746 7764 "src/ciloptions.ml" 225 7746 7765
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 225 7746 7765 "src/ciloptions.ml" 225 7746 7796
+type(
+  bool ref
+)
+ident(
+  ext_ref Mergecil.ignore_merge_conflicts
+)
+"src/ciloptions.ml" 225 7746 7764 "src/ciloptions.ml" 225 7746 7796
+type(
+  bool
+)
+"src/ciloptions.ml" 225 7746 7753 "src/ciloptions.ml" 225 7746 7796
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 224 7711 7715 "src/ciloptions.ml" 225 7746 7797
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 222 7634 7638 "src/ciloptions.ml" 225 7746 7797
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 233 8026 8030 "src/ciloptions.ml" 233 8026 8045
+type(
+  string
+)
+"src/ciloptions.ml" 234 8047 8059 "src/ciloptions.ml" 234 8047 8078
+type(
+  bool ref
+)
+ident(
+  ext_ref Cilutil.sliceGlobal
+)
+"src/ciloptions.ml" 234 8047 8051 "src/ciloptions.ml" 234 8047 8078
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 235 8080 8084 "src/ciloptions.ml" 235 8080 8142
+type(
+  string
+)
+"src/ciloptions.ml" 233 8026 8030 "src/ciloptions.ml" 235 8080 8142
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 238 8187 8191 "src/ciloptions.ml" 238 8187 8197
+type(
+  string
+)
+"src/ciloptions.ml" 239 8199 8214 "src/ciloptions.ml" 239 8199 8233
+type(
+  string -> unit
+)
+ident(
+  ext_ref Trace.traceAddMulti
+)
+"src/ciloptions.ml" 239 8199 8203 "src/ciloptions.ml" 239 8199 8233
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 240 8235 8239 "src/ciloptions.ml" 240 8235 8282
+type(
+  string
+)
+"src/ciloptions.ml" 238 8187 8191 "src/ciloptions.ml" 240 8235 8282
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 242 8285 8289 "src/ciloptions.ml" 242 8285 8303
+type(
+  string
+)
+"src/ciloptions.ml" 243 8305 8320 "src/ciloptions.ml" 243 8305 8334
+type(
+  string -> unit
+)
+ident(
+  int_ref parseExtraFile "src/ciloptions.ml" 65 2416 2420 "src/ciloptions.ml" 65 2416 2434
+)
+"src/ciloptions.ml" 243 8305 8309 "src/ciloptions.ml" 243 8305 8334
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 244 8336 8340 "src/ciloptions.ml" 244 8336 8441
+type(
+  string
+)
+"src/ciloptions.ml" 242 8285 8289 "src/ciloptions.ml" 244 8336 8441
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 247 8471 8475 "src/ciloptions.ml" 247 8471 8477
+type(
+  string
+)
+"src/ciloptions.ml" 247 8471 8493 "src/ciloptions.ml" 247 8471 8495
+type(
+  unit
+)
+"src/ciloptions.ml" 247 8471 8499 "src/ciloptions.ml" 247 8471 8501
+type(
+  unit
+)
+"src/ciloptions.ml" 247 8471 8488 "src/ciloptions.ml" 247 8471 8502
+type(
+  unit -> unit
+)
+"src/ciloptions.ml" 247 8471 8479 "src/ciloptions.ml" 247 8471 8502
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 247 8471 8504 "src/ciloptions.ml" 247 8471 8531
+type(
+  string
+)
+"src/ciloptions.ml" 247 8471 8475 "src/ciloptions.ml" 247 8471 8531
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 249 8534 8538 "src/ciloptions.ml" 249 8534 8556
+type(
+  string
+)
+"src/ciloptions.ml" 250 8558 8570 "src/ciloptions.ml" 250 8558 8588
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.lowerConstants
+)
+"src/ciloptions.ml" 250 8558 8562 "src/ciloptions.ml" 250 8558 8588
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 251 8590 8595 "src/ciloptions.ml" 251 8590 8624
+type(
+  string
+)
+"src/ciloptions.ml" 251 8590 8625 "src/ciloptions.ml" 251 8590 8626
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 251 8590 8627 "src/ciloptions.ml" 251 8590 8637
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 251 8590 8638 "src/ciloptions.ml" 251 8590 8639
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 251 8590 8639 "src/ciloptions.ml" 251 8590 8657
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.lowerConstants
+)
+"src/ciloptions.ml" 251 8590 8638 "src/ciloptions.ml" 251 8590 8657
+type(
+  bool
+)
+"src/ciloptions.ml" 251 8590 8627 "src/ciloptions.ml" 251 8590 8657
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 251 8590 8594 "src/ciloptions.ml" 251 8590 8658
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 249 8534 8538 "src/ciloptions.ml" 251 8590 8658
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 253 8661 8665 "src/ciloptions.ml" 253 8661 8685
+type(
+  string
+)
+"src/ciloptions.ml" 254 8687 8701 "src/ciloptions.ml" 254 8687 8719
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.lowerConstants
+)
+"src/ciloptions.ml" 254 8687 8691 "src/ciloptions.ml" 254 8687 8719
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 255 8721 8726 "src/ciloptions.ml" 255 8721 8762
+type(
+  string
+)
+"src/ciloptions.ml" 255 8721 8763 "src/ciloptions.ml" 255 8721 8764
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 256 8765 8772 "src/ciloptions.ml" 256 8765 8782
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 256 8765 8784 "src/ciloptions.ml" 256 8765 8787
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 256 8765 8788 "src/ciloptions.ml" 256 8765 8789
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 256 8765 8789 "src/ciloptions.ml" 256 8765 8807
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.lowerConstants
+)
+"src/ciloptions.ml" 256 8765 8788 "src/ciloptions.ml" 256 8765 8807
+type(
+  bool
+)
+"src/ciloptions.ml" 256 8765 8783 "src/ciloptions.ml" 256 8765 8808
+type(
+  bool
+)
+"src/ciloptions.ml" 256 8765 8772 "src/ciloptions.ml" 256 8765 8808
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 255 8721 8725 "src/ciloptions.ml" 256 8765 8809
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 253 8661 8665 "src/ciloptions.ml" 256 8765 8809
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 258 8812 8816 "src/ciloptions.ml" 258 8812 8839
+type(
+  string
+)
+"src/ciloptions.ml" 259 8841 8853 "src/ciloptions.ml" 259 8841 8876
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.insertImplicitCasts
+)
+"src/ciloptions.ml" 259 8841 8845 "src/ciloptions.ml" 259 8841 8876
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 260 8878 8883 "src/ciloptions.ml" 260 8878 8907
+type(
+  string
+)
+"src/ciloptions.ml" 260 8878 8908 "src/ciloptions.ml" 260 8878 8909
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 260 8878 8910 "src/ciloptions.ml" 260 8878 8920
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 260 8878 8921 "src/ciloptions.ml" 260 8878 8922
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 260 8878 8922 "src/ciloptions.ml" 260 8878 8945
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.insertImplicitCasts
+)
+"src/ciloptions.ml" 260 8878 8921 "src/ciloptions.ml" 260 8878 8945
+type(
+  bool
+)
+"src/ciloptions.ml" 260 8878 8910 "src/ciloptions.ml" 260 8878 8945
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 260 8878 8882 "src/ciloptions.ml" 260 8878 8946
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 258 8812 8816 "src/ciloptions.ml" 260 8878 8946
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 262 8949 8953 "src/ciloptions.ml" 262 8949 8978
+type(
+  string
+)
+"src/ciloptions.ml" 263 8980 8994 "src/ciloptions.ml" 263 8980 9017
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.insertImplicitCasts
+)
+"src/ciloptions.ml" 263 8980 8984 "src/ciloptions.ml" 263 8980 9017
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 264 9019 9024 "src/ciloptions.ml" 264 9019 9055
+type(
+  string
+)
+"src/ciloptions.ml" 264 9019 9056 "src/ciloptions.ml" 264 9019 9057
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 265 9058 9065 "src/ciloptions.ml" 265 9058 9075
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 265 9058 9077 "src/ciloptions.ml" 265 9058 9080
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 265 9058 9081 "src/ciloptions.ml" 265 9058 9082
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 265 9058 9082 "src/ciloptions.ml" 265 9058 9105
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.insertImplicitCasts
+)
+"src/ciloptions.ml" 265 9058 9081 "src/ciloptions.ml" 265 9058 9105
+type(
+  bool
+)
+"src/ciloptions.ml" 265 9058 9076 "src/ciloptions.ml" 265 9058 9106
+type(
+  bool
+)
+"src/ciloptions.ml" 265 9058 9065 "src/ciloptions.ml" 265 9058 9106
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 264 9019 9023 "src/ciloptions.ml" 265 9058 9107
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 262 8949 8953 "src/ciloptions.ml" 265 9058 9107
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 267 9110 9114 "src/ciloptions.ml" 267 9110 9132
+type(
+  string
+)
+"src/ciloptions.ml" 268 9134 9146 "src/ciloptions.ml" 268 9134 9169
+type(
+  bool ref
+)
+ident(
+  ext_ref Cabs2cil.forceRLArgEval
+)
+"src/ciloptions.ml" 268 9134 9138 "src/ciloptions.ml" 268 9134 9169
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 269 9171 9176 "src/ciloptions.ml" 269 9171 9232
+type(
+  string
+)
+"src/ciloptions.ml" 269 9171 9233 "src/ciloptions.ml" 269 9171 9234
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 270 9235 9242 "src/ciloptions.ml" 270 9235 9252
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 270 9235 9253 "src/ciloptions.ml" 270 9235 9254
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 270 9235 9254 "src/ciloptions.ml" 270 9235 9277
+type(
+  bool ref
+)
+ident(
+  ext_ref Cabs2cil.forceRLArgEval
+)
+"src/ciloptions.ml" 270 9235 9253 "src/ciloptions.ml" 270 9235 9277
+type(
+  bool
+)
+"src/ciloptions.ml" 270 9235 9242 "src/ciloptions.ml" 270 9235 9277
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 269 9171 9175 "src/ciloptions.ml" 270 9235 9278
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 267 9110 9114 "src/ciloptions.ml" 270 9235 9278
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 272 9281 9285 "src/ciloptions.ml" 272 9281 9305
+type(
+  string
+)
+"src/ciloptions.ml" 273 9307 9321 "src/ciloptions.ml" 273 9307 9344
+type(
+  bool ref
+)
+ident(
+  ext_ref Cabs2cil.forceRLArgEval
+)
+"src/ciloptions.ml" 273 9307 9311 "src/ciloptions.ml" 273 9307 9344
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 274 9346 9351 "src/ciloptions.ml" 274 9346 9402
+type(
+  string
+)
+"src/ciloptions.ml" 274 9346 9403 "src/ciloptions.ml" 274 9346 9404
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 275 9405 9412 "src/ciloptions.ml" 275 9405 9422
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 275 9405 9424 "src/ciloptions.ml" 275 9405 9427
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 275 9405 9428 "src/ciloptions.ml" 275 9405 9429
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 275 9405 9429 "src/ciloptions.ml" 275 9405 9452
+type(
+  bool ref
+)
+ident(
+  ext_ref Cabs2cil.forceRLArgEval
+)
+"src/ciloptions.ml" 275 9405 9428 "src/ciloptions.ml" 275 9405 9452
+type(
+  bool
+)
+"src/ciloptions.ml" 275 9405 9423 "src/ciloptions.ml" 275 9405 9453
+type(
+  bool
+)
+"src/ciloptions.ml" 275 9405 9412 "src/ciloptions.ml" 275 9405 9453
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 274 9346 9350 "src/ciloptions.ml" 275 9405 9454
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 272 9281 9285 "src/ciloptions.ml" 275 9405 9454
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 277 9457 9461 "src/ciloptions.ml" 277 9457 9470
+type(
+  string
+)
+"src/ciloptions.ml" 278 9472 9489 "src/ciloptions.ml" 278 9472 9490
+type(
+  int
+)
+ident(
+  def n "src/ciloptions.ml" 278 9472 9494 "src/ciloptions.ml" 278 9472 9513
+)
+"src/ciloptions.ml" 278 9472 9494 "src/ciloptions.ml" 278 9472 9508
+type(
+  int ref
+)
+ident(
+  ext_ref Cabs2cil.nocil
+)
+"src/ciloptions.ml" 278 9472 9509 "src/ciloptions.ml" 278 9472 9511
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 278 9472 9512 "src/ciloptions.ml" 278 9472 9513
+type(
+  int
+)
+ident(
+  int_ref n "src/ciloptions.ml" 278 9472 9489 "src/ciloptions.ml" 278 9472 9490
+)
+"src/ciloptions.ml" 278 9472 9494 "src/ciloptions.ml" 278 9472 9513
+type(
+  unit
+)
+"src/ciloptions.ml" 278 9472 9484 "src/ciloptions.ml" 278 9472 9514
+type(
+  int -> unit
+)
+"src/ciloptions.ml" 278 9472 9476 "src/ciloptions.ml" 278 9472 9514
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 279 9516 9520 "src/ciloptions.ml" 279 9516 9583
+type(
+  string
+)
+"src/ciloptions.ml" 277 9457 9461 "src/ciloptions.ml" 279 9516 9583
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 281 9586 9590 "src/ciloptions.ml" 281 9586 9615
+type(
+  string
+)
+"src/ciloptions.ml" 282 9617 9629 "src/ciloptions.ml" 282 9617 9654
+type(
+  bool ref
+)
+ident(
+  ext_ref Cabs2cil.allowDuplication
+)
+"src/ciloptions.ml" 282 9617 9621 "src/ciloptions.ml" 282 9617 9654
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 283 9656 9661 "src/ciloptions.ml" 283 9656 9707
+type(
+  string
+)
+"src/ciloptions.ml" 283 9656 9708 "src/ciloptions.ml" 283 9656 9709
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 284 9710 9717 "src/ciloptions.ml" 284 9710 9727
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 284 9710 9728 "src/ciloptions.ml" 284 9710 9729
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 284 9710 9729 "src/ciloptions.ml" 284 9710 9754
+type(
+  bool ref
+)
+ident(
+  ext_ref Cabs2cil.allowDuplication
+)
+"src/ciloptions.ml" 284 9710 9728 "src/ciloptions.ml" 284 9710 9754
+type(
+  bool
+)
+"src/ciloptions.ml" 284 9710 9717 "src/ciloptions.ml" 284 9710 9754
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 283 9656 9660 "src/ciloptions.ml" 284 9710 9755
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 281 9586 9590 "src/ciloptions.ml" 284 9710 9755
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 286 9758 9762 "src/ciloptions.ml" 286 9758 9785
+type(
+  string
+)
+"src/ciloptions.ml" 287 9787 9801 "src/ciloptions.ml" 287 9787 9826
+type(
+  bool ref
+)
+ident(
+  ext_ref Cabs2cil.allowDuplication
+)
+"src/ciloptions.ml" 287 9787 9791 "src/ciloptions.ml" 287 9787 9826
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 288 9828 9833 "src/ciloptions.ml" 288 9828 9886
+type(
+  string
+)
+"src/ciloptions.ml" 288 9828 9887 "src/ciloptions.ml" 288 9828 9888
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 289 9889 9896 "src/ciloptions.ml" 289 9889 9906
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 289 9889 9908 "src/ciloptions.ml" 289 9889 9911
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 289 9889 9912 "src/ciloptions.ml" 289 9889 9913
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 289 9889 9913 "src/ciloptions.ml" 289 9889 9938
+type(
+  bool ref
+)
+ident(
+  ext_ref Cabs2cil.allowDuplication
+)
+"src/ciloptions.ml" 289 9889 9912 "src/ciloptions.ml" 289 9889 9938
+type(
+  bool
+)
+"src/ciloptions.ml" 289 9889 9907 "src/ciloptions.ml" 289 9889 9939
+type(
+  bool
+)
+"src/ciloptions.ml" 289 9889 9896 "src/ciloptions.ml" 289 9889 9939
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 288 9828 9832 "src/ciloptions.ml" 289 9889 9940
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 286 9758 9762 "src/ciloptions.ml" 289 9889 9940
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 291 9943 9947 "src/ciloptions.ml" 291 9943 9967
+type(
+  string
+)
+"src/ciloptions.ml" 292 9969 9981 "src/ciloptions.ml" 292 9969 10001
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.makeStaticGlobal
+)
+"src/ciloptions.ml" 292 9969 9973 "src/ciloptions.ml" 292 9969 10001
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 293 10003 10008 "src/ciloptions.ml" 293 10003 10063
+type(
+  string
+)
+"src/ciloptions.ml" 293 10003 10064 "src/ciloptions.ml" 293 10003 10065
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 294 10066 10073 "src/ciloptions.ml" 294 10066 10083
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 294 10066 10084 "src/ciloptions.ml" 294 10066 10085
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 294 10066 10085 "src/ciloptions.ml" 294 10066 10105
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.makeStaticGlobal
+)
+"src/ciloptions.ml" 294 10066 10084 "src/ciloptions.ml" 294 10066 10105
+type(
+  bool
+)
+"src/ciloptions.ml" 294 10066 10073 "src/ciloptions.ml" 294 10066 10105
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 293 10003 10007 "src/ciloptions.ml" 294 10066 10106
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 291 9943 9947 "src/ciloptions.ml" 294 10066 10106
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 296 10109 10113 "src/ciloptions.ml" 296 10109 10135
+type(
+  string
+)
+"src/ciloptions.ml" 297 10137 10151 "src/ciloptions.ml" 297 10137 10171
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.makeStaticGlobal
+)
+"src/ciloptions.ml" 297 10137 10141 "src/ciloptions.ml" 297 10137 10171
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 298 10173 10179 "src/ciloptions.ml" 298 10173 10225
+type(
+  string
+)
+"src/ciloptions.ml" 298 10173 10226 "src/ciloptions.ml" 298 10173 10227
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 299 10228 10235 "src/ciloptions.ml" 299 10228 10245
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 299 10228 10247 "src/ciloptions.ml" 299 10228 10250
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 299 10228 10251 "src/ciloptions.ml" 299 10228 10252
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 299 10228 10252 "src/ciloptions.ml" 299 10228 10272
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.makeStaticGlobal
+)
+"src/ciloptions.ml" 299 10228 10251 "src/ciloptions.ml" 299 10228 10272
+type(
+  bool
+)
+"src/ciloptions.ml" 299 10228 10246 "src/ciloptions.ml" 299 10228 10273
+type(
+  bool
+)
+"src/ciloptions.ml" 299 10228 10235 "src/ciloptions.ml" 299 10228 10273
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 298 10173 10178 "src/ciloptions.ml" 299 10228 10274
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 296 10109 10113 "src/ciloptions.ml" 299 10228 10274
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 301 10277 10281 "src/ciloptions.ml" 301 10277 10304
+type(
+  string
+)
+"src/ciloptions.ml" 302 10306 10318 "src/ciloptions.ml" 302 10306 10341
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.useLogicalOperators
+)
+"src/ciloptions.ml" 302 10306 10310 "src/ciloptions.ml" 302 10306 10341
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 303 10343 10348 "src/ciloptions.ml" 303 10343 10416
+type(
+  string
+)
+"src/ciloptions.ml" 303 10343 10417 "src/ciloptions.ml" 303 10343 10418
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 304 10419 10426 "src/ciloptions.ml" 304 10419 10496
+type(
+  string
+)
+"src/ciloptions.ml" 304 10419 10497 "src/ciloptions.ml" 304 10419 10498
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 305 10499 10506 "src/ciloptions.ml" 305 10499 10516
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 305 10499 10517 "src/ciloptions.ml" 305 10499 10518
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 305 10499 10518 "src/ciloptions.ml" 305 10499 10541
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.useLogicalOperators
+)
+"src/ciloptions.ml" 305 10499 10517 "src/ciloptions.ml" 305 10499 10541
+type(
+  bool
+)
+"src/ciloptions.ml" 305 10499 10506 "src/ciloptions.ml" 305 10499 10541
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 304 10419 10426 "src/ciloptions.ml" 305 10499 10541
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 303 10343 10347 "src/ciloptions.ml" 305 10499 10542
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 301 10277 10281 "src/ciloptions.ml" 305 10499 10542
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 307 10545 10549 "src/ciloptions.ml" 307 10545 10574
+type(
+  string
+)
+"src/ciloptions.ml" 308 10576 10590 "src/ciloptions.ml" 308 10576 10613
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.useLogicalOperators
+)
+"src/ciloptions.ml" 308 10576 10580 "src/ciloptions.ml" 308 10576 10613
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 309 10615 10621 "src/ciloptions.ml" 309 10615 10663
+type(
+  string
+)
+"src/ciloptions.ml" 309 10615 10664 "src/ciloptions.ml" 309 10615 10665
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 310 10666 10673 "src/ciloptions.ml" 310 10666 10683
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 310 10666 10685 "src/ciloptions.ml" 310 10666 10688
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 310 10666 10689 "src/ciloptions.ml" 310 10666 10690
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 310 10666 10690 "src/ciloptions.ml" 310 10666 10713
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.useLogicalOperators
+)
+"src/ciloptions.ml" 310 10666 10689 "src/ciloptions.ml" 310 10666 10713
+type(
+  bool
+)
+"src/ciloptions.ml" 310 10666 10684 "src/ciloptions.ml" 310 10666 10714
+type(
+  bool
+)
+"src/ciloptions.ml" 310 10666 10673 "src/ciloptions.ml" 310 10666 10714
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 309 10615 10620 "src/ciloptions.ml" 310 10666 10715
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 307 10545 10549 "src/ciloptions.ml" 310 10666 10715
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 312 10718 10722 "src/ciloptions.ml" 312 10718 10741
+type(
+  string
+)
+"src/ciloptions.ml" 313 10743 10755 "src/ciloptions.ml" 313 10743 10774
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.useComputedGoto
+)
+"src/ciloptions.ml" 313 10743 10747 "src/ciloptions.ml" 313 10743 10774
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 314 10776 10781 "src/ciloptions.ml" 314 10776 10810
+type(
+  string
+)
+"src/ciloptions.ml" 314 10776 10811 "src/ciloptions.ml" 314 10776 10812
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 315 10813 10820 "src/ciloptions.ml" 315 10813 10830
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 315 10813 10831 "src/ciloptions.ml" 315 10813 10832
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 315 10813 10832 "src/ciloptions.ml" 315 10813 10851
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.useComputedGoto
+)
+"src/ciloptions.ml" 315 10813 10831 "src/ciloptions.ml" 315 10813 10851
+type(
+  bool
+)
+"src/ciloptions.ml" 315 10813 10820 "src/ciloptions.ml" 315 10813 10851
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 314 10776 10780 "src/ciloptions.ml" 315 10813 10852
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 312 10718 10722 "src/ciloptions.ml" 315 10813 10852
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 317 10855 10859 "src/ciloptions.ml" 317 10855 10880
+type(
+  string
+)
+"src/ciloptions.ml" 318 10882 10896 "src/ciloptions.ml" 318 10882 10915
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.useComputedGoto
+)
+"src/ciloptions.ml" 318 10882 10886 "src/ciloptions.ml" 318 10882 10915
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 319 10917 10923 "src/ciloptions.ml" 319 10917 10970
+type(
+  string
+)
+"src/ciloptions.ml" 319 10917 10971 "src/ciloptions.ml" 319 10917 10972
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 320 10973 10980 "src/ciloptions.ml" 320 10973 10990
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 320 10973 10992 "src/ciloptions.ml" 320 10973 10995
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 320 10973 10996 "src/ciloptions.ml" 320 10973 10997
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 320 10973 10997 "src/ciloptions.ml" 320 10973 11016
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.useComputedGoto
+)
+"src/ciloptions.ml" 320 10973 10996 "src/ciloptions.ml" 320 10973 11016
+type(
+  bool
+)
+"src/ciloptions.ml" 320 10973 10991 "src/ciloptions.ml" 320 10973 11017
+type(
+  bool
+)
+"src/ciloptions.ml" 320 10973 10980 "src/ciloptions.ml" 320 10973 11017
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 319 10917 10922 "src/ciloptions.ml" 320 10973 11018
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 317 10855 10859 "src/ciloptions.ml" 320 10973 11018
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 322 11021 11025 "src/ciloptions.ml" 322 11021 11041
+type(
+  string
+)
+"src/ciloptions.ml" 323 11043 11055 "src/ciloptions.ml" 323 11043 11071
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.useCaseRange
+)
+"src/ciloptions.ml" 323 11043 11047 "src/ciloptions.ml" 323 11043 11071
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 324 11073 11078 "src/ciloptions.ml" 324 11073 11119
+type(
+  string
+)
+"src/ciloptions.ml" 324 11073 11120 "src/ciloptions.ml" 324 11073 11121
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 325 11122 11129 "src/ciloptions.ml" 325 11122 11139
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 325 11122 11140 "src/ciloptions.ml" 325 11122 11141
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 325 11122 11141 "src/ciloptions.ml" 325 11122 11157
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.useCaseRange
+)
+"src/ciloptions.ml" 325 11122 11140 "src/ciloptions.ml" 325 11122 11157
+type(
+  bool
+)
+"src/ciloptions.ml" 325 11122 11129 "src/ciloptions.ml" 325 11122 11157
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 324 11073 11077 "src/ciloptions.ml" 325 11122 11158
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 322 11021 11025 "src/ciloptions.ml" 325 11122 11158
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 327 11161 11165 "src/ciloptions.ml" 327 11161 11183
+type(
+  string
+)
+"src/ciloptions.ml" 328 11185 11199 "src/ciloptions.ml" 328 11185 11215
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.useCaseRange
+)
+"src/ciloptions.ml" 328 11185 11189 "src/ciloptions.ml" 328 11185 11215
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 329 11217 11223 "src/ciloptions.ml" 329 11217 11268
+type(
+  string
+)
+"src/ciloptions.ml" 329 11217 11269 "src/ciloptions.ml" 329 11217 11270
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 330 11271 11278 "src/ciloptions.ml" 330 11271 11288
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 330 11271 11290 "src/ciloptions.ml" 330 11271 11293
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 330 11271 11294 "src/ciloptions.ml" 330 11271 11295
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 330 11271 11295 "src/ciloptions.ml" 330 11271 11311
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.useCaseRange
+)
+"src/ciloptions.ml" 330 11271 11294 "src/ciloptions.ml" 330 11271 11311
+type(
+  bool
+)
+"src/ciloptions.ml" 330 11271 11289 "src/ciloptions.ml" 330 11271 11312
+type(
+  bool
+)
+"src/ciloptions.ml" 330 11271 11278 "src/ciloptions.ml" 330 11271 11312
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 329 11217 11222 "src/ciloptions.ml" 330 11271 11313
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 327 11161 11165 "src/ciloptions.ml" 330 11271 11313
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 332 11316 11320 "src/ciloptions.ml" 332 11316 11334
+type(
+  string
+)
+"src/ciloptions.ml" 333 11336 11348 "src/ciloptions.ml" 333 11336 11365
+type(
+  bool ref
+)
+ident(
+  ext_ref Rmtmps.keepUnused
+)
+"src/ciloptions.ml" 333 11336 11340 "src/ciloptions.ml" 333 11336 11365
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 334 11367 11372 "src/ciloptions.ml" 334 11367 11419
+type(
+  string
+)
+"src/ciloptions.ml" 334 11367 11420 "src/ciloptions.ml" 334 11367 11421
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 335 11422 11429 "src/ciloptions.ml" 335 11422 11439
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 335 11422 11440 "src/ciloptions.ml" 335 11422 11441
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 335 11422 11441 "src/ciloptions.ml" 335 11422 11458
+type(
+  bool ref
+)
+ident(
+  ext_ref Rmtmps.keepUnused
+)
+"src/ciloptions.ml" 335 11422 11440 "src/ciloptions.ml" 335 11422 11458
+type(
+  bool
+)
+"src/ciloptions.ml" 335 11422 11429 "src/ciloptions.ml" 335 11422 11458
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 334 11367 11371 "src/ciloptions.ml" 335 11422 11459
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 332 11316 11320 "src/ciloptions.ml" 335 11422 11459
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 337 11462 11466 "src/ciloptions.ml" 337 11462 11482
+type(
+  string
+)
+"src/ciloptions.ml" 338 11484 11498 "src/ciloptions.ml" 338 11484 11515
+type(
+  bool ref
+)
+ident(
+  ext_ref Rmtmps.keepUnused
+)
+"src/ciloptions.ml" 338 11484 11488 "src/ciloptions.ml" 338 11484 11515
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 339 11517 11522 "src/ciloptions.ml" 339 11517 11558
+type(
+  string
+)
+"src/ciloptions.ml" 339 11517 11559 "src/ciloptions.ml" 339 11517 11560
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 340 11561 11568 "src/ciloptions.ml" 340 11561 11578
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 340 11561 11580 "src/ciloptions.ml" 340 11561 11583
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 340 11561 11584 "src/ciloptions.ml" 340 11561 11585
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 340 11561 11585 "src/ciloptions.ml" 340 11561 11602
+type(
+  bool ref
+)
+ident(
+  ext_ref Rmtmps.keepUnused
+)
+"src/ciloptions.ml" 340 11561 11584 "src/ciloptions.ml" 340 11561 11602
+type(
+  bool
+)
+"src/ciloptions.ml" 340 11561 11579 "src/ciloptions.ml" 340 11561 11603
+type(
+  bool
+)
+"src/ciloptions.ml" 340 11561 11568 "src/ciloptions.ml" 340 11561 11603
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 339 11517 11521 "src/ciloptions.ml" 340 11561 11604
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 337 11462 11466 "src/ciloptions.ml" 340 11561 11604
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 342 11607 11611 "src/ciloptions.ml" 342 11607 11630
+type(
+  string
+)
+"src/ciloptions.ml" 343 11632 11644 "src/ciloptions.ml" 343 11632 11666
+type(
+  bool ref
+)
+ident(
+  ext_ref Rmtmps.rmUnusedInlines
+)
+"src/ciloptions.ml" 343 11632 11636 "src/ciloptions.ml" 343 11632 11666
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 344 11668 11673 "src/ciloptions.ml" 344 11668 11744
+type(
+  string
+)
+"src/ciloptions.ml" 344 11668 11745 "src/ciloptions.ml" 344 11668 11746
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 345 11747 11754 "src/ciloptions.ml" 345 11747 11764
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 345 11747 11765 "src/ciloptions.ml" 345 11747 11766
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 345 11747 11766 "src/ciloptions.ml" 345 11747 11788
+type(
+  bool ref
+)
+ident(
+  ext_ref Rmtmps.rmUnusedInlines
+)
+"src/ciloptions.ml" 345 11747 11765 "src/ciloptions.ml" 345 11747 11788
+type(
+  bool
+)
+"src/ciloptions.ml" 345 11747 11754 "src/ciloptions.ml" 345 11747 11788
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 344 11668 11672 "src/ciloptions.ml" 345 11747 11789
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 342 11607 11611 "src/ciloptions.ml" 345 11747 11789
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 347 11792 11796 "src/ciloptions.ml" 347 11792 11817
+type(
+  string
+)
+"src/ciloptions.ml" 348 11819 11833 "src/ciloptions.ml" 348 11819 11855
+type(
+  bool ref
+)
+ident(
+  ext_ref Rmtmps.rmUnusedInlines
+)
+"src/ciloptions.ml" 348 11819 11823 "src/ciloptions.ml" 348 11819 11855
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 349 11857 11862 "src/ciloptions.ml" 349 11857 11906
+type(
+  string
+)
+"src/ciloptions.ml" 349 11857 11907 "src/ciloptions.ml" 349 11857 11908
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 350 11909 11916 "src/ciloptions.ml" 350 11909 11926
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 350 11909 11928 "src/ciloptions.ml" 350 11909 11931
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 350 11909 11932 "src/ciloptions.ml" 350 11909 11933
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 350 11909 11933 "src/ciloptions.ml" 350 11909 11955
+type(
+  bool ref
+)
+ident(
+  ext_ref Rmtmps.rmUnusedInlines
+)
+"src/ciloptions.ml" 350 11909 11932 "src/ciloptions.ml" 350 11909 11955
+type(
+  bool
+)
+"src/ciloptions.ml" 350 11909 11927 "src/ciloptions.ml" 350 11909 11956
+type(
+  bool
+)
+"src/ciloptions.ml" 350 11909 11916 "src/ciloptions.ml" 350 11909 11956
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 349 11857 11861 "src/ciloptions.ml" 350 11909 11957
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 347 11792 11796 "src/ciloptions.ml" 350 11909 11957
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 353 11985 11989 "src/ciloptions.ml" 353 11985 11991
+type(
+  string
+)
+"src/ciloptions.ml" 353 11985 12007 "src/ciloptions.ml" 353 11985 12009
+type(
+  unit
+)
+"src/ciloptions.ml" 353 11985 12013 "src/ciloptions.ml" 353 11985 12015
+type(
+  unit
+)
+"src/ciloptions.ml" 353 11985 12002 "src/ciloptions.ml" 353 11985 12016
+type(
+  unit -> unit
+)
+"src/ciloptions.ml" 353 11985 11993 "src/ciloptions.ml" 353 11985 12016
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 353 11985 12018 "src/ciloptions.ml" 353 11985 12043
+type(
+  string
+)
+"src/ciloptions.ml" 353 11985 11989 "src/ciloptions.ml" 353 11985 12043
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 355 12046 12050 "src/ciloptions.ml" 355 12046 12066
+type(
+  string
+)
+"src/ciloptions.ml" 356 12068 12080 "src/ciloptions.ml" 356 12068 12096
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.printCilAsIs
+)
+"src/ciloptions.ml" 356 12068 12072 "src/ciloptions.ml" 356 12068 12096
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 357 12098 12103 "src/ciloptions.ml" 357 12098 12151
+type(
+  string
+)
+"src/ciloptions.ml" 357 12098 12152 "src/ciloptions.ml" 357 12098 12153
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 358 12154 12161 "src/ciloptions.ml" 358 12154 12171
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 358 12154 12172 "src/ciloptions.ml" 358 12154 12173
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 358 12154 12173 "src/ciloptions.ml" 358 12154 12189
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.printCilAsIs
+)
+"src/ciloptions.ml" 358 12154 12172 "src/ciloptions.ml" 358 12154 12189
+type(
+  bool
+)
+"src/ciloptions.ml" 358 12154 12161 "src/ciloptions.ml" 358 12154 12189
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 357 12098 12102 "src/ciloptions.ml" 358 12154 12190
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 355 12046 12050 "src/ciloptions.ml" 358 12154 12190
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 360 12193 12197 "src/ciloptions.ml" 360 12193 12215
+type(
+  string
+)
+"src/ciloptions.ml" 361 12217 12231 "src/ciloptions.ml" 361 12217 12247
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.printCilAsIs
+)
+"src/ciloptions.ml" 361 12217 12221 "src/ciloptions.ml" 361 12217 12247
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 362 12249 12254 "src/ciloptions.ml" 362 12249 12383
+type(
+  string
+)
+"src/ciloptions.ml" 362 12249 12384 "src/ciloptions.ml" 362 12249 12385
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 362 12249 12386 "src/ciloptions.ml" 362 12249 12396
+type(
+  bool -> string
+)
+ident(
+  int_ref is_default "src/ciloptions.ml" 102 3644 3650 "src/ciloptions.ml" 102 3644 3660
+)
+"src/ciloptions.ml" 362 12249 12398 "src/ciloptions.ml" 362 12249 12401
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ciloptions.ml" 362 12249 12402 "src/ciloptions.ml" 362 12249 12403
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 362 12249 12403 "src/ciloptions.ml" 362 12249 12419
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.printCilAsIs
+)
+"src/ciloptions.ml" 362 12249 12402 "src/ciloptions.ml" 362 12249 12419
+type(
+  bool
+)
+"src/ciloptions.ml" 362 12249 12397 "src/ciloptions.ml" 362 12249 12420
+type(
+  bool
+)
+"src/ciloptions.ml" 362 12249 12386 "src/ciloptions.ml" 362 12249 12420
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 362 12249 12253 "src/ciloptions.ml" 362 12249 12421
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 360 12193 12197 "src/ciloptions.ml" 362 12249 12421
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 364 12424 12428 "src/ciloptions.ml" 364 12424 12438
+type(
+  string
+)
+"src/ciloptions.ml" 365 12440 12458 "src/ciloptions.ml" 365 12440 12459
+type(
+  unit
+)
+"src/ciloptions.ml" 365 12440 12463 "src/ciloptions.ml" 365 12440 12477
+type(
+  int ref
+)
+ident(
+  ext_ref Cil.lineLength
+)
+"src/ciloptions.ml" 365 12440 12478 "src/ciloptions.ml" 365 12440 12480
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 365 12440 12481 "src/ciloptions.ml" 365 12440 12488
+type(
+  int
+)
+"src/ciloptions.ml" 365 12440 12463 "src/ciloptions.ml" 365 12440 12488
+type(
+  unit
+)
+"src/ciloptions.ml" 365 12440 12453 "src/ciloptions.ml" 365 12440 12489
+type(
+  unit -> unit
+)
+"src/ciloptions.ml" 365 12440 12444 "src/ciloptions.ml" 365 12440 12489
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 366 12491 12495 "src/ciloptions.ml" 366 12491 12534
+type(
+  string
+)
+"src/ciloptions.ml" 364 12424 12428 "src/ciloptions.ml" 366 12491 12534
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 368 12537 12541 "src/ciloptions.ml" 368 12537 12551
+type(
+  string
+)
+"src/ciloptions.ml" 369 12553 12570 "src/ciloptions.ml" 369 12553 12571
+type(
+  int
+)
+ident(
+  def n "src/ciloptions.ml" 369 12553 12575 "src/ciloptions.ml" 369 12553 12597
+)
+"src/ciloptions.ml" 369 12553 12575 "src/ciloptions.ml" 369 12553 12592
+type(
+  int ref
+)
+ident(
+  ext_ref Pretty.printDepth
+)
+"src/ciloptions.ml" 369 12553 12593 "src/ciloptions.ml" 369 12553 12595
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ciloptions.ml" 369 12553 12596 "src/ciloptions.ml" 369 12553 12597
+type(
+  int
+)
+ident(
+  int_ref n "src/ciloptions.ml" 369 12553 12570 "src/ciloptions.ml" 369 12553 12571
+)
+"src/ciloptions.ml" 369 12553 12575 "src/ciloptions.ml" 369 12553 12597
+type(
+  unit
+)
+"src/ciloptions.ml" 369 12553 12565 "src/ciloptions.ml" 369 12553 12598
+type(
+  int -> unit
+)
+"src/ciloptions.ml" 369 12553 12557 "src/ciloptions.ml" 369 12553 12598
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 370 12600 12605 "src/ciloptions.ml" 370 12600 12641
+type(
+  string
+)
+"src/ciloptions.ml" 370 12600 12642 "src/ciloptions.ml" 370 12600 12643
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 371 12644 12651 "src/ciloptions.ml" 371 12644 12664
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/ciloptions.ml" 371 12644 12665 "src/ciloptions.ml" 371 12644 12666
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ciloptions.ml" 371 12644 12666 "src/ciloptions.ml" 371 12644 12683
+type(
+  int ref
+)
+ident(
+  ext_ref Pretty.printDepth
+)
+"src/ciloptions.ml" 371 12644 12665 "src/ciloptions.ml" 371 12644 12683
+type(
+  int
+)
+"src/ciloptions.ml" 371 12644 12651 "src/ciloptions.ml" 371 12644 12683
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 371 12644 12684 "src/ciloptions.ml" 371 12644 12685
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ciloptions.ml" 371 12644 12686 "src/ciloptions.ml" 371 12644 12689
+type(
+  string
+)
+"src/ciloptions.ml" 371 12644 12651 "src/ciloptions.ml" 371 12644 12689
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 370 12600 12604 "src/ciloptions.ml" 371 12644 12690
+call(
+  stack
+)
+type(
+  string
+)
+"src/ciloptions.ml" 368 12537 12541 "src/ciloptions.ml" 371 12644 12690
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 373 12693 12697 "src/ciloptions.ml" 373 12693 12706
+type(
+  string
+)
+"src/ciloptions.ml" 374 12708 12722 "src/ciloptions.ml" 374 12708 12741
+type(
+  bool ref
+)
+ident(
+  ext_ref Cil.print_CIL_Input
+)
+"src/ciloptions.ml" 374 12708 12712 "src/ciloptions.ml" 374 12708 12741
+type(
+  Arg.spec
+)
+"src/ciloptions.ml" 375 12743 12747 "src/ciloptions.ml" 375 12743 12807
+type(
+  string
+)
+"src/ciloptions.ml" 373 12693 12697 "src/ciloptions.ml" 375 12743 12807
+type(
+  string * Arg.spec * string
+)
+"src/ciloptions.ml" 105 3720 3722 "src/ciloptions.ml" 379 12905 12908
+type(
+  (string * Arg.spec * string) list
+)
+"src/ciloptions.ml" 102 3644 3646 "src/ciloptions.ml" 379 12905 12908
+type(
+  (string * Arg.spec * string) list
+)
+type(
+  (string * Arg.spec * string) list
+)

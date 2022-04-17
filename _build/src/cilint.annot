@@ -1,0 +1,5690 @@
+"src/cilint.ml" 29 1106 1110 "src/cilint.ml" 29 1106 1121
+type(
+  cilint
+)
+ident(
+  def zero_cilint "src/cilint.ml" 30 1132 1132 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 29 1106 1130 "src/cilint.ml" 29 1106 1131
+type(
+  int
+)
+"src/cilint.ml" 29 1106 1124 "src/cilint.ml" 29 1106 1131
+type(
+  cilint
+)
+"src/cilint.ml" 30 1132 1136 "src/cilint.ml" 30 1132 1146
+type(
+  cilint
+)
+ident(
+  def one_cilint "src/cilint.ml" 33 1191 1191 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 30 1132 1155 "src/cilint.ml" 30 1132 1156
+type(
+  int
+)
+"src/cilint.ml" 30 1132 1149 "src/cilint.ml" 30 1132 1156
+type(
+  cilint
+)
+"src/cilint.ml" 33 1191 1195 "src/cilint.ml" 33 1191 1198
+type(
+  Big_int.big_int
+)
+ident(
+  def b30 "src/cilint.ml" 34 1229 1229 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 33 1191 1201 "src/cilint.ml" 33 1191 1223
+type(
+  int -> int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.power_int_positive_int
+)
+"src/cilint.ml" 33 1191 1224 "src/cilint.ml" 33 1191 1225
+type(
+  int
+)
+"src/cilint.ml" 33 1191 1226 "src/cilint.ml" 33 1191 1228
+type(
+  int
+)
+"src/cilint.ml" 33 1191 1201 "src/cilint.ml" 33 1191 1228
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 34 1229 1233 "src/cilint.ml" 34 1229 1235
+type(
+  Big_int.big_int
+)
+ident(
+  def m1 "src/cilint.ml" 37 1306 1306 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 34 1229 1238 "src/cilint.ml" 34 1229 1251
+type(
+  Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.minus_big_int
+)
+"src/cilint.ml" 34 1229 1252 "src/cilint.ml" 34 1229 1264
+type(
+  Big_int.big_int
+)
+ident(
+  ext_ref Big_int.unit_big_int
+)
+"src/cilint.ml" 34 1229 1238 "src/cilint.ml" 34 1229 1264
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 37 1306 1310 "src/cilint.ml" 37 1306 1316
+type(
+  Big_int.big_int -> bool
+)
+ident(
+  def nobits "src/cilint.ml" 40 1389 1389 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 37 1306 1318 "src/cilint.ml" 37 1306 1319
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 37 1306 1329 "src/cilint.ml" 38 1339 1387
+)
+"src/cilint.ml" 38 1339 1341 "src/cilint.ml" 38 1339 1353
+type(
+  Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.sign_big_int
+)
+"src/cilint.ml" 38 1339 1354 "src/cilint.ml" 38 1339 1355
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 37 1306 1318 "src/cilint.ml" 37 1306 1319
+)
+"src/cilint.ml" 38 1339 1341 "src/cilint.ml" 38 1339 1355
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 38 1339 1356 "src/cilint.ml" 38 1339 1357
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/cilint.ml" 38 1339 1358 "src/cilint.ml" 38 1339 1359
+type(
+  int
+)
+"src/cilint.ml" 38 1339 1341 "src/cilint.ml" 38 1339 1359
+type(
+  bool
+)
+"src/cilint.ml" 38 1339 1360 "src/cilint.ml" 38 1339 1362
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/cilint.ml" 38 1339 1363 "src/cilint.ml" 38 1339 1378
+type(
+  Big_int.big_int -> Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.compare_big_int
+)
+"src/cilint.ml" 38 1339 1379 "src/cilint.ml" 38 1339 1380
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 37 1306 1318 "src/cilint.ml" 37 1306 1319
+)
+"src/cilint.ml" 38 1339 1381 "src/cilint.ml" 38 1339 1383
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref m1 "src/cilint.ml" 34 1229 1233 "src/cilint.ml" 34 1229 1235
+)
+"src/cilint.ml" 38 1339 1363 "src/cilint.ml" 38 1339 1383
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 38 1339 1384 "src/cilint.ml" 38 1339 1385
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/cilint.ml" 38 1339 1386 "src/cilint.ml" 38 1339 1387
+type(
+  int
+)
+"src/cilint.ml" 38 1339 1363 "src/cilint.ml" 38 1339 1387
+type(
+  bool
+)
+"src/cilint.ml" 38 1339 1341 "src/cilint.ml" 38 1339 1387
+type(
+  bool
+)
+type(
+  bool
+)
+"src/cilint.ml" 40 1389 1393 "src/cilint.ml" 40 1389 1410
+type(
+  cilint -> Big_int.big_int
+)
+ident(
+  def big_int_of_cilint "src/cilint.ml" 45 1498 1498 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 40 1389 1412 "src/cilint.ml" 40 1389 1413
+type(
+  cilint
+)
+ident(
+  def c "src/cilint.ml" 40 1389 1422 "src/cilint.ml" 43 1482 1496
+)
+"src/cilint.ml" 41 1435 1443 "src/cilint.ml" 41 1435 1444
+type(
+  cilint
+)
+ident(
+  int_ref c "src/cilint.ml" 40 1389 1412 "src/cilint.ml" 40 1389 1413
+)
+"src/cilint.ml" 42 1450 1460 "src/cilint.ml" 42 1450 1461
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 42 1450 1465 "src/cilint.ml" 42 1450 1481
+)
+"src/cilint.ml" 42 1450 1454 "src/cilint.ml" 42 1450 1461
+type(
+  cilint
+)
+"src/cilint.ml" 42 1450 1465 "src/cilint.ml" 42 1450 1479
+type(
+  int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.big_int_of_int
+)
+"src/cilint.ml" 42 1450 1480 "src/cilint.ml" 42 1450 1481
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 42 1450 1460 "src/cilint.ml" 42 1450 1461
+)
+"src/cilint.ml" 42 1450 1465 "src/cilint.ml" 42 1450 1481
+call(
+  tail
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 43 1482 1490 "src/cilint.ml" 43 1482 1491
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 43 1482 1495 "src/cilint.ml" 43 1482 1496
+)
+"src/cilint.ml" 43 1482 1486 "src/cilint.ml" 43 1482 1491
+type(
+  cilint
+)
+"src/cilint.ml" 43 1482 1495 "src/cilint.ml" 43 1482 1496
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 43 1482 1490 "src/cilint.ml" 43 1482 1491
+)
+"src/cilint.ml" 41 1435 1437 "src/cilint.ml" 43 1482 1496
+type(
+  Big_int.big_int
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 45 1498 1502 "src/cilint.ml" 45 1498 1519
+type(
+  Big_int.big_int -> cilint
+)
+ident(
+  def cilint_of_big_int "src/cilint.ml" 51 1618 1618 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 45 1498 1521 "src/cilint.ml" 45 1498 1522
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 45 1498 1532 "src/cilint.ml" 49 1607 1616
+)
+"src/cilint.ml" 46 1544 1549 "src/cilint.ml" 46 1544 1563
+type(
+  Big_int.big_int -> bool
+)
+ident(
+  ext_ref Big_int.is_int_big_int
+)
+"src/cilint.ml" 46 1544 1564 "src/cilint.ml" 46 1544 1565
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 45 1498 1521 "src/cilint.ml" 45 1498 1522
+)
+"src/cilint.ml" 46 1544 1549 "src/cilint.ml" 46 1544 1565
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cilint.ml" 47 1571 1582 "src/cilint.ml" 47 1571 1596
+type(
+  Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.int_of_big_int
+)
+"src/cilint.ml" 47 1571 1597 "src/cilint.ml" 47 1571 1598
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 45 1498 1521 "src/cilint.ml" 45 1498 1522
+)
+"src/cilint.ml" 47 1571 1581 "src/cilint.ml" 47 1571 1599
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 47 1571 1575 "src/cilint.ml" 47 1571 1599
+type(
+  cilint
+)
+"src/cilint.ml" 49 1607 1615 "src/cilint.ml" 49 1607 1616
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 45 1498 1521 "src/cilint.ml" 45 1498 1522
+)
+"src/cilint.ml" 49 1607 1611 "src/cilint.ml" 49 1607 1616
+type(
+  cilint
+)
+"src/cilint.ml" 46 1544 1546 "src/cilint.ml" 49 1607 1616
+type(
+  cilint
+)
+type(
+  cilint
+)
+"src/cilint.ml" 51 1618 1622 "src/cilint.ml" 51 1618 1632
+type(
+  cilint -> cilint
+)
+ident(
+  def neg_cilint "src/cilint.ml" 57 1809 1809 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 51 1618 1633 "src/cilint.ml" 51 1618 1634
+type(
+  cilint
+)
+ident(
+  def c "src/cilint.ml" 52 1638 1640 "src/cilint.ml" 54 1697 1747
+)
+"src/cilint.ml" 52 1638 1646 "src/cilint.ml" 52 1638 1647
+type(
+  cilint
+)
+ident(
+  int_ref c "src/cilint.ml" 51 1618 1633 "src/cilint.ml" 51 1618 1634
+)
+"src/cilint.ml" 53 1653 1663 "src/cilint.ml" 53 1653 1664
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 53 1653 1670 "src/cilint.ml" 53 1653 1696
+)
+"src/cilint.ml" 53 1653 1657 "src/cilint.ml" 53 1653 1664
+type(
+  cilint
+)
+"src/cilint.ml" 53 1653 1670 "src/cilint.ml" 53 1653 1671
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 53 1653 1663 "src/cilint.ml" 53 1653 1664
+)
+"src/cilint.ml" 53 1653 1672 "src/cilint.ml" 53 1653 1674
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/cilint.ml" 53 1653 1675 "src/cilint.ml" 53 1653 1682
+type(
+  int
+)
+ident(
+  ext_ref Pervasives.min_int
+)
+"src/cilint.ml" 53 1653 1670 "src/cilint.ml" 53 1653 1682
+type(
+  bool
+)
+"src/cilint.ml" 53 1653 1693 "src/cilint.ml" 53 1653 1694
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"src/cilint.ml" 53 1653 1694 "src/cilint.ml" 53 1653 1695
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 53 1653 1663 "src/cilint.ml" 53 1653 1664
+)
+"src/cilint.ml" 53 1653 1692 "src/cilint.ml" 53 1653 1696
+type(
+  int
+)
+"src/cilint.ml" 53 1653 1686 "src/cilint.ml" 53 1653 1696
+type(
+  cilint
+)
+"src/cilint.ml" 54 1697 1701 "src/cilint.ml" 54 1697 1702
+type(
+  cilint
+)
+"src/cilint.ml" 54 1697 1711 "src/cilint.ml" 54 1697 1724
+type(
+  Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.minus_big_int
+)
+"src/cilint.ml" 54 1697 1726 "src/cilint.ml" 54 1697 1743
+type(
+  cilint -> Big_int.big_int
+)
+ident(
+  int_ref big_int_of_cilint "src/cilint.ml" 40 1389 1393 "src/cilint.ml" 40 1389 1410
+)
+"src/cilint.ml" 54 1697 1744 "src/cilint.ml" 54 1697 1745
+type(
+  cilint
+)
+ident(
+  int_ref c "src/cilint.ml" 51 1618 1633 "src/cilint.ml" 51 1618 1634
+)
+"src/cilint.ml" 54 1697 1725 "src/cilint.ml" 54 1697 1746
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 54 1697 1710 "src/cilint.ml" 54 1697 1747
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 54 1697 1706 "src/cilint.ml" 54 1697 1747
+type(
+  cilint
+)
+"src/cilint.ml" 52 1638 1640 "src/cilint.ml" 54 1697 1747
+type(
+  cilint
+)
+"src/cilint.ml" 57 1809 1813 "src/cilint.ml" 57 1809 1814
+type(
+  (Big_int.big_int -> Big_int.big_int -> Big_int.big_int) ->
+  cilint -> cilint -> cilint
+)
+ident(
+  def b "src/cilint.ml" 59 1898 1898 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 57 1809 1815 "src/cilint.ml" 57 1809 1817
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  def op "src/cilint.ml" 57 1809 1818 "src/cilint.ml" 57 1809 1894
+)
+"src/cilint.ml" 57 1809 1818 "src/cilint.ml" 57 1809 1820
+type(
+  cilint
+)
+ident(
+  def c1 "src/cilint.ml" 57 1809 1821 "src/cilint.ml" 57 1809 1894
+)
+"src/cilint.ml" 57 1809 1821 "src/cilint.ml" 57 1809 1823
+type(
+  cilint
+)
+ident(
+  def c2 "src/cilint.ml" 57 1809 1826 "src/cilint.ml" 57 1809 1894
+)
+"src/cilint.ml" 57 1809 1826 "src/cilint.ml" 57 1809 1843
+type(
+  Big_int.big_int -> cilint
+)
+ident(
+  int_ref cilint_of_big_int "src/cilint.ml" 45 1498 1502 "src/cilint.ml" 45 1498 1519
+)
+"src/cilint.ml" 57 1809 1845 "src/cilint.ml" 57 1809 1847
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  int_ref op "src/cilint.ml" 57 1809 1815 "src/cilint.ml" 57 1809 1817
+)
+"src/cilint.ml" 57 1809 1849 "src/cilint.ml" 57 1809 1866
+type(
+  cilint -> Big_int.big_int
+)
+ident(
+  int_ref big_int_of_cilint "src/cilint.ml" 40 1389 1393 "src/cilint.ml" 40 1389 1410
+)
+"src/cilint.ml" 57 1809 1867 "src/cilint.ml" 57 1809 1869
+type(
+  cilint
+)
+ident(
+  int_ref c1 "src/cilint.ml" 57 1809 1818 "src/cilint.ml" 57 1809 1820
+)
+"src/cilint.ml" 57 1809 1848 "src/cilint.ml" 57 1809 1870
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 57 1809 1872 "src/cilint.ml" 57 1809 1889
+type(
+  cilint -> Big_int.big_int
+)
+ident(
+  int_ref big_int_of_cilint "src/cilint.ml" 40 1389 1393 "src/cilint.ml" 40 1389 1410
+)
+"src/cilint.ml" 57 1809 1890 "src/cilint.ml" 57 1809 1892
+type(
+  cilint
+)
+ident(
+  int_ref c2 "src/cilint.ml" 57 1809 1821 "src/cilint.ml" 57 1809 1823
+)
+"src/cilint.ml" 57 1809 1871 "src/cilint.ml" 57 1809 1893
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 57 1809 1844 "src/cilint.ml" 57 1809 1894
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 57 1809 1826 "src/cilint.ml" 57 1809 1894
+call(
+  tail
+)
+type(
+  cilint
+)
+"src/cilint.ml" 59 1898 1902 "src/cilint.ml" 59 1898 1912
+type(
+  cilint -> cilint -> cilint
+)
+ident(
+  def add_cilint "src/cilint.ml" 60 1929 1929 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 59 1898 1915 "src/cilint.ml" 59 1898 1916
+type(
+  (Big_int.big_int -> Big_int.big_int -> Big_int.big_int) ->
+  cilint -> cilint -> cilint
+)
+ident(
+  int_ref b "src/cilint.ml" 57 1809 1813 "src/cilint.ml" 57 1809 1814
+)
+"src/cilint.ml" 59 1898 1917 "src/cilint.ml" 59 1898 1928
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.add_big_int
+)
+"src/cilint.ml" 59 1898 1915 "src/cilint.ml" 59 1898 1928
+call(
+  stack
+)
+type(
+  cilint -> cilint -> cilint
+)
+"src/cilint.ml" 60 1929 1933 "src/cilint.ml" 60 1929 1943
+type(
+  cilint -> cilint -> cilint
+)
+ident(
+  def sub_cilint "src/cilint.ml" 61 1960 1960 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 60 1929 1946 "src/cilint.ml" 60 1929 1947
+type(
+  (Big_int.big_int -> Big_int.big_int -> Big_int.big_int) ->
+  cilint -> cilint -> cilint
+)
+ident(
+  int_ref b "src/cilint.ml" 57 1809 1813 "src/cilint.ml" 57 1809 1814
+)
+"src/cilint.ml" 60 1929 1948 "src/cilint.ml" 60 1929 1959
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.sub_big_int
+)
+"src/cilint.ml" 60 1929 1946 "src/cilint.ml" 60 1929 1959
+call(
+  stack
+)
+type(
+  cilint -> cilint -> cilint
+)
+"src/cilint.ml" 61 1960 1964 "src/cilint.ml" 61 1960 1974
+type(
+  cilint -> cilint -> cilint
+)
+ident(
+  def mul_cilint "src/cilint.ml" 62 1992 1992 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 61 1960 1977 "src/cilint.ml" 61 1960 1978
+type(
+  (Big_int.big_int -> Big_int.big_int -> Big_int.big_int) ->
+  cilint -> cilint -> cilint
+)
+ident(
+  int_ref b "src/cilint.ml" 57 1809 1813 "src/cilint.ml" 57 1809 1814
+)
+"src/cilint.ml" 61 1960 1979 "src/cilint.ml" 61 1960 1991
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.mult_big_int
+)
+"src/cilint.ml" 61 1960 1977 "src/cilint.ml" 61 1960 1991
+call(
+  stack
+)
+type(
+  cilint -> cilint -> cilint
+)
+"src/cilint.ml" 62 1992 1996 "src/cilint.ml" 62 1992 2006
+type(
+  cilint -> cilint -> cilint
+)
+ident(
+  def div_cilint "src/cilint.ml" 63 2023 2023 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 62 1992 2009 "src/cilint.ml" 62 1992 2010
+type(
+  (Big_int.big_int -> Big_int.big_int -> Big_int.big_int) ->
+  cilint -> cilint -> cilint
+)
+ident(
+  int_ref b "src/cilint.ml" 57 1809 1813 "src/cilint.ml" 57 1809 1814
+)
+"src/cilint.ml" 62 1992 2011 "src/cilint.ml" 62 1992 2022
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.div_big_int
+)
+"src/cilint.ml" 62 1992 2009 "src/cilint.ml" 62 1992 2022
+call(
+  stack
+)
+type(
+  cilint -> cilint -> cilint
+)
+"src/cilint.ml" 63 2023 2027 "src/cilint.ml" 63 2023 2037
+type(
+  cilint -> cilint -> cilint
+)
+ident(
+  def mod_cilint "src/cilint.ml" 65 2055 2055 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 63 2023 2040 "src/cilint.ml" 63 2023 2041
+type(
+  (Big_int.big_int -> Big_int.big_int -> Big_int.big_int) ->
+  cilint -> cilint -> cilint
+)
+ident(
+  int_ref b "src/cilint.ml" 57 1809 1813 "src/cilint.ml" 57 1809 1814
+)
+"src/cilint.ml" 63 2023 2042 "src/cilint.ml" 63 2023 2053
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.mod_big_int
+)
+"src/cilint.ml" 63 2023 2040 "src/cilint.ml" 63 2023 2053
+call(
+  stack
+)
+type(
+  cilint -> cilint -> cilint
+)
+"src/cilint.ml" 65 2055 2059 "src/cilint.ml" 65 2055 2073
+type(
+  cilint -> cilint -> int
+)
+ident(
+  def compare_cilint "src/cilint.ml" 70 2239 2239 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 65 2055 2075 "src/cilint.ml" 65 2055 2077
+type(
+  cilint
+)
+ident(
+  def c1 "src/cilint.ml" 65 2055 2086 "src/cilint.ml" 68 2167 2237
+)
+"src/cilint.ml" 65 2055 2087 "src/cilint.ml" 65 2055 2089
+type(
+  cilint
+)
+ident(
+  def c2 "src/cilint.ml" 65 2055 2098 "src/cilint.ml" 68 2167 2237
+)
+"src/cilint.ml" 66 2107 2115 "src/cilint.ml" 66 2107 2117
+type(
+  cilint
+)
+ident(
+  int_ref c1 "src/cilint.ml" 65 2055 2075 "src/cilint.ml" 65 2055 2077
+)
+"src/cilint.ml" 66 2107 2119 "src/cilint.ml" 66 2107 2121
+type(
+  cilint
+)
+ident(
+  int_ref c2 "src/cilint.ml" 65 2055 2087 "src/cilint.ml" 65 2055 2089
+)
+"src/cilint.ml" 66 2107 2115 "src/cilint.ml" 66 2107 2121
+type(
+  cilint * cilint
+)
+"src/cilint.ml" 67 2127 2137 "src/cilint.ml" 67 2127 2139
+type(
+  int
+)
+ident(
+  def i1 "src/cilint.ml" 67 2127 2153 "src/cilint.ml" 67 2127 2166
+)
+"src/cilint.ml" 67 2127 2131 "src/cilint.ml" 67 2127 2139
+type(
+  cilint
+)
+"src/cilint.ml" 67 2127 2147 "src/cilint.ml" 67 2127 2149
+type(
+  int
+)
+ident(
+  def i2 "src/cilint.ml" 67 2127 2153 "src/cilint.ml" 67 2127 2166
+)
+"src/cilint.ml" 67 2127 2141 "src/cilint.ml" 67 2127 2149
+type(
+  cilint
+)
+"src/cilint.ml" 67 2127 2131 "src/cilint.ml" 67 2127 2149
+type(
+  cilint * cilint
+)
+"src/cilint.ml" 67 2127 2153 "src/cilint.ml" 67 2127 2160
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"src/cilint.ml" 67 2127 2161 "src/cilint.ml" 67 2127 2163
+type(
+  int
+)
+ident(
+  int_ref i1 "src/cilint.ml" 67 2127 2137 "src/cilint.ml" 67 2127 2139
+)
+"src/cilint.ml" 67 2127 2164 "src/cilint.ml" 67 2127 2166
+type(
+  int
+)
+ident(
+  int_ref i2 "src/cilint.ml" 67 2127 2147 "src/cilint.ml" 67 2127 2149
+)
+"src/cilint.ml" 67 2127 2153 "src/cilint.ml" 67 2127 2166
+type(
+  int
+)
+"src/cilint.ml" 68 2167 2171 "src/cilint.ml" 68 2167 2172
+type(
+  cilint * cilint
+)
+"src/cilint.ml" 68 2167 2176 "src/cilint.ml" 68 2167 2191
+type(
+  Big_int.big_int -> Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.compare_big_int
+)
+"src/cilint.ml" 68 2167 2193 "src/cilint.ml" 68 2167 2210
+type(
+  cilint -> Big_int.big_int
+)
+ident(
+  int_ref big_int_of_cilint "src/cilint.ml" 40 1389 1393 "src/cilint.ml" 40 1389 1410
+)
+"src/cilint.ml" 68 2167 2211 "src/cilint.ml" 68 2167 2213
+type(
+  cilint
+)
+ident(
+  int_ref c1 "src/cilint.ml" 65 2055 2075 "src/cilint.ml" 65 2055 2077
+)
+"src/cilint.ml" 68 2167 2192 "src/cilint.ml" 68 2167 2214
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 68 2167 2216 "src/cilint.ml" 68 2167 2233
+type(
+  cilint -> Big_int.big_int
+)
+ident(
+  int_ref big_int_of_cilint "src/cilint.ml" 40 1389 1393 "src/cilint.ml" 40 1389 1410
+)
+"src/cilint.ml" 68 2167 2234 "src/cilint.ml" 68 2167 2236
+type(
+  cilint
+)
+ident(
+  int_ref c2 "src/cilint.ml" 65 2055 2087 "src/cilint.ml" 65 2055 2089
+)
+"src/cilint.ml" 68 2167 2215 "src/cilint.ml" 68 2167 2237
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 68 2167 2176 "src/cilint.ml" 68 2167 2237
+call(
+  tail
+)
+type(
+  int
+)
+"src/cilint.ml" 66 2107 2109 "src/cilint.ml" 68 2167 2237
+type(
+  int
+)
+type(
+  int
+)
+"src/cilint.ml" 70 2239 2243 "src/cilint.ml" 70 2239 2257
+type(
+  cilint -> bool
+)
+ident(
+  def is_zero_cilint "src/cilint.ml" 75 2348 2348 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 70 2239 2259 "src/cilint.ml" 70 2239 2260
+type(
+  cilint
+)
+ident(
+  def c "src/cilint.ml" 70 2239 2269 "src/cilint.ml" 73 2315 2346
+)
+"src/cilint.ml" 71 2279 2287 "src/cilint.ml" 71 2279 2288
+type(
+  cilint
+)
+ident(
+  int_ref c "src/cilint.ml" 70 2239 2259 "src/cilint.ml" 70 2239 2260
+)
+"src/cilint.ml" 72 2294 2304 "src/cilint.ml" 72 2294 2305
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 72 2294 2309 "src/cilint.ml" 72 2294 2314
+)
+"src/cilint.ml" 72 2294 2298 "src/cilint.ml" 72 2294 2305
+type(
+  cilint
+)
+"src/cilint.ml" 72 2294 2309 "src/cilint.ml" 72 2294 2310
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 72 2294 2304 "src/cilint.ml" 72 2294 2305
+)
+"src/cilint.ml" 72 2294 2311 "src/cilint.ml" 72 2294 2312
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/cilint.ml" 72 2294 2313 "src/cilint.ml" 72 2294 2314
+type(
+  int
+)
+"src/cilint.ml" 72 2294 2309 "src/cilint.ml" 72 2294 2314
+type(
+  bool
+)
+"src/cilint.ml" 73 2315 2323 "src/cilint.ml" 73 2315 2324
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 73 2315 2328 "src/cilint.ml" 73 2315 2346
+)
+"src/cilint.ml" 73 2315 2319 "src/cilint.ml" 73 2315 2324
+type(
+  cilint
+)
+"src/cilint.ml" 73 2315 2328 "src/cilint.ml" 73 2315 2340
+type(
+  Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.sign_big_int
+)
+"src/cilint.ml" 73 2315 2341 "src/cilint.ml" 73 2315 2342
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 73 2315 2323 "src/cilint.ml" 73 2315 2324
+)
+"src/cilint.ml" 73 2315 2328 "src/cilint.ml" 73 2315 2342
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 73 2315 2343 "src/cilint.ml" 73 2315 2344
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/cilint.ml" 73 2315 2345 "src/cilint.ml" 73 2315 2346
+type(
+  int
+)
+"src/cilint.ml" 73 2315 2328 "src/cilint.ml" 73 2315 2346
+type(
+  bool
+)
+"src/cilint.ml" 71 2279 2281 "src/cilint.ml" 73 2315 2346
+type(
+  bool
+)
+type(
+  bool
+)
+"src/cilint.ml" 75 2348 2352 "src/cilint.ml" 75 2348 2367
+type(
+  cilint -> bool
+)
+ident(
+  def negative_cilint "src/cilint.ml" 80 2459 2459 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 75 2348 2369 "src/cilint.ml" 75 2348 2370
+type(
+  cilint
+)
+ident(
+  def c "src/cilint.ml" 75 2348 2379 "src/cilint.ml" 78 2426 2457
+)
+"src/cilint.ml" 76 2389 2397 "src/cilint.ml" 76 2389 2398
+type(
+  cilint
+)
+ident(
+  int_ref c "src/cilint.ml" 75 2348 2369 "src/cilint.ml" 75 2348 2370
+)
+"src/cilint.ml" 77 2405 2415 "src/cilint.ml" 77 2405 2416
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 77 2405 2420 "src/cilint.ml" 77 2405 2425
+)
+"src/cilint.ml" 77 2405 2409 "src/cilint.ml" 77 2405 2416
+type(
+  cilint
+)
+"src/cilint.ml" 77 2405 2420 "src/cilint.ml" 77 2405 2421
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 77 2405 2415 "src/cilint.ml" 77 2405 2416
+)
+"src/cilint.ml" 77 2405 2422 "src/cilint.ml" 77 2405 2423
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/cilint.ml" 77 2405 2424 "src/cilint.ml" 77 2405 2425
+type(
+  int
+)
+"src/cilint.ml" 77 2405 2420 "src/cilint.ml" 77 2405 2425
+type(
+  bool
+)
+"src/cilint.ml" 78 2426 2434 "src/cilint.ml" 78 2426 2435
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 78 2426 2439 "src/cilint.ml" 78 2426 2457
+)
+"src/cilint.ml" 78 2426 2430 "src/cilint.ml" 78 2426 2435
+type(
+  cilint
+)
+"src/cilint.ml" 78 2426 2439 "src/cilint.ml" 78 2426 2451
+type(
+  Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.sign_big_int
+)
+"src/cilint.ml" 78 2426 2452 "src/cilint.ml" 78 2426 2453
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 78 2426 2434 "src/cilint.ml" 78 2426 2435
+)
+"src/cilint.ml" 78 2426 2439 "src/cilint.ml" 78 2426 2453
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 78 2426 2454 "src/cilint.ml" 78 2426 2455
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/cilint.ml" 78 2426 2456 "src/cilint.ml" 78 2426 2457
+type(
+  int
+)
+"src/cilint.ml" 78 2426 2439 "src/cilint.ml" 78 2426 2457
+type(
+  bool
+)
+"src/cilint.ml" 76 2389 2391 "src/cilint.ml" 78 2426 2457
+type(
+  bool
+)
+type(
+  bool
+)
+"src/cilint.ml" 80 2459 2463 "src/cilint.ml" 80 2459 2476
+type(
+  int -> cilint
+)
+ident(
+  def cilint_of_int "src/cilint.ml" 82 2505 2505 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 80 2459 2478 "src/cilint.ml" 80 2459 2479
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 80 2459 2485 "src/cilint.ml" 80 2459 2503
+)
+"src/cilint.ml" 80 2459 2502 "src/cilint.ml" 80 2459 2503
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 80 2459 2478 "src/cilint.ml" 80 2459 2479
+)
+"src/cilint.ml" 80 2459 2496 "src/cilint.ml" 80 2459 2503
+type(
+  cilint
+)
+type(
+  cilint
+)
+"src/cilint.ml" 82 2505 2509 "src/cilint.ml" 82 2505 2522
+type(
+  cilint -> int
+)
+ident(
+  def int_of_cilint "src/cilint.ml" 87 2607 2607 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 82 2505 2524 "src/cilint.ml" 82 2505 2525
+type(
+  cilint
+)
+ident(
+  def c "src/cilint.ml" 82 2505 2534 "src/cilint.ml" 85 2576 2605
+)
+"src/cilint.ml" 83 2543 2551 "src/cilint.ml" 83 2543 2552
+type(
+  cilint
+)
+ident(
+  int_ref c "src/cilint.ml" 82 2505 2524 "src/cilint.ml" 82 2505 2525
+)
+"src/cilint.ml" 84 2559 2569 "src/cilint.ml" 84 2559 2570
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 84 2559 2574 "src/cilint.ml" 84 2559 2575
+)
+"src/cilint.ml" 84 2559 2563 "src/cilint.ml" 84 2559 2570
+type(
+  cilint
+)
+"src/cilint.ml" 84 2559 2574 "src/cilint.ml" 84 2559 2575
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 84 2559 2569 "src/cilint.ml" 84 2559 2570
+)
+"src/cilint.ml" 85 2576 2584 "src/cilint.ml" 85 2576 2585
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 85 2576 2589 "src/cilint.ml" 85 2576 2605
+)
+"src/cilint.ml" 85 2576 2580 "src/cilint.ml" 85 2576 2585
+type(
+  cilint
+)
+"src/cilint.ml" 85 2576 2589 "src/cilint.ml" 85 2576 2603
+type(
+  Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.int_of_big_int
+)
+"src/cilint.ml" 85 2576 2604 "src/cilint.ml" 85 2576 2605
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 85 2576 2584 "src/cilint.ml" 85 2576 2585
+)
+"src/cilint.ml" 85 2576 2589 "src/cilint.ml" 85 2576 2605
+call(
+  tail
+)
+type(
+  int
+)
+"src/cilint.ml" 83 2543 2545 "src/cilint.ml" 85 2576 2605
+type(
+  int
+)
+type(
+  int
+)
+"src/cilint.ml" 87 2607 2615 "src/cilint.ml" 87 2607 2630
+type(
+  int64 -> cilint
+)
+ident(
+  def cilint_of_int64 "src/cilint.ml" 87 2607 2607 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 87 2607 2632 "src/cilint.ml" 87 2607 2635
+type(
+  int64
+)
+ident(
+  def i64 "src/cilint.ml" 87 2607 2643 "src/cilint.ml" 100 3127 3174
+)
+"src/cilint.ml" 88 2655 2660 "src/cilint.ml" 88 2655 2673
+type(
+  Int64.t -> Int64.t -> int
+)
+ident(
+  ext_ref Int64.compare
+)
+"src/cilint.ml" 88 2655 2674 "src/cilint.ml" 88 2655 2677
+type(
+  Int64.t
+)
+ident(
+  int_ref i64 "src/cilint.ml" 87 2607 2632 "src/cilint.ml" 87 2607 2635
+)
+"src/cilint.ml" 88 2655 2679 "src/cilint.ml" 88 2655 2691
+type(
+  int -> Int64.t
+)
+ident(
+  ext_ref Int64.of_int
+)
+"src/cilint.ml" 88 2655 2692 "src/cilint.ml" 88 2655 2699
+type(
+  int
+)
+ident(
+  ext_ref Pervasives.min_int
+)
+"src/cilint.ml" 88 2655 2678 "src/cilint.ml" 88 2655 2700
+type(
+  Int64.t
+)
+"src/cilint.ml" 88 2655 2660 "src/cilint.ml" 88 2655 2700
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 88 2655 2701 "src/cilint.ml" 88 2655 2703
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/cilint.ml" 88 2655 2704 "src/cilint.ml" 88 2655 2705
+type(
+  int
+)
+"src/cilint.ml" 88 2655 2660 "src/cilint.ml" 88 2655 2705
+type(
+  bool
+)
+"src/cilint.ml" 88 2655 2706 "src/cilint.ml" 88 2655 2708
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/cilint.ml" 89 2710 2714 "src/cilint.ml" 89 2710 2727
+type(
+  Int64.t -> Int64.t -> int
+)
+ident(
+  ext_ref Int64.compare
+)
+"src/cilint.ml" 89 2710 2728 "src/cilint.ml" 89 2710 2731
+type(
+  Int64.t
+)
+ident(
+  int_ref i64 "src/cilint.ml" 87 2607 2632 "src/cilint.ml" 87 2607 2635
+)
+"src/cilint.ml" 89 2710 2733 "src/cilint.ml" 89 2710 2745
+type(
+  int -> Int64.t
+)
+ident(
+  ext_ref Int64.of_int
+)
+"src/cilint.ml" 89 2710 2746 "src/cilint.ml" 89 2710 2753
+type(
+  int
+)
+ident(
+  ext_ref Pervasives.max_int
+)
+"src/cilint.ml" 89 2710 2732 "src/cilint.ml" 89 2710 2754
+type(
+  Int64.t
+)
+"src/cilint.ml" 89 2710 2714 "src/cilint.ml" 89 2710 2754
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 89 2710 2755 "src/cilint.ml" 89 2710 2757
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/cilint.ml" 89 2710 2758 "src/cilint.ml" 89 2710 2759
+type(
+  int
+)
+"src/cilint.ml" 89 2710 2714 "src/cilint.ml" 89 2710 2759
+type(
+  bool
+)
+"src/cilint.ml" 88 2655 2660 "src/cilint.ml" 89 2710 2759
+type(
+  bool
+)
+"src/cilint.ml" 90 2765 2776 "src/cilint.ml" 90 2765 2788
+type(
+  int64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"src/cilint.ml" 90 2765 2789 "src/cilint.ml" 90 2765 2792
+type(
+  int64
+)
+ident(
+  int_ref i64 "src/cilint.ml" 87 2607 2632 "src/cilint.ml" 87 2607 2635
+)
+"src/cilint.ml" 90 2765 2775 "src/cilint.ml" 90 2765 2793
+type(
+  int
+)
+"src/cilint.ml" 90 2765 2769 "src/cilint.ml" 90 2765 2793
+type(
+  cilint
+)
+"src/cilint.ml" 93 2840 2852 "src/cilint.ml" 93 2840 2856
+type(
+  int64 -> Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  def loop "src/cilint.ml" 93 2840 2844 "src/cilint.ml" 100 3127 3174
+)
+"src/cilint.ml" 93 2840 2857 "src/cilint.ml" 93 2840 2858
+type(
+  int64
+)
+ident(
+  def i "src/cilint.ml" 93 2840 2859 "src/cilint.ml" 99 3065 3126
+)
+"src/cilint.ml" 93 2840 2859 "src/cilint.ml" 93 2840 2862
+type(
+  Big_int.big_int
+)
+ident(
+  def mul "src/cilint.ml" 93 2840 2863 "src/cilint.ml" 99 3065 3126
+)
+"src/cilint.ml" 93 2840 2863 "src/cilint.ml" 93 2840 2866
+type(
+  Big_int.big_int
+)
+ident(
+  def acc "src/cilint.ml" 94 2870 2876 "src/cilint.ml" 99 3065 3126
+)
+"src/cilint.ml" 94 2870 2879 "src/cilint.ml" 94 2870 2880
+type(
+  int64
+)
+ident(
+  int_ref i "src/cilint.ml" 93 2840 2857 "src/cilint.ml" 93 2840 2858
+)
+"src/cilint.ml" 94 2870 2881 "src/cilint.ml" 94 2870 2882
+type(
+  int64 -> int64 -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/cilint.ml" 94 2870 2883 "src/cilint.ml" 94 2870 2885
+type(
+  int64
+)
+"src/cilint.ml" 94 2870 2879 "src/cilint.ml" 94 2870 2885
+type(
+  bool
+)
+"src/cilint.ml" 94 2870 2891 "src/cilint.ml" 94 2870 2894
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref acc "src/cilint.ml" 93 2840 2863 "src/cilint.ml" 93 2840 2866
+)
+"src/cilint.ml" 95 2895 2909 "src/cilint.ml" 95 2895 2910
+type(
+  int64
+)
+ident(
+  int_ref i "src/cilint.ml" 93 2840 2857 "src/cilint.ml" 93 2840 2858
+)
+"src/cilint.ml" 95 2895 2911 "src/cilint.ml" 95 2895 2912
+type(
+  int64 -> int64 -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/cilint.ml" 95 2895 2913 "src/cilint.ml" 95 2895 2916
+type(
+  int64
+)
+"src/cilint.ml" 95 2895 2909 "src/cilint.ml" 95 2895 2916
+type(
+  bool
+)
+"src/cilint.ml" 95 2895 2922 "src/cilint.ml" 95 2895 2933
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.sub_big_int
+)
+"src/cilint.ml" 95 2895 2934 "src/cilint.ml" 95 2895 2937
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref acc "src/cilint.ml" 93 2840 2863 "src/cilint.ml" 93 2840 2866
+)
+"src/cilint.ml" 95 2895 2938 "src/cilint.ml" 95 2895 2941
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref mul "src/cilint.ml" 93 2840 2859 "src/cilint.ml" 93 2840 2862
+)
+"src/cilint.ml" 95 2895 2922 "src/cilint.ml" 95 2895 2941
+call(
+  tail
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 97 2954 2959 "src/cilint.ml" 97 2954 2963
+type(
+  int
+)
+ident(
+  def lo30 "src/cilint.ml" 98 3011 3012 "src/cilint.ml" 99 3065 3126
+)
+"src/cilint.ml" 97 2954 2966 "src/cilint.ml" 97 2954 2978
+type(
+  int64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"src/cilint.ml" 97 2954 2980 "src/cilint.ml" 97 2954 2992
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.logand
+)
+"src/cilint.ml" 97 2954 2993 "src/cilint.ml" 97 2954 2994
+type(
+  int64
+)
+ident(
+  int_ref i "src/cilint.ml" 93 2840 2857 "src/cilint.ml" 93 2840 2858
+)
+"src/cilint.ml" 97 2954 2995 "src/cilint.ml" 97 2954 3006
+type(
+  int64
+)
+"src/cilint.ml" 97 2954 2979 "src/cilint.ml" 97 2954 3007
+type(
+  int64
+)
+"src/cilint.ml" 97 2954 2966 "src/cilint.ml" 97 2954 3007
+type(
+  int
+)
+"src/cilint.ml" 98 3011 3012 "src/cilint.ml" 98 3011 3016
+type(
+  int64 -> Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  int_ref loop "src/cilint.ml" 93 2840 2852 "src/cilint.ml" 93 2840 2856
+)
+"src/cilint.ml" 98 3011 3018 "src/cilint.ml" 98 3011 3035
+type(
+  int64 -> int -> int64
+)
+ident(
+  ext_ref Int64.shift_right
+)
+"src/cilint.ml" 98 3011 3036 "src/cilint.ml" 98 3011 3037
+type(
+  int64
+)
+ident(
+  int_ref i "src/cilint.ml" 93 2840 2857 "src/cilint.ml" 93 2840 2858
+)
+"src/cilint.ml" 98 3011 3038 "src/cilint.ml" 98 3011 3040
+type(
+  int
+)
+"src/cilint.ml" 98 3011 3017 "src/cilint.ml" 98 3011 3041
+type(
+  int64
+)
+"src/cilint.ml" 98 3011 3043 "src/cilint.ml" 98 3011 3055
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.mult_big_int
+)
+"src/cilint.ml" 98 3011 3056 "src/cilint.ml" 98 3011 3059
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref mul "src/cilint.ml" 93 2840 2859 "src/cilint.ml" 93 2840 2862
+)
+"src/cilint.ml" 98 3011 3060 "src/cilint.ml" 98 3011 3063
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b30 "src/cilint.ml" 33 1191 1195 "src/cilint.ml" 33 1191 1198
+)
+"src/cilint.ml" 98 3011 3042 "src/cilint.ml" 98 3011 3064
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 99 3065 3069 "src/cilint.ml" 99 3065 3080
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.add_big_int
+)
+"src/cilint.ml" 99 3065 3081 "src/cilint.ml" 99 3065 3084
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref acc "src/cilint.ml" 93 2840 2863 "src/cilint.ml" 93 2840 2866
+)
+"src/cilint.ml" 99 3065 3086 "src/cilint.ml" 99 3065 3098
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.mult_big_int
+)
+"src/cilint.ml" 99 3065 3099 "src/cilint.ml" 99 3065 3102
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref mul "src/cilint.ml" 93 2840 2859 "src/cilint.ml" 93 2840 2862
+)
+"src/cilint.ml" 99 3065 3104 "src/cilint.ml" 99 3065 3118
+type(
+  int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.big_int_of_int
+)
+"src/cilint.ml" 99 3065 3119 "src/cilint.ml" 99 3065 3123
+type(
+  int
+)
+ident(
+  int_ref lo30 "src/cilint.ml" 97 2954 2959 "src/cilint.ml" 97 2954 2963
+)
+"src/cilint.ml" 99 3065 3103 "src/cilint.ml" 99 3065 3124
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 99 3065 3085 "src/cilint.ml" 99 3065 3125
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 99 3065 3068 "src/cilint.ml" 99 3065 3126
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 98 3011 3012 "src/cilint.ml" 99 3065 3126
+call(
+  tail
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 97 2954 2955 "src/cilint.ml" 99 3065 3126
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 95 2895 2906 "src/cilint.ml" 99 3065 3126
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 94 2870 2876 "src/cilint.ml" 99 3065 3126
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 100 3127 3139 "src/cilint.ml" 100 3127 3143
+type(
+  int64 -> Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  int_ref loop "src/cilint.ml" 93 2840 2852 "src/cilint.ml" 93 2840 2856
+)
+"src/cilint.ml" 100 3127 3144 "src/cilint.ml" 100 3127 3147
+type(
+  int64
+)
+ident(
+  int_ref i64 "src/cilint.ml" 87 2607 2632 "src/cilint.ml" 87 2607 2635
+)
+"src/cilint.ml" 100 3127 3148 "src/cilint.ml" 100 3127 3160
+type(
+  Big_int.big_int
+)
+ident(
+  ext_ref Big_int.unit_big_int
+)
+"src/cilint.ml" 100 3127 3161 "src/cilint.ml" 100 3127 3173
+type(
+  Big_int.big_int
+)
+ident(
+  ext_ref Big_int.zero_big_int
+)
+"src/cilint.ml" 100 3127 3138 "src/cilint.ml" 100 3127 3174
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 100 3127 3134 "src/cilint.ml" 100 3127 3174
+type(
+  cilint
+)
+"src/cilint.ml" 93 2840 2844 "src/cilint.ml" 100 3127 3174
+type(
+  cilint
+)
+"src/cilint.ml" 88 2655 2657 "src/cilint.ml" 100 3127 3174
+type(
+  cilint
+)
+type(
+  cilint
+)
+"src/cilint.ml" 104 3272 3280 "src/cilint.ml" 104 3272 3295
+type(
+  cilint -> int64
+)
+ident(
+  def int64_of_cilint "src/cilint.ml" 104 3272 3272 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 104 3272 3297 "src/cilint.ml" 104 3272 3298
+type(
+  cilint
+)
+ident(
+  def c "src/cilint.ml" 104 3272 3307 "src/cilint.ml" 117 3663 3684
+)
+"src/cilint.ml" 105 3318 3326 "src/cilint.ml" 105 3318 3327
+type(
+  cilint
+)
+ident(
+  int_ref c "src/cilint.ml" 104 3272 3297 "src/cilint.ml" 104 3272 3298
+)
+"src/cilint.ml" 106 3333 3343 "src/cilint.ml" 106 3333 3344
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 106 3333 3348 "src/cilint.ml" 106 3333 3362
+)
+"src/cilint.ml" 106 3333 3337 "src/cilint.ml" 106 3333 3344
+type(
+  cilint
+)
+"src/cilint.ml" 106 3333 3348 "src/cilint.ml" 106 3333 3360
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"src/cilint.ml" 106 3333 3361 "src/cilint.ml" 106 3333 3362
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 106 3333 3343 "src/cilint.ml" 106 3333 3344
+)
+"src/cilint.ml" 106 3333 3348 "src/cilint.ml" 106 3333 3362
+type(
+  int64
+)
+"src/cilint.ml" 107 3363 3371 "src/cilint.ml" 107 3363 3372
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 108 3377 3383 "src/cilint.ml" 117 3663 3684
+)
+"src/cilint.ml" 107 3363 3367 "src/cilint.ml" 107 3363 3372
+type(
+  cilint
+)
+"src/cilint.ml" 108 3377 3391 "src/cilint.ml" 108 3377 3395
+type(
+  Big_int.big_int -> int64 -> int64 -> int64
+)
+ident(
+  def loop "src/cilint.ml" 108 3377 3383 "src/cilint.ml" 117 3663 3684
+)
+"src/cilint.ml" 108 3377 3396 "src/cilint.ml" 108 3377 3397
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 108 3377 3398 "src/cilint.ml" 116 3591 3662
+)
+"src/cilint.ml" 108 3377 3398 "src/cilint.ml" 108 3377 3401
+type(
+  int64
+)
+ident(
+  def mul "src/cilint.ml" 108 3377 3402 "src/cilint.ml" 116 3591 3662
+)
+"src/cilint.ml" 108 3377 3402 "src/cilint.ml" 108 3377 3405
+type(
+  int64
+)
+ident(
+  def acc "src/cilint.ml" 109 3409 3410 "src/cilint.ml" 116 3591 3662
+)
+"src/cilint.ml" 109 3409 3413 "src/cilint.ml" 109 3409 3425
+type(
+  Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.sign_big_int
+)
+"src/cilint.ml" 109 3409 3426 "src/cilint.ml" 109 3409 3427
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 108 3377 3396 "src/cilint.ml" 108 3377 3397
+)
+"src/cilint.ml" 109 3409 3413 "src/cilint.ml" 109 3409 3427
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 109 3409 3428 "src/cilint.ml" 109 3409 3429
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/cilint.ml" 109 3409 3430 "src/cilint.ml" 109 3409 3431
+type(
+  int
+)
+"src/cilint.ml" 109 3409 3413 "src/cilint.ml" 109 3409 3431
+type(
+  bool
+)
+"src/cilint.ml" 110 3438 3441 "src/cilint.ml" 110 3438 3444
+type(
+  int64
+)
+ident(
+  int_ref acc "src/cilint.ml" 108 3377 3402 "src/cilint.ml" 108 3377 3405
+)
+"src/cilint.ml" 111 3445 3454 "src/cilint.ml" 111 3445 3469
+type(
+  Big_int.big_int -> Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.compare_big_int
+)
+"src/cilint.ml" 111 3445 3470 "src/cilint.ml" 111 3445 3471
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 108 3377 3396 "src/cilint.ml" 108 3377 3397
+)
+"src/cilint.ml" 111 3445 3472 "src/cilint.ml" 111 3445 3474
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref m1 "src/cilint.ml" 34 1229 1233 "src/cilint.ml" 34 1229 1235
+)
+"src/cilint.ml" 111 3445 3454 "src/cilint.ml" 111 3445 3474
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 111 3445 3475 "src/cilint.ml" 111 3445 3477
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/cilint.ml" 111 3445 3478 "src/cilint.ml" 111 3445 3479
+type(
+  int
+)
+"src/cilint.ml" 111 3445 3454 "src/cilint.ml" 111 3445 3479
+type(
+  bool
+)
+"src/cilint.ml" 112 3485 3488 "src/cilint.ml" 112 3485 3497
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.sub
+)
+"src/cilint.ml" 112 3485 3498 "src/cilint.ml" 112 3485 3501
+type(
+  int64
+)
+ident(
+  int_ref acc "src/cilint.ml" 108 3377 3402 "src/cilint.ml" 108 3377 3405
+)
+"src/cilint.ml" 112 3485 3502 "src/cilint.ml" 112 3485 3505
+type(
+  int64
+)
+ident(
+  int_ref mul "src/cilint.ml" 108 3377 3398 "src/cilint.ml" 108 3377 3401
+)
+"src/cilint.ml" 112 3485 3488 "src/cilint.ml" 112 3485 3505
+type(
+  int64
+)
+"src/cilint.ml" 114 3512 3519 "src/cilint.ml" 114 3512 3521
+type(
+  Big_int.big_int
+)
+ident(
+  def hi "src/cilint.ml" 115 3552 3555 "src/cilint.ml" 116 3591 3662
+)
+"src/cilint.ml" 114 3512 3523 "src/cilint.ml" 114 3512 3525
+type(
+  Big_int.big_int
+)
+ident(
+  def lo "src/cilint.ml" 115 3552 3555 "src/cilint.ml" 116 3591 3662
+)
+"src/cilint.ml" 114 3512 3519 "src/cilint.ml" 114 3512 3525
+type(
+  Big_int.big_int * Big_int.big_int
+)
+"src/cilint.ml" 114 3512 3528 "src/cilint.ml" 114 3512 3542
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int * Big_int.big_int
+)
+ident(
+  ext_ref Big_int.quomod_big_int
+)
+"src/cilint.ml" 114 3512 3543 "src/cilint.ml" 114 3512 3544
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 108 3377 3396 "src/cilint.ml" 108 3377 3397
+)
+"src/cilint.ml" 114 3512 3545 "src/cilint.ml" 114 3512 3548
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b30 "src/cilint.ml" 33 1191 1195 "src/cilint.ml" 33 1191 1198
+)
+"src/cilint.ml" 114 3512 3528 "src/cilint.ml" 114 3512 3548
+call(
+  stack
+)
+type(
+  Big_int.big_int * Big_int.big_int
+)
+"src/cilint.ml" 115 3552 3555 "src/cilint.ml" 115 3552 3559
+type(
+  Big_int.big_int -> int64 -> int64 -> int64
+)
+ident(
+  int_ref loop "src/cilint.ml" 108 3377 3391 "src/cilint.ml" 108 3377 3395
+)
+"src/cilint.ml" 115 3552 3560 "src/cilint.ml" 115 3552 3562
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref hi "src/cilint.ml" 114 3512 3519 "src/cilint.ml" 114 3512 3521
+)
+"src/cilint.ml" 115 3552 3564 "src/cilint.ml" 115 3552 3573
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.mul
+)
+"src/cilint.ml" 115 3552 3574 "src/cilint.ml" 115 3552 3577
+type(
+  int64
+)
+ident(
+  int_ref mul "src/cilint.ml" 108 3377 3398 "src/cilint.ml" 108 3377 3401
+)
+"src/cilint.ml" 115 3552 3578 "src/cilint.ml" 115 3552 3589
+type(
+  int64
+)
+"src/cilint.ml" 115 3552 3563 "src/cilint.ml" 115 3552 3590
+type(
+  int64
+)
+"src/cilint.ml" 116 3591 3597 "src/cilint.ml" 116 3591 3606
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.add
+)
+"src/cilint.ml" 116 3591 3607 "src/cilint.ml" 116 3591 3610
+type(
+  int64
+)
+ident(
+  int_ref acc "src/cilint.ml" 108 3377 3402 "src/cilint.ml" 108 3377 3405
+)
+"src/cilint.ml" 116 3591 3612 "src/cilint.ml" 116 3591 3621
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.mul
+)
+"src/cilint.ml" 116 3591 3622 "src/cilint.ml" 116 3591 3625
+type(
+  int64
+)
+ident(
+  int_ref mul "src/cilint.ml" 108 3377 3398 "src/cilint.ml" 108 3377 3401
+)
+"src/cilint.ml" 116 3591 3627 "src/cilint.ml" 116 3591 3639
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"src/cilint.ml" 116 3591 3641 "src/cilint.ml" 116 3591 3655
+type(
+  Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.int_of_big_int
+)
+"src/cilint.ml" 116 3591 3656 "src/cilint.ml" 116 3591 3658
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref lo "src/cilint.ml" 114 3512 3523 "src/cilint.ml" 114 3512 3525
+)
+"src/cilint.ml" 116 3591 3640 "src/cilint.ml" 116 3591 3659
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 116 3591 3626 "src/cilint.ml" 116 3591 3660
+type(
+  int64
+)
+"src/cilint.ml" 116 3591 3611 "src/cilint.ml" 116 3591 3661
+type(
+  int64
+)
+"src/cilint.ml" 116 3591 3596 "src/cilint.ml" 116 3591 3662
+type(
+  int64
+)
+"src/cilint.ml" 115 3552 3555 "src/cilint.ml" 116 3591 3662
+call(
+  tail
+)
+type(
+  int64
+)
+"src/cilint.ml" 114 3512 3515 "src/cilint.ml" 116 3591 3662
+type(
+  int64
+)
+"src/cilint.ml" 111 3445 3451 "src/cilint.ml" 116 3591 3662
+type(
+  int64
+)
+"src/cilint.ml" 109 3409 3410 "src/cilint.ml" 116 3591 3662
+type(
+  int64
+)
+"src/cilint.ml" 117 3663 3672 "src/cilint.ml" 117 3663 3676
+type(
+  Big_int.big_int -> int64 -> int64 -> int64
+)
+ident(
+  int_ref loop "src/cilint.ml" 108 3377 3391 "src/cilint.ml" 108 3377 3395
+)
+"src/cilint.ml" 117 3663 3677 "src/cilint.ml" 117 3663 3678
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 107 3363 3371 "src/cilint.ml" 107 3363 3372
+)
+"src/cilint.ml" 117 3663 3679 "src/cilint.ml" 117 3663 3681
+type(
+  int64
+)
+"src/cilint.ml" 117 3663 3682 "src/cilint.ml" 117 3663 3684
+type(
+  int64
+)
+"src/cilint.ml" 117 3663 3672 "src/cilint.ml" 117 3663 3684
+call(
+  tail
+)
+type(
+  int64
+)
+"src/cilint.ml" 108 3377 3383 "src/cilint.ml" 117 3663 3684
+type(
+  int64
+)
+"src/cilint.ml" 105 3318 3320 "src/cilint.ml" 117 3663 3684
+type(
+  int64
+)
+type(
+  int64
+)
+"src/cilint.ml" 119 3692 3696 "src/cilint.ml" 119 3692 3712
+type(
+  string -> cilint
+)
+ident(
+  def cilint_of_string "src/cilint.ml" 122 3779 3779 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 119 3692 3714 "src/cilint.ml" 119 3692 3715
+type(
+  string
+)
+ident(
+  def s "src/cilint.ml" 119 3692 3724 "src/cilint.ml" 120 3736 3777
+)
+"src/cilint.ml" 120 3736 3738 "src/cilint.ml" 120 3736 3755
+type(
+  Big_int.big_int -> cilint
+)
+ident(
+  int_ref cilint_of_big_int "src/cilint.ml" 45 1498 1502 "src/cilint.ml" 45 1498 1519
+)
+"src/cilint.ml" 120 3736 3757 "src/cilint.ml" 120 3736 3774
+type(
+  string -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.big_int_of_string
+)
+"src/cilint.ml" 120 3736 3775 "src/cilint.ml" 120 3736 3776
+type(
+  string
+)
+ident(
+  int_ref s "src/cilint.ml" 119 3692 3714 "src/cilint.ml" 119 3692 3715
+)
+"src/cilint.ml" 120 3736 3756 "src/cilint.ml" 120 3736 3777
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 120 3736 3738 "src/cilint.ml" 120 3736 3777
+call(
+  tail
+)
+type(
+  cilint
+)
+type(
+  cilint
+)
+"src/cilint.ml" 122 3779 3783 "src/cilint.ml" 122 3779 3799
+type(
+  cilint -> string
+)
+ident(
+  def string_of_cilint "src/cilint.ml" 128 3939 3939 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 122 3779 3801 "src/cilint.ml" 122 3779 3802
+type(
+  cilint
+)
+ident(
+  def c "src/cilint.ml" 122 3779 3811 "src/cilint.ml" 125 3870 3902
+)
+"src/cilint.ml" 123 3823 3831 "src/cilint.ml" 123 3823 3832
+type(
+  cilint
+)
+ident(
+  int_ref c "src/cilint.ml" 122 3779 3801 "src/cilint.ml" 122 3779 3802
+)
+"src/cilint.ml" 124 3839 3849 "src/cilint.ml" 124 3839 3850
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 124 3839 3854 "src/cilint.ml" 124 3839 3869
+)
+"src/cilint.ml" 124 3839 3843 "src/cilint.ml" 124 3839 3850
+type(
+  cilint
+)
+"src/cilint.ml" 124 3839 3854 "src/cilint.ml" 124 3839 3867
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/cilint.ml" 124 3839 3868 "src/cilint.ml" 124 3839 3869
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 124 3839 3849 "src/cilint.ml" 124 3839 3850
+)
+"src/cilint.ml" 124 3839 3854 "src/cilint.ml" 124 3839 3869
+call(
+  tail
+)
+type(
+  string
+)
+"src/cilint.ml" 125 3870 3878 "src/cilint.ml" 125 3870 3879
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 125 3870 3883 "src/cilint.ml" 125 3870 3902
+)
+"src/cilint.ml" 125 3870 3874 "src/cilint.ml" 125 3870 3879
+type(
+  cilint
+)
+"src/cilint.ml" 125 3870 3883 "src/cilint.ml" 125 3870 3900
+type(
+  Big_int.big_int -> string
+)
+ident(
+  ext_ref Big_int.string_of_big_int
+)
+"src/cilint.ml" 125 3870 3901 "src/cilint.ml" 125 3870 3902
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 125 3870 3878 "src/cilint.ml" 125 3870 3879
+)
+"src/cilint.ml" 125 3870 3883 "src/cilint.ml" 125 3870 3902
+call(
+  tail
+)
+type(
+  string
+)
+"src/cilint.ml" 123 3823 3825 "src/cilint.ml" 125 3870 3902
+type(
+  string
+)
+type(
+  string
+)
+"src/cilint.ml" 128 3939 3943 "src/cilint.ml" 128 3939 3954
+type(
+  cilint -> cilint -> cilint
+)
+ident(
+  def div0_cilint "src/cilint.ml" 144 4398 4398 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 128 3939 3956 "src/cilint.ml" 128 3939 3958
+type(
+  cilint
+)
+ident(
+  def c1 "src/cilint.ml" 128 3939 3967 "src/cilint.ml" 141 4352 4358
+)
+"src/cilint.ml" 128 3939 3968 "src/cilint.ml" 128 3939 3970
+type(
+  cilint
+)
+ident(
+  def c2 "src/cilint.ml" 129 3982 3984 "src/cilint.ml" 141 4352 4358
+)
+"src/cilint.ml" 129 3982 3990 "src/cilint.ml" 129 3982 3992
+type(
+  cilint
+)
+ident(
+  int_ref c1 "src/cilint.ml" 128 3939 3956 "src/cilint.ml" 128 3939 3958
+)
+"src/cilint.ml" 129 3982 3994 "src/cilint.ml" 129 3982 3996
+type(
+  cilint
+)
+ident(
+  int_ref c2 "src/cilint.ml" 128 3939 3968 "src/cilint.ml" 128 3939 3970
+)
+"src/cilint.ml" 129 3982 3990 "src/cilint.ml" 129 3982 3996
+type(
+  cilint * cilint
+)
+"src/cilint.ml" 130 4002 4012 "src/cilint.ml" 130 4002 4014
+type(
+  int
+)
+ident(
+  def i1 "src/cilint.ml" 130 4002 4028 "src/cilint.ml" 130 4002 4043
+)
+"src/cilint.ml" 130 4002 4006 "src/cilint.ml" 130 4002 4014
+type(
+  cilint
+)
+"src/cilint.ml" 130 4002 4022 "src/cilint.ml" 130 4002 4024
+type(
+  int
+)
+ident(
+  def i2 "src/cilint.ml" 130 4002 4028 "src/cilint.ml" 130 4002 4043
+)
+"src/cilint.ml" 130 4002 4016 "src/cilint.ml" 130 4002 4024
+type(
+  cilint
+)
+"src/cilint.ml" 130 4002 4006 "src/cilint.ml" 130 4002 4024
+type(
+  cilint * cilint
+)
+"src/cilint.ml" 130 4002 4035 "src/cilint.ml" 130 4002 4037
+type(
+  int
+)
+ident(
+  int_ref i1 "src/cilint.ml" 130 4002 4012 "src/cilint.ml" 130 4002 4014
+)
+"src/cilint.ml" 130 4002 4038 "src/cilint.ml" 130 4002 4039
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"src/cilint.ml" 130 4002 4040 "src/cilint.ml" 130 4002 4042
+type(
+  int
+)
+ident(
+  int_ref i2 "src/cilint.ml" 130 4002 4022 "src/cilint.ml" 130 4002 4024
+)
+"src/cilint.ml" 130 4002 4034 "src/cilint.ml" 130 4002 4043
+type(
+  int
+)
+"src/cilint.ml" 130 4002 4028 "src/cilint.ml" 130 4002 4043
+type(
+  cilint
+)
+"src/cilint.ml" 131 4044 4048 "src/cilint.ml" 131 4044 4049
+type(
+  cilint * cilint
+)
+"src/cilint.ml" 132 4053 4063 "src/cilint.ml" 132 4053 4065
+type(
+  Big_int.big_int
+)
+ident(
+  def b1 "src/cilint.ml" 133 4092 4098 "src/cilint.ml" 141 4352 4358
+)
+"src/cilint.ml" 132 4053 4068 "src/cilint.ml" 132 4053 4085
+type(
+  cilint -> Big_int.big_int
+)
+ident(
+  int_ref big_int_of_cilint "src/cilint.ml" 40 1389 1393 "src/cilint.ml" 40 1389 1410
+)
+"src/cilint.ml" 132 4053 4086 "src/cilint.ml" 132 4053 4088
+type(
+  cilint
+)
+ident(
+  int_ref c1 "src/cilint.ml" 128 3939 3956 "src/cilint.ml" 128 3939 3958
+)
+"src/cilint.ml" 132 4053 4068 "src/cilint.ml" 132 4053 4088
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 133 4092 4102 "src/cilint.ml" 133 4092 4104
+type(
+  Big_int.big_int
+)
+ident(
+  def b2 "src/cilint.ml" 134 4132 4138 "src/cilint.ml" 141 4352 4358
+)
+"src/cilint.ml" 133 4092 4107 "src/cilint.ml" 133 4092 4124
+type(
+  cilint -> Big_int.big_int
+)
+ident(
+  int_ref big_int_of_cilint "src/cilint.ml" 40 1389 1393 "src/cilint.ml" 40 1389 1410
+)
+"src/cilint.ml" 133 4092 4125 "src/cilint.ml" 133 4092 4127
+type(
+  cilint
+)
+ident(
+  int_ref c2 "src/cilint.ml" 128 3939 3968 "src/cilint.ml" 128 3939 3970
+)
+"src/cilint.ml" 133 4092 4107 "src/cilint.ml" 133 4092 4127
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 134 4132 4142 "src/cilint.ml" 134 4132 4143
+type(
+  Big_int.big_int
+)
+ident(
+  def q "src/cilint.ml" 135 4173 4179 "src/cilint.ml" 141 4352 4358
+)
+"src/cilint.ml" 134 4132 4145 "src/cilint.ml" 134 4132 4146
+type(
+  Big_int.big_int
+)
+ident(
+  def r "src/cilint.ml" 135 4173 4179 "src/cilint.ml" 141 4352 4358
+)
+"src/cilint.ml" 134 4132 4142 "src/cilint.ml" 134 4132 4146
+type(
+  Big_int.big_int * Big_int.big_int
+)
+"src/cilint.ml" 134 4132 4149 "src/cilint.ml" 134 4132 4163
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int * Big_int.big_int
+)
+ident(
+  ext_ref Big_int.quomod_big_int
+)
+"src/cilint.ml" 134 4132 4164 "src/cilint.ml" 134 4132 4166
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b1 "src/cilint.ml" 132 4053 4063 "src/cilint.ml" 132 4053 4065
+)
+"src/cilint.ml" 134 4132 4167 "src/cilint.ml" 134 4132 4169
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b2 "src/cilint.ml" 133 4092 4102 "src/cilint.ml" 133 4092 4104
+)
+"src/cilint.ml" 134 4132 4149 "src/cilint.ml" 134 4132 4169
+call(
+  stack
+)
+type(
+  Big_int.big_int * Big_int.big_int
+)
+"src/cilint.ml" 135 4173 4182 "src/cilint.ml" 135 4173 4192
+type(
+  Big_int.big_int -> Big_int.big_int -> bool
+)
+ident(
+  ext_ref Big_int.lt_big_int
+)
+"src/cilint.ml" 135 4173 4193 "src/cilint.ml" 135 4173 4195
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b1 "src/cilint.ml" 132 4053 4063 "src/cilint.ml" 132 4053 4065
+)
+"src/cilint.ml" 135 4173 4196 "src/cilint.ml" 135 4173 4208
+type(
+  Big_int.big_int
+)
+ident(
+  ext_ref Big_int.zero_big_int
+)
+"src/cilint.ml" 135 4173 4182 "src/cilint.ml" 135 4173 4208
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cilint.ml" 135 4173 4209 "src/cilint.ml" 135 4173 4211
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/cilint.ml" 135 4173 4213 "src/cilint.ml" 135 4173 4216
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/cilint.ml" 135 4173 4218 "src/cilint.ml" 135 4173 4228
+type(
+  Big_int.big_int -> Big_int.big_int -> bool
+)
+ident(
+  ext_ref Big_int.eq_big_int
+)
+"src/cilint.ml" 135 4173 4229 "src/cilint.ml" 135 4173 4230
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref r "src/cilint.ml" 134 4132 4145 "src/cilint.ml" 134 4132 4146
+)
+"src/cilint.ml" 135 4173 4231 "src/cilint.ml" 135 4173 4243
+type(
+  Big_int.big_int
+)
+ident(
+  ext_ref Big_int.zero_big_int
+)
+"src/cilint.ml" 135 4173 4217 "src/cilint.ml" 135 4173 4244
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cilint.ml" 135 4173 4212 "src/cilint.ml" 135 4173 4245
+type(
+  bool
+)
+"src/cilint.ml" 135 4173 4182 "src/cilint.ml" 135 4173 4245
+type(
+  bool
+)
+"src/cilint.ml" 136 4251 4255 "src/cilint.ml" 136 4251 4265
+type(
+  Big_int.big_int -> Big_int.big_int -> bool
+)
+ident(
+  ext_ref Big_int.gt_big_int
+)
+"src/cilint.ml" 136 4251 4266 "src/cilint.ml" 136 4251 4268
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b2 "src/cilint.ml" 133 4092 4102 "src/cilint.ml" 133 4092 4104
+)
+"src/cilint.ml" 136 4251 4269 "src/cilint.ml" 136 4251 4281
+type(
+  Big_int.big_int
+)
+ident(
+  ext_ref Big_int.zero_big_int
+)
+"src/cilint.ml" 136 4251 4255 "src/cilint.ml" 136 4251 4281
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cilint.ml" 137 4287 4295 "src/cilint.ml" 137 4287 4307
+type(
+  Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.succ_big_int
+)
+"src/cilint.ml" 137 4287 4308 "src/cilint.ml" 137 4287 4309
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref q "src/cilint.ml" 134 4132 4142 "src/cilint.ml" 134 4132 4143
+)
+"src/cilint.ml" 137 4287 4294 "src/cilint.ml" 137 4287 4310
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 137 4287 4290 "src/cilint.ml" 137 4287 4310
+type(
+  cilint
+)
+"src/cilint.ml" 139 4317 4325 "src/cilint.ml" 139 4317 4337
+type(
+  Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.pred_big_int
+)
+"src/cilint.ml" 139 4317 4338 "src/cilint.ml" 139 4317 4339
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref q "src/cilint.ml" 134 4132 4142 "src/cilint.ml" 134 4132 4143
+)
+"src/cilint.ml" 139 4317 4324 "src/cilint.ml" 139 4317 4340
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 139 4317 4320 "src/cilint.ml" 139 4317 4340
+type(
+  cilint
+)
+"src/cilint.ml" 136 4251 4252 "src/cilint.ml" 139 4317 4340
+type(
+  cilint
+)
+"src/cilint.ml" 141 4352 4357 "src/cilint.ml" 141 4352 4358
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref q "src/cilint.ml" 134 4132 4142 "src/cilint.ml" 134 4132 4143
+)
+"src/cilint.ml" 141 4352 4353 "src/cilint.ml" 141 4352 4358
+type(
+  cilint
+)
+"src/cilint.ml" 135 4173 4179 "src/cilint.ml" 141 4352 4358
+type(
+  cilint
+)
+"src/cilint.ml" 134 4132 4138 "src/cilint.ml" 141 4352 4358
+type(
+  cilint
+)
+"src/cilint.ml" 133 4092 4098 "src/cilint.ml" 141 4352 4358
+type(
+  cilint
+)
+"src/cilint.ml" 132 4053 4059 "src/cilint.ml" 141 4352 4358
+type(
+  cilint
+)
+"src/cilint.ml" 129 3982 3984 "src/cilint.ml" 141 4352 4358
+type(
+  cilint
+)
+"src/cilint.ml" 144 4398 4402 "src/cilint.ml" 144 4398 4412
+type(
+  cilint -> cilint -> cilint
+)
+ident(
+  def rem_cilint "src/cilint.ml" 149 4628 4628 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 144 4398 4414 "src/cilint.ml" 144 4398 4416
+type(
+  cilint
+)
+ident(
+  def c1 "src/cilint.ml" 144 4398 4425 "src/cilint.ml" 145 4440 4493
+)
+"src/cilint.ml" 144 4398 4426 "src/cilint.ml" 144 4398 4428
+type(
+  cilint
+)
+ident(
+  def c2 "src/cilint.ml" 145 4440 4442 "src/cilint.ml" 145 4440 4493
+)
+"src/cilint.ml" 145 4440 4443 "src/cilint.ml" 145 4440 4453
+type(
+  cilint -> cilint -> cilint
+)
+ident(
+  int_ref sub_cilint "src/cilint.ml" 60 1929 1933 "src/cilint.ml" 60 1929 1943
+)
+"src/cilint.ml" 145 4440 4454 "src/cilint.ml" 145 4440 4456
+type(
+  cilint
+)
+ident(
+  int_ref c1 "src/cilint.ml" 144 4398 4414 "src/cilint.ml" 144 4398 4416
+)
+"src/cilint.ml" 145 4440 4458 "src/cilint.ml" 145 4440 4468
+type(
+  cilint -> cilint -> cilint
+)
+ident(
+  int_ref mul_cilint "src/cilint.ml" 61 1960 1964 "src/cilint.ml" 61 1960 1974
+)
+"src/cilint.ml" 145 4440 4469 "src/cilint.ml" 145 4440 4471
+type(
+  cilint
+)
+ident(
+  int_ref c2 "src/cilint.ml" 144 4398 4426 "src/cilint.ml" 144 4398 4428
+)
+"src/cilint.ml" 145 4440 4473 "src/cilint.ml" 145 4440 4484
+type(
+  cilint -> cilint -> cilint
+)
+ident(
+  int_ref div0_cilint "src/cilint.ml" 128 3939 3943 "src/cilint.ml" 128 3939 3954
+)
+"src/cilint.ml" 145 4440 4485 "src/cilint.ml" 145 4440 4487
+type(
+  cilint
+)
+ident(
+  int_ref c1 "src/cilint.ml" 144 4398 4414 "src/cilint.ml" 144 4398 4416
+)
+"src/cilint.ml" 145 4440 4488 "src/cilint.ml" 145 4440 4490
+type(
+  cilint
+)
+ident(
+  int_ref c2 "src/cilint.ml" 144 4398 4426 "src/cilint.ml" 144 4398 4428
+)
+"src/cilint.ml" 145 4440 4472 "src/cilint.ml" 145 4440 4491
+call(
+  stack
+)
+type(
+  cilint
+)
+"src/cilint.ml" 145 4440 4457 "src/cilint.ml" 145 4440 4492
+call(
+  stack
+)
+type(
+  cilint
+)
+"src/cilint.ml" 145 4440 4442 "src/cilint.ml" 145 4440 4493
+call(
+  tail
+)
+type(
+  cilint
+)
+"src/cilint.ml" 149 4628 4632 "src/cilint.ml" 149 4628 4637
+type(
+  (int -> int -> int) -> cilint -> cilint -> cilint
+)
+ident(
+  def logop "src/cilint.ml" 172 5467 5467 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 149 4628 4638 "src/cilint.ml" 149 4628 4640
+type(
+  int -> int -> int
+)
+ident(
+  def op "src/cilint.ml" 149 4628 4641 "src/cilint.ml" 170 5400 5465
+)
+"src/cilint.ml" 149 4628 4641 "src/cilint.ml" 149 4628 4643
+type(
+  cilint
+)
+ident(
+  def c1 "src/cilint.ml" 149 4628 4644 "src/cilint.ml" 170 5400 5465
+)
+"src/cilint.ml" 149 4628 4644 "src/cilint.ml" 149 4628 4646
+type(
+  cilint
+)
+ident(
+  def c2 "src/cilint.ml" 150 4650 4652 "src/cilint.ml" 170 5400 5465
+)
+"src/cilint.ml" 150 4650 4658 "src/cilint.ml" 150 4650 4660
+type(
+  cilint
+)
+ident(
+  int_ref c1 "src/cilint.ml" 149 4628 4641 "src/cilint.ml" 149 4628 4643
+)
+"src/cilint.ml" 150 4650 4662 "src/cilint.ml" 150 4650 4664
+type(
+  cilint
+)
+ident(
+  int_ref c2 "src/cilint.ml" 149 4628 4644 "src/cilint.ml" 149 4628 4646
+)
+"src/cilint.ml" 150 4650 4658 "src/cilint.ml" 150 4650 4664
+type(
+  cilint * cilint
+)
+"src/cilint.ml" 151 4670 4680 "src/cilint.ml" 151 4670 4682
+type(
+  int
+)
+ident(
+  def i1 "src/cilint.ml" 151 4670 4696 "src/cilint.ml" 151 4670 4712
+)
+"src/cilint.ml" 151 4670 4674 "src/cilint.ml" 151 4670 4682
+type(
+  cilint
+)
+"src/cilint.ml" 151 4670 4690 "src/cilint.ml" 151 4670 4692
+type(
+  int
+)
+ident(
+  def i2 "src/cilint.ml" 151 4670 4696 "src/cilint.ml" 151 4670 4712
+)
+"src/cilint.ml" 151 4670 4684 "src/cilint.ml" 151 4670 4692
+type(
+  cilint
+)
+"src/cilint.ml" 151 4670 4674 "src/cilint.ml" 151 4670 4692
+type(
+  cilint * cilint
+)
+"src/cilint.ml" 151 4670 4703 "src/cilint.ml" 151 4670 4705
+type(
+  int -> int -> int
+)
+ident(
+  int_ref op "src/cilint.ml" 149 4628 4638 "src/cilint.ml" 149 4628 4640
+)
+"src/cilint.ml" 151 4670 4706 "src/cilint.ml" 151 4670 4708
+type(
+  int
+)
+ident(
+  int_ref i1 "src/cilint.ml" 151 4670 4680 "src/cilint.ml" 151 4670 4682
+)
+"src/cilint.ml" 151 4670 4709 "src/cilint.ml" 151 4670 4711
+type(
+  int
+)
+ident(
+  int_ref i2 "src/cilint.ml" 151 4670 4690 "src/cilint.ml" 151 4670 4692
+)
+"src/cilint.ml" 151 4670 4702 "src/cilint.ml" 151 4670 4712
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 151 4670 4696 "src/cilint.ml" 151 4670 4712
+type(
+  cilint
+)
+"src/cilint.ml" 152 4713 4717 "src/cilint.ml" 152 4713 4718
+type(
+  cilint * cilint
+)
+"src/cilint.ml" 153 4722 4732 "src/cilint.ml" 153 4722 4734
+type(
+  Big_int.big_int
+)
+ident(
+  def b1 "src/cilint.ml" 154 4761 4767 "src/cilint.ml" 170 5400 5465
+)
+"src/cilint.ml" 153 4722 4737 "src/cilint.ml" 153 4722 4754
+type(
+  cilint -> Big_int.big_int
+)
+ident(
+  int_ref big_int_of_cilint "src/cilint.ml" 40 1389 1393 "src/cilint.ml" 40 1389 1410
+)
+"src/cilint.ml" 153 4722 4755 "src/cilint.ml" 153 4722 4757
+type(
+  cilint
+)
+ident(
+  int_ref c1 "src/cilint.ml" 149 4628 4641 "src/cilint.ml" 149 4628 4643
+)
+"src/cilint.ml" 153 4722 4737 "src/cilint.ml" 153 4722 4757
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 154 4761 4771 "src/cilint.ml" 154 4761 4773
+type(
+  Big_int.big_int
+)
+ident(
+  def b2 "src/cilint.ml" 155 4801 4807 "src/cilint.ml" 170 5400 5465
+)
+"src/cilint.ml" 154 4761 4776 "src/cilint.ml" 154 4761 4793
+type(
+  cilint -> Big_int.big_int
+)
+ident(
+  int_ref big_int_of_cilint "src/cilint.ml" 40 1389 1393 "src/cilint.ml" 40 1389 1410
+)
+"src/cilint.ml" 154 4761 4794 "src/cilint.ml" 154 4761 4796
+type(
+  cilint
+)
+ident(
+  int_ref c2 "src/cilint.ml" 149 4628 4644 "src/cilint.ml" 149 4628 4646
+)
+"src/cilint.ml" 154 4761 4776 "src/cilint.ml" 154 4761 4796
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 155 4801 4815 "src/cilint.ml" 155 4801 4819
+type(
+  Big_int.big_int ->
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  def loop "src/cilint.ml" 155 4801 4807 "src/cilint.ml" 170 5400 5465
+)
+"src/cilint.ml" 155 4801 4820 "src/cilint.ml" 155 4801 4822
+type(
+  Big_int.big_int
+)
+ident(
+  def b1 "src/cilint.ml" 155 4801 4823 "src/cilint.ml" 169 5338 5399
+)
+"src/cilint.ml" 155 4801 4823 "src/cilint.ml" 155 4801 4825
+type(
+  Big_int.big_int
+)
+ident(
+  def b2 "src/cilint.ml" 155 4801 4826 "src/cilint.ml" 169 5338 5399
+)
+"src/cilint.ml" 155 4801 4826 "src/cilint.ml" 155 4801 4829
+type(
+  Big_int.big_int
+)
+ident(
+  def mul "src/cilint.ml" 155 4801 4830 "src/cilint.ml" 169 5338 5399
+)
+"src/cilint.ml" 155 4801 4830 "src/cilint.ml" 155 4801 4833
+type(
+  Big_int.big_int
+)
+ident(
+  def acc "src/cilint.ml" 156 4836 4837 "src/cilint.ml" 169 5338 5399
+)
+"src/cilint.ml" 156 4836 4840 "src/cilint.ml" 156 4836 4846
+type(
+  Big_int.big_int -> bool
+)
+ident(
+  int_ref nobits "src/cilint.ml" 37 1306 1310 "src/cilint.ml" 37 1306 1316
+)
+"src/cilint.ml" 156 4836 4847 "src/cilint.ml" 156 4836 4849
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b1 "src/cilint.ml" 155 4801 4820 "src/cilint.ml" 155 4801 4822
+)
+"src/cilint.ml" 156 4836 4840 "src/cilint.ml" 156 4836 4849
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cilint.ml" 156 4836 4850 "src/cilint.ml" 156 4836 4852
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/cilint.ml" 156 4836 4853 "src/cilint.ml" 156 4836 4859
+type(
+  Big_int.big_int -> bool
+)
+ident(
+  int_ref nobits "src/cilint.ml" 37 1306 1310 "src/cilint.ml" 37 1306 1316
+)
+"src/cilint.ml" 156 4836 4860 "src/cilint.ml" 156 4836 4862
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b2 "src/cilint.ml" 155 4801 4823 "src/cilint.ml" 155 4801 4825
+)
+"src/cilint.ml" 156 4836 4853 "src/cilint.ml" 156 4836 4862
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cilint.ml" 156 4836 4840 "src/cilint.ml" 156 4836 4862
+type(
+  bool
+)
+"src/cilint.ml" 160 5046 5052 "src/cilint.ml" 160 5046 5054
+type(
+  int -> int -> int
+)
+ident(
+  int_ref op "src/cilint.ml" 149 4628 4638 "src/cilint.ml" 149 4628 4640
+)
+"src/cilint.ml" 160 5046 5056 "src/cilint.ml" 160 5046 5070
+type(
+  Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.int_of_big_int
+)
+"src/cilint.ml" 160 5046 5071 "src/cilint.ml" 160 5046 5073
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b1 "src/cilint.ml" 155 4801 4820 "src/cilint.ml" 155 4801 4822
+)
+"src/cilint.ml" 160 5046 5055 "src/cilint.ml" 160 5046 5074
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 160 5046 5076 "src/cilint.ml" 160 5046 5090
+type(
+  Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.int_of_big_int
+)
+"src/cilint.ml" 160 5046 5091 "src/cilint.ml" 160 5046 5093
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b2 "src/cilint.ml" 155 4801 4823 "src/cilint.ml" 155 4801 4825
+)
+"src/cilint.ml" 160 5046 5075 "src/cilint.ml" 160 5046 5094
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 160 5046 5052 "src/cilint.ml" 160 5046 5094
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 160 5046 5095 "src/cilint.ml" 160 5046 5096
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/cilint.ml" 160 5046 5097 "src/cilint.ml" 160 5046 5098
+type(
+  int
+)
+"src/cilint.ml" 160 5046 5052 "src/cilint.ml" 160 5046 5098
+type(
+  bool
+)
+"src/cilint.ml" 161 5104 5109 "src/cilint.ml" 161 5104 5112
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref acc "src/cilint.ml" 155 4801 4830 "src/cilint.ml" 155 4801 4833
+)
+"src/cilint.ml" 163 5121 5126 "src/cilint.ml" 163 5121 5137
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.sub_big_int
+)
+"src/cilint.ml" 163 5121 5138 "src/cilint.ml" 163 5121 5141
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref acc "src/cilint.ml" 155 4801 4830 "src/cilint.ml" 155 4801 4833
+)
+"src/cilint.ml" 163 5121 5142 "src/cilint.ml" 163 5121 5145
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref mul "src/cilint.ml" 155 4801 4826 "src/cilint.ml" 155 4801 4829
+)
+"src/cilint.ml" 163 5121 5126 "src/cilint.ml" 163 5121 5145
+call(
+  tail
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 160 5046 5049 "src/cilint.ml" 163 5121 5145
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 165 5152 5159 "src/cilint.ml" 165 5152 5162
+type(
+  Big_int.big_int
+)
+ident(
+  def hi1 "src/cilint.ml" 166 5195 5198 "src/cilint.ml" 169 5338 5399
+)
+"src/cilint.ml" 165 5152 5164 "src/cilint.ml" 165 5152 5167
+type(
+  Big_int.big_int
+)
+ident(
+  def lo1 "src/cilint.ml" 166 5195 5198 "src/cilint.ml" 169 5338 5399
+)
+"src/cilint.ml" 165 5152 5159 "src/cilint.ml" 165 5152 5167
+type(
+  Big_int.big_int * Big_int.big_int
+)
+"src/cilint.ml" 165 5152 5170 "src/cilint.ml" 165 5152 5184
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int * Big_int.big_int
+)
+ident(
+  ext_ref Big_int.quomod_big_int
+)
+"src/cilint.ml" 165 5152 5185 "src/cilint.ml" 165 5152 5187
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b1 "src/cilint.ml" 155 4801 4820 "src/cilint.ml" 155 4801 4822
+)
+"src/cilint.ml" 165 5152 5188 "src/cilint.ml" 165 5152 5191
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b30 "src/cilint.ml" 33 1191 1195 "src/cilint.ml" 33 1191 1198
+)
+"src/cilint.ml" 165 5152 5170 "src/cilint.ml" 165 5152 5191
+call(
+  stack
+)
+type(
+  Big_int.big_int * Big_int.big_int
+)
+"src/cilint.ml" 166 5195 5202 "src/cilint.ml" 166 5195 5205
+type(
+  Big_int.big_int
+)
+ident(
+  def hi2 "src/cilint.ml" 167 5238 5241 "src/cilint.ml" 169 5338 5399
+)
+"src/cilint.ml" 166 5195 5207 "src/cilint.ml" 166 5195 5210
+type(
+  Big_int.big_int
+)
+ident(
+  def lo2 "src/cilint.ml" 167 5238 5241 "src/cilint.ml" 169 5338 5399
+)
+"src/cilint.ml" 166 5195 5202 "src/cilint.ml" 166 5195 5210
+type(
+  Big_int.big_int * Big_int.big_int
+)
+"src/cilint.ml" 166 5195 5213 "src/cilint.ml" 166 5195 5227
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int * Big_int.big_int
+)
+ident(
+  ext_ref Big_int.quomod_big_int
+)
+"src/cilint.ml" 166 5195 5228 "src/cilint.ml" 166 5195 5230
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b2 "src/cilint.ml" 155 4801 4823 "src/cilint.ml" 155 4801 4825
+)
+"src/cilint.ml" 166 5195 5231 "src/cilint.ml" 166 5195 5234
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b30 "src/cilint.ml" 33 1191 1195 "src/cilint.ml" 33 1191 1198
+)
+"src/cilint.ml" 166 5195 5213 "src/cilint.ml" 166 5195 5234
+call(
+  stack
+)
+type(
+  Big_int.big_int * Big_int.big_int
+)
+"src/cilint.ml" 167 5238 5245 "src/cilint.ml" 167 5238 5247
+type(
+  int
+)
+ident(
+  def lo "src/cilint.ml" 168 5298 5301 "src/cilint.ml" 169 5338 5399
+)
+"src/cilint.ml" 167 5238 5250 "src/cilint.ml" 167 5238 5252
+type(
+  int -> int -> int
+)
+ident(
+  int_ref op "src/cilint.ml" 149 4628 4638 "src/cilint.ml" 149 4628 4640
+)
+"src/cilint.ml" 167 5238 5254 "src/cilint.ml" 167 5238 5268
+type(
+  Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.int_of_big_int
+)
+"src/cilint.ml" 167 5238 5269 "src/cilint.ml" 167 5238 5272
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref lo1 "src/cilint.ml" 165 5152 5164 "src/cilint.ml" 165 5152 5167
+)
+"src/cilint.ml" 167 5238 5253 "src/cilint.ml" 167 5238 5273
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 167 5238 5275 "src/cilint.ml" 167 5238 5289
+type(
+  Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.int_of_big_int
+)
+"src/cilint.ml" 167 5238 5290 "src/cilint.ml" 167 5238 5293
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref lo2 "src/cilint.ml" 166 5195 5207 "src/cilint.ml" 166 5195 5210
+)
+"src/cilint.ml" 167 5238 5274 "src/cilint.ml" 167 5238 5294
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 167 5238 5250 "src/cilint.ml" 167 5238 5294
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 168 5298 5301 "src/cilint.ml" 168 5298 5305
+type(
+  Big_int.big_int ->
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  int_ref loop "src/cilint.ml" 155 4801 4815 "src/cilint.ml" 155 4801 4819
+)
+"src/cilint.ml" 168 5298 5306 "src/cilint.ml" 168 5298 5309
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref hi1 "src/cilint.ml" 165 5152 5159 "src/cilint.ml" 165 5152 5162
+)
+"src/cilint.ml" 168 5298 5310 "src/cilint.ml" 168 5298 5313
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref hi2 "src/cilint.ml" 166 5195 5202 "src/cilint.ml" 166 5195 5205
+)
+"src/cilint.ml" 168 5298 5315 "src/cilint.ml" 168 5298 5327
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.mult_big_int
+)
+"src/cilint.ml" 168 5298 5328 "src/cilint.ml" 168 5298 5331
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref mul "src/cilint.ml" 155 4801 4826 "src/cilint.ml" 155 4801 4829
+)
+"src/cilint.ml" 168 5298 5332 "src/cilint.ml" 168 5298 5335
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b30 "src/cilint.ml" 33 1191 1195 "src/cilint.ml" 33 1191 1198
+)
+"src/cilint.ml" 168 5298 5314 "src/cilint.ml" 168 5298 5336
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 169 5338 5344 "src/cilint.ml" 169 5338 5355
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.add_big_int
+)
+"src/cilint.ml" 169 5338 5356 "src/cilint.ml" 169 5338 5359
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref acc "src/cilint.ml" 155 4801 4830 "src/cilint.ml" 155 4801 4833
+)
+"src/cilint.ml" 169 5338 5361 "src/cilint.ml" 169 5338 5373
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.mult_big_int
+)
+"src/cilint.ml" 169 5338 5374 "src/cilint.ml" 169 5338 5377
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref mul "src/cilint.ml" 155 4801 4826 "src/cilint.ml" 155 4801 4829
+)
+"src/cilint.ml" 169 5338 5379 "src/cilint.ml" 169 5338 5393
+type(
+  int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.big_int_of_int
+)
+"src/cilint.ml" 169 5338 5394 "src/cilint.ml" 169 5338 5396
+type(
+  int
+)
+ident(
+  int_ref lo "src/cilint.ml" 167 5238 5245 "src/cilint.ml" 167 5238 5247
+)
+"src/cilint.ml" 169 5338 5378 "src/cilint.ml" 169 5338 5397
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 169 5338 5360 "src/cilint.ml" 169 5338 5398
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 169 5338 5343 "src/cilint.ml" 169 5338 5399
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 168 5298 5301 "src/cilint.ml" 169 5338 5399
+call(
+  tail
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 167 5238 5241 "src/cilint.ml" 169 5338 5399
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 166 5195 5198 "src/cilint.ml" 169 5338 5399
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 165 5152 5155 "src/cilint.ml" 169 5338 5399
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 156 4836 4837 "src/cilint.ml" 169 5338 5399
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 170 5400 5409 "src/cilint.ml" 170 5400 5426
+type(
+  Big_int.big_int -> cilint
+)
+ident(
+  int_ref cilint_of_big_int "src/cilint.ml" 45 1498 1502 "src/cilint.ml" 45 1498 1519
+)
+"src/cilint.ml" 170 5400 5428 "src/cilint.ml" 170 5400 5432
+type(
+  Big_int.big_int ->
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  int_ref loop "src/cilint.ml" 155 4801 4815 "src/cilint.ml" 155 4801 4819
+)
+"src/cilint.ml" 170 5400 5433 "src/cilint.ml" 170 5400 5435
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b1 "src/cilint.ml" 153 4722 4732 "src/cilint.ml" 153 4722 4734
+)
+"src/cilint.ml" 170 5400 5436 "src/cilint.ml" 170 5400 5438
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b2 "src/cilint.ml" 154 4761 4771 "src/cilint.ml" 154 4761 4773
+)
+"src/cilint.ml" 170 5400 5439 "src/cilint.ml" 170 5400 5451
+type(
+  Big_int.big_int
+)
+ident(
+  ext_ref Big_int.unit_big_int
+)
+"src/cilint.ml" 170 5400 5452 "src/cilint.ml" 170 5400 5464
+type(
+  Big_int.big_int
+)
+ident(
+  ext_ref Big_int.zero_big_int
+)
+"src/cilint.ml" 170 5400 5427 "src/cilint.ml" 170 5400 5465
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 170 5400 5409 "src/cilint.ml" 170 5400 5465
+call(
+  tail
+)
+type(
+  cilint
+)
+"src/cilint.ml" 155 4801 4807 "src/cilint.ml" 170 5400 5465
+type(
+  cilint
+)
+"src/cilint.ml" 154 4761 4767 "src/cilint.ml" 170 5400 5465
+type(
+  cilint
+)
+"src/cilint.ml" 153 4722 4728 "src/cilint.ml" 170 5400 5465
+type(
+  cilint
+)
+"src/cilint.ml" 150 4650 4652 "src/cilint.ml" 170 5400 5465
+type(
+  cilint
+)
+"src/cilint.ml" 172 5467 5471 "src/cilint.ml" 172 5467 5484
+type(
+  cilint -> cilint -> cilint
+)
+ident(
+  def logand_cilint "src/cilint.ml" 173 5500 5500 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 172 5467 5487 "src/cilint.ml" 172 5467 5492
+type(
+  (int -> int -> int) -> cilint -> cilint -> cilint
+)
+ident(
+  int_ref logop "src/cilint.ml" 149 4628 4632 "src/cilint.ml" 149 4628 4637
+)
+"src/cilint.ml" 172 5467 5493 "src/cilint.ml" 172 5467 5499
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"src/cilint.ml" 172 5467 5487 "src/cilint.ml" 172 5467 5499
+call(
+  stack
+)
+type(
+  cilint -> cilint -> cilint
+)
+"src/cilint.ml" 173 5500 5504 "src/cilint.ml" 173 5500 5516
+type(
+  cilint -> cilint -> cilint
+)
+ident(
+  def logor_cilint "src/cilint.ml" 174 5531 5531 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 173 5500 5519 "src/cilint.ml" 173 5500 5524
+type(
+  (int -> int -> int) -> cilint -> cilint -> cilint
+)
+ident(
+  int_ref logop "src/cilint.ml" 149 4628 4632 "src/cilint.ml" 149 4628 4637
+)
+"src/cilint.ml" 173 5500 5525 "src/cilint.ml" 173 5500 5530
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"src/cilint.ml" 173 5500 5519 "src/cilint.ml" 173 5500 5530
+call(
+  stack
+)
+type(
+  cilint -> cilint -> cilint
+)
+"src/cilint.ml" 174 5531 5535 "src/cilint.ml" 174 5531 5548
+type(
+  cilint -> cilint -> cilint
+)
+ident(
+  def logxor_cilint "src/cilint.ml" 176 5565 5565 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 174 5531 5551 "src/cilint.ml" 174 5531 5556
+type(
+  (int -> int -> int) -> cilint -> cilint -> cilint
+)
+ident(
+  int_ref logop "src/cilint.ml" 149 4628 4632 "src/cilint.ml" 149 4628 4637
+)
+"src/cilint.ml" 174 5531 5557 "src/cilint.ml" 174 5531 5563
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lxor )
+)
+"src/cilint.ml" 174 5531 5551 "src/cilint.ml" 174 5531 5563
+call(
+  stack
+)
+type(
+  cilint -> cilint -> cilint
+)
+"src/cilint.ml" 176 5565 5569 "src/cilint.ml" 176 5565 5587
+type(
+  cilint -> int -> cilint
+)
+ident(
+  def shift_right_cilint "src/cilint.ml" 181 5744 5744 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 176 5565 5589 "src/cilint.ml" 176 5565 5591
+type(
+  cilint
+)
+ident(
+  def c1 "src/cilint.ml" 176 5565 5600 "src/cilint.ml" 179 5667 5742
+)
+"src/cilint.ml" 176 5565 5601 "src/cilint.ml" 176 5565 5602
+type(
+  int
+)
+ident(
+  def n "src/cilint.ml" 176 5565 5608 "src/cilint.ml" 179 5667 5742
+)
+"src/cilint.ml" 177 5620 5628 "src/cilint.ml" 177 5620 5630
+type(
+  cilint
+)
+ident(
+  int_ref c1 "src/cilint.ml" 176 5565 5589 "src/cilint.ml" 176 5565 5591
+)
+"src/cilint.ml" 178 5636 5646 "src/cilint.ml" 178 5636 5647
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 178 5636 5651 "src/cilint.ml" 178 5636 5666
+)
+"src/cilint.ml" 178 5636 5640 "src/cilint.ml" 178 5636 5647
+type(
+  cilint
+)
+"src/cilint.ml" 178 5636 5658 "src/cilint.ml" 178 5636 5659
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 178 5636 5646 "src/cilint.ml" 178 5636 5647
+)
+"src/cilint.ml" 178 5636 5660 "src/cilint.ml" 178 5636 5663
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( asr )
+)
+"src/cilint.ml" 178 5636 5664 "src/cilint.ml" 178 5636 5665
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 176 5565 5601 "src/cilint.ml" 176 5565 5602
+)
+"src/cilint.ml" 178 5636 5657 "src/cilint.ml" 178 5636 5666
+type(
+  int
+)
+"src/cilint.ml" 178 5636 5651 "src/cilint.ml" 178 5636 5666
+type(
+  cilint
+)
+"src/cilint.ml" 179 5667 5675 "src/cilint.ml" 179 5667 5676
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 179 5667 5680 "src/cilint.ml" 179 5667 5742
+)
+"src/cilint.ml" 179 5667 5671 "src/cilint.ml" 179 5667 5676
+type(
+  cilint
+)
+"src/cilint.ml" 179 5667 5680 "src/cilint.ml" 179 5667 5697
+type(
+  Big_int.big_int -> cilint
+)
+ident(
+  int_ref cilint_of_big_int "src/cilint.ml" 45 1498 1502 "src/cilint.ml" 45 1498 1519
+)
+"src/cilint.ml" 179 5667 5699 "src/cilint.ml" 179 5667 5710
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.div_big_int
+)
+"src/cilint.ml" 179 5667 5711 "src/cilint.ml" 179 5667 5712
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 179 5667 5675 "src/cilint.ml" 179 5667 5676
+)
+"src/cilint.ml" 179 5667 5714 "src/cilint.ml" 179 5667 5736
+type(
+  int -> int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.power_int_positive_int
+)
+"src/cilint.ml" 179 5667 5737 "src/cilint.ml" 179 5667 5738
+type(
+  int
+)
+"src/cilint.ml" 179 5667 5739 "src/cilint.ml" 179 5667 5740
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 176 5565 5601 "src/cilint.ml" 176 5565 5602
+)
+"src/cilint.ml" 179 5667 5713 "src/cilint.ml" 179 5667 5741
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 179 5667 5698 "src/cilint.ml" 179 5667 5742
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 179 5667 5680 "src/cilint.ml" 179 5667 5742
+call(
+  tail
+)
+type(
+  cilint
+)
+"src/cilint.ml" 177 5620 5622 "src/cilint.ml" 179 5667 5742
+type(
+  cilint
+)
+type(
+  cilint
+)
+"src/cilint.ml" 181 5744 5748 "src/cilint.ml" 181 5744 5765
+type(
+  cilint -> int -> cilint
+)
+ident(
+  def shift_left_cilint "src/cilint.ml" 184 5886 5886 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 181 5744 5767 "src/cilint.ml" 181 5744 5769
+type(
+  cilint
+)
+ident(
+  def c1 "src/cilint.ml" 181 5744 5778 "src/cilint.ml" 182 5798 5884
+)
+"src/cilint.ml" 181 5744 5779 "src/cilint.ml" 181 5744 5780
+type(
+  int
+)
+ident(
+  def n "src/cilint.ml" 181 5744 5786 "src/cilint.ml" 182 5798 5884
+)
+"src/cilint.ml" 182 5798 5800 "src/cilint.ml" 182 5798 5817
+type(
+  Big_int.big_int -> cilint
+)
+ident(
+  int_ref cilint_of_big_int "src/cilint.ml" 45 1498 1502 "src/cilint.ml" 45 1498 1519
+)
+"src/cilint.ml" 182 5798 5819 "src/cilint.ml" 182 5798 5831
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.mult_big_int
+)
+"src/cilint.ml" 182 5798 5833 "src/cilint.ml" 182 5798 5850
+type(
+  cilint -> Big_int.big_int
+)
+ident(
+  int_ref big_int_of_cilint "src/cilint.ml" 40 1389 1393 "src/cilint.ml" 40 1389 1410
+)
+"src/cilint.ml" 182 5798 5851 "src/cilint.ml" 182 5798 5853
+type(
+  cilint
+)
+ident(
+  int_ref c1 "src/cilint.ml" 181 5744 5767 "src/cilint.ml" 181 5744 5769
+)
+"src/cilint.ml" 182 5798 5832 "src/cilint.ml" 182 5798 5854
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 182 5798 5856 "src/cilint.ml" 182 5798 5878
+type(
+  int -> int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.power_int_positive_int
+)
+"src/cilint.ml" 182 5798 5879 "src/cilint.ml" 182 5798 5880
+type(
+  int
+)
+"src/cilint.ml" 182 5798 5881 "src/cilint.ml" 182 5798 5882
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 181 5744 5779 "src/cilint.ml" 181 5744 5780
+)
+"src/cilint.ml" 182 5798 5855 "src/cilint.ml" 182 5798 5883
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 182 5798 5818 "src/cilint.ml" 182 5798 5884
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 182 5798 5800 "src/cilint.ml" 182 5798 5884
+call(
+  tail
+)
+type(
+  cilint
+)
+type(
+  cilint
+)
+"src/cilint.ml" 184 5886 5890 "src/cilint.ml" 184 5886 5903
+type(
+  cilint -> cilint
+)
+ident(
+  def lognot_cilint "src/cilint.ml" 189 6025 6025 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 184 5886 5905 "src/cilint.ml" 184 5886 5907
+type(
+  cilint
+)
+ident(
+  def c1 "src/cilint.ml" 184 5886 5916 "src/cilint.ml" 187 5974 6023
+)
+"src/cilint.ml" 185 5928 5936 "src/cilint.ml" 185 5928 5938
+type(
+  cilint
+)
+ident(
+  int_ref c1 "src/cilint.ml" 184 5886 5905 "src/cilint.ml" 184 5886 5907
+)
+"src/cilint.ml" 186 5944 5954 "src/cilint.ml" 186 5944 5955
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 186 5944 5959 "src/cilint.ml" 186 5944 5973
+)
+"src/cilint.ml" 186 5944 5948 "src/cilint.ml" 186 5944 5955
+type(
+  cilint
+)
+"src/cilint.ml" 186 5944 5966 "src/cilint.ml" 186 5944 5970
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.lnot
+)
+"src/cilint.ml" 186 5944 5971 "src/cilint.ml" 186 5944 5972
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 186 5944 5954 "src/cilint.ml" 186 5944 5955
+)
+"src/cilint.ml" 186 5944 5965 "src/cilint.ml" 186 5944 5973
+call(
+  stack
+)
+type(
+  int
+)
+"src/cilint.ml" 186 5944 5959 "src/cilint.ml" 186 5944 5973
+type(
+  cilint
+)
+"src/cilint.ml" 187 5974 5982 "src/cilint.ml" 187 5974 5983
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 187 5974 5987 "src/cilint.ml" 187 5974 6023
+)
+"src/cilint.ml" 187 5974 5978 "src/cilint.ml" 187 5974 5983
+type(
+  cilint
+)
+"src/cilint.ml" 187 5974 5992 "src/cilint.ml" 187 5974 6004
+type(
+  Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.pred_big_int
+)
+"src/cilint.ml" 187 5974 6006 "src/cilint.ml" 187 5974 6019
+type(
+  Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.minus_big_int
+)
+"src/cilint.ml" 187 5974 6020 "src/cilint.ml" 187 5974 6021
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 187 5974 5982 "src/cilint.ml" 187 5974 5983
+)
+"src/cilint.ml" 187 5974 6005 "src/cilint.ml" 187 5974 6022
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 187 5974 5991 "src/cilint.ml" 187 5974 6023
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 187 5974 5987 "src/cilint.ml" 187 5974 6023
+type(
+  cilint
+)
+"src/cilint.ml" 185 5928 5930 "src/cilint.ml" 187 5974 6023
+type(
+  cilint
+)
+type(
+  cilint
+)
+"src/cilint.ml" 189 6025 6029 "src/cilint.ml" 189 6025 6051
+type(
+  cilint -> int -> cilint * truncation
+)
+ident(
+  def truncate_signed_cilint "src/cilint.ml" 234 7185 7185 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 189 6025 6053 "src/cilint.ml" 189 6025 6054
+type(
+  cilint
+)
+ident(
+  def c "src/cilint.ml" 189 6025 6063 "src/cilint.ml" 232 7145 7183
+)
+"src/cilint.ml" 189 6025 6064 "src/cilint.ml" 189 6025 6065
+type(
+  int
+)
+ident(
+  def n "src/cilint.ml" 189 6025 6071 "src/cilint.ml" 232 7145 7183
+)
+"src/cilint.ml" 190 6095 6103 "src/cilint.ml" 190 6095 6104
+type(
+  cilint
+)
+ident(
+  int_ref c "src/cilint.ml" 189 6025 6053 "src/cilint.ml" 189 6025 6054
+)
+"src/cilint.ml" 191 6110 6120 "src/cilint.ml" 191 6110 6121
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 191 6110 6127 "src/cilint.ml" 191 6110 6175
+)
+"src/cilint.ml" 191 6110 6114 "src/cilint.ml" 191 6110 6121
+type(
+  cilint
+)
+"src/cilint.ml" 191 6110 6127 "src/cilint.ml" 191 6110 6128
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 189 6025 6064 "src/cilint.ml" 189 6025 6065
+)
+"src/cilint.ml" 191 6110 6129 "src/cilint.ml" 191 6110 6131
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/cilint.ml" 191 6110 6132 "src/cilint.ml" 191 6110 6146
+type(
+  int
+)
+ident(
+  ext_ref Nativeint.size
+)
+"src/cilint.ml" 191 6110 6147 "src/cilint.ml" 191 6110 6148
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/cilint.ml" 191 6110 6149 "src/cilint.ml" 191 6110 6150
+type(
+  int
+)
+"src/cilint.ml" 191 6110 6132 "src/cilint.ml" 191 6110 6150
+type(
+  int
+)
+"src/cilint.ml" 191 6110 6127 "src/cilint.ml" 191 6110 6150
+type(
+  bool
+)
+"src/cilint.ml" 191 6110 6160 "src/cilint.ml" 191 6110 6161
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 191 6110 6120 "src/cilint.ml" 191 6110 6121
+)
+"src/cilint.ml" 191 6110 6154 "src/cilint.ml" 191 6110 6161
+type(
+  cilint
+)
+"src/cilint.ml" 191 6110 6163 "src/cilint.ml" 191 6110 6175
+type(
+  truncation
+)
+"src/cilint.ml" 191 6110 6154 "src/cilint.ml" 191 6110 6175
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 192 6176 6186 "src/cilint.ml" 192 6176 6187
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 192 6176 6193 "src/cilint.ml" 212 6642 6668
+)
+"src/cilint.ml" 192 6176 6180 "src/cilint.ml" 192 6176 6187
+type(
+  cilint
+)
+"src/cilint.ml" 192 6176 6193 "src/cilint.ml" 192 6176 6194
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 189 6025 6064 "src/cilint.ml" 189 6025 6065
+)
+"src/cilint.ml" 192 6176 6195 "src/cilint.ml" 192 6176 6196
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/cilint.ml" 192 6176 6197 "src/cilint.ml" 192 6176 6211
+type(
+  int
+)
+ident(
+  ext_ref Nativeint.size
+)
+"src/cilint.ml" 192 6176 6212 "src/cilint.ml" 192 6176 6213
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/cilint.ml" 192 6176 6214 "src/cilint.ml" 192 6176 6215
+type(
+  int
+)
+"src/cilint.ml" 192 6176 6197 "src/cilint.ml" 192 6176 6215
+type(
+  int
+)
+"src/cilint.ml" 192 6176 6193 "src/cilint.ml" 192 6176 6215
+type(
+  bool
+)
+"src/cilint.ml" 193 6220 6230 "src/cilint.ml" 193 6220 6233
+type(
+  int
+)
+ident(
+  def max "src/cilint.ml" 194 6253 6259 "src/cilint.ml" 212 6642 6668
+)
+"src/cilint.ml" 193 6220 6236 "src/cilint.ml" 193 6220 6237
+type(
+  int
+)
+"src/cilint.ml" 193 6220 6238 "src/cilint.ml" 193 6220 6241
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/cilint.ml" 193 6220 6243 "src/cilint.ml" 193 6220 6244
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 189 6025 6064 "src/cilint.ml" 189 6025 6065
+)
+"src/cilint.ml" 193 6220 6245 "src/cilint.ml" 193 6220 6246
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/cilint.ml" 193 6220 6247 "src/cilint.ml" 193 6220 6248
+type(
+  int
+)
+"src/cilint.ml" 193 6220 6242 "src/cilint.ml" 193 6220 6249
+type(
+  int
+)
+"src/cilint.ml" 193 6220 6236 "src/cilint.ml" 193 6220 6249
+type(
+  int
+)
+"src/cilint.ml" 194 6253 6263 "src/cilint.ml" 194 6253 6271
+type(
+  int
+)
+ident(
+  def truncmax "src/cilint.ml" 195 6285 6290 "src/cilint.ml" 212 6642 6668
+)
+"src/cilint.ml" 194 6253 6274 "src/cilint.ml" 194 6253 6275
+type(
+  int
+)
+"src/cilint.ml" 194 6253 6276 "src/cilint.ml" 194 6253 6279
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/cilint.ml" 194 6253 6280 "src/cilint.ml" 194 6253 6281
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 189 6025 6064 "src/cilint.ml" 189 6025 6065
+)
+"src/cilint.ml" 194 6253 6274 "src/cilint.ml" 194 6253 6281
+type(
+  int
+)
+"src/cilint.ml" 195 6285 6294 "src/cilint.ml" 195 6285 6298
+type(
+  int
+)
+ident(
+  def bits "src/cilint.ml" 196 6326 6332 "src/cilint.ml" 212 6642 6668
+)
+"src/cilint.ml" 195 6285 6301 "src/cilint.ml" 195 6285 6302
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 192 6176 6186 "src/cilint.ml" 192 6176 6187
+)
+"src/cilint.ml" 195 6285 6303 "src/cilint.ml" 195 6285 6307
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"src/cilint.ml" 195 6285 6309 "src/cilint.ml" 195 6285 6317
+type(
+  int
+)
+ident(
+  int_ref truncmax "src/cilint.ml" 194 6253 6263 "src/cilint.ml" 194 6253 6271
+)
+"src/cilint.ml" 195 6285 6318 "src/cilint.ml" 195 6285 6319
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/cilint.ml" 195 6285 6320 "src/cilint.ml" 195 6285 6321
+type(
+  int
+)
+"src/cilint.ml" 195 6285 6308 "src/cilint.ml" 195 6285 6322
+type(
+  int
+)
+"src/cilint.ml" 195 6285 6301 "src/cilint.ml" 195 6285 6322
+type(
+  int
+)
+"src/cilint.ml" 196 6326 6336 "src/cilint.ml" 196 6326 6340
+type(
+  int
+)
+ident(
+  def tval "src/cilint.ml" 204 6498 6504 "src/cilint.ml" 212 6642 6668
+)
+"src/cilint.ml" 198 6384 6388 "src/cilint.ml" 198 6384 6392
+type(
+  int
+)
+ident(
+  int_ref bits "src/cilint.ml" 195 6285 6294 "src/cilint.ml" 195 6285 6298
+)
+"src/cilint.ml" 198 6384 6393 "src/cilint.ml" 198 6384 6394
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/cilint.ml" 198 6384 6395 "src/cilint.ml" 198 6384 6398
+type(
+  int
+)
+ident(
+  int_ref max "src/cilint.ml" 193 6220 6230 "src/cilint.ml" 193 6220 6233
+)
+"src/cilint.ml" 198 6384 6388 "src/cilint.ml" 198 6384 6398
+type(
+  bool
+)
+"src/cilint.ml" 199 6404 6407 "src/cilint.ml" 199 6404 6411
+type(
+  int
+)
+ident(
+  int_ref bits "src/cilint.ml" 195 6285 6294 "src/cilint.ml" 195 6285 6298
+)
+"src/cilint.ml" 202 6470 6473 "src/cilint.ml" 202 6470 6477
+type(
+  int
+)
+ident(
+  int_ref bits "src/cilint.ml" 195 6285 6294 "src/cilint.ml" 195 6285 6298
+)
+"src/cilint.ml" 202 6470 6478 "src/cilint.ml" 202 6470 6479
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/cilint.ml" 202 6470 6480 "src/cilint.ml" 202 6470 6488
+type(
+  int
+)
+ident(
+  int_ref truncmax "src/cilint.ml" 194 6253 6263 "src/cilint.ml" 194 6253 6271
+)
+"src/cilint.ml" 202 6470 6473 "src/cilint.ml" 202 6470 6488
+type(
+  int
+)
+"src/cilint.ml" 198 6384 6385 "src/cilint.ml" 202 6470 6488
+type(
+  int
+)
+"src/cilint.ml" 204 6498 6508 "src/cilint.ml" 204 6498 6513
+type(
+  truncation
+)
+ident(
+  def trunc "src/cilint.ml" 212 6642 6651 "src/cilint.ml" 212 6642 6668
+)
+"src/cilint.ml" 205 6517 6521 "src/cilint.ml" 205 6517 6522
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 192 6176 6186 "src/cilint.ml" 192 6176 6187
+)
+"src/cilint.ml" 205 6517 6523 "src/cilint.ml" 205 6517 6525
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/cilint.ml" 205 6517 6526 "src/cilint.ml" 205 6517 6529
+type(
+  int
+)
+ident(
+  int_ref max "src/cilint.ml" 193 6220 6230 "src/cilint.ml" 193 6220 6233
+)
+"src/cilint.ml" 205 6517 6521 "src/cilint.ml" 205 6517 6529
+type(
+  bool
+)
+"src/cilint.ml" 205 6517 6530 "src/cilint.ml" 205 6517 6532
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/cilint.ml" 205 6517 6533 "src/cilint.ml" 205 6517 6534
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 192 6176 6186 "src/cilint.ml" 192 6176 6187
+)
+"src/cilint.ml" 205 6517 6535 "src/cilint.ml" 205 6517 6536
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/cilint.ml" 205 6517 6537 "src/cilint.ml" 205 6517 6538
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"src/cilint.ml" 205 6517 6538 "src/cilint.ml" 205 6517 6541
+type(
+  int
+)
+ident(
+  int_ref max "src/cilint.ml" 193 6220 6230 "src/cilint.ml" 193 6220 6233
+)
+"src/cilint.ml" 205 6517 6537 "src/cilint.ml" 205 6517 6541
+type(
+  int
+)
+"src/cilint.ml" 205 6517 6533 "src/cilint.ml" 205 6517 6541
+type(
+  bool
+)
+"src/cilint.ml" 205 6517 6521 "src/cilint.ml" 205 6517 6541
+type(
+  bool
+)
+"src/cilint.ml" 206 6547 6553 "src/cilint.ml" 206 6547 6554
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 192 6176 6186 "src/cilint.ml" 192 6176 6187
+)
+"src/cilint.ml" 206 6547 6555 "src/cilint.ml" 206 6547 6557
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/cilint.ml" 206 6547 6558 "src/cilint.ml" 206 6547 6566
+type(
+  int
+)
+ident(
+  int_ref truncmax "src/cilint.ml" 194 6253 6263 "src/cilint.ml" 194 6253 6271
+)
+"src/cilint.ml" 206 6547 6553 "src/cilint.ml" 206 6547 6566
+type(
+  bool
+)
+"src/cilint.ml" 207 6572 6577 "src/cilint.ml" 207 6572 6590
+type(
+  truncation
+)
+"src/cilint.ml" 209 6599 6604 "src/cilint.ml" 209 6599 6619
+type(
+  truncation
+)
+"src/cilint.ml" 206 6547 6550 "src/cilint.ml" 209 6599 6619
+type(
+  truncation
+)
+"src/cilint.ml" 211 6626 6629 "src/cilint.ml" 211 6626 6641
+type(
+  truncation
+)
+"src/cilint.ml" 205 6517 6518 "src/cilint.ml" 211 6626 6641
+type(
+  truncation
+)
+"src/cilint.ml" 212 6642 6657 "src/cilint.ml" 212 6642 6661
+type(
+  int
+)
+ident(
+  int_ref tval "src/cilint.ml" 196 6326 6336 "src/cilint.ml" 196 6326 6340
+)
+"src/cilint.ml" 212 6642 6651 "src/cilint.ml" 212 6642 6661
+type(
+  cilint
+)
+"src/cilint.ml" 212 6642 6663 "src/cilint.ml" 212 6642 6668
+type(
+  truncation
+)
+ident(
+  int_ref trunc "src/cilint.ml" 204 6498 6508 "src/cilint.ml" 204 6498 6513
+)
+"src/cilint.ml" 212 6642 6651 "src/cilint.ml" 212 6642 6668
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 204 6498 6504 "src/cilint.ml" 212 6642 6668
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 196 6326 6332 "src/cilint.ml" 212 6642 6668
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 195 6285 6290 "src/cilint.ml" 212 6642 6668
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 194 6253 6259 "src/cilint.ml" 212 6642 6668
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 193 6220 6226 "src/cilint.ml" 212 6642 6668
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 213 6669 6673 "src/cilint.ml" 213 6669 6674
+type(
+  cilint
+)
+"src/cilint.ml" 214 6678 6688 "src/cilint.ml" 214 6678 6689
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 215 6715 6721 "src/cilint.ml" 232 7145 7183
+)
+"src/cilint.ml" 214 6678 6692 "src/cilint.ml" 214 6678 6709
+type(
+  cilint -> Big_int.big_int
+)
+ident(
+  int_ref big_int_of_cilint "src/cilint.ml" 40 1389 1393 "src/cilint.ml" 40 1389 1410
+)
+"src/cilint.ml" 214 6678 6710 "src/cilint.ml" 214 6678 6711
+type(
+  cilint
+)
+ident(
+  int_ref c "src/cilint.ml" 189 6025 6053 "src/cilint.ml" 189 6025 6054
+)
+"src/cilint.ml" 214 6678 6692 "src/cilint.ml" 214 6678 6711
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 215 6715 6725 "src/cilint.ml" 215 6715 6728
+type(
+  Big_int.big_int
+)
+ident(
+  def max "src/cilint.ml" 216 6767 6773 "src/cilint.ml" 232 7145 7183
+)
+"src/cilint.ml" 215 6715 6731 "src/cilint.ml" 215 6715 6753
+type(
+  int -> int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.power_int_positive_int
+)
+"src/cilint.ml" 215 6715 6754 "src/cilint.ml" 215 6715 6755
+type(
+  int
+)
+"src/cilint.ml" 215 6715 6757 "src/cilint.ml" 215 6715 6758
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 189 6025 6064 "src/cilint.ml" 189 6025 6065
+)
+"src/cilint.ml" 215 6715 6759 "src/cilint.ml" 215 6715 6760
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/cilint.ml" 215 6715 6761 "src/cilint.ml" 215 6715 6762
+type(
+  int
+)
+"src/cilint.ml" 215 6715 6756 "src/cilint.ml" 215 6715 6763
+type(
+  int
+)
+"src/cilint.ml" 215 6715 6731 "src/cilint.ml" 215 6715 6763
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 216 6767 6777 "src/cilint.ml" 216 6767 6785
+type(
+  Big_int.big_int
+)
+ident(
+  def truncmax "src/cilint.ml" 217 6818 6824 "src/cilint.ml" 232 7145 7183
+)
+"src/cilint.ml" 216 6767 6788 "src/cilint.ml" 216 6767 6810
+type(
+  int -> int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.power_int_positive_int
+)
+"src/cilint.ml" 216 6767 6811 "src/cilint.ml" 216 6767 6812
+type(
+  int
+)
+"src/cilint.ml" 216 6767 6813 "src/cilint.ml" 216 6767 6814
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 189 6025 6064 "src/cilint.ml" 189 6025 6065
+)
+"src/cilint.ml" 216 6767 6788 "src/cilint.ml" 216 6767 6814
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 217 6818 6828 "src/cilint.ml" 217 6818 6832
+type(
+  Big_int.big_int
+)
+ident(
+  def bits "src/cilint.ml" 218 6861 6867 "src/cilint.ml" 232 7145 7183
+)
+"src/cilint.ml" 217 6818 6835 "src/cilint.ml" 217 6818 6846
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.mod_big_int
+)
+"src/cilint.ml" 217 6818 6847 "src/cilint.ml" 217 6818 6848
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 214 6678 6688 "src/cilint.ml" 214 6678 6689
+)
+"src/cilint.ml" 217 6818 6849 "src/cilint.ml" 217 6818 6857
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref truncmax "src/cilint.ml" 216 6767 6777 "src/cilint.ml" 216 6767 6785
+)
+"src/cilint.ml" 217 6818 6835 "src/cilint.ml" 217 6818 6857
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 218 6861 6871 "src/cilint.ml" 218 6861 6875
+type(
+  Big_int.big_int
+)
+ident(
+  def tval "src/cilint.ml" 224 6960 6966 "src/cilint.ml" 232 7145 7183
+)
+"src/cilint.ml" 219 6879 6883 "src/cilint.ml" 219 6879 6893
+type(
+  Big_int.big_int -> Big_int.big_int -> bool
+)
+ident(
+  ext_ref Big_int.lt_big_int
+)
+"src/cilint.ml" 219 6879 6894 "src/cilint.ml" 219 6879 6898
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref bits "src/cilint.ml" 217 6818 6828 "src/cilint.ml" 217 6818 6832
+)
+"src/cilint.ml" 219 6879 6899 "src/cilint.ml" 219 6879 6902
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref max "src/cilint.ml" 215 6715 6725 "src/cilint.ml" 215 6715 6728
+)
+"src/cilint.ml" 219 6879 6883 "src/cilint.ml" 219 6879 6902
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cilint.ml" 220 6908 6911 "src/cilint.ml" 220 6908 6915
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref bits "src/cilint.ml" 217 6818 6828 "src/cilint.ml" 217 6818 6832
+)
+"src/cilint.ml" 222 6922 6925 "src/cilint.ml" 222 6922 6936
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.sub_big_int
+)
+"src/cilint.ml" 222 6922 6937 "src/cilint.ml" 222 6922 6941
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref bits "src/cilint.ml" 217 6818 6828 "src/cilint.ml" 217 6818 6832
+)
+"src/cilint.ml" 222 6922 6942 "src/cilint.ml" 222 6922 6950
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref truncmax "src/cilint.ml" 216 6767 6777 "src/cilint.ml" 216 6767 6785
+)
+"src/cilint.ml" 222 6922 6925 "src/cilint.ml" 222 6922 6950
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 219 6879 6880 "src/cilint.ml" 222 6922 6950
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 224 6960 6970 "src/cilint.ml" 224 6960 6975
+type(
+  truncation
+)
+ident(
+  def trunc "src/cilint.ml" 232 7145 7154 "src/cilint.ml" 232 7145 7183
+)
+"src/cilint.ml" 225 6979 6983 "src/cilint.ml" 225 6979 6993
+type(
+  Big_int.big_int -> Big_int.big_int -> bool
+)
+ident(
+  ext_ref Big_int.ge_big_int
+)
+"src/cilint.ml" 225 6979 6994 "src/cilint.ml" 225 6979 6995
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 214 6678 6688 "src/cilint.ml" 214 6678 6689
+)
+"src/cilint.ml" 225 6979 6996 "src/cilint.ml" 225 6979 6999
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref max "src/cilint.ml" 215 6715 6725 "src/cilint.ml" 215 6715 6728
+)
+"src/cilint.ml" 225 6979 6983 "src/cilint.ml" 225 6979 6999
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cilint.ml" 225 6979 7000 "src/cilint.ml" 225 6979 7002
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/cilint.ml" 225 6979 7003 "src/cilint.ml" 225 6979 7013
+type(
+  Big_int.big_int -> Big_int.big_int -> bool
+)
+ident(
+  ext_ref Big_int.lt_big_int
+)
+"src/cilint.ml" 225 6979 7014 "src/cilint.ml" 225 6979 7015
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 214 6678 6688 "src/cilint.ml" 214 6678 6689
+)
+"src/cilint.ml" 225 6979 7017 "src/cilint.ml" 225 6979 7030
+type(
+  Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.minus_big_int
+)
+"src/cilint.ml" 225 6979 7031 "src/cilint.ml" 225 6979 7034
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref max "src/cilint.ml" 215 6715 6725 "src/cilint.ml" 215 6715 6728
+)
+"src/cilint.ml" 225 6979 7016 "src/cilint.ml" 225 6979 7035
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 225 6979 7003 "src/cilint.ml" 225 6979 7035
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cilint.ml" 225 6979 6983 "src/cilint.ml" 225 6979 7035
+type(
+  bool
+)
+"src/cilint.ml" 226 7041 7047 "src/cilint.ml" 226 7041 7057
+type(
+  Big_int.big_int -> Big_int.big_int -> bool
+)
+ident(
+  ext_ref Big_int.ge_big_int
+)
+"src/cilint.ml" 226 7041 7058 "src/cilint.ml" 226 7041 7059
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 214 6678 6688 "src/cilint.ml" 214 6678 6689
+)
+"src/cilint.ml" 226 7041 7060 "src/cilint.ml" 226 7041 7068
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref truncmax "src/cilint.ml" 216 6767 6777 "src/cilint.ml" 216 6767 6785
+)
+"src/cilint.ml" 226 7041 7047 "src/cilint.ml" 226 7041 7068
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cilint.ml" 227 7075 7080 "src/cilint.ml" 227 7075 7093
+type(
+  truncation
+)
+"src/cilint.ml" 229 7102 7107 "src/cilint.ml" 229 7102 7122
+type(
+  truncation
+)
+"src/cilint.ml" 226 7041 7044 "src/cilint.ml" 229 7102 7122
+type(
+  truncation
+)
+"src/cilint.ml" 231 7129 7132 "src/cilint.ml" 231 7129 7144
+type(
+  truncation
+)
+"src/cilint.ml" 225 6979 6980 "src/cilint.ml" 231 7129 7144
+type(
+  truncation
+)
+"src/cilint.ml" 232 7145 7154 "src/cilint.ml" 232 7145 7171
+type(
+  Big_int.big_int -> cilint
+)
+ident(
+  int_ref cilint_of_big_int "src/cilint.ml" 45 1498 1502 "src/cilint.ml" 45 1498 1519
+)
+"src/cilint.ml" 232 7145 7172 "src/cilint.ml" 232 7145 7176
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref tval "src/cilint.ml" 218 6861 6871 "src/cilint.ml" 218 6861 6875
+)
+"src/cilint.ml" 232 7145 7154 "src/cilint.ml" 232 7145 7176
+call(
+  stack
+)
+type(
+  cilint
+)
+"src/cilint.ml" 232 7145 7178 "src/cilint.ml" 232 7145 7183
+type(
+  truncation
+)
+ident(
+  int_ref trunc "src/cilint.ml" 224 6960 6970 "src/cilint.ml" 224 6960 6975
+)
+"src/cilint.ml" 232 7145 7154 "src/cilint.ml" 232 7145 7183
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 224 6960 6966 "src/cilint.ml" 232 7145 7183
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 218 6861 6867 "src/cilint.ml" 232 7145 7183
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 217 6818 6824 "src/cilint.ml" 232 7145 7183
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 216 6767 6773 "src/cilint.ml" 232 7145 7183
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 215 6715 6721 "src/cilint.ml" 232 7145 7183
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 214 6678 6684 "src/cilint.ml" 232 7145 7183
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 190 6095 6097 "src/cilint.ml" 232 7145 7183
+type(
+  cilint * truncation
+)
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 234 7185 7189 "src/cilint.ml" 234 7185 7213
+type(
+  cilint -> int -> cilint * truncation
+)
+ident(
+  def truncate_unsigned_cilint "src/cilint.ml" 265 8091 8091 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 234 7185 7215 "src/cilint.ml" 234 7185 7216
+type(
+  cilint
+)
+ident(
+  def c "src/cilint.ml" 234 7185 7225 "src/cilint.ml" 263 8050 8088
+)
+"src/cilint.ml" 234 7185 7226 "src/cilint.ml" 234 7185 7227
+type(
+  int
+)
+ident(
+  def n "src/cilint.ml" 234 7185 7233 "src/cilint.ml" 263 8050 8088
+)
+"src/cilint.ml" 235 7257 7265 "src/cilint.ml" 235 7257 7266
+type(
+  cilint
+)
+ident(
+  int_ref c "src/cilint.ml" 234 7185 7215 "src/cilint.ml" 234 7185 7216
+)
+"src/cilint.ml" 236 7272 7282 "src/cilint.ml" 236 7272 7283
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 236 7272 7289 "src/cilint.ml" 236 7272 7346
+)
+"src/cilint.ml" 236 7272 7276 "src/cilint.ml" 236 7272 7283
+type(
+  cilint
+)
+"src/cilint.ml" 236 7272 7289 "src/cilint.ml" 236 7272 7290
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 236 7272 7282 "src/cilint.ml" 236 7272 7283
+)
+"src/cilint.ml" 236 7272 7291 "src/cilint.ml" 236 7272 7292
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/cilint.ml" 236 7272 7293 "src/cilint.ml" 236 7272 7294
+type(
+  int
+)
+"src/cilint.ml" 236 7272 7289 "src/cilint.ml" 236 7272 7294
+type(
+  bool
+)
+"src/cilint.ml" 236 7272 7295 "src/cilint.ml" 236 7272 7297
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/cilint.ml" 236 7272 7298 "src/cilint.ml" 236 7272 7299
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 234 7185 7226 "src/cilint.ml" 234 7185 7227
+)
+"src/cilint.ml" 236 7272 7300 "src/cilint.ml" 236 7272 7302
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/cilint.ml" 236 7272 7303 "src/cilint.ml" 236 7272 7317
+type(
+  int
+)
+ident(
+  ext_ref Nativeint.size
+)
+"src/cilint.ml" 236 7272 7318 "src/cilint.ml" 236 7272 7319
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/cilint.ml" 236 7272 7320 "src/cilint.ml" 236 7272 7321
+type(
+  int
+)
+"src/cilint.ml" 236 7272 7303 "src/cilint.ml" 236 7272 7321
+type(
+  int
+)
+"src/cilint.ml" 236 7272 7298 "src/cilint.ml" 236 7272 7321
+type(
+  bool
+)
+"src/cilint.ml" 236 7272 7289 "src/cilint.ml" 236 7272 7321
+type(
+  bool
+)
+"src/cilint.ml" 236 7272 7331 "src/cilint.ml" 236 7272 7332
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 236 7272 7282 "src/cilint.ml" 236 7272 7283
+)
+"src/cilint.ml" 236 7272 7325 "src/cilint.ml" 236 7272 7332
+type(
+  cilint
+)
+"src/cilint.ml" 236 7272 7334 "src/cilint.ml" 236 7272 7346
+type(
+  truncation
+)
+"src/cilint.ml" 236 7272 7325 "src/cilint.ml" 236 7272 7346
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 237 7347 7357 "src/cilint.ml" 237 7347 7358
+type(
+  int
+)
+ident(
+  def i "src/cilint.ml" 237 7347 7364 "src/cilint.ml" 249 7638 7664
+)
+"src/cilint.ml" 237 7347 7351 "src/cilint.ml" 237 7347 7358
+type(
+  cilint
+)
+"src/cilint.ml" 237 7347 7364 "src/cilint.ml" 237 7347 7365
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 234 7185 7226 "src/cilint.ml" 234 7185 7227
+)
+"src/cilint.ml" 237 7347 7366 "src/cilint.ml" 237 7347 7367
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/cilint.ml" 237 7347 7368 "src/cilint.ml" 237 7347 7382
+type(
+  int
+)
+ident(
+  ext_ref Nativeint.size
+)
+"src/cilint.ml" 237 7347 7383 "src/cilint.ml" 237 7347 7384
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/cilint.ml" 237 7347 7385 "src/cilint.ml" 237 7347 7386
+type(
+  int
+)
+"src/cilint.ml" 237 7347 7368 "src/cilint.ml" 237 7347 7386
+type(
+  int
+)
+"src/cilint.ml" 237 7347 7364 "src/cilint.ml" 237 7347 7386
+type(
+  bool
+)
+"src/cilint.ml" 238 7390 7400 "src/cilint.ml" 238 7390 7403
+type(
+  int
+)
+ident(
+  def max "src/cilint.ml" 239 7423 7429 "src/cilint.ml" 249 7638 7664
+)
+"src/cilint.ml" 238 7390 7406 "src/cilint.ml" 238 7390 7407
+type(
+  int
+)
+"src/cilint.ml" 238 7390 7408 "src/cilint.ml" 238 7390 7411
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/cilint.ml" 238 7390 7413 "src/cilint.ml" 238 7390 7414
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 234 7185 7226 "src/cilint.ml" 234 7185 7227
+)
+"src/cilint.ml" 238 7390 7415 "src/cilint.ml" 238 7390 7416
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/cilint.ml" 238 7390 7417 "src/cilint.ml" 238 7390 7418
+type(
+  int
+)
+"src/cilint.ml" 238 7390 7412 "src/cilint.ml" 238 7390 7419
+type(
+  int
+)
+"src/cilint.ml" 238 7390 7406 "src/cilint.ml" 238 7390 7419
+type(
+  int
+)
+"src/cilint.ml" 239 7423 7433 "src/cilint.ml" 239 7423 7441
+type(
+  int
+)
+ident(
+  def truncmax "src/cilint.ml" 240 7455 7461 "src/cilint.ml" 249 7638 7664
+)
+"src/cilint.ml" 239 7423 7444 "src/cilint.ml" 239 7423 7445
+type(
+  int
+)
+"src/cilint.ml" 239 7423 7446 "src/cilint.ml" 239 7423 7449
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/cilint.ml" 239 7423 7450 "src/cilint.ml" 239 7423 7451
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 234 7185 7226 "src/cilint.ml" 234 7185 7227
+)
+"src/cilint.ml" 239 7423 7444 "src/cilint.ml" 239 7423 7451
+type(
+  int
+)
+"src/cilint.ml" 240 7455 7465 "src/cilint.ml" 240 7455 7469
+type(
+  int
+)
+ident(
+  def bits "src/cilint.ml" 241 7497 7503 "src/cilint.ml" 249 7638 7664
+)
+"src/cilint.ml" 240 7455 7472 "src/cilint.ml" 240 7455 7473
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 237 7347 7357 "src/cilint.ml" 237 7347 7358
+)
+"src/cilint.ml" 240 7455 7474 "src/cilint.ml" 240 7455 7478
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"src/cilint.ml" 240 7455 7480 "src/cilint.ml" 240 7455 7488
+type(
+  int
+)
+ident(
+  int_ref truncmax "src/cilint.ml" 239 7423 7433 "src/cilint.ml" 239 7423 7441
+)
+"src/cilint.ml" 240 7455 7489 "src/cilint.ml" 240 7455 7490
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/cilint.ml" 240 7455 7491 "src/cilint.ml" 240 7455 7492
+type(
+  int
+)
+"src/cilint.ml" 240 7455 7479 "src/cilint.ml" 240 7455 7493
+type(
+  int
+)
+"src/cilint.ml" 240 7455 7472 "src/cilint.ml" 240 7455 7493
+type(
+  int
+)
+"src/cilint.ml" 241 7497 7507 "src/cilint.ml" 241 7497 7512
+type(
+  truncation
+)
+ident(
+  def trunc "src/cilint.ml" 249 7638 7647 "src/cilint.ml" 249 7638 7664
+)
+"src/cilint.ml" 242 7516 7520 "src/cilint.ml" 242 7516 7521
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 237 7347 7357 "src/cilint.ml" 237 7347 7358
+)
+"src/cilint.ml" 242 7516 7522 "src/cilint.ml" 242 7516 7524
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/cilint.ml" 242 7516 7525 "src/cilint.ml" 242 7516 7533
+type(
+  int
+)
+ident(
+  int_ref truncmax "src/cilint.ml" 239 7423 7433 "src/cilint.ml" 239 7423 7441
+)
+"src/cilint.ml" 242 7516 7520 "src/cilint.ml" 242 7516 7533
+type(
+  bool
+)
+"src/cilint.ml" 242 7516 7534 "src/cilint.ml" 242 7516 7536
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/cilint.ml" 242 7516 7537 "src/cilint.ml" 242 7516 7538
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 237 7347 7357 "src/cilint.ml" 237 7347 7358
+)
+"src/cilint.ml" 242 7516 7539 "src/cilint.ml" 242 7516 7540
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/cilint.ml" 242 7516 7541 "src/cilint.ml" 242 7516 7542
+type(
+  int
+)
+"src/cilint.ml" 242 7516 7537 "src/cilint.ml" 242 7516 7542
+type(
+  bool
+)
+"src/cilint.ml" 242 7516 7520 "src/cilint.ml" 242 7516 7542
+type(
+  bool
+)
+"src/cilint.ml" 243 7548 7554 "src/cilint.ml" 243 7548 7555
+type(
+  int
+)
+ident(
+  int_ref i "src/cilint.ml" 237 7347 7357 "src/cilint.ml" 237 7347 7358
+)
+"src/cilint.ml" 243 7548 7556 "src/cilint.ml" 243 7548 7557
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/cilint.ml" 243 7548 7558 "src/cilint.ml" 243 7548 7559
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"src/cilint.ml" 243 7548 7559 "src/cilint.ml" 243 7548 7562
+type(
+  int
+)
+ident(
+  int_ref max "src/cilint.ml" 238 7390 7400 "src/cilint.ml" 238 7390 7403
+)
+"src/cilint.ml" 243 7548 7558 "src/cilint.ml" 243 7548 7562
+type(
+  int
+)
+"src/cilint.ml" 243 7548 7554 "src/cilint.ml" 243 7548 7562
+type(
+  bool
+)
+"src/cilint.ml" 244 7568 7573 "src/cilint.ml" 244 7568 7586
+type(
+  truncation
+)
+"src/cilint.ml" 246 7595 7600 "src/cilint.ml" 246 7595 7615
+type(
+  truncation
+)
+"src/cilint.ml" 243 7548 7551 "src/cilint.ml" 246 7595 7615
+type(
+  truncation
+)
+"src/cilint.ml" 248 7622 7625 "src/cilint.ml" 248 7622 7637
+type(
+  truncation
+)
+"src/cilint.ml" 242 7516 7517 "src/cilint.ml" 248 7622 7637
+type(
+  truncation
+)
+"src/cilint.ml" 249 7638 7653 "src/cilint.ml" 249 7638 7657
+type(
+  int
+)
+ident(
+  int_ref bits "src/cilint.ml" 240 7455 7465 "src/cilint.ml" 240 7455 7469
+)
+"src/cilint.ml" 249 7638 7647 "src/cilint.ml" 249 7638 7657
+type(
+  cilint
+)
+"src/cilint.ml" 249 7638 7659 "src/cilint.ml" 249 7638 7664
+type(
+  truncation
+)
+ident(
+  int_ref trunc "src/cilint.ml" 241 7497 7507 "src/cilint.ml" 241 7497 7512
+)
+"src/cilint.ml" 249 7638 7647 "src/cilint.ml" 249 7638 7664
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 241 7497 7503 "src/cilint.ml" 249 7638 7664
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 240 7455 7461 "src/cilint.ml" 249 7638 7664
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 239 7423 7429 "src/cilint.ml" 249 7638 7664
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 238 7390 7396 "src/cilint.ml" 249 7638 7664
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 250 7665 7669 "src/cilint.ml" 250 7665 7670
+type(
+  cilint
+)
+"src/cilint.ml" 251 7674 7684 "src/cilint.ml" 251 7674 7685
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 252 7711 7717 "src/cilint.ml" 263 8050 8088
+)
+"src/cilint.ml" 251 7674 7688 "src/cilint.ml" 251 7674 7705
+type(
+  cilint -> Big_int.big_int
+)
+ident(
+  int_ref big_int_of_cilint "src/cilint.ml" 40 1389 1393 "src/cilint.ml" 40 1389 1410
+)
+"src/cilint.ml" 251 7674 7706 "src/cilint.ml" 251 7674 7707
+type(
+  cilint
+)
+ident(
+  int_ref c "src/cilint.ml" 234 7185 7215 "src/cilint.ml" 234 7185 7216
+)
+"src/cilint.ml" 251 7674 7688 "src/cilint.ml" 251 7674 7707
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 252 7711 7721 "src/cilint.ml" 252 7711 7724
+type(
+  Big_int.big_int
+)
+ident(
+  def max "src/cilint.ml" 253 7763 7769 "src/cilint.ml" 263 8050 8088
+)
+"src/cilint.ml" 252 7711 7727 "src/cilint.ml" 252 7711 7749
+type(
+  int -> int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.power_int_positive_int
+)
+"src/cilint.ml" 252 7711 7750 "src/cilint.ml" 252 7711 7751
+type(
+  int
+)
+"src/cilint.ml" 252 7711 7753 "src/cilint.ml" 252 7711 7754
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 234 7185 7226 "src/cilint.ml" 234 7185 7227
+)
+"src/cilint.ml" 252 7711 7755 "src/cilint.ml" 252 7711 7756
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/cilint.ml" 252 7711 7757 "src/cilint.ml" 252 7711 7758
+type(
+  int
+)
+"src/cilint.ml" 252 7711 7752 "src/cilint.ml" 252 7711 7759
+type(
+  int
+)
+"src/cilint.ml" 252 7711 7727 "src/cilint.ml" 252 7711 7759
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 253 7763 7773 "src/cilint.ml" 253 7763 7781
+type(
+  Big_int.big_int
+)
+ident(
+  def truncmax "src/cilint.ml" 254 7814 7820 "src/cilint.ml" 263 8050 8088
+)
+"src/cilint.ml" 253 7763 7784 "src/cilint.ml" 253 7763 7806
+type(
+  int -> int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.power_int_positive_int
+)
+"src/cilint.ml" 253 7763 7807 "src/cilint.ml" 253 7763 7808
+type(
+  int
+)
+"src/cilint.ml" 253 7763 7809 "src/cilint.ml" 253 7763 7810
+type(
+  int
+)
+ident(
+  int_ref n "src/cilint.ml" 234 7185 7226 "src/cilint.ml" 234 7185 7227
+)
+"src/cilint.ml" 253 7763 7784 "src/cilint.ml" 253 7763 7810
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 254 7814 7824 "src/cilint.ml" 254 7814 7828
+type(
+  Big_int.big_int
+)
+ident(
+  def bits "src/cilint.ml" 255 7857 7863 "src/cilint.ml" 263 8050 8088
+)
+"src/cilint.ml" 254 7814 7831 "src/cilint.ml" 254 7814 7842
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.mod_big_int
+)
+"src/cilint.ml" 254 7814 7843 "src/cilint.ml" 254 7814 7844
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 251 7674 7684 "src/cilint.ml" 251 7674 7685
+)
+"src/cilint.ml" 254 7814 7845 "src/cilint.ml" 254 7814 7853
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref truncmax "src/cilint.ml" 253 7763 7773 "src/cilint.ml" 253 7763 7781
+)
+"src/cilint.ml" 254 7814 7831 "src/cilint.ml" 254 7814 7853
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 255 7857 7867 "src/cilint.ml" 255 7857 7872
+type(
+  truncation
+)
+ident(
+  def trunc "src/cilint.ml" 263 8050 8059 "src/cilint.ml" 263 8050 8088
+)
+"src/cilint.ml" 256 7876 7880 "src/cilint.ml" 256 7876 7890
+type(
+  Big_int.big_int -> Big_int.big_int -> bool
+)
+ident(
+  ext_ref Big_int.ge_big_int
+)
+"src/cilint.ml" 256 7876 7891 "src/cilint.ml" 256 7876 7892
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 251 7674 7684 "src/cilint.ml" 251 7674 7685
+)
+"src/cilint.ml" 256 7876 7893 "src/cilint.ml" 256 7876 7901
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref truncmax "src/cilint.ml" 253 7763 7773 "src/cilint.ml" 253 7763 7781
+)
+"src/cilint.ml" 256 7876 7880 "src/cilint.ml" 256 7876 7901
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cilint.ml" 256 7876 7902 "src/cilint.ml" 256 7876 7904
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/cilint.ml" 256 7876 7905 "src/cilint.ml" 256 7876 7915
+type(
+  Big_int.big_int -> Big_int.big_int -> bool
+)
+ident(
+  ext_ref Big_int.lt_big_int
+)
+"src/cilint.ml" 256 7876 7916 "src/cilint.ml" 256 7876 7917
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 251 7674 7684 "src/cilint.ml" 251 7674 7685
+)
+"src/cilint.ml" 256 7876 7918 "src/cilint.ml" 256 7876 7930
+type(
+  Big_int.big_int
+)
+ident(
+  ext_ref Big_int.zero_big_int
+)
+"src/cilint.ml" 256 7876 7905 "src/cilint.ml" 256 7876 7930
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cilint.ml" 256 7876 7880 "src/cilint.ml" 256 7876 7930
+type(
+  bool
+)
+"src/cilint.ml" 257 7936 7942 "src/cilint.ml" 257 7936 7952
+type(
+  Big_int.big_int -> Big_int.big_int -> bool
+)
+ident(
+  ext_ref Big_int.lt_big_int
+)
+"src/cilint.ml" 257 7936 7953 "src/cilint.ml" 257 7936 7954
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 251 7674 7684 "src/cilint.ml" 251 7674 7685
+)
+"src/cilint.ml" 257 7936 7956 "src/cilint.ml" 257 7936 7969
+type(
+  Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.minus_big_int
+)
+"src/cilint.ml" 257 7936 7970 "src/cilint.ml" 257 7936 7973
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref max "src/cilint.ml" 252 7711 7721 "src/cilint.ml" 252 7711 7724
+)
+"src/cilint.ml" 257 7936 7955 "src/cilint.ml" 257 7936 7974
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"src/cilint.ml" 257 7936 7942 "src/cilint.ml" 257 7936 7974
+call(
+  stack
+)
+type(
+  bool
+)
+"src/cilint.ml" 258 7980 7985 "src/cilint.ml" 258 7980 7998
+type(
+  truncation
+)
+"src/cilint.ml" 260 8007 8012 "src/cilint.ml" 260 8007 8027
+type(
+  truncation
+)
+"src/cilint.ml" 257 7936 7939 "src/cilint.ml" 260 8007 8027
+type(
+  truncation
+)
+"src/cilint.ml" 262 8034 8037 "src/cilint.ml" 262 8034 8049
+type(
+  truncation
+)
+"src/cilint.ml" 256 7876 7877 "src/cilint.ml" 262 8034 8049
+type(
+  truncation
+)
+"src/cilint.ml" 263 8050 8059 "src/cilint.ml" 263 8050 8076
+type(
+  Big_int.big_int -> cilint
+)
+ident(
+  int_ref cilint_of_big_int "src/cilint.ml" 45 1498 1502 "src/cilint.ml" 45 1498 1519
+)
+"src/cilint.ml" 263 8050 8077 "src/cilint.ml" 263 8050 8081
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref bits "src/cilint.ml" 254 7814 7824 "src/cilint.ml" 254 7814 7828
+)
+"src/cilint.ml" 263 8050 8059 "src/cilint.ml" 263 8050 8081
+call(
+  stack
+)
+type(
+  cilint
+)
+"src/cilint.ml" 263 8050 8083 "src/cilint.ml" 263 8050 8088
+type(
+  truncation
+)
+ident(
+  int_ref trunc "src/cilint.ml" 255 7857 7867 "src/cilint.ml" 255 7857 7872
+)
+"src/cilint.ml" 263 8050 8059 "src/cilint.ml" 263 8050 8088
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 255 7857 7863 "src/cilint.ml" 263 8050 8088
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 254 7814 7820 "src/cilint.ml" 263 8050 8088
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 253 7763 7769 "src/cilint.ml" 263 8050 8088
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 252 7711 7717 "src/cilint.ml" 263 8050 8088
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 251 7674 7680 "src/cilint.ml" 263 8050 8088
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 235 7257 7259 "src/cilint.ml" 263 8050 8088
+type(
+  cilint * truncation
+)
+type(
+  cilint * truncation
+)
+"src/cilint.ml" 265 8091 8095 "src/cilint.ml" 265 8091 8108
+type(
+  cilint -> bool
+)
+ident(
+  def is_int_cilint "src/cilint.ml" 268 8165 8194 "src/cilint.ml" 1 0 -1
+)
+"src/cilint.ml" 265 8091 8110 "src/cilint.ml" 265 8091 8111
+type(
+  cilint
+)
+ident(
+  def c "src/cilint.ml" 265 8091 8120 "src/cilint.ml" 268 8165 8194
+)
+"src/cilint.ml" 266 8130 8138 "src/cilint.ml" 266 8130 8139
+type(
+  cilint
+)
+ident(
+  int_ref c "src/cilint.ml" 265 8091 8110 "src/cilint.ml" 265 8091 8111
+)
+"src/cilint.ml" 267 8145 8155 "src/cilint.ml" 267 8145 8156
+type(
+  int
+)
+"src/cilint.ml" 267 8145 8149 "src/cilint.ml" 267 8145 8156
+type(
+  cilint
+)
+"src/cilint.ml" 267 8145 8160 "src/cilint.ml" 267 8145 8164
+type(
+  bool
+)
+"src/cilint.ml" 268 8165 8173 "src/cilint.ml" 268 8165 8174
+type(
+  Big_int.big_int
+)
+ident(
+  def b "src/cilint.ml" 268 8165 8178 "src/cilint.ml" 268 8165 8194
+)
+"src/cilint.ml" 268 8165 8169 "src/cilint.ml" 268 8165 8174
+type(
+  cilint
+)
+"src/cilint.ml" 268 8165 8178 "src/cilint.ml" 268 8165 8192
+type(
+  Big_int.big_int -> bool
+)
+ident(
+  ext_ref Big_int.is_int_big_int
+)
+"src/cilint.ml" 268 8165 8193 "src/cilint.ml" 268 8165 8194
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "src/cilint.ml" 268 8165 8173 "src/cilint.ml" 268 8165 8174
+)
+"src/cilint.ml" 268 8165 8178 "src/cilint.ml" 268 8165 8194
+call(
+  tail
+)
+type(
+  bool
+)
+"src/cilint.ml" 266 8130 8132 "src/cilint.ml" 268 8165 8194
+type(
+  bool
+)
+type(
+  bool
+)

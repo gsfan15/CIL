@@ -1,0 +1,7372 @@
+"src/ext/pta/setp.ml" 95 3798 3806 "src/ext/pta/setp.ml" 95 3798 3812
+type(
+  'a t -> int
+)
+ident(
+  def height "src/ext/pta/setp.ml" 103 4064 4068 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 96 3824 3832 "src/ext/pta/setp.ml" 96 3824 3837
+type(
+  'a t
+)
+"src/ext/pta/setp.ml" 96 3824 3841 "src/ext/pta/setp.ml" 96 3824 3842
+type(
+  int
+)
+"src/ext/pta/setp.ml" 97 3843 3856 "src/ext/pta/setp.ml" 97 3843 3857
+type(
+  'a t
+)
+"src/ext/pta/setp.ml" 97 3843 3859 "src/ext/pta/setp.ml" 97 3843 3860
+type(
+  'a elt
+)
+"src/ext/pta/setp.ml" 97 3843 3862 "src/ext/pta/setp.ml" 97 3843 3863
+type(
+  'a t
+)
+"src/ext/pta/setp.ml" 97 3843 3865 "src/ext/pta/setp.ml" 97 3843 3866
+type(
+  int
+)
+ident(
+  def h "src/ext/pta/setp.ml" 97 3843 3871 "src/ext/pta/setp.ml" 97 3843 3872
+)
+"src/ext/pta/setp.ml" 97 3843 3851 "src/ext/pta/setp.ml" 97 3843 3867
+type(
+  'a t
+)
+"src/ext/pta/setp.ml" 97 3843 3871 "src/ext/pta/setp.ml" 97 3843 3872
+type(
+  int
+)
+ident(
+  int_ref h "src/ext/pta/setp.ml" 97 3843 3865 "src/ext/pta/setp.ml" 97 3843 3866
+)
+"src/ext/pta/setp.ml" 95 3798 3815 "src/ext/pta/setp.ml" 97 3843 3872
+type(
+  'a t -> int
+)
+"src/ext/pta/setp.ml" 103 4064 4072 "src/ext/pta/setp.ml" 103 4064 4078
+type(
+  'b t -> 'b elt -> 'b t -> 'b t
+)
+ident(
+  def create "src/ext/pta/setp.ml" 113 4502 4506 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 103 4064 4079 "src/ext/pta/setp.ml" 103 4064 4080
+type(
+  'b t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 103 4064 4081 "src/ext/pta/setp.ml" 106 4213 4271
+)
+"src/ext/pta/setp.ml" 103 4064 4081 "src/ext/pta/setp.ml" 103 4064 4082
+type(
+  'b elt
+)
+ident(
+  def x "src/ext/pta/setp.ml" 103 4064 4083 "src/ext/pta/setp.ml" 106 4213 4271
+)
+"src/ext/pta/setp.ml" 103 4064 4083 "src/ext/pta/setp.ml" 103 4064 4084
+type(
+  'b t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 104 4087 4093 "src/ext/pta/setp.ml" 106 4213 4271
+)
+"src/ext/pta/setp.ml" 104 4087 4097 "src/ext/pta/setp.ml" 104 4087 4099
+type(
+  int
+)
+ident(
+  def hl "src/ext/pta/setp.ml" 105 4150 4156 "src/ext/pta/setp.ml" 106 4213 4271
+)
+"src/ext/pta/setp.ml" 104 4087 4108 "src/ext/pta/setp.ml" 104 4087 4109
+type(
+  'b t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 103 4064 4079 "src/ext/pta/setp.ml" 103 4064 4080
+)
+"src/ext/pta/setp.ml" 104 4087 4115 "src/ext/pta/setp.ml" 104 4087 4120
+type(
+  'b t
+)
+"src/ext/pta/setp.ml" 104 4087 4124 "src/ext/pta/setp.ml" 104 4087 4125
+type(
+  int
+)
+"src/ext/pta/setp.ml" 104 4087 4133 "src/ext/pta/setp.ml" 104 4087 4134
+type(
+  'b t
+)
+"src/ext/pta/setp.ml" 104 4087 4135 "src/ext/pta/setp.ml" 104 4087 4136
+type(
+  'b elt
+)
+"src/ext/pta/setp.ml" 104 4087 4137 "src/ext/pta/setp.ml" 104 4087 4138
+type(
+  'b t
+)
+"src/ext/pta/setp.ml" 104 4087 4139 "src/ext/pta/setp.ml" 104 4087 4140
+type(
+  int
+)
+ident(
+  def h "src/ext/pta/setp.ml" 104 4087 4145 "src/ext/pta/setp.ml" 104 4087 4146
+)
+"src/ext/pta/setp.ml" 104 4087 4128 "src/ext/pta/setp.ml" 104 4087 4141
+type(
+  'b t
+)
+"src/ext/pta/setp.ml" 104 4087 4145 "src/ext/pta/setp.ml" 104 4087 4146
+type(
+  int
+)
+ident(
+  int_ref h "src/ext/pta/setp.ml" 104 4087 4139 "src/ext/pta/setp.ml" 104 4087 4140
+)
+"src/ext/pta/setp.ml" 104 4087 4102 "src/ext/pta/setp.ml" 104 4087 4146
+type(
+  int
+)
+"src/ext/pta/setp.ml" 105 4150 4160 "src/ext/pta/setp.ml" 105 4150 4162
+type(
+  int
+)
+ident(
+  def hr "src/ext/pta/setp.ml" 106 4213 4219 "src/ext/pta/setp.ml" 106 4213 4271
+)
+"src/ext/pta/setp.ml" 105 4150 4171 "src/ext/pta/setp.ml" 105 4150 4172
+type(
+  'b t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 103 4064 4083 "src/ext/pta/setp.ml" 103 4064 4084
+)
+"src/ext/pta/setp.ml" 105 4150 4178 "src/ext/pta/setp.ml" 105 4150 4183
+type(
+  'b t
+)
+"src/ext/pta/setp.ml" 105 4150 4187 "src/ext/pta/setp.ml" 105 4150 4188
+type(
+  int
+)
+"src/ext/pta/setp.ml" 105 4150 4196 "src/ext/pta/setp.ml" 105 4150 4197
+type(
+  'b t
+)
+"src/ext/pta/setp.ml" 105 4150 4198 "src/ext/pta/setp.ml" 105 4150 4199
+type(
+  'b elt
+)
+"src/ext/pta/setp.ml" 105 4150 4200 "src/ext/pta/setp.ml" 105 4150 4201
+type(
+  'b t
+)
+"src/ext/pta/setp.ml" 105 4150 4202 "src/ext/pta/setp.ml" 105 4150 4203
+type(
+  int
+)
+ident(
+  def h "src/ext/pta/setp.ml" 105 4150 4208 "src/ext/pta/setp.ml" 105 4150 4209
+)
+"src/ext/pta/setp.ml" 105 4150 4191 "src/ext/pta/setp.ml" 105 4150 4204
+type(
+  'b t
+)
+"src/ext/pta/setp.ml" 105 4150 4208 "src/ext/pta/setp.ml" 105 4150 4209
+type(
+  int
+)
+ident(
+  int_ref h "src/ext/pta/setp.ml" 105 4150 4202 "src/ext/pta/setp.ml" 105 4150 4203
+)
+"src/ext/pta/setp.ml" 105 4150 4165 "src/ext/pta/setp.ml" 105 4150 4209
+type(
+  int
+)
+"src/ext/pta/setp.ml" 106 4213 4224 "src/ext/pta/setp.ml" 106 4213 4225
+type(
+  'b t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 103 4064 4079 "src/ext/pta/setp.ml" 103 4064 4080
+)
+"src/ext/pta/setp.ml" 106 4213 4227 "src/ext/pta/setp.ml" 106 4213 4228
+type(
+  'b elt
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 103 4064 4081 "src/ext/pta/setp.ml" 103 4064 4082
+)
+"src/ext/pta/setp.ml" 106 4213 4230 "src/ext/pta/setp.ml" 106 4213 4231
+type(
+  'b t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 103 4064 4083 "src/ext/pta/setp.ml" 103 4064 4084
+)
+"src/ext/pta/setp.ml" 106 4213 4237 "src/ext/pta/setp.ml" 106 4213 4239
+type(
+  int
+)
+ident(
+  int_ref hl "src/ext/pta/setp.ml" 104 4087 4097 "src/ext/pta/setp.ml" 104 4087 4099
+)
+"src/ext/pta/setp.ml" 106 4213 4240 "src/ext/pta/setp.ml" 106 4213 4242
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ext/pta/setp.ml" 106 4213 4243 "src/ext/pta/setp.ml" 106 4213 4245
+type(
+  int
+)
+ident(
+  int_ref hr "src/ext/pta/setp.ml" 105 4150 4160 "src/ext/pta/setp.ml" 105 4150 4162
+)
+"src/ext/pta/setp.ml" 106 4213 4237 "src/ext/pta/setp.ml" 106 4213 4245
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 106 4213 4251 "src/ext/pta/setp.ml" 106 4213 4253
+type(
+  int
+)
+ident(
+  int_ref hl "src/ext/pta/setp.ml" 104 4087 4097 "src/ext/pta/setp.ml" 104 4087 4099
+)
+"src/ext/pta/setp.ml" 106 4213 4254 "src/ext/pta/setp.ml" 106 4213 4255
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/pta/setp.ml" 106 4213 4256 "src/ext/pta/setp.ml" 106 4213 4257
+type(
+  int
+)
+"src/ext/pta/setp.ml" 106 4213 4251 "src/ext/pta/setp.ml" 106 4213 4257
+type(
+  int
+)
+"src/ext/pta/setp.ml" 106 4213 4263 "src/ext/pta/setp.ml" 106 4213 4265
+type(
+  int
+)
+ident(
+  int_ref hr "src/ext/pta/setp.ml" 105 4150 4160 "src/ext/pta/setp.ml" 105 4150 4162
+)
+"src/ext/pta/setp.ml" 106 4213 4266 "src/ext/pta/setp.ml" 106 4213 4267
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/pta/setp.ml" 106 4213 4268 "src/ext/pta/setp.ml" 106 4213 4269
+type(
+  int
+)
+"src/ext/pta/setp.ml" 106 4213 4263 "src/ext/pta/setp.ml" 106 4213 4269
+type(
+  int
+)
+"src/ext/pta/setp.ml" 106 4213 4233 "src/ext/pta/setp.ml" 106 4213 4270
+type(
+  int
+)
+"src/ext/pta/setp.ml" 106 4213 4219 "src/ext/pta/setp.ml" 106 4213 4271
+type(
+  'b t
+)
+"src/ext/pta/setp.ml" 105 4150 4156 "src/ext/pta/setp.ml" 106 4213 4271
+type(
+  'b t
+)
+"src/ext/pta/setp.ml" 104 4087 4093 "src/ext/pta/setp.ml" 106 4213 4271
+type(
+  'b t
+)
+"src/ext/pta/setp.ml" 113 4502 4510 "src/ext/pta/setp.ml" 113 4502 4513
+type(
+  'c t -> 'c elt -> 'c t -> 'c t
+)
+ident(
+  def bal "src/ext/pta/setp.ml" 146 5691 5695 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 113 4502 4514 "src/ext/pta/setp.ml" 113 4502 4515
+type(
+  'c t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 113 4502 4516 "src/ext/pta/setp.ml" 141 5539 5599
+)
+"src/ext/pta/setp.ml" 113 4502 4516 "src/ext/pta/setp.ml" 113 4502 4517
+type(
+  'c elt
+)
+ident(
+  def x "src/ext/pta/setp.ml" 113 4502 4518 "src/ext/pta/setp.ml" 141 5539 5599
+)
+"src/ext/pta/setp.ml" 113 4502 4518 "src/ext/pta/setp.ml" 113 4502 4519
+type(
+  'c t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 114 4522 4528 "src/ext/pta/setp.ml" 141 5539 5599
+)
+"src/ext/pta/setp.ml" 114 4522 4532 "src/ext/pta/setp.ml" 114 4522 4534
+type(
+  int
+)
+ident(
+  def hl "src/ext/pta/setp.ml" 115 4585 4591 "src/ext/pta/setp.ml" 141 5539 5599
+)
+"src/ext/pta/setp.ml" 114 4522 4543 "src/ext/pta/setp.ml" 114 4522 4544
+type(
+  'c t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 113 4502 4514 "src/ext/pta/setp.ml" 113 4502 4515
+)
+"src/ext/pta/setp.ml" 114 4522 4550 "src/ext/pta/setp.ml" 114 4522 4555
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 114 4522 4559 "src/ext/pta/setp.ml" 114 4522 4560
+type(
+  int
+)
+"src/ext/pta/setp.ml" 114 4522 4568 "src/ext/pta/setp.ml" 114 4522 4569
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 114 4522 4570 "src/ext/pta/setp.ml" 114 4522 4571
+type(
+  'c elt
+)
+"src/ext/pta/setp.ml" 114 4522 4572 "src/ext/pta/setp.ml" 114 4522 4573
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 114 4522 4574 "src/ext/pta/setp.ml" 114 4522 4575
+type(
+  int
+)
+ident(
+  def h "src/ext/pta/setp.ml" 114 4522 4580 "src/ext/pta/setp.ml" 114 4522 4581
+)
+"src/ext/pta/setp.ml" 114 4522 4563 "src/ext/pta/setp.ml" 114 4522 4576
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 114 4522 4580 "src/ext/pta/setp.ml" 114 4522 4581
+type(
+  int
+)
+ident(
+  int_ref h "src/ext/pta/setp.ml" 114 4522 4574 "src/ext/pta/setp.ml" 114 4522 4575
+)
+"src/ext/pta/setp.ml" 114 4522 4537 "src/ext/pta/setp.ml" 114 4522 4581
+type(
+  int
+)
+"src/ext/pta/setp.ml" 115 4585 4595 "src/ext/pta/setp.ml" 115 4585 4597
+type(
+  int
+)
+ident(
+  def hr "src/ext/pta/setp.ml" 116 4648 4654 "src/ext/pta/setp.ml" 141 5539 5599
+)
+"src/ext/pta/setp.ml" 115 4585 4606 "src/ext/pta/setp.ml" 115 4585 4607
+type(
+  'c t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 113 4502 4518 "src/ext/pta/setp.ml" 113 4502 4519
+)
+"src/ext/pta/setp.ml" 115 4585 4613 "src/ext/pta/setp.ml" 115 4585 4618
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 115 4585 4622 "src/ext/pta/setp.ml" 115 4585 4623
+type(
+  int
+)
+"src/ext/pta/setp.ml" 115 4585 4631 "src/ext/pta/setp.ml" 115 4585 4632
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 115 4585 4633 "src/ext/pta/setp.ml" 115 4585 4634
+type(
+  'c elt
+)
+"src/ext/pta/setp.ml" 115 4585 4635 "src/ext/pta/setp.ml" 115 4585 4636
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 115 4585 4637 "src/ext/pta/setp.ml" 115 4585 4638
+type(
+  int
+)
+ident(
+  def h "src/ext/pta/setp.ml" 115 4585 4643 "src/ext/pta/setp.ml" 115 4585 4644
+)
+"src/ext/pta/setp.ml" 115 4585 4626 "src/ext/pta/setp.ml" 115 4585 4639
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 115 4585 4643 "src/ext/pta/setp.ml" 115 4585 4644
+type(
+  int
+)
+ident(
+  int_ref h "src/ext/pta/setp.ml" 115 4585 4637 "src/ext/pta/setp.ml" 115 4585 4638
+)
+"src/ext/pta/setp.ml" 115 4585 4600 "src/ext/pta/setp.ml" 115 4585 4644
+type(
+  int
+)
+"src/ext/pta/setp.ml" 116 4648 4657 "src/ext/pta/setp.ml" 116 4648 4659
+type(
+  int
+)
+ident(
+  int_ref hl "src/ext/pta/setp.ml" 114 4522 4532 "src/ext/pta/setp.ml" 114 4522 4534
+)
+"src/ext/pta/setp.ml" 116 4648 4660 "src/ext/pta/setp.ml" 116 4648 4661
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ext/pta/setp.ml" 116 4648 4662 "src/ext/pta/setp.ml" 116 4648 4664
+type(
+  int
+)
+ident(
+  int_ref hr "src/ext/pta/setp.ml" 115 4585 4595 "src/ext/pta/setp.ml" 115 4585 4597
+)
+"src/ext/pta/setp.ml" 116 4648 4665 "src/ext/pta/setp.ml" 116 4648 4666
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/pta/setp.ml" 116 4648 4667 "src/ext/pta/setp.ml" 116 4648 4668
+type(
+  int
+)
+"src/ext/pta/setp.ml" 116 4648 4662 "src/ext/pta/setp.ml" 116 4648 4668
+type(
+  int
+)
+"src/ext/pta/setp.ml" 116 4648 4657 "src/ext/pta/setp.ml" 116 4648 4668
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 117 4680 4694 "src/ext/pta/setp.ml" 117 4680 4695
+type(
+  'c t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 113 4502 4514 "src/ext/pta/setp.ml" 113 4502 4515
+)
+"src/ext/pta/setp.ml" 118 4701 4711 "src/ext/pta/setp.ml" 118 4701 4716
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 118 4701 4720 "src/ext/pta/setp.ml" 118 4701 4731
+type(
+  string -> 'c t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/ext/pta/setp.ml" 118 4701 4732 "src/ext/pta/setp.ml" 118 4701 4741
+type(
+  string
+)
+"src/ext/pta/setp.ml" 118 4701 4720 "src/ext/pta/setp.ml" 118 4701 4741
+call(
+  tail
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 119 4742 4757 "src/ext/pta/setp.ml" 119 4742 4759
+type(
+  'c t
+)
+ident(
+  def ll "src/ext/pta/setp.ml" 120 4775 4787 "src/ext/pta/setp.ml" 127 5065 5080
+)
+"src/ext/pta/setp.ml" 119 4742 4761 "src/ext/pta/setp.ml" 119 4742 4763
+type(
+  'c elt
+)
+ident(
+  def lv "src/ext/pta/setp.ml" 120 4775 4787 "src/ext/pta/setp.ml" 127 5065 5080
+)
+"src/ext/pta/setp.ml" 119 4742 4765 "src/ext/pta/setp.ml" 119 4742 4767
+type(
+  'c t
+)
+ident(
+  def lr "src/ext/pta/setp.ml" 120 4775 4787 "src/ext/pta/setp.ml" 127 5065 5080
+)
+"src/ext/pta/setp.ml" 119 4742 4769 "src/ext/pta/setp.ml" 119 4742 4770
+type(
+  int
+)
+"src/ext/pta/setp.ml" 119 4742 4752 "src/ext/pta/setp.ml" 119 4742 4771
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 120 4775 4790 "src/ext/pta/setp.ml" 120 4775 4796
+type(
+  'c t -> int
+)
+ident(
+  int_ref height "src/ext/pta/setp.ml" 95 3798 3806 "src/ext/pta/setp.ml" 95 3798 3812
+)
+"src/ext/pta/setp.ml" 120 4775 4797 "src/ext/pta/setp.ml" 120 4775 4799
+type(
+  'c t
+)
+ident(
+  int_ref ll "src/ext/pta/setp.ml" 119 4742 4757 "src/ext/pta/setp.ml" 119 4742 4759
+)
+"src/ext/pta/setp.ml" 120 4775 4790 "src/ext/pta/setp.ml" 120 4775 4799
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 120 4775 4800 "src/ext/pta/setp.ml" 120 4775 4802
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ext/pta/setp.ml" 120 4775 4803 "src/ext/pta/setp.ml" 120 4775 4809
+type(
+  'c t -> int
+)
+ident(
+  int_ref height "src/ext/pta/setp.ml" 95 3798 3806 "src/ext/pta/setp.ml" 95 3798 3812
+)
+"src/ext/pta/setp.ml" 120 4775 4810 "src/ext/pta/setp.ml" 120 4775 4812
+type(
+  'c t
+)
+ident(
+  int_ref lr "src/ext/pta/setp.ml" 119 4742 4765 "src/ext/pta/setp.ml" 119 4742 4767
+)
+"src/ext/pta/setp.ml" 120 4775 4803 "src/ext/pta/setp.ml" 120 4775 4812
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 120 4775 4790 "src/ext/pta/setp.ml" 120 4775 4812
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 121 4818 4832 "src/ext/pta/setp.ml" 121 4818 4838
+type(
+  'c t -> 'c elt -> 'c t -> 'c t
+)
+ident(
+  int_ref create "src/ext/pta/setp.ml" 103 4064 4072 "src/ext/pta/setp.ml" 103 4064 4078
+)
+"src/ext/pta/setp.ml" 121 4818 4839 "src/ext/pta/setp.ml" 121 4818 4841
+type(
+  'c t
+)
+ident(
+  int_ref ll "src/ext/pta/setp.ml" 119 4742 4757 "src/ext/pta/setp.ml" 119 4742 4759
+)
+"src/ext/pta/setp.ml" 121 4818 4842 "src/ext/pta/setp.ml" 121 4818 4844
+type(
+  'c elt
+)
+ident(
+  int_ref lv "src/ext/pta/setp.ml" 119 4742 4761 "src/ext/pta/setp.ml" 119 4742 4763
+)
+"src/ext/pta/setp.ml" 121 4818 4846 "src/ext/pta/setp.ml" 121 4818 4852
+type(
+  'c t -> 'c elt -> 'c t -> 'c t
+)
+ident(
+  int_ref create "src/ext/pta/setp.ml" 103 4064 4072 "src/ext/pta/setp.ml" 103 4064 4078
+)
+"src/ext/pta/setp.ml" 121 4818 4853 "src/ext/pta/setp.ml" 121 4818 4855
+type(
+  'c t
+)
+ident(
+  int_ref lr "src/ext/pta/setp.ml" 119 4742 4765 "src/ext/pta/setp.ml" 119 4742 4767
+)
+"src/ext/pta/setp.ml" 121 4818 4856 "src/ext/pta/setp.ml" 121 4818 4857
+type(
+  'c elt
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 113 4502 4516 "src/ext/pta/setp.ml" 113 4502 4517
+)
+"src/ext/pta/setp.ml" 121 4818 4858 "src/ext/pta/setp.ml" 121 4818 4859
+type(
+  'c t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 113 4502 4518 "src/ext/pta/setp.ml" 113 4502 4519
+)
+"src/ext/pta/setp.ml" 121 4818 4845 "src/ext/pta/setp.ml" 121 4818 4860
+call(
+  stack
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 121 4818 4832 "src/ext/pta/setp.ml" 121 4818 4860
+call(
+  tail
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 123 4884 4904 "src/ext/pta/setp.ml" 123 4884 4906
+type(
+  'c t
+)
+ident(
+  int_ref lr "src/ext/pta/setp.ml" 119 4742 4765 "src/ext/pta/setp.ml" 119 4742 4767
+)
+"src/ext/pta/setp.ml" 124 4912 4928 "src/ext/pta/setp.ml" 124 4912 4933
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 124 4912 4937 "src/ext/pta/setp.ml" 124 4912 4948
+type(
+  string -> 'c t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/ext/pta/setp.ml" 124 4912 4949 "src/ext/pta/setp.ml" 124 4912 4958
+type(
+  string
+)
+"src/ext/pta/setp.ml" 124 4912 4937 "src/ext/pta/setp.ml" 124 4912 4958
+call(
+  tail
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 125 4959 4980 "src/ext/pta/setp.ml" 125 4959 4983
+type(
+  'c t
+)
+ident(
+  def lrl "src/ext/pta/setp.ml" 126 5000 5018 "src/ext/pta/setp.ml" 126 5000 5064
+)
+"src/ext/pta/setp.ml" 125 4959 4985 "src/ext/pta/setp.ml" 125 4959 4988
+type(
+  'c elt
+)
+ident(
+  def lrv "src/ext/pta/setp.ml" 126 5000 5018 "src/ext/pta/setp.ml" 126 5000 5064
+)
+"src/ext/pta/setp.ml" 125 4959 4990 "src/ext/pta/setp.ml" 125 4959 4993
+type(
+  'c t
+)
+ident(
+  def lrr "src/ext/pta/setp.ml" 126 5000 5018 "src/ext/pta/setp.ml" 126 5000 5064
+)
+"src/ext/pta/setp.ml" 125 4959 4995 "src/ext/pta/setp.ml" 125 4959 4996
+type(
+  int
+)
+"src/ext/pta/setp.ml" 125 4959 4975 "src/ext/pta/setp.ml" 125 4959 4997
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 126 5000 5018 "src/ext/pta/setp.ml" 126 5000 5024
+type(
+  'c t -> 'c elt -> 'c t -> 'c t
+)
+ident(
+  int_ref create "src/ext/pta/setp.ml" 103 4064 4072 "src/ext/pta/setp.ml" 103 4064 4078
+)
+"src/ext/pta/setp.ml" 126 5000 5026 "src/ext/pta/setp.ml" 126 5000 5032
+type(
+  'c t -> 'c elt -> 'c t -> 'c t
+)
+ident(
+  int_ref create "src/ext/pta/setp.ml" 103 4064 4072 "src/ext/pta/setp.ml" 103 4064 4078
+)
+"src/ext/pta/setp.ml" 126 5000 5033 "src/ext/pta/setp.ml" 126 5000 5035
+type(
+  'c t
+)
+ident(
+  int_ref ll "src/ext/pta/setp.ml" 119 4742 4757 "src/ext/pta/setp.ml" 119 4742 4759
+)
+"src/ext/pta/setp.ml" 126 5000 5036 "src/ext/pta/setp.ml" 126 5000 5038
+type(
+  'c elt
+)
+ident(
+  int_ref lv "src/ext/pta/setp.ml" 119 4742 4761 "src/ext/pta/setp.ml" 119 4742 4763
+)
+"src/ext/pta/setp.ml" 126 5000 5039 "src/ext/pta/setp.ml" 126 5000 5042
+type(
+  'c t
+)
+ident(
+  int_ref lrl "src/ext/pta/setp.ml" 125 4959 4980 "src/ext/pta/setp.ml" 125 4959 4983
+)
+"src/ext/pta/setp.ml" 126 5000 5025 "src/ext/pta/setp.ml" 126 5000 5043
+call(
+  stack
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 126 5000 5044 "src/ext/pta/setp.ml" 126 5000 5047
+type(
+  'c elt
+)
+ident(
+  int_ref lrv "src/ext/pta/setp.ml" 125 4959 4985 "src/ext/pta/setp.ml" 125 4959 4988
+)
+"src/ext/pta/setp.ml" 126 5000 5049 "src/ext/pta/setp.ml" 126 5000 5055
+type(
+  'c t -> 'c elt -> 'c t -> 'c t
+)
+ident(
+  int_ref create "src/ext/pta/setp.ml" 103 4064 4072 "src/ext/pta/setp.ml" 103 4064 4078
+)
+"src/ext/pta/setp.ml" 126 5000 5056 "src/ext/pta/setp.ml" 126 5000 5059
+type(
+  'c t
+)
+ident(
+  int_ref lrr "src/ext/pta/setp.ml" 125 4959 4990 "src/ext/pta/setp.ml" 125 4959 4993
+)
+"src/ext/pta/setp.ml" 126 5000 5060 "src/ext/pta/setp.ml" 126 5000 5061
+type(
+  'c elt
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 113 4502 4516 "src/ext/pta/setp.ml" 113 4502 4517
+)
+"src/ext/pta/setp.ml" 126 5000 5062 "src/ext/pta/setp.ml" 126 5000 5063
+type(
+  'c t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 113 4502 4518 "src/ext/pta/setp.ml" 113 4502 4519
+)
+"src/ext/pta/setp.ml" 126 5000 5048 "src/ext/pta/setp.ml" 126 5000 5064
+call(
+  stack
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 126 5000 5018 "src/ext/pta/setp.ml" 126 5000 5064
+call(
+  tail
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 122 4861 4878 "src/ext/pta/setp.ml" 127 5065 5080
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 120 4775 4787 "src/ext/pta/setp.ml" 127 5065 5080
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 116 4648 4674 "src/ext/pta/setp.ml" 128 5081 5090
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 128 5081 5099 "src/ext/pta/setp.ml" 128 5081 5101
+type(
+  int
+)
+ident(
+  int_ref hr "src/ext/pta/setp.ml" 115 4585 4595 "src/ext/pta/setp.ml" 115 4585 4597
+)
+"src/ext/pta/setp.ml" 128 5081 5102 "src/ext/pta/setp.ml" 128 5081 5103
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ext/pta/setp.ml" 128 5081 5104 "src/ext/pta/setp.ml" 128 5081 5106
+type(
+  int
+)
+ident(
+  int_ref hl "src/ext/pta/setp.ml" 114 4522 4532 "src/ext/pta/setp.ml" 114 4522 4534
+)
+"src/ext/pta/setp.ml" 128 5081 5107 "src/ext/pta/setp.ml" 128 5081 5108
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/pta/setp.ml" 128 5081 5109 "src/ext/pta/setp.ml" 128 5081 5110
+type(
+  int
+)
+"src/ext/pta/setp.ml" 128 5081 5104 "src/ext/pta/setp.ml" 128 5081 5110
+type(
+  int
+)
+"src/ext/pta/setp.ml" 128 5081 5099 "src/ext/pta/setp.ml" 128 5081 5110
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 129 5122 5136 "src/ext/pta/setp.ml" 129 5122 5137
+type(
+  'c t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 113 4502 4518 "src/ext/pta/setp.ml" 113 4502 4519
+)
+"src/ext/pta/setp.ml" 130 5143 5153 "src/ext/pta/setp.ml" 130 5143 5158
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 130 5143 5162 "src/ext/pta/setp.ml" 130 5143 5173
+type(
+  string -> 'c t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/ext/pta/setp.ml" 130 5143 5174 "src/ext/pta/setp.ml" 130 5143 5183
+type(
+  string
+)
+"src/ext/pta/setp.ml" 130 5143 5162 "src/ext/pta/setp.ml" 130 5143 5183
+call(
+  tail
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 131 5184 5199 "src/ext/pta/setp.ml" 131 5184 5201
+type(
+  'c t
+)
+ident(
+  def rl "src/ext/pta/setp.ml" 132 5217 5229 "src/ext/pta/setp.ml" 139 5508 5523
+)
+"src/ext/pta/setp.ml" 131 5184 5203 "src/ext/pta/setp.ml" 131 5184 5205
+type(
+  'c elt
+)
+ident(
+  def rv "src/ext/pta/setp.ml" 132 5217 5229 "src/ext/pta/setp.ml" 139 5508 5523
+)
+"src/ext/pta/setp.ml" 131 5184 5207 "src/ext/pta/setp.ml" 131 5184 5209
+type(
+  'c t
+)
+ident(
+  def rr "src/ext/pta/setp.ml" 132 5217 5229 "src/ext/pta/setp.ml" 139 5508 5523
+)
+"src/ext/pta/setp.ml" 131 5184 5211 "src/ext/pta/setp.ml" 131 5184 5212
+type(
+  int
+)
+"src/ext/pta/setp.ml" 131 5184 5194 "src/ext/pta/setp.ml" 131 5184 5213
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 132 5217 5232 "src/ext/pta/setp.ml" 132 5217 5238
+type(
+  'c t -> int
+)
+ident(
+  int_ref height "src/ext/pta/setp.ml" 95 3798 3806 "src/ext/pta/setp.ml" 95 3798 3812
+)
+"src/ext/pta/setp.ml" 132 5217 5239 "src/ext/pta/setp.ml" 132 5217 5241
+type(
+  'c t
+)
+ident(
+  int_ref rr "src/ext/pta/setp.ml" 131 5184 5207 "src/ext/pta/setp.ml" 131 5184 5209
+)
+"src/ext/pta/setp.ml" 132 5217 5232 "src/ext/pta/setp.ml" 132 5217 5241
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 132 5217 5242 "src/ext/pta/setp.ml" 132 5217 5244
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ext/pta/setp.ml" 132 5217 5245 "src/ext/pta/setp.ml" 132 5217 5251
+type(
+  'c t -> int
+)
+ident(
+  int_ref height "src/ext/pta/setp.ml" 95 3798 3806 "src/ext/pta/setp.ml" 95 3798 3812
+)
+"src/ext/pta/setp.ml" 132 5217 5252 "src/ext/pta/setp.ml" 132 5217 5254
+type(
+  'c t
+)
+ident(
+  int_ref rl "src/ext/pta/setp.ml" 131 5184 5199 "src/ext/pta/setp.ml" 131 5184 5201
+)
+"src/ext/pta/setp.ml" 132 5217 5245 "src/ext/pta/setp.ml" 132 5217 5254
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 132 5217 5232 "src/ext/pta/setp.ml" 132 5217 5254
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 133 5260 5274 "src/ext/pta/setp.ml" 133 5260 5280
+type(
+  'c t -> 'c elt -> 'c t -> 'c t
+)
+ident(
+  int_ref create "src/ext/pta/setp.ml" 103 4064 4072 "src/ext/pta/setp.ml" 103 4064 4078
+)
+"src/ext/pta/setp.ml" 133 5260 5282 "src/ext/pta/setp.ml" 133 5260 5288
+type(
+  'c t -> 'c elt -> 'c t -> 'c t
+)
+ident(
+  int_ref create "src/ext/pta/setp.ml" 103 4064 4072 "src/ext/pta/setp.ml" 103 4064 4078
+)
+"src/ext/pta/setp.ml" 133 5260 5289 "src/ext/pta/setp.ml" 133 5260 5290
+type(
+  'c t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 113 4502 4514 "src/ext/pta/setp.ml" 113 4502 4515
+)
+"src/ext/pta/setp.ml" 133 5260 5291 "src/ext/pta/setp.ml" 133 5260 5292
+type(
+  'c elt
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 113 4502 4516 "src/ext/pta/setp.ml" 113 4502 4517
+)
+"src/ext/pta/setp.ml" 133 5260 5293 "src/ext/pta/setp.ml" 133 5260 5295
+type(
+  'c t
+)
+ident(
+  int_ref rl "src/ext/pta/setp.ml" 131 5184 5199 "src/ext/pta/setp.ml" 131 5184 5201
+)
+"src/ext/pta/setp.ml" 133 5260 5281 "src/ext/pta/setp.ml" 133 5260 5296
+call(
+  stack
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 133 5260 5297 "src/ext/pta/setp.ml" 133 5260 5299
+type(
+  'c elt
+)
+ident(
+  int_ref rv "src/ext/pta/setp.ml" 131 5184 5203 "src/ext/pta/setp.ml" 131 5184 5205
+)
+"src/ext/pta/setp.ml" 133 5260 5300 "src/ext/pta/setp.ml" 133 5260 5302
+type(
+  'c t
+)
+ident(
+  int_ref rr "src/ext/pta/setp.ml" 131 5184 5207 "src/ext/pta/setp.ml" 131 5184 5209
+)
+"src/ext/pta/setp.ml" 133 5260 5274 "src/ext/pta/setp.ml" 133 5260 5302
+call(
+  tail
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 135 5326 5346 "src/ext/pta/setp.ml" 135 5326 5348
+type(
+  'c t
+)
+ident(
+  int_ref rl "src/ext/pta/setp.ml" 131 5184 5199 "src/ext/pta/setp.ml" 131 5184 5201
+)
+"src/ext/pta/setp.ml" 136 5354 5370 "src/ext/pta/setp.ml" 136 5354 5375
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 136 5354 5379 "src/ext/pta/setp.ml" 136 5354 5390
+type(
+  string -> 'c t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/ext/pta/setp.ml" 136 5354 5391 "src/ext/pta/setp.ml" 136 5354 5400
+type(
+  string
+)
+"src/ext/pta/setp.ml" 136 5354 5379 "src/ext/pta/setp.ml" 136 5354 5400
+call(
+  tail
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 137 5401 5422 "src/ext/pta/setp.ml" 137 5401 5425
+type(
+  'c t
+)
+ident(
+  def rll "src/ext/pta/setp.ml" 138 5443 5461 "src/ext/pta/setp.ml" 138 5443 5507
+)
+"src/ext/pta/setp.ml" 137 5401 5427 "src/ext/pta/setp.ml" 137 5401 5430
+type(
+  'c elt
+)
+ident(
+  def rlv "src/ext/pta/setp.ml" 138 5443 5461 "src/ext/pta/setp.ml" 138 5443 5507
+)
+"src/ext/pta/setp.ml" 137 5401 5432 "src/ext/pta/setp.ml" 137 5401 5435
+type(
+  'c t
+)
+ident(
+  def rlr "src/ext/pta/setp.ml" 138 5443 5461 "src/ext/pta/setp.ml" 138 5443 5507
+)
+"src/ext/pta/setp.ml" 137 5401 5437 "src/ext/pta/setp.ml" 137 5401 5438
+type(
+  int
+)
+"src/ext/pta/setp.ml" 137 5401 5417 "src/ext/pta/setp.ml" 137 5401 5439
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 138 5443 5461 "src/ext/pta/setp.ml" 138 5443 5467
+type(
+  'c t -> 'c elt -> 'c t -> 'c t
+)
+ident(
+  int_ref create "src/ext/pta/setp.ml" 103 4064 4072 "src/ext/pta/setp.ml" 103 4064 4078
+)
+"src/ext/pta/setp.ml" 138 5443 5469 "src/ext/pta/setp.ml" 138 5443 5475
+type(
+  'c t -> 'c elt -> 'c t -> 'c t
+)
+ident(
+  int_ref create "src/ext/pta/setp.ml" 103 4064 4072 "src/ext/pta/setp.ml" 103 4064 4078
+)
+"src/ext/pta/setp.ml" 138 5443 5476 "src/ext/pta/setp.ml" 138 5443 5477
+type(
+  'c t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 113 4502 4514 "src/ext/pta/setp.ml" 113 4502 4515
+)
+"src/ext/pta/setp.ml" 138 5443 5478 "src/ext/pta/setp.ml" 138 5443 5479
+type(
+  'c elt
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 113 4502 4516 "src/ext/pta/setp.ml" 113 4502 4517
+)
+"src/ext/pta/setp.ml" 138 5443 5480 "src/ext/pta/setp.ml" 138 5443 5483
+type(
+  'c t
+)
+ident(
+  int_ref rll "src/ext/pta/setp.ml" 137 5401 5422 "src/ext/pta/setp.ml" 137 5401 5425
+)
+"src/ext/pta/setp.ml" 138 5443 5468 "src/ext/pta/setp.ml" 138 5443 5484
+call(
+  stack
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 138 5443 5485 "src/ext/pta/setp.ml" 138 5443 5488
+type(
+  'c elt
+)
+ident(
+  int_ref rlv "src/ext/pta/setp.ml" 137 5401 5427 "src/ext/pta/setp.ml" 137 5401 5430
+)
+"src/ext/pta/setp.ml" 138 5443 5490 "src/ext/pta/setp.ml" 138 5443 5496
+type(
+  'c t -> 'c elt -> 'c t -> 'c t
+)
+ident(
+  int_ref create "src/ext/pta/setp.ml" 103 4064 4072 "src/ext/pta/setp.ml" 103 4064 4078
+)
+"src/ext/pta/setp.ml" 138 5443 5497 "src/ext/pta/setp.ml" 138 5443 5500
+type(
+  'c t
+)
+ident(
+  int_ref rlr "src/ext/pta/setp.ml" 137 5401 5432 "src/ext/pta/setp.ml" 137 5401 5435
+)
+"src/ext/pta/setp.ml" 138 5443 5501 "src/ext/pta/setp.ml" 138 5443 5503
+type(
+  'c elt
+)
+ident(
+  int_ref rv "src/ext/pta/setp.ml" 131 5184 5203 "src/ext/pta/setp.ml" 131 5184 5205
+)
+"src/ext/pta/setp.ml" 138 5443 5504 "src/ext/pta/setp.ml" 138 5443 5506
+type(
+  'c t
+)
+ident(
+  int_ref rr "src/ext/pta/setp.ml" 131 5184 5207 "src/ext/pta/setp.ml" 131 5184 5209
+)
+"src/ext/pta/setp.ml" 138 5443 5489 "src/ext/pta/setp.ml" 138 5443 5507
+call(
+  stack
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 138 5443 5461 "src/ext/pta/setp.ml" 138 5443 5507
+call(
+  tail
+)
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 134 5303 5320 "src/ext/pta/setp.ml" 139 5508 5523
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 132 5217 5229 "src/ext/pta/setp.ml" 139 5508 5523
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 128 5081 5116 "src/ext/pta/setp.ml" 140 5524 5533
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 141 5539 5552 "src/ext/pta/setp.ml" 141 5539 5553
+type(
+  'c t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 113 4502 4514 "src/ext/pta/setp.ml" 113 4502 4515
+)
+"src/ext/pta/setp.ml" 141 5539 5555 "src/ext/pta/setp.ml" 141 5539 5556
+type(
+  'c elt
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 113 4502 4516 "src/ext/pta/setp.ml" 113 4502 4517
+)
+"src/ext/pta/setp.ml" 141 5539 5558 "src/ext/pta/setp.ml" 141 5539 5559
+type(
+  'c t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 113 4502 4518 "src/ext/pta/setp.ml" 113 4502 4519
+)
+"src/ext/pta/setp.ml" 141 5539 5565 "src/ext/pta/setp.ml" 141 5539 5567
+type(
+  int
+)
+ident(
+  int_ref hl "src/ext/pta/setp.ml" 114 4522 4532 "src/ext/pta/setp.ml" 114 4522 4534
+)
+"src/ext/pta/setp.ml" 141 5539 5568 "src/ext/pta/setp.ml" 141 5539 5570
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ext/pta/setp.ml" 141 5539 5571 "src/ext/pta/setp.ml" 141 5539 5573
+type(
+  int
+)
+ident(
+  int_ref hr "src/ext/pta/setp.ml" 115 4585 4595 "src/ext/pta/setp.ml" 115 4585 4597
+)
+"src/ext/pta/setp.ml" 141 5539 5565 "src/ext/pta/setp.ml" 141 5539 5573
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 141 5539 5579 "src/ext/pta/setp.ml" 141 5539 5581
+type(
+  int
+)
+ident(
+  int_ref hl "src/ext/pta/setp.ml" 114 4522 4532 "src/ext/pta/setp.ml" 114 4522 4534
+)
+"src/ext/pta/setp.ml" 141 5539 5582 "src/ext/pta/setp.ml" 141 5539 5583
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/pta/setp.ml" 141 5539 5584 "src/ext/pta/setp.ml" 141 5539 5585
+type(
+  int
+)
+"src/ext/pta/setp.ml" 141 5539 5579 "src/ext/pta/setp.ml" 141 5539 5585
+type(
+  int
+)
+"src/ext/pta/setp.ml" 141 5539 5591 "src/ext/pta/setp.ml" 141 5539 5593
+type(
+  int
+)
+ident(
+  int_ref hr "src/ext/pta/setp.ml" 115 4585 4595 "src/ext/pta/setp.ml" 115 4585 4597
+)
+"src/ext/pta/setp.ml" 141 5539 5594 "src/ext/pta/setp.ml" 141 5539 5595
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/pta/setp.ml" 141 5539 5596 "src/ext/pta/setp.ml" 141 5539 5597
+type(
+  int
+)
+"src/ext/pta/setp.ml" 141 5539 5591 "src/ext/pta/setp.ml" 141 5539 5597
+type(
+  int
+)
+"src/ext/pta/setp.ml" 141 5539 5561 "src/ext/pta/setp.ml" 141 5539 5598
+type(
+  int
+)
+"src/ext/pta/setp.ml" 141 5539 5547 "src/ext/pta/setp.ml" 141 5539 5599
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 128 5081 5096 "src/ext/pta/setp.ml" 141 5539 5599
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 116 4648 4654 "src/ext/pta/setp.ml" 141 5539 5599
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 115 4585 4591 "src/ext/pta/setp.ml" 141 5539 5599
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 114 4522 4528 "src/ext/pta/setp.ml" 141 5539 5599
+type(
+  'c t
+)
+"src/ext/pta/setp.ml" 146 5691 5703 "src/ext/pta/setp.ml" 146 5691 5707
+type(
+  'd t -> 'd elt -> 'd t -> 'd t
+)
+ident(
+  def join "src/ext/pta/setp.ml" 146 5691 5695 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 146 5691 5708 "src/ext/pta/setp.ml" 146 5691 5709
+type(
+  'd t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 146 5691 5710 "src/ext/pta/setp.ml" 151 5863 5918
+)
+"src/ext/pta/setp.ml" 146 5691 5710 "src/ext/pta/setp.ml" 146 5691 5711
+type(
+  'd elt
+)
+ident(
+  def x "src/ext/pta/setp.ml" 146 5691 5712 "src/ext/pta/setp.ml" 151 5863 5918
+)
+"src/ext/pta/setp.ml" 146 5691 5712 "src/ext/pta/setp.ml" 146 5691 5713
+type(
+  'd t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 147 5716 5722 "src/ext/pta/setp.ml" 151 5863 5918
+)
+"src/ext/pta/setp.ml" 147 5716 5728 "src/ext/pta/setp.ml" 147 5716 5731
+type(
+  'd t -> 'd elt -> 'd t -> 'd t
+)
+ident(
+  int_ref bal "src/ext/pta/setp.ml" 113 4502 4510 "src/ext/pta/setp.ml" 113 4502 4513
+)
+"src/ext/pta/setp.ml" 147 5716 5732 "src/ext/pta/setp.ml" 147 5716 5733
+type(
+  'd t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 146 5691 5708 "src/ext/pta/setp.ml" 146 5691 5709
+)
+"src/ext/pta/setp.ml" 147 5716 5734 "src/ext/pta/setp.ml" 147 5716 5735
+type(
+  'd elt
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 146 5691 5710 "src/ext/pta/setp.ml" 146 5691 5711
+)
+"src/ext/pta/setp.ml" 147 5716 5736 "src/ext/pta/setp.ml" 147 5716 5737
+type(
+  'd t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 146 5691 5712 "src/ext/pta/setp.ml" 146 5691 5713
+)
+"src/ext/pta/setp.ml" 147 5716 5728 "src/ext/pta/setp.ml" 147 5716 5737
+call(
+  stack
+)
+type(
+  'd t
+)
+"src/ext/pta/setp.ml" 148 5743 5751 "src/ext/pta/setp.ml" 148 5743 5756
+type(
+  'd t
+)
+"src/ext/pta/setp.ml" 148 5743 5760 "src/ext/pta/setp.ml" 148 5743 5771
+type(
+  string -> 'd t
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/ext/pta/setp.ml" 148 5743 5772 "src/ext/pta/setp.ml" 148 5743 5782
+type(
+  string
+)
+"src/ext/pta/setp.ml" 148 5743 5760 "src/ext/pta/setp.ml" 148 5743 5782
+call(
+  tail
+)
+type(
+  'd t
+)
+"src/ext/pta/setp.ml" 149 5783 5796 "src/ext/pta/setp.ml" 149 5783 5798
+type(
+  'd t
+)
+ident(
+  def l' "src/ext/pta/setp.ml" 150 5820 5830 "src/ext/pta/setp.ml" 151 5863 5918
+)
+"src/ext/pta/setp.ml" 149 5783 5800 "src/ext/pta/setp.ml" 149 5783 5802
+type(
+  'd elt
+)
+ident(
+  def x' "src/ext/pta/setp.ml" 150 5820 5830 "src/ext/pta/setp.ml" 151 5863 5918
+)
+"src/ext/pta/setp.ml" 149 5783 5804 "src/ext/pta/setp.ml" 149 5783 5806
+type(
+  'd t
+)
+ident(
+  def r' "src/ext/pta/setp.ml" 150 5820 5830 "src/ext/pta/setp.ml" 151 5863 5918
+)
+"src/ext/pta/setp.ml" 149 5783 5808 "src/ext/pta/setp.ml" 149 5783 5809
+type(
+  int
+)
+"src/ext/pta/setp.ml" 149 5783 5791 "src/ext/pta/setp.ml" 149 5783 5810
+type(
+  'd t
+)
+"src/ext/pta/setp.ml" 149 5783 5814 "src/ext/pta/setp.ml" 149 5783 5816
+ident(
+  def t' "src/ext/pta/setp.ml" 150 5820 5830 "src/ext/pta/setp.ml" 151 5863 5918
+)
+"src/ext/pta/setp.ml" 149 5783 5791 "src/ext/pta/setp.ml" 149 5783 5816
+type(
+  'd t
+)
+"src/ext/pta/setp.ml" 150 5820 5834 "src/ext/pta/setp.ml" 150 5820 5835
+type(
+  int
+)
+ident(
+  def d "src/ext/pta/setp.ml" 151 5863 5873 "src/ext/pta/setp.ml" 151 5863 5918
+)
+"src/ext/pta/setp.ml" 150 5820 5838 "src/ext/pta/setp.ml" 150 5820 5844
+type(
+  'd t -> int
+)
+ident(
+  int_ref height "src/ext/pta/setp.ml" 95 3798 3806 "src/ext/pta/setp.ml" 95 3798 3812
+)
+"src/ext/pta/setp.ml" 150 5820 5845 "src/ext/pta/setp.ml" 150 5820 5847
+type(
+  'd t
+)
+ident(
+  int_ref l' "src/ext/pta/setp.ml" 149 5783 5796 "src/ext/pta/setp.ml" 149 5783 5798
+)
+"src/ext/pta/setp.ml" 150 5820 5838 "src/ext/pta/setp.ml" 150 5820 5847
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 150 5820 5848 "src/ext/pta/setp.ml" 150 5820 5849
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ext/pta/setp.ml" 150 5820 5850 "src/ext/pta/setp.ml" 150 5820 5856
+type(
+  'd t -> int
+)
+ident(
+  int_ref height "src/ext/pta/setp.ml" 95 3798 3806 "src/ext/pta/setp.ml" 95 3798 3812
+)
+"src/ext/pta/setp.ml" 150 5820 5857 "src/ext/pta/setp.ml" 150 5820 5859
+type(
+  'd t
+)
+ident(
+  int_ref r' "src/ext/pta/setp.ml" 149 5783 5804 "src/ext/pta/setp.ml" 149 5783 5806
+)
+"src/ext/pta/setp.ml" 150 5820 5850 "src/ext/pta/setp.ml" 150 5820 5859
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 150 5820 5838 "src/ext/pta/setp.ml" 150 5820 5859
+type(
+  int
+)
+"src/ext/pta/setp.ml" 151 5863 5876 "src/ext/pta/setp.ml" 151 5863 5877
+type(
+  int
+)
+ident(
+  int_ref d "src/ext/pta/setp.ml" 150 5820 5834 "src/ext/pta/setp.ml" 150 5820 5835
+)
+"src/ext/pta/setp.ml" 151 5863 5878 "src/ext/pta/setp.ml" 151 5863 5879
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ext/pta/setp.ml" 151 5863 5880 "src/ext/pta/setp.ml" 151 5863 5882
+type(
+  int
+)
+"src/ext/pta/setp.ml" 151 5863 5876 "src/ext/pta/setp.ml" 151 5863 5882
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 151 5863 5883 "src/ext/pta/setp.ml" 151 5863 5885
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ext/pta/setp.ml" 151 5863 5886 "src/ext/pta/setp.ml" 151 5863 5887
+type(
+  int
+)
+ident(
+  int_ref d "src/ext/pta/setp.ml" 150 5820 5834 "src/ext/pta/setp.ml" 150 5820 5835
+)
+"src/ext/pta/setp.ml" 151 5863 5888 "src/ext/pta/setp.ml" 151 5863 5889
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ext/pta/setp.ml" 151 5863 5890 "src/ext/pta/setp.ml" 151 5863 5891
+type(
+  int
+)
+"src/ext/pta/setp.ml" 151 5863 5886 "src/ext/pta/setp.ml" 151 5863 5891
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 151 5863 5876 "src/ext/pta/setp.ml" 151 5863 5891
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 151 5863 5897 "src/ext/pta/setp.ml" 151 5863 5901
+type(
+  'd t -> 'd elt -> 'd t -> 'd t
+)
+ident(
+  int_ref join "src/ext/pta/setp.ml" 146 5691 5703 "src/ext/pta/setp.ml" 146 5691 5707
+)
+"src/ext/pta/setp.ml" 151 5863 5902 "src/ext/pta/setp.ml" 151 5863 5904
+type(
+  'd t
+)
+ident(
+  int_ref l' "src/ext/pta/setp.ml" 149 5783 5796 "src/ext/pta/setp.ml" 149 5783 5798
+)
+"src/ext/pta/setp.ml" 151 5863 5905 "src/ext/pta/setp.ml" 151 5863 5907
+type(
+  'd elt
+)
+ident(
+  int_ref x' "src/ext/pta/setp.ml" 149 5783 5800 "src/ext/pta/setp.ml" 149 5783 5802
+)
+"src/ext/pta/setp.ml" 151 5863 5908 "src/ext/pta/setp.ml" 151 5863 5910
+type(
+  'd t
+)
+ident(
+  int_ref r' "src/ext/pta/setp.ml" 149 5783 5804 "src/ext/pta/setp.ml" 149 5783 5806
+)
+"src/ext/pta/setp.ml" 151 5863 5897 "src/ext/pta/setp.ml" 151 5863 5910
+call(
+  tail
+)
+type(
+  'd t
+)
+"src/ext/pta/setp.ml" 151 5863 5916 "src/ext/pta/setp.ml" 151 5863 5918
+type(
+  'd t
+)
+ident(
+  int_ref t' "src/ext/pta/setp.ml" 149 5783 5791 "src/ext/pta/setp.ml" 149 5783 5816
+)
+"src/ext/pta/setp.ml" 151 5863 5873 "src/ext/pta/setp.ml" 151 5863 5918
+type(
+  'd t
+)
+"src/ext/pta/setp.ml" 150 5820 5830 "src/ext/pta/setp.ml" 151 5863 5918
+type(
+  'd t
+)
+"src/ext/pta/setp.ml" 147 5716 5722 "src/ext/pta/setp.ml" 151 5863 5918
+type(
+  'd t
+)
+"src/ext/pta/setp.ml" 157 6067 6079 "src/ext/pta/setp.ml" 157 6067 6084
+type(
+  'e t -> 'e t -> 'e t
+)
+ident(
+  def merge "src/ext/pta/setp.ml" 157 6067 6071 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 157 6067 6085 "src/ext/pta/setp.ml" 157 6067 6087
+type(
+  'e t
+)
+ident(
+  def t1 "src/ext/pta/setp.ml" 157 6067 6088 "src/ext/pta/setp.ml" 162 6223 6268
+)
+"src/ext/pta/setp.ml" 157 6067 6088 "src/ext/pta/setp.ml" 157 6067 6090
+type(
+  'e t
+)
+ident(
+  def t2 "src/ext/pta/setp.ml" 158 6093 6099 "src/ext/pta/setp.ml" 162 6223 6268
+)
+"src/ext/pta/setp.ml" 158 6093 6106 "src/ext/pta/setp.ml" 158 6093 6108
+type(
+  'e t
+)
+ident(
+  int_ref t1 "src/ext/pta/setp.ml" 157 6067 6085 "src/ext/pta/setp.ml" 157 6067 6087
+)
+"src/ext/pta/setp.ml" 158 6093 6110 "src/ext/pta/setp.ml" 158 6093 6112
+type(
+  'e t
+)
+ident(
+  int_ref t2 "src/ext/pta/setp.ml" 157 6067 6088 "src/ext/pta/setp.ml" 157 6067 6090
+)
+"src/ext/pta/setp.ml" 158 6093 6105 "src/ext/pta/setp.ml" 158 6093 6113
+type(
+  'e t * 'e t
+)
+"src/ext/pta/setp.ml" 159 6119 6128 "src/ext/pta/setp.ml" 159 6119 6133
+type(
+  'e t
+)
+"src/ext/pta/setp.ml" 159 6119 6135 "src/ext/pta/setp.ml" 159 6119 6136
+type(
+  'e t
+)
+ident(
+  def t "src/ext/pta/setp.ml" 159 6119 6141 "src/ext/pta/setp.ml" 159 6119 6142
+)
+"src/ext/pta/setp.ml" 159 6119 6127 "src/ext/pta/setp.ml" 159 6119 6137
+type(
+  'e t * 'e t
+)
+"src/ext/pta/setp.ml" 159 6119 6141 "src/ext/pta/setp.ml" 159 6119 6142
+type(
+  'e t
+)
+ident(
+  int_ref t "src/ext/pta/setp.ml" 159 6119 6135 "src/ext/pta/setp.ml" 159 6119 6136
+)
+"src/ext/pta/setp.ml" 160 6143 6152 "src/ext/pta/setp.ml" 160 6143 6153
+type(
+  'e t
+)
+ident(
+  def t "src/ext/pta/setp.ml" 160 6143 6165 "src/ext/pta/setp.ml" 160 6143 6166
+)
+"src/ext/pta/setp.ml" 160 6143 6155 "src/ext/pta/setp.ml" 160 6143 6160
+type(
+  'e t
+)
+"src/ext/pta/setp.ml" 160 6143 6151 "src/ext/pta/setp.ml" 160 6143 6161
+type(
+  'e t * 'e t
+)
+"src/ext/pta/setp.ml" 160 6143 6165 "src/ext/pta/setp.ml" 160 6143 6166
+type(
+  'e t
+)
+ident(
+  int_ref t "src/ext/pta/setp.ml" 160 6143 6152 "src/ext/pta/setp.ml" 160 6143 6153
+)
+"src/ext/pta/setp.ml" 161 6167 6181 "src/ext/pta/setp.ml" 161 6167 6183
+type(
+  'e t
+)
+ident(
+  def l1 "src/ext/pta/setp.ml" 162 6223 6233 "src/ext/pta/setp.ml" 162 6223 6268
+)
+"src/ext/pta/setp.ml" 161 6167 6185 "src/ext/pta/setp.ml" 161 6167 6187
+type(
+  'e elt
+)
+ident(
+  def v1 "src/ext/pta/setp.ml" 162 6223 6233 "src/ext/pta/setp.ml" 162 6223 6268
+)
+"src/ext/pta/setp.ml" 161 6167 6189 "src/ext/pta/setp.ml" 161 6167 6191
+type(
+  'e t
+)
+ident(
+  def r1 "src/ext/pta/setp.ml" 162 6223 6233 "src/ext/pta/setp.ml" 162 6223 6268
+)
+"src/ext/pta/setp.ml" 161 6167 6193 "src/ext/pta/setp.ml" 161 6167 6195
+type(
+  int
+)
+ident(
+  def h1 "src/ext/pta/setp.ml" 162 6223 6233 "src/ext/pta/setp.ml" 162 6223 6268
+)
+"src/ext/pta/setp.ml" 161 6167 6176 "src/ext/pta/setp.ml" 161 6167 6196
+type(
+  'e t
+)
+"src/ext/pta/setp.ml" 161 6167 6203 "src/ext/pta/setp.ml" 161 6167 6205
+type(
+  'e t
+)
+ident(
+  def l2 "src/ext/pta/setp.ml" 162 6223 6233 "src/ext/pta/setp.ml" 162 6223 6268
+)
+"src/ext/pta/setp.ml" 161 6167 6207 "src/ext/pta/setp.ml" 161 6167 6209
+type(
+  'e elt
+)
+ident(
+  def v2 "src/ext/pta/setp.ml" 162 6223 6233 "src/ext/pta/setp.ml" 162 6223 6268
+)
+"src/ext/pta/setp.ml" 161 6167 6211 "src/ext/pta/setp.ml" 161 6167 6213
+type(
+  'e t
+)
+ident(
+  def r2 "src/ext/pta/setp.ml" 162 6223 6233 "src/ext/pta/setp.ml" 162 6223 6268
+)
+"src/ext/pta/setp.ml" 161 6167 6215 "src/ext/pta/setp.ml" 161 6167 6217
+type(
+  int
+)
+ident(
+  def h2 "src/ext/pta/setp.ml" 162 6223 6233 "src/ext/pta/setp.ml" 162 6223 6268
+)
+"src/ext/pta/setp.ml" 161 6167 6198 "src/ext/pta/setp.ml" 161 6167 6218
+type(
+  'e t
+)
+"src/ext/pta/setp.ml" 161 6167 6175 "src/ext/pta/setp.ml" 161 6167 6219
+type(
+  'e t * 'e t
+)
+"src/ext/pta/setp.ml" 162 6223 6233 "src/ext/pta/setp.ml" 162 6223 6236
+type(
+  'e t -> 'e elt -> 'e t -> 'e t
+)
+ident(
+  int_ref bal "src/ext/pta/setp.ml" 113 4502 4510 "src/ext/pta/setp.ml" 113 4502 4513
+)
+"src/ext/pta/setp.ml" 162 6223 6237 "src/ext/pta/setp.ml" 162 6223 6239
+type(
+  'e t
+)
+ident(
+  int_ref l1 "src/ext/pta/setp.ml" 161 6167 6181 "src/ext/pta/setp.ml" 161 6167 6183
+)
+"src/ext/pta/setp.ml" 162 6223 6240 "src/ext/pta/setp.ml" 162 6223 6242
+type(
+  'e elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 161 6167 6185 "src/ext/pta/setp.ml" 161 6167 6187
+)
+"src/ext/pta/setp.ml" 162 6223 6244 "src/ext/pta/setp.ml" 162 6223 6247
+type(
+  'e t -> 'e elt -> 'e t -> 'e t
+)
+ident(
+  int_ref bal "src/ext/pta/setp.ml" 113 4502 4510 "src/ext/pta/setp.ml" 113 4502 4513
+)
+"src/ext/pta/setp.ml" 162 6223 6249 "src/ext/pta/setp.ml" 162 6223 6254
+type(
+  'e t -> 'e t -> 'e t
+)
+ident(
+  int_ref merge "src/ext/pta/setp.ml" 157 6067 6079 "src/ext/pta/setp.ml" 157 6067 6084
+)
+"src/ext/pta/setp.ml" 162 6223 6255 "src/ext/pta/setp.ml" 162 6223 6257
+type(
+  'e t
+)
+ident(
+  int_ref r1 "src/ext/pta/setp.ml" 161 6167 6189 "src/ext/pta/setp.ml" 161 6167 6191
+)
+"src/ext/pta/setp.ml" 162 6223 6258 "src/ext/pta/setp.ml" 162 6223 6260
+type(
+  'e t
+)
+ident(
+  int_ref l2 "src/ext/pta/setp.ml" 161 6167 6203 "src/ext/pta/setp.ml" 161 6167 6205
+)
+"src/ext/pta/setp.ml" 162 6223 6248 "src/ext/pta/setp.ml" 162 6223 6261
+call(
+  stack
+)
+type(
+  'e t
+)
+"src/ext/pta/setp.ml" 162 6223 6262 "src/ext/pta/setp.ml" 162 6223 6264
+type(
+  'e elt
+)
+ident(
+  int_ref v2 "src/ext/pta/setp.ml" 161 6167 6207 "src/ext/pta/setp.ml" 161 6167 6209
+)
+"src/ext/pta/setp.ml" 162 6223 6265 "src/ext/pta/setp.ml" 162 6223 6267
+type(
+  'e t
+)
+ident(
+  int_ref r2 "src/ext/pta/setp.ml" 161 6167 6211 "src/ext/pta/setp.ml" 161 6167 6213
+)
+"src/ext/pta/setp.ml" 162 6223 6243 "src/ext/pta/setp.ml" 162 6223 6268
+call(
+  stack
+)
+type(
+  'e t
+)
+"src/ext/pta/setp.ml" 162 6223 6233 "src/ext/pta/setp.ml" 162 6223 6268
+call(
+  tail
+)
+type(
+  'e t
+)
+"src/ext/pta/setp.ml" 158 6093 6099 "src/ext/pta/setp.ml" 162 6223 6268
+type(
+  'e t
+)
+"src/ext/pta/setp.ml" 166 6340 6352 "src/ext/pta/setp.ml" 166 6340 6358
+type(
+  'f t -> 'f t -> 'f t
+)
+ident(
+  def concat "src/ext/pta/setp.ml" 166 6340 6344 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 166 6340 6359 "src/ext/pta/setp.ml" 166 6340 6361
+type(
+  'f t
+)
+ident(
+  def t1 "src/ext/pta/setp.ml" 166 6340 6362 "src/ext/pta/setp.ml" 171 6497 6545
+)
+"src/ext/pta/setp.ml" 166 6340 6362 "src/ext/pta/setp.ml" 166 6340 6364
+type(
+  'f t
+)
+ident(
+  def t2 "src/ext/pta/setp.ml" 167 6367 6373 "src/ext/pta/setp.ml" 171 6497 6545
+)
+"src/ext/pta/setp.ml" 167 6367 6380 "src/ext/pta/setp.ml" 167 6367 6382
+type(
+  'f t
+)
+ident(
+  int_ref t1 "src/ext/pta/setp.ml" 166 6340 6359 "src/ext/pta/setp.ml" 166 6340 6361
+)
+"src/ext/pta/setp.ml" 167 6367 6384 "src/ext/pta/setp.ml" 167 6367 6386
+type(
+  'f t
+)
+ident(
+  int_ref t2 "src/ext/pta/setp.ml" 166 6340 6362 "src/ext/pta/setp.ml" 166 6340 6364
+)
+"src/ext/pta/setp.ml" 167 6367 6379 "src/ext/pta/setp.ml" 167 6367 6387
+type(
+  'f t * 'f t
+)
+"src/ext/pta/setp.ml" 168 6393 6402 "src/ext/pta/setp.ml" 168 6393 6407
+type(
+  'f t
+)
+"src/ext/pta/setp.ml" 168 6393 6409 "src/ext/pta/setp.ml" 168 6393 6410
+type(
+  'f t
+)
+ident(
+  def t "src/ext/pta/setp.ml" 168 6393 6415 "src/ext/pta/setp.ml" 168 6393 6416
+)
+"src/ext/pta/setp.ml" 168 6393 6401 "src/ext/pta/setp.ml" 168 6393 6411
+type(
+  'f t * 'f t
+)
+"src/ext/pta/setp.ml" 168 6393 6415 "src/ext/pta/setp.ml" 168 6393 6416
+type(
+  'f t
+)
+ident(
+  int_ref t "src/ext/pta/setp.ml" 168 6393 6409 "src/ext/pta/setp.ml" 168 6393 6410
+)
+"src/ext/pta/setp.ml" 169 6417 6426 "src/ext/pta/setp.ml" 169 6417 6427
+type(
+  'f t
+)
+ident(
+  def t "src/ext/pta/setp.ml" 169 6417 6439 "src/ext/pta/setp.ml" 169 6417 6440
+)
+"src/ext/pta/setp.ml" 169 6417 6429 "src/ext/pta/setp.ml" 169 6417 6434
+type(
+  'f t
+)
+"src/ext/pta/setp.ml" 169 6417 6425 "src/ext/pta/setp.ml" 169 6417 6435
+type(
+  'f t * 'f t
+)
+"src/ext/pta/setp.ml" 169 6417 6439 "src/ext/pta/setp.ml" 169 6417 6440
+type(
+  'f t
+)
+ident(
+  int_ref t "src/ext/pta/setp.ml" 169 6417 6426 "src/ext/pta/setp.ml" 169 6417 6427
+)
+"src/ext/pta/setp.ml" 170 6441 6455 "src/ext/pta/setp.ml" 170 6441 6457
+type(
+  'f t
+)
+ident(
+  def l1 "src/ext/pta/setp.ml" 171 6497 6507 "src/ext/pta/setp.ml" 171 6497 6545
+)
+"src/ext/pta/setp.ml" 170 6441 6459 "src/ext/pta/setp.ml" 170 6441 6461
+type(
+  'f elt
+)
+ident(
+  def v1 "src/ext/pta/setp.ml" 171 6497 6507 "src/ext/pta/setp.ml" 171 6497 6545
+)
+"src/ext/pta/setp.ml" 170 6441 6463 "src/ext/pta/setp.ml" 170 6441 6465
+type(
+  'f t
+)
+ident(
+  def r1 "src/ext/pta/setp.ml" 171 6497 6507 "src/ext/pta/setp.ml" 171 6497 6545
+)
+"src/ext/pta/setp.ml" 170 6441 6467 "src/ext/pta/setp.ml" 170 6441 6469
+type(
+  int
+)
+ident(
+  def h1 "src/ext/pta/setp.ml" 171 6497 6507 "src/ext/pta/setp.ml" 171 6497 6545
+)
+"src/ext/pta/setp.ml" 170 6441 6450 "src/ext/pta/setp.ml" 170 6441 6470
+type(
+  'f t
+)
+"src/ext/pta/setp.ml" 170 6441 6477 "src/ext/pta/setp.ml" 170 6441 6479
+type(
+  'f t
+)
+ident(
+  def l2 "src/ext/pta/setp.ml" 171 6497 6507 "src/ext/pta/setp.ml" 171 6497 6545
+)
+"src/ext/pta/setp.ml" 170 6441 6481 "src/ext/pta/setp.ml" 170 6441 6483
+type(
+  'f elt
+)
+ident(
+  def v2 "src/ext/pta/setp.ml" 171 6497 6507 "src/ext/pta/setp.ml" 171 6497 6545
+)
+"src/ext/pta/setp.ml" 170 6441 6485 "src/ext/pta/setp.ml" 170 6441 6487
+type(
+  'f t
+)
+ident(
+  def r2 "src/ext/pta/setp.ml" 171 6497 6507 "src/ext/pta/setp.ml" 171 6497 6545
+)
+"src/ext/pta/setp.ml" 170 6441 6489 "src/ext/pta/setp.ml" 170 6441 6491
+type(
+  int
+)
+ident(
+  def h2 "src/ext/pta/setp.ml" 171 6497 6507 "src/ext/pta/setp.ml" 171 6497 6545
+)
+"src/ext/pta/setp.ml" 170 6441 6472 "src/ext/pta/setp.ml" 170 6441 6492
+type(
+  'f t
+)
+"src/ext/pta/setp.ml" 170 6441 6449 "src/ext/pta/setp.ml" 170 6441 6493
+type(
+  'f t * 'f t
+)
+"src/ext/pta/setp.ml" 171 6497 6507 "src/ext/pta/setp.ml" 171 6497 6511
+type(
+  'f t -> 'f elt -> 'f t -> 'f t
+)
+ident(
+  int_ref join "src/ext/pta/setp.ml" 146 5691 5703 "src/ext/pta/setp.ml" 146 5691 5707
+)
+"src/ext/pta/setp.ml" 171 6497 6512 "src/ext/pta/setp.ml" 171 6497 6514
+type(
+  'f t
+)
+ident(
+  int_ref l1 "src/ext/pta/setp.ml" 170 6441 6455 "src/ext/pta/setp.ml" 170 6441 6457
+)
+"src/ext/pta/setp.ml" 171 6497 6515 "src/ext/pta/setp.ml" 171 6497 6517
+type(
+  'f elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 170 6441 6459 "src/ext/pta/setp.ml" 170 6441 6461
+)
+"src/ext/pta/setp.ml" 171 6497 6519 "src/ext/pta/setp.ml" 171 6497 6523
+type(
+  'f t -> 'f elt -> 'f t -> 'f t
+)
+ident(
+  int_ref join "src/ext/pta/setp.ml" 146 5691 5703 "src/ext/pta/setp.ml" 146 5691 5707
+)
+"src/ext/pta/setp.ml" 171 6497 6525 "src/ext/pta/setp.ml" 171 6497 6531
+type(
+  'f t -> 'f t -> 'f t
+)
+ident(
+  int_ref concat "src/ext/pta/setp.ml" 166 6340 6352 "src/ext/pta/setp.ml" 166 6340 6358
+)
+"src/ext/pta/setp.ml" 171 6497 6532 "src/ext/pta/setp.ml" 171 6497 6534
+type(
+  'f t
+)
+ident(
+  int_ref r1 "src/ext/pta/setp.ml" 170 6441 6463 "src/ext/pta/setp.ml" 170 6441 6465
+)
+"src/ext/pta/setp.ml" 171 6497 6535 "src/ext/pta/setp.ml" 171 6497 6537
+type(
+  'f t
+)
+ident(
+  int_ref l2 "src/ext/pta/setp.ml" 170 6441 6477 "src/ext/pta/setp.ml" 170 6441 6479
+)
+"src/ext/pta/setp.ml" 171 6497 6524 "src/ext/pta/setp.ml" 171 6497 6538
+call(
+  stack
+)
+type(
+  'f t
+)
+"src/ext/pta/setp.ml" 171 6497 6539 "src/ext/pta/setp.ml" 171 6497 6541
+type(
+  'f elt
+)
+ident(
+  int_ref v2 "src/ext/pta/setp.ml" 170 6441 6481 "src/ext/pta/setp.ml" 170 6441 6483
+)
+"src/ext/pta/setp.ml" 171 6497 6542 "src/ext/pta/setp.ml" 171 6497 6544
+type(
+  'f t
+)
+ident(
+  int_ref r2 "src/ext/pta/setp.ml" 170 6441 6485 "src/ext/pta/setp.ml" 170 6441 6487
+)
+"src/ext/pta/setp.ml" 171 6497 6518 "src/ext/pta/setp.ml" 171 6497 6545
+call(
+  stack
+)
+type(
+  'f t
+)
+"src/ext/pta/setp.ml" 171 6497 6507 "src/ext/pta/setp.ml" 171 6497 6545
+call(
+  tail
+)
+type(
+  'f t
+)
+"src/ext/pta/setp.ml" 167 6367 6373 "src/ext/pta/setp.ml" 171 6497 6545
+type(
+  'f t
+)
+"src/ext/pta/setp.ml" 175 6568 6580 "src/ext/pta/setp.ml" 175 6568 6585
+type(
+  'g Ord.t -> 'g t -> 'g t * 'g elt option * 'g t
+)
+ident(
+  def split "src/ext/pta/setp.ml" 175 6568 6572 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 175 6568 6586 "src/ext/pta/setp.ml" 175 6568 6587
+type(
+  'g Ord.t
+)
+ident(
+  def x "src/ext/pta/setp.ml" 175 6568 6590 "src/ext/pta/setp.ml" 184 6861 6926
+)
+"src/ext/pta/setp.ml" 176 6599 6607 "src/ext/pta/setp.ml" 176 6599 6612
+type(
+  'g t
+)
+"src/ext/pta/setp.ml" 177 6616 6627 "src/ext/pta/setp.ml" 177 6616 6632
+type(
+  'g t
+)
+"src/ext/pta/setp.ml" 177 6616 6634 "src/ext/pta/setp.ml" 177 6616 6638
+type(
+  'g elt option
+)
+"src/ext/pta/setp.ml" 177 6616 6640 "src/ext/pta/setp.ml" 177 6616 6645
+type(
+  'g t
+)
+"src/ext/pta/setp.ml" 177 6616 6626 "src/ext/pta/setp.ml" 177 6616 6646
+type(
+  'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 178 6647 6660 "src/ext/pta/setp.ml" 178 6647 6661
+type(
+  'g t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 179 6675 6685 "src/ext/pta/setp.ml" 184 6861 6926
+)
+"src/ext/pta/setp.ml" 178 6647 6663 "src/ext/pta/setp.ml" 178 6647 6664
+type(
+  'g elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 179 6675 6685 "src/ext/pta/setp.ml" 184 6861 6926
+)
+"src/ext/pta/setp.ml" 178 6647 6666 "src/ext/pta/setp.ml" 178 6647 6667
+type(
+  'g t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 179 6675 6685 "src/ext/pta/setp.ml" 184 6861 6926
+)
+"src/ext/pta/setp.ml" 178 6647 6669 "src/ext/pta/setp.ml" 178 6647 6670
+type(
+  int
+)
+"src/ext/pta/setp.ml" 178 6647 6655 "src/ext/pta/setp.ml" 178 6647 6671
+type(
+  'g t
+)
+"src/ext/pta/setp.ml" 179 6675 6689 "src/ext/pta/setp.ml" 179 6675 6690
+type(
+  int
+)
+ident(
+  def c "src/ext/pta/setp.ml" 180 6712 6722 "src/ext/pta/setp.ml" 184 6861 6926
+)
+"src/ext/pta/setp.ml" 179 6675 6693 "src/ext/pta/setp.ml" 179 6675 6704
+type(
+  'g Ord.t -> 'g elt -> int
+)
+ident(
+  int_ref Ord.compare "src/ext/pta/setp.ml" 55 2565 2569 "src/ext/pta/setp.ml" 55 2565 2601
+)
+"src/ext/pta/setp.ml" 179 6675 6705 "src/ext/pta/setp.ml" 179 6675 6706
+type(
+  'g Ord.t
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 175 6568 6586 "src/ext/pta/setp.ml" 175 6568 6587
+)
+"src/ext/pta/setp.ml" 179 6675 6707 "src/ext/pta/setp.ml" 179 6675 6708
+type(
+  'g elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 178 6647 6663 "src/ext/pta/setp.ml" 178 6647 6664
+)
+"src/ext/pta/setp.ml" 179 6675 6693 "src/ext/pta/setp.ml" 179 6675 6708
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 180 6712 6725 "src/ext/pta/setp.ml" 180 6712 6726
+type(
+  int
+)
+ident(
+  int_ref c "src/ext/pta/setp.ml" 179 6675 6689 "src/ext/pta/setp.ml" 179 6675 6690
+)
+"src/ext/pta/setp.ml" 180 6712 6727 "src/ext/pta/setp.ml" 180 6712 6728
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/pta/setp.ml" 180 6712 6729 "src/ext/pta/setp.ml" 180 6712 6730
+type(
+  int
+)
+"src/ext/pta/setp.ml" 180 6712 6725 "src/ext/pta/setp.ml" 180 6712 6730
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 180 6712 6737 "src/ext/pta/setp.ml" 180 6712 6738
+type(
+  'g t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 178 6647 6660 "src/ext/pta/setp.ml" 178 6647 6661
+)
+"src/ext/pta/setp.ml" 180 6712 6745 "src/ext/pta/setp.ml" 180 6712 6746
+type(
+  'g elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 178 6647 6663 "src/ext/pta/setp.ml" 178 6647 6664
+)
+"src/ext/pta/setp.ml" 180 6712 6740 "src/ext/pta/setp.ml" 180 6712 6746
+type(
+  'g elt option
+)
+"src/ext/pta/setp.ml" 180 6712 6748 "src/ext/pta/setp.ml" 180 6712 6749
+type(
+  'g t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 178 6647 6666 "src/ext/pta/setp.ml" 178 6647 6667
+)
+"src/ext/pta/setp.ml" 180 6712 6736 "src/ext/pta/setp.ml" 180 6712 6750
+type(
+  'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 181 6751 6769 "src/ext/pta/setp.ml" 181 6751 6770
+type(
+  int
+)
+ident(
+  int_ref c "src/ext/pta/setp.ml" 179 6675 6689 "src/ext/pta/setp.ml" 179 6675 6690
+)
+"src/ext/pta/setp.ml" 181 6751 6771 "src/ext/pta/setp.ml" 181 6751 6772
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ext/pta/setp.ml" 181 6751 6773 "src/ext/pta/setp.ml" 181 6751 6774
+type(
+  int
+)
+"src/ext/pta/setp.ml" 181 6751 6769 "src/ext/pta/setp.ml" 181 6751 6774
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 182 6780 6797 "src/ext/pta/setp.ml" 182 6780 6799
+type(
+  'g t
+)
+ident(
+  def ll "src/ext/pta/setp.ml" 182 6780 6824 "src/ext/pta/setp.ml" 182 6780 6845
+)
+"src/ext/pta/setp.ml" 182 6780 6801 "src/ext/pta/setp.ml" 182 6780 6803
+type(
+  'g elt option
+)
+ident(
+  def vl "src/ext/pta/setp.ml" 182 6780 6824 "src/ext/pta/setp.ml" 182 6780 6845
+)
+"src/ext/pta/setp.ml" 182 6780 6805 "src/ext/pta/setp.ml" 182 6780 6807
+type(
+  'g t
+)
+ident(
+  def rl "src/ext/pta/setp.ml" 182 6780 6824 "src/ext/pta/setp.ml" 182 6780 6845
+)
+"src/ext/pta/setp.ml" 182 6780 6796 "src/ext/pta/setp.ml" 182 6780 6808
+type(
+  'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 182 6780 6811 "src/ext/pta/setp.ml" 182 6780 6816
+type(
+  'g Ord.t -> 'g t -> 'g t * 'g elt option * 'g t
+)
+ident(
+  int_ref split "src/ext/pta/setp.ml" 175 6568 6580 "src/ext/pta/setp.ml" 175 6568 6585
+)
+"src/ext/pta/setp.ml" 182 6780 6817 "src/ext/pta/setp.ml" 182 6780 6818
+type(
+  'g Ord.t
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 175 6568 6586 "src/ext/pta/setp.ml" 175 6568 6587
+)
+"src/ext/pta/setp.ml" 182 6780 6819 "src/ext/pta/setp.ml" 182 6780 6820
+type(
+  'g t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 178 6647 6660 "src/ext/pta/setp.ml" 178 6647 6661
+)
+"src/ext/pta/setp.ml" 182 6780 6811 "src/ext/pta/setp.ml" 182 6780 6820
+call(
+  stack
+)
+type(
+  'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 182 6780 6825 "src/ext/pta/setp.ml" 182 6780 6827
+type(
+  'g t
+)
+ident(
+  int_ref ll "src/ext/pta/setp.ml" 182 6780 6797 "src/ext/pta/setp.ml" 182 6780 6799
+)
+"src/ext/pta/setp.ml" 182 6780 6829 "src/ext/pta/setp.ml" 182 6780 6831
+type(
+  'g elt option
+)
+ident(
+  int_ref vl "src/ext/pta/setp.ml" 182 6780 6801 "src/ext/pta/setp.ml" 182 6780 6803
+)
+"src/ext/pta/setp.ml" 182 6780 6833 "src/ext/pta/setp.ml" 182 6780 6837
+type(
+  'g t -> 'g elt -> 'g t -> 'g t
+)
+ident(
+  int_ref join "src/ext/pta/setp.ml" 146 5691 5703 "src/ext/pta/setp.ml" 146 5691 5707
+)
+"src/ext/pta/setp.ml" 182 6780 6838 "src/ext/pta/setp.ml" 182 6780 6840
+type(
+  'g t
+)
+ident(
+  int_ref rl "src/ext/pta/setp.ml" 182 6780 6805 "src/ext/pta/setp.ml" 182 6780 6807
+)
+"src/ext/pta/setp.ml" 182 6780 6841 "src/ext/pta/setp.ml" 182 6780 6842
+type(
+  'g elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 178 6647 6663 "src/ext/pta/setp.ml" 178 6647 6664
+)
+"src/ext/pta/setp.ml" 182 6780 6843 "src/ext/pta/setp.ml" 182 6780 6844
+type(
+  'g t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 178 6647 6666 "src/ext/pta/setp.ml" 178 6647 6667
+)
+"src/ext/pta/setp.ml" 182 6780 6833 "src/ext/pta/setp.ml" 182 6780 6844
+call(
+  stack
+)
+type(
+  'g t
+)
+"src/ext/pta/setp.ml" 182 6780 6824 "src/ext/pta/setp.ml" 182 6780 6845
+type(
+  'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 182 6780 6792 "src/ext/pta/setp.ml" 182 6780 6845
+type(
+  'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 184 6861 6878 "src/ext/pta/setp.ml" 184 6861 6880
+type(
+  'g t
+)
+ident(
+  def lr "src/ext/pta/setp.ml" 184 6861 6905 "src/ext/pta/setp.ml" 184 6861 6926
+)
+"src/ext/pta/setp.ml" 184 6861 6882 "src/ext/pta/setp.ml" 184 6861 6884
+type(
+  'g elt option
+)
+ident(
+  def vr "src/ext/pta/setp.ml" 184 6861 6905 "src/ext/pta/setp.ml" 184 6861 6926
+)
+"src/ext/pta/setp.ml" 184 6861 6886 "src/ext/pta/setp.ml" 184 6861 6888
+type(
+  'g t
+)
+ident(
+  def rr "src/ext/pta/setp.ml" 184 6861 6905 "src/ext/pta/setp.ml" 184 6861 6926
+)
+"src/ext/pta/setp.ml" 184 6861 6877 "src/ext/pta/setp.ml" 184 6861 6889
+type(
+  'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 184 6861 6892 "src/ext/pta/setp.ml" 184 6861 6897
+type(
+  'g Ord.t -> 'g t -> 'g t * 'g elt option * 'g t
+)
+ident(
+  int_ref split "src/ext/pta/setp.ml" 175 6568 6580 "src/ext/pta/setp.ml" 175 6568 6585
+)
+"src/ext/pta/setp.ml" 184 6861 6898 "src/ext/pta/setp.ml" 184 6861 6899
+type(
+  'g Ord.t
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 175 6568 6586 "src/ext/pta/setp.ml" 175 6568 6587
+)
+"src/ext/pta/setp.ml" 184 6861 6900 "src/ext/pta/setp.ml" 184 6861 6901
+type(
+  'g t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 178 6647 6666 "src/ext/pta/setp.ml" 178 6647 6667
+)
+"src/ext/pta/setp.ml" 184 6861 6892 "src/ext/pta/setp.ml" 184 6861 6901
+call(
+  stack
+)
+type(
+  'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 184 6861 6906 "src/ext/pta/setp.ml" 184 6861 6910
+type(
+  'g t -> 'g elt -> 'g t -> 'g t
+)
+ident(
+  int_ref join "src/ext/pta/setp.ml" 146 5691 5703 "src/ext/pta/setp.ml" 146 5691 5707
+)
+"src/ext/pta/setp.ml" 184 6861 6911 "src/ext/pta/setp.ml" 184 6861 6912
+type(
+  'g t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 178 6647 6660 "src/ext/pta/setp.ml" 178 6647 6661
+)
+"src/ext/pta/setp.ml" 184 6861 6913 "src/ext/pta/setp.ml" 184 6861 6914
+type(
+  'g elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 178 6647 6663 "src/ext/pta/setp.ml" 178 6647 6664
+)
+"src/ext/pta/setp.ml" 184 6861 6915 "src/ext/pta/setp.ml" 184 6861 6917
+type(
+  'g t
+)
+ident(
+  int_ref lr "src/ext/pta/setp.ml" 184 6861 6878 "src/ext/pta/setp.ml" 184 6861 6880
+)
+"src/ext/pta/setp.ml" 184 6861 6906 "src/ext/pta/setp.ml" 184 6861 6917
+call(
+  stack
+)
+type(
+  'g t
+)
+"src/ext/pta/setp.ml" 184 6861 6919 "src/ext/pta/setp.ml" 184 6861 6921
+type(
+  'g elt option
+)
+ident(
+  int_ref vr "src/ext/pta/setp.ml" 184 6861 6882 "src/ext/pta/setp.ml" 184 6861 6884
+)
+"src/ext/pta/setp.ml" 184 6861 6923 "src/ext/pta/setp.ml" 184 6861 6925
+type(
+  'g t
+)
+ident(
+  int_ref rr "src/ext/pta/setp.ml" 184 6861 6886 "src/ext/pta/setp.ml" 184 6861 6888
+)
+"src/ext/pta/setp.ml" 184 6861 6905 "src/ext/pta/setp.ml" 184 6861 6926
+type(
+  'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 184 6861 6873 "src/ext/pta/setp.ml" 184 6861 6926
+type(
+  'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 181 6751 6766 "src/ext/pta/setp.ml" 184 6861 6926
+type(
+  'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 180 6712 6722 "src/ext/pta/setp.ml" 184 6861 6926
+type(
+  'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 179 6675 6685 "src/ext/pta/setp.ml" 184 6861 6926
+type(
+  'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 175 6568 6590 "src/ext/pta/setp.ml" 184 6861 6926
+type(
+  'g t -> 'g t * 'g elt option * 'g t
+)
+"src/ext/pta/setp.ml" 188 6976 6984 "src/ext/pta/setp.ml" 188 6976 6989
+type(
+  'h t
+)
+ident(
+  def empty "src/ext/pta/setp.ml" 190 6999 7003 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 188 6976 6992 "src/ext/pta/setp.ml" 188 6976 6997
+type(
+  'h t
+)
+"src/ext/pta/setp.ml" 190 6999 7007 "src/ext/pta/setp.ml" 190 6999 7015
+type(
+  'i t -> bool
+)
+ident(
+  def is_empty "src/ext/pta/setp.ml" 192 7055 7059 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 190 6999 7027 "src/ext/pta/setp.ml" 190 6999 7032
+type(
+  'i t
+)
+"src/ext/pta/setp.ml" 190 6999 7036 "src/ext/pta/setp.ml" 190 6999 7040
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 190 6999 7043 "src/ext/pta/setp.ml" 190 6999 7044
+type(
+  'i t
+)
+"src/ext/pta/setp.ml" 190 6999 7048 "src/ext/pta/setp.ml" 190 6999 7053
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 190 6999 7018 "src/ext/pta/setp.ml" 190 6999 7053
+type(
+  'i t -> bool
+)
+"src/ext/pta/setp.ml" 192 7055 7067 "src/ext/pta/setp.ml" 192 7055 7070
+type(
+  'j Ord.t -> 'j t -> bool
+)
+ident(
+  def mem "src/ext/pta/setp.ml" 192 7055 7059 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 192 7055 7071 "src/ext/pta/setp.ml" 192 7055 7072
+type(
+  'j Ord.t
+)
+ident(
+  def x "src/ext/pta/setp.ml" 192 7055 7075 "src/ext/pta/setp.ml" 196 7172 7221
+)
+"src/ext/pta/setp.ml" 193 7084 7092 "src/ext/pta/setp.ml" 193 7084 7097
+type(
+  'j t
+)
+"src/ext/pta/setp.ml" 193 7084 7101 "src/ext/pta/setp.ml" 193 7084 7106
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 194 7107 7120 "src/ext/pta/setp.ml" 194 7107 7121
+type(
+  'j t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 195 7135 7145 "src/ext/pta/setp.ml" 196 7172 7221
+)
+"src/ext/pta/setp.ml" 194 7107 7123 "src/ext/pta/setp.ml" 194 7107 7124
+type(
+  'j elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 195 7135 7145 "src/ext/pta/setp.ml" 196 7172 7221
+)
+"src/ext/pta/setp.ml" 194 7107 7126 "src/ext/pta/setp.ml" 194 7107 7127
+type(
+  'j t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 195 7135 7145 "src/ext/pta/setp.ml" 196 7172 7221
+)
+"src/ext/pta/setp.ml" 194 7107 7129 "src/ext/pta/setp.ml" 194 7107 7130
+type(
+  int
+)
+"src/ext/pta/setp.ml" 194 7107 7115 "src/ext/pta/setp.ml" 194 7107 7131
+type(
+  'j t
+)
+"src/ext/pta/setp.ml" 195 7135 7149 "src/ext/pta/setp.ml" 195 7135 7150
+type(
+  int
+)
+ident(
+  def c "src/ext/pta/setp.ml" 196 7172 7182 "src/ext/pta/setp.ml" 196 7172 7221
+)
+"src/ext/pta/setp.ml" 195 7135 7153 "src/ext/pta/setp.ml" 195 7135 7164
+type(
+  'j Ord.t -> 'j elt -> int
+)
+ident(
+  int_ref Ord.compare "src/ext/pta/setp.ml" 55 2565 2569 "src/ext/pta/setp.ml" 55 2565 2601
+)
+"src/ext/pta/setp.ml" 195 7135 7165 "src/ext/pta/setp.ml" 195 7135 7166
+type(
+  'j Ord.t
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 192 7055 7071 "src/ext/pta/setp.ml" 192 7055 7072
+)
+"src/ext/pta/setp.ml" 195 7135 7167 "src/ext/pta/setp.ml" 195 7135 7168
+type(
+  'j elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 194 7107 7123 "src/ext/pta/setp.ml" 194 7107 7124
+)
+"src/ext/pta/setp.ml" 195 7135 7153 "src/ext/pta/setp.ml" 195 7135 7168
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 196 7172 7182 "src/ext/pta/setp.ml" 196 7172 7183
+type(
+  int
+)
+ident(
+  int_ref c "src/ext/pta/setp.ml" 195 7135 7149 "src/ext/pta/setp.ml" 195 7135 7150
+)
+"src/ext/pta/setp.ml" 196 7172 7184 "src/ext/pta/setp.ml" 196 7172 7185
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/pta/setp.ml" 196 7172 7186 "src/ext/pta/setp.ml" 196 7172 7187
+type(
+  int
+)
+"src/ext/pta/setp.ml" 196 7172 7182 "src/ext/pta/setp.ml" 196 7172 7187
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 196 7172 7188 "src/ext/pta/setp.ml" 196 7172 7190
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ext/pta/setp.ml" 196 7172 7191 "src/ext/pta/setp.ml" 196 7172 7194
+type(
+  'j Ord.t -> 'j t -> bool
+)
+ident(
+  int_ref mem "src/ext/pta/setp.ml" 192 7055 7067 "src/ext/pta/setp.ml" 192 7055 7070
+)
+"src/ext/pta/setp.ml" 196 7172 7195 "src/ext/pta/setp.ml" 196 7172 7196
+type(
+  'j Ord.t
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 192 7055 7071 "src/ext/pta/setp.ml" 192 7055 7072
+)
+"src/ext/pta/setp.ml" 196 7172 7201 "src/ext/pta/setp.ml" 196 7172 7202
+type(
+  int
+)
+ident(
+  int_ref c "src/ext/pta/setp.ml" 195 7135 7149 "src/ext/pta/setp.ml" 195 7135 7150
+)
+"src/ext/pta/setp.ml" 196 7172 7203 "src/ext/pta/setp.ml" 196 7172 7204
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ext/pta/setp.ml" 196 7172 7205 "src/ext/pta/setp.ml" 196 7172 7206
+type(
+  int
+)
+"src/ext/pta/setp.ml" 196 7172 7201 "src/ext/pta/setp.ml" 196 7172 7206
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 196 7172 7212 "src/ext/pta/setp.ml" 196 7172 7213
+type(
+  'j t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 194 7107 7120 "src/ext/pta/setp.ml" 194 7107 7121
+)
+"src/ext/pta/setp.ml" 196 7172 7219 "src/ext/pta/setp.ml" 196 7172 7220
+type(
+  'j t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 194 7107 7126 "src/ext/pta/setp.ml" 194 7107 7127
+)
+"src/ext/pta/setp.ml" 196 7172 7197 "src/ext/pta/setp.ml" 196 7172 7221
+type(
+  'j t
+)
+"src/ext/pta/setp.ml" 196 7172 7191 "src/ext/pta/setp.ml" 196 7172 7221
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 196 7172 7182 "src/ext/pta/setp.ml" 196 7172 7221
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 195 7135 7145 "src/ext/pta/setp.ml" 196 7172 7221
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 192 7055 7075 "src/ext/pta/setp.ml" 196 7172 7221
+type(
+  'j t -> bool
+)
+"src/ext/pta/setp.ml" 198 7223 7235 "src/ext/pta/setp.ml" 198 7223 7238
+type(
+  'k elt -> 'k t -> 'k t
+)
+ident(
+  def add "src/ext/pta/setp.ml" 198 7223 7227 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 198 7223 7239 "src/ext/pta/setp.ml" 198 7223 7240
+type(
+  'k elt
+)
+ident(
+  def x "src/ext/pta/setp.ml" 198 7223 7243 "src/ext/pta/setp.ml" 203 7395 7459
+)
+"src/ext/pta/setp.ml" 199 7252 7260 "src/ext/pta/setp.ml" 199 7252 7265
+type(
+  'k t
+)
+"src/ext/pta/setp.ml" 199 7252 7274 "src/ext/pta/setp.ml" 199 7252 7279
+type(
+  'k t
+)
+"src/ext/pta/setp.ml" 199 7252 7281 "src/ext/pta/setp.ml" 199 7252 7282
+type(
+  'k elt
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 198 7223 7239 "src/ext/pta/setp.ml" 198 7223 7240
+)
+"src/ext/pta/setp.ml" 199 7252 7284 "src/ext/pta/setp.ml" 199 7252 7289
+type(
+  'k t
+)
+"src/ext/pta/setp.ml" 199 7252 7291 "src/ext/pta/setp.ml" 199 7252 7292
+type(
+  int
+)
+"src/ext/pta/setp.ml" 199 7252 7269 "src/ext/pta/setp.ml" 199 7252 7293
+type(
+  'k t
+)
+"src/ext/pta/setp.ml" 200 7294 7307 "src/ext/pta/setp.ml" 200 7294 7308
+type(
+  'k t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 201 7327 7337 "src/ext/pta/setp.ml" 203 7395 7459
+)
+"src/ext/pta/setp.ml" 200 7294 7310 "src/ext/pta/setp.ml" 200 7294 7311
+type(
+  'k elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 201 7327 7337 "src/ext/pta/setp.ml" 203 7395 7459
+)
+"src/ext/pta/setp.ml" 200 7294 7313 "src/ext/pta/setp.ml" 200 7294 7314
+type(
+  'k t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 201 7327 7337 "src/ext/pta/setp.ml" 203 7395 7459
+)
+"src/ext/pta/setp.ml" 200 7294 7316 "src/ext/pta/setp.ml" 200 7294 7317
+type(
+  int
+)
+"src/ext/pta/setp.ml" 200 7294 7302 "src/ext/pta/setp.ml" 200 7294 7318
+type(
+  'k t
+)
+"src/ext/pta/setp.ml" 200 7294 7322 "src/ext/pta/setp.ml" 200 7294 7323
+ident(
+  def t "src/ext/pta/setp.ml" 201 7327 7337 "src/ext/pta/setp.ml" 203 7395 7459
+)
+"src/ext/pta/setp.ml" 200 7294 7302 "src/ext/pta/setp.ml" 200 7294 7323
+type(
+  'k t
+)
+"src/ext/pta/setp.ml" 201 7327 7341 "src/ext/pta/setp.ml" 201 7327 7342
+type(
+  int
+)
+ident(
+  def c "src/ext/pta/setp.ml" 202 7364 7374 "src/ext/pta/setp.ml" 203 7395 7459
+)
+"src/ext/pta/setp.ml" 201 7327 7345 "src/ext/pta/setp.ml" 201 7327 7356
+type(
+  'k elt -> 'k elt -> int
+)
+ident(
+  int_ref Ord.compare "src/ext/pta/setp.ml" 55 2565 2569 "src/ext/pta/setp.ml" 55 2565 2601
+)
+"src/ext/pta/setp.ml" 201 7327 7357 "src/ext/pta/setp.ml" 201 7327 7358
+type(
+  'k elt
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 198 7223 7239 "src/ext/pta/setp.ml" 198 7223 7240
+)
+"src/ext/pta/setp.ml" 201 7327 7359 "src/ext/pta/setp.ml" 201 7327 7360
+type(
+  'k elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 200 7294 7310 "src/ext/pta/setp.ml" 200 7294 7311
+)
+"src/ext/pta/setp.ml" 201 7327 7345 "src/ext/pta/setp.ml" 201 7327 7360
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 202 7364 7377 "src/ext/pta/setp.ml" 202 7364 7378
+type(
+  int
+)
+ident(
+  int_ref c "src/ext/pta/setp.ml" 201 7327 7341 "src/ext/pta/setp.ml" 201 7327 7342
+)
+"src/ext/pta/setp.ml" 202 7364 7379 "src/ext/pta/setp.ml" 202 7364 7380
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/pta/setp.ml" 202 7364 7381 "src/ext/pta/setp.ml" 202 7364 7382
+type(
+  int
+)
+"src/ext/pta/setp.ml" 202 7364 7377 "src/ext/pta/setp.ml" 202 7364 7382
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 202 7364 7388 "src/ext/pta/setp.ml" 202 7364 7389
+type(
+  'k t
+)
+ident(
+  int_ref t "src/ext/pta/setp.ml" 200 7294 7302 "src/ext/pta/setp.ml" 200 7294 7323
+)
+"src/ext/pta/setp.ml" 203 7395 7408 "src/ext/pta/setp.ml" 203 7395 7409
+type(
+  int
+)
+ident(
+  int_ref c "src/ext/pta/setp.ml" 201 7327 7341 "src/ext/pta/setp.ml" 201 7327 7342
+)
+"src/ext/pta/setp.ml" 203 7395 7410 "src/ext/pta/setp.ml" 203 7395 7411
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ext/pta/setp.ml" 203 7395 7412 "src/ext/pta/setp.ml" 203 7395 7413
+type(
+  int
+)
+"src/ext/pta/setp.ml" 203 7395 7408 "src/ext/pta/setp.ml" 203 7395 7413
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 203 7395 7419 "src/ext/pta/setp.ml" 203 7395 7422
+type(
+  'k t -> 'k elt -> 'k t -> 'k t
+)
+ident(
+  int_ref bal "src/ext/pta/setp.ml" 113 4502 4510 "src/ext/pta/setp.ml" 113 4502 4513
+)
+"src/ext/pta/setp.ml" 203 7395 7424 "src/ext/pta/setp.ml" 203 7395 7427
+type(
+  'k elt -> 'k t -> 'k t
+)
+ident(
+  int_ref add "src/ext/pta/setp.ml" 198 7223 7235 "src/ext/pta/setp.ml" 198 7223 7238
+)
+"src/ext/pta/setp.ml" 203 7395 7428 "src/ext/pta/setp.ml" 203 7395 7429
+type(
+  'k elt
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 198 7223 7239 "src/ext/pta/setp.ml" 198 7223 7240
+)
+"src/ext/pta/setp.ml" 203 7395 7430 "src/ext/pta/setp.ml" 203 7395 7431
+type(
+  'k t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 200 7294 7307 "src/ext/pta/setp.ml" 200 7294 7308
+)
+"src/ext/pta/setp.ml" 203 7395 7423 "src/ext/pta/setp.ml" 203 7395 7432
+call(
+  stack
+)
+type(
+  'k t
+)
+"src/ext/pta/setp.ml" 203 7395 7433 "src/ext/pta/setp.ml" 203 7395 7434
+type(
+  'k elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 200 7294 7310 "src/ext/pta/setp.ml" 200 7294 7311
+)
+"src/ext/pta/setp.ml" 203 7395 7435 "src/ext/pta/setp.ml" 203 7395 7436
+type(
+  'k t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 200 7294 7313 "src/ext/pta/setp.ml" 200 7294 7314
+)
+"src/ext/pta/setp.ml" 203 7395 7419 "src/ext/pta/setp.ml" 203 7395 7436
+call(
+  tail
+)
+type(
+  'k t
+)
+"src/ext/pta/setp.ml" 203 7395 7442 "src/ext/pta/setp.ml" 203 7395 7445
+type(
+  'k t -> 'k elt -> 'k t -> 'k t
+)
+ident(
+  int_ref bal "src/ext/pta/setp.ml" 113 4502 4510 "src/ext/pta/setp.ml" 113 4502 4513
+)
+"src/ext/pta/setp.ml" 203 7395 7446 "src/ext/pta/setp.ml" 203 7395 7447
+type(
+  'k t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 200 7294 7307 "src/ext/pta/setp.ml" 200 7294 7308
+)
+"src/ext/pta/setp.ml" 203 7395 7448 "src/ext/pta/setp.ml" 203 7395 7449
+type(
+  'k elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 200 7294 7310 "src/ext/pta/setp.ml" 200 7294 7311
+)
+"src/ext/pta/setp.ml" 203 7395 7451 "src/ext/pta/setp.ml" 203 7395 7454
+type(
+  'k elt -> 'k t -> 'k t
+)
+ident(
+  int_ref add "src/ext/pta/setp.ml" 198 7223 7235 "src/ext/pta/setp.ml" 198 7223 7238
+)
+"src/ext/pta/setp.ml" 203 7395 7455 "src/ext/pta/setp.ml" 203 7395 7456
+type(
+  'k elt
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 198 7223 7239 "src/ext/pta/setp.ml" 198 7223 7240
+)
+"src/ext/pta/setp.ml" 203 7395 7457 "src/ext/pta/setp.ml" 203 7395 7458
+type(
+  'k t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 200 7294 7313 "src/ext/pta/setp.ml" 200 7294 7314
+)
+"src/ext/pta/setp.ml" 203 7395 7450 "src/ext/pta/setp.ml" 203 7395 7459
+call(
+  stack
+)
+type(
+  'k t
+)
+"src/ext/pta/setp.ml" 203 7395 7442 "src/ext/pta/setp.ml" 203 7395 7459
+call(
+  tail
+)
+type(
+  'k t
+)
+"src/ext/pta/setp.ml" 203 7395 7405 "src/ext/pta/setp.ml" 203 7395 7459
+type(
+  'k t
+)
+"src/ext/pta/setp.ml" 202 7364 7374 "src/ext/pta/setp.ml" 203 7395 7459
+type(
+  'k t
+)
+"src/ext/pta/setp.ml" 201 7327 7337 "src/ext/pta/setp.ml" 203 7395 7459
+type(
+  'k t
+)
+"src/ext/pta/setp.ml" 198 7223 7243 "src/ext/pta/setp.ml" 203 7395 7459
+type(
+  'k t -> 'k t
+)
+"src/ext/pta/setp.ml" 205 7461 7469 "src/ext/pta/setp.ml" 205 7461 7478
+type(
+  'l elt -> 'l t
+)
+ident(
+  def singleton "src/ext/pta/setp.ml" 207 7509 7513 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 205 7461 7479 "src/ext/pta/setp.ml" 205 7461 7480
+type(
+  'l elt
+)
+ident(
+  def x "src/ext/pta/setp.ml" 205 7461 7483 "src/ext/pta/setp.ml" 205 7461 7507
+)
+"src/ext/pta/setp.ml" 205 7461 7488 "src/ext/pta/setp.ml" 205 7461 7493
+type(
+  'l t
+)
+"src/ext/pta/setp.ml" 205 7461 7495 "src/ext/pta/setp.ml" 205 7461 7496
+type(
+  'l elt
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 205 7461 7479 "src/ext/pta/setp.ml" 205 7461 7480
+)
+"src/ext/pta/setp.ml" 205 7461 7498 "src/ext/pta/setp.ml" 205 7461 7503
+type(
+  'l t
+)
+"src/ext/pta/setp.ml" 205 7461 7505 "src/ext/pta/setp.ml" 205 7461 7506
+type(
+  int
+)
+"src/ext/pta/setp.ml" 205 7461 7483 "src/ext/pta/setp.ml" 205 7461 7507
+type(
+  'l t
+)
+"src/ext/pta/setp.ml" 207 7509 7521 "src/ext/pta/setp.ml" 207 7509 7527
+type(
+  'm Ord.t -> 'm t -> 'm t
+)
+ident(
+  def remove "src/ext/pta/setp.ml" 207 7509 7513 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 207 7509 7528 "src/ext/pta/setp.ml" 207 7509 7529
+type(
+  'm Ord.t
+)
+ident(
+  def x "src/ext/pta/setp.ml" 207 7509 7532 "src/ext/pta/setp.ml" 212 7668 7738
+)
+"src/ext/pta/setp.ml" 208 7541 7549 "src/ext/pta/setp.ml" 208 7541 7554
+type(
+  'm t
+)
+"src/ext/pta/setp.ml" 208 7541 7558 "src/ext/pta/setp.ml" 208 7541 7563
+type(
+  'm t
+)
+"src/ext/pta/setp.ml" 209 7564 7577 "src/ext/pta/setp.ml" 209 7564 7578
+type(
+  'm t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 210 7592 7602 "src/ext/pta/setp.ml" 212 7668 7738
+)
+"src/ext/pta/setp.ml" 209 7564 7580 "src/ext/pta/setp.ml" 209 7564 7581
+type(
+  'm elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 210 7592 7602 "src/ext/pta/setp.ml" 212 7668 7738
+)
+"src/ext/pta/setp.ml" 209 7564 7583 "src/ext/pta/setp.ml" 209 7564 7584
+type(
+  'm t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 210 7592 7602 "src/ext/pta/setp.ml" 212 7668 7738
+)
+"src/ext/pta/setp.ml" 209 7564 7586 "src/ext/pta/setp.ml" 209 7564 7587
+type(
+  int
+)
+"src/ext/pta/setp.ml" 209 7564 7572 "src/ext/pta/setp.ml" 209 7564 7588
+type(
+  'm t
+)
+"src/ext/pta/setp.ml" 210 7592 7606 "src/ext/pta/setp.ml" 210 7592 7607
+type(
+  int
+)
+ident(
+  def c "src/ext/pta/setp.ml" 211 7629 7639 "src/ext/pta/setp.ml" 212 7668 7738
+)
+"src/ext/pta/setp.ml" 210 7592 7610 "src/ext/pta/setp.ml" 210 7592 7621
+type(
+  'm Ord.t -> 'm elt -> int
+)
+ident(
+  int_ref Ord.compare "src/ext/pta/setp.ml" 55 2565 2569 "src/ext/pta/setp.ml" 55 2565 2601
+)
+"src/ext/pta/setp.ml" 210 7592 7622 "src/ext/pta/setp.ml" 210 7592 7623
+type(
+  'm Ord.t
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 207 7509 7528 "src/ext/pta/setp.ml" 207 7509 7529
+)
+"src/ext/pta/setp.ml" 210 7592 7624 "src/ext/pta/setp.ml" 210 7592 7625
+type(
+  'm elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 209 7564 7580 "src/ext/pta/setp.ml" 209 7564 7581
+)
+"src/ext/pta/setp.ml" 210 7592 7610 "src/ext/pta/setp.ml" 210 7592 7625
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 211 7629 7642 "src/ext/pta/setp.ml" 211 7629 7643
+type(
+  int
+)
+ident(
+  int_ref c "src/ext/pta/setp.ml" 210 7592 7606 "src/ext/pta/setp.ml" 210 7592 7607
+)
+"src/ext/pta/setp.ml" 211 7629 7644 "src/ext/pta/setp.ml" 211 7629 7645
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/pta/setp.ml" 211 7629 7646 "src/ext/pta/setp.ml" 211 7629 7647
+type(
+  int
+)
+"src/ext/pta/setp.ml" 211 7629 7642 "src/ext/pta/setp.ml" 211 7629 7647
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 211 7629 7653 "src/ext/pta/setp.ml" 211 7629 7658
+type(
+  'm t -> 'm t -> 'm t
+)
+ident(
+  int_ref merge "src/ext/pta/setp.ml" 157 6067 6079 "src/ext/pta/setp.ml" 157 6067 6084
+)
+"src/ext/pta/setp.ml" 211 7629 7659 "src/ext/pta/setp.ml" 211 7629 7660
+type(
+  'm t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 209 7564 7577 "src/ext/pta/setp.ml" 209 7564 7578
+)
+"src/ext/pta/setp.ml" 211 7629 7661 "src/ext/pta/setp.ml" 211 7629 7662
+type(
+  'm t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 209 7564 7583 "src/ext/pta/setp.ml" 209 7564 7584
+)
+"src/ext/pta/setp.ml" 211 7629 7653 "src/ext/pta/setp.ml" 211 7629 7662
+call(
+  tail
+)
+type(
+  'm t
+)
+"src/ext/pta/setp.ml" 212 7668 7681 "src/ext/pta/setp.ml" 212 7668 7682
+type(
+  int
+)
+ident(
+  int_ref c "src/ext/pta/setp.ml" 210 7592 7606 "src/ext/pta/setp.ml" 210 7592 7607
+)
+"src/ext/pta/setp.ml" 212 7668 7683 "src/ext/pta/setp.ml" 212 7668 7684
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ext/pta/setp.ml" 212 7668 7685 "src/ext/pta/setp.ml" 212 7668 7686
+type(
+  int
+)
+"src/ext/pta/setp.ml" 212 7668 7681 "src/ext/pta/setp.ml" 212 7668 7686
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 212 7668 7692 "src/ext/pta/setp.ml" 212 7668 7695
+type(
+  'm t -> 'm elt -> 'm t -> 'm t
+)
+ident(
+  int_ref bal "src/ext/pta/setp.ml" 113 4502 4510 "src/ext/pta/setp.ml" 113 4502 4513
+)
+"src/ext/pta/setp.ml" 212 7668 7697 "src/ext/pta/setp.ml" 212 7668 7703
+type(
+  'm Ord.t -> 'm t -> 'm t
+)
+ident(
+  int_ref remove "src/ext/pta/setp.ml" 207 7509 7521 "src/ext/pta/setp.ml" 207 7509 7527
+)
+"src/ext/pta/setp.ml" 212 7668 7704 "src/ext/pta/setp.ml" 212 7668 7705
+type(
+  'm Ord.t
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 207 7509 7528 "src/ext/pta/setp.ml" 207 7509 7529
+)
+"src/ext/pta/setp.ml" 212 7668 7706 "src/ext/pta/setp.ml" 212 7668 7707
+type(
+  'm t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 209 7564 7577 "src/ext/pta/setp.ml" 209 7564 7578
+)
+"src/ext/pta/setp.ml" 212 7668 7696 "src/ext/pta/setp.ml" 212 7668 7708
+call(
+  stack
+)
+type(
+  'm t
+)
+"src/ext/pta/setp.ml" 212 7668 7709 "src/ext/pta/setp.ml" 212 7668 7710
+type(
+  'm elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 209 7564 7580 "src/ext/pta/setp.ml" 209 7564 7581
+)
+"src/ext/pta/setp.ml" 212 7668 7711 "src/ext/pta/setp.ml" 212 7668 7712
+type(
+  'm t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 209 7564 7583 "src/ext/pta/setp.ml" 209 7564 7584
+)
+"src/ext/pta/setp.ml" 212 7668 7692 "src/ext/pta/setp.ml" 212 7668 7712
+call(
+  tail
+)
+type(
+  'm t
+)
+"src/ext/pta/setp.ml" 212 7668 7718 "src/ext/pta/setp.ml" 212 7668 7721
+type(
+  'm t -> 'm elt -> 'm t -> 'm t
+)
+ident(
+  int_ref bal "src/ext/pta/setp.ml" 113 4502 4510 "src/ext/pta/setp.ml" 113 4502 4513
+)
+"src/ext/pta/setp.ml" 212 7668 7722 "src/ext/pta/setp.ml" 212 7668 7723
+type(
+  'm t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 209 7564 7577 "src/ext/pta/setp.ml" 209 7564 7578
+)
+"src/ext/pta/setp.ml" 212 7668 7724 "src/ext/pta/setp.ml" 212 7668 7725
+type(
+  'm elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 209 7564 7580 "src/ext/pta/setp.ml" 209 7564 7581
+)
+"src/ext/pta/setp.ml" 212 7668 7727 "src/ext/pta/setp.ml" 212 7668 7733
+type(
+  'm Ord.t -> 'm t -> 'm t
+)
+ident(
+  int_ref remove "src/ext/pta/setp.ml" 207 7509 7521 "src/ext/pta/setp.ml" 207 7509 7527
+)
+"src/ext/pta/setp.ml" 212 7668 7734 "src/ext/pta/setp.ml" 212 7668 7735
+type(
+  'm Ord.t
+)
+ident(
+  int_ref x "src/ext/pta/setp.ml" 207 7509 7528 "src/ext/pta/setp.ml" 207 7509 7529
+)
+"src/ext/pta/setp.ml" 212 7668 7736 "src/ext/pta/setp.ml" 212 7668 7737
+type(
+  'm t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 209 7564 7583 "src/ext/pta/setp.ml" 209 7564 7584
+)
+"src/ext/pta/setp.ml" 212 7668 7726 "src/ext/pta/setp.ml" 212 7668 7738
+call(
+  stack
+)
+type(
+  'm t
+)
+"src/ext/pta/setp.ml" 212 7668 7718 "src/ext/pta/setp.ml" 212 7668 7738
+call(
+  tail
+)
+type(
+  'm t
+)
+"src/ext/pta/setp.ml" 212 7668 7678 "src/ext/pta/setp.ml" 212 7668 7738
+type(
+  'm t
+)
+"src/ext/pta/setp.ml" 211 7629 7639 "src/ext/pta/setp.ml" 212 7668 7738
+type(
+  'm t
+)
+"src/ext/pta/setp.ml" 210 7592 7602 "src/ext/pta/setp.ml" 212 7668 7738
+type(
+  'm t
+)
+"src/ext/pta/setp.ml" 207 7509 7532 "src/ext/pta/setp.ml" 212 7668 7738
+type(
+  'm t -> 'm t
+)
+"src/ext/pta/setp.ml" 214 7740 7752 "src/ext/pta/setp.ml" 214 7740 7757
+type(
+  'n t -> 'n t -> 'n t
+)
+ident(
+  def union "src/ext/pta/setp.ml" 214 7740 7744 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 214 7740 7758 "src/ext/pta/setp.ml" 214 7740 7760
+type(
+  'n t
+)
+ident(
+  def s1 "src/ext/pta/setp.ml" 214 7740 7761 "src/ext/pta/setp.ml" 228 8248 8263
+)
+"src/ext/pta/setp.ml" 214 7740 7761 "src/ext/pta/setp.ml" 214 7740 7763
+type(
+  'n t
+)
+ident(
+  def s2 "src/ext/pta/setp.ml" 215 7766 7772 "src/ext/pta/setp.ml" 228 8248 8263
+)
+"src/ext/pta/setp.ml" 215 7766 7779 "src/ext/pta/setp.ml" 215 7766 7781
+type(
+  'n t
+)
+ident(
+  int_ref s1 "src/ext/pta/setp.ml" 214 7740 7758 "src/ext/pta/setp.ml" 214 7740 7760
+)
+"src/ext/pta/setp.ml" 215 7766 7783 "src/ext/pta/setp.ml" 215 7766 7785
+type(
+  'n t
+)
+ident(
+  int_ref s2 "src/ext/pta/setp.ml" 214 7740 7761 "src/ext/pta/setp.ml" 214 7740 7763
+)
+"src/ext/pta/setp.ml" 215 7766 7778 "src/ext/pta/setp.ml" 215 7766 7786
+type(
+  'n t * 'n t
+)
+"src/ext/pta/setp.ml" 216 7792 7801 "src/ext/pta/setp.ml" 216 7792 7806
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 216 7792 7808 "src/ext/pta/setp.ml" 216 7792 7810
+type(
+  'n t
+)
+ident(
+  def t2 "src/ext/pta/setp.ml" 216 7792 7815 "src/ext/pta/setp.ml" 216 7792 7817
+)
+"src/ext/pta/setp.ml" 216 7792 7800 "src/ext/pta/setp.ml" 216 7792 7811
+type(
+  'n t * 'n t
+)
+"src/ext/pta/setp.ml" 216 7792 7815 "src/ext/pta/setp.ml" 216 7792 7817
+type(
+  'n t
+)
+ident(
+  int_ref t2 "src/ext/pta/setp.ml" 216 7792 7808 "src/ext/pta/setp.ml" 216 7792 7810
+)
+"src/ext/pta/setp.ml" 217 7818 7827 "src/ext/pta/setp.ml" 217 7818 7829
+type(
+  'n t
+)
+ident(
+  def t1 "src/ext/pta/setp.ml" 217 7818 7841 "src/ext/pta/setp.ml" 217 7818 7843
+)
+"src/ext/pta/setp.ml" 217 7818 7831 "src/ext/pta/setp.ml" 217 7818 7836
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 217 7818 7826 "src/ext/pta/setp.ml" 217 7818 7837
+type(
+  'n t * 'n t
+)
+"src/ext/pta/setp.ml" 217 7818 7841 "src/ext/pta/setp.ml" 217 7818 7843
+type(
+  'n t
+)
+ident(
+  int_ref t1 "src/ext/pta/setp.ml" 217 7818 7827 "src/ext/pta/setp.ml" 217 7818 7829
+)
+"src/ext/pta/setp.ml" 218 7844 7858 "src/ext/pta/setp.ml" 218 7844 7860
+type(
+  'n t
+)
+ident(
+  def l1 "src/ext/pta/setp.ml" 219 7900 7910 "src/ext/pta/setp.ml" 228 8248 8263
+)
+"src/ext/pta/setp.ml" 218 7844 7862 "src/ext/pta/setp.ml" 218 7844 7864
+type(
+  'n elt
+)
+ident(
+  def v1 "src/ext/pta/setp.ml" 219 7900 7910 "src/ext/pta/setp.ml" 228 8248 8263
+)
+"src/ext/pta/setp.ml" 218 7844 7866 "src/ext/pta/setp.ml" 218 7844 7868
+type(
+  'n t
+)
+ident(
+  def r1 "src/ext/pta/setp.ml" 219 7900 7910 "src/ext/pta/setp.ml" 228 8248 8263
+)
+"src/ext/pta/setp.ml" 218 7844 7870 "src/ext/pta/setp.ml" 218 7844 7872
+type(
+  int
+)
+ident(
+  def h1 "src/ext/pta/setp.ml" 219 7900 7910 "src/ext/pta/setp.ml" 228 8248 8263
+)
+"src/ext/pta/setp.ml" 218 7844 7853 "src/ext/pta/setp.ml" 218 7844 7873
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 218 7844 7880 "src/ext/pta/setp.ml" 218 7844 7882
+type(
+  'n t
+)
+ident(
+  def l2 "src/ext/pta/setp.ml" 219 7900 7910 "src/ext/pta/setp.ml" 228 8248 8263
+)
+"src/ext/pta/setp.ml" 218 7844 7884 "src/ext/pta/setp.ml" 218 7844 7886
+type(
+  'n elt
+)
+ident(
+  def v2 "src/ext/pta/setp.ml" 219 7900 7910 "src/ext/pta/setp.ml" 228 8248 8263
+)
+"src/ext/pta/setp.ml" 218 7844 7888 "src/ext/pta/setp.ml" 218 7844 7890
+type(
+  'n t
+)
+ident(
+  def r2 "src/ext/pta/setp.ml" 219 7900 7910 "src/ext/pta/setp.ml" 228 8248 8263
+)
+"src/ext/pta/setp.ml" 218 7844 7892 "src/ext/pta/setp.ml" 218 7844 7894
+type(
+  int
+)
+ident(
+  def h2 "src/ext/pta/setp.ml" 219 7900 7910 "src/ext/pta/setp.ml" 228 8248 8263
+)
+"src/ext/pta/setp.ml" 218 7844 7875 "src/ext/pta/setp.ml" 218 7844 7895
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 218 7844 7852 "src/ext/pta/setp.ml" 218 7844 7896
+type(
+  'n t * 'n t
+)
+"src/ext/pta/setp.ml" 219 7900 7913 "src/ext/pta/setp.ml" 219 7900 7915
+type(
+  int
+)
+ident(
+  int_ref h1 "src/ext/pta/setp.ml" 218 7844 7870 "src/ext/pta/setp.ml" 218 7844 7872
+)
+"src/ext/pta/setp.ml" 219 7900 7916 "src/ext/pta/setp.ml" 219 7900 7918
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ext/pta/setp.ml" 219 7900 7919 "src/ext/pta/setp.ml" 219 7900 7921
+type(
+  int
+)
+ident(
+  int_ref h2 "src/ext/pta/setp.ml" 218 7844 7892 "src/ext/pta/setp.ml" 218 7844 7894
+)
+"src/ext/pta/setp.ml" 219 7900 7913 "src/ext/pta/setp.ml" 219 7900 7921
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 220 7927 7942 "src/ext/pta/setp.ml" 220 7927 7944
+type(
+  int
+)
+ident(
+  int_ref h2 "src/ext/pta/setp.ml" 218 7844 7892 "src/ext/pta/setp.ml" 218 7844 7894
+)
+"src/ext/pta/setp.ml" 220 7927 7945 "src/ext/pta/setp.ml" 220 7927 7946
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/pta/setp.ml" 220 7927 7947 "src/ext/pta/setp.ml" 220 7927 7948
+type(
+  int
+)
+"src/ext/pta/setp.ml" 220 7927 7942 "src/ext/pta/setp.ml" 220 7927 7948
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 220 7927 7954 "src/ext/pta/setp.ml" 220 7927 7957
+type(
+  'n elt -> 'n t -> 'n t
+)
+ident(
+  int_ref add "src/ext/pta/setp.ml" 198 7223 7235 "src/ext/pta/setp.ml" 198 7223 7238
+)
+"src/ext/pta/setp.ml" 220 7927 7958 "src/ext/pta/setp.ml" 220 7927 7960
+type(
+  'n elt
+)
+ident(
+  int_ref v2 "src/ext/pta/setp.ml" 218 7844 7884 "src/ext/pta/setp.ml" 218 7844 7886
+)
+"src/ext/pta/setp.ml" 220 7927 7961 "src/ext/pta/setp.ml" 220 7927 7963
+type(
+  'n t
+)
+ident(
+  int_ref s1 "src/ext/pta/setp.ml" 214 7740 7758 "src/ext/pta/setp.ml" 214 7740 7760
+)
+"src/ext/pta/setp.ml" 220 7927 7954 "src/ext/pta/setp.ml" 220 7927 7963
+call(
+  tail
+)
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 221 7975 7994 "src/ext/pta/setp.ml" 221 7975 7996
+type(
+  'n t
+)
+ident(
+  def l2 "src/ext/pta/setp.ml" 222 8022 8036 "src/ext/pta/setp.ml" 222 8022 8071
+)
+"src/ext/pta/setp.ml" 221 7975 7998 "src/ext/pta/setp.ml" 221 7975 7999
+type(
+  'n elt option
+)
+"src/ext/pta/setp.ml" 221 7975 8001 "src/ext/pta/setp.ml" 221 7975 8003
+type(
+  'n t
+)
+ident(
+  def r2 "src/ext/pta/setp.ml" 222 8022 8036 "src/ext/pta/setp.ml" 222 8022 8071
+)
+"src/ext/pta/setp.ml" 221 7975 7993 "src/ext/pta/setp.ml" 221 7975 8004
+type(
+  'n t * 'n elt option * 'n t
+)
+"src/ext/pta/setp.ml" 221 7975 8007 "src/ext/pta/setp.ml" 221 7975 8012
+type(
+  'n elt -> 'n t -> 'n t * 'n elt option * 'n t
+)
+ident(
+  int_ref split "src/ext/pta/setp.ml" 175 6568 6580 "src/ext/pta/setp.ml" 175 6568 6585
+)
+"src/ext/pta/setp.ml" 221 7975 8013 "src/ext/pta/setp.ml" 221 7975 8015
+type(
+  'n elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 218 7844 7862 "src/ext/pta/setp.ml" 218 7844 7864
+)
+"src/ext/pta/setp.ml" 221 7975 8016 "src/ext/pta/setp.ml" 221 7975 8018
+type(
+  'n t
+)
+ident(
+  int_ref s2 "src/ext/pta/setp.ml" 214 7740 7761 "src/ext/pta/setp.ml" 214 7740 7763
+)
+"src/ext/pta/setp.ml" 221 7975 8007 "src/ext/pta/setp.ml" 221 7975 8018
+call(
+  stack
+)
+type(
+  'n t * 'n elt option * 'n t
+)
+"src/ext/pta/setp.ml" 222 8022 8036 "src/ext/pta/setp.ml" 222 8022 8040
+type(
+  'n t -> 'n elt -> 'n t -> 'n t
+)
+ident(
+  int_ref join "src/ext/pta/setp.ml" 146 5691 5703 "src/ext/pta/setp.ml" 146 5691 5707
+)
+"src/ext/pta/setp.ml" 222 8022 8042 "src/ext/pta/setp.ml" 222 8022 8047
+type(
+  'n t -> 'n t -> 'n t
+)
+ident(
+  int_ref union "src/ext/pta/setp.ml" 214 7740 7752 "src/ext/pta/setp.ml" 214 7740 7757
+)
+"src/ext/pta/setp.ml" 222 8022 8048 "src/ext/pta/setp.ml" 222 8022 8050
+type(
+  'n t
+)
+ident(
+  int_ref l1 "src/ext/pta/setp.ml" 218 7844 7858 "src/ext/pta/setp.ml" 218 7844 7860
+)
+"src/ext/pta/setp.ml" 222 8022 8051 "src/ext/pta/setp.ml" 222 8022 8053
+type(
+  'n t
+)
+ident(
+  int_ref l2 "src/ext/pta/setp.ml" 221 7975 7994 "src/ext/pta/setp.ml" 221 7975 7996
+)
+"src/ext/pta/setp.ml" 222 8022 8041 "src/ext/pta/setp.ml" 222 8022 8054
+call(
+  stack
+)
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 222 8022 8055 "src/ext/pta/setp.ml" 222 8022 8057
+type(
+  'n elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 218 7844 7862 "src/ext/pta/setp.ml" 218 7844 7864
+)
+"src/ext/pta/setp.ml" 222 8022 8059 "src/ext/pta/setp.ml" 222 8022 8064
+type(
+  'n t -> 'n t -> 'n t
+)
+ident(
+  int_ref union "src/ext/pta/setp.ml" 214 7740 7752 "src/ext/pta/setp.ml" 214 7740 7757
+)
+"src/ext/pta/setp.ml" 222 8022 8065 "src/ext/pta/setp.ml" 222 8022 8067
+type(
+  'n t
+)
+ident(
+  int_ref r1 "src/ext/pta/setp.ml" 218 7844 7866 "src/ext/pta/setp.ml" 218 7844 7868
+)
+"src/ext/pta/setp.ml" 222 8022 8068 "src/ext/pta/setp.ml" 222 8022 8070
+type(
+  'n t
+)
+ident(
+  int_ref r2 "src/ext/pta/setp.ml" 221 7975 8001 "src/ext/pta/setp.ml" 221 7975 8003
+)
+"src/ext/pta/setp.ml" 222 8022 8058 "src/ext/pta/setp.ml" 222 8022 8071
+call(
+  stack
+)
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 222 8022 8036 "src/ext/pta/setp.ml" 222 8022 8071
+call(
+  tail
+)
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 220 7927 7969 "src/ext/pta/setp.ml" 223 8072 8087
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 220 7927 7939 "src/ext/pta/setp.ml" 223 8072 8087
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 225 8103 8118 "src/ext/pta/setp.ml" 225 8103 8120
+type(
+  int
+)
+ident(
+  int_ref h1 "src/ext/pta/setp.ml" 218 7844 7870 "src/ext/pta/setp.ml" 218 7844 7872
+)
+"src/ext/pta/setp.ml" 225 8103 8121 "src/ext/pta/setp.ml" 225 8103 8122
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/pta/setp.ml" 225 8103 8123 "src/ext/pta/setp.ml" 225 8103 8124
+type(
+  int
+)
+"src/ext/pta/setp.ml" 225 8103 8118 "src/ext/pta/setp.ml" 225 8103 8124
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 225 8103 8130 "src/ext/pta/setp.ml" 225 8103 8133
+type(
+  'n elt -> 'n t -> 'n t
+)
+ident(
+  int_ref add "src/ext/pta/setp.ml" 198 7223 7235 "src/ext/pta/setp.ml" 198 7223 7238
+)
+"src/ext/pta/setp.ml" 225 8103 8134 "src/ext/pta/setp.ml" 225 8103 8136
+type(
+  'n elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 218 7844 7862 "src/ext/pta/setp.ml" 218 7844 7864
+)
+"src/ext/pta/setp.ml" 225 8103 8137 "src/ext/pta/setp.ml" 225 8103 8139
+type(
+  'n t
+)
+ident(
+  int_ref s2 "src/ext/pta/setp.ml" 214 7740 7761 "src/ext/pta/setp.ml" 214 7740 7763
+)
+"src/ext/pta/setp.ml" 225 8103 8130 "src/ext/pta/setp.ml" 225 8103 8139
+call(
+  tail
+)
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 226 8151 8170 "src/ext/pta/setp.ml" 226 8151 8172
+type(
+  'n t
+)
+ident(
+  def l1 "src/ext/pta/setp.ml" 227 8198 8212 "src/ext/pta/setp.ml" 227 8198 8247
+)
+"src/ext/pta/setp.ml" 226 8151 8174 "src/ext/pta/setp.ml" 226 8151 8175
+type(
+  'n elt option
+)
+"src/ext/pta/setp.ml" 226 8151 8177 "src/ext/pta/setp.ml" 226 8151 8179
+type(
+  'n t
+)
+ident(
+  def r1 "src/ext/pta/setp.ml" 227 8198 8212 "src/ext/pta/setp.ml" 227 8198 8247
+)
+"src/ext/pta/setp.ml" 226 8151 8169 "src/ext/pta/setp.ml" 226 8151 8180
+type(
+  'n t * 'n elt option * 'n t
+)
+"src/ext/pta/setp.ml" 226 8151 8183 "src/ext/pta/setp.ml" 226 8151 8188
+type(
+  'n elt -> 'n t -> 'n t * 'n elt option * 'n t
+)
+ident(
+  int_ref split "src/ext/pta/setp.ml" 175 6568 6580 "src/ext/pta/setp.ml" 175 6568 6585
+)
+"src/ext/pta/setp.ml" 226 8151 8189 "src/ext/pta/setp.ml" 226 8151 8191
+type(
+  'n elt
+)
+ident(
+  int_ref v2 "src/ext/pta/setp.ml" 218 7844 7884 "src/ext/pta/setp.ml" 218 7844 7886
+)
+"src/ext/pta/setp.ml" 226 8151 8192 "src/ext/pta/setp.ml" 226 8151 8194
+type(
+  'n t
+)
+ident(
+  int_ref s1 "src/ext/pta/setp.ml" 214 7740 7758 "src/ext/pta/setp.ml" 214 7740 7760
+)
+"src/ext/pta/setp.ml" 226 8151 8183 "src/ext/pta/setp.ml" 226 8151 8194
+call(
+  stack
+)
+type(
+  'n t * 'n elt option * 'n t
+)
+"src/ext/pta/setp.ml" 227 8198 8212 "src/ext/pta/setp.ml" 227 8198 8216
+type(
+  'n t -> 'n elt -> 'n t -> 'n t
+)
+ident(
+  int_ref join "src/ext/pta/setp.ml" 146 5691 5703 "src/ext/pta/setp.ml" 146 5691 5707
+)
+"src/ext/pta/setp.ml" 227 8198 8218 "src/ext/pta/setp.ml" 227 8198 8223
+type(
+  'n t -> 'n t -> 'n t
+)
+ident(
+  int_ref union "src/ext/pta/setp.ml" 214 7740 7752 "src/ext/pta/setp.ml" 214 7740 7757
+)
+"src/ext/pta/setp.ml" 227 8198 8224 "src/ext/pta/setp.ml" 227 8198 8226
+type(
+  'n t
+)
+ident(
+  int_ref l1 "src/ext/pta/setp.ml" 226 8151 8170 "src/ext/pta/setp.ml" 226 8151 8172
+)
+"src/ext/pta/setp.ml" 227 8198 8227 "src/ext/pta/setp.ml" 227 8198 8229
+type(
+  'n t
+)
+ident(
+  int_ref l2 "src/ext/pta/setp.ml" 218 7844 7880 "src/ext/pta/setp.ml" 218 7844 7882
+)
+"src/ext/pta/setp.ml" 227 8198 8217 "src/ext/pta/setp.ml" 227 8198 8230
+call(
+  stack
+)
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 227 8198 8231 "src/ext/pta/setp.ml" 227 8198 8233
+type(
+  'n elt
+)
+ident(
+  int_ref v2 "src/ext/pta/setp.ml" 218 7844 7884 "src/ext/pta/setp.ml" 218 7844 7886
+)
+"src/ext/pta/setp.ml" 227 8198 8235 "src/ext/pta/setp.ml" 227 8198 8240
+type(
+  'n t -> 'n t -> 'n t
+)
+ident(
+  int_ref union "src/ext/pta/setp.ml" 214 7740 7752 "src/ext/pta/setp.ml" 214 7740 7757
+)
+"src/ext/pta/setp.ml" 227 8198 8241 "src/ext/pta/setp.ml" 227 8198 8243
+type(
+  'n t
+)
+ident(
+  int_ref r1 "src/ext/pta/setp.ml" 226 8151 8177 "src/ext/pta/setp.ml" 226 8151 8179
+)
+"src/ext/pta/setp.ml" 227 8198 8244 "src/ext/pta/setp.ml" 227 8198 8246
+type(
+  'n t
+)
+ident(
+  int_ref r2 "src/ext/pta/setp.ml" 218 7844 7888 "src/ext/pta/setp.ml" 218 7844 7890
+)
+"src/ext/pta/setp.ml" 227 8198 8234 "src/ext/pta/setp.ml" 227 8198 8247
+call(
+  stack
+)
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 227 8198 8212 "src/ext/pta/setp.ml" 227 8198 8247
+call(
+  tail
+)
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 225 8103 8145 "src/ext/pta/setp.ml" 228 8248 8263
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 225 8103 8115 "src/ext/pta/setp.ml" 228 8248 8263
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 219 7900 7910 "src/ext/pta/setp.ml" 228 8248 8263
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 215 7766 7772 "src/ext/pta/setp.ml" 228 8248 8263
+type(
+  'n t
+)
+"src/ext/pta/setp.ml" 230 8265 8277 "src/ext/pta/setp.ml" 230 8265 8282
+type(
+  'o t -> 'o t -> 'o t
+)
+ident(
+  def inter "src/ext/pta/setp.ml" 230 8265 8269 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 230 8265 8283 "src/ext/pta/setp.ml" 230 8265 8285
+type(
+  'o t
+)
+ident(
+  def s1 "src/ext/pta/setp.ml" 230 8265 8286 "src/ext/pta/setp.ml" 239 8556 8605
+)
+"src/ext/pta/setp.ml" 230 8265 8286 "src/ext/pta/setp.ml" 230 8265 8288
+type(
+  'o t
+)
+ident(
+  def s2 "src/ext/pta/setp.ml" 231 8291 8297 "src/ext/pta/setp.ml" 239 8556 8605
+)
+"src/ext/pta/setp.ml" 231 8291 8304 "src/ext/pta/setp.ml" 231 8291 8306
+type(
+  'o t
+)
+ident(
+  int_ref s1 "src/ext/pta/setp.ml" 230 8265 8283 "src/ext/pta/setp.ml" 230 8265 8285
+)
+"src/ext/pta/setp.ml" 231 8291 8308 "src/ext/pta/setp.ml" 231 8291 8310
+type(
+  'o t
+)
+ident(
+  int_ref s2 "src/ext/pta/setp.ml" 230 8265 8286 "src/ext/pta/setp.ml" 230 8265 8288
+)
+"src/ext/pta/setp.ml" 231 8291 8303 "src/ext/pta/setp.ml" 231 8291 8311
+type(
+  'o t * 'o t
+)
+"src/ext/pta/setp.ml" 232 8317 8326 "src/ext/pta/setp.ml" 232 8317 8331
+type(
+  'o t
+)
+"src/ext/pta/setp.ml" 232 8317 8333 "src/ext/pta/setp.ml" 232 8317 8335
+type(
+  'o t
+)
+ident(
+  def t2 "src/ext/pta/setp.ml" 232 8317 8340 "src/ext/pta/setp.ml" 232 8317 8345
+)
+"src/ext/pta/setp.ml" 232 8317 8325 "src/ext/pta/setp.ml" 232 8317 8336
+type(
+  'o t * 'o t
+)
+"src/ext/pta/setp.ml" 232 8317 8340 "src/ext/pta/setp.ml" 232 8317 8345
+type(
+  'o t
+)
+"src/ext/pta/setp.ml" 233 8346 8355 "src/ext/pta/setp.ml" 233 8346 8357
+type(
+  'o t
+)
+ident(
+  def t1 "src/ext/pta/setp.ml" 233 8346 8369 "src/ext/pta/setp.ml" 233 8346 8374
+)
+"src/ext/pta/setp.ml" 233 8346 8359 "src/ext/pta/setp.ml" 233 8346 8364
+type(
+  'o t
+)
+"src/ext/pta/setp.ml" 233 8346 8354 "src/ext/pta/setp.ml" 233 8346 8365
+type(
+  'o t * 'o t
+)
+"src/ext/pta/setp.ml" 233 8346 8369 "src/ext/pta/setp.ml" 233 8346 8374
+type(
+  'o t
+)
+"src/ext/pta/setp.ml" 234 8375 8389 "src/ext/pta/setp.ml" 234 8375 8391
+type(
+  'o t
+)
+ident(
+  def l1 "src/ext/pta/setp.ml" 235 8412 8422 "src/ext/pta/setp.ml" 239 8556 8605
+)
+"src/ext/pta/setp.ml" 234 8375 8393 "src/ext/pta/setp.ml" 234 8375 8395
+type(
+  'o elt
+)
+ident(
+  def v1 "src/ext/pta/setp.ml" 235 8412 8422 "src/ext/pta/setp.ml" 239 8556 8605
+)
+"src/ext/pta/setp.ml" 234 8375 8397 "src/ext/pta/setp.ml" 234 8375 8399
+type(
+  'o t
+)
+ident(
+  def r1 "src/ext/pta/setp.ml" 235 8412 8422 "src/ext/pta/setp.ml" 239 8556 8605
+)
+"src/ext/pta/setp.ml" 234 8375 8401 "src/ext/pta/setp.ml" 234 8375 8402
+type(
+  int
+)
+"src/ext/pta/setp.ml" 234 8375 8384 "src/ext/pta/setp.ml" 234 8375 8403
+type(
+  'o t
+)
+"src/ext/pta/setp.ml" 234 8375 8405 "src/ext/pta/setp.ml" 234 8375 8407
+type(
+  'o t
+)
+ident(
+  def t2 "src/ext/pta/setp.ml" 235 8412 8422 "src/ext/pta/setp.ml" 239 8556 8605
+)
+"src/ext/pta/setp.ml" 234 8375 8383 "src/ext/pta/setp.ml" 234 8375 8408
+type(
+  'o t * 'o t
+)
+"src/ext/pta/setp.ml" 235 8412 8428 "src/ext/pta/setp.ml" 235 8412 8433
+type(
+  'o elt -> 'o t -> 'o t * 'o elt option * 'o t
+)
+ident(
+  int_ref split "src/ext/pta/setp.ml" 175 6568 6580 "src/ext/pta/setp.ml" 175 6568 6585
+)
+"src/ext/pta/setp.ml" 235 8412 8434 "src/ext/pta/setp.ml" 235 8412 8436
+type(
+  'o elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 234 8375 8393 "src/ext/pta/setp.ml" 234 8375 8395
+)
+"src/ext/pta/setp.ml" 235 8412 8437 "src/ext/pta/setp.ml" 235 8412 8439
+type(
+  'o t
+)
+ident(
+  int_ref t2 "src/ext/pta/setp.ml" 234 8375 8405 "src/ext/pta/setp.ml" 234 8375 8407
+)
+"src/ext/pta/setp.ml" 235 8412 8428 "src/ext/pta/setp.ml" 235 8412 8439
+call(
+  stack
+)
+type(
+  'o t * 'o elt option * 'o t
+)
+"src/ext/pta/setp.ml" 236 8445 8458 "src/ext/pta/setp.ml" 236 8445 8460
+type(
+  'o t
+)
+ident(
+  def l2 "src/ext/pta/setp.ml" 237 8475 8489 "src/ext/pta/setp.ml" 237 8475 8523
+)
+"src/ext/pta/setp.ml" 236 8445 8462 "src/ext/pta/setp.ml" 236 8445 8466
+type(
+  'o elt option
+)
+"src/ext/pta/setp.ml" 236 8445 8468 "src/ext/pta/setp.ml" 236 8445 8470
+type(
+  'o t
+)
+ident(
+  def r2 "src/ext/pta/setp.ml" 237 8475 8489 "src/ext/pta/setp.ml" 237 8475 8523
+)
+"src/ext/pta/setp.ml" 236 8445 8457 "src/ext/pta/setp.ml" 236 8445 8471
+type(
+  'o t * 'o elt option * 'o t
+)
+"src/ext/pta/setp.ml" 237 8475 8489 "src/ext/pta/setp.ml" 237 8475 8495
+type(
+  'o t -> 'o t -> 'o t
+)
+ident(
+  int_ref concat "src/ext/pta/setp.ml" 166 6340 6352 "src/ext/pta/setp.ml" 166 6340 6358
+)
+"src/ext/pta/setp.ml" 237 8475 8497 "src/ext/pta/setp.ml" 237 8475 8502
+type(
+  'o t -> 'o t -> 'o t
+)
+ident(
+  int_ref inter "src/ext/pta/setp.ml" 230 8265 8277 "src/ext/pta/setp.ml" 230 8265 8282
+)
+"src/ext/pta/setp.ml" 237 8475 8503 "src/ext/pta/setp.ml" 237 8475 8505
+type(
+  'o t
+)
+ident(
+  int_ref l1 "src/ext/pta/setp.ml" 234 8375 8389 "src/ext/pta/setp.ml" 234 8375 8391
+)
+"src/ext/pta/setp.ml" 237 8475 8506 "src/ext/pta/setp.ml" 237 8475 8508
+type(
+  'o t
+)
+ident(
+  int_ref l2 "src/ext/pta/setp.ml" 236 8445 8458 "src/ext/pta/setp.ml" 236 8445 8460
+)
+"src/ext/pta/setp.ml" 237 8475 8496 "src/ext/pta/setp.ml" 237 8475 8509
+call(
+  stack
+)
+type(
+  'o t
+)
+"src/ext/pta/setp.ml" 237 8475 8511 "src/ext/pta/setp.ml" 237 8475 8516
+type(
+  'o t -> 'o t -> 'o t
+)
+ident(
+  int_ref inter "src/ext/pta/setp.ml" 230 8265 8277 "src/ext/pta/setp.ml" 230 8265 8282
+)
+"src/ext/pta/setp.ml" 237 8475 8517 "src/ext/pta/setp.ml" 237 8475 8519
+type(
+  'o t
+)
+ident(
+  int_ref r1 "src/ext/pta/setp.ml" 234 8375 8397 "src/ext/pta/setp.ml" 234 8375 8399
+)
+"src/ext/pta/setp.ml" 237 8475 8520 "src/ext/pta/setp.ml" 237 8475 8522
+type(
+  'o t
+)
+ident(
+  int_ref r2 "src/ext/pta/setp.ml" 236 8445 8468 "src/ext/pta/setp.ml" 236 8445 8470
+)
+"src/ext/pta/setp.ml" 237 8475 8510 "src/ext/pta/setp.ml" 237 8475 8523
+call(
+  stack
+)
+type(
+  'o t
+)
+"src/ext/pta/setp.ml" 237 8475 8489 "src/ext/pta/setp.ml" 237 8475 8523
+call(
+  tail
+)
+type(
+  'o t
+)
+"src/ext/pta/setp.ml" 238 8524 8537 "src/ext/pta/setp.ml" 238 8524 8539
+type(
+  'o t
+)
+ident(
+  def l2 "src/ext/pta/setp.ml" 239 8556 8570 "src/ext/pta/setp.ml" 239 8556 8605
+)
+"src/ext/pta/setp.ml" 238 8524 8546 "src/ext/pta/setp.ml" 238 8524 8547
+type(
+  'o elt
+)
+"src/ext/pta/setp.ml" 238 8524 8541 "src/ext/pta/setp.ml" 238 8524 8547
+type(
+  'o elt option
+)
+"src/ext/pta/setp.ml" 238 8524 8549 "src/ext/pta/setp.ml" 238 8524 8551
+type(
+  'o t
+)
+ident(
+  def r2 "src/ext/pta/setp.ml" 239 8556 8570 "src/ext/pta/setp.ml" 239 8556 8605
+)
+"src/ext/pta/setp.ml" 238 8524 8536 "src/ext/pta/setp.ml" 238 8524 8552
+type(
+  'o t * 'o elt option * 'o t
+)
+"src/ext/pta/setp.ml" 239 8556 8570 "src/ext/pta/setp.ml" 239 8556 8574
+type(
+  'o t -> 'o elt -> 'o t -> 'o t
+)
+ident(
+  int_ref join "src/ext/pta/setp.ml" 146 5691 5703 "src/ext/pta/setp.ml" 146 5691 5707
+)
+"src/ext/pta/setp.ml" 239 8556 8576 "src/ext/pta/setp.ml" 239 8556 8581
+type(
+  'o t -> 'o t -> 'o t
+)
+ident(
+  int_ref inter "src/ext/pta/setp.ml" 230 8265 8277 "src/ext/pta/setp.ml" 230 8265 8282
+)
+"src/ext/pta/setp.ml" 239 8556 8582 "src/ext/pta/setp.ml" 239 8556 8584
+type(
+  'o t
+)
+ident(
+  int_ref l1 "src/ext/pta/setp.ml" 234 8375 8389 "src/ext/pta/setp.ml" 234 8375 8391
+)
+"src/ext/pta/setp.ml" 239 8556 8585 "src/ext/pta/setp.ml" 239 8556 8587
+type(
+  'o t
+)
+ident(
+  int_ref l2 "src/ext/pta/setp.ml" 238 8524 8537 "src/ext/pta/setp.ml" 238 8524 8539
+)
+"src/ext/pta/setp.ml" 239 8556 8575 "src/ext/pta/setp.ml" 239 8556 8588
+call(
+  stack
+)
+type(
+  'o t
+)
+"src/ext/pta/setp.ml" 239 8556 8589 "src/ext/pta/setp.ml" 239 8556 8591
+type(
+  'o elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 234 8375 8393 "src/ext/pta/setp.ml" 234 8375 8395
+)
+"src/ext/pta/setp.ml" 239 8556 8593 "src/ext/pta/setp.ml" 239 8556 8598
+type(
+  'o t -> 'o t -> 'o t
+)
+ident(
+  int_ref inter "src/ext/pta/setp.ml" 230 8265 8277 "src/ext/pta/setp.ml" 230 8265 8282
+)
+"src/ext/pta/setp.ml" 239 8556 8599 "src/ext/pta/setp.ml" 239 8556 8601
+type(
+  'o t
+)
+ident(
+  int_ref r1 "src/ext/pta/setp.ml" 234 8375 8397 "src/ext/pta/setp.ml" 234 8375 8399
+)
+"src/ext/pta/setp.ml" 239 8556 8602 "src/ext/pta/setp.ml" 239 8556 8604
+type(
+  'o t
+)
+ident(
+  int_ref r2 "src/ext/pta/setp.ml" 238 8524 8549 "src/ext/pta/setp.ml" 238 8524 8551
+)
+"src/ext/pta/setp.ml" 239 8556 8592 "src/ext/pta/setp.ml" 239 8556 8605
+call(
+  stack
+)
+type(
+  'o t
+)
+"src/ext/pta/setp.ml" 239 8556 8570 "src/ext/pta/setp.ml" 239 8556 8605
+call(
+  tail
+)
+type(
+  'o t
+)
+"src/ext/pta/setp.ml" 235 8412 8422 "src/ext/pta/setp.ml" 239 8556 8605
+type(
+  'o t
+)
+"src/ext/pta/setp.ml" 231 8291 8297 "src/ext/pta/setp.ml" 239 8556 8605
+type(
+  'o t
+)
+"src/ext/pta/setp.ml" 241 8607 8619 "src/ext/pta/setp.ml" 241 8607 8623
+type(
+  'p t -> 'p t -> 'p t
+)
+ident(
+  def diff "src/ext/pta/setp.ml" 241 8607 8611 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 241 8607 8624 "src/ext/pta/setp.ml" 241 8607 8626
+type(
+  'p t
+)
+ident(
+  def s1 "src/ext/pta/setp.ml" 241 8607 8627 "src/ext/pta/setp.ml" 250 8893 8939
+)
+"src/ext/pta/setp.ml" 241 8607 8627 "src/ext/pta/setp.ml" 241 8607 8629
+type(
+  'p t
+)
+ident(
+  def s2 "src/ext/pta/setp.ml" 242 8632 8638 "src/ext/pta/setp.ml" 250 8893 8939
+)
+"src/ext/pta/setp.ml" 242 8632 8645 "src/ext/pta/setp.ml" 242 8632 8647
+type(
+  'p t
+)
+ident(
+  int_ref s1 "src/ext/pta/setp.ml" 241 8607 8624 "src/ext/pta/setp.ml" 241 8607 8626
+)
+"src/ext/pta/setp.ml" 242 8632 8649 "src/ext/pta/setp.ml" 242 8632 8651
+type(
+  'p t
+)
+ident(
+  int_ref s2 "src/ext/pta/setp.ml" 241 8607 8627 "src/ext/pta/setp.ml" 241 8607 8629
+)
+"src/ext/pta/setp.ml" 242 8632 8644 "src/ext/pta/setp.ml" 242 8632 8652
+type(
+  'p t * 'p t
+)
+"src/ext/pta/setp.ml" 243 8658 8667 "src/ext/pta/setp.ml" 243 8658 8672
+type(
+  'p t
+)
+"src/ext/pta/setp.ml" 243 8658 8674 "src/ext/pta/setp.ml" 243 8658 8676
+type(
+  'p t
+)
+ident(
+  def t2 "src/ext/pta/setp.ml" 243 8658 8681 "src/ext/pta/setp.ml" 243 8658 8686
+)
+"src/ext/pta/setp.ml" 243 8658 8666 "src/ext/pta/setp.ml" 243 8658 8677
+type(
+  'p t * 'p t
+)
+"src/ext/pta/setp.ml" 243 8658 8681 "src/ext/pta/setp.ml" 243 8658 8686
+type(
+  'p t
+)
+"src/ext/pta/setp.ml" 244 8687 8696 "src/ext/pta/setp.ml" 244 8687 8698
+type(
+  'p t
+)
+ident(
+  def t1 "src/ext/pta/setp.ml" 244 8687 8710 "src/ext/pta/setp.ml" 244 8687 8712
+)
+"src/ext/pta/setp.ml" 244 8687 8700 "src/ext/pta/setp.ml" 244 8687 8705
+type(
+  'p t
+)
+"src/ext/pta/setp.ml" 244 8687 8695 "src/ext/pta/setp.ml" 244 8687 8706
+type(
+  'p t * 'p t
+)
+"src/ext/pta/setp.ml" 244 8687 8710 "src/ext/pta/setp.ml" 244 8687 8712
+type(
+  'p t
+)
+ident(
+  int_ref t1 "src/ext/pta/setp.ml" 244 8687 8696 "src/ext/pta/setp.ml" 244 8687 8698
+)
+"src/ext/pta/setp.ml" 245 8713 8727 "src/ext/pta/setp.ml" 245 8713 8729
+type(
+  'p t
+)
+ident(
+  def l1 "src/ext/pta/setp.ml" 246 8750 8760 "src/ext/pta/setp.ml" 250 8893 8939
+)
+"src/ext/pta/setp.ml" 245 8713 8731 "src/ext/pta/setp.ml" 245 8713 8733
+type(
+  'p elt
+)
+ident(
+  def v1 "src/ext/pta/setp.ml" 246 8750 8760 "src/ext/pta/setp.ml" 250 8893 8939
+)
+"src/ext/pta/setp.ml" 245 8713 8735 "src/ext/pta/setp.ml" 245 8713 8737
+type(
+  'p t
+)
+ident(
+  def r1 "src/ext/pta/setp.ml" 246 8750 8760 "src/ext/pta/setp.ml" 250 8893 8939
+)
+"src/ext/pta/setp.ml" 245 8713 8739 "src/ext/pta/setp.ml" 245 8713 8740
+type(
+  int
+)
+"src/ext/pta/setp.ml" 245 8713 8722 "src/ext/pta/setp.ml" 245 8713 8741
+type(
+  'p t
+)
+"src/ext/pta/setp.ml" 245 8713 8743 "src/ext/pta/setp.ml" 245 8713 8745
+type(
+  'p t
+)
+ident(
+  def t2 "src/ext/pta/setp.ml" 246 8750 8760 "src/ext/pta/setp.ml" 250 8893 8939
+)
+"src/ext/pta/setp.ml" 245 8713 8721 "src/ext/pta/setp.ml" 245 8713 8746
+type(
+  'p t * 'p t
+)
+"src/ext/pta/setp.ml" 246 8750 8766 "src/ext/pta/setp.ml" 246 8750 8771
+type(
+  'p elt -> 'p t -> 'p t * 'p elt option * 'p t
+)
+ident(
+  int_ref split "src/ext/pta/setp.ml" 175 6568 6580 "src/ext/pta/setp.ml" 175 6568 6585
+)
+"src/ext/pta/setp.ml" 246 8750 8772 "src/ext/pta/setp.ml" 246 8750 8774
+type(
+  'p elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 245 8713 8731 "src/ext/pta/setp.ml" 245 8713 8733
+)
+"src/ext/pta/setp.ml" 246 8750 8775 "src/ext/pta/setp.ml" 246 8750 8777
+type(
+  'p t
+)
+ident(
+  int_ref t2 "src/ext/pta/setp.ml" 245 8713 8743 "src/ext/pta/setp.ml" 245 8713 8745
+)
+"src/ext/pta/setp.ml" 246 8750 8766 "src/ext/pta/setp.ml" 246 8750 8777
+call(
+  stack
+)
+type(
+  'p t * 'p elt option * 'p t
+)
+"src/ext/pta/setp.ml" 247 8783 8796 "src/ext/pta/setp.ml" 247 8783 8798
+type(
+  'p t
+)
+ident(
+  def l2 "src/ext/pta/setp.ml" 248 8813 8827 "src/ext/pta/setp.ml" 248 8813 8860
+)
+"src/ext/pta/setp.ml" 247 8783 8800 "src/ext/pta/setp.ml" 247 8783 8804
+type(
+  'p elt option
+)
+"src/ext/pta/setp.ml" 247 8783 8806 "src/ext/pta/setp.ml" 247 8783 8808
+type(
+  'p t
+)
+ident(
+  def r2 "src/ext/pta/setp.ml" 248 8813 8827 "src/ext/pta/setp.ml" 248 8813 8860
+)
+"src/ext/pta/setp.ml" 247 8783 8795 "src/ext/pta/setp.ml" 247 8783 8809
+type(
+  'p t * 'p elt option * 'p t
+)
+"src/ext/pta/setp.ml" 248 8813 8827 "src/ext/pta/setp.ml" 248 8813 8831
+type(
+  'p t -> 'p elt -> 'p t -> 'p t
+)
+ident(
+  int_ref join "src/ext/pta/setp.ml" 146 5691 5703 "src/ext/pta/setp.ml" 146 5691 5707
+)
+"src/ext/pta/setp.ml" 248 8813 8833 "src/ext/pta/setp.ml" 248 8813 8837
+type(
+  'p t -> 'p t -> 'p t
+)
+ident(
+  int_ref diff "src/ext/pta/setp.ml" 241 8607 8619 "src/ext/pta/setp.ml" 241 8607 8623
+)
+"src/ext/pta/setp.ml" 248 8813 8838 "src/ext/pta/setp.ml" 248 8813 8840
+type(
+  'p t
+)
+ident(
+  int_ref l1 "src/ext/pta/setp.ml" 245 8713 8727 "src/ext/pta/setp.ml" 245 8713 8729
+)
+"src/ext/pta/setp.ml" 248 8813 8841 "src/ext/pta/setp.ml" 248 8813 8843
+type(
+  'p t
+)
+ident(
+  int_ref l2 "src/ext/pta/setp.ml" 247 8783 8796 "src/ext/pta/setp.ml" 247 8783 8798
+)
+"src/ext/pta/setp.ml" 248 8813 8832 "src/ext/pta/setp.ml" 248 8813 8844
+call(
+  stack
+)
+type(
+  'p t
+)
+"src/ext/pta/setp.ml" 248 8813 8845 "src/ext/pta/setp.ml" 248 8813 8847
+type(
+  'p elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 245 8713 8731 "src/ext/pta/setp.ml" 245 8713 8733
+)
+"src/ext/pta/setp.ml" 248 8813 8849 "src/ext/pta/setp.ml" 248 8813 8853
+type(
+  'p t -> 'p t -> 'p t
+)
+ident(
+  int_ref diff "src/ext/pta/setp.ml" 241 8607 8619 "src/ext/pta/setp.ml" 241 8607 8623
+)
+"src/ext/pta/setp.ml" 248 8813 8854 "src/ext/pta/setp.ml" 248 8813 8856
+type(
+  'p t
+)
+ident(
+  int_ref r1 "src/ext/pta/setp.ml" 245 8713 8735 "src/ext/pta/setp.ml" 245 8713 8737
+)
+"src/ext/pta/setp.ml" 248 8813 8857 "src/ext/pta/setp.ml" 248 8813 8859
+type(
+  'p t
+)
+ident(
+  int_ref r2 "src/ext/pta/setp.ml" 247 8783 8806 "src/ext/pta/setp.ml" 247 8783 8808
+)
+"src/ext/pta/setp.ml" 248 8813 8848 "src/ext/pta/setp.ml" 248 8813 8860
+call(
+  stack
+)
+type(
+  'p t
+)
+"src/ext/pta/setp.ml" 248 8813 8827 "src/ext/pta/setp.ml" 248 8813 8860
+call(
+  tail
+)
+type(
+  'p t
+)
+"src/ext/pta/setp.ml" 249 8861 8874 "src/ext/pta/setp.ml" 249 8861 8876
+type(
+  'p t
+)
+ident(
+  def l2 "src/ext/pta/setp.ml" 250 8893 8907 "src/ext/pta/setp.ml" 250 8893 8939
+)
+"src/ext/pta/setp.ml" 249 8861 8883 "src/ext/pta/setp.ml" 249 8861 8884
+type(
+  'p elt
+)
+"src/ext/pta/setp.ml" 249 8861 8878 "src/ext/pta/setp.ml" 249 8861 8884
+type(
+  'p elt option
+)
+"src/ext/pta/setp.ml" 249 8861 8886 "src/ext/pta/setp.ml" 249 8861 8888
+type(
+  'p t
+)
+ident(
+  def r2 "src/ext/pta/setp.ml" 250 8893 8907 "src/ext/pta/setp.ml" 250 8893 8939
+)
+"src/ext/pta/setp.ml" 249 8861 8873 "src/ext/pta/setp.ml" 249 8861 8889
+type(
+  'p t * 'p elt option * 'p t
+)
+"src/ext/pta/setp.ml" 250 8893 8907 "src/ext/pta/setp.ml" 250 8893 8913
+type(
+  'p t -> 'p t -> 'p t
+)
+ident(
+  int_ref concat "src/ext/pta/setp.ml" 166 6340 6352 "src/ext/pta/setp.ml" 166 6340 6358
+)
+"src/ext/pta/setp.ml" 250 8893 8915 "src/ext/pta/setp.ml" 250 8893 8919
+type(
+  'p t -> 'p t -> 'p t
+)
+ident(
+  int_ref diff "src/ext/pta/setp.ml" 241 8607 8619 "src/ext/pta/setp.ml" 241 8607 8623
+)
+"src/ext/pta/setp.ml" 250 8893 8920 "src/ext/pta/setp.ml" 250 8893 8922
+type(
+  'p t
+)
+ident(
+  int_ref l1 "src/ext/pta/setp.ml" 245 8713 8727 "src/ext/pta/setp.ml" 245 8713 8729
+)
+"src/ext/pta/setp.ml" 250 8893 8923 "src/ext/pta/setp.ml" 250 8893 8925
+type(
+  'p t
+)
+ident(
+  int_ref l2 "src/ext/pta/setp.ml" 249 8861 8874 "src/ext/pta/setp.ml" 249 8861 8876
+)
+"src/ext/pta/setp.ml" 250 8893 8914 "src/ext/pta/setp.ml" 250 8893 8926
+call(
+  stack
+)
+type(
+  'p t
+)
+"src/ext/pta/setp.ml" 250 8893 8928 "src/ext/pta/setp.ml" 250 8893 8932
+type(
+  'p t -> 'p t -> 'p t
+)
+ident(
+  int_ref diff "src/ext/pta/setp.ml" 241 8607 8619 "src/ext/pta/setp.ml" 241 8607 8623
+)
+"src/ext/pta/setp.ml" 250 8893 8933 "src/ext/pta/setp.ml" 250 8893 8935
+type(
+  'p t
+)
+ident(
+  int_ref r1 "src/ext/pta/setp.ml" 245 8713 8735 "src/ext/pta/setp.ml" 245 8713 8737
+)
+"src/ext/pta/setp.ml" 250 8893 8936 "src/ext/pta/setp.ml" 250 8893 8938
+type(
+  'p t
+)
+ident(
+  int_ref r2 "src/ext/pta/setp.ml" 249 8861 8886 "src/ext/pta/setp.ml" 249 8861 8888
+)
+"src/ext/pta/setp.ml" 250 8893 8927 "src/ext/pta/setp.ml" 250 8893 8939
+call(
+  stack
+)
+type(
+  'p t
+)
+"src/ext/pta/setp.ml" 250 8893 8907 "src/ext/pta/setp.ml" 250 8893 8939
+call(
+  tail
+)
+type(
+  'p t
+)
+"src/ext/pta/setp.ml" 246 8750 8760 "src/ext/pta/setp.ml" 250 8893 8939
+type(
+  'p t
+)
+"src/ext/pta/setp.ml" 242 8632 8638 "src/ext/pta/setp.ml" 250 8893 8939
+type(
+  'p t
+)
+"src/ext/pta/setp.ml" 252 8941 8953 "src/ext/pta/setp.ml" 252 8941 8964
+type(
+  'q t list -> 'q t list -> int
+)
+ident(
+  def compare_aux "src/ext/pta/setp.ml" 252 8941 8945 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 252 8941 8965 "src/ext/pta/setp.ml" 252 8941 8967
+type(
+  'q t list
+)
+ident(
+  def l1 "src/ext/pta/setp.ml" 252 8941 8968 "src/ext/pta/setp.ml" 265 9454 9515
+)
+"src/ext/pta/setp.ml" 252 8941 8968 "src/ext/pta/setp.ml" 252 8941 8970
+type(
+  'q t list
+)
+ident(
+  def l2 "src/ext/pta/setp.ml" 253 8973 8981 "src/ext/pta/setp.ml" 265 9454 9515
+)
+"src/ext/pta/setp.ml" 253 8973 8988 "src/ext/pta/setp.ml" 253 8973 8990
+type(
+  'q t list
+)
+ident(
+  int_ref l1 "src/ext/pta/setp.ml" 252 8941 8965 "src/ext/pta/setp.ml" 252 8941 8967
+)
+"src/ext/pta/setp.ml" 253 8973 8992 "src/ext/pta/setp.ml" 253 8973 8994
+type(
+  'q t list
+)
+ident(
+  int_ref l2 "src/ext/pta/setp.ml" 252 8941 8968 "src/ext/pta/setp.ml" 252 8941 8970
+)
+"src/ext/pta/setp.ml" 253 8973 8987 "src/ext/pta/setp.ml" 253 8973 8995
+type(
+  'q t list * 'q t list
+)
+"src/ext/pta/setp.ml" 254 9001 9010 "src/ext/pta/setp.ml" 254 9001 9012
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 254 9001 9014 "src/ext/pta/setp.ml" 254 9001 9016
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 254 9001 9009 "src/ext/pta/setp.ml" 254 9001 9017
+type(
+  'q t list * 'q t list
+)
+"src/ext/pta/setp.ml" 254 9001 9021 "src/ext/pta/setp.ml" 254 9001 9022
+type(
+  int
+)
+"src/ext/pta/setp.ml" 255 9023 9032 "src/ext/pta/setp.ml" 255 9023 9034
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 255 9023 9036 "src/ext/pta/setp.ml" 255 9023 9037
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 255 9023 9031 "src/ext/pta/setp.ml" 255 9023 9038
+type(
+  'q t list * 'q t list
+)
+"src/ext/pta/setp.ml" 255 9023 9043 "src/ext/pta/setp.ml" 255 9023 9045
+type(
+  int
+)
+"src/ext/pta/setp.ml" 256 9046 9055 "src/ext/pta/setp.ml" 256 9046 9056
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 256 9046 9058 "src/ext/pta/setp.ml" 256 9046 9060
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 256 9046 9054 "src/ext/pta/setp.ml" 256 9046 9061
+type(
+  'q t list * 'q t list
+)
+"src/ext/pta/setp.ml" 256 9046 9065 "src/ext/pta/setp.ml" 256 9046 9066
+type(
+  int
+)
+"src/ext/pta/setp.ml" 257 9067 9076 "src/ext/pta/setp.ml" 257 9067 9081
+type(
+  'q t
+)
+"src/ext/pta/setp.ml" 257 9067 9085 "src/ext/pta/setp.ml" 257 9067 9087
+type(
+  'q t list
+)
+ident(
+  def t1 "src/ext/pta/setp.ml" 258 9105 9115 "src/ext/pta/setp.ml" 258 9105 9132
+)
+"src/ext/pta/setp.ml" 257 9067 9076 "src/ext/pta/setp.ml" 257 9067 9087
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 257 9067 9089 "src/ext/pta/setp.ml" 257 9067 9094
+type(
+  'q t
+)
+"src/ext/pta/setp.ml" 257 9067 9098 "src/ext/pta/setp.ml" 257 9067 9100
+type(
+  'q t list
+)
+ident(
+  def t2 "src/ext/pta/setp.ml" 258 9105 9115 "src/ext/pta/setp.ml" 258 9105 9132
+)
+"src/ext/pta/setp.ml" 257 9067 9089 "src/ext/pta/setp.ml" 257 9067 9100
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 257 9067 9075 "src/ext/pta/setp.ml" 257 9067 9101
+type(
+  'q t list * 'q t list
+)
+"src/ext/pta/setp.ml" 258 9105 9115 "src/ext/pta/setp.ml" 258 9105 9126
+type(
+  'q t list -> 'q t list -> int
+)
+ident(
+  int_ref compare_aux "src/ext/pta/setp.ml" 252 8941 8953 "src/ext/pta/setp.ml" 252 8941 8964
+)
+"src/ext/pta/setp.ml" 258 9105 9127 "src/ext/pta/setp.ml" 258 9105 9129
+type(
+  'q t list
+)
+ident(
+  int_ref t1 "src/ext/pta/setp.ml" 257 9067 9085 "src/ext/pta/setp.ml" 257 9067 9087
+)
+"src/ext/pta/setp.ml" 258 9105 9130 "src/ext/pta/setp.ml" 258 9105 9132
+type(
+  'q t list
+)
+ident(
+  int_ref t2 "src/ext/pta/setp.ml" 257 9067 9098 "src/ext/pta/setp.ml" 257 9067 9100
+)
+"src/ext/pta/setp.ml" 258 9105 9115 "src/ext/pta/setp.ml" 258 9105 9132
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 259 9133 9147 "src/ext/pta/setp.ml" 259 9133 9152
+type(
+  'q t
+)
+"src/ext/pta/setp.ml" 259 9133 9154 "src/ext/pta/setp.ml" 259 9133 9156
+type(
+  'q elt
+)
+ident(
+  def v1 "src/ext/pta/setp.ml" 260 9205 9215 "src/ext/pta/setp.ml" 261 9244 9305
+)
+"src/ext/pta/setp.ml" 259 9133 9158 "src/ext/pta/setp.ml" 259 9133 9160
+type(
+  'q t
+)
+ident(
+  def r1 "src/ext/pta/setp.ml" 260 9205 9215 "src/ext/pta/setp.ml" 261 9244 9305
+)
+"src/ext/pta/setp.ml" 259 9133 9162 "src/ext/pta/setp.ml" 259 9133 9163
+type(
+  int
+)
+"src/ext/pta/setp.ml" 259 9133 9142 "src/ext/pta/setp.ml" 259 9133 9164
+type(
+  'q t
+)
+"src/ext/pta/setp.ml" 259 9133 9168 "src/ext/pta/setp.ml" 259 9133 9170
+type(
+  'q t list
+)
+ident(
+  def t1 "src/ext/pta/setp.ml" 260 9205 9215 "src/ext/pta/setp.ml" 261 9244 9305
+)
+"src/ext/pta/setp.ml" 259 9133 9142 "src/ext/pta/setp.ml" 259 9133 9170
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 259 9133 9177 "src/ext/pta/setp.ml" 259 9133 9182
+type(
+  'q t
+)
+"src/ext/pta/setp.ml" 259 9133 9184 "src/ext/pta/setp.ml" 259 9133 9186
+type(
+  'q elt
+)
+ident(
+  def v2 "src/ext/pta/setp.ml" 260 9205 9215 "src/ext/pta/setp.ml" 261 9244 9305
+)
+"src/ext/pta/setp.ml" 259 9133 9188 "src/ext/pta/setp.ml" 259 9133 9190
+type(
+  'q t
+)
+ident(
+  def r2 "src/ext/pta/setp.ml" 260 9205 9215 "src/ext/pta/setp.ml" 261 9244 9305
+)
+"src/ext/pta/setp.ml" 259 9133 9192 "src/ext/pta/setp.ml" 259 9133 9193
+type(
+  int
+)
+"src/ext/pta/setp.ml" 259 9133 9172 "src/ext/pta/setp.ml" 259 9133 9194
+type(
+  'q t
+)
+"src/ext/pta/setp.ml" 259 9133 9198 "src/ext/pta/setp.ml" 259 9133 9200
+type(
+  'q t list
+)
+ident(
+  def t2 "src/ext/pta/setp.ml" 260 9205 9215 "src/ext/pta/setp.ml" 261 9244 9305
+)
+"src/ext/pta/setp.ml" 259 9133 9172 "src/ext/pta/setp.ml" 259 9133 9200
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 259 9133 9141 "src/ext/pta/setp.ml" 259 9133 9201
+type(
+  'q t list * 'q t list
+)
+"src/ext/pta/setp.ml" 260 9205 9219 "src/ext/pta/setp.ml" 260 9205 9220
+type(
+  int
+)
+ident(
+  def c "src/ext/pta/setp.ml" 261 9244 9254 "src/ext/pta/setp.ml" 261 9244 9305
+)
+"src/ext/pta/setp.ml" 260 9205 9223 "src/ext/pta/setp.ml" 260 9205 9234
+type(
+  'q elt -> 'q elt -> int
+)
+ident(
+  int_ref Ord.compare "src/ext/pta/setp.ml" 55 2565 2569 "src/ext/pta/setp.ml" 55 2565 2601
+)
+"src/ext/pta/setp.ml" 260 9205 9235 "src/ext/pta/setp.ml" 260 9205 9237
+type(
+  'q elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 259 9133 9154 "src/ext/pta/setp.ml" 259 9133 9156
+)
+"src/ext/pta/setp.ml" 260 9205 9238 "src/ext/pta/setp.ml" 260 9205 9240
+type(
+  'q elt
+)
+ident(
+  int_ref v2 "src/ext/pta/setp.ml" 259 9133 9184 "src/ext/pta/setp.ml" 259 9133 9186
+)
+"src/ext/pta/setp.ml" 260 9205 9223 "src/ext/pta/setp.ml" 260 9205 9240
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 261 9244 9257 "src/ext/pta/setp.ml" 261 9244 9258
+type(
+  int
+)
+ident(
+  int_ref c "src/ext/pta/setp.ml" 260 9205 9219 "src/ext/pta/setp.ml" 260 9205 9220
+)
+"src/ext/pta/setp.ml" 261 9244 9259 "src/ext/pta/setp.ml" 261 9244 9261
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ext/pta/setp.ml" 261 9244 9262 "src/ext/pta/setp.ml" 261 9244 9263
+type(
+  int
+)
+"src/ext/pta/setp.ml" 261 9244 9257 "src/ext/pta/setp.ml" 261 9244 9263
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 261 9244 9269 "src/ext/pta/setp.ml" 261 9244 9270
+type(
+  int
+)
+ident(
+  int_ref c "src/ext/pta/setp.ml" 260 9205 9219 "src/ext/pta/setp.ml" 260 9205 9220
+)
+"src/ext/pta/setp.ml" 261 9244 9276 "src/ext/pta/setp.ml" 261 9244 9287
+type(
+  'q t list -> 'q t list -> int
+)
+ident(
+  int_ref compare_aux "src/ext/pta/setp.ml" 252 8941 8953 "src/ext/pta/setp.ml" 252 8941 8964
+)
+"src/ext/pta/setp.ml" 261 9244 9289 "src/ext/pta/setp.ml" 261 9244 9291
+type(
+  'q t
+)
+ident(
+  int_ref r1 "src/ext/pta/setp.ml" 259 9133 9158 "src/ext/pta/setp.ml" 259 9133 9160
+)
+"src/ext/pta/setp.ml" 261 9244 9293 "src/ext/pta/setp.ml" 261 9244 9295
+type(
+  'q t list
+)
+ident(
+  int_ref t1 "src/ext/pta/setp.ml" 259 9133 9168 "src/ext/pta/setp.ml" 259 9133 9170
+)
+"src/ext/pta/setp.ml" 261 9244 9288 "src/ext/pta/setp.ml" 261 9244 9296
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 261 9244 9298 "src/ext/pta/setp.ml" 261 9244 9300
+type(
+  'q t
+)
+ident(
+  int_ref r2 "src/ext/pta/setp.ml" 259 9133 9188 "src/ext/pta/setp.ml" 259 9133 9190
+)
+"src/ext/pta/setp.ml" 261 9244 9302 "src/ext/pta/setp.ml" 261 9244 9304
+type(
+  'q t list
+)
+ident(
+  int_ref t2 "src/ext/pta/setp.ml" 259 9133 9198 "src/ext/pta/setp.ml" 259 9133 9200
+)
+"src/ext/pta/setp.ml" 261 9244 9297 "src/ext/pta/setp.ml" 261 9244 9305
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 261 9244 9276 "src/ext/pta/setp.ml" 261 9244 9305
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 261 9244 9254 "src/ext/pta/setp.ml" 261 9244 9305
+type(
+  int
+)
+"src/ext/pta/setp.ml" 260 9205 9215 "src/ext/pta/setp.ml" 261 9244 9305
+type(
+  int
+)
+"src/ext/pta/setp.ml" 262 9306 9320 "src/ext/pta/setp.ml" 262 9306 9322
+type(
+  'q t
+)
+ident(
+  def l1 "src/ext/pta/setp.ml" 263 9349 9359 "src/ext/pta/setp.ml" 263 9349 9410
+)
+"src/ext/pta/setp.ml" 262 9306 9324 "src/ext/pta/setp.ml" 262 9306 9326
+type(
+  'q elt
+)
+ident(
+  def v1 "src/ext/pta/setp.ml" 263 9349 9359 "src/ext/pta/setp.ml" 263 9349 9410
+)
+"src/ext/pta/setp.ml" 262 9306 9328 "src/ext/pta/setp.ml" 262 9306 9330
+type(
+  'q t
+)
+ident(
+  def r1 "src/ext/pta/setp.ml" 263 9349 9359 "src/ext/pta/setp.ml" 263 9349 9410
+)
+"src/ext/pta/setp.ml" 262 9306 9332 "src/ext/pta/setp.ml" 262 9306 9333
+type(
+  int
+)
+"src/ext/pta/setp.ml" 262 9306 9315 "src/ext/pta/setp.ml" 262 9306 9334
+type(
+  'q t
+)
+"src/ext/pta/setp.ml" 262 9306 9338 "src/ext/pta/setp.ml" 262 9306 9340
+type(
+  'q t list
+)
+ident(
+  def t1 "src/ext/pta/setp.ml" 263 9349 9359 "src/ext/pta/setp.ml" 263 9349 9410
+)
+"src/ext/pta/setp.ml" 262 9306 9315 "src/ext/pta/setp.ml" 262 9306 9340
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 262 9306 9342 "src/ext/pta/setp.ml" 262 9306 9344
+type(
+  'q t list
+)
+ident(
+  def t2 "src/ext/pta/setp.ml" 263 9349 9359 "src/ext/pta/setp.ml" 263 9349 9410
+)
+"src/ext/pta/setp.ml" 262 9306 9314 "src/ext/pta/setp.ml" 262 9306 9345
+type(
+  'q t list * 'q t list
+)
+"src/ext/pta/setp.ml" 263 9349 9359 "src/ext/pta/setp.ml" 263 9349 9370
+type(
+  'q t list -> 'q t list -> int
+)
+ident(
+  int_ref compare_aux "src/ext/pta/setp.ml" 252 8941 8953 "src/ext/pta/setp.ml" 252 8941 8964
+)
+"src/ext/pta/setp.ml" 263 9349 9372 "src/ext/pta/setp.ml" 263 9349 9374
+type(
+  'q t
+)
+ident(
+  int_ref l1 "src/ext/pta/setp.ml" 262 9306 9320 "src/ext/pta/setp.ml" 262 9306 9322
+)
+"src/ext/pta/setp.ml" 263 9349 9383 "src/ext/pta/setp.ml" 263 9349 9388
+type(
+  'q t
+)
+"src/ext/pta/setp.ml" 263 9349 9390 "src/ext/pta/setp.ml" 263 9349 9392
+type(
+  'q elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 262 9306 9324 "src/ext/pta/setp.ml" 262 9306 9326
+)
+"src/ext/pta/setp.ml" 263 9349 9394 "src/ext/pta/setp.ml" 263 9349 9396
+type(
+  'q t
+)
+ident(
+  int_ref r1 "src/ext/pta/setp.ml" 262 9306 9328 "src/ext/pta/setp.ml" 262 9306 9330
+)
+"src/ext/pta/setp.ml" 263 9349 9398 "src/ext/pta/setp.ml" 263 9349 9399
+type(
+  int
+)
+"src/ext/pta/setp.ml" 263 9349 9378 "src/ext/pta/setp.ml" 263 9349 9400
+type(
+  'q t
+)
+"src/ext/pta/setp.ml" 263 9349 9404 "src/ext/pta/setp.ml" 263 9349 9406
+type(
+  'q t list
+)
+ident(
+  int_ref t1 "src/ext/pta/setp.ml" 262 9306 9338 "src/ext/pta/setp.ml" 262 9306 9340
+)
+"src/ext/pta/setp.ml" 263 9349 9378 "src/ext/pta/setp.ml" 263 9349 9406
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 263 9349 9371 "src/ext/pta/setp.ml" 263 9349 9407
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 263 9349 9408 "src/ext/pta/setp.ml" 263 9349 9410
+type(
+  'q t list
+)
+ident(
+  int_ref t2 "src/ext/pta/setp.ml" 262 9306 9342 "src/ext/pta/setp.ml" 262 9306 9344
+)
+"src/ext/pta/setp.ml" 263 9349 9359 "src/ext/pta/setp.ml" 263 9349 9410
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 264 9411 9420 "src/ext/pta/setp.ml" 264 9411 9422
+type(
+  'q t list
+)
+ident(
+  def t1 "src/ext/pta/setp.ml" 265 9454 9464 "src/ext/pta/setp.ml" 265 9454 9515
+)
+"src/ext/pta/setp.ml" 264 9411 9429 "src/ext/pta/setp.ml" 264 9411 9431
+type(
+  'q t
+)
+ident(
+  def l2 "src/ext/pta/setp.ml" 265 9454 9464 "src/ext/pta/setp.ml" 265 9454 9515
+)
+"src/ext/pta/setp.ml" 264 9411 9433 "src/ext/pta/setp.ml" 264 9411 9435
+type(
+  'q elt
+)
+ident(
+  def v2 "src/ext/pta/setp.ml" 265 9454 9464 "src/ext/pta/setp.ml" 265 9454 9515
+)
+"src/ext/pta/setp.ml" 264 9411 9437 "src/ext/pta/setp.ml" 264 9411 9439
+type(
+  'q t
+)
+ident(
+  def r2 "src/ext/pta/setp.ml" 265 9454 9464 "src/ext/pta/setp.ml" 265 9454 9515
+)
+"src/ext/pta/setp.ml" 264 9411 9441 "src/ext/pta/setp.ml" 264 9411 9442
+type(
+  int
+)
+"src/ext/pta/setp.ml" 264 9411 9424 "src/ext/pta/setp.ml" 264 9411 9443
+type(
+  'q t
+)
+"src/ext/pta/setp.ml" 264 9411 9447 "src/ext/pta/setp.ml" 264 9411 9449
+type(
+  'q t list
+)
+ident(
+  def t2 "src/ext/pta/setp.ml" 265 9454 9464 "src/ext/pta/setp.ml" 265 9454 9515
+)
+"src/ext/pta/setp.ml" 264 9411 9424 "src/ext/pta/setp.ml" 264 9411 9449
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 264 9411 9419 "src/ext/pta/setp.ml" 264 9411 9450
+type(
+  'q t list * 'q t list
+)
+"src/ext/pta/setp.ml" 265 9454 9464 "src/ext/pta/setp.ml" 265 9454 9475
+type(
+  'q t list -> 'q t list -> int
+)
+ident(
+  int_ref compare_aux "src/ext/pta/setp.ml" 252 8941 8953 "src/ext/pta/setp.ml" 252 8941 8964
+)
+"src/ext/pta/setp.ml" 265 9454 9476 "src/ext/pta/setp.ml" 265 9454 9478
+type(
+  'q t list
+)
+ident(
+  int_ref t1 "src/ext/pta/setp.ml" 264 9411 9420 "src/ext/pta/setp.ml" 264 9411 9422
+)
+"src/ext/pta/setp.ml" 265 9454 9480 "src/ext/pta/setp.ml" 265 9454 9482
+type(
+  'q t
+)
+ident(
+  int_ref l2 "src/ext/pta/setp.ml" 264 9411 9429 "src/ext/pta/setp.ml" 264 9411 9431
+)
+"src/ext/pta/setp.ml" 265 9454 9491 "src/ext/pta/setp.ml" 265 9454 9496
+type(
+  'q t
+)
+"src/ext/pta/setp.ml" 265 9454 9498 "src/ext/pta/setp.ml" 265 9454 9500
+type(
+  'q elt
+)
+ident(
+  int_ref v2 "src/ext/pta/setp.ml" 264 9411 9433 "src/ext/pta/setp.ml" 264 9411 9435
+)
+"src/ext/pta/setp.ml" 265 9454 9502 "src/ext/pta/setp.ml" 265 9454 9504
+type(
+  'q t
+)
+ident(
+  int_ref r2 "src/ext/pta/setp.ml" 264 9411 9437 "src/ext/pta/setp.ml" 264 9411 9439
+)
+"src/ext/pta/setp.ml" 265 9454 9506 "src/ext/pta/setp.ml" 265 9454 9507
+type(
+  int
+)
+"src/ext/pta/setp.ml" 265 9454 9486 "src/ext/pta/setp.ml" 265 9454 9508
+type(
+  'q t
+)
+"src/ext/pta/setp.ml" 265 9454 9512 "src/ext/pta/setp.ml" 265 9454 9514
+type(
+  'q t list
+)
+ident(
+  int_ref t2 "src/ext/pta/setp.ml" 264 9411 9447 "src/ext/pta/setp.ml" 264 9411 9449
+)
+"src/ext/pta/setp.ml" 265 9454 9486 "src/ext/pta/setp.ml" 265 9454 9514
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 265 9454 9479 "src/ext/pta/setp.ml" 265 9454 9515
+type(
+  'q t list
+)
+"src/ext/pta/setp.ml" 265 9454 9464 "src/ext/pta/setp.ml" 265 9454 9515
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 253 8973 8981 "src/ext/pta/setp.ml" 265 9454 9515
+type(
+  int
+)
+"src/ext/pta/setp.ml" 267 9517 9525 "src/ext/pta/setp.ml" 267 9517 9532
+type(
+  'r t -> 'r t -> int
+)
+ident(
+  def compare "src/ext/pta/setp.ml" 270 9570 9574 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 267 9517 9533 "src/ext/pta/setp.ml" 267 9517 9535
+type(
+  'r t
+)
+ident(
+  def s1 "src/ext/pta/setp.ml" 267 9517 9536 "src/ext/pta/setp.ml" 268 9541 9568
+)
+"src/ext/pta/setp.ml" 267 9517 9536 "src/ext/pta/setp.ml" 267 9517 9538
+type(
+  'r t
+)
+ident(
+  def s2 "src/ext/pta/setp.ml" 268 9541 9547 "src/ext/pta/setp.ml" 268 9541 9568
+)
+"src/ext/pta/setp.ml" 268 9541 9547 "src/ext/pta/setp.ml" 268 9541 9558
+type(
+  'r t list -> 'r t list -> int
+)
+ident(
+  int_ref compare_aux "src/ext/pta/setp.ml" 252 8941 8953 "src/ext/pta/setp.ml" 252 8941 8964
+)
+"src/ext/pta/setp.ml" 268 9541 9560 "src/ext/pta/setp.ml" 268 9541 9562
+type(
+  'r t
+)
+ident(
+  int_ref s1 "src/ext/pta/setp.ml" 267 9517 9533 "src/ext/pta/setp.ml" 267 9517 9535
+)
+"src/ext/pta/setp.ml" 268 9541 9559 "src/ext/pta/setp.ml" 268 9541 9563
+type(
+  'r t list
+)
+"src/ext/pta/setp.ml" 268 9541 9565 "src/ext/pta/setp.ml" 268 9541 9567
+type(
+  'r t
+)
+ident(
+  int_ref s2 "src/ext/pta/setp.ml" 267 9517 9536 "src/ext/pta/setp.ml" 267 9517 9538
+)
+"src/ext/pta/setp.ml" 268 9541 9564 "src/ext/pta/setp.ml" 268 9541 9568
+type(
+  'r t list
+)
+"src/ext/pta/setp.ml" 268 9541 9547 "src/ext/pta/setp.ml" 268 9541 9568
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 270 9570 9578 "src/ext/pta/setp.ml" 270 9570 9583
+type(
+  's t -> 's t -> bool
+)
+ident(
+  def equal "src/ext/pta/setp.ml" 273 9617 9621 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 270 9570 9584 "src/ext/pta/setp.ml" 270 9570 9586
+type(
+  's t
+)
+ident(
+  def s1 "src/ext/pta/setp.ml" 270 9570 9587 "src/ext/pta/setp.ml" 271 9592 9615
+)
+"src/ext/pta/setp.ml" 270 9570 9587 "src/ext/pta/setp.ml" 270 9570 9589
+type(
+  's t
+)
+ident(
+  def s2 "src/ext/pta/setp.ml" 271 9592 9598 "src/ext/pta/setp.ml" 271 9592 9615
+)
+"src/ext/pta/setp.ml" 271 9592 9598 "src/ext/pta/setp.ml" 271 9592 9605
+type(
+  's t -> 's t -> int
+)
+ident(
+  int_ref compare "src/ext/pta/setp.ml" 267 9517 9525 "src/ext/pta/setp.ml" 267 9517 9532
+)
+"src/ext/pta/setp.ml" 271 9592 9606 "src/ext/pta/setp.ml" 271 9592 9608
+type(
+  's t
+)
+ident(
+  int_ref s1 "src/ext/pta/setp.ml" 270 9570 9584 "src/ext/pta/setp.ml" 270 9570 9586
+)
+"src/ext/pta/setp.ml" 271 9592 9609 "src/ext/pta/setp.ml" 271 9592 9611
+type(
+  's t
+)
+ident(
+  int_ref s2 "src/ext/pta/setp.ml" 270 9570 9587 "src/ext/pta/setp.ml" 270 9570 9589
+)
+"src/ext/pta/setp.ml" 271 9592 9598 "src/ext/pta/setp.ml" 271 9592 9611
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 271 9592 9612 "src/ext/pta/setp.ml" 271 9592 9613
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/pta/setp.ml" 271 9592 9614 "src/ext/pta/setp.ml" 271 9592 9615
+type(
+  int
+)
+"src/ext/pta/setp.ml" 271 9592 9598 "src/ext/pta/setp.ml" 271 9592 9615
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 273 9617 9629 "src/ext/pta/setp.ml" 273 9617 9635
+type(
+  't t -> 't t -> bool
+)
+ident(
+  def subset "src/ext/pta/setp.ml" 273 9617 9621 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 273 9617 9636 "src/ext/pta/setp.ml" 273 9617 9638
+type(
+  't t
+)
+ident(
+  def s1 "src/ext/pta/setp.ml" 273 9617 9639 "src/ext/pta/setp.ml" 286 10015 10078
+)
+"src/ext/pta/setp.ml" 273 9617 9639 "src/ext/pta/setp.ml" 273 9617 9641
+type(
+  't t
+)
+ident(
+  def s2 "src/ext/pta/setp.ml" 274 9644 9650 "src/ext/pta/setp.ml" 286 10015 10078
+)
+"src/ext/pta/setp.ml" 274 9644 9657 "src/ext/pta/setp.ml" 274 9644 9659
+type(
+  't t
+)
+ident(
+  int_ref s1 "src/ext/pta/setp.ml" 273 9617 9636 "src/ext/pta/setp.ml" 273 9617 9638
+)
+"src/ext/pta/setp.ml" 274 9644 9661 "src/ext/pta/setp.ml" 274 9644 9663
+type(
+  't t
+)
+ident(
+  int_ref s2 "src/ext/pta/setp.ml" 273 9617 9639 "src/ext/pta/setp.ml" 273 9617 9641
+)
+"src/ext/pta/setp.ml" 274 9644 9656 "src/ext/pta/setp.ml" 274 9644 9664
+type(
+  't t * 't t
+)
+"src/ext/pta/setp.ml" 275 9670 9678 "src/ext/pta/setp.ml" 275 9670 9683
+type(
+  't t
+)
+"src/ext/pta/setp.ml" 275 9670 9685 "src/ext/pta/setp.ml" 275 9670 9686
+type(
+  't t
+)
+"src/ext/pta/setp.ml" 275 9670 9678 "src/ext/pta/setp.ml" 275 9670 9686
+type(
+  't t * 't t
+)
+"src/ext/pta/setp.ml" 276 9690 9700 "src/ext/pta/setp.ml" 276 9690 9704
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 277 9705 9713 "src/ext/pta/setp.ml" 277 9705 9714
+type(
+  't t
+)
+"src/ext/pta/setp.ml" 277 9705 9716 "src/ext/pta/setp.ml" 277 9705 9721
+type(
+  't t
+)
+"src/ext/pta/setp.ml" 277 9705 9713 "src/ext/pta/setp.ml" 277 9705 9721
+type(
+  't t * 't t
+)
+"src/ext/pta/setp.ml" 278 9725 9735 "src/ext/pta/setp.ml" 278 9725 9740
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 279 9741 9755 "src/ext/pta/setp.ml" 279 9741 9757
+type(
+  't t
+)
+ident(
+  def l1 "src/ext/pta/setp.ml" 280 9803 9813 "src/ext/pta/setp.ml" 286 10015 10078
+)
+"src/ext/pta/setp.ml" 279 9741 9759 "src/ext/pta/setp.ml" 279 9741 9761
+type(
+  't elt
+)
+ident(
+  def v1 "src/ext/pta/setp.ml" 280 9803 9813 "src/ext/pta/setp.ml" 286 10015 10078
+)
+"src/ext/pta/setp.ml" 279 9741 9763 "src/ext/pta/setp.ml" 279 9741 9765
+type(
+  't t
+)
+ident(
+  def r1 "src/ext/pta/setp.ml" 280 9803 9813 "src/ext/pta/setp.ml" 286 10015 10078
+)
+"src/ext/pta/setp.ml" 279 9741 9767 "src/ext/pta/setp.ml" 279 9741 9768
+type(
+  int
+)
+"src/ext/pta/setp.ml" 279 9741 9749 "src/ext/pta/setp.ml" 279 9741 9769
+type(
+  't t
+)
+"src/ext/pta/setp.ml" 279 9741 9778 "src/ext/pta/setp.ml" 279 9741 9780
+type(
+  't t
+)
+ident(
+  def l2 "src/ext/pta/setp.ml" 280 9803 9813 "src/ext/pta/setp.ml" 286 10015 10078
+)
+"src/ext/pta/setp.ml" 279 9741 9782 "src/ext/pta/setp.ml" 279 9741 9784
+type(
+  't elt
+)
+ident(
+  def v2 "src/ext/pta/setp.ml" 280 9803 9813 "src/ext/pta/setp.ml" 286 10015 10078
+)
+"src/ext/pta/setp.ml" 279 9741 9786 "src/ext/pta/setp.ml" 279 9741 9788
+type(
+  't t
+)
+ident(
+  def r2 "src/ext/pta/setp.ml" 280 9803 9813 "src/ext/pta/setp.ml" 286 10015 10078
+)
+"src/ext/pta/setp.ml" 279 9741 9790 "src/ext/pta/setp.ml" 279 9741 9791
+type(
+  int
+)
+"src/ext/pta/setp.ml" 279 9741 9772 "src/ext/pta/setp.ml" 279 9741 9792
+type(
+  't t
+)
+"src/ext/pta/setp.ml" 279 9741 9796 "src/ext/pta/setp.ml" 279 9741 9798
+ident(
+  def t2 "src/ext/pta/setp.ml" 280 9803 9813 "src/ext/pta/setp.ml" 286 10015 10078
+)
+"src/ext/pta/setp.ml" 279 9741 9771 "src/ext/pta/setp.ml" 279 9741 9799
+type(
+  't t
+)
+"src/ext/pta/setp.ml" 279 9741 9749 "src/ext/pta/setp.ml" 279 9741 9799
+type(
+  't t * 't t
+)
+"src/ext/pta/setp.ml" 280 9803 9817 "src/ext/pta/setp.ml" 280 9803 9818
+type(
+  int
+)
+ident(
+  def c "src/ext/pta/setp.ml" 281 9842 9852 "src/ext/pta/setp.ml" 286 10015 10078
+)
+"src/ext/pta/setp.ml" 280 9803 9821 "src/ext/pta/setp.ml" 280 9803 9832
+type(
+  't elt -> 't elt -> int
+)
+ident(
+  int_ref Ord.compare "src/ext/pta/setp.ml" 55 2565 2569 "src/ext/pta/setp.ml" 55 2565 2601
+)
+"src/ext/pta/setp.ml" 280 9803 9833 "src/ext/pta/setp.ml" 280 9803 9835
+type(
+  't elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 279 9741 9759 "src/ext/pta/setp.ml" 279 9741 9761
+)
+"src/ext/pta/setp.ml" 280 9803 9836 "src/ext/pta/setp.ml" 280 9803 9838
+type(
+  't elt
+)
+ident(
+  int_ref v2 "src/ext/pta/setp.ml" 279 9741 9782 "src/ext/pta/setp.ml" 279 9741 9784
+)
+"src/ext/pta/setp.ml" 280 9803 9821 "src/ext/pta/setp.ml" 280 9803 9838
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 281 9842 9855 "src/ext/pta/setp.ml" 281 9842 9856
+type(
+  int
+)
+ident(
+  int_ref c "src/ext/pta/setp.ml" 280 9803 9817 "src/ext/pta/setp.ml" 280 9803 9818
+)
+"src/ext/pta/setp.ml" 281 9842 9857 "src/ext/pta/setp.ml" 281 9842 9858
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/pta/setp.ml" 281 9842 9859 "src/ext/pta/setp.ml" 281 9842 9860
+type(
+  int
+)
+"src/ext/pta/setp.ml" 281 9842 9855 "src/ext/pta/setp.ml" 281 9842 9860
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 282 9866 9878 "src/ext/pta/setp.ml" 282 9866 9884
+type(
+  't t -> 't t -> bool
+)
+ident(
+  int_ref subset "src/ext/pta/setp.ml" 273 9617 9629 "src/ext/pta/setp.ml" 273 9617 9635
+)
+"src/ext/pta/setp.ml" 282 9866 9885 "src/ext/pta/setp.ml" 282 9866 9887
+type(
+  't t
+)
+ident(
+  int_ref l1 "src/ext/pta/setp.ml" 279 9741 9755 "src/ext/pta/setp.ml" 279 9741 9757
+)
+"src/ext/pta/setp.ml" 282 9866 9888 "src/ext/pta/setp.ml" 282 9866 9890
+type(
+  't t
+)
+ident(
+  int_ref l2 "src/ext/pta/setp.ml" 279 9741 9778 "src/ext/pta/setp.ml" 279 9741 9780
+)
+"src/ext/pta/setp.ml" 282 9866 9878 "src/ext/pta/setp.ml" 282 9866 9890
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 282 9866 9891 "src/ext/pta/setp.ml" 282 9866 9893
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/pta/setp.ml" 282 9866 9894 "src/ext/pta/setp.ml" 282 9866 9900
+type(
+  't t -> 't t -> bool
+)
+ident(
+  int_ref subset "src/ext/pta/setp.ml" 273 9617 9629 "src/ext/pta/setp.ml" 273 9617 9635
+)
+"src/ext/pta/setp.ml" 282 9866 9901 "src/ext/pta/setp.ml" 282 9866 9903
+type(
+  't t
+)
+ident(
+  int_ref r1 "src/ext/pta/setp.ml" 279 9741 9763 "src/ext/pta/setp.ml" 279 9741 9765
+)
+"src/ext/pta/setp.ml" 282 9866 9904 "src/ext/pta/setp.ml" 282 9866 9906
+type(
+  't t
+)
+ident(
+  int_ref r2 "src/ext/pta/setp.ml" 279 9741 9786 "src/ext/pta/setp.ml" 279 9741 9788
+)
+"src/ext/pta/setp.ml" 282 9866 9894 "src/ext/pta/setp.ml" 282 9866 9906
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 282 9866 9878 "src/ext/pta/setp.ml" 282 9866 9906
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 283 9907 9925 "src/ext/pta/setp.ml" 283 9907 9926
+type(
+  int
+)
+ident(
+  int_ref c "src/ext/pta/setp.ml" 280 9803 9817 "src/ext/pta/setp.ml" 280 9803 9818
+)
+"src/ext/pta/setp.ml" 283 9907 9927 "src/ext/pta/setp.ml" 283 9907 9928
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ext/pta/setp.ml" 283 9907 9929 "src/ext/pta/setp.ml" 283 9907 9930
+type(
+  int
+)
+"src/ext/pta/setp.ml" 283 9907 9925 "src/ext/pta/setp.ml" 283 9907 9930
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 284 9936 9948 "src/ext/pta/setp.ml" 284 9936 9954
+type(
+  't t -> 't t -> bool
+)
+ident(
+  int_ref subset "src/ext/pta/setp.ml" 273 9617 9629 "src/ext/pta/setp.ml" 273 9617 9635
+)
+"src/ext/pta/setp.ml" 284 9936 9962 "src/ext/pta/setp.ml" 284 9936 9964
+type(
+  't t
+)
+ident(
+  int_ref l1 "src/ext/pta/setp.ml" 279 9741 9755 "src/ext/pta/setp.ml" 279 9741 9757
+)
+"src/ext/pta/setp.ml" 284 9936 9966 "src/ext/pta/setp.ml" 284 9936 9968
+type(
+  't elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 279 9741 9759 "src/ext/pta/setp.ml" 279 9741 9761
+)
+"src/ext/pta/setp.ml" 284 9936 9970 "src/ext/pta/setp.ml" 284 9936 9975
+type(
+  't t
+)
+"src/ext/pta/setp.ml" 284 9936 9977 "src/ext/pta/setp.ml" 284 9936 9978
+type(
+  int
+)
+"src/ext/pta/setp.ml" 284 9936 9955 "src/ext/pta/setp.ml" 284 9936 9980
+type(
+  't t
+)
+"src/ext/pta/setp.ml" 284 9936 9981 "src/ext/pta/setp.ml" 284 9936 9983
+type(
+  't t
+)
+ident(
+  int_ref l2 "src/ext/pta/setp.ml" 279 9741 9778 "src/ext/pta/setp.ml" 279 9741 9780
+)
+"src/ext/pta/setp.ml" 284 9936 9948 "src/ext/pta/setp.ml" 284 9936 9983
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 284 9936 9984 "src/ext/pta/setp.ml" 284 9936 9986
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/pta/setp.ml" 284 9936 9987 "src/ext/pta/setp.ml" 284 9936 9993
+type(
+  't t -> 't t -> bool
+)
+ident(
+  int_ref subset "src/ext/pta/setp.ml" 273 9617 9629 "src/ext/pta/setp.ml" 273 9617 9635
+)
+"src/ext/pta/setp.ml" 284 9936 9994 "src/ext/pta/setp.ml" 284 9936 9996
+type(
+  't t
+)
+ident(
+  int_ref r1 "src/ext/pta/setp.ml" 279 9741 9763 "src/ext/pta/setp.ml" 279 9741 9765
+)
+"src/ext/pta/setp.ml" 284 9936 9997 "src/ext/pta/setp.ml" 284 9936 9999
+type(
+  't t
+)
+ident(
+  int_ref t2 "src/ext/pta/setp.ml" 279 9741 9771 "src/ext/pta/setp.ml" 279 9741 9799
+)
+"src/ext/pta/setp.ml" 284 9936 9987 "src/ext/pta/setp.ml" 284 9936 9999
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 284 9936 9948 "src/ext/pta/setp.ml" 284 9936 9999
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 286 10015 10027 "src/ext/pta/setp.ml" 286 10015 10033
+type(
+  't t -> 't t -> bool
+)
+ident(
+  int_ref subset "src/ext/pta/setp.ml" 273 9617 9629 "src/ext/pta/setp.ml" 273 9617 9635
+)
+"src/ext/pta/setp.ml" 286 10015 10041 "src/ext/pta/setp.ml" 286 10015 10046
+type(
+  't t
+)
+"src/ext/pta/setp.ml" 286 10015 10048 "src/ext/pta/setp.ml" 286 10015 10050
+type(
+  't elt
+)
+ident(
+  int_ref v1 "src/ext/pta/setp.ml" 279 9741 9759 "src/ext/pta/setp.ml" 279 9741 9761
+)
+"src/ext/pta/setp.ml" 286 10015 10052 "src/ext/pta/setp.ml" 286 10015 10054
+type(
+  't t
+)
+ident(
+  int_ref r1 "src/ext/pta/setp.ml" 279 9741 9763 "src/ext/pta/setp.ml" 279 9741 9765
+)
+"src/ext/pta/setp.ml" 286 10015 10056 "src/ext/pta/setp.ml" 286 10015 10057
+type(
+  int
+)
+"src/ext/pta/setp.ml" 286 10015 10034 "src/ext/pta/setp.ml" 286 10015 10059
+type(
+  't t
+)
+"src/ext/pta/setp.ml" 286 10015 10060 "src/ext/pta/setp.ml" 286 10015 10062
+type(
+  't t
+)
+ident(
+  int_ref r2 "src/ext/pta/setp.ml" 279 9741 9786 "src/ext/pta/setp.ml" 279 9741 9788
+)
+"src/ext/pta/setp.ml" 286 10015 10027 "src/ext/pta/setp.ml" 286 10015 10062
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 286 10015 10063 "src/ext/pta/setp.ml" 286 10015 10065
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/pta/setp.ml" 286 10015 10066 "src/ext/pta/setp.ml" 286 10015 10072
+type(
+  't t -> 't t -> bool
+)
+ident(
+  int_ref subset "src/ext/pta/setp.ml" 273 9617 9629 "src/ext/pta/setp.ml" 273 9617 9635
+)
+"src/ext/pta/setp.ml" 286 10015 10073 "src/ext/pta/setp.ml" 286 10015 10075
+type(
+  't t
+)
+ident(
+  int_ref l1 "src/ext/pta/setp.ml" 279 9741 9755 "src/ext/pta/setp.ml" 279 9741 9757
+)
+"src/ext/pta/setp.ml" 286 10015 10076 "src/ext/pta/setp.ml" 286 10015 10078
+type(
+  't t
+)
+ident(
+  int_ref t2 "src/ext/pta/setp.ml" 279 9741 9771 "src/ext/pta/setp.ml" 279 9741 9799
+)
+"src/ext/pta/setp.ml" 286 10015 10066 "src/ext/pta/setp.ml" 286 10015 10078
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 286 10015 10027 "src/ext/pta/setp.ml" 286 10015 10078
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 283 9907 9922 "src/ext/pta/setp.ml" 286 10015 10078
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 281 9842 9852 "src/ext/pta/setp.ml" 286 10015 10078
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 280 9803 9813 "src/ext/pta/setp.ml" 286 10015 10078
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 274 9644 9650 "src/ext/pta/setp.ml" 286 10015 10078
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 288 10080 10092 "src/ext/pta/setp.ml" 288 10080 10096
+type(
+  ('u elt -> 'v) -> 'u t -> unit
+)
+ident(
+  def iter "src/ext/pta/setp.ml" 288 10080 10084 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 288 10080 10097 "src/ext/pta/setp.ml" 288 10080 10098
+type(
+  'u elt -> 'v
+)
+ident(
+  def f "src/ext/pta/setp.ml" 288 10080 10101 "src/ext/pta/setp.ml" 290 10130 10181
+)
+"src/ext/pta/setp.ml" 289 10110 10118 "src/ext/pta/setp.ml" 289 10110 10123
+type(
+  'u t
+)
+"src/ext/pta/setp.ml" 289 10110 10127 "src/ext/pta/setp.ml" 289 10110 10129
+type(
+  unit
+)
+"src/ext/pta/setp.ml" 290 10130 10143 "src/ext/pta/setp.ml" 290 10130 10144
+type(
+  'u t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 290 10130 10158 "src/ext/pta/setp.ml" 290 10130 10181
+)
+"src/ext/pta/setp.ml" 290 10130 10146 "src/ext/pta/setp.ml" 290 10130 10147
+type(
+  'u elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 290 10130 10158 "src/ext/pta/setp.ml" 290 10130 10181
+)
+"src/ext/pta/setp.ml" 290 10130 10149 "src/ext/pta/setp.ml" 290 10130 10150
+type(
+  'u t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 290 10130 10158 "src/ext/pta/setp.ml" 290 10130 10181
+)
+"src/ext/pta/setp.ml" 290 10130 10152 "src/ext/pta/setp.ml" 290 10130 10153
+type(
+  int
+)
+"src/ext/pta/setp.ml" 290 10130 10138 "src/ext/pta/setp.ml" 290 10130 10154
+type(
+  'u t
+)
+"src/ext/pta/setp.ml" 290 10130 10158 "src/ext/pta/setp.ml" 290 10130 10162
+type(
+  ('u elt -> 'v) -> 'u t -> unit
+)
+ident(
+  int_ref iter "src/ext/pta/setp.ml" 288 10080 10092 "src/ext/pta/setp.ml" 288 10080 10096
+)
+"src/ext/pta/setp.ml" 290 10130 10163 "src/ext/pta/setp.ml" 290 10130 10164
+type(
+  'u elt -> 'v
+)
+ident(
+  int_ref f "src/ext/pta/setp.ml" 288 10080 10097 "src/ext/pta/setp.ml" 288 10080 10098
+)
+"src/ext/pta/setp.ml" 290 10130 10165 "src/ext/pta/setp.ml" 290 10130 10166
+type(
+  'u t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 290 10130 10143 "src/ext/pta/setp.ml" 290 10130 10144
+)
+"src/ext/pta/setp.ml" 290 10130 10158 "src/ext/pta/setp.ml" 290 10130 10166
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/pta/setp.ml" 290 10130 10168 "src/ext/pta/setp.ml" 290 10130 10169
+type(
+  'u elt -> 'v
+)
+ident(
+  int_ref f "src/ext/pta/setp.ml" 288 10080 10097 "src/ext/pta/setp.ml" 288 10080 10098
+)
+"src/ext/pta/setp.ml" 290 10130 10170 "src/ext/pta/setp.ml" 290 10130 10171
+type(
+  'u elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 290 10130 10146 "src/ext/pta/setp.ml" 290 10130 10147
+)
+"src/ext/pta/setp.ml" 290 10130 10168 "src/ext/pta/setp.ml" 290 10130 10171
+call(
+  stack
+)
+type(
+  'v
+)
+"src/ext/pta/setp.ml" 290 10130 10173 "src/ext/pta/setp.ml" 290 10130 10177
+type(
+  ('u elt -> 'v) -> 'u t -> unit
+)
+ident(
+  int_ref iter "src/ext/pta/setp.ml" 288 10080 10092 "src/ext/pta/setp.ml" 288 10080 10096
+)
+"src/ext/pta/setp.ml" 290 10130 10178 "src/ext/pta/setp.ml" 290 10130 10179
+type(
+  'u elt -> 'v
+)
+ident(
+  int_ref f "src/ext/pta/setp.ml" 288 10080 10097 "src/ext/pta/setp.ml" 288 10080 10098
+)
+"src/ext/pta/setp.ml" 290 10130 10180 "src/ext/pta/setp.ml" 290 10130 10181
+type(
+  'u t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 290 10130 10149 "src/ext/pta/setp.ml" 290 10130 10150
+)
+"src/ext/pta/setp.ml" 290 10130 10173 "src/ext/pta/setp.ml" 290 10130 10181
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/pta/setp.ml" 290 10130 10168 "src/ext/pta/setp.ml" 290 10130 10181
+type(
+  unit
+)
+"src/ext/pta/setp.ml" 290 10130 10158 "src/ext/pta/setp.ml" 290 10130 10181
+type(
+  unit
+)
+"src/ext/pta/setp.ml" 288 10080 10101 "src/ext/pta/setp.ml" 290 10130 10181
+type(
+  'u t -> unit
+)
+"src/ext/pta/setp.ml" 292 10183 10195 "src/ext/pta/setp.ml" 292 10183 10199
+type(
+  ('w elt -> 'x -> 'x) -> 'w t -> 'x -> 'x
+)
+ident(
+  def fold "src/ext/pta/setp.ml" 292 10183 10187 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 292 10183 10200 "src/ext/pta/setp.ml" 292 10183 10201
+type(
+  'w elt -> 'x -> 'x
+)
+ident(
+  def f "src/ext/pta/setp.ml" 292 10183 10202 "src/ext/pta/setp.ml" 295 10252 10310
+)
+"src/ext/pta/setp.ml" 292 10183 10202 "src/ext/pta/setp.ml" 292 10183 10203
+type(
+  'w t
+)
+ident(
+  def s "src/ext/pta/setp.ml" 292 10183 10204 "src/ext/pta/setp.ml" 295 10252 10310
+)
+"src/ext/pta/setp.ml" 292 10183 10204 "src/ext/pta/setp.ml" 292 10183 10208
+type(
+  'x
+)
+ident(
+  def accu "src/ext/pta/setp.ml" 293 10211 10217 "src/ext/pta/setp.ml" 295 10252 10310
+)
+"src/ext/pta/setp.ml" 293 10211 10223 "src/ext/pta/setp.ml" 293 10211 10224
+type(
+  'w t
+)
+ident(
+  int_ref s "src/ext/pta/setp.ml" 292 10183 10202 "src/ext/pta/setp.ml" 292 10183 10203
+)
+"src/ext/pta/setp.ml" 294 10230 10238 "src/ext/pta/setp.ml" 294 10230 10243
+type(
+  'w t
+)
+"src/ext/pta/setp.ml" 294 10230 10247 "src/ext/pta/setp.ml" 294 10230 10251
+type(
+  'x
+)
+ident(
+  int_ref accu "src/ext/pta/setp.ml" 292 10183 10204 "src/ext/pta/setp.ml" 292 10183 10208
+)
+"src/ext/pta/setp.ml" 295 10252 10265 "src/ext/pta/setp.ml" 295 10252 10266
+type(
+  'w t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 295 10252 10280 "src/ext/pta/setp.ml" 295 10252 10310
+)
+"src/ext/pta/setp.ml" 295 10252 10268 "src/ext/pta/setp.ml" 295 10252 10269
+type(
+  'w elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 295 10252 10280 "src/ext/pta/setp.ml" 295 10252 10310
+)
+"src/ext/pta/setp.ml" 295 10252 10271 "src/ext/pta/setp.ml" 295 10252 10272
+type(
+  'w t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 295 10252 10280 "src/ext/pta/setp.ml" 295 10252 10310
+)
+"src/ext/pta/setp.ml" 295 10252 10274 "src/ext/pta/setp.ml" 295 10252 10275
+type(
+  int
+)
+"src/ext/pta/setp.ml" 295 10252 10260 "src/ext/pta/setp.ml" 295 10252 10276
+type(
+  'w t
+)
+"src/ext/pta/setp.ml" 295 10252 10280 "src/ext/pta/setp.ml" 295 10252 10284
+type(
+  ('w elt -> 'x -> 'x) -> 'w t -> 'x -> 'x
+)
+ident(
+  int_ref fold "src/ext/pta/setp.ml" 292 10183 10195 "src/ext/pta/setp.ml" 292 10183 10199
+)
+"src/ext/pta/setp.ml" 295 10252 10285 "src/ext/pta/setp.ml" 295 10252 10286
+type(
+  'w elt -> 'x -> 'x
+)
+ident(
+  int_ref f "src/ext/pta/setp.ml" 292 10183 10200 "src/ext/pta/setp.ml" 292 10183 10201
+)
+"src/ext/pta/setp.ml" 295 10252 10287 "src/ext/pta/setp.ml" 295 10252 10288
+type(
+  'w t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 295 10252 10265 "src/ext/pta/setp.ml" 295 10252 10266
+)
+"src/ext/pta/setp.ml" 295 10252 10290 "src/ext/pta/setp.ml" 295 10252 10291
+type(
+  'w elt -> 'x -> 'x
+)
+ident(
+  int_ref f "src/ext/pta/setp.ml" 292 10183 10200 "src/ext/pta/setp.ml" 292 10183 10201
+)
+"src/ext/pta/setp.ml" 295 10252 10292 "src/ext/pta/setp.ml" 295 10252 10293
+type(
+  'w elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 295 10252 10268 "src/ext/pta/setp.ml" 295 10252 10269
+)
+"src/ext/pta/setp.ml" 295 10252 10295 "src/ext/pta/setp.ml" 295 10252 10299
+type(
+  ('w elt -> 'x -> 'x) -> 'w t -> 'x -> 'x
+)
+ident(
+  int_ref fold "src/ext/pta/setp.ml" 292 10183 10195 "src/ext/pta/setp.ml" 292 10183 10199
+)
+"src/ext/pta/setp.ml" 295 10252 10300 "src/ext/pta/setp.ml" 295 10252 10301
+type(
+  'w elt -> 'x -> 'x
+)
+ident(
+  int_ref f "src/ext/pta/setp.ml" 292 10183 10200 "src/ext/pta/setp.ml" 292 10183 10201
+)
+"src/ext/pta/setp.ml" 295 10252 10302 "src/ext/pta/setp.ml" 295 10252 10303
+type(
+  'w t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 295 10252 10271 "src/ext/pta/setp.ml" 295 10252 10272
+)
+"src/ext/pta/setp.ml" 295 10252 10304 "src/ext/pta/setp.ml" 295 10252 10308
+type(
+  'x
+)
+ident(
+  int_ref accu "src/ext/pta/setp.ml" 292 10183 10204 "src/ext/pta/setp.ml" 292 10183 10208
+)
+"src/ext/pta/setp.ml" 295 10252 10294 "src/ext/pta/setp.ml" 295 10252 10309
+call(
+  stack
+)
+type(
+  'x
+)
+"src/ext/pta/setp.ml" 295 10252 10289 "src/ext/pta/setp.ml" 295 10252 10310
+call(
+  stack
+)
+type(
+  'x
+)
+"src/ext/pta/setp.ml" 295 10252 10280 "src/ext/pta/setp.ml" 295 10252 10310
+call(
+  tail
+)
+type(
+  'x
+)
+"src/ext/pta/setp.ml" 293 10211 10217 "src/ext/pta/setp.ml" 295 10252 10310
+type(
+  'x
+)
+"src/ext/pta/setp.ml" 297 10312 10324 "src/ext/pta/setp.ml" 297 10312 10331
+type(
+  ('y elt -> bool) -> 'y t -> bool
+)
+ident(
+  def for_all "src/ext/pta/setp.ml" 297 10312 10316 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 297 10312 10332 "src/ext/pta/setp.ml" 297 10312 10333
+type(
+  'y elt -> bool
+)
+ident(
+  def p "src/ext/pta/setp.ml" 297 10312 10336 "src/ext/pta/setp.ml" 299 10367 10428
+)
+"src/ext/pta/setp.ml" 298 10345 10353 "src/ext/pta/setp.ml" 298 10345 10358
+type(
+  'y t
+)
+"src/ext/pta/setp.ml" 298 10345 10362 "src/ext/pta/setp.ml" 298 10345 10366
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 299 10367 10380 "src/ext/pta/setp.ml" 299 10367 10381
+type(
+  'y t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 299 10367 10395 "src/ext/pta/setp.ml" 299 10367 10428
+)
+"src/ext/pta/setp.ml" 299 10367 10383 "src/ext/pta/setp.ml" 299 10367 10384
+type(
+  'y elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 299 10367 10395 "src/ext/pta/setp.ml" 299 10367 10428
+)
+"src/ext/pta/setp.ml" 299 10367 10386 "src/ext/pta/setp.ml" 299 10367 10387
+type(
+  'y t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 299 10367 10395 "src/ext/pta/setp.ml" 299 10367 10428
+)
+"src/ext/pta/setp.ml" 299 10367 10389 "src/ext/pta/setp.ml" 299 10367 10390
+type(
+  int
+)
+"src/ext/pta/setp.ml" 299 10367 10375 "src/ext/pta/setp.ml" 299 10367 10391
+type(
+  'y t
+)
+"src/ext/pta/setp.ml" 299 10367 10395 "src/ext/pta/setp.ml" 299 10367 10396
+type(
+  'y elt -> bool
+)
+ident(
+  int_ref p "src/ext/pta/setp.ml" 297 10312 10332 "src/ext/pta/setp.ml" 297 10312 10333
+)
+"src/ext/pta/setp.ml" 299 10367 10397 "src/ext/pta/setp.ml" 299 10367 10398
+type(
+  'y elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 299 10367 10383 "src/ext/pta/setp.ml" 299 10367 10384
+)
+"src/ext/pta/setp.ml" 299 10367 10395 "src/ext/pta/setp.ml" 299 10367 10398
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 299 10367 10399 "src/ext/pta/setp.ml" 299 10367 10401
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/pta/setp.ml" 299 10367 10402 "src/ext/pta/setp.ml" 299 10367 10409
+type(
+  ('y elt -> bool) -> 'y t -> bool
+)
+ident(
+  int_ref for_all "src/ext/pta/setp.ml" 297 10312 10324 "src/ext/pta/setp.ml" 297 10312 10331
+)
+"src/ext/pta/setp.ml" 299 10367 10410 "src/ext/pta/setp.ml" 299 10367 10411
+type(
+  'y elt -> bool
+)
+ident(
+  int_ref p "src/ext/pta/setp.ml" 297 10312 10332 "src/ext/pta/setp.ml" 297 10312 10333
+)
+"src/ext/pta/setp.ml" 299 10367 10412 "src/ext/pta/setp.ml" 299 10367 10413
+type(
+  'y t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 299 10367 10380 "src/ext/pta/setp.ml" 299 10367 10381
+)
+"src/ext/pta/setp.ml" 299 10367 10402 "src/ext/pta/setp.ml" 299 10367 10413
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 299 10367 10414 "src/ext/pta/setp.ml" 299 10367 10416
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/pta/setp.ml" 299 10367 10417 "src/ext/pta/setp.ml" 299 10367 10424
+type(
+  ('y elt -> bool) -> 'y t -> bool
+)
+ident(
+  int_ref for_all "src/ext/pta/setp.ml" 297 10312 10324 "src/ext/pta/setp.ml" 297 10312 10331
+)
+"src/ext/pta/setp.ml" 299 10367 10425 "src/ext/pta/setp.ml" 299 10367 10426
+type(
+  'y elt -> bool
+)
+ident(
+  int_ref p "src/ext/pta/setp.ml" 297 10312 10332 "src/ext/pta/setp.ml" 297 10312 10333
+)
+"src/ext/pta/setp.ml" 299 10367 10427 "src/ext/pta/setp.ml" 299 10367 10428
+type(
+  'y t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 299 10367 10386 "src/ext/pta/setp.ml" 299 10367 10387
+)
+"src/ext/pta/setp.ml" 299 10367 10417 "src/ext/pta/setp.ml" 299 10367 10428
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 299 10367 10402 "src/ext/pta/setp.ml" 299 10367 10428
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 299 10367 10395 "src/ext/pta/setp.ml" 299 10367 10428
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 297 10312 10336 "src/ext/pta/setp.ml" 299 10367 10428
+type(
+  'y t -> bool
+)
+"src/ext/pta/setp.ml" 301 10430 10442 "src/ext/pta/setp.ml" 301 10430 10448
+type(
+  ('z elt -> bool) -> 'z t -> bool
+)
+ident(
+  def exists "src/ext/pta/setp.ml" 301 10430 10434 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 301 10430 10449 "src/ext/pta/setp.ml" 301 10430 10450
+type(
+  'z elt -> bool
+)
+ident(
+  def p "src/ext/pta/setp.ml" 301 10430 10453 "src/ext/pta/setp.ml" 303 10485 10544
+)
+"src/ext/pta/setp.ml" 302 10462 10470 "src/ext/pta/setp.ml" 302 10462 10475
+type(
+  'z t
+)
+"src/ext/pta/setp.ml" 302 10462 10479 "src/ext/pta/setp.ml" 302 10462 10484
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 303 10485 10498 "src/ext/pta/setp.ml" 303 10485 10499
+type(
+  'z t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 303 10485 10513 "src/ext/pta/setp.ml" 303 10485 10544
+)
+"src/ext/pta/setp.ml" 303 10485 10501 "src/ext/pta/setp.ml" 303 10485 10502
+type(
+  'z elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 303 10485 10513 "src/ext/pta/setp.ml" 303 10485 10544
+)
+"src/ext/pta/setp.ml" 303 10485 10504 "src/ext/pta/setp.ml" 303 10485 10505
+type(
+  'z t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 303 10485 10513 "src/ext/pta/setp.ml" 303 10485 10544
+)
+"src/ext/pta/setp.ml" 303 10485 10507 "src/ext/pta/setp.ml" 303 10485 10508
+type(
+  int
+)
+"src/ext/pta/setp.ml" 303 10485 10493 "src/ext/pta/setp.ml" 303 10485 10509
+type(
+  'z t
+)
+"src/ext/pta/setp.ml" 303 10485 10513 "src/ext/pta/setp.ml" 303 10485 10514
+type(
+  'z elt -> bool
+)
+ident(
+  int_ref p "src/ext/pta/setp.ml" 301 10430 10449 "src/ext/pta/setp.ml" 301 10430 10450
+)
+"src/ext/pta/setp.ml" 303 10485 10515 "src/ext/pta/setp.ml" 303 10485 10516
+type(
+  'z elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 303 10485 10501 "src/ext/pta/setp.ml" 303 10485 10502
+)
+"src/ext/pta/setp.ml" 303 10485 10513 "src/ext/pta/setp.ml" 303 10485 10516
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 303 10485 10517 "src/ext/pta/setp.ml" 303 10485 10519
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ext/pta/setp.ml" 303 10485 10520 "src/ext/pta/setp.ml" 303 10485 10526
+type(
+  ('z elt -> bool) -> 'z t -> bool
+)
+ident(
+  int_ref exists "src/ext/pta/setp.ml" 301 10430 10442 "src/ext/pta/setp.ml" 301 10430 10448
+)
+"src/ext/pta/setp.ml" 303 10485 10527 "src/ext/pta/setp.ml" 303 10485 10528
+type(
+  'z elt -> bool
+)
+ident(
+  int_ref p "src/ext/pta/setp.ml" 301 10430 10449 "src/ext/pta/setp.ml" 301 10430 10450
+)
+"src/ext/pta/setp.ml" 303 10485 10529 "src/ext/pta/setp.ml" 303 10485 10530
+type(
+  'z t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 303 10485 10498 "src/ext/pta/setp.ml" 303 10485 10499
+)
+"src/ext/pta/setp.ml" 303 10485 10520 "src/ext/pta/setp.ml" 303 10485 10530
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 303 10485 10531 "src/ext/pta/setp.ml" 303 10485 10533
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ext/pta/setp.ml" 303 10485 10534 "src/ext/pta/setp.ml" 303 10485 10540
+type(
+  ('z elt -> bool) -> 'z t -> bool
+)
+ident(
+  int_ref exists "src/ext/pta/setp.ml" 301 10430 10442 "src/ext/pta/setp.ml" 301 10430 10448
+)
+"src/ext/pta/setp.ml" 303 10485 10541 "src/ext/pta/setp.ml" 303 10485 10542
+type(
+  'z elt -> bool
+)
+ident(
+  int_ref p "src/ext/pta/setp.ml" 301 10430 10449 "src/ext/pta/setp.ml" 301 10430 10450
+)
+"src/ext/pta/setp.ml" 303 10485 10543 "src/ext/pta/setp.ml" 303 10485 10544
+type(
+  'z t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 303 10485 10504 "src/ext/pta/setp.ml" 303 10485 10505
+)
+"src/ext/pta/setp.ml" 303 10485 10534 "src/ext/pta/setp.ml" 303 10485 10544
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 303 10485 10520 "src/ext/pta/setp.ml" 303 10485 10544
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 303 10485 10513 "src/ext/pta/setp.ml" 303 10485 10544
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 301 10430 10453 "src/ext/pta/setp.ml" 303 10485 10544
+type(
+  'z t -> bool
+)
+"src/ext/pta/setp.ml" 305 10546 10554 "src/ext/pta/setp.ml" 305 10546 10560
+type(
+  ('a1 elt -> bool) -> 'a1 t -> 'a1 t
+)
+ident(
+  def filter "src/ext/pta/setp.ml" 312 10742 10746 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 305 10546 10561 "src/ext/pta/setp.ml" 305 10546 10562
+type(
+  'a1 elt -> bool
+)
+ident(
+  def p "src/ext/pta/setp.ml" 305 10546 10563 "src/ext/pta/setp.ml" 310 10722 10740
+)
+"src/ext/pta/setp.ml" 305 10546 10563 "src/ext/pta/setp.ml" 305 10546 10564
+type(
+  'a1 t
+)
+ident(
+  def s "src/ext/pta/setp.ml" 306 10567 10573 "src/ext/pta/setp.ml" 310 10722 10740
+)
+"src/ext/pta/setp.ml" 306 10567 10581 "src/ext/pta/setp.ml" 306 10567 10585
+type(
+  'a1 t -> 'a1 t -> 'a1 t
+)
+ident(
+  def filt "src/ext/pta/setp.ml" 306 10567 10573 "src/ext/pta/setp.ml" 310 10722 10740
+)
+"src/ext/pta/setp.ml" 306 10567 10586 "src/ext/pta/setp.ml" 306 10567 10590
+type(
+  'a1 t
+)
+ident(
+  def accu "src/ext/pta/setp.ml" 306 10567 10593 "src/ext/pta/setp.ml" 309 10656 10718
+)
+"src/ext/pta/setp.ml" 307 10602 10612 "src/ext/pta/setp.ml" 307 10602 10617
+type(
+  'a1 t
+)
+"src/ext/pta/setp.ml" 307 10602 10621 "src/ext/pta/setp.ml" 307 10602 10625
+type(
+  'a1 t
+)
+ident(
+  int_ref accu "src/ext/pta/setp.ml" 306 10567 10586 "src/ext/pta/setp.ml" 306 10567 10590
+)
+"src/ext/pta/setp.ml" 308 10626 10641 "src/ext/pta/setp.ml" 308 10626 10642
+type(
+  'a1 t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 309 10656 10668 "src/ext/pta/setp.ml" 309 10656 10718
+)
+"src/ext/pta/setp.ml" 308 10626 10644 "src/ext/pta/setp.ml" 308 10626 10645
+type(
+  'a1 elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 309 10656 10668 "src/ext/pta/setp.ml" 309 10656 10718
+)
+"src/ext/pta/setp.ml" 308 10626 10647 "src/ext/pta/setp.ml" 308 10626 10648
+type(
+  'a1 t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 309 10656 10668 "src/ext/pta/setp.ml" 309 10656 10718
+)
+"src/ext/pta/setp.ml" 308 10626 10650 "src/ext/pta/setp.ml" 308 10626 10651
+type(
+  int
+)
+"src/ext/pta/setp.ml" 308 10626 10636 "src/ext/pta/setp.ml" 308 10626 10652
+type(
+  'a1 t
+)
+"src/ext/pta/setp.ml" 309 10656 10668 "src/ext/pta/setp.ml" 309 10656 10672
+type(
+  'a1 t -> 'a1 t -> 'a1 t
+)
+ident(
+  int_ref filt "src/ext/pta/setp.ml" 306 10567 10581 "src/ext/pta/setp.ml" 306 10567 10585
+)
+"src/ext/pta/setp.ml" 309 10656 10674 "src/ext/pta/setp.ml" 309 10656 10678
+type(
+  'a1 t -> 'a1 t -> 'a1 t
+)
+ident(
+  int_ref filt "src/ext/pta/setp.ml" 306 10567 10581 "src/ext/pta/setp.ml" 306 10567 10585
+)
+"src/ext/pta/setp.ml" 309 10656 10683 "src/ext/pta/setp.ml" 309 10656 10684
+type(
+  'a1 elt -> bool
+)
+ident(
+  int_ref p "src/ext/pta/setp.ml" 305 10546 10561 "src/ext/pta/setp.ml" 305 10546 10562
+)
+"src/ext/pta/setp.ml" 309 10656 10685 "src/ext/pta/setp.ml" 309 10656 10686
+type(
+  'a1 elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 308 10626 10644 "src/ext/pta/setp.ml" 308 10626 10645
+)
+"src/ext/pta/setp.ml" 309 10656 10683 "src/ext/pta/setp.ml" 309 10656 10686
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 309 10656 10692 "src/ext/pta/setp.ml" 309 10656 10695
+type(
+  'a1 elt -> 'a1 t -> 'a1 t
+)
+ident(
+  int_ref add "src/ext/pta/setp.ml" 198 7223 7235 "src/ext/pta/setp.ml" 198 7223 7238
+)
+"src/ext/pta/setp.ml" 309 10656 10696 "src/ext/pta/setp.ml" 309 10656 10697
+type(
+  'a1 elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 308 10626 10644 "src/ext/pta/setp.ml" 308 10626 10645
+)
+"src/ext/pta/setp.ml" 309 10656 10698 "src/ext/pta/setp.ml" 309 10656 10702
+type(
+  'a1 t
+)
+ident(
+  int_ref accu "src/ext/pta/setp.ml" 306 10567 10586 "src/ext/pta/setp.ml" 306 10567 10590
+)
+"src/ext/pta/setp.ml" 309 10656 10692 "src/ext/pta/setp.ml" 309 10656 10702
+call(
+  stack
+)
+type(
+  'a1 t
+)
+"src/ext/pta/setp.ml" 309 10656 10708 "src/ext/pta/setp.ml" 309 10656 10712
+type(
+  'a1 t
+)
+ident(
+  int_ref accu "src/ext/pta/setp.ml" 306 10567 10586 "src/ext/pta/setp.ml" 306 10567 10590
+)
+"src/ext/pta/setp.ml" 309 10656 10679 "src/ext/pta/setp.ml" 309 10656 10713
+type(
+  'a1 t
+)
+"src/ext/pta/setp.ml" 309 10656 10714 "src/ext/pta/setp.ml" 309 10656 10715
+type(
+  'a1 t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 308 10626 10641 "src/ext/pta/setp.ml" 308 10626 10642
+)
+"src/ext/pta/setp.ml" 309 10656 10673 "src/ext/pta/setp.ml" 309 10656 10716
+call(
+  stack
+)
+type(
+  'a1 t
+)
+"src/ext/pta/setp.ml" 309 10656 10717 "src/ext/pta/setp.ml" 309 10656 10718
+type(
+  'a1 t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 308 10626 10647 "src/ext/pta/setp.ml" 308 10626 10648
+)
+"src/ext/pta/setp.ml" 309 10656 10668 "src/ext/pta/setp.ml" 309 10656 10718
+call(
+  tail
+)
+type(
+  'a1 t
+)
+"src/ext/pta/setp.ml" 306 10567 10593 "src/ext/pta/setp.ml" 309 10656 10718
+type(
+  'a1 t -> 'a1 t
+)
+"src/ext/pta/setp.ml" 310 10722 10728 "src/ext/pta/setp.ml" 310 10722 10732
+type(
+  'a1 t -> 'a1 t -> 'a1 t
+)
+ident(
+  int_ref filt "src/ext/pta/setp.ml" 306 10567 10581 "src/ext/pta/setp.ml" 306 10567 10585
+)
+"src/ext/pta/setp.ml" 310 10722 10733 "src/ext/pta/setp.ml" 310 10722 10738
+type(
+  'a1 t
+)
+"src/ext/pta/setp.ml" 310 10722 10739 "src/ext/pta/setp.ml" 310 10722 10740
+type(
+  'a1 t
+)
+ident(
+  int_ref s "src/ext/pta/setp.ml" 305 10546 10563 "src/ext/pta/setp.ml" 305 10546 10564
+)
+"src/ext/pta/setp.ml" 310 10722 10728 "src/ext/pta/setp.ml" 310 10722 10740
+call(
+  tail
+)
+type(
+  'a1 t
+)
+"src/ext/pta/setp.ml" 306 10567 10573 "src/ext/pta/setp.ml" 310 10722 10740
+type(
+  'a1 t
+)
+"src/ext/pta/setp.ml" 312 10742 10750 "src/ext/pta/setp.ml" 312 10742 10759
+type(
+  ('b1 elt -> bool) -> 'b1 t -> 'b1 t * 'b1 t
+)
+ident(
+  def partition "src/ext/pta/setp.ml" 319 10970 10974 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 312 10742 10760 "src/ext/pta/setp.ml" 312 10742 10761
+type(
+  'b1 elt -> bool
+)
+ident(
+  def p "src/ext/pta/setp.ml" 312 10742 10762 "src/ext/pta/setp.ml" 317 10941 10968
+)
+"src/ext/pta/setp.ml" 312 10742 10762 "src/ext/pta/setp.ml" 312 10742 10763
+type(
+  'b1 t
+)
+ident(
+  def s "src/ext/pta/setp.ml" 313 10766 10772 "src/ext/pta/setp.ml" 317 10941 10968
+)
+"src/ext/pta/setp.ml" 313 10766 10780 "src/ext/pta/setp.ml" 313 10766 10784
+type(
+  'b1 t * 'b1 t -> 'b1 t -> 'b1 t * 'b1 t
+)
+ident(
+  def part "src/ext/pta/setp.ml" 313 10766 10772 "src/ext/pta/setp.ml" 317 10941 10968
+)
+"src/ext/pta/setp.ml" 313 10766 10786 "src/ext/pta/setp.ml" 313 10766 10787
+type(
+  'b1 t
+)
+ident(
+  def t "src/ext/pta/setp.ml" 313 10766 10802 "src/ext/pta/setp.ml" 316 10865 10937
+)
+"src/ext/pta/setp.ml" 313 10766 10789 "src/ext/pta/setp.ml" 313 10766 10790
+type(
+  'b1 t
+)
+ident(
+  def f "src/ext/pta/setp.ml" 313 10766 10802 "src/ext/pta/setp.ml" 316 10865 10937
+)
+"src/ext/pta/setp.ml" 313 10766 10786 "src/ext/pta/setp.ml" 313 10766 10790
+type(
+  'b1 t * 'b1 t
+)
+"src/ext/pta/setp.ml" 313 10766 10794 "src/ext/pta/setp.ml" 313 10766 10798
+ident(
+  def accu "src/ext/pta/setp.ml" 313 10766 10802 "src/ext/pta/setp.ml" 316 10865 10937
+)
+"src/ext/pta/setp.ml" 313 10766 10785 "src/ext/pta/setp.ml" 313 10766 10799
+type(
+  'b1 t * 'b1 t
+)
+"src/ext/pta/setp.ml" 314 10811 10821 "src/ext/pta/setp.ml" 314 10811 10826
+type(
+  'b1 t
+)
+"src/ext/pta/setp.ml" 314 10811 10830 "src/ext/pta/setp.ml" 314 10811 10834
+type(
+  'b1 t * 'b1 t
+)
+ident(
+  int_ref accu "src/ext/pta/setp.ml" 313 10766 10785 "src/ext/pta/setp.ml" 313 10766 10799
+)
+"src/ext/pta/setp.ml" 315 10835 10850 "src/ext/pta/setp.ml" 315 10835 10851
+type(
+  'b1 t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 316 10865 10877 "src/ext/pta/setp.ml" 316 10865 10937
+)
+"src/ext/pta/setp.ml" 315 10835 10853 "src/ext/pta/setp.ml" 315 10835 10854
+type(
+  'b1 elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 316 10865 10877 "src/ext/pta/setp.ml" 316 10865 10937
+)
+"src/ext/pta/setp.ml" 315 10835 10856 "src/ext/pta/setp.ml" 315 10835 10857
+type(
+  'b1 t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 316 10865 10877 "src/ext/pta/setp.ml" 316 10865 10937
+)
+"src/ext/pta/setp.ml" 315 10835 10859 "src/ext/pta/setp.ml" 315 10835 10860
+type(
+  int
+)
+"src/ext/pta/setp.ml" 315 10835 10845 "src/ext/pta/setp.ml" 315 10835 10861
+type(
+  'b1 t
+)
+"src/ext/pta/setp.ml" 316 10865 10877 "src/ext/pta/setp.ml" 316 10865 10881
+type(
+  'b1 t * 'b1 t -> 'b1 t -> 'b1 t * 'b1 t
+)
+ident(
+  int_ref part "src/ext/pta/setp.ml" 313 10766 10780 "src/ext/pta/setp.ml" 313 10766 10784
+)
+"src/ext/pta/setp.ml" 316 10865 10883 "src/ext/pta/setp.ml" 316 10865 10887
+type(
+  'b1 t * 'b1 t -> 'b1 t -> 'b1 t * 'b1 t
+)
+ident(
+  int_ref part "src/ext/pta/setp.ml" 313 10766 10780 "src/ext/pta/setp.ml" 313 10766 10784
+)
+"src/ext/pta/setp.ml" 316 10865 10892 "src/ext/pta/setp.ml" 316 10865 10893
+type(
+  'b1 elt -> bool
+)
+ident(
+  int_ref p "src/ext/pta/setp.ml" 312 10742 10760 "src/ext/pta/setp.ml" 312 10742 10761
+)
+"src/ext/pta/setp.ml" 316 10865 10894 "src/ext/pta/setp.ml" 316 10865 10895
+type(
+  'b1 elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 315 10835 10853 "src/ext/pta/setp.ml" 315 10835 10854
+)
+"src/ext/pta/setp.ml" 316 10865 10892 "src/ext/pta/setp.ml" 316 10865 10895
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/pta/setp.ml" 316 10865 10902 "src/ext/pta/setp.ml" 316 10865 10905
+type(
+  'b1 elt -> 'b1 t -> 'b1 t
+)
+ident(
+  int_ref add "src/ext/pta/setp.ml" 198 7223 7235 "src/ext/pta/setp.ml" 198 7223 7238
+)
+"src/ext/pta/setp.ml" 316 10865 10906 "src/ext/pta/setp.ml" 316 10865 10907
+type(
+  'b1 elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 315 10835 10853 "src/ext/pta/setp.ml" 315 10835 10854
+)
+"src/ext/pta/setp.ml" 316 10865 10908 "src/ext/pta/setp.ml" 316 10865 10909
+type(
+  'b1 t
+)
+ident(
+  int_ref t "src/ext/pta/setp.ml" 313 10766 10786 "src/ext/pta/setp.ml" 313 10766 10787
+)
+"src/ext/pta/setp.ml" 316 10865 10902 "src/ext/pta/setp.ml" 316 10865 10909
+call(
+  stack
+)
+type(
+  'b1 t
+)
+"src/ext/pta/setp.ml" 316 10865 10911 "src/ext/pta/setp.ml" 316 10865 10912
+type(
+  'b1 t
+)
+ident(
+  int_ref f "src/ext/pta/setp.ml" 313 10766 10789 "src/ext/pta/setp.ml" 313 10766 10790
+)
+"src/ext/pta/setp.ml" 316 10865 10901 "src/ext/pta/setp.ml" 316 10865 10913
+type(
+  'b1 t * 'b1 t
+)
+"src/ext/pta/setp.ml" 316 10865 10920 "src/ext/pta/setp.ml" 316 10865 10921
+type(
+  'b1 t
+)
+ident(
+  int_ref t "src/ext/pta/setp.ml" 313 10766 10786 "src/ext/pta/setp.ml" 313 10766 10787
+)
+"src/ext/pta/setp.ml" 316 10865 10923 "src/ext/pta/setp.ml" 316 10865 10926
+type(
+  'b1 elt -> 'b1 t -> 'b1 t
+)
+ident(
+  int_ref add "src/ext/pta/setp.ml" 198 7223 7235 "src/ext/pta/setp.ml" 198 7223 7238
+)
+"src/ext/pta/setp.ml" 316 10865 10927 "src/ext/pta/setp.ml" 316 10865 10928
+type(
+  'b1 elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 315 10835 10853 "src/ext/pta/setp.ml" 315 10835 10854
+)
+"src/ext/pta/setp.ml" 316 10865 10929 "src/ext/pta/setp.ml" 316 10865 10930
+type(
+  'b1 t
+)
+ident(
+  int_ref f "src/ext/pta/setp.ml" 313 10766 10789 "src/ext/pta/setp.ml" 313 10766 10790
+)
+"src/ext/pta/setp.ml" 316 10865 10923 "src/ext/pta/setp.ml" 316 10865 10930
+call(
+  stack
+)
+type(
+  'b1 t
+)
+"src/ext/pta/setp.ml" 316 10865 10919 "src/ext/pta/setp.ml" 316 10865 10931
+type(
+  'b1 t * 'b1 t
+)
+"src/ext/pta/setp.ml" 316 10865 10888 "src/ext/pta/setp.ml" 316 10865 10932
+type(
+  'b1 t * 'b1 t
+)
+"src/ext/pta/setp.ml" 316 10865 10933 "src/ext/pta/setp.ml" 316 10865 10934
+type(
+  'b1 t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 315 10835 10850 "src/ext/pta/setp.ml" 315 10835 10851
+)
+"src/ext/pta/setp.ml" 316 10865 10882 "src/ext/pta/setp.ml" 316 10865 10935
+call(
+  stack
+)
+type(
+  'b1 t * 'b1 t
+)
+"src/ext/pta/setp.ml" 316 10865 10936 "src/ext/pta/setp.ml" 316 10865 10937
+type(
+  'b1 t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 315 10835 10856 "src/ext/pta/setp.ml" 315 10835 10857
+)
+"src/ext/pta/setp.ml" 316 10865 10877 "src/ext/pta/setp.ml" 316 10865 10937
+call(
+  tail
+)
+type(
+  'b1 t * 'b1 t
+)
+"src/ext/pta/setp.ml" 313 10766 10802 "src/ext/pta/setp.ml" 316 10865 10937
+type(
+  'b1 t -> 'b1 t * 'b1 t
+)
+"src/ext/pta/setp.ml" 317 10941 10947 "src/ext/pta/setp.ml" 317 10941 10951
+type(
+  'b1 t * 'b1 t -> 'b1 t -> 'b1 t * 'b1 t
+)
+ident(
+  int_ref part "src/ext/pta/setp.ml" 313 10766 10780 "src/ext/pta/setp.ml" 313 10766 10784
+)
+"src/ext/pta/setp.ml" 317 10941 10953 "src/ext/pta/setp.ml" 317 10941 10958
+type(
+  'b1 t
+)
+"src/ext/pta/setp.ml" 317 10941 10960 "src/ext/pta/setp.ml" 317 10941 10965
+type(
+  'b1 t
+)
+"src/ext/pta/setp.ml" 317 10941 10952 "src/ext/pta/setp.ml" 317 10941 10966
+type(
+  'b1 t * 'b1 t
+)
+"src/ext/pta/setp.ml" 317 10941 10967 "src/ext/pta/setp.ml" 317 10941 10968
+type(
+  'b1 t
+)
+ident(
+  int_ref s "src/ext/pta/setp.ml" 312 10742 10762 "src/ext/pta/setp.ml" 312 10742 10763
+)
+"src/ext/pta/setp.ml" 317 10941 10947 "src/ext/pta/setp.ml" 317 10941 10968
+call(
+  tail
+)
+type(
+  'b1 t * 'b1 t
+)
+"src/ext/pta/setp.ml" 313 10766 10772 "src/ext/pta/setp.ml" 317 10941 10968
+type(
+  'b1 t * 'b1 t
+)
+"src/ext/pta/setp.ml" 319 10970 10982 "src/ext/pta/setp.ml" 319 10970 10990
+type(
+  'c1 t -> int
+)
+ident(
+  def cardinal "src/ext/pta/setp.ml" 319 10970 10974 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 320 11002 11010 "src/ext/pta/setp.ml" 320 11002 11015
+type(
+  'c1 t
+)
+"src/ext/pta/setp.ml" 320 11002 11019 "src/ext/pta/setp.ml" 320 11002 11020
+type(
+  int
+)
+"src/ext/pta/setp.ml" 321 11021 11034 "src/ext/pta/setp.ml" 321 11021 11035
+type(
+  'c1 t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 321 11021 11049 "src/ext/pta/setp.ml" 321 11021 11076
+)
+"src/ext/pta/setp.ml" 321 11021 11037 "src/ext/pta/setp.ml" 321 11021 11038
+type(
+  'c1 elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 321 11021 11049 "src/ext/pta/setp.ml" 321 11021 11076
+)
+"src/ext/pta/setp.ml" 321 11021 11040 "src/ext/pta/setp.ml" 321 11021 11041
+type(
+  'c1 t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 321 11021 11049 "src/ext/pta/setp.ml" 321 11021 11076
+)
+"src/ext/pta/setp.ml" 321 11021 11043 "src/ext/pta/setp.ml" 321 11021 11044
+type(
+  int
+)
+"src/ext/pta/setp.ml" 321 11021 11029 "src/ext/pta/setp.ml" 321 11021 11045
+type(
+  'c1 t
+)
+"src/ext/pta/setp.ml" 321 11021 11049 "src/ext/pta/setp.ml" 321 11021 11057
+type(
+  'c1 t -> int
+)
+ident(
+  int_ref cardinal "src/ext/pta/setp.ml" 319 10970 10982 "src/ext/pta/setp.ml" 319 10970 10990
+)
+"src/ext/pta/setp.ml" 321 11021 11058 "src/ext/pta/setp.ml" 321 11021 11059
+type(
+  'c1 t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 321 11021 11034 "src/ext/pta/setp.ml" 321 11021 11035
+)
+"src/ext/pta/setp.ml" 321 11021 11049 "src/ext/pta/setp.ml" 321 11021 11059
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 321 11021 11060 "src/ext/pta/setp.ml" 321 11021 11061
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/pta/setp.ml" 321 11021 11062 "src/ext/pta/setp.ml" 321 11021 11063
+type(
+  int
+)
+"src/ext/pta/setp.ml" 321 11021 11049 "src/ext/pta/setp.ml" 321 11021 11063
+type(
+  int
+)
+"src/ext/pta/setp.ml" 321 11021 11064 "src/ext/pta/setp.ml" 321 11021 11065
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/pta/setp.ml" 321 11021 11066 "src/ext/pta/setp.ml" 321 11021 11074
+type(
+  'c1 t -> int
+)
+ident(
+  int_ref cardinal "src/ext/pta/setp.ml" 319 10970 10982 "src/ext/pta/setp.ml" 319 10970 10990
+)
+"src/ext/pta/setp.ml" 321 11021 11075 "src/ext/pta/setp.ml" 321 11021 11076
+type(
+  'c1 t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 321 11021 11040 "src/ext/pta/setp.ml" 321 11021 11041
+)
+"src/ext/pta/setp.ml" 321 11021 11066 "src/ext/pta/setp.ml" 321 11021 11076
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/pta/setp.ml" 321 11021 11049 "src/ext/pta/setp.ml" 321 11021 11076
+type(
+  int
+)
+"src/ext/pta/setp.ml" 319 10970 10993 "src/ext/pta/setp.ml" 321 11021 11076
+type(
+  'c1 t -> int
+)
+"src/ext/pta/setp.ml" 323 11078 11090 "src/ext/pta/setp.ml" 323 11078 11102
+type(
+  'd1 elt list -> 'd1 t -> 'd1 elt list
+)
+ident(
+  def elements_aux "src/ext/pta/setp.ml" 323 11078 11082 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 323 11078 11103 "src/ext/pta/setp.ml" 323 11078 11107
+type(
+  'd1 elt list
+)
+ident(
+  def accu "src/ext/pta/setp.ml" 323 11078 11110 "src/ext/pta/setp.ml" 325 11141 11210
+)
+"src/ext/pta/setp.ml" 324 11119 11127 "src/ext/pta/setp.ml" 324 11119 11132
+type(
+  'd1 t
+)
+"src/ext/pta/setp.ml" 324 11119 11136 "src/ext/pta/setp.ml" 324 11119 11140
+type(
+  'd1 elt list
+)
+ident(
+  int_ref accu "src/ext/pta/setp.ml" 323 11078 11103 "src/ext/pta/setp.ml" 323 11078 11107
+)
+"src/ext/pta/setp.ml" 325 11141 11154 "src/ext/pta/setp.ml" 325 11141 11155
+type(
+  'd1 t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 325 11141 11169 "src/ext/pta/setp.ml" 325 11141 11210
+)
+"src/ext/pta/setp.ml" 325 11141 11157 "src/ext/pta/setp.ml" 325 11141 11158
+type(
+  'd1 elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 325 11141 11169 "src/ext/pta/setp.ml" 325 11141 11210
+)
+"src/ext/pta/setp.ml" 325 11141 11160 "src/ext/pta/setp.ml" 325 11141 11161
+type(
+  'd1 t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 325 11141 11169 "src/ext/pta/setp.ml" 325 11141 11210
+)
+"src/ext/pta/setp.ml" 325 11141 11163 "src/ext/pta/setp.ml" 325 11141 11164
+type(
+  int
+)
+"src/ext/pta/setp.ml" 325 11141 11149 "src/ext/pta/setp.ml" 325 11141 11165
+type(
+  'd1 t
+)
+"src/ext/pta/setp.ml" 325 11141 11169 "src/ext/pta/setp.ml" 325 11141 11181
+type(
+  'd1 elt list -> 'd1 t -> 'd1 elt list
+)
+ident(
+  int_ref elements_aux "src/ext/pta/setp.ml" 323 11078 11090 "src/ext/pta/setp.ml" 323 11078 11102
+)
+"src/ext/pta/setp.ml" 325 11141 11183 "src/ext/pta/setp.ml" 325 11141 11184
+type(
+  'd1 elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 325 11141 11157 "src/ext/pta/setp.ml" 325 11141 11158
+)
+"src/ext/pta/setp.ml" 325 11141 11188 "src/ext/pta/setp.ml" 325 11141 11200
+type(
+  'd1 elt list -> 'd1 t -> 'd1 elt list
+)
+ident(
+  int_ref elements_aux "src/ext/pta/setp.ml" 323 11078 11090 "src/ext/pta/setp.ml" 323 11078 11102
+)
+"src/ext/pta/setp.ml" 325 11141 11201 "src/ext/pta/setp.ml" 325 11141 11205
+type(
+  'd1 elt list
+)
+ident(
+  int_ref accu "src/ext/pta/setp.ml" 323 11078 11103 "src/ext/pta/setp.ml" 323 11078 11107
+)
+"src/ext/pta/setp.ml" 325 11141 11206 "src/ext/pta/setp.ml" 325 11141 11207
+type(
+  'd1 t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 325 11141 11160 "src/ext/pta/setp.ml" 325 11141 11161
+)
+"src/ext/pta/setp.ml" 325 11141 11188 "src/ext/pta/setp.ml" 325 11141 11207
+call(
+  stack
+)
+type(
+  'd1 elt list
+)
+"src/ext/pta/setp.ml" 325 11141 11182 "src/ext/pta/setp.ml" 325 11141 11208
+type(
+  'd1 elt list
+)
+"src/ext/pta/setp.ml" 325 11141 11209 "src/ext/pta/setp.ml" 325 11141 11210
+type(
+  'd1 t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 325 11141 11154 "src/ext/pta/setp.ml" 325 11141 11155
+)
+"src/ext/pta/setp.ml" 325 11141 11169 "src/ext/pta/setp.ml" 325 11141 11210
+call(
+  tail
+)
+type(
+  'd1 elt list
+)
+"src/ext/pta/setp.ml" 323 11078 11110 "src/ext/pta/setp.ml" 325 11141 11210
+type(
+  'd1 t -> 'd1 elt list
+)
+"src/ext/pta/setp.ml" 327 11212 11220 "src/ext/pta/setp.ml" 327 11212 11228
+type(
+  'e1 t -> 'e1 elt list
+)
+ident(
+  def elements "src/ext/pta/setp.ml" 330 11258 11262 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 327 11212 11229 "src/ext/pta/setp.ml" 327 11212 11230
+type(
+  'e1 t
+)
+ident(
+  def s "src/ext/pta/setp.ml" 328 11233 11239 "src/ext/pta/setp.ml" 328 11233 11256
+)
+"src/ext/pta/setp.ml" 328 11233 11239 "src/ext/pta/setp.ml" 328 11233 11251
+type(
+  'e1 elt list -> 'e1 t -> 'e1 elt list
+)
+ident(
+  int_ref elements_aux "src/ext/pta/setp.ml" 323 11078 11090 "src/ext/pta/setp.ml" 323 11078 11102
+)
+"src/ext/pta/setp.ml" 328 11233 11252 "src/ext/pta/setp.ml" 328 11233 11254
+type(
+  'e1 elt list
+)
+"src/ext/pta/setp.ml" 328 11233 11255 "src/ext/pta/setp.ml" 328 11233 11256
+type(
+  'e1 t
+)
+ident(
+  int_ref s "src/ext/pta/setp.ml" 327 11212 11229 "src/ext/pta/setp.ml" 327 11212 11230
+)
+"src/ext/pta/setp.ml" 328 11233 11239 "src/ext/pta/setp.ml" 328 11233 11256
+call(
+  tail
+)
+type(
+  'e1 elt list
+)
+"src/ext/pta/setp.ml" 330 11258 11270 "src/ext/pta/setp.ml" 330 11258 11277
+type(
+  'f1 t -> 'f1 elt
+)
+ident(
+  def min_elt "src/ext/pta/setp.ml" 330 11258 11262 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 331 11289 11297 "src/ext/pta/setp.ml" 331 11289 11302
+type(
+  'f1 t
+)
+"src/ext/pta/setp.ml" 331 11289 11306 "src/ext/pta/setp.ml" 331 11289 11311
+type(
+  exn -> 'f1 elt
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/pta/setp.ml" 331 11289 11312 "src/ext/pta/setp.ml" 331 11289 11321
+type(
+  exn
+)
+"src/ext/pta/setp.ml" 331 11289 11306 "src/ext/pta/setp.ml" 331 11289 11321
+type(
+  'f1 elt
+)
+"src/ext/pta/setp.ml" 332 11322 11335 "src/ext/pta/setp.ml" 332 11322 11340
+type(
+  'f1 t
+)
+"src/ext/pta/setp.ml" 332 11322 11342 "src/ext/pta/setp.ml" 332 11322 11343
+type(
+  'f1 elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 332 11322 11354 "src/ext/pta/setp.ml" 332 11322 11355
+)
+"src/ext/pta/setp.ml" 332 11322 11345 "src/ext/pta/setp.ml" 332 11322 11346
+type(
+  'f1 t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 332 11322 11354 "src/ext/pta/setp.ml" 332 11322 11355
+)
+"src/ext/pta/setp.ml" 332 11322 11348 "src/ext/pta/setp.ml" 332 11322 11349
+type(
+  int
+)
+"src/ext/pta/setp.ml" 332 11322 11330 "src/ext/pta/setp.ml" 332 11322 11350
+type(
+  'f1 t
+)
+"src/ext/pta/setp.ml" 332 11322 11354 "src/ext/pta/setp.ml" 332 11322 11355
+type(
+  'f1 elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 332 11322 11342 "src/ext/pta/setp.ml" 332 11322 11343
+)
+"src/ext/pta/setp.ml" 333 11356 11369 "src/ext/pta/setp.ml" 333 11356 11370
+type(
+  'f1 t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 333 11356 11384 "src/ext/pta/setp.ml" 333 11356 11393
+)
+"src/ext/pta/setp.ml" 333 11356 11372 "src/ext/pta/setp.ml" 333 11356 11373
+type(
+  'f1 elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 333 11356 11384 "src/ext/pta/setp.ml" 333 11356 11393
+)
+"src/ext/pta/setp.ml" 333 11356 11375 "src/ext/pta/setp.ml" 333 11356 11376
+type(
+  'f1 t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 333 11356 11384 "src/ext/pta/setp.ml" 333 11356 11393
+)
+"src/ext/pta/setp.ml" 333 11356 11378 "src/ext/pta/setp.ml" 333 11356 11379
+type(
+  int
+)
+"src/ext/pta/setp.ml" 333 11356 11364 "src/ext/pta/setp.ml" 333 11356 11380
+type(
+  'f1 t
+)
+"src/ext/pta/setp.ml" 333 11356 11384 "src/ext/pta/setp.ml" 333 11356 11391
+type(
+  'f1 t -> 'f1 elt
+)
+ident(
+  int_ref min_elt "src/ext/pta/setp.ml" 330 11258 11270 "src/ext/pta/setp.ml" 330 11258 11277
+)
+"src/ext/pta/setp.ml" 333 11356 11392 "src/ext/pta/setp.ml" 333 11356 11393
+type(
+  'f1 t
+)
+ident(
+  int_ref l "src/ext/pta/setp.ml" 333 11356 11369 "src/ext/pta/setp.ml" 333 11356 11370
+)
+"src/ext/pta/setp.ml" 333 11356 11384 "src/ext/pta/setp.ml" 333 11356 11393
+call(
+  tail
+)
+type(
+  'f1 elt
+)
+"src/ext/pta/setp.ml" 330 11258 11280 "src/ext/pta/setp.ml" 333 11356 11393
+type(
+  'f1 t -> 'f1 elt
+)
+"src/ext/pta/setp.ml" 335 11395 11407 "src/ext/pta/setp.ml" 335 11395 11414
+type(
+  'g1 t -> 'g1 elt
+)
+ident(
+  def max_elt "src/ext/pta/setp.ml" 335 11395 11399 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 336 11426 11434 "src/ext/pta/setp.ml" 336 11426 11439
+type(
+  'g1 t
+)
+"src/ext/pta/setp.ml" 336 11426 11443 "src/ext/pta/setp.ml" 336 11426 11448
+type(
+  exn -> 'g1 elt
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/pta/setp.ml" 336 11426 11449 "src/ext/pta/setp.ml" 336 11426 11458
+type(
+  exn
+)
+"src/ext/pta/setp.ml" 336 11426 11443 "src/ext/pta/setp.ml" 336 11426 11458
+type(
+  'g1 elt
+)
+"src/ext/pta/setp.ml" 337 11459 11472 "src/ext/pta/setp.ml" 337 11459 11473
+type(
+  'g1 t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 337 11459 11491 "src/ext/pta/setp.ml" 337 11459 11492
+)
+"src/ext/pta/setp.ml" 337 11459 11475 "src/ext/pta/setp.ml" 337 11459 11476
+type(
+  'g1 elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 337 11459 11491 "src/ext/pta/setp.ml" 337 11459 11492
+)
+"src/ext/pta/setp.ml" 337 11459 11478 "src/ext/pta/setp.ml" 337 11459 11483
+type(
+  'g1 t
+)
+"src/ext/pta/setp.ml" 337 11459 11485 "src/ext/pta/setp.ml" 337 11459 11486
+type(
+  int
+)
+"src/ext/pta/setp.ml" 337 11459 11467 "src/ext/pta/setp.ml" 337 11459 11487
+type(
+  'g1 t
+)
+"src/ext/pta/setp.ml" 337 11459 11491 "src/ext/pta/setp.ml" 337 11459 11492
+type(
+  'g1 elt
+)
+ident(
+  int_ref v "src/ext/pta/setp.ml" 337 11459 11475 "src/ext/pta/setp.ml" 337 11459 11476
+)
+"src/ext/pta/setp.ml" 338 11493 11506 "src/ext/pta/setp.ml" 338 11493 11507
+type(
+  'g1 t
+)
+ident(
+  def l "src/ext/pta/setp.ml" 338 11493 11521 "src/ext/pta/setp.ml" 338 11493 11530
+)
+"src/ext/pta/setp.ml" 338 11493 11509 "src/ext/pta/setp.ml" 338 11493 11510
+type(
+  'g1 elt
+)
+ident(
+  def v "src/ext/pta/setp.ml" 338 11493 11521 "src/ext/pta/setp.ml" 338 11493 11530
+)
+"src/ext/pta/setp.ml" 338 11493 11512 "src/ext/pta/setp.ml" 338 11493 11513
+type(
+  'g1 t
+)
+ident(
+  def r "src/ext/pta/setp.ml" 338 11493 11521 "src/ext/pta/setp.ml" 338 11493 11530
+)
+"src/ext/pta/setp.ml" 338 11493 11515 "src/ext/pta/setp.ml" 338 11493 11516
+type(
+  int
+)
+"src/ext/pta/setp.ml" 338 11493 11501 "src/ext/pta/setp.ml" 338 11493 11517
+type(
+  'g1 t
+)
+"src/ext/pta/setp.ml" 338 11493 11521 "src/ext/pta/setp.ml" 338 11493 11528
+type(
+  'g1 t -> 'g1 elt
+)
+ident(
+  int_ref max_elt "src/ext/pta/setp.ml" 335 11395 11407 "src/ext/pta/setp.ml" 335 11395 11414
+)
+"src/ext/pta/setp.ml" 338 11493 11529 "src/ext/pta/setp.ml" 338 11493 11530
+type(
+  'g1 t
+)
+ident(
+  int_ref r "src/ext/pta/setp.ml" 338 11493 11512 "src/ext/pta/setp.ml" 338 11493 11513
+)
+"src/ext/pta/setp.ml" 338 11493 11521 "src/ext/pta/setp.ml" 338 11493 11530
+call(
+  tail
+)
+type(
+  'g1 elt
+)
+"src/ext/pta/setp.ml" 335 11395 11417 "src/ext/pta/setp.ml" 338 11493 11530
+type(
+  'g1 t -> 'g1 elt
+)
+"src/ext/pta/setp.ml" 340 11532 11540 "src/ext/pta/setp.ml" 340 11532 11546
+type(
+  'h1 t -> 'h1 elt
+)
+ident(
+  def choose "src/ext/pta/setp.ml" 340 11532 11556 "src/ext/pta/setp.ml" 342 11558 11563
+)
+"src/ext/pta/setp.ml" 340 11532 11549 "src/ext/pta/setp.ml" 340 11532 11556
+type(
+  'h1 t -> 'h1 elt
+)
+ident(
+  int_ref min_elt "src/ext/pta/setp.ml" 330 11258 11270 "src/ext/pta/setp.ml" 330 11258 11277
+)

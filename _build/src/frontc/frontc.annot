@@ -1,0 +1,3917 @@
+"src/frontc/frontc.ml" 44 1748 1752 "src/frontc/frontc.ml" 44 1748 1755
+type(
+  out_channel option ref
+)
+ident(
+  def out "src/frontc/frontc.ml" 45 1792 1792 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 44 1748 1783 "src/frontc/frontc.ml" 44 1748 1786
+type(
+  out_channel option -> out_channel option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/frontc.ml" 44 1748 1787 "src/frontc/frontc.ml" 44 1748 1791
+type(
+  out_channel option
+)
+"src/frontc/frontc.ml" 44 1748 1783 "src/frontc/frontc.ml" 44 1748 1791
+type(
+  out_channel option ref
+)
+type(
+  out_channel option ref
+)
+"src/frontc/frontc.ml" 45 1792 1796 "src/frontc/frontc.ml" 45 1792 1804
+type(
+  bool ref
+)
+ident(
+  def close_me "src/frontc/frontc.ml" 47 1818 1818 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 45 1792 1807 "src/frontc/frontc.ml" 45 1792 1810
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/frontc.ml" 45 1792 1811 "src/frontc/frontc.ml" 45 1792 1816
+type(
+  bool
+)
+"src/frontc/frontc.ml" 45 1792 1807 "src/frontc/frontc.ml" 45 1792 1816
+type(
+  bool ref
+)
+"src/frontc/frontc.ml" 47 1818 1822 "src/frontc/frontc.ml" 47 1818 1834
+type(
+  'a -> unit
+)
+ident(
+  def close_output "src/frontc/frontc.ml" 56 1983 1983 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 47 1818 1835 "src/frontc/frontc.ml" 47 1818 1836
+type(
+  'a
+)
+"src/frontc/frontc.ml" 48 1839 1847 "src/frontc/frontc.ml" 48 1839 1848
+type(
+  out_channel option ref -> out_channel option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 48 1839 1848 "src/frontc/frontc.ml" 48 1839 1851
+type(
+  out_channel option ref
+)
+ident(
+  int_ref out "src/frontc/frontc.ml" 44 1748 1752 "src/frontc/frontc.ml" 44 1748 1755
+)
+"src/frontc/frontc.ml" 48 1839 1847 "src/frontc/frontc.ml" 48 1839 1851
+type(
+  out_channel option
+)
+"src/frontc/frontc.ml" 49 1857 1861 "src/frontc/frontc.ml" 49 1857 1865
+type(
+  out_channel option
+)
+"src/frontc/frontc.ml" 49 1857 1869 "src/frontc/frontc.ml" 49 1857 1871
+type(
+  unit
+)
+"src/frontc/frontc.ml" 50 1872 1881 "src/frontc/frontc.ml" 50 1872 1882
+type(
+  out_channel
+)
+ident(
+  def o "src/frontc/frontc.ml" 50 1872 1886 "src/frontc/frontc.ml" 54 1976 1981
+)
+"src/frontc/frontc.ml" 50 1872 1876 "src/frontc/frontc.ml" 50 1872 1882
+type(
+  out_channel option
+)
+"src/frontc/frontc.ml" 51 1892 1898 "src/frontc/frontc.ml" 51 1892 1903
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/frontc/frontc.ml" 51 1892 1904 "src/frontc/frontc.ml" 51 1892 1905
+type(
+  out_channel
+)
+ident(
+  int_ref o "src/frontc/frontc.ml" 50 1872 1881 "src/frontc/frontc.ml" 50 1872 1882
+)
+"src/frontc/frontc.ml" 51 1892 1898 "src/frontc/frontc.ml" 51 1892 1905
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 52 1907 1916 "src/frontc/frontc.ml" 52 1907 1917
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 52 1907 1917 "src/frontc/frontc.ml" 52 1907 1925
+type(
+  bool ref
+)
+ident(
+  int_ref close_me "src/frontc/frontc.ml" 45 1792 1796 "src/frontc/frontc.ml" 45 1792 1804
+)
+"src/frontc/frontc.ml" 52 1907 1916 "src/frontc/frontc.ml" 52 1907 1925
+type(
+  bool
+)
+"src/frontc/frontc.ml" 52 1907 1931 "src/frontc/frontc.ml" 52 1907 1940
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/frontc/frontc.ml" 52 1907 1941 "src/frontc/frontc.ml" 52 1907 1942
+type(
+  out_channel
+)
+ident(
+  int_ref o "src/frontc/frontc.ml" 50 1872 1881 "src/frontc/frontc.ml" 50 1872 1882
+)
+"src/frontc/frontc.ml" 52 1907 1931 "src/frontc/frontc.ml" 52 1907 1942
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 52 1907 1948 "src/frontc/frontc.ml" 52 1907 1950
+type(
+  unit
+)
+"src/frontc/frontc.ml" 52 1907 1913 "src/frontc/frontc.ml" 52 1907 1950
+type(
+  unit
+)
+"src/frontc/frontc.ml" 53 1952 1958 "src/frontc/frontc.ml" 53 1952 1966
+type(
+  bool ref
+)
+ident(
+  int_ref close_me "src/frontc/frontc.ml" 45 1792 1796 "src/frontc/frontc.ml" 45 1792 1804
+)
+"src/frontc/frontc.ml" 53 1952 1967 "src/frontc/frontc.ml" 53 1952 1969
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/frontc.ml" 53 1952 1970 "src/frontc/frontc.ml" 53 1952 1975
+type(
+  bool
+)
+"src/frontc/frontc.ml" 53 1952 1958 "src/frontc/frontc.ml" 53 1952 1975
+type(
+  unit
+)
+"src/frontc/frontc.ml" 52 1907 1913 "src/frontc/frontc.ml" 53 1952 1975
+type(
+  unit
+)
+"src/frontc/frontc.ml" 50 1872 1886 "src/frontc/frontc.ml" 54 1976 1981
+type(
+  unit
+)
+"src/frontc/frontc.ml" 48 1839 1841 "src/frontc/frontc.ml" 54 1976 1981
+type(
+  unit
+)
+"src/frontc/frontc.ml" 56 1983 1987 "src/frontc/frontc.ml" 56 1983 1997
+type(
+  string -> unit
+)
+ident(
+  def set_output "src/frontc/frontc.ml" 66 2291 2291 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 56 1983 1998 "src/frontc/frontc.ml" 56 1983 2006
+type(
+  string
+)
+ident(
+  def filename "src/frontc/frontc.ml" 57 2009 2011 "src/frontc/frontc.ml" 63 2229 2247
+)
+"src/frontc/frontc.ml" 57 2009 2011 "src/frontc/frontc.ml" 57 2009 2023
+type(
+  unit -> unit
+)
+ident(
+  int_ref close_output "src/frontc/frontc.ml" 47 1818 1822 "src/frontc/frontc.ml" 47 1818 1834
+)
+"src/frontc/frontc.ml" 57 2009 2024 "src/frontc/frontc.ml" 57 2009 2026
+type(
+  unit
+)
+"src/frontc/frontc.ml" 57 2009 2011 "src/frontc/frontc.ml" 57 2009 2026
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 58 2028 2034 "src/frontc/frontc.ml" 58 2028 2042
+type(
+  out_channel
+)
+ident(
+  def out_chan "src/frontc/frontc.ml" 61 2172 2174 "src/frontc/frontc.ml" 63 2229 2247
+)
+"src/frontc/frontc.ml" 58 2028 2049 "src/frontc/frontc.ml" 58 2028 2057
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"src/frontc/frontc.ml" 58 2028 2058 "src/frontc/frontc.ml" 58 2028 2066
+type(
+  string
+)
+ident(
+  int_ref filename "src/frontc/frontc.ml" 56 1983 1998 "src/frontc/frontc.ml" 56 1983 2006
+)
+"src/frontc/frontc.ml" 58 2028 2049 "src/frontc/frontc.ml" 58 2028 2066
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/frontc/frontc.ml" 59 2068 2087 "src/frontc/frontc.ml" 59 2068 2090
+type(
+  string
+)
+ident(
+  def msg "src/frontc/frontc.ml" 60 2095 2099 "src/frontc/frontc.ml" 60 2095 2168
+)
+"src/frontc/frontc.ml" 59 2068 2077 "src/frontc/frontc.ml" 59 2068 2090
+type(
+  exn
+)
+"src/frontc/frontc.ml" 60 2095 2100 "src/frontc/frontc.ml" 60 2095 2113
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/frontc/frontc.ml" 60 2095 2114 "src/frontc/frontc.ml" 60 2095 2120
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"src/frontc/frontc.ml" 60 2095 2122 "src/frontc/frontc.ml" 60 2095 2152
+type(
+  string
+)
+"src/frontc/frontc.ml" 60 2095 2153 "src/frontc/frontc.ml" 60 2095 2154
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/frontc.ml" 60 2095 2155 "src/frontc/frontc.ml" 60 2095 2158
+type(
+  string
+)
+ident(
+  int_ref msg "src/frontc/frontc.ml" 59 2068 2087 "src/frontc/frontc.ml" 59 2068 2090
+)
+"src/frontc/frontc.ml" 60 2095 2121 "src/frontc/frontc.ml" 60 2095 2159
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/frontc.ml" 60 2095 2100 "src/frontc/frontc.ml" 60 2095 2159
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 60 2095 2161 "src/frontc/frontc.ml" 60 2095 2165
+type(
+  int -> out_channel
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"src/frontc/frontc.ml" 60 2095 2166 "src/frontc/frontc.ml" 60 2095 2167
+type(
+  int
+)
+"src/frontc/frontc.ml" 60 2095 2161 "src/frontc/frontc.ml" 60 2095 2167
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/frontc/frontc.ml" 60 2095 2099 "src/frontc/frontc.ml" 60 2095 2168
+type(
+  out_channel
+)
+"src/frontc/frontc.ml" 58 2028 2045 "src/frontc/frontc.ml" 60 2095 2168
+type(
+  out_channel
+)
+"src/frontc/frontc.ml" 61 2172 2174 "src/frontc/frontc.ml" 61 2172 2177
+type(
+  out_channel option ref
+)
+ident(
+  int_ref out "src/frontc/frontc.ml" 44 1748 1752 "src/frontc/frontc.ml" 44 1748 1755
+)
+"src/frontc/frontc.ml" 61 2172 2178 "src/frontc/frontc.ml" 61 2172 2180
+type(
+  out_channel option ref -> out_channel option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/frontc.ml" 61 2172 2186 "src/frontc/frontc.ml" 61 2172 2194
+type(
+  out_channel
+)
+ident(
+  int_ref out_chan "src/frontc/frontc.ml" 58 2028 2034 "src/frontc/frontc.ml" 58 2028 2042
+)
+"src/frontc/frontc.ml" 61 2172 2181 "src/frontc/frontc.ml" 61 2172 2194
+type(
+  out_channel option
+)
+"src/frontc/frontc.ml" 61 2172 2174 "src/frontc/frontc.ml" 61 2172 2194
+type(
+  unit
+)
+"src/frontc/frontc.ml" 62 2196 2198 "src/frontc/frontc.ml" 62 2196 2218
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Whitetrack.setOutput
+)
+"src/frontc/frontc.ml" 62 2196 2219 "src/frontc/frontc.ml" 62 2196 2227
+type(
+  out_channel
+)
+ident(
+  int_ref out_chan "src/frontc/frontc.ml" 58 2028 2034 "src/frontc/frontc.ml" 58 2028 2042
+)
+"src/frontc/frontc.ml" 62 2196 2198 "src/frontc/frontc.ml" 62 2196 2227
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 63 2229 2231 "src/frontc/frontc.ml" 63 2229 2239
+type(
+  bool ref
+)
+ident(
+  int_ref close_me "src/frontc/frontc.ml" 45 1792 1796 "src/frontc/frontc.ml" 45 1792 1804
+)
+"src/frontc/frontc.ml" 63 2229 2240 "src/frontc/frontc.ml" 63 2229 2242
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/frontc.ml" 63 2229 2243 "src/frontc/frontc.ml" 63 2229 2247
+type(
+  bool
+)
+"src/frontc/frontc.ml" 63 2229 2231 "src/frontc/frontc.ml" 63 2229 2247
+type(
+  unit
+)
+"src/frontc/frontc.ml" 62 2196 2198 "src/frontc/frontc.ml" 63 2229 2247
+type(
+  unit
+)
+"src/frontc/frontc.ml" 61 2172 2174 "src/frontc/frontc.ml" 63 2229 2247
+type(
+  unit
+)
+"src/frontc/frontc.ml" 58 2028 2030 "src/frontc/frontc.ml" 63 2229 2247
+type(
+  unit
+)
+"src/frontc/frontc.ml" 57 2009 2011 "src/frontc/frontc.ml" 63 2229 2247
+type(
+  unit
+)
+"src/frontc/frontc.ml" 66 2291 2295 "src/frontc/frontc.ml" 66 2291 2306
+type(
+  unit -> unit
+)
+ident(
+  def setMSVCMode "src/frontc/frontc.ml" 70 2367 2367 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 66 2291 2307 "src/frontc/frontc.ml" 66 2291 2309
+type(
+  unit
+)
+"src/frontc/frontc.ml" 67 2312 2314 "src/frontc/frontc.ml" 67 2312 2329
+type(
+  bool ref
+)
+ident(
+  ext_ref Cprint.msvcMode
+)
+"src/frontc/frontc.ml" 67 2312 2330 "src/frontc/frontc.ml" 67 2312 2332
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/frontc.ml" 67 2312 2333 "src/frontc/frontc.ml" 67 2312 2337
+type(
+  bool
+)
+"src/frontc/frontc.ml" 67 2312 2314 "src/frontc/frontc.ml" 67 2312 2337
+type(
+  unit
+)
+"src/frontc/frontc.ml" 70 2367 2371 "src/frontc/frontc.ml" 70 2367 2384
+type(
+  string ref
+)
+ident(
+  def patchFileName "src/frontc/frontc.ml" 73 2474 2474 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 70 2367 2400 "src/frontc/frontc.ml" 70 2367 2403
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/frontc.ml" 70 2367 2404 "src/frontc/frontc.ml" 70 2367 2406
+type(
+  string
+)
+"src/frontc/frontc.ml" 70 2367 2400 "src/frontc/frontc.ml" 70 2367 2406
+type(
+  string ref
+)
+type(
+  string ref
+)
+"src/frontc/frontc.ml" 73 2474 2478 "src/frontc/frontc.ml" 73 2474 2487
+type(
+  Cabs.file option ref
+)
+ident(
+  def patchFile "src/frontc/frontc.ml" 76 2569 2569 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 73 2474 2513 "src/frontc/frontc.ml" 73 2474 2516
+type(
+  Cabs.file option -> Cabs.file option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/frontc.ml" 73 2474 2517 "src/frontc/frontc.ml" 73 2474 2521
+type(
+  Cabs.file option
+)
+"src/frontc/frontc.ml" 73 2474 2513 "src/frontc/frontc.ml" 73 2474 2521
+type(
+  Cabs.file option ref
+)
+type(
+  Cabs.file option ref
+)
+"src/frontc/frontc.ml" 76 2569 2573 "src/frontc/frontc.ml" 76 2569 2590
+type(
+  bool ref
+)
+ident(
+  def printPatchedFiles "src/frontc/frontc.ml" 79 2673 2673 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 76 2569 2604 "src/frontc/frontc.ml" 76 2569 2607
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/frontc.ml" 76 2569 2608 "src/frontc/frontc.ml" 76 2569 2613
+type(
+  bool
+)
+"src/frontc/frontc.ml" 76 2569 2604 "src/frontc/frontc.ml" 76 2569 2613
+type(
+  bool ref
+)
+type(
+  bool ref
+)
+"src/frontc/frontc.ml" 79 2673 2677 "src/frontc/frontc.ml" 79 2673 2690
+type(
+  bool ref
+)
+ident(
+  def doPrintProtos "src/frontc/frontc.ml" 82 2773 2773 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 79 2673 2704 "src/frontc/frontc.ml" 79 2673 2707
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/frontc.ml" 79 2673 2708 "src/frontc/frontc.ml" 79 2673 2713
+type(
+  bool
+)
+"src/frontc/frontc.ml" 79 2673 2704 "src/frontc/frontc.ml" 79 2673 2713
+type(
+  bool ref
+)
+type(
+  bool ref
+)
+"src/frontc/frontc.ml" 82 2773 2777 "src/frontc/frontc.ml" 82 2773 2783
+type(
+  'a option -> bool
+)
+ident(
+  def isNone "src/frontc/frontc.ml" 89 2872 2872 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 82 2773 2785 "src/frontc/frontc.ml" 82 2773 2786
+type(
+  'a option
+)
+ident(
+  def o "src/frontc/frontc.ml" 82 2773 2800 "src/frontc/frontc.ml" 87 2867 2870
+)
+"src/frontc/frontc.ml" 84 2815 2823 "src/frontc/frontc.ml" 84 2815 2824
+type(
+  'a option
+)
+ident(
+  int_ref o "src/frontc/frontc.ml" 82 2773 2785 "src/frontc/frontc.ml" 82 2773 2786
+)
+"src/frontc/frontc.ml" 85 2830 2839 "src/frontc/frontc.ml" 85 2830 2840
+type(
+  'a
+)
+"src/frontc/frontc.ml" 85 2830 2834 "src/frontc/frontc.ml" 85 2830 2840
+type(
+  'a option
+)
+"src/frontc/frontc.ml" 85 2830 2844 "src/frontc/frontc.ml" 85 2830 2849
+type(
+  bool
+)
+"src/frontc/frontc.ml" 86 2850 2854 "src/frontc/frontc.ml" 86 2850 2858
+type(
+  'a option
+)
+"src/frontc/frontc.ml" 86 2850 2862 "src/frontc/frontc.ml" 86 2850 2866
+type(
+  bool
+)
+"src/frontc/frontc.ml" 83 2809 2809 "src/frontc/frontc.ml" 87 2867 2870
+type(
+  bool
+)
+type(
+  bool
+)
+"src/frontc/frontc.ml" 89 2872 2876 "src/frontc/frontc.ml" 89 2872 2887
+type(
+  bool ref
+)
+ident(
+  def printNotice "src/frontc/frontc.ml" 94 2930 2930 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 89 2872 2890 "src/frontc/frontc.ml" 89 2872 2893
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/frontc.ml" 89 2872 2894 "src/frontc/frontc.ml" 89 2872 2899
+type(
+  bool
+)
+"src/frontc/frontc.ml" 89 2872 2890 "src/frontc/frontc.ml" 89 2872 2899
+type(
+  bool ref
+)
+"src/frontc/frontc.ml" 94 2930 2934 "src/frontc/frontc.ml" 94 2930 2938
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def args "src/frontc/frontc.ml" 109 3695 3695 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 96 2979 2981 "src/frontc/frontc.ml" 96 2979 2993
+type(
+  string
+)
+"src/frontc/frontc.ml" 96 2979 3006 "src/frontc/frontc.ml" 96 2979 3016
+type(
+  string -> unit
+)
+ident(
+  int_ref set_output "src/frontc/frontc.ml" 56 1983 1987 "src/frontc/frontc.ml" 56 1983 1997
+)
+"src/frontc/frontc.ml" 96 2979 2995 "src/frontc/frontc.ml" 96 2979 3016
+type(
+  Arg.spec
+)
+"src/frontc/frontc.ml" 96 2979 3018 "src/frontc/frontc.ml" 96 2979 3049
+type(
+  string
+)
+"src/frontc/frontc.ml" 96 2979 2981 "src/frontc/frontc.ml" 96 2979 3049
+type(
+  string * Arg.spec * string
+)
+"src/frontc/frontc.ml" 97 3051 3053 "src/frontc/frontc.ml" 97 3051 3070
+type(
+  string
+)
+"src/frontc/frontc.ml" 97 3051 3086 "src/frontc/frontc.ml" 97 3051 3087
+type(
+  unit
+)
+"src/frontc/frontc.ml" 97 3051 3091 "src/frontc/frontc.ml" 97 3051 3111
+type(
+  bool ref
+)
+ident(
+  ext_ref Cprint.printComments
+)
+"src/frontc/frontc.ml" 97 3051 3112 "src/frontc/frontc.ml" 97 3051 3114
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/frontc.ml" 97 3051 3115 "src/frontc/frontc.ml" 97 3051 3119
+type(
+  bool
+)
+"src/frontc/frontc.ml" 97 3051 3091 "src/frontc/frontc.ml" 97 3051 3119
+type(
+  unit
+)
+"src/frontc/frontc.ml" 97 3051 3081 "src/frontc/frontc.ml" 97 3051 3120
+type(
+  unit -> unit
+)
+"src/frontc/frontc.ml" 97 3051 3072 "src/frontc/frontc.ml" 97 3051 3120
+type(
+  Arg.spec
+)
+"src/frontc/frontc.ml" 98 3122 3135 "src/frontc/frontc.ml" 98 3122 3190
+type(
+  string
+)
+"src/frontc/frontc.ml" 97 3051 3053 "src/frontc/frontc.ml" 98 3122 3190
+type(
+  string * Arg.spec * string
+)
+"src/frontc/frontc.ml" 99 3192 3194 "src/frontc/frontc.ml" 99 3192 3207
+type(
+  string
+)
+"src/frontc/frontc.ml" 99 3192 3225 "src/frontc/frontc.ml" 99 3192 3227
+type(
+  string
+)
+ident(
+  def pf "src/frontc/frontc.ml" 99 3192 3231 "src/frontc/frontc.ml" 99 3192 3250
+)
+"src/frontc/frontc.ml" 99 3192 3231 "src/frontc/frontc.ml" 99 3192 3244
+type(
+  string ref
+)
+ident(
+  int_ref patchFileName "src/frontc/frontc.ml" 70 2367 2371 "src/frontc/frontc.ml" 70 2367 2384
+)
+"src/frontc/frontc.ml" 99 3192 3245 "src/frontc/frontc.ml" 99 3192 3247
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/frontc.ml" 99 3192 3248 "src/frontc/frontc.ml" 99 3192 3250
+type(
+  string
+)
+ident(
+  int_ref pf "src/frontc/frontc.ml" 99 3192 3225 "src/frontc/frontc.ml" 99 3192 3227
+)
+"src/frontc/frontc.ml" 99 3192 3231 "src/frontc/frontc.ml" 99 3192 3250
+type(
+  unit
+)
+"src/frontc/frontc.ml" 99 3192 3220 "src/frontc/frontc.ml" 99 3192 3251
+type(
+  string -> unit
+)
+"src/frontc/frontc.ml" 99 3192 3209 "src/frontc/frontc.ml" 99 3192 3251
+type(
+  Arg.spec
+)
+"src/frontc/frontc.ml" 100 3253 3266 "src/frontc/frontc.ml" 100 3253 3325
+type(
+  string
+)
+"src/frontc/frontc.ml" 99 3192 3194 "src/frontc/frontc.ml" 100 3253 3325
+type(
+  string * Arg.spec * string
+)
+"src/frontc/frontc.ml" 101 3327 3329 "src/frontc/frontc.ml" 101 3327 3345
+type(
+  string
+)
+"src/frontc/frontc.ml" 101 3327 3361 "src/frontc/frontc.ml" 101 3327 3362
+type(
+  unit
+)
+"src/frontc/frontc.ml" 101 3327 3366 "src/frontc/frontc.ml" 101 3327 3383
+type(
+  bool ref
+)
+ident(
+  int_ref printPatchedFiles "src/frontc/frontc.ml" 76 2569 2573 "src/frontc/frontc.ml" 76 2569 2590
+)
+"src/frontc/frontc.ml" 101 3327 3384 "src/frontc/frontc.ml" 101 3327 3386
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/frontc.ml" 101 3327 3387 "src/frontc/frontc.ml" 101 3327 3391
+type(
+  bool
+)
+"src/frontc/frontc.ml" 101 3327 3366 "src/frontc/frontc.ml" 101 3327 3391
+type(
+  unit
+)
+"src/frontc/frontc.ml" 101 3327 3356 "src/frontc/frontc.ml" 101 3327 3392
+type(
+  unit -> unit
+)
+"src/frontc/frontc.ml" 101 3327 3347 "src/frontc/frontc.ml" 101 3327 3392
+type(
+  Arg.spec
+)
+"src/frontc/frontc.ml" 102 3394 3407 "src/frontc/frontc.ml" 102 3394 3463
+type(
+  string
+)
+"src/frontc/frontc.ml" 101 3327 3329 "src/frontc/frontc.ml" 102 3394 3463
+type(
+  string * Arg.spec * string
+)
+"src/frontc/frontc.ml" 103 3465 3467 "src/frontc/frontc.ml" 103 3465 3482
+type(
+  string
+)
+"src/frontc/frontc.ml" 103 3465 3498 "src/frontc/frontc.ml" 103 3465 3499
+type(
+  unit
+)
+"src/frontc/frontc.ml" 103 3465 3503 "src/frontc/frontc.ml" 103 3465 3516
+type(
+  bool ref
+)
+ident(
+  int_ref doPrintProtos "src/frontc/frontc.ml" 79 2673 2677 "src/frontc/frontc.ml" 79 2673 2690
+)
+"src/frontc/frontc.ml" 103 3465 3517 "src/frontc/frontc.ml" 103 3465 3519
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/frontc.ml" 103 3465 3520 "src/frontc/frontc.ml" 103 3465 3524
+type(
+  bool
+)
+"src/frontc/frontc.ml" 103 3465 3503 "src/frontc/frontc.ml" 103 3465 3524
+type(
+  unit
+)
+"src/frontc/frontc.ml" 103 3465 3493 "src/frontc/frontc.ml" 103 3465 3525
+type(
+  unit -> unit
+)
+"src/frontc/frontc.ml" 103 3465 3484 "src/frontc/frontc.ml" 103 3465 3525
+type(
+  Arg.spec
+)
+"src/frontc/frontc.ml" 104 3527 3540 "src/frontc/frontc.ml" 104 3527 3590
+type(
+  string
+)
+"src/frontc/frontc.ml" 103 3465 3467 "src/frontc/frontc.ml" 104 3527 3590
+type(
+  string * Arg.spec * string
+)
+"src/frontc/frontc.ml" 105 3592 3594 "src/frontc/frontc.ml" 105 3592 3609
+type(
+  string
+)
+"src/frontc/frontc.ml" 105 3592 3619 "src/frontc/frontc.ml" 105 3592 3630
+type(
+  bool ref
+)
+ident(
+  int_ref printNotice "src/frontc/frontc.ml" 89 2872 2876 "src/frontc/frontc.ml" 89 2872 2887
+)
+"src/frontc/frontc.ml" 105 3592 3611 "src/frontc/frontc.ml" 105 3592 3630
+type(
+  Arg.spec
+)
+"src/frontc/frontc.ml" 106 3632 3645 "src/frontc/frontc.ml" 106 3632 3690
+type(
+  string
+)
+"src/frontc/frontc.ml" 105 3592 3594 "src/frontc/frontc.ml" 106 3632 3690
+type(
+  string * Arg.spec * string
+)
+"src/frontc/frontc.ml" 95 2977 2977 "src/frontc/frontc.ml" 107 3692 3693
+type(
+  (string * Arg.spec * string) list
+)
+type(
+  (string * Arg.spec * string) list
+)
+"src/frontc/frontc.ml" 113 3778 3786 "src/frontc/frontc.ml" 113 3778 3799
+type(
+  string -> Cabs.file
+)
+ident(
+  def parse_to_cabs "src/frontc/frontc.ml" 113 3778 3778 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 113 3778 3800 "src/frontc/frontc.ml" 113 3778 3805
+type(
+  string
+)
+ident(
+  def fname "src/frontc/frontc.ml" 114 3808 3808 "src/frontc/frontc.ml" 174 5666 5669
+)
+"src/frontc/frontc.ml" 116 3870 3877 "src/frontc/frontc.ml" 116 3870 3878
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 116 3870 3878 "src/frontc/frontc.ml" 116 3870 3891
+type(
+  string ref
+)
+ident(
+  int_ref patchFileName "src/frontc/frontc.ml" 70 2367 2371 "src/frontc/frontc.ml" 70 2367 2384
+)
+"src/frontc/frontc.ml" 116 3870 3877 "src/frontc/frontc.ml" 116 3870 3891
+type(
+  string
+)
+"src/frontc/frontc.ml" 116 3870 3892 "src/frontc/frontc.ml" 116 3870 3894
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/frontc/frontc.ml" 116 3870 3895 "src/frontc/frontc.ml" 116 3870 3897
+type(
+  string
+)
+"src/frontc/frontc.ml" 116 3870 3876 "src/frontc/frontc.ml" 116 3870 3898
+type(
+  bool
+)
+"src/frontc/frontc.ml" 116 3870 3899 "src/frontc/frontc.ml" 116 3870 3901
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/frontc/frontc.ml" 116 3870 3903 "src/frontc/frontc.ml" 116 3870 3909
+type(
+  Cabs.file option -> bool
+)
+ident(
+  int_ref isNone "src/frontc/frontc.ml" 82 2773 2777 "src/frontc/frontc.ml" 82 2773 2783
+)
+"src/frontc/frontc.ml" 116 3870 3910 "src/frontc/frontc.ml" 116 3870 3911
+type(
+  Cabs.file option ref -> Cabs.file option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 116 3870 3911 "src/frontc/frontc.ml" 116 3870 3920
+type(
+  Cabs.file option ref
+)
+ident(
+  int_ref patchFile "src/frontc/frontc.ml" 73 2474 2478 "src/frontc/frontc.ml" 73 2474 2487
+)
+"src/frontc/frontc.ml" 116 3870 3910 "src/frontc/frontc.ml" 116 3870 3920
+type(
+  Cabs.file option
+)
+"src/frontc/frontc.ml" 116 3870 3902 "src/frontc/frontc.ml" 116 3870 3921
+call(
+  stack
+)
+type(
+  bool
+)
+"src/frontc/frontc.ml" 116 3870 3875 "src/frontc/frontc.ml" 116 3870 3922
+type(
+  bool
+)
+"src/frontc/frontc.ml" 118 3961 3965 "src/frontc/frontc.ml" 118 3961 3974
+type(
+  Cabs.file option ref
+)
+ident(
+  int_ref patchFile "src/frontc/frontc.ml" 73 2474 2478 "src/frontc/frontc.ml" 73 2474 2487
+)
+"src/frontc/frontc.ml" 118 3961 3975 "src/frontc/frontc.ml" 118 3961 3977
+type(
+  Cabs.file option ref -> Cabs.file option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/frontc.ml" 118 3961 3983 "src/frontc/frontc.ml" 118 3961 4002
+type(
+  string -> Cabs.file
+)
+ident(
+  int_ref parse_to_cabs_inner "src/frontc/frontc.ml" 186 5987 5991 "src/frontc/frontc.ml" 186 5987 6010
+)
+"src/frontc/frontc.ml" 118 3961 4003 "src/frontc/frontc.ml" 118 3961 4004
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 118 3961 4004 "src/frontc/frontc.ml" 118 3961 4017
+type(
+  string ref
+)
+ident(
+  int_ref patchFileName "src/frontc/frontc.ml" 70 2367 2371 "src/frontc/frontc.ml" 70 2367 2384
+)
+"src/frontc/frontc.ml" 118 3961 4003 "src/frontc/frontc.ml" 118 3961 4017
+type(
+  string
+)
+"src/frontc/frontc.ml" 118 3961 3982 "src/frontc/frontc.ml" 118 3961 4018
+call(
+  stack
+)
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 118 3961 3978 "src/frontc/frontc.ml" 118 3961 4018
+type(
+  Cabs.file option
+)
+"src/frontc/frontc.ml" 118 3961 3965 "src/frontc/frontc.ml" 118 3961 4018
+type(
+  unit
+)
+"src/frontc/frontc.ml" 119 4020 4027 "src/frontc/frontc.ml" 119 4020 4028
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 119 4020 4028 "src/frontc/frontc.ml" 119 4020 4039
+type(
+  bool ref
+)
+ident(
+  ext_ref E.hadErrors
+)
+"src/frontc/frontc.ml" 119 4020 4027 "src/frontc/frontc.ml" 119 4020 4039
+type(
+  bool
+)
+"src/frontc/frontc.ml" 120 4045 4052 "src/frontc/frontc.ml" 120 4045 4060
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/frontc/frontc.ml" 120 4045 4061 "src/frontc/frontc.ml" 120 4045 4106
+type(
+  string
+)
+"src/frontc/frontc.ml" 120 4045 4051 "src/frontc/frontc.ml" 120 4045 4107
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 119 4020 4024 "src/frontc/frontc.ml" 120 4045 4107
+type(
+  unit
+)
+"src/frontc/frontc.ml" 116 3870 3928 "src/frontc/frontc.ml" 121 4108 4111
+type(
+  unit
+)
+"src/frontc/frontc.ml" 116 3870 3872 "src/frontc/frontc.ml" 121 4108 4111
+type(
+  unit
+)
+"src/frontc/frontc.ml" 124 4163 4169 "src/frontc/frontc.ml" 124 4163 4173
+type(
+  Cabs.file
+)
+ident(
+  def cabs "src/frontc/frontc.ml" 125 4205 4207 "src/frontc/frontc.ml" 173 5656 5665
+)
+"src/frontc/frontc.ml" 124 4163 4176 "src/frontc/frontc.ml" 124 4163 4195
+type(
+  string -> Cabs.file
+)
+ident(
+  int_ref parse_to_cabs_inner "src/frontc/frontc.ml" 186 5987 5991 "src/frontc/frontc.ml" 186 5987 6010
+)
+"src/frontc/frontc.ml" 124 4163 4196 "src/frontc/frontc.ml" 124 4163 4201
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 113 3778 3800 "src/frontc/frontc.ml" 113 3778 3805
+)
+"src/frontc/frontc.ml" 124 4163 4176 "src/frontc/frontc.ml" 124 4163 4201
+call(
+  stack
+)
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 125 4205 4210 "src/frontc/frontc.ml" 125 4205 4211
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 125 4205 4211 "src/frontc/frontc.ml" 125 4205 4222
+type(
+  bool ref
+)
+ident(
+  ext_ref E.hadErrors
+)
+"src/frontc/frontc.ml" 125 4205 4210 "src/frontc/frontc.ml" 125 4205 4222
+type(
+  bool
+)
+"src/frontc/frontc.ml" 126 4229 4233 "src/frontc/frontc.ml" 126 4229 4236
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.s
+)
+"src/frontc/frontc.ml" 126 4229 4238 "src/frontc/frontc.ml" 126 4229 4245
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.error
+)
+"src/frontc/frontc.ml" 126 4229 4246 "src/frontc/frontc.ml" 126 4229 4279
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/frontc/frontc.ml" 126 4229 4280 "src/frontc/frontc.ml" 126 4229 4285
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 113 3778 3800 "src/frontc/frontc.ml" 113 3778 3805
+)
+"src/frontc/frontc.ml" 126 4229 4237 "src/frontc/frontc.ml" 126 4229 4286
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 126 4229 4233 "src/frontc/frontc.ml" 126 4229 4286
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 125 4205 4207 "src/frontc/frontc.ml" 126 4229 4286
+type(
+  unit
+)
+"src/frontc/frontc.ml" 129 4347 4353 "src/frontc/frontc.ml" 129 4347 4360
+type(
+  Cabs.file
+)
+ident(
+  def patched "src/frontc/frontc.ml" 160 5262 5264 "src/frontc/frontc.ml" 173 5656 5665
+)
+"src/frontc/frontc.ml" 129 4347 4369 "src/frontc/frontc.ml" 129 4347 4370
+type(
+  Cabs.file option ref -> Cabs.file option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 129 4347 4370 "src/frontc/frontc.ml" 129 4347 4379
+type(
+  Cabs.file option ref
+)
+ident(
+  int_ref patchFile "src/frontc/frontc.ml" 73 2474 2478 "src/frontc/frontc.ml" 73 2474 2487
+)
+"src/frontc/frontc.ml" 129 4347 4369 "src/frontc/frontc.ml" 129 4347 4379
+type(
+  Cabs.file option
+)
+"src/frontc/frontc.ml" 131 4386 4397 "src/frontc/frontc.ml" 131 4386 4399
+ident(
+  def pf "src/frontc/frontc.ml" 131 4386 4404 "src/frontc/frontc.ml" 155 5208 5215
+)
+"src/frontc/frontc.ml" 131 4386 4396 "src/frontc/frontc.ml" 131 4386 4400
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 131 4386 4392 "src/frontc/frontc.ml" 131 4386 4400
+type(
+  Cabs.file option
+)
+"src/frontc/frontc.ml" 133 4488 4500 "src/frontc/frontc.ml" 133 4488 4506
+type(
+  out_channel option
+)
+ident(
+  def oldOut "src/frontc/frontc.ml" 136 4588 4596 "src/frontc/frontc.ml" 154 5193 5207
+)
+"src/frontc/frontc.ml" 133 4488 4509 "src/frontc/frontc.ml" 133 4488 4510
+type(
+  out_channel option ref -> out_channel option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 133 4488 4510 "src/frontc/frontc.ml" 133 4488 4513
+type(
+  out_channel option ref
+)
+ident(
+  int_ref out "src/frontc/frontc.ml" 44 1748 1752 "src/frontc/frontc.ml" 44 1748 1755
+)
+"src/frontc/frontc.ml" 133 4488 4509 "src/frontc/frontc.ml" 133 4488 4513
+type(
+  out_channel option
+)
+"src/frontc/frontc.ml" 136 4588 4596 "src/frontc/frontc.ml" 136 4588 4599
+type(
+  out_channel option ref
+)
+ident(
+  int_ref out "src/frontc/frontc.ml" 44 1748 1752 "src/frontc/frontc.ml" 44 1748 1755
+)
+"src/frontc/frontc.ml" 136 4588 4600 "src/frontc/frontc.ml" 136 4588 4602
+type(
+  out_channel option ref -> out_channel option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/frontc.ml" 136 4588 4603 "src/frontc/frontc.ml" 136 4588 4607
+type(
+  out_channel option
+)
+"src/frontc/frontc.ml" 136 4588 4596 "src/frontc/frontc.ml" 136 4588 4607
+type(
+  unit
+)
+"src/frontc/frontc.ml" 138 4610 4619 "src/frontc/frontc.ml" 138 4610 4624
+type(
+  string -> Pretty.doc -> unit
+)
+ident(
+  ext_ref Trace.trace
+)
+"src/frontc/frontc.ml" 138 4610 4625 "src/frontc/frontc.ml" 138 4610 4632
+type(
+  string
+)
+"src/frontc/frontc.ml" 138 4610 4634 "src/frontc/frontc.ml" 138 4610 4641
+type(
+  (string -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4 ->
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/frontc/frontc.ml" 138 4610 4642 "src/frontc/frontc.ml" 138 4610 4660
+type(
+  (string -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4
+)
+"src/frontc/frontc.ml" 138 4610 4661 "src/frontc/frontc.ml" 138 4610 4666
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 113 3778 3800 "src/frontc/frontc.ml" 113 3778 3805
+)
+"src/frontc/frontc.ml" 138 4610 4633 "src/frontc/frontc.ml" 138 4610 4667
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/frontc/frontc.ml" 138 4610 4618 "src/frontc/frontc.ml" 138 4610 4668
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 139 4670 4682 "src/frontc/frontc.ml" 139 4670 4688
+type(
+  Cabs.file
+)
+ident(
+  def result "src/frontc/frontc.ml" 141 4746 4754 "src/frontc/frontc.ml" 154 5193 5207
+)
+"src/frontc/frontc.ml" 139 4670 4692 "src/frontc/frontc.ml" 139 4670 4702
+type(
+  string -> (Cabs.file -> Cabs.file) -> Cabs.file -> Cabs.file
+)
+ident(
+  ext_ref Stats.time
+)
+"src/frontc/frontc.ml" 139 4670 4703 "src/frontc/frontc.ml" 139 4670 4713
+type(
+  string
+)
+"src/frontc/frontc.ml" 139 4670 4715 "src/frontc/frontc.ml" 139 4670 4731
+type(
+  Cabs.file -> Cabs.file -> Cabs.file
+)
+ident(
+  ext_ref Patch.applyPatch
+)
+"src/frontc/frontc.ml" 139 4670 4732 "src/frontc/frontc.ml" 139 4670 4734
+type(
+  Cabs.file
+)
+ident(
+  int_ref pf "src/frontc/frontc.ml" 131 4386 4396 "src/frontc/frontc.ml" 131 4386 4400
+)
+"src/frontc/frontc.ml" 139 4670 4714 "src/frontc/frontc.ml" 139 4670 4735
+call(
+  stack
+)
+type(
+  Cabs.file -> Cabs.file
+)
+"src/frontc/frontc.ml" 139 4670 4736 "src/frontc/frontc.ml" 139 4670 4740
+type(
+  Cabs.file
+)
+ident(
+  int_ref cabs "src/frontc/frontc.ml" 124 4163 4169 "src/frontc/frontc.ml" 124 4163 4173
+)
+"src/frontc/frontc.ml" 139 4670 4691 "src/frontc/frontc.ml" 139 4670 4741
+call(
+  stack
+)
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 141 4746 4758 "src/frontc/frontc.ml" 141 4746 4759
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 141 4746 4759 "src/frontc/frontc.ml" 141 4746 4776
+type(
+  bool ref
+)
+ident(
+  int_ref printPatchedFiles "src/frontc/frontc.ml" 76 2569 2573 "src/frontc/frontc.ml" 76 2569 2590
+)
+"src/frontc/frontc.ml" 141 4746 4757 "src/frontc/frontc.ml" 141 4746 4777
+type(
+  bool
+)
+"src/frontc/frontc.ml" 142 4819 4833 "src/frontc/frontc.ml" 142 4819 4841
+type(
+  string
+)
+ident(
+  def outFname "src/frontc/frontc.ml" 143 4873 4883 "src/frontc/frontc.ml" 147 5080 5103
+)
+"src/frontc/frontc.ml" 142 4819 4851 "src/frontc/frontc.ml" 142 4819 4856
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 113 3778 3800 "src/frontc/frontc.ml" 113 3778 3805
+)
+"src/frontc/frontc.ml" 142 4819 4857 "src/frontc/frontc.ml" 142 4819 4858
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/frontc.ml" 142 4819 4859 "src/frontc/frontc.ml" 142 4819 4869
+type(
+  string
+)
+"src/frontc/frontc.ml" 142 4819 4851 "src/frontc/frontc.ml" 142 4819 4869
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string
+)
+"src/frontc/frontc.ml" 143 4873 4884 "src/frontc/frontc.ml" 143 4873 4889
+type(
+  string -> Pretty.doc -> unit
+)
+ident(
+  ext_ref Trace.trace
+)
+"src/frontc/frontc.ml" 143 4873 4890 "src/frontc/frontc.ml" 143 4873 4897
+type(
+  string
+)
+"src/frontc/frontc.ml" 143 4873 4899 "src/frontc/frontc.ml" 143 4873 4906
+type(
+  (string -> string -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4 ->
+  string -> string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/frontc/frontc.ml" 143 4873 4907 "src/frontc/frontc.ml" 143 4873 4947
+type(
+  (string -> string -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4
+)
+"src/frontc/frontc.ml" 144 4948 4982 "src/frontc/frontc.ml" 144 4948 4987
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 113 3778 3800 "src/frontc/frontc.ml" 113 3778 3805
+)
+"src/frontc/frontc.ml" 144 4948 4988 "src/frontc/frontc.ml" 144 4948 4996
+type(
+  string
+)
+ident(
+  int_ref outFname "src/frontc/frontc.ml" 142 4819 4833 "src/frontc/frontc.ml" 142 4819 4841
+)
+"src/frontc/frontc.ml" 143 4873 4898 "src/frontc/frontc.ml" 144 4948 4997
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/frontc/frontc.ml" 143 4873 4883 "src/frontc/frontc.ml" 144 4948 4998
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 145 5000 5014 "src/frontc/frontc.ml" 145 5000 5015
+type(
+  out_channel
+)
+ident(
+  def o "src/frontc/frontc.ml" 146 5041 5051 "src/frontc/frontc.ml" 147 5080 5103
+)
+"src/frontc/frontc.ml" 145 5000 5019 "src/frontc/frontc.ml" 145 5000 5027
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"src/frontc/frontc.ml" 145 5000 5028 "src/frontc/frontc.ml" 145 5000 5036
+type(
+  string
+)
+ident(
+  int_ref outFname "src/frontc/frontc.ml" 142 4819 4833 "src/frontc/frontc.ml" 142 4819 4841
+)
+"src/frontc/frontc.ml" 145 5000 5018 "src/frontc/frontc.ml" 145 5000 5037
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/frontc/frontc.ml" 146 5041 5052 "src/frontc/frontc.ml" 146 5041 5068
+type(
+  out_channel -> Cabs.file -> unit
+)
+ident(
+  ext_ref Cprint.printFile
+)
+"src/frontc/frontc.ml" 146 5041 5069 "src/frontc/frontc.ml" 146 5041 5070
+type(
+  out_channel
+)
+ident(
+  int_ref o "src/frontc/frontc.ml" 145 5000 5014 "src/frontc/frontc.ml" 145 5000 5015
+)
+"src/frontc/frontc.ml" 146 5041 5071 "src/frontc/frontc.ml" 146 5041 5077
+type(
+  Cabs.file
+)
+ident(
+  int_ref result "src/frontc/frontc.ml" 139 4670 4682 "src/frontc/frontc.ml" 139 4670 4688
+)
+"src/frontc/frontc.ml" 146 5041 5051 "src/frontc/frontc.ml" 146 5041 5078
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 147 5080 5091 "src/frontc/frontc.ml" 147 5080 5100
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/frontc/frontc.ml" 147 5080 5101 "src/frontc/frontc.ml" 147 5080 5102
+type(
+  out_channel
+)
+ident(
+  int_ref o "src/frontc/frontc.ml" 145 5000 5014 "src/frontc/frontc.ml" 145 5000 5015
+)
+"src/frontc/frontc.ml" 147 5080 5090 "src/frontc/frontc.ml" 147 5080 5103
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 146 5041 5051 "src/frontc/frontc.ml" 147 5080 5103
+type(
+  unit
+)
+"src/frontc/frontc.ml" 145 5000 5010 "src/frontc/frontc.ml" 147 5080 5103
+type(
+  unit
+)
+"src/frontc/frontc.ml" 143 4873 4883 "src/frontc/frontc.ml" 147 5080 5103
+type(
+  unit
+)
+"src/frontc/frontc.ml" 141 4746 4783 "src/frontc/frontc.ml" 148 5104 5115
+type(
+  unit
+)
+"src/frontc/frontc.ml" 141 4746 4754 "src/frontc/frontc.ml" 148 5104 5115
+type(
+  unit
+)
+"src/frontc/frontc.ml" 151 5144 5152 "src/frontc/frontc.ml" 151 5144 5164
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Cprint.flush
+)
+"src/frontc/frontc.ml" 151 5144 5165 "src/frontc/frontc.ml" 151 5144 5167
+type(
+  unit
+)
+"src/frontc/frontc.ml" 151 5144 5152 "src/frontc/frontc.ml" 151 5144 5167
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 152 5169 5177 "src/frontc/frontc.ml" 152 5169 5180
+type(
+  out_channel option ref
+)
+ident(
+  int_ref out "src/frontc/frontc.ml" 44 1748 1752 "src/frontc/frontc.ml" 44 1748 1755
+)
+"src/frontc/frontc.ml" 152 5169 5181 "src/frontc/frontc.ml" 152 5169 5183
+type(
+  out_channel option ref -> out_channel option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/frontc.ml" 152 5169 5184 "src/frontc/frontc.ml" 152 5169 5190
+type(
+  out_channel option
+)
+ident(
+  int_ref oldOut "src/frontc/frontc.ml" 133 4488 4500 "src/frontc/frontc.ml" 133 4488 4506
+)
+"src/frontc/frontc.ml" 152 5169 5177 "src/frontc/frontc.ml" 152 5169 5190
+type(
+  unit
+)
+"src/frontc/frontc.ml" 154 5193 5201 "src/frontc/frontc.ml" 154 5193 5207
+type(
+  Cabs.file
+)
+ident(
+  int_ref result "src/frontc/frontc.ml" 139 4670 4682 "src/frontc/frontc.ml" 139 4670 4688
+)
+"src/frontc/frontc.ml" 152 5169 5177 "src/frontc/frontc.ml" 154 5193 5207
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 151 5144 5152 "src/frontc/frontc.ml" 154 5193 5207
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 141 4746 4754 "src/frontc/frontc.ml" 154 5193 5207
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 139 4670 4678 "src/frontc/frontc.ml" 154 5193 5207
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 138 4610 4618 "src/frontc/frontc.ml" 154 5193 5207
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 136 4588 4596 "src/frontc/frontc.ml" 154 5193 5207
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 131 4386 4404 "src/frontc/frontc.ml" 155 5208 5215
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 156 5216 5222 "src/frontc/frontc.ml" 156 5216 5226
+type(
+  Cabs.file option
+)
+"src/frontc/frontc.ml" 156 5216 5230 "src/frontc/frontc.ml" 156 5216 5234
+type(
+  Cabs.file
+)
+ident(
+  int_ref cabs "src/frontc/frontc.ml" 124 4163 4169 "src/frontc/frontc.ml" 124 4163 4173
+)
+"src/frontc/frontc.ml" 129 4347 4363 "src/frontc/frontc.ml" 156 5216 5234
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 160 5262 5271 "src/frontc/frontc.ml" 160 5262 5272
+type(
+  out_channel option ref -> out_channel option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 160 5262 5272 "src/frontc/frontc.ml" 160 5262 5275
+type(
+  out_channel option ref
+)
+ident(
+  int_ref out "src/frontc/frontc.ml" 44 1748 1752 "src/frontc/frontc.ml" 44 1748 1755
+)
+"src/frontc/frontc.ml" 160 5262 5271 "src/frontc/frontc.ml" 160 5262 5275
+type(
+  out_channel option
+)
+"src/frontc/frontc.ml" 161 5281 5290 "src/frontc/frontc.ml" 161 5281 5291
+type(
+  out_channel
+)
+ident(
+  def o "src/frontc/frontc.ml" 161 5281 5295 "src/frontc/frontc.ml" 167 5538 5545
+)
+"src/frontc/frontc.ml" 161 5281 5285 "src/frontc/frontc.ml" 161 5281 5291
+type(
+  out_channel option
+)
+"src/frontc/frontc.ml" 162 5301 5308 "src/frontc/frontc.ml" 162 5301 5313
+type(
+  string -> Pretty.doc -> unit
+)
+ident(
+  ext_ref Trace.trace
+)
+"src/frontc/frontc.ml" 162 5301 5314 "src/frontc/frontc.ml" 162 5301 5318
+type(
+  string
+)
+"src/frontc/frontc.ml" 162 5301 5320 "src/frontc/frontc.ml" 162 5301 5327
+type(
+  (Pretty.doc, unit, Pretty.doc, Pretty.doc) format4 -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/frontc/frontc.ml" 162 5301 5328 "src/frontc/frontc.ml" 162 5301 5355
+type(
+  (Pretty.doc, unit, Pretty.doc, Pretty.doc) format4
+)
+"src/frontc/frontc.ml" 162 5301 5319 "src/frontc/frontc.ml" 162 5301 5356
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/frontc/frontc.ml" 162 5301 5307 "src/frontc/frontc.ml" 162 5301 5357
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 163 5359 5368 "src/frontc/frontc.ml" 163 5359 5369
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 163 5359 5369 "src/frontc/frontc.ml" 163 5359 5380
+type(
+  bool ref
+)
+ident(
+  int_ref printNotice "src/frontc/frontc.ml" 89 2872 2876 "src/frontc/frontc.ml" 89 2872 2887
+)
+"src/frontc/frontc.ml" 163 5359 5368 "src/frontc/frontc.ml" 163 5359 5380
+type(
+  bool
+)
+"src/frontc/frontc.ml" 163 5359 5386 "src/frontc/frontc.ml" 163 5359 5399
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/frontc/frontc.ml" 163 5359 5400 "src/frontc/frontc.ml" 163 5359 5401
+type(
+  out_channel
+)
+ident(
+  int_ref o "src/frontc/frontc.ml" 161 5281 5290 "src/frontc/frontc.ml" 161 5281 5291
+)
+"src/frontc/frontc.ml" 163 5359 5402 "src/frontc/frontc.ml" 163 5359 5433
+type(
+  string
+)
+"src/frontc/frontc.ml" 163 5359 5386 "src/frontc/frontc.ml" 163 5359 5433
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 163 5359 5365 "src/frontc/frontc.ml" 163 5359 5433
+type(
+  unit
+)
+"src/frontc/frontc.ml" 164 5435 5441 "src/frontc/frontc.ml" 164 5435 5451
+type(
+  string -> (Cabs.file -> unit) -> Cabs.file -> unit
+)
+ident(
+  ext_ref Stats.time
+)
+"src/frontc/frontc.ml" 164 5435 5452 "src/frontc/frontc.ml" 164 5435 5463
+type(
+  string
+)
+"src/frontc/frontc.ml" 164 5435 5465 "src/frontc/frontc.ml" 164 5435 5481
+type(
+  out_channel -> Cabs.file -> unit
+)
+ident(
+  ext_ref Cprint.printFile
+)
+"src/frontc/frontc.ml" 164 5435 5482 "src/frontc/frontc.ml" 164 5435 5483
+type(
+  out_channel
+)
+ident(
+  int_ref o "src/frontc/frontc.ml" 161 5281 5290 "src/frontc/frontc.ml" 161 5281 5291
+)
+"src/frontc/frontc.ml" 164 5435 5464 "src/frontc/frontc.ml" 164 5435 5484
+call(
+  stack
+)
+type(
+  Cabs.file -> unit
+)
+"src/frontc/frontc.ml" 164 5435 5485 "src/frontc/frontc.ml" 164 5435 5492
+type(
+  Cabs.file
+)
+ident(
+  int_ref patched "src/frontc/frontc.ml" 129 4347 4353 "src/frontc/frontc.ml" 129 4347 4360
+)
+"src/frontc/frontc.ml" 164 5435 5441 "src/frontc/frontc.ml" 164 5435 5492
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 165 5494 5500 "src/frontc/frontc.ml" 165 5494 5512
+type(
+  unit -> unit
+)
+ident(
+  int_ref close_output "src/frontc/frontc.ml" 47 1818 1822 "src/frontc/frontc.ml" 47 1818 1834
+)
+"src/frontc/frontc.ml" 165 5494 5513 "src/frontc/frontc.ml" 165 5494 5515
+type(
+  unit
+)
+"src/frontc/frontc.ml" 165 5494 5500 "src/frontc/frontc.ml" 165 5494 5515
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 166 5517 5523 "src/frontc/frontc.ml" 166 5517 5528
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/frontc/frontc.ml" 166 5517 5529 "src/frontc/frontc.ml" 166 5517 5537
+type(
+  exn
+)
+"src/frontc/frontc.ml" 166 5517 5523 "src/frontc/frontc.ml" 166 5517 5537
+type(
+  unit
+)
+"src/frontc/frontc.ml" 165 5494 5500 "src/frontc/frontc.ml" 166 5517 5537
+type(
+  unit
+)
+"src/frontc/frontc.ml" 164 5435 5441 "src/frontc/frontc.ml" 166 5517 5537
+type(
+  unit
+)
+"src/frontc/frontc.ml" 163 5359 5365 "src/frontc/frontc.ml" 166 5517 5537
+type(
+  unit
+)
+"src/frontc/frontc.ml" 161 5281 5295 "src/frontc/frontc.ml" 167 5538 5545
+type(
+  unit
+)
+"src/frontc/frontc.ml" 168 5546 5550 "src/frontc/frontc.ml" 168 5546 5554
+type(
+  out_channel option
+)
+"src/frontc/frontc.ml" 168 5546 5558 "src/frontc/frontc.ml" 168 5546 5560
+type(
+  unit
+)
+"src/frontc/frontc.ml" 160 5262 5264 "src/frontc/frontc.ml" 168 5546 5561
+type(
+  unit
+)
+"src/frontc/frontc.ml" 169 5563 5568 "src/frontc/frontc.ml" 169 5563 5569
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 169 5563 5569 "src/frontc/frontc.ml" 169 5563 5580
+type(
+  bool ref
+)
+ident(
+  ext_ref E.hadErrors
+)
+"src/frontc/frontc.ml" 169 5563 5568 "src/frontc/frontc.ml" 169 5563 5580
+type(
+  bool
+)
+"src/frontc/frontc.ml" 170 5586 5590 "src/frontc/frontc.ml" 170 5586 5595
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/frontc/frontc.ml" 170 5586 5596 "src/frontc/frontc.ml" 170 5586 5615
+type(
+  exn
+)
+"src/frontc/frontc.ml" 170 5586 5590 "src/frontc/frontc.ml" 170 5586 5615
+type(
+  unit
+)
+"src/frontc/frontc.ml" 169 5563 5565 "src/frontc/frontc.ml" 170 5586 5615
+type(
+  unit
+)
+"src/frontc/frontc.ml" 173 5656 5658 "src/frontc/frontc.ml" 173 5656 5665
+type(
+  Cabs.file
+)
+ident(
+  int_ref patched "src/frontc/frontc.ml" 129 4347 4353 "src/frontc/frontc.ml" 129 4347 4360
+)
+"src/frontc/frontc.ml" 169 5563 5565 "src/frontc/frontc.ml" 173 5656 5665
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 160 5262 5264 "src/frontc/frontc.ml" 173 5656 5665
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 129 4347 4349 "src/frontc/frontc.ml" 173 5656 5665
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 125 4205 4207 "src/frontc/frontc.ml" 173 5656 5665
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 124 4163 4165 "src/frontc/frontc.ml" 173 5656 5665
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 114 3808 3808 "src/frontc/frontc.ml" 174 5666 5669
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 176 5671 5675 "src/frontc/frontc.ml" 176 5671 5681
+type(
+  Lexing.lexbuf -> string * string * Cparser.token * Cabs.cabsloc
+)
+ident(
+  def clexer "src/frontc/frontc.ml" 113 3778 3778 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 176 5671 5682 "src/frontc/frontc.ml" 176 5671 5688
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/frontc/frontc.ml" 177 5691 5695 "src/frontc/frontc.ml" 183 5938 5968
+)
+"src/frontc/frontc.ml" 177 5691 5695 "src/frontc/frontc.ml" 177 5691 5713
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Clexer.clear_white
+)
+"src/frontc/frontc.ml" 177 5691 5714 "src/frontc/frontc.ml" 177 5691 5716
+type(
+  unit
+)
+"src/frontc/frontc.ml" 177 5691 5695 "src/frontc/frontc.ml" 177 5691 5716
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 178 5718 5722 "src/frontc/frontc.ml" 178 5718 5741
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Clexer.clear_lexeme
+)
+"src/frontc/frontc.ml" 178 5718 5742 "src/frontc/frontc.ml" 178 5718 5744
+type(
+  unit
+)
+"src/frontc/frontc.ml" 178 5718 5722 "src/frontc/frontc.ml" 178 5718 5744
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 179 5746 5754 "src/frontc/frontc.ml" 179 5746 5759
+type(
+  Cparser.token
+)
+ident(
+  def token "src/frontc/frontc.ml" 180 5787 5791 "src/frontc/frontc.ml" 183 5938 5968
+)
+"src/frontc/frontc.ml" 179 5746 5762 "src/frontc/frontc.ml" 179 5746 5776
+type(
+  Lexing.lexbuf -> Cparser.token
+)
+ident(
+  ext_ref Clexer.initial
+)
+"src/frontc/frontc.ml" 179 5746 5777 "src/frontc/frontc.ml" 179 5746 5783
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/frontc/frontc.ml" 176 5671 5682 "src/frontc/frontc.ml" 176 5671 5688
+)
+"src/frontc/frontc.ml" 179 5746 5762 "src/frontc/frontc.ml" 179 5746 5783
+call(
+  stack
+)
+type(
+  Cparser.token
+)
+"src/frontc/frontc.ml" 180 5787 5795 "src/frontc/frontc.ml" 180 5787 5800
+type(
+  string
+)
+ident(
+  def white "src/frontc/frontc.ml" 181 5826 5830 "src/frontc/frontc.ml" 183 5938 5968
+)
+"src/frontc/frontc.ml" 180 5787 5803 "src/frontc/frontc.ml" 180 5787 5819
+type(
+  unit -> string
+)
+ident(
+  ext_ref Clexer.get_white
+)
+"src/frontc/frontc.ml" 180 5787 5820 "src/frontc/frontc.ml" 180 5787 5822
+type(
+  unit
+)
+"src/frontc/frontc.ml" 180 5787 5803 "src/frontc/frontc.ml" 180 5787 5822
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/frontc.ml" 181 5826 5834 "src/frontc/frontc.ml" 181 5826 5841
+type(
+  Cabs.cabsloc
+)
+ident(
+  def cabsloc "src/frontc/frontc.ml" 182 5868 5872 "src/frontc/frontc.ml" 183 5938 5968
+)
+"src/frontc/frontc.ml" 181 5826 5844 "src/frontc/frontc.ml" 181 5826 5861
+type(
+  unit -> Cabs.cabsloc
+)
+ident(
+  ext_ref Clexer.currentLoc
+)
+"src/frontc/frontc.ml" 181 5826 5862 "src/frontc/frontc.ml" 181 5826 5864
+type(
+  unit
+)
+"src/frontc/frontc.ml" 181 5826 5844 "src/frontc/frontc.ml" 181 5826 5864
+call(
+  stack
+)
+type(
+  Cabs.cabsloc
+)
+"src/frontc/frontc.ml" 182 5868 5876 "src/frontc/frontc.ml" 182 5868 5882
+type(
+  string
+)
+ident(
+  def lexeme "src/frontc/frontc.ml" 183 5938 5942 "src/frontc/frontc.ml" 183 5938 5968
+)
+"src/frontc/frontc.ml" 182 5868 5885 "src/frontc/frontc.ml" 182 5868 5908
+type(
+  unit -> string
+)
+ident(
+  ext_ref Clexer.get_extra_lexeme
+)
+"src/frontc/frontc.ml" 182 5868 5909 "src/frontc/frontc.ml" 182 5868 5911
+type(
+  unit
+)
+"src/frontc/frontc.ml" 182 5868 5885 "src/frontc/frontc.ml" 182 5868 5911
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/frontc.ml" 182 5868 5912 "src/frontc/frontc.ml" 182 5868 5913
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/frontc.ml" 182 5868 5914 "src/frontc/frontc.ml" 182 5868 5927
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/frontc/frontc.ml" 182 5868 5928 "src/frontc/frontc.ml" 182 5868 5934
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/frontc/frontc.ml" 176 5671 5682 "src/frontc/frontc.ml" 176 5671 5688
+)
+"src/frontc/frontc.ml" 182 5868 5914 "src/frontc/frontc.ml" 182 5868 5934
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/frontc.ml" 182 5868 5885 "src/frontc/frontc.ml" 182 5868 5934
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/frontc.ml" 183 5938 5942 "src/frontc/frontc.ml" 183 5938 5947
+type(
+  string
+)
+ident(
+  int_ref white "src/frontc/frontc.ml" 180 5787 5795 "src/frontc/frontc.ml" 180 5787 5800
+)
+"src/frontc/frontc.ml" 183 5938 5948 "src/frontc/frontc.ml" 183 5938 5954
+type(
+  string
+)
+ident(
+  int_ref lexeme "src/frontc/frontc.ml" 182 5868 5876 "src/frontc/frontc.ml" 182 5868 5882
+)
+"src/frontc/frontc.ml" 183 5938 5955 "src/frontc/frontc.ml" 183 5938 5960
+type(
+  Cparser.token
+)
+ident(
+  int_ref token "src/frontc/frontc.ml" 179 5746 5754 "src/frontc/frontc.ml" 179 5746 5759
+)
+"src/frontc/frontc.ml" 183 5938 5961 "src/frontc/frontc.ml" 183 5938 5968
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cabsloc "src/frontc/frontc.ml" 181 5826 5834 "src/frontc/frontc.ml" 181 5826 5841
+)
+"src/frontc/frontc.ml" 183 5938 5942 "src/frontc/frontc.ml" 183 5938 5968
+type(
+  string * string * Cparser.token * Cabs.cabsloc
+)
+"src/frontc/frontc.ml" 182 5868 5872 "src/frontc/frontc.ml" 183 5938 5968
+type(
+  string * string * Cparser.token * Cabs.cabsloc
+)
+"src/frontc/frontc.ml" 181 5826 5830 "src/frontc/frontc.ml" 183 5938 5968
+type(
+  string * string * Cparser.token * Cabs.cabsloc
+)
+"src/frontc/frontc.ml" 180 5787 5791 "src/frontc/frontc.ml" 183 5938 5968
+type(
+  string * string * Cparser.token * Cabs.cabsloc
+)
+"src/frontc/frontc.ml" 179 5746 5750 "src/frontc/frontc.ml" 183 5938 5968
+type(
+  string * string * Cparser.token * Cabs.cabsloc
+)
+"src/frontc/frontc.ml" 178 5718 5722 "src/frontc/frontc.ml" 183 5938 5968
+type(
+  string * string * Cparser.token * Cabs.cabsloc
+)
+"src/frontc/frontc.ml" 177 5691 5695 "src/frontc/frontc.ml" 183 5938 5968
+type(
+  string * string * Cparser.token * Cabs.cabsloc
+)
+"src/frontc/frontc.ml" 186 5987 5991 "src/frontc/frontc.ml" 186 5987 6010
+type(
+  string -> Cabs.file
+)
+ident(
+  def parse_to_cabs_inner "src/frontc/frontc.ml" 113 3778 3778 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 186 5987 6012 "src/frontc/frontc.ml" 186 5987 6017
+type(
+  string
+)
+ident(
+  def fname "src/frontc/frontc.ml" 187 6030 6032 "src/frontc/frontc.ml" 211 6851 6856
+)
+"src/frontc/frontc.ml" 188 6036 6043 "src/frontc/frontc.ml" 188 6036 6044
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 188 6036 6044 "src/frontc/frontc.ml" 188 6036 6057
+type(
+  bool ref
+)
+ident(
+  ext_ref E.verboseFlag
+)
+"src/frontc/frontc.ml" 188 6036 6043 "src/frontc/frontc.ml" 188 6036 6057
+type(
+  bool
+)
+"src/frontc/frontc.ml" 188 6036 6063 "src/frontc/frontc.ml" 188 6036 6069
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/frontc/frontc.ml" 188 6036 6071 "src/frontc/frontc.ml" 188 6036 6076
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/frontc/frontc.ml" 188 6036 6077 "src/frontc/frontc.ml" 188 6036 6101
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/frontc/frontc.ml" 188 6036 6102 "src/frontc/frontc.ml" 188 6036 6107
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 186 5987 6012 "src/frontc/frontc.ml" 186 5987 6017
+)
+"src/frontc/frontc.ml" 188 6036 6070 "src/frontc/frontc.ml" 188 6036 6108
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 188 6036 6063 "src/frontc/frontc.ml" 188 6036 6108
+type(
+  unit
+)
+"src/frontc/frontc.ml" 188 6036 6040 "src/frontc/frontc.ml" 188 6036 6108
+type(
+  unit
+)
+"src/frontc/frontc.ml" 189 6110 6114 "src/frontc/frontc.ml" 189 6110 6119
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/frontc/frontc.ml" 189 6110 6120 "src/frontc/frontc.ml" 189 6110 6121
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 189 6110 6121 "src/frontc/frontc.ml" 189 6110 6133
+type(
+  out_channel ref
+)
+ident(
+  ext_ref E.logChannel
+)
+"src/frontc/frontc.ml" 189 6110 6120 "src/frontc/frontc.ml" 189 6110 6133
+type(
+  out_channel
+)
+"src/frontc/frontc.ml" 189 6110 6114 "src/frontc/frontc.ml" 189 6110 6133
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 190 6135 6143 "src/frontc/frontc.ml" 190 6135 6149
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/frontc/frontc.ml" 191 6173 6177 "src/frontc/frontc.ml" 194 6341 6358
+)
+"src/frontc/frontc.ml" 190 6135 6152 "src/frontc/frontc.ml" 190 6135 6163
+type(
+  filename:string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Clexer.init
+)
+"src/frontc/frontc.ml" 190 6135 6164 "src/frontc/frontc.ml" 190 6135 6169
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 186 5987 6012 "src/frontc/frontc.ml" 186 5987 6017
+)
+"src/frontc/frontc.ml" 190 6135 6152 "src/frontc/frontc.ml" 190 6135 6169
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"src/frontc/frontc.ml" 191 6173 6181 "src/frontc/frontc.ml" 191 6173 6185
+type(
+  Cabs.definition list
+)
+ident(
+  def cabs "src/frontc/frontc.ml" 192 6267 6271 "src/frontc/frontc.ml" 194 6341 6358
+)
+"src/frontc/frontc.ml" 191 6173 6188 "src/frontc/frontc.ml" 191 6173 6198
+type(
+  string ->
+  (Lexing.lexbuf -> Cabs.definition list) ->
+  Lexing.lexbuf -> Cabs.definition list
+)
+ident(
+  ext_ref Stats.time
+)
+"src/frontc/frontc.ml" 191 6173 6199 "src/frontc/frontc.ml" 191 6173 6206
+type(
+  string
+)
+"src/frontc/frontc.ml" 191 6173 6208 "src/frontc/frontc.ml" 191 6173 6225
+type(
+  (Lexing.lexbuf -> Cparser.token) -> Lexing.lexbuf -> Cabs.definition list
+)
+ident(
+  ext_ref Cparser.interpret
+)
+"src/frontc/frontc.ml" 191 6173 6227 "src/frontc/frontc.ml" 191 6173 6247
+type(
+  (Lexing.lexbuf -> string * string * Cparser.token * Cabs.cabsloc) ->
+  Lexing.lexbuf -> Cparser.token
+)
+ident(
+  ext_ref Whitetrack.wraplexer
+)
+"src/frontc/frontc.ml" 191 6173 6248 "src/frontc/frontc.ml" 191 6173 6254
+type(
+  Lexing.lexbuf -> string * string * Cparser.token * Cabs.cabsloc
+)
+ident(
+  int_ref clexer "src/frontc/frontc.ml" 176 5671 5675 "src/frontc/frontc.ml" 176 5671 5681
+)
+"src/frontc/frontc.ml" 191 6173 6226 "src/frontc/frontc.ml" 191 6173 6255
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> Cparser.token
+)
+"src/frontc/frontc.ml" 191 6173 6207 "src/frontc/frontc.ml" 191 6173 6256
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> Cabs.definition list
+)
+"src/frontc/frontc.ml" 191 6173 6257 "src/frontc/frontc.ml" 191 6173 6263
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/frontc/frontc.ml" 190 6135 6143 "src/frontc/frontc.ml" 190 6135 6149
+)
+"src/frontc/frontc.ml" 191 6173 6188 "src/frontc/frontc.ml" 191 6173 6263
+call(
+  stack
+)
+type(
+  Cabs.definition list
+)
+"src/frontc/frontc.ml" 192 6267 6271 "src/frontc/frontc.ml" 192 6267 6295
+type(
+  string -> unit
+)
+ident(
+  ext_ref Whitetrack.setFinalWhite
+)
+"src/frontc/frontc.ml" 192 6267 6297 "src/frontc/frontc.ml" 192 6267 6313
+type(
+  unit -> string
+)
+ident(
+  ext_ref Clexer.get_white
+)
+"src/frontc/frontc.ml" 192 6267 6314 "src/frontc/frontc.ml" 192 6267 6316
+type(
+  unit
+)
+"src/frontc/frontc.ml" 192 6267 6296 "src/frontc/frontc.ml" 192 6267 6317
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/frontc.ml" 192 6267 6271 "src/frontc/frontc.ml" 192 6267 6317
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 193 6319 6323 "src/frontc/frontc.ml" 193 6319 6336
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Clexer.finish
+)
+"src/frontc/frontc.ml" 193 6319 6337 "src/frontc/frontc.ml" 193 6319 6339
+type(
+  unit
+)
+"src/frontc/frontc.ml" 193 6319 6323 "src/frontc/frontc.ml" 193 6319 6339
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 194 6341 6346 "src/frontc/frontc.ml" 194 6341 6351
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 186 5987 6012 "src/frontc/frontc.ml" 186 5987 6017
+)
+"src/frontc/frontc.ml" 194 6341 6353 "src/frontc/frontc.ml" 194 6341 6357
+type(
+  Cabs.definition list
+)
+ident(
+  int_ref cabs "src/frontc/frontc.ml" 191 6173 6181 "src/frontc/frontc.ml" 191 6173 6185
+)
+"src/frontc/frontc.ml" 194 6341 6345 "src/frontc/frontc.ml" 194 6341 6358
+type(
+  string * Cabs.definition list
+)
+"src/frontc/frontc.ml" 193 6319 6323 "src/frontc/frontc.ml" 194 6341 6358
+type(
+  string * Cabs.definition list
+)
+"src/frontc/frontc.ml" 192 6267 6271 "src/frontc/frontc.ml" 194 6341 6358
+type(
+  string * Cabs.definition list
+)
+"src/frontc/frontc.ml" 191 6173 6177 "src/frontc/frontc.ml" 194 6341 6358
+type(
+  string * Cabs.definition list
+)
+"src/frontc/frontc.ml" 190 6135 6139 "src/frontc/frontc.ml" 194 6341 6358
+type(
+  string * Cabs.definition list
+)
+"src/frontc/frontc.ml" 189 6110 6114 "src/frontc/frontc.ml" 194 6341 6358
+type(
+  string * Cabs.definition list
+)
+"src/frontc/frontc.ml" 188 6036 6040 "src/frontc/frontc.ml" 194 6341 6358
+type(
+  string * Cabs.definition list
+)
+"src/frontc/frontc.ml" 195 6359 6377 "src/frontc/frontc.ml" 195 6359 6380
+type(
+  string
+)
+ident(
+  def msg "src/frontc/frontc.ml" 195 6359 6385 "src/frontc/frontc.ml" 200 6555 6560
+)
+"src/frontc/frontc.ml" 195 6359 6366 "src/frontc/frontc.ml" 195 6359 6381
+type(
+  exn
+)
+"src/frontc/frontc.ml" 196 6391 6395 "src/frontc/frontc.ml" 196 6391 6401
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/frontc/frontc.ml" 196 6391 6403 "src/frontc/frontc.ml" 196 6391 6408
+type(
+  (string -> string -> unit, unit, Pretty.doc, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/frontc/frontc.ml" 196 6391 6409 "src/frontc/frontc.ml" 196 6391 6432
+type(
+  (string -> string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/frontc/frontc.ml" 196 6391 6433 "src/frontc/frontc.ml" 196 6391 6438
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 186 5987 6012 "src/frontc/frontc.ml" 186 5987 6017
+)
+"src/frontc/frontc.ml" 196 6391 6439 "src/frontc/frontc.ml" 196 6391 6442
+type(
+  string
+)
+ident(
+  int_ref msg "src/frontc/frontc.ml" 195 6359 6377 "src/frontc/frontc.ml" 195 6359 6380
+)
+"src/frontc/frontc.ml" 196 6391 6402 "src/frontc/frontc.ml" 196 6391 6443
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 196 6391 6395 "src/frontc/frontc.ml" 196 6391 6443
+type(
+  unit
+)
+"src/frontc/frontc.ml" 197 6445 6449 "src/frontc/frontc.ml" 197 6445 6462
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Clexer.finish
+)
+"src/frontc/frontc.ml" 197 6445 6463 "src/frontc/frontc.ml" 197 6445 6465
+type(
+  unit
+)
+"src/frontc/frontc.ml" 197 6445 6449 "src/frontc/frontc.ml" 197 6445 6465
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 198 6467 6471 "src/frontc/frontc.ml" 198 6467 6483
+type(
+  unit -> unit
+)
+ident(
+  int_ref close_output "src/frontc/frontc.ml" 47 1818 1822 "src/frontc/frontc.ml" 47 1818 1834
+)
+"src/frontc/frontc.ml" 198 6467 6484 "src/frontc/frontc.ml" 198 6467 6486
+type(
+  unit
+)
+"src/frontc/frontc.ml" 198 6467 6471 "src/frontc/frontc.ml" 198 6467 6486
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 199 6488 6492 "src/frontc/frontc.ml" 199 6488 6497
+type(
+  exn -> Cabs.file
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/frontc/frontc.ml" 199 6488 6510 "src/frontc/frontc.ml" 199 6488 6524
+type(
+  string
+)
+"src/frontc/frontc.ml" 199 6488 6525 "src/frontc/frontc.ml" 199 6488 6526
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/frontc.ml" 199 6488 6527 "src/frontc/frontc.ml" 199 6488 6532
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 186 5987 6012 "src/frontc/frontc.ml" 186 5987 6017
+)
+"src/frontc/frontc.ml" 199 6488 6533 "src/frontc/frontc.ml" 199 6488 6534
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/frontc.ml" 199 6488 6535 "src/frontc/frontc.ml" 199 6488 6539
+type(
+  string
+)
+"src/frontc/frontc.ml" 199 6488 6540 "src/frontc/frontc.ml" 199 6488 6541
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/frontc.ml" 199 6488 6542 "src/frontc/frontc.ml" 199 6488 6545
+type(
+  string
+)
+ident(
+  int_ref msg "src/frontc/frontc.ml" 195 6359 6377 "src/frontc/frontc.ml" 195 6359 6380
+)
+"src/frontc/frontc.ml" 199 6488 6546 "src/frontc/frontc.ml" 199 6488 6547
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/frontc.ml" 199 6488 6548 "src/frontc/frontc.ml" 199 6488 6552
+type(
+  string
+)
+"src/frontc/frontc.ml" 199 6488 6542 "src/frontc/frontc.ml" 199 6488 6552
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/frontc.ml" 199 6488 6535 "src/frontc/frontc.ml" 199 6488 6552
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/frontc.ml" 199 6488 6527 "src/frontc/frontc.ml" 199 6488 6552
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/frontc.ml" 199 6488 6509 "src/frontc/frontc.ml" 199 6488 6553
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/frontc.ml" 199 6488 6498 "src/frontc/frontc.ml" 199 6488 6554
+type(
+  exn
+)
+"src/frontc/frontc.ml" 199 6488 6492 "src/frontc/frontc.ml" 199 6488 6554
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 198 6467 6471 "src/frontc/frontc.ml" 199 6488 6554
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 197 6445 6449 "src/frontc/frontc.ml" 199 6488 6554
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 195 6359 6385 "src/frontc/frontc.ml" 200 6555 6560
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 201 6561 6565 "src/frontc/frontc.ml" 201 6561 6584
+type(
+  exn
+)
+"src/frontc/frontc.ml" 202 6594 6600 "src/frontc/frontc.ml" 202 6594 6606
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/frontc/frontc.ml" 202 6594 6608 "src/frontc/frontc.ml" 202 6594 6613
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/frontc/frontc.ml" 202 6594 6614 "src/frontc/frontc.ml" 202 6594 6629
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/frontc/frontc.ml" 202 6594 6607 "src/frontc/frontc.ml" 202 6594 6630
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 202 6594 6600 "src/frontc/frontc.ml" 202 6594 6630
+type(
+  unit
+)
+"src/frontc/frontc.ml" 203 6632 6638 "src/frontc/frontc.ml" 203 6632 6651
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Clexer.finish
+)
+"src/frontc/frontc.ml" 203 6632 6652 "src/frontc/frontc.ml" 203 6632 6654
+type(
+  unit
+)
+"src/frontc/frontc.ml" 203 6632 6638 "src/frontc/frontc.ml" 203 6632 6654
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 204 6656 6662 "src/frontc/frontc.ml" 204 6656 6674
+type(
+  unit -> unit
+)
+ident(
+  int_ref close_output "src/frontc/frontc.ml" 47 1818 1822 "src/frontc/frontc.ml" 47 1818 1834
+)
+"src/frontc/frontc.ml" 204 6656 6675 "src/frontc/frontc.ml" 204 6656 6677
+type(
+  unit
+)
+"src/frontc/frontc.ml" 204 6656 6662 "src/frontc/frontc.ml" 204 6656 6677
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 205 6679 6685 "src/frontc/frontc.ml" 205 6679 6690
+type(
+  exn -> Cabs.file
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/frontc/frontc.ml" 205 6679 6702 "src/frontc/frontc.ml" 205 6679 6717
+type(
+  string
+)
+"src/frontc/frontc.ml" 205 6679 6691 "src/frontc/frontc.ml" 205 6679 6718
+type(
+  exn
+)
+"src/frontc/frontc.ml" 205 6679 6685 "src/frontc/frontc.ml" 205 6679 6718
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 204 6656 6662 "src/frontc/frontc.ml" 205 6679 6718
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 203 6632 6638 "src/frontc/frontc.ml" 205 6679 6718
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 201 6561 6588 "src/frontc/frontc.ml" 206 6719 6724
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 207 6725 6729 "src/frontc/frontc.ml" 207 6725 6730
+type(
+  exn
+)
+ident(
+  def e "src/frontc/frontc.ml" 207 6725 6734 "src/frontc/frontc.ml" 211 6851 6856
+)
+"src/frontc/frontc.ml" 208 6740 6746 "src/frontc/frontc.ml" 208 6740 6752
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/frontc/frontc.ml" 208 6740 6754 "src/frontc/frontc.ml" 208 6740 6759
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/frontc/frontc.ml" 208 6740 6760 "src/frontc/frontc.ml" 208 6740 6787
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/frontc/frontc.ml" 208 6740 6789 "src/frontc/frontc.ml" 208 6740 6807
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"src/frontc/frontc.ml" 208 6740 6808 "src/frontc/frontc.ml" 208 6740 6809
+type(
+  exn
+)
+ident(
+  int_ref e "src/frontc/frontc.ml" 207 6725 6729 "src/frontc/frontc.ml" 207 6725 6730
+)
+"src/frontc/frontc.ml" 208 6740 6788 "src/frontc/frontc.ml" 208 6740 6810
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/frontc.ml" 208 6740 6753 "src/frontc/frontc.ml" 208 6740 6811
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 208 6740 6746 "src/frontc/frontc.ml" 208 6740 6811
+type(
+  unit
+)
+"src/frontc/frontc.ml" 209 6813 6819 "src/frontc/frontc.ml" 209 6813 6832
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Clexer.finish
+)
+"src/frontc/frontc.ml" 209 6813 6833 "src/frontc/frontc.ml" 209 6813 6835
+type(
+  unit
+)
+"src/frontc/frontc.ml" 209 6813 6819 "src/frontc/frontc.ml" 209 6813 6835
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 210 6837 6843 "src/frontc/frontc.ml" 210 6837 6848
+type(
+  exn -> Cabs.file
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/frontc/frontc.ml" 210 6837 6849 "src/frontc/frontc.ml" 210 6837 6850
+type(
+  exn
+)
+ident(
+  int_ref e "src/frontc/frontc.ml" 207 6725 6729 "src/frontc/frontc.ml" 207 6725 6730
+)
+"src/frontc/frontc.ml" 210 6837 6843 "src/frontc/frontc.ml" 210 6837 6850
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 209 6813 6819 "src/frontc/frontc.ml" 210 6837 6850
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 207 6725 6734 "src/frontc/frontc.ml" 211 6851 6856
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 187 6030 6032 "src/frontc/frontc.ml" 211 6851 6856
+type(
+  string * Cabs.definition list
+)
+"src/frontc/frontc.ml" 215 6939 6943 "src/frontc/frontc.ml" 215 6939 6958
+type(
+  Cabs.file -> unit
+)
+ident(
+  def printPrototypes "src/frontc/frontc.ml" 254 8095 8095 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 215 6939 6961 "src/frontc/frontc.ml" 215 6939 6966
+type(
+  string
+)
+ident(
+  def fname "src/frontc/frontc.ml" 215 6939 6987 "src/frontc/frontc.ml" 250 8088 8091
+)
+"src/frontc/frontc.ml" 215 6939 6968 "src/frontc/frontc.ml" 215 6939 6972
+type(
+  Cabs.definition list
+)
+ident(
+  def file "src/frontc/frontc.ml" 215 6939 6987 "src/frontc/frontc.ml" 250 8088 8091
+)
+"src/frontc/frontc.ml" 215 6939 6960 "src/frontc/frontc.ml" 215 6939 6973
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 219 7066 7072 "src/frontc/frontc.ml" 219 7066 7076
+type(
+  out_channel
+)
+ident(
+  def chan "src/frontc/frontc.ml" 220 7107 7109 "src/frontc/frontc.ml" 249 8043 8087
+)
+"src/frontc/frontc.ml" 219 7066 7079 "src/frontc/frontc.ml" 219 7066 7087
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"src/frontc/frontc.ml" 219 7066 7088 "src/frontc/frontc.ml" 219 7066 7103
+type(
+  string
+)
+"src/frontc/frontc.ml" 219 7066 7079 "src/frontc/frontc.ml" 219 7066 7103
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/frontc/frontc.ml" 220 7107 7109 "src/frontc/frontc.ml" 220 7107 7115
+type(
+  Pretty.doc -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/frontc/frontc.ml" 220 7107 7117 "src/frontc/frontc.ml" 220 7107 7124
+type(
+  out_channel ->
+  (int -> Pretty.doc, unit, Pretty.doc) format -> int -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.fprintf
+)
+"src/frontc/frontc.ml" 220 7107 7125 "src/frontc/frontc.ml" 220 7107 7129
+type(
+  out_channel
+)
+ident(
+  int_ref chan "src/frontc/frontc.ml" 219 7066 7072 "src/frontc/frontc.ml" 219 7066 7076
+)
+"src/frontc/frontc.ml" 220 7107 7130 "src/frontc/frontc.ml" 220 7107 7174
+type(
+  (int -> Pretty.doc, unit, Pretty.doc) format
+)
+"src/frontc/frontc.ml" 220 7107 7176 "src/frontc/frontc.ml" 220 7107 7187
+type(
+  Cabs.definition list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/frontc/frontc.ml" 220 7107 7188 "src/frontc/frontc.ml" 220 7107 7192
+type(
+  Cabs.definition list
+)
+ident(
+  int_ref file "src/frontc/frontc.ml" 215 6939 6968 "src/frontc/frontc.ml" 215 6939 6972
+)
+"src/frontc/frontc.ml" 220 7107 7175 "src/frontc/frontc.ml" 220 7107 7193
+call(
+  stack
+)
+type(
+  int
+)
+"src/frontc/frontc.ml" 220 7107 7116 "src/frontc/frontc.ml" 220 7107 7194
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/frontc/frontc.ml" 220 7107 7109 "src/frontc/frontc.ml" 220 7107 7194
+type(
+  unit
+)
+"src/frontc/frontc.ml" 221 7196 7198 "src/frontc/frontc.ml" 221 7196 7218
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Whitetrack.setOutput
+)
+"src/frontc/frontc.ml" 221 7196 7220 "src/frontc/frontc.ml" 221 7196 7224
+type(
+  out_channel
+)
+ident(
+  int_ref chan "src/frontc/frontc.ml" 219 7066 7072 "src/frontc/frontc.ml" 219 7066 7076
+)
+"src/frontc/frontc.ml" 221 7196 7198 "src/frontc/frontc.ml" 221 7196 7224
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 223 7227 7233 "src/frontc/frontc.ml" 223 7227 7240
+type(
+  int ref
+)
+ident(
+  def counter "src/frontc/frontc.ml" 225 7263 7265 "src/frontc/frontc.ml" 249 8043 8087
+)
+"src/frontc/frontc.ml" 223 7227 7253 "src/frontc/frontc.ml" 223 7227 7256
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/frontc.ml" 223 7227 7257 "src/frontc/frontc.ml" 223 7227 7258
+type(
+  int
+)
+"src/frontc/frontc.ml" 223 7227 7253 "src/frontc/frontc.ml" 223 7227 7258
+type(
+  int ref
+)
+type(
+  int ref
+)
+"src/frontc/frontc.ml" 225 7263 7273 "src/frontc/frontc.ml" 225 7263 7277
+type(
+  Cabs.definition -> unit
+)
+ident(
+  def loop "src/frontc/frontc.ml" 225 7263 7265 "src/frontc/frontc.ml" 249 8043 8087
+)
+"src/frontc/frontc.ml" 225 7263 7279 "src/frontc/frontc.ml" 225 7263 7280
+type(
+  Cabs.definition
+)
+ident(
+  def d "src/frontc/frontc.ml" 225 7263 7302 "src/frontc/frontc.ml" 243 7851 7856
+)
+"src/frontc/frontc.ml" 226 7308 7318 "src/frontc/frontc.ml" 226 7308 7319
+type(
+  Cabs.definition
+)
+ident(
+  int_ref d "src/frontc/frontc.ml" 225 7263 7279 "src/frontc/frontc.ml" 225 7263 7280
+)
+"src/frontc/frontc.ml" 227 7325 7343 "src/frontc/frontc.ml" 227 7325 7347
+type(
+  Cabs.single_name
+)
+ident(
+  def name "src/frontc/frontc.ml" 227 7325 7363 "src/frontc/frontc.ml" 240 7828 7835
+)
+"src/frontc/frontc.ml" 227 7325 7349 "src/frontc/frontc.ml" 227 7325 7350
+type(
+  Cabs.block
+)
+"src/frontc/frontc.ml" 227 7325 7352 "src/frontc/frontc.ml" 227 7325 7355
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/frontc.ml" 227 7325 7363 "src/frontc/frontc.ml" 240 7828 7835
+)
+"src/frontc/frontc.ml" 227 7325 7357 "src/frontc/frontc.ml" 227 7325 7358
+type(
+  Cabs.cabsloc
+)
+"src/frontc/frontc.ml" 227 7325 7331 "src/frontc/frontc.ml" 227 7325 7359
+type(
+  Cabs.definition
+)
+"src/frontc/frontc.ml" 228 7365 7379 "src/frontc/frontc.ml" 228 7365 7383
+type(
+  Cabs.single_name
+)
+ident(
+  int_ref name "src/frontc/frontc.ml" 227 7325 7343 "src/frontc/frontc.ml" 227 7325 7347
+)
+"src/frontc/frontc.ml" 229 7389 7400 "src/frontc/frontc.ml" 229 7389 7401
+type(
+  Cabs.specifier
+)
+"src/frontc/frontc.ml" 229 7389 7404 "src/frontc/frontc.ml" 229 7389 7412
+type(
+  string
+)
+ident(
+  def funcname "src/frontc/frontc.ml" 229 7389 7443 "src/frontc/frontc.ml" 238 7798 7809
+)
+"src/frontc/frontc.ml" 229 7389 7425 "src/frontc/frontc.ml" 229 7389 7426
+type(
+  Cabs.decl_type
+)
+"src/frontc/frontc.ml" 229 7389 7427 "src/frontc/frontc.ml" 229 7389 7428
+type(
+  Cabs.single_name list
+)
+"src/frontc/frontc.ml" 229 7389 7429 "src/frontc/frontc.ml" 229 7389 7430
+type(
+  bool
+)
+"src/frontc/frontc.ml" 229 7389 7414 "src/frontc/frontc.ml" 229 7389 7431
+type(
+  Cabs.decl_type
+)
+"src/frontc/frontc.ml" 229 7389 7433 "src/frontc/frontc.ml" 229 7389 7434
+type(
+  Cabs.attribute list
+)
+"src/frontc/frontc.ml" 229 7389 7436 "src/frontc/frontc.ml" 229 7389 7437
+type(
+  Cabs.cabsloc
+)
+"src/frontc/frontc.ml" 229 7389 7403 "src/frontc/frontc.ml" 229 7389 7438
+type(
+  Cabs.name
+)
+"src/frontc/frontc.ml" 229 7389 7399 "src/frontc/frontc.ml" 229 7389 7439
+type(
+  Cabs.single_name
+)
+"src/frontc/frontc.ml" 230 7445 7457 "src/frontc/frontc.ml" 230 7445 7461
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/frontc/frontc.ml" 230 7445 7462 "src/frontc/frontc.ml" 230 7445 7469
+type(
+  int ref
+)
+ident(
+  int_ref counter "src/frontc/frontc.ml" 223 7227 7233 "src/frontc/frontc.ml" 223 7227 7240
+)
+"src/frontc/frontc.ml" 230 7445 7457 "src/frontc/frontc.ml" 230 7445 7469
+type(
+  unit
+)
+"src/frontc/frontc.ml" 231 7481 7493 "src/frontc/frontc.ml" 231 7481 7499
+type(
+  Pretty.doc -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/frontc/frontc.ml" 231 7481 7501 "src/frontc/frontc.ml" 231 7481 7508
+type(
+  out_channel ->
+  (string -> string -> int -> Pretty.doc, unit, Pretty.doc) format ->
+  string -> string -> int -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.fprintf
+)
+"src/frontc/frontc.ml" 231 7481 7509 "src/frontc/frontc.ml" 231 7481 7513
+type(
+  out_channel
+)
+ident(
+  int_ref chan "src/frontc/frontc.ml" 219 7066 7072 "src/frontc/frontc.ml" 219 7066 7076
+)
+"src/frontc/frontc.ml" 231 7481 7514 "src/frontc/frontc.ml" 231 7481 7539
+type(
+  (string -> string -> int -> Pretty.doc, unit, Pretty.doc) format
+)
+"src/frontc/frontc.ml" 232 7540 7573 "src/frontc/frontc.ml" 232 7540 7581
+type(
+  string
+)
+ident(
+  int_ref funcname "src/frontc/frontc.ml" 229 7389 7404 "src/frontc/frontc.ml" 229 7389 7412
+)
+"src/frontc/frontc.ml" 232 7540 7582 "src/frontc/frontc.ml" 232 7540 7585
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/frontc.ml" 227 7325 7352 "src/frontc/frontc.ml" 227 7325 7355
+)
+"src/frontc/frontc.ml" 232 7540 7582 "src/frontc/frontc.ml" 232 7540 7599
+type(
+  string
+)
+"src/frontc/frontc.ml" 232 7540 7600 "src/frontc/frontc.ml" 232 7540 7603
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/frontc.ml" 227 7325 7352 "src/frontc/frontc.ml" 227 7325 7355
+)
+"src/frontc/frontc.ml" 232 7540 7600 "src/frontc/frontc.ml" 232 7540 7615
+type(
+  int
+)
+"src/frontc/frontc.ml" 231 7481 7500 "src/frontc/frontc.ml" 232 7540 7616
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/frontc/frontc.ml" 231 7481 7493 "src/frontc/frontc.ml" 232 7540 7616
+type(
+  unit
+)
+"src/frontc/frontc.ml" 233 7618 7630 "src/frontc/frontc.ml" 233 7618 7635
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/frontc/frontc.ml" 233 7618 7636 "src/frontc/frontc.ml" 233 7618 7640
+type(
+  out_channel
+)
+ident(
+  int_ref chan "src/frontc/frontc.ml" 219 7066 7072 "src/frontc/frontc.ml" 219 7066 7076
+)
+"src/frontc/frontc.ml" 233 7618 7630 "src/frontc/frontc.ml" 233 7618 7640
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 234 7642 7654 "src/frontc/frontc.ml" 234 7642 7678
+type(
+  Cabs.single_name -> unit
+)
+ident(
+  ext_ref Cprint.print_single_name
+)
+"src/frontc/frontc.ml" 234 7642 7679 "src/frontc/frontc.ml" 234 7642 7683
+type(
+  Cabs.single_name
+)
+ident(
+  int_ref name "src/frontc/frontc.ml" 227 7325 7343 "src/frontc/frontc.ml" 227 7325 7347
+)
+"src/frontc/frontc.ml" 234 7642 7654 "src/frontc/frontc.ml" 234 7642 7683
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 235 7685 7697 "src/frontc/frontc.ml" 235 7685 7726
+type(
+  string -> unit
+)
+ident(
+  ext_ref Cprint.print_unescaped_string
+)
+"src/frontc/frontc.ml" 235 7685 7727 "src/frontc/frontc.ml" 235 7685 7730
+type(
+  string
+)
+"src/frontc/frontc.ml" 235 7685 7697 "src/frontc/frontc.ml" 235 7685 7730
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 236 7732 7744 "src/frontc/frontc.ml" 236 7732 7765
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Cprint.force_new_line
+)
+"src/frontc/frontc.ml" 236 7732 7766 "src/frontc/frontc.ml" 236 7732 7768
+type(
+  unit
+)
+"src/frontc/frontc.ml" 236 7732 7744 "src/frontc/frontc.ml" 236 7732 7768
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 237 7770 7782 "src/frontc/frontc.ml" 237 7770 7794
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Cprint.flush
+)
+"src/frontc/frontc.ml" 237 7770 7795 "src/frontc/frontc.ml" 237 7770 7797
+type(
+  unit
+)
+"src/frontc/frontc.ml" 237 7770 7782 "src/frontc/frontc.ml" 237 7770 7797
+call(
+  tail
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 236 7732 7744 "src/frontc/frontc.ml" 237 7770 7797
+type(
+  unit
+)
+"src/frontc/frontc.ml" 235 7685 7697 "src/frontc/frontc.ml" 237 7770 7797
+type(
+  unit
+)
+"src/frontc/frontc.ml" 234 7642 7654 "src/frontc/frontc.ml" 237 7770 7797
+type(
+  unit
+)
+"src/frontc/frontc.ml" 233 7618 7630 "src/frontc/frontc.ml" 237 7770 7797
+type(
+  unit
+)
+"src/frontc/frontc.ml" 231 7481 7493 "src/frontc/frontc.ml" 237 7770 7797
+type(
+  unit
+)
+"src/frontc/frontc.ml" 229 7389 7443 "src/frontc/frontc.ml" 238 7798 7809
+type(
+  unit
+)
+"src/frontc/frontc.ml" 239 7810 7820 "src/frontc/frontc.ml" 239 7810 7821
+type(
+  Cabs.single_name
+)
+"src/frontc/frontc.ml" 239 7810 7825 "src/frontc/frontc.ml" 239 7810 7827
+type(
+  unit
+)
+"src/frontc/frontc.ml" 227 7325 7363 "src/frontc/frontc.ml" 240 7828 7835
+type(
+  unit
+)
+"src/frontc/frontc.ml" 242 7837 7843 "src/frontc/frontc.ml" 242 7837 7844
+type(
+  Cabs.definition
+)
+"src/frontc/frontc.ml" 242 7837 7848 "src/frontc/frontc.ml" 242 7837 7850
+type(
+  unit
+)
+"src/frontc/frontc.ml" 225 7263 7302 "src/frontc/frontc.ml" 243 7851 7856
+type(
+  unit
+)
+"src/frontc/frontc.ml" 244 7860 7863 "src/frontc/frontc.ml" 244 7860 7872
+type(
+  (Cabs.definition -> unit) -> Cabs.definition list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/frontc/frontc.ml" 244 7860 7873 "src/frontc/frontc.ml" 244 7860 7877
+type(
+  Cabs.definition -> unit
+)
+ident(
+  int_ref loop "src/frontc/frontc.ml" 225 7263 7273 "src/frontc/frontc.ml" 225 7263 7277
+)
+"src/frontc/frontc.ml" 244 7860 7878 "src/frontc/frontc.ml" 244 7860 7882
+type(
+  Cabs.definition list
+)
+ident(
+  int_ref file "src/frontc/frontc.ml" 215 6939 6968 "src/frontc/frontc.ml" 215 6939 6972
+)
+"src/frontc/frontc.ml" 244 7860 7862 "src/frontc/frontc.ml" 244 7860 7883
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 246 7886 7888 "src/frontc/frontc.ml" 246 7886 7894
+type(
+  Pretty.doc -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/frontc/frontc.ml" 246 7886 7896 "src/frontc/frontc.ml" 246 7886 7903
+type(
+  out_channel ->
+  (int -> Pretty.doc, unit, Pretty.doc) format -> int -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.fprintf
+)
+"src/frontc/frontc.ml" 246 7886 7904 "src/frontc/frontc.ml" 246 7886 7908
+type(
+  out_channel
+)
+ident(
+  int_ref chan "src/frontc/frontc.ml" 219 7066 7072 "src/frontc/frontc.ml" 219 7066 7076
+)
+"src/frontc/frontc.ml" 246 7886 7909 "src/frontc/frontc.ml" 246 7886 7940
+type(
+  (int -> Pretty.doc, unit, Pretty.doc) format
+)
+"src/frontc/frontc.ml" 246 7886 7941 "src/frontc/frontc.ml" 246 7886 7942
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 246 7886 7942 "src/frontc/frontc.ml" 246 7886 7949
+type(
+  int ref
+)
+ident(
+  int_ref counter "src/frontc/frontc.ml" 223 7227 7233 "src/frontc/frontc.ml" 223 7227 7240
+)
+"src/frontc/frontc.ml" 246 7886 7941 "src/frontc/frontc.ml" 246 7886 7949
+type(
+  int
+)
+"src/frontc/frontc.ml" 246 7886 7895 "src/frontc/frontc.ml" 246 7886 7950
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/frontc/frontc.ml" 246 7886 7888 "src/frontc/frontc.ml" 246 7886 7950
+type(
+  unit
+)
+"src/frontc/frontc.ml" 247 7952 7954 "src/frontc/frontc.ml" 247 7952 7963
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/frontc/frontc.ml" 247 7952 7964 "src/frontc/frontc.ml" 247 7952 7968
+type(
+  out_channel
+)
+ident(
+  int_ref chan "src/frontc/frontc.ml" 219 7066 7072 "src/frontc/frontc.ml" 219 7066 7076
+)
+"src/frontc/frontc.ml" 247 7952 7954 "src/frontc/frontc.ml" 247 7952 7968
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 248 7970 7972 "src/frontc/frontc.ml" 248 7970 7978
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/frontc/frontc.ml" 248 7970 7980 "src/frontc/frontc.ml" 248 7970 7985
+type(
+  (int -> int -> unit, unit, Pretty.doc, unit) format4 -> int -> int -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/frontc/frontc.ml" 248 7970 7986 "src/frontc/frontc.ml" 248 7970 8042
+type(
+  (int -> int -> unit, unit, Pretty.doc, unit) format4
+)
+"src/frontc/frontc.ml" 249 8043 8059 "src/frontc/frontc.ml" 249 8043 8060
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 249 8043 8060 "src/frontc/frontc.ml" 249 8043 8067
+type(
+  int ref
+)
+ident(
+  int_ref counter "src/frontc/frontc.ml" 223 7227 7233 "src/frontc/frontc.ml" 223 7227 7240
+)
+"src/frontc/frontc.ml" 249 8043 8059 "src/frontc/frontc.ml" 249 8043 8067
+type(
+  int
+)
+"src/frontc/frontc.ml" 249 8043 8069 "src/frontc/frontc.ml" 249 8043 8080
+type(
+  Cabs.definition list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/frontc/frontc.ml" 249 8043 8081 "src/frontc/frontc.ml" 249 8043 8085
+type(
+  Cabs.definition list
+)
+ident(
+  int_ref file "src/frontc/frontc.ml" 215 6939 6968 "src/frontc/frontc.ml" 215 6939 6972
+)
+"src/frontc/frontc.ml" 249 8043 8068 "src/frontc/frontc.ml" 249 8043 8086
+call(
+  stack
+)
+type(
+  int
+)
+"src/frontc/frontc.ml" 248 7970 7979 "src/frontc/frontc.ml" 249 8043 8087
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 248 7970 7972 "src/frontc/frontc.ml" 249 8043 8087
+type(
+  unit
+)
+"src/frontc/frontc.ml" 247 7952 7954 "src/frontc/frontc.ml" 249 8043 8087
+type(
+  unit
+)
+"src/frontc/frontc.ml" 246 7886 7888 "src/frontc/frontc.ml" 249 8043 8087
+type(
+  unit
+)
+"src/frontc/frontc.ml" 244 7860 7862 "src/frontc/frontc.ml" 249 8043 8087
+type(
+  unit
+)
+"src/frontc/frontc.ml" 225 7263 7265 "src/frontc/frontc.ml" 249 8043 8087
+type(
+  unit
+)
+"src/frontc/frontc.ml" 223 7227 7229 "src/frontc/frontc.ml" 249 8043 8087
+type(
+  unit
+)
+"src/frontc/frontc.ml" 221 7196 7198 "src/frontc/frontc.ml" 249 8043 8087
+type(
+  unit
+)
+"src/frontc/frontc.ml" 220 7107 7109 "src/frontc/frontc.ml" 249 8043 8087
+type(
+  unit
+)
+"src/frontc/frontc.ml" 216 6996 6996 "src/frontc/frontc.ml" 250 8088 8091
+type(
+  unit
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 254 8095 8099 "src/frontc/frontc.ml" 254 8095 8111
+type(
+  string -> 'a -> Cabs.file * Cil.file
+)
+ident(
+  def parse_helper "src/frontc/frontc.ml" 264 8482 8482 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 254 8095 8112 "src/frontc/frontc.ml" 254 8095 8117
+type(
+  string
+)
+ident(
+  def fname "src/frontc/frontc.ml" 255 8120 8122 "src/frontc/frontc.ml" 262 8467 8480
+)
+"src/frontc/frontc.ml" 255 8120 8123 "src/frontc/frontc.ml" 255 8120 8128
+type(
+  string -> Pretty.doc -> unit
+)
+ident(
+  ext_ref Trace.trace
+)
+"src/frontc/frontc.ml" 255 8120 8129 "src/frontc/frontc.ml" 255 8120 8133
+type(
+  string
+)
+"src/frontc/frontc.ml" 255 8120 8135 "src/frontc/frontc.ml" 255 8120 8142
+type(
+  (string -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4 ->
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/frontc/frontc.ml" 255 8120 8143 "src/frontc/frontc.ml" 255 8120 8165
+type(
+  (string -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4
+)
+"src/frontc/frontc.ml" 255 8120 8166 "src/frontc/frontc.ml" 255 8120 8171
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 254 8095 8112 "src/frontc/frontc.ml" 254 8095 8117
+)
+"src/frontc/frontc.ml" 255 8120 8134 "src/frontc/frontc.ml" 255 8120 8172
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/frontc/frontc.ml" 255 8120 8122 "src/frontc/frontc.ml" 255 8120 8173
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 256 8175 8181 "src/frontc/frontc.ml" 256 8175 8185
+type(
+  Cabs.file
+)
+ident(
+  def cabs "src/frontc/frontc.ml" 258 8268 8270 "src/frontc/frontc.ml" 262 8467 8480
+)
+"src/frontc/frontc.ml" 256 8175 8188 "src/frontc/frontc.ml" 256 8175 8201
+type(
+  string -> Cabs.file
+)
+ident(
+  int_ref parse_to_cabs "src/frontc/frontc.ml" 113 3778 3786 "src/frontc/frontc.ml" 113 3778 3799
+)
+"src/frontc/frontc.ml" 256 8175 8202 "src/frontc/frontc.ml" 256 8175 8207
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 254 8095 8112 "src/frontc/frontc.ml" 254 8095 8117
+)
+"src/frontc/frontc.ml" 256 8175 8188 "src/frontc/frontc.ml" 256 8175 8207
+call(
+  stack
+)
+type(
+  Cabs.file
+)
+"src/frontc/frontc.ml" 258 8268 8274 "src/frontc/frontc.ml" 258 8268 8275
+type(
+  'a
+)
+"src/frontc/frontc.ml" 259 8279 8284 "src/frontc/frontc.ml" 259 8279 8289
+type(
+  string -> Pretty.doc -> unit
+)
+ident(
+  ext_ref Trace.trace
+)
+"src/frontc/frontc.ml" 259 8279 8290 "src/frontc/frontc.ml" 259 8279 8294
+type(
+  string
+)
+"src/frontc/frontc.ml" 259 8279 8296 "src/frontc/frontc.ml" 259 8279 8303
+type(
+  (string -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4 ->
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/frontc/frontc.ml" 259 8279 8304 "src/frontc/frontc.ml" 259 8279 8338
+type(
+  (string -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4
+)
+"src/frontc/frontc.ml" 259 8279 8339 "src/frontc/frontc.ml" 259 8279 8344
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 254 8095 8112 "src/frontc/frontc.ml" 254 8095 8117
+)
+"src/frontc/frontc.ml" 259 8279 8295 "src/frontc/frontc.ml" 259 8279 8345
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/frontc/frontc.ml" 259 8279 8283 "src/frontc/frontc.ml" 259 8279 8346
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 260 8348 8356 "src/frontc/frontc.ml" 260 8348 8359
+type(
+  Cil.file
+)
+ident(
+  def cil "src/frontc/frontc.ml" 261 8416 8420 "src/frontc/frontc.ml" 262 8467 8480
+)
+"src/frontc/frontc.ml" 260 8348 8362 "src/frontc/frontc.ml" 260 8348 8372
+type(
+  string -> (Cabs.file -> Cil.file) -> Cabs.file -> Cil.file
+)
+ident(
+  ext_ref Stats.time
+)
+"src/frontc/frontc.ml" 260 8348 8373 "src/frontc/frontc.ml" 260 8348 8389
+type(
+  string
+)
+"src/frontc/frontc.ml" 260 8348 8390 "src/frontc/frontc.ml" 260 8348 8407
+type(
+  Cabs.file -> Cil.file
+)
+ident(
+  ext_ref Cabs2cil.convFile
+)
+"src/frontc/frontc.ml" 260 8348 8408 "src/frontc/frontc.ml" 260 8348 8412
+type(
+  Cabs.file
+)
+ident(
+  int_ref cabs "src/frontc/frontc.ml" 256 8175 8181 "src/frontc/frontc.ml" 256 8175 8185
+)
+"src/frontc/frontc.ml" 260 8348 8362 "src/frontc/frontc.ml" 260 8348 8412
+call(
+  stack
+)
+type(
+  Cil.file
+)
+"src/frontc/frontc.ml" 261 8416 8423 "src/frontc/frontc.ml" 261 8416 8424
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/frontc.ml" 261 8416 8424 "src/frontc/frontc.ml" 261 8416 8437
+type(
+  bool ref
+)
+ident(
+  int_ref doPrintProtos "src/frontc/frontc.ml" 79 2673 2677 "src/frontc/frontc.ml" 79 2673 2690
+)
+"src/frontc/frontc.ml" 261 8416 8423 "src/frontc/frontc.ml" 261 8416 8437
+type(
+  bool
+)
+"src/frontc/frontc.ml" 261 8416 8444 "src/frontc/frontc.ml" 261 8416 8459
+type(
+  Cabs.file -> unit
+)
+ident(
+  int_ref printPrototypes "src/frontc/frontc.ml" 215 6939 6943 "src/frontc/frontc.ml" 215 6939 6958
+)
+"src/frontc/frontc.ml" 261 8416 8460 "src/frontc/frontc.ml" 261 8416 8464
+type(
+  Cabs.file
+)
+ident(
+  int_ref cabs "src/frontc/frontc.ml" 256 8175 8181 "src/frontc/frontc.ml" 256 8175 8185
+)
+"src/frontc/frontc.ml" 261 8416 8443 "src/frontc/frontc.ml" 261 8416 8465
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/frontc.ml" 261 8416 8420 "src/frontc/frontc.ml" 261 8416 8465
+type(
+  unit
+)
+"src/frontc/frontc.ml" 262 8467 8471 "src/frontc/frontc.ml" 262 8467 8475
+type(
+  Cabs.file
+)
+ident(
+  int_ref cabs "src/frontc/frontc.ml" 256 8175 8181 "src/frontc/frontc.ml" 256 8175 8185
+)
+"src/frontc/frontc.ml" 262 8467 8477 "src/frontc/frontc.ml" 262 8467 8480
+type(
+  Cil.file
+)
+ident(
+  int_ref cil "src/frontc/frontc.ml" 260 8348 8356 "src/frontc/frontc.ml" 260 8348 8359
+)
+"src/frontc/frontc.ml" 262 8467 8471 "src/frontc/frontc.ml" 262 8467 8480
+type(
+  Cabs.file * Cil.file
+)
+"src/frontc/frontc.ml" 261 8416 8420 "src/frontc/frontc.ml" 262 8467 8480
+type(
+  Cabs.file * Cil.file
+)
+"src/frontc/frontc.ml" 260 8348 8352 "src/frontc/frontc.ml" 262 8467 8480
+type(
+  Cabs.file * Cil.file
+)
+"src/frontc/frontc.ml" 259 8279 8283 "src/frontc/frontc.ml" 262 8467 8480
+type(
+  Cabs.file * Cil.file
+)
+"src/frontc/frontc.ml" 258 8268 8270 "src/frontc/frontc.ml" 262 8467 8480
+type(
+  'a -> Cabs.file * Cil.file
+)
+"src/frontc/frontc.ml" 256 8175 8177 "src/frontc/frontc.ml" 262 8467 8480
+type(
+  'a -> Cabs.file * Cil.file
+)
+"src/frontc/frontc.ml" 255 8120 8122 "src/frontc/frontc.ml" 262 8467 8480
+type(
+  'a -> Cabs.file * Cil.file
+)
+"src/frontc/frontc.ml" 264 8482 8486 "src/frontc/frontc.ml" 264 8482 8491
+type(
+  string -> unit -> Cil.file
+)
+ident(
+  def parse "src/frontc/frontc.ml" 266 8540 8540 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 264 8482 8492 "src/frontc/frontc.ml" 264 8482 8497
+type(
+  string
+)
+ident(
+  def fname "src/frontc/frontc.ml" 264 8482 8500 "src/frontc/frontc.ml" 264 8482 8538
+)
+"src/frontc/frontc.ml" 264 8482 8505 "src/frontc/frontc.ml" 264 8482 8507
+type(
+  unit
+)
+"src/frontc/frontc.ml" 264 8482 8511 "src/frontc/frontc.ml" 264 8482 8514
+type(
+  Cabs.file * Cil.file -> Cil.file
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"src/frontc/frontc.ml" 264 8482 8515 "src/frontc/frontc.ml" 264 8482 8527
+type(
+  string -> unit -> Cabs.file * Cil.file
+)
+ident(
+  int_ref parse_helper "src/frontc/frontc.ml" 254 8095 8099 "src/frontc/frontc.ml" 254 8095 8111
+)
+"src/frontc/frontc.ml" 264 8482 8528 "src/frontc/frontc.ml" 264 8482 8533
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 264 8482 8492 "src/frontc/frontc.ml" 264 8482 8497
+)
+"src/frontc/frontc.ml" 264 8482 8534 "src/frontc/frontc.ml" 264 8482 8536
+type(
+  unit
+)
+"src/frontc/frontc.ml" 264 8482 8514 "src/frontc/frontc.ml" 264 8482 8537
+call(
+  stack
+)
+type(
+  Cabs.file * Cil.file
+)
+"src/frontc/frontc.ml" 264 8482 8511 "src/frontc/frontc.ml" 264 8482 8537
+type(
+  Cil.file
+)
+"src/frontc/frontc.ml" 264 8482 8500 "src/frontc/frontc.ml" 264 8482 8538
+type(
+  unit -> Cil.file
+)
+"src/frontc/frontc.ml" 266 8540 8544 "src/frontc/frontc.ml" 266 8540 8559
+type(
+  string -> unit -> Cabs.file * Cil.file
+)
+ident(
+  def parse_with_cabs "src/frontc/frontc.ml" 266 8540 8601 "src/frontc/frontc.ml" 1 0 -1
+)
+"src/frontc/frontc.ml" 266 8540 8560 "src/frontc/frontc.ml" 266 8540 8565
+type(
+  string
+)
+ident(
+  def fname "src/frontc/frontc.ml" 266 8540 8568 "src/frontc/frontc.ml" 266 8540 8601
+)
+"src/frontc/frontc.ml" 266 8540 8573 "src/frontc/frontc.ml" 266 8540 8575
+type(
+  unit
+)
+"src/frontc/frontc.ml" 266 8540 8579 "src/frontc/frontc.ml" 266 8540 8591
+type(
+  string -> unit -> Cabs.file * Cil.file
+)
+ident(
+  int_ref parse_helper "src/frontc/frontc.ml" 254 8095 8099 "src/frontc/frontc.ml" 254 8095 8111
+)
+"src/frontc/frontc.ml" 266 8540 8592 "src/frontc/frontc.ml" 266 8540 8597
+type(
+  string
+)
+ident(
+  int_ref fname "src/frontc/frontc.ml" 266 8540 8560 "src/frontc/frontc.ml" 266 8540 8565
+)
+"src/frontc/frontc.ml" 266 8540 8598 "src/frontc/frontc.ml" 266 8540 8600
+type(
+  unit
+)
+"src/frontc/frontc.ml" 266 8540 8579 "src/frontc/frontc.ml" 266 8540 8600
+call(
+  tail
+)
+type(
+  Cabs.file * Cil.file
+)
+"src/frontc/frontc.ml" 266 8540 8568 "src/frontc/frontc.ml" 266 8540 8601
+type(
+  unit -> Cabs.file * Cil.file
+)

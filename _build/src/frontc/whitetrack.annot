@@ -1,0 +1,3185 @@
+"src/frontc/whitetrack.ml" 20 540 544 "src/frontc/whitetrack.ml" 20 540 552
+type(
+  (string * int, int) Hashtbl.t
+)
+ident(
+  def tokenmap "src/frontc/whitetrack.ml" 21 608 608 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 20 540 588 "src/frontc/whitetrack.ml" 20 540 602
+type(
+  ?random:bool -> int -> (string * int, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/frontc/whitetrack.ml" 20 540 603 "src/frontc/whitetrack.ml" 20 540 607
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 20 540 588 "src/frontc/whitetrack.ml" 20 540 607
+call(
+  stack
+)
+type(
+  (string * int, int) Hashtbl.t
+)
+type(
+  (string * int, int) Hashtbl.t
+)
+"src/frontc/whitetrack.ml" 21 608 612 "src/frontc/whitetrack.ml" 21 608 619
+type(
+  int ref
+)
+ident(
+  def nextidx "src/frontc/whitetrack.ml" 23 629 629 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 21 608 622 "src/frontc/whitetrack.ml" 21 608 625
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/whitetrack.ml" 21 608 626 "src/frontc/whitetrack.ml" 21 608 627
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 21 608 622 "src/frontc/whitetrack.ml" 21 608 627
+type(
+  int ref
+)
+"src/frontc/whitetrack.ml" 23 629 633 "src/frontc/whitetrack.ml" 23 629 640
+type(
+  bool ref
+)
+ident(
+  def gonebad "src/frontc/whitetrack.ml" 26 691 691 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 23 629 643 "src/frontc/whitetrack.ml" 23 629 646
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/whitetrack.ml" 23 629 647 "src/frontc/whitetrack.ml" 23 629 652
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 23 629 643 "src/frontc/whitetrack.ml" 23 629 652
+type(
+  bool ref
+)
+"src/frontc/whitetrack.ml" 26 691 695 "src/frontc/whitetrack.ml" 26 691 701
+type(
+  (string * string) GrowArray.t
+)
+ident(
+  def tokens "src/frontc/whitetrack.ml" 28 748 748 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 26 691 704 "src/frontc/whitetrack.ml" 26 691 718
+type(
+  int -> (string * string) GrowArray.fill -> (string * string) GrowArray.t
+)
+ident(
+  ext_ref GrowArray.make
+)
+"src/frontc/whitetrack.ml" 26 691 719 "src/frontc/whitetrack.ml" 26 691 720
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 26 691 739 "src/frontc/whitetrack.ml" 26 691 741
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 26 691 742 "src/frontc/whitetrack.ml" 26 691 744
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 26 691 738 "src/frontc/whitetrack.ml" 26 691 745
+type(
+  string * string
+)
+"src/frontc/whitetrack.ml" 26 691 721 "src/frontc/whitetrack.ml" 26 691 746
+type(
+  (string * string) GrowArray.fill
+)
+"src/frontc/whitetrack.ml" 26 691 704 "src/frontc/whitetrack.ml" 26 691 746
+call(
+  stack
+)
+type(
+  (string * string) GrowArray.t
+)
+"src/frontc/whitetrack.ml" 28 748 752 "src/frontc/whitetrack.ml" 28 748 766
+type(
+  Cabs.cabsloc -> string
+)
+ident(
+  def cabsloc_to_str "src/frontc/whitetrack.ml" 33 919 919 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 28 748 767 "src/frontc/whitetrack.ml" 28 748 774
+type(
+  Cabs.cabsloc
+)
+ident(
+  def cabsloc "src/frontc/whitetrack.ml" 29 777 781 "src/frontc/whitetrack.ml" 31 886 917
+)
+"src/frontc/whitetrack.ml" 29 777 781 "src/frontc/whitetrack.ml" 29 777 788
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cabsloc "src/frontc/whitetrack.ml" 28 748 767 "src/frontc/whitetrack.ml" 28 748 774
+)
+"src/frontc/whitetrack.ml" 29 777 781 "src/frontc/whitetrack.ml" 29 777 797
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 29 777 798 "src/frontc/whitetrack.ml" 29 777 799
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 29 777 800 "src/frontc/whitetrack.ml" 29 777 803
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 29 777 804 "src/frontc/whitetrack.ml" 29 777 805
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 29 777 806 "src/frontc/whitetrack.ml" 29 777 819
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/frontc/whitetrack.ml" 29 777 820 "src/frontc/whitetrack.ml" 29 777 827
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cabsloc "src/frontc/whitetrack.ml" 28 748 767 "src/frontc/whitetrack.ml" 28 748 774
+)
+"src/frontc/whitetrack.ml" 29 777 820 "src/frontc/whitetrack.ml" 29 777 834
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 29 777 806 "src/frontc/whitetrack.ml" 29 777 834
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 29 777 835 "src/frontc/whitetrack.ml" 29 777 836
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 29 777 837 "src/frontc/whitetrack.ml" 29 777 840
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 29 777 841 "src/frontc/whitetrack.ml" 29 777 842
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 30 844 848 "src/frontc/whitetrack.ml" 30 844 861
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/frontc/whitetrack.ml" 30 844 862 "src/frontc/whitetrack.ml" 30 844 869
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cabsloc "src/frontc/whitetrack.ml" 28 748 767 "src/frontc/whitetrack.ml" 28 748 774
+)
+"src/frontc/whitetrack.ml" 30 844 862 "src/frontc/whitetrack.ml" 30 844 876
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 30 844 848 "src/frontc/whitetrack.ml" 30 844 876
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 30 844 877 "src/frontc/whitetrack.ml" 30 844 878
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 30 844 879 "src/frontc/whitetrack.ml" 30 844 882
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 30 844 883 "src/frontc/whitetrack.ml" 30 844 884
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 31 886 890 "src/frontc/whitetrack.ml" 31 886 903
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/frontc/whitetrack.ml" 31 886 904 "src/frontc/whitetrack.ml" 31 886 911
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cabsloc "src/frontc/whitetrack.ml" 28 748 767 "src/frontc/whitetrack.ml" 28 748 774
+)
+"src/frontc/whitetrack.ml" 31 886 904 "src/frontc/whitetrack.ml" 31 886 917
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 31 886 890 "src/frontc/whitetrack.ml" 31 886 917
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 30 844 879 "src/frontc/whitetrack.ml" 31 886 917
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 30 844 848 "src/frontc/whitetrack.ml" 31 886 917
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 29 777 837 "src/frontc/whitetrack.ml" 31 886 917
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 29 777 806 "src/frontc/whitetrack.ml" 31 886 917
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 29 777 800 "src/frontc/whitetrack.ml" 31 886 917
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 29 777 781 "src/frontc/whitetrack.ml" 31 886 917
+call(
+  tail
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 33 919 923 "src/frontc/whitetrack.ml" 33 919 931
+type(
+  int ref
+)
+ident(
+  def lastline "src/frontc/whitetrack.ml" 35 941 941 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 33 919 934 "src/frontc/whitetrack.ml" 33 919 937
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/whitetrack.ml" 33 919 938 "src/frontc/whitetrack.ml" 33 919 939
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 33 919 934 "src/frontc/whitetrack.ml" 33 919 939
+type(
+  int ref
+)
+"src/frontc/whitetrack.ml" 35 941 945 "src/frontc/whitetrack.ml" 35 941 962
+type(
+  ('a -> string * string * 'b * Cabs.cabsloc) -> 'a -> 'b
+)
+ident(
+  def wraplexer_enabled "src/frontc/whitetrack.ml" 42 1192 1192 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 35 941 963 "src/frontc/whitetrack.ml" 35 941 968
+type(
+  'a -> string * string * 'b * Cabs.cabsloc
+)
+ident(
+  def lexer "src/frontc/whitetrack.ml" 35 941 969 "src/frontc/whitetrack.ml" 40 1181 1190
+)
+"src/frontc/whitetrack.ml" 35 941 969 "src/frontc/whitetrack.ml" 35 941 975
+type(
+  'a
+)
+ident(
+  def lexbuf "src/frontc/whitetrack.ml" 36 979 983 "src/frontc/whitetrack.ml" 40 1181 1190
+)
+"src/frontc/whitetrack.ml" 36 979 987 "src/frontc/whitetrack.ml" 36 979 992
+type(
+  string
+)
+ident(
+  def white "src/frontc/whitetrack.ml" 37 1032 1036 "src/frontc/whitetrack.ml" 40 1181 1190
+)
+"src/frontc/whitetrack.ml" 36 979 993 "src/frontc/whitetrack.ml" 36 979 999
+type(
+  string
+)
+ident(
+  def lexeme "src/frontc/whitetrack.ml" 37 1032 1036 "src/frontc/whitetrack.ml" 40 1181 1190
+)
+"src/frontc/whitetrack.ml" 36 979 1000 "src/frontc/whitetrack.ml" 36 979 1005
+type(
+  'b
+)
+ident(
+  def token "src/frontc/whitetrack.ml" 37 1032 1036 "src/frontc/whitetrack.ml" 40 1181 1190
+)
+"src/frontc/whitetrack.ml" 36 979 1006 "src/frontc/whitetrack.ml" 36 979 1013
+type(
+  Cabs.cabsloc
+)
+ident(
+  def cabsloc "src/frontc/whitetrack.ml" 37 1032 1036 "src/frontc/whitetrack.ml" 40 1181 1190
+)
+"src/frontc/whitetrack.ml" 36 979 987 "src/frontc/whitetrack.ml" 36 979 1013
+type(
+  string * string * 'b * Cabs.cabsloc
+)
+"src/frontc/whitetrack.ml" 36 979 1016 "src/frontc/whitetrack.ml" 36 979 1021
+type(
+  'a -> string * string * 'b * Cabs.cabsloc
+)
+ident(
+  int_ref lexer "src/frontc/whitetrack.ml" 35 941 963 "src/frontc/whitetrack.ml" 35 941 968
+)
+"src/frontc/whitetrack.ml" 36 979 1022 "src/frontc/whitetrack.ml" 36 979 1028
+type(
+  'a
+)
+ident(
+  int_ref lexbuf "src/frontc/whitetrack.ml" 35 941 969 "src/frontc/whitetrack.ml" 35 941 975
+)
+"src/frontc/whitetrack.ml" 36 979 1016 "src/frontc/whitetrack.ml" 36 979 1028
+call(
+  stack
+)
+type(
+  string * string * 'b * Cabs.cabsloc
+)
+"src/frontc/whitetrack.ml" 37 1032 1036 "src/frontc/whitetrack.ml" 37 1032 1050
+type(
+  (string * string) GrowArray.t -> int -> string * string -> unit
+)
+ident(
+  ext_ref GrowArray.setg
+)
+"src/frontc/whitetrack.ml" 37 1032 1051 "src/frontc/whitetrack.ml" 37 1032 1057
+type(
+  (string * string) GrowArray.t
+)
+ident(
+  int_ref tokens "src/frontc/whitetrack.ml" 26 691 695 "src/frontc/whitetrack.ml" 26 691 701
+)
+"src/frontc/whitetrack.ml" 37 1032 1058 "src/frontc/whitetrack.ml" 37 1032 1059
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 37 1032 1059 "src/frontc/whitetrack.ml" 37 1032 1066
+type(
+  int ref
+)
+ident(
+  int_ref nextidx "src/frontc/whitetrack.ml" 21 608 612 "src/frontc/whitetrack.ml" 21 608 619
+)
+"src/frontc/whitetrack.ml" 37 1032 1058 "src/frontc/whitetrack.ml" 37 1032 1066
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 37 1032 1068 "src/frontc/whitetrack.ml" 37 1032 1073
+type(
+  string
+)
+ident(
+  int_ref white "src/frontc/whitetrack.ml" 36 979 987 "src/frontc/whitetrack.ml" 36 979 992
+)
+"src/frontc/whitetrack.ml" 37 1032 1074 "src/frontc/whitetrack.ml" 37 1032 1080
+type(
+  string
+)
+ident(
+  int_ref lexeme "src/frontc/whitetrack.ml" 36 979 993 "src/frontc/whitetrack.ml" 36 979 999
+)
+"src/frontc/whitetrack.ml" 37 1032 1067 "src/frontc/whitetrack.ml" 37 1032 1081
+type(
+  string * string
+)
+"src/frontc/whitetrack.ml" 37 1032 1036 "src/frontc/whitetrack.ml" 37 1032 1081
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 38 1083 1087 "src/frontc/whitetrack.ml" 38 1083 1098
+type(
+  (string * int, int) Hashtbl.t -> string * int -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"src/frontc/whitetrack.ml" 38 1083 1099 "src/frontc/whitetrack.ml" 38 1083 1107
+type(
+  (string * int, int) Hashtbl.t
+)
+ident(
+  int_ref tokenmap "src/frontc/whitetrack.ml" 20 540 544 "src/frontc/whitetrack.ml" 20 540 552
+)
+"src/frontc/whitetrack.ml" 38 1083 1109 "src/frontc/whitetrack.ml" 38 1083 1116
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cabsloc "src/frontc/whitetrack.ml" 36 979 1006 "src/frontc/whitetrack.ml" 36 979 1013
+)
+"src/frontc/whitetrack.ml" 38 1083 1109 "src/frontc/whitetrack.ml" 38 1083 1125
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 38 1083 1126 "src/frontc/whitetrack.ml" 38 1083 1133
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cabsloc "src/frontc/whitetrack.ml" 36 979 1006 "src/frontc/whitetrack.ml" 36 979 1013
+)
+"src/frontc/whitetrack.ml" 38 1083 1126 "src/frontc/whitetrack.ml" 38 1083 1140
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 38 1083 1108 "src/frontc/whitetrack.ml" 38 1083 1141
+type(
+  string * int
+)
+"src/frontc/whitetrack.ml" 38 1083 1142 "src/frontc/whitetrack.ml" 38 1083 1143
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 38 1083 1143 "src/frontc/whitetrack.ml" 38 1083 1150
+type(
+  int ref
+)
+ident(
+  int_ref nextidx "src/frontc/whitetrack.ml" 21 608 612 "src/frontc/whitetrack.ml" 21 608 619
+)
+"src/frontc/whitetrack.ml" 38 1083 1142 "src/frontc/whitetrack.ml" 38 1083 1150
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 38 1083 1087 "src/frontc/whitetrack.ml" 38 1083 1150
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 39 1152 1156 "src/frontc/whitetrack.ml" 39 1152 1163
+type(
+  int ref
+)
+ident(
+  int_ref nextidx "src/frontc/whitetrack.ml" 21 608 612 "src/frontc/whitetrack.ml" 21 608 619
+)
+"src/frontc/whitetrack.ml" 39 1152 1164 "src/frontc/whitetrack.ml" 39 1152 1166
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/whitetrack.ml" 39 1152 1167 "src/frontc/whitetrack.ml" 39 1152 1168
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 39 1152 1168 "src/frontc/whitetrack.ml" 39 1152 1175
+type(
+  int ref
+)
+ident(
+  int_ref nextidx "src/frontc/whitetrack.ml" 21 608 612 "src/frontc/whitetrack.ml" 21 608 619
+)
+"src/frontc/whitetrack.ml" 39 1152 1167 "src/frontc/whitetrack.ml" 39 1152 1175
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 39 1152 1176 "src/frontc/whitetrack.ml" 39 1152 1177
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/frontc/whitetrack.ml" 39 1152 1178 "src/frontc/whitetrack.ml" 39 1152 1179
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 39 1152 1167 "src/frontc/whitetrack.ml" 39 1152 1179
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 39 1152 1156 "src/frontc/whitetrack.ml" 39 1152 1179
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 40 1181 1185 "src/frontc/whitetrack.ml" 40 1181 1190
+type(
+  'b
+)
+ident(
+  int_ref token "src/frontc/whitetrack.ml" 36 979 1000 "src/frontc/whitetrack.ml" 36 979 1005
+)
+"src/frontc/whitetrack.ml" 39 1152 1156 "src/frontc/whitetrack.ml" 40 1181 1190
+type(
+  'b
+)
+"src/frontc/whitetrack.ml" 38 1083 1087 "src/frontc/whitetrack.ml" 40 1181 1190
+type(
+  'b
+)
+"src/frontc/whitetrack.ml" 37 1032 1036 "src/frontc/whitetrack.ml" 40 1181 1190
+type(
+  'b
+)
+"src/frontc/whitetrack.ml" 36 979 983 "src/frontc/whitetrack.ml" 40 1181 1190
+type(
+  'b
+)
+"src/frontc/whitetrack.ml" 42 1192 1196 "src/frontc/whitetrack.ml" 42 1192 1214
+type(
+  ('a -> 'b * 'c * 'd * 'e) -> 'a -> 'd
+)
+ident(
+  def wraplexer_disabled "src/frontc/whitetrack.ml" 46 1295 1295 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 42 1192 1215 "src/frontc/whitetrack.ml" 42 1192 1220
+type(
+  'a -> 'b * 'c * 'd * 'e
+)
+ident(
+  def lexer "src/frontc/whitetrack.ml" 42 1192 1221 "src/frontc/whitetrack.ml" 44 1284 1293
+)
+"src/frontc/whitetrack.ml" 42 1192 1221 "src/frontc/whitetrack.ml" 42 1192 1227
+type(
+  'a
+)
+ident(
+  def lexbuf "src/frontc/whitetrack.ml" 43 1231 1235 "src/frontc/whitetrack.ml" 44 1284 1293
+)
+"src/frontc/whitetrack.ml" 43 1231 1239 "src/frontc/whitetrack.ml" 43 1231 1244
+type(
+  'b
+)
+ident(
+  def white "src/frontc/whitetrack.ml" 44 1284 1288 "src/frontc/whitetrack.ml" 44 1284 1293
+)
+"src/frontc/whitetrack.ml" 43 1231 1245 "src/frontc/whitetrack.ml" 43 1231 1251
+type(
+  'c
+)
+ident(
+  def lexeme "src/frontc/whitetrack.ml" 44 1284 1288 "src/frontc/whitetrack.ml" 44 1284 1293
+)
+"src/frontc/whitetrack.ml" 43 1231 1252 "src/frontc/whitetrack.ml" 43 1231 1257
+type(
+  'd
+)
+ident(
+  def token "src/frontc/whitetrack.ml" 44 1284 1288 "src/frontc/whitetrack.ml" 44 1284 1293
+)
+"src/frontc/whitetrack.ml" 43 1231 1258 "src/frontc/whitetrack.ml" 43 1231 1265
+type(
+  'e
+)
+ident(
+  def cabsloc "src/frontc/whitetrack.ml" 44 1284 1288 "src/frontc/whitetrack.ml" 44 1284 1293
+)
+"src/frontc/whitetrack.ml" 43 1231 1239 "src/frontc/whitetrack.ml" 43 1231 1265
+type(
+  'b * 'c * 'd * 'e
+)
+"src/frontc/whitetrack.ml" 43 1231 1268 "src/frontc/whitetrack.ml" 43 1231 1273
+type(
+  'a -> 'b * 'c * 'd * 'e
+)
+ident(
+  int_ref lexer "src/frontc/whitetrack.ml" 42 1192 1215 "src/frontc/whitetrack.ml" 42 1192 1220
+)
+"src/frontc/whitetrack.ml" 43 1231 1274 "src/frontc/whitetrack.ml" 43 1231 1280
+type(
+  'a
+)
+ident(
+  int_ref lexbuf "src/frontc/whitetrack.ml" 42 1192 1221 "src/frontc/whitetrack.ml" 42 1192 1227
+)
+"src/frontc/whitetrack.ml" 43 1231 1268 "src/frontc/whitetrack.ml" 43 1231 1280
+call(
+  stack
+)
+type(
+  'b * 'c * 'd * 'e
+)
+"src/frontc/whitetrack.ml" 44 1284 1288 "src/frontc/whitetrack.ml" 44 1284 1293
+type(
+  'd
+)
+ident(
+  int_ref token "src/frontc/whitetrack.ml" 43 1231 1252 "src/frontc/whitetrack.ml" 43 1231 1257
+)
+"src/frontc/whitetrack.ml" 43 1231 1235 "src/frontc/whitetrack.ml" 44 1284 1293
+type(
+  'd
+)
+"src/frontc/whitetrack.ml" 46 1295 1299 "src/frontc/whitetrack.ml" 46 1295 1306
+type(
+  bool ref
+)
+ident(
+  def enabled "src/frontc/whitetrack.ml" 48 1320 1320 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 46 1295 1309 "src/frontc/whitetrack.ml" 46 1295 1312
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/whitetrack.ml" 46 1295 1313 "src/frontc/whitetrack.ml" 46 1295 1318
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 46 1295 1309 "src/frontc/whitetrack.ml" 46 1295 1318
+type(
+  bool ref
+)
+"src/frontc/whitetrack.ml" 48 1320 1324 "src/frontc/whitetrack.ml" 48 1320 1333
+type(
+  ('a -> string * string * 'b * Cabs.cabsloc) -> 'a -> 'b
+)
+ident(
+  def wraplexer "src/frontc/whitetrack.ml" 52 1427 1427 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 48 1320 1334 "src/frontc/whitetrack.ml" 48 1320 1339
+type(
+  'a -> string * string * 'b * Cabs.cabsloc
+)
+ident(
+  def lexer "src/frontc/whitetrack.ml" 49 1342 1346 "src/frontc/whitetrack.ml" 50 1388 1421
+)
+"src/frontc/whitetrack.ml" 49 1342 1349 "src/frontc/whitetrack.ml" 49 1342 1350
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 49 1342 1350 "src/frontc/whitetrack.ml" 49 1342 1357
+type(
+  bool ref
+)
+ident(
+  int_ref enabled "src/frontc/whitetrack.ml" 46 1295 1299 "src/frontc/whitetrack.ml" 46 1295 1306
+)
+"src/frontc/whitetrack.ml" 49 1342 1349 "src/frontc/whitetrack.ml" 49 1342 1357
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 49 1342 1363 "src/frontc/whitetrack.ml" 49 1342 1380
+type(
+  ('a -> string * string * 'b * Cabs.cabsloc) -> 'a -> 'b
+)
+ident(
+  int_ref wraplexer_enabled "src/frontc/whitetrack.ml" 35 941 945 "src/frontc/whitetrack.ml" 35 941 962
+)
+"src/frontc/whitetrack.ml" 49 1342 1381 "src/frontc/whitetrack.ml" 49 1342 1386
+type(
+  'a -> string * string * 'b * Cabs.cabsloc
+)
+ident(
+  int_ref lexer "src/frontc/whitetrack.ml" 48 1320 1334 "src/frontc/whitetrack.ml" 48 1320 1339
+)
+"src/frontc/whitetrack.ml" 49 1342 1363 "src/frontc/whitetrack.ml" 49 1342 1386
+call(
+  tail
+)
+type(
+  'a -> 'b
+)
+"src/frontc/whitetrack.ml" 50 1388 1397 "src/frontc/whitetrack.ml" 50 1388 1415
+type(
+  ('a -> string * string * 'b * Cabs.cabsloc) -> 'a -> 'b
+)
+ident(
+  int_ref wraplexer_disabled "src/frontc/whitetrack.ml" 42 1192 1196 "src/frontc/whitetrack.ml" 42 1192 1214
+)
+"src/frontc/whitetrack.ml" 50 1388 1416 "src/frontc/whitetrack.ml" 50 1388 1421
+type(
+  'a -> string * string * 'b * Cabs.cabsloc
+)
+ident(
+  int_ref lexer "src/frontc/whitetrack.ml" 48 1320 1334 "src/frontc/whitetrack.ml" 48 1320 1339
+)
+"src/frontc/whitetrack.ml" 50 1388 1397 "src/frontc/whitetrack.ml" 50 1388 1421
+call(
+  tail
+)
+type(
+  'a -> 'b
+)
+"src/frontc/whitetrack.ml" 49 1342 1346 "src/frontc/whitetrack.ml" 50 1388 1421
+type(
+  'a -> 'b
+)
+"src/frontc/whitetrack.ml" 52 1427 1431 "src/frontc/whitetrack.ml" 52 1427 1441
+type(
+  string ref
+)
+ident(
+  def finalwhite "src/frontc/whitetrack.ml" 54 1462 1462 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 52 1427 1444 "src/frontc/whitetrack.ml" 52 1427 1447
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/whitetrack.ml" 52 1427 1448 "src/frontc/whitetrack.ml" 52 1427 1452
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 52 1427 1444 "src/frontc/whitetrack.ml" 52 1427 1452
+type(
+  string ref
+)
+"src/frontc/whitetrack.ml" 54 1462 1466 "src/frontc/whitetrack.ml" 54 1462 1479
+type(
+  string -> unit
+)
+ident(
+  def setFinalWhite "src/frontc/whitetrack.ml" 56 1506 1506 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 54 1462 1480 "src/frontc/whitetrack.ml" 54 1462 1481
+type(
+  string
+)
+ident(
+  def w "src/frontc/whitetrack.ml" 54 1462 1484 "src/frontc/whitetrack.ml" 54 1462 1499
+)
+"src/frontc/whitetrack.ml" 54 1462 1484 "src/frontc/whitetrack.ml" 54 1462 1494
+type(
+  string ref
+)
+ident(
+  int_ref finalwhite "src/frontc/whitetrack.ml" 52 1427 1431 "src/frontc/whitetrack.ml" 52 1427 1441
+)
+"src/frontc/whitetrack.ml" 54 1462 1495 "src/frontc/whitetrack.ml" 54 1462 1497
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/whitetrack.ml" 54 1462 1498 "src/frontc/whitetrack.ml" 54 1462 1499
+type(
+  string
+)
+ident(
+  int_ref w "src/frontc/whitetrack.ml" 54 1462 1480 "src/frontc/whitetrack.ml" 54 1462 1481
+)
+"src/frontc/whitetrack.ml" 54 1462 1484 "src/frontc/whitetrack.ml" 54 1462 1499
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 56 1506 1510 "src/frontc/whitetrack.ml" 56 1506 1516
+type(
+  int ref
+)
+ident(
+  def curidx "src/frontc/whitetrack.ml" 57 1527 1527 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 56 1506 1519 "src/frontc/whitetrack.ml" 56 1506 1522
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/whitetrack.ml" 56 1506 1523 "src/frontc/whitetrack.ml" 56 1506 1524
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 56 1506 1519 "src/frontc/whitetrack.ml" 56 1506 1524
+type(
+  int ref
+)
+"src/frontc/whitetrack.ml" 57 1527 1531 "src/frontc/whitetrack.ml" 57 1527 1536
+type(
+  int
+)
+ident(
+  def noidx "src/frontc/whitetrack.ml" 58 1544 1544 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 57 1527 1539 "src/frontc/whitetrack.ml" 57 1527 1541
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 58 1544 1548 "src/frontc/whitetrack.ml" 58 1544 1551
+type(
+  out_channel ref
+)
+ident(
+  def out "src/frontc/whitetrack.ml" 60 1570 1570 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 58 1544 1554 "src/frontc/whitetrack.ml" 58 1544 1557
+type(
+  out_channel -> out_channel ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/whitetrack.ml" 58 1544 1558 "src/frontc/whitetrack.ml" 58 1544 1564
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"src/frontc/whitetrack.ml" 58 1544 1554 "src/frontc/whitetrack.ml" 58 1544 1564
+type(
+  out_channel ref
+)
+"src/frontc/whitetrack.ml" 60 1570 1574 "src/frontc/whitetrack.ml" 60 1570 1580
+type(
+  Cabs.cabsloc -> unit
+)
+ident(
+  def setLoc "src/frontc/whitetrack.ml" 70 1954 1954 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 60 1570 1581 "src/frontc/whitetrack.ml" 60 1570 1588
+type(
+  Cabs.cabsloc
+)
+ident(
+  def cabsloc "src/frontc/whitetrack.ml" 61 1591 1595 "src/frontc/whitetrack.ml" 68 1906 1948
+)
+"src/frontc/whitetrack.ml" 61 1591 1598 "src/frontc/whitetrack.ml" 61 1591 1605
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cabsloc "src/frontc/whitetrack.ml" 60 1570 1581 "src/frontc/whitetrack.ml" 60 1570 1588
+)
+"src/frontc/whitetrack.ml" 61 1591 1606 "src/frontc/whitetrack.ml" 61 1591 1608
+type(
+  Cabs.cabsloc -> Cabs.cabsloc -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/frontc/whitetrack.ml" 61 1591 1609 "src/frontc/whitetrack.ml" 61 1591 1615
+type(
+  Cabs.cabsloc
+)
+ident(
+  ext_ref Cabshelper.cabslu
+)
+"src/frontc/whitetrack.ml" 61 1591 1598 "src/frontc/whitetrack.ml" 61 1591 1615
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 61 1591 1616 "src/frontc/whitetrack.ml" 61 1591 1618
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/frontc/whitetrack.ml" 61 1591 1619 "src/frontc/whitetrack.ml" 61 1591 1620
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 61 1591 1620 "src/frontc/whitetrack.ml" 61 1591 1627
+type(
+  bool ref
+)
+ident(
+  int_ref enabled "src/frontc/whitetrack.ml" 46 1295 1299 "src/frontc/whitetrack.ml" 46 1295 1306
+)
+"src/frontc/whitetrack.ml" 61 1591 1619 "src/frontc/whitetrack.ml" 61 1591 1627
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 61 1591 1598 "src/frontc/whitetrack.ml" 61 1591 1627
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 63 1652 1664 "src/frontc/whitetrack.ml" 63 1652 1670
+type(
+  int ref
+)
+ident(
+  int_ref curidx "src/frontc/whitetrack.ml" 56 1506 1510 "src/frontc/whitetrack.ml" 56 1506 1516
+)
+"src/frontc/whitetrack.ml" 63 1652 1671 "src/frontc/whitetrack.ml" 63 1652 1673
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/whitetrack.ml" 63 1652 1674 "src/frontc/whitetrack.ml" 63 1652 1686
+type(
+  (string * int, int) Hashtbl.t -> string * int -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/frontc/whitetrack.ml" 63 1652 1687 "src/frontc/whitetrack.ml" 63 1652 1695
+type(
+  (string * int, int) Hashtbl.t
+)
+ident(
+  int_ref tokenmap "src/frontc/whitetrack.ml" 20 540 544 "src/frontc/whitetrack.ml" 20 540 552
+)
+"src/frontc/whitetrack.ml" 63 1652 1697 "src/frontc/whitetrack.ml" 63 1652 1704
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cabsloc "src/frontc/whitetrack.ml" 60 1570 1581 "src/frontc/whitetrack.ml" 60 1570 1588
+)
+"src/frontc/whitetrack.ml" 63 1652 1697 "src/frontc/whitetrack.ml" 63 1652 1713
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 63 1652 1714 "src/frontc/whitetrack.ml" 63 1652 1721
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cabsloc "src/frontc/whitetrack.ml" 60 1570 1581 "src/frontc/whitetrack.ml" 60 1570 1588
+)
+"src/frontc/whitetrack.ml" 63 1652 1714 "src/frontc/whitetrack.ml" 63 1652 1728
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 63 1652 1696 "src/frontc/whitetrack.ml" 63 1652 1729
+type(
+  string * int
+)
+"src/frontc/whitetrack.ml" 63 1652 1674 "src/frontc/whitetrack.ml" 63 1652 1729
+call(
+  stack
+)
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 63 1652 1664 "src/frontc/whitetrack.ml" 63 1652 1729
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 65 1743 1755 "src/frontc/whitetrack.ml" 65 1743 1764
+type(
+  exn
+)
+"src/frontc/whitetrack.ml" 65 1743 1768 "src/frontc/whitetrack.ml" 65 1743 1778
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Errormsg.s
+)
+"src/frontc/whitetrack.ml" 66 1780 1797 "src/frontc/whitetrack.ml" 66 1780 1811
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref Errormsg.error
+)
+"src/frontc/whitetrack.ml" 66 1780 1812 "src/frontc/whitetrack.ml" 66 1780 1858
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/frontc/whitetrack.ml" 67 1859 1880 "src/frontc/whitetrack.ml" 67 1859 1894
+type(
+  Cabs.cabsloc -> string
+)
+ident(
+  int_ref cabsloc_to_str "src/frontc/whitetrack.ml" 28 748 752 "src/frontc/whitetrack.ml" 28 748 766
+)
+"src/frontc/whitetrack.ml" 67 1859 1895 "src/frontc/whitetrack.ml" 67 1859 1902
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cabsloc "src/frontc/whitetrack.ml" 60 1570 1581 "src/frontc/whitetrack.ml" 60 1570 1588
+)
+"src/frontc/whitetrack.ml" 67 1859 1879 "src/frontc/whitetrack.ml" 67 1859 1903
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 66 1780 1796 "src/frontc/whitetrack.ml" 67 1859 1904
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 65 1743 1768 "src/frontc/whitetrack.ml" 67 1859 1904
+call(
+  tail
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 61 1591 1633 "src/frontc/whitetrack.ml" 68 1906 1913
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 68 1906 1925 "src/frontc/whitetrack.ml" 68 1906 1931
+type(
+  int ref
+)
+ident(
+  int_ref curidx "src/frontc/whitetrack.ml" 56 1506 1510 "src/frontc/whitetrack.ml" 56 1506 1516
+)
+"src/frontc/whitetrack.ml" 68 1906 1932 "src/frontc/whitetrack.ml" 68 1906 1934
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/whitetrack.ml" 68 1906 1935 "src/frontc/whitetrack.ml" 68 1906 1940
+type(
+  int
+)
+ident(
+  int_ref noidx "src/frontc/whitetrack.ml" 57 1527 1531 "src/frontc/whitetrack.ml" 57 1527 1536
+)
+"src/frontc/whitetrack.ml" 68 1906 1925 "src/frontc/whitetrack.ml" 68 1906 1940
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 68 1906 1942 "src/frontc/whitetrack.ml" 68 1906 1944
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 68 1906 1919 "src/frontc/whitetrack.ml" 68 1906 1948
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 61 1591 1595 "src/frontc/whitetrack.ml" 68 1906 1948
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 70 1954 1958 "src/frontc/whitetrack.ml" 70 1954 1967
+type(
+  out_channel -> unit
+)
+ident(
+  def setOutput "src/frontc/whitetrack.ml" 73 2001 2001 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 70 1954 1968 "src/frontc/whitetrack.ml" 70 1954 1976
+type(
+  out_channel
+)
+ident(
+  def out_chan "src/frontc/whitetrack.ml" 71 1980 1984 "src/frontc/whitetrack.ml" 71 1980 1999
+)
+"src/frontc/whitetrack.ml" 71 1980 1984 "src/frontc/whitetrack.ml" 71 1980 1987
+type(
+  out_channel ref
+)
+ident(
+  int_ref out "src/frontc/whitetrack.ml" 58 1544 1548 "src/frontc/whitetrack.ml" 58 1544 1551
+)
+"src/frontc/whitetrack.ml" 71 1980 1988 "src/frontc/whitetrack.ml" 71 1980 1990
+type(
+  out_channel ref -> out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/whitetrack.ml" 71 1980 1991 "src/frontc/whitetrack.ml" 71 1980 1999
+type(
+  out_channel
+)
+ident(
+  int_ref out_chan "src/frontc/whitetrack.ml" 70 1954 1968 "src/frontc/whitetrack.ml" 70 1954 1976
+)
+"src/frontc/whitetrack.ml" 71 1980 1984 "src/frontc/whitetrack.ml" 71 1980 1999
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 73 2001 2005 "src/frontc/whitetrack.ml" 73 2001 2014
+type(
+  unit -> out_channel
+)
+ident(
+  def getOutput "src/frontc/whitetrack.ml" 76 2055 2055 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 73 2001 2015 "src/frontc/whitetrack.ml" 73 2001 2017
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 73 2001 2020 "src/frontc/whitetrack.ml" 73 2001 2021
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 73 2001 2021 "src/frontc/whitetrack.ml" 73 2001 2024
+type(
+  out_channel ref
+)
+ident(
+  int_ref out "src/frontc/whitetrack.ml" 58 1544 1548 "src/frontc/whitetrack.ml" 58 1544 1551
+)
+"src/frontc/whitetrack.ml" 73 2001 2020 "src/frontc/whitetrack.ml" 73 2001 2024
+type(
+  out_channel
+)
+"src/frontc/whitetrack.ml" 76 2055 2059 "src/frontc/whitetrack.ml" 76 2055 2071
+type(
+  unit -> string
+)
+ident(
+  def invent_white "src/frontc/whitetrack.ml" 78 2082 2082 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 76 2055 2072 "src/frontc/whitetrack.ml" 76 2055 2074
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 76 2055 2077 "src/frontc/whitetrack.ml" 76 2055 2080
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 78 2082 2090 "src/frontc/whitetrack.ml" 78 2082 2099
+type(
+  string -> string
+)
+ident(
+  def chopwhite "src/frontc/whitetrack.ml" 78 2082 2082 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 78 2082 2100 "src/frontc/whitetrack.ml" 78 2082 2103
+type(
+  string
+)
+ident(
+  def str "src/frontc/whitetrack.ml" 79 2106 2110 "src/frontc/whitetrack.ml" 84 2370 2382
+)
+"src/frontc/whitetrack.ml" 79 2106 2113 "src/frontc/whitetrack.ml" 79 2106 2126
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/frontc/whitetrack.ml" 79 2106 2127 "src/frontc/whitetrack.ml" 79 2106 2130
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 78 2082 2100 "src/frontc/whitetrack.ml" 78 2082 2103
+)
+"src/frontc/whitetrack.ml" 79 2106 2113 "src/frontc/whitetrack.ml" 79 2106 2130
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 79 2106 2131 "src/frontc/whitetrack.ml" 79 2106 2132
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/frontc/whitetrack.ml" 79 2106 2133 "src/frontc/whitetrack.ml" 79 2106 2134
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 79 2106 2113 "src/frontc/whitetrack.ml" 79 2106 2134
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 79 2106 2140 "src/frontc/whitetrack.ml" 79 2106 2143
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 78 2082 2100 "src/frontc/whitetrack.ml" 78 2082 2103
+)
+"src/frontc/whitetrack.ml" 80 2145 2157 "src/frontc/whitetrack.ml" 80 2145 2167
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"src/frontc/whitetrack.ml" 80 2145 2168 "src/frontc/whitetrack.ml" 80 2145 2171
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 78 2082 2100 "src/frontc/whitetrack.ml" 78 2082 2103
+)
+"src/frontc/whitetrack.ml" 80 2145 2173 "src/frontc/whitetrack.ml" 80 2145 2186
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/frontc/whitetrack.ml" 80 2145 2187 "src/frontc/whitetrack.ml" 80 2145 2190
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 78 2082 2100 "src/frontc/whitetrack.ml" 78 2082 2103
+)
+"src/frontc/whitetrack.ml" 80 2145 2173 "src/frontc/whitetrack.ml" 80 2145 2190
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 80 2145 2191 "src/frontc/whitetrack.ml" 80 2145 2192
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/frontc/whitetrack.ml" 80 2145 2193 "src/frontc/whitetrack.ml" 80 2145 2194
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 80 2145 2172 "src/frontc/whitetrack.ml" 80 2145 2195
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 80 2145 2157 "src/frontc/whitetrack.ml" 80 2145 2195
+type(
+  char
+)
+"src/frontc/whitetrack.ml" 80 2145 2196 "src/frontc/whitetrack.ml" 80 2145 2197
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/frontc/whitetrack.ml" 80 2145 2198 "src/frontc/whitetrack.ml" 80 2145 2201
+type(
+  char
+)
+"src/frontc/whitetrack.ml" 80 2145 2157 "src/frontc/whitetrack.ml" 80 2145 2201
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 81 2207 2215 "src/frontc/whitetrack.ml" 81 2207 2224
+type(
+  string -> string
+)
+ident(
+  int_ref chopwhite "src/frontc/whitetrack.ml" 78 2082 2090 "src/frontc/whitetrack.ml" 78 2082 2099
+)
+"src/frontc/whitetrack.ml" 81 2207 2226 "src/frontc/whitetrack.ml" 81 2207 2236
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/frontc/whitetrack.ml" 81 2207 2237 "src/frontc/whitetrack.ml" 81 2207 2240
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 78 2082 2100 "src/frontc/whitetrack.ml" 78 2082 2103
+)
+"src/frontc/whitetrack.ml" 81 2207 2241 "src/frontc/whitetrack.ml" 81 2207 2242
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 81 2207 2244 "src/frontc/whitetrack.ml" 81 2207 2257
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/frontc/whitetrack.ml" 81 2207 2258 "src/frontc/whitetrack.ml" 81 2207 2261
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 78 2082 2100 "src/frontc/whitetrack.ml" 78 2082 2103
+)
+"src/frontc/whitetrack.ml" 81 2207 2244 "src/frontc/whitetrack.ml" 81 2207 2261
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 81 2207 2262 "src/frontc/whitetrack.ml" 81 2207 2263
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/frontc/whitetrack.ml" 81 2207 2264 "src/frontc/whitetrack.ml" 81 2207 2265
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 81 2207 2243 "src/frontc/whitetrack.ml" 81 2207 2266
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 81 2207 2225 "src/frontc/whitetrack.ml" 81 2207 2267
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 81 2207 2215 "src/frontc/whitetrack.ml" 81 2207 2267
+call(
+  tail
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 82 2268 2280 "src/frontc/whitetrack.ml" 82 2268 2290
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"src/frontc/whitetrack.ml" 82 2268 2291 "src/frontc/whitetrack.ml" 82 2268 2294
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 78 2082 2100 "src/frontc/whitetrack.ml" 78 2082 2103
+)
+"src/frontc/whitetrack.ml" 82 2268 2295 "src/frontc/whitetrack.ml" 82 2268 2296
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 82 2268 2280 "src/frontc/whitetrack.ml" 82 2268 2296
+type(
+  char
+)
+"src/frontc/whitetrack.ml" 82 2268 2297 "src/frontc/whitetrack.ml" 82 2268 2298
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/frontc/whitetrack.ml" 82 2268 2299 "src/frontc/whitetrack.ml" 82 2268 2302
+type(
+  char
+)
+"src/frontc/whitetrack.ml" 82 2268 2280 "src/frontc/whitetrack.ml" 82 2268 2302
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 83 2308 2316 "src/frontc/whitetrack.ml" 83 2308 2325
+type(
+  string -> string
+)
+ident(
+  int_ref chopwhite "src/frontc/whitetrack.ml" 78 2082 2090 "src/frontc/whitetrack.ml" 78 2082 2099
+)
+"src/frontc/whitetrack.ml" 83 2308 2327 "src/frontc/whitetrack.ml" 83 2308 2337
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/frontc/whitetrack.ml" 83 2308 2338 "src/frontc/whitetrack.ml" 83 2308 2341
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 78 2082 2100 "src/frontc/whitetrack.ml" 78 2082 2103
+)
+"src/frontc/whitetrack.ml" 83 2308 2342 "src/frontc/whitetrack.ml" 83 2308 2343
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 83 2308 2345 "src/frontc/whitetrack.ml" 83 2308 2358
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/frontc/whitetrack.ml" 83 2308 2359 "src/frontc/whitetrack.ml" 83 2308 2362
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 78 2082 2100 "src/frontc/whitetrack.ml" 78 2082 2103
+)
+"src/frontc/whitetrack.ml" 83 2308 2345 "src/frontc/whitetrack.ml" 83 2308 2362
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 83 2308 2363 "src/frontc/whitetrack.ml" 83 2308 2364
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/frontc/whitetrack.ml" 83 2308 2365 "src/frontc/whitetrack.ml" 83 2308 2366
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 83 2308 2344 "src/frontc/whitetrack.ml" 83 2308 2367
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 83 2308 2326 "src/frontc/whitetrack.ml" 83 2308 2368
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 83 2308 2316 "src/frontc/whitetrack.ml" 83 2308 2368
+call(
+  tail
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 84 2370 2379 "src/frontc/whitetrack.ml" 84 2370 2382
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 78 2082 2100 "src/frontc/whitetrack.ml" 78 2082 2103
+)
+"src/frontc/whitetrack.ml" 82 2268 2277 "src/frontc/whitetrack.ml" 84 2370 2382
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 80 2145 2154 "src/frontc/whitetrack.ml" 84 2370 2382
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 79 2106 2110 "src/frontc/whitetrack.ml" 84 2370 2382
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 86 2388 2392 "src/frontc/whitetrack.ml" 86 2388 2406
+type(
+  bool ref
+)
+ident(
+  def last_was_maybe "src/frontc/whitetrack.ml" 87 2423 2423 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 86 2388 2409 "src/frontc/whitetrack.ml" 86 2388 2412
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/whitetrack.ml" 86 2388 2413 "src/frontc/whitetrack.ml" 86 2388 2418
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 86 2388 2409 "src/frontc/whitetrack.ml" 86 2388 2418
+type(
+  bool ref
+)
+"src/frontc/whitetrack.ml" 87 2423 2427 "src/frontc/whitetrack.ml" 87 2423 2435
+type(
+  string ref
+)
+ident(
+  def last_str "src/frontc/whitetrack.ml" 89 2450 2450 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 87 2423 2438 "src/frontc/whitetrack.ml" 87 2423 2441
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/whitetrack.ml" 87 2423 2442 "src/frontc/whitetrack.ml" 87 2423 2444
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 87 2423 2438 "src/frontc/whitetrack.ml" 87 2423 2444
+type(
+  string ref
+)
+"src/frontc/whitetrack.ml" 89 2450 2454 "src/frontc/whitetrack.ml" 89 2450 2459
+type(
+  string -> unit
+)
+ident(
+  def print "src/frontc/whitetrack.ml" 112 3303 3303 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 89 2450 2460 "src/frontc/whitetrack.ml" 89 2450 2463
+type(
+  string
+)
+ident(
+  def str "src/frontc/whitetrack.ml" 90 2466 2470 "src/frontc/whitetrack.ml" 110 3274 3301
+)
+"src/frontc/whitetrack.ml" 90 2466 2474 "src/frontc/whitetrack.ml" 90 2466 2477
+type(
+  string
+)
+ident(
+  def str "src/frontc/whitetrack.ml" 91 2497 2501 "src/frontc/whitetrack.ml" 110 3274 3301
+)
+"src/frontc/whitetrack.ml" 90 2466 2480 "src/frontc/whitetrack.ml" 90 2466 2489
+type(
+  string -> string
+)
+ident(
+  int_ref chopwhite "src/frontc/whitetrack.ml" 78 2082 2090 "src/frontc/whitetrack.ml" 78 2082 2099
+)
+"src/frontc/whitetrack.ml" 90 2466 2490 "src/frontc/whitetrack.ml" 90 2466 2493
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 89 2450 2460 "src/frontc/whitetrack.ml" 89 2450 2463
+)
+"src/frontc/whitetrack.ml" 90 2466 2480 "src/frontc/whitetrack.ml" 90 2466 2493
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 91 2497 2504 "src/frontc/whitetrack.ml" 91 2497 2507
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 90 2466 2474 "src/frontc/whitetrack.ml" 90 2466 2477
+)
+"src/frontc/whitetrack.ml" 91 2497 2508 "src/frontc/whitetrack.ml" 91 2497 2509
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/frontc/whitetrack.ml" 91 2497 2510 "src/frontc/whitetrack.ml" 91 2497 2512
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 91 2497 2504 "src/frontc/whitetrack.ml" 91 2497 2512
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 91 2497 2518 "src/frontc/whitetrack.ml" 91 2497 2520
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 92 2521 2533 "src/frontc/whitetrack.ml" 92 2521 2534
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 92 2521 2534 "src/frontc/whitetrack.ml" 92 2521 2540
+type(
+  int ref
+)
+ident(
+  int_ref curidx "src/frontc/whitetrack.ml" 56 1506 1510 "src/frontc/whitetrack.ml" 56 1506 1516
+)
+"src/frontc/whitetrack.ml" 92 2521 2533 "src/frontc/whitetrack.ml" 92 2521 2540
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 92 2521 2541 "src/frontc/whitetrack.ml" 92 2521 2543
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"src/frontc/whitetrack.ml" 92 2521 2544 "src/frontc/whitetrack.ml" 92 2521 2549
+type(
+  int
+)
+ident(
+  int_ref noidx "src/frontc/whitetrack.ml" 57 1527 1531 "src/frontc/whitetrack.ml" 57 1527 1536
+)
+"src/frontc/whitetrack.ml" 92 2521 2533 "src/frontc/whitetrack.ml" 92 2521 2549
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 92 2521 2550 "src/frontc/whitetrack.ml" 92 2521 2552
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/frontc/whitetrack.ml" 92 2521 2553 "src/frontc/whitetrack.ml" 92 2521 2556
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/frontc/whitetrack.ml" 92 2521 2557 "src/frontc/whitetrack.ml" 92 2521 2558
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 92 2521 2558 "src/frontc/whitetrack.ml" 92 2521 2565
+type(
+  bool ref
+)
+ident(
+  int_ref enabled "src/frontc/whitetrack.ml" 46 1295 1299 "src/frontc/whitetrack.ml" 46 1295 1306
+)
+"src/frontc/whitetrack.ml" 92 2521 2557 "src/frontc/whitetrack.ml" 92 2521 2565
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 92 2521 2553 "src/frontc/whitetrack.ml" 92 2521 2565
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 92 2521 2533 "src/frontc/whitetrack.ml" 92 2521 2565
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 93 2572 2580 "src/frontc/whitetrack.ml" 93 2572 2593
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/frontc/whitetrack.ml" 93 2572 2594 "src/frontc/whitetrack.ml" 93 2572 2595
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 93 2572 2595 "src/frontc/whitetrack.ml" 93 2572 2598
+type(
+  out_channel ref
+)
+ident(
+  int_ref out "src/frontc/whitetrack.ml" 58 1544 1548 "src/frontc/whitetrack.ml" 58 1544 1551
+)
+"src/frontc/whitetrack.ml" 93 2572 2594 "src/frontc/whitetrack.ml" 93 2572 2598
+type(
+  out_channel
+)
+"src/frontc/whitetrack.ml" 93 2572 2600 "src/frontc/whitetrack.ml" 93 2572 2612
+type(
+  unit -> string
+)
+ident(
+  int_ref invent_white "src/frontc/whitetrack.ml" 76 2055 2059 "src/frontc/whitetrack.ml" 76 2055 2071
+)
+"src/frontc/whitetrack.ml" 93 2572 2612 "src/frontc/whitetrack.ml" 93 2572 2614
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 93 2572 2600 "src/frontc/whitetrack.ml" 93 2572 2614
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 93 2572 2615 "src/frontc/whitetrack.ml" 93 2572 2616
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 93 2572 2617 "src/frontc/whitetrack.ml" 93 2572 2620
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 90 2466 2474 "src/frontc/whitetrack.ml" 90 2466 2477
+)
+"src/frontc/whitetrack.ml" 93 2572 2599 "src/frontc/whitetrack.ml" 93 2572 2621
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 93 2572 2580 "src/frontc/whitetrack.ml" 93 2572 2621
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 95 2638 2650 "src/frontc/whitetrack.ml" 95 2638 2658
+type(
+  string
+)
+ident(
+  def srcwhite "src/frontc/whitetrack.ml" 96 2701 2709 "src/frontc/whitetrack.ml" 108 3253 3264
+)
+"src/frontc/whitetrack.ml" 95 2638 2659 "src/frontc/whitetrack.ml" 95 2638 2665
+type(
+  string
+)
+ident(
+  def srctok "src/frontc/whitetrack.ml" 96 2701 2709 "src/frontc/whitetrack.ml" 108 3253 3264
+)
+"src/frontc/whitetrack.ml" 95 2638 2650 "src/frontc/whitetrack.ml" 95 2638 2665
+type(
+  string * string
+)
+"src/frontc/whitetrack.ml" 95 2638 2668 "src/frontc/whitetrack.ml" 95 2638 2682
+type(
+  (string * string) GrowArray.t -> int -> string * string
+)
+ident(
+  ext_ref GrowArray.getg
+)
+"src/frontc/whitetrack.ml" 95 2638 2683 "src/frontc/whitetrack.ml" 95 2638 2689
+type(
+  (string * string) GrowArray.t
+)
+ident(
+  int_ref tokens "src/frontc/whitetrack.ml" 26 691 695 "src/frontc/whitetrack.ml" 26 691 701
+)
+"src/frontc/whitetrack.ml" 95 2638 2690 "src/frontc/whitetrack.ml" 95 2638 2691
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 95 2638 2691 "src/frontc/whitetrack.ml" 95 2638 2697
+type(
+  int ref
+)
+ident(
+  int_ref curidx "src/frontc/whitetrack.ml" 56 1506 1510 "src/frontc/whitetrack.ml" 56 1506 1516
+)
+"src/frontc/whitetrack.ml" 95 2638 2690 "src/frontc/whitetrack.ml" 95 2638 2697
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 95 2638 2668 "src/frontc/whitetrack.ml" 95 2638 2697
+call(
+  stack
+)
+type(
+  string * string
+)
+"src/frontc/whitetrack.ml" 96 2701 2713 "src/frontc/whitetrack.ml" 96 2701 2718
+type(
+  string
+)
+ident(
+  def white "src/frontc/whitetrack.ml" 105 3108 3116 "src/frontc/whitetrack.ml" 108 3253 3264
+)
+"src/frontc/whitetrack.ml" 96 2701 2724 "src/frontc/whitetrack.ml" 96 2701 2727
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 90 2466 2474 "src/frontc/whitetrack.ml" 90 2466 2477
+)
+"src/frontc/whitetrack.ml" 96 2701 2728 "src/frontc/whitetrack.ml" 96 2701 2729
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/frontc/whitetrack.ml" 96 2701 2730 "src/frontc/whitetrack.ml" 96 2701 2736
+type(
+  string
+)
+ident(
+  int_ref srctok "src/frontc/whitetrack.ml" 95 2638 2659 "src/frontc/whitetrack.ml" 95 2638 2665
+)
+"src/frontc/whitetrack.ml" 96 2701 2724 "src/frontc/whitetrack.ml" 96 2701 2736
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 97 2738 2755 "src/frontc/whitetrack.ml" 97 2738 2763
+type(
+  string
+)
+ident(
+  int_ref srcwhite "src/frontc/whitetrack.ml" 95 2638 2650 "src/frontc/whitetrack.ml" 95 2638 2658
+)
+"src/frontc/whitetrack.ml" 98 2764 2784 "src/frontc/whitetrack.ml" 98 2764 2785
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 98 2764 2785 "src/frontc/whitetrack.ml" 98 2764 2792
+type(
+  bool ref
+)
+ident(
+  int_ref gonebad "src/frontc/whitetrack.ml" 23 629 633 "src/frontc/whitetrack.ml" 23 629 640
+)
+"src/frontc/whitetrack.ml" 98 2764 2784 "src/frontc/whitetrack.ml" 98 2764 2792
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 98 2764 2798 "src/frontc/whitetrack.ml" 98 2764 2810
+type(
+  unit -> string
+)
+ident(
+  int_ref invent_white "src/frontc/whitetrack.ml" 76 2055 2059 "src/frontc/whitetrack.ml" 76 2055 2071
+)
+"src/frontc/whitetrack.ml" 98 2764 2811 "src/frontc/whitetrack.ml" 98 2764 2813
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 98 2764 2798 "src/frontc/whitetrack.ml" 98 2764 2813
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 100 2853 2869 "src/frontc/whitetrack.ml" 100 2853 2875
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/frontc/whitetrack.ml" 100 2853 2877 "src/frontc/whitetrack.ml" 100 2853 2893
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref Errormsg.warnOpt
+)
+"src/frontc/whitetrack.ml" 100 2853 2894 "src/frontc/whitetrack.ml" 100 2853 2898
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/frontc/whitetrack.ml" 100 2853 2900 "src/frontc/whitetrack.ml" 100 2853 2911
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 100 2853 2911 "src/frontc/whitetrack.ml" 100 2853 2912
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 100 2853 2912 "src/frontc/whitetrack.ml" 100 2853 2926
+type(
+  string -> string
+)
+ident(
+  ext_ref String.escaped
+)
+"src/frontc/whitetrack.ml" 100 2853 2927 "src/frontc/whitetrack.ml" 100 2853 2930
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 90 2466 2474 "src/frontc/whitetrack.ml" 90 2466 2477
+)
+"src/frontc/whitetrack.ml" 100 2853 2912 "src/frontc/whitetrack.ml" 100 2853 2930
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 100 2853 2930 "src/frontc/whitetrack.ml" 100 2853 2931
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 100 2853 2931 "src/frontc/whitetrack.ml" 100 2853 2945
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 100 2853 2945 "src/frontc/whitetrack.ml" 100 2853 2946
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 100 2853 2946 "src/frontc/whitetrack.ml" 100 2853 2960
+type(
+  string -> string
+)
+ident(
+  ext_ref String.escaped
+)
+"src/frontc/whitetrack.ml" 100 2853 2961 "src/frontc/whitetrack.ml" 100 2853 2967
+type(
+  string
+)
+ident(
+  int_ref srctok "src/frontc/whitetrack.ml" 95 2638 2659 "src/frontc/whitetrack.ml" 95 2638 2665
+)
+"src/frontc/whitetrack.ml" 100 2853 2946 "src/frontc/whitetrack.ml" 100 2853 2967
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 100 2853 2968 "src/frontc/whitetrack.ml" 100 2853 2969
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 101 2971 2991 "src/frontc/whitetrack.ml" 101 2971 3020
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 100 2853 2946 "src/frontc/whitetrack.ml" 101 2971 3020
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 100 2853 2931 "src/frontc/whitetrack.ml" 101 2971 3020
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 100 2853 2912 "src/frontc/whitetrack.ml" 101 2971 3020
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 100 2853 2899 "src/frontc/whitetrack.ml" 101 2971 3021
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 100 2853 2876 "src/frontc/whitetrack.ml" 101 2971 3022
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 100 2853 2869 "src/frontc/whitetrack.ml" 101 2971 3022
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 102 3024 3040 "src/frontc/whitetrack.ml" 102 3024 3047
+type(
+  bool ref
+)
+ident(
+  int_ref gonebad "src/frontc/whitetrack.ml" 23 629 633 "src/frontc/whitetrack.ml" 23 629 640
+)
+"src/frontc/whitetrack.ml" 102 3024 3048 "src/frontc/whitetrack.ml" 102 3024 3050
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/whitetrack.ml" 102 3024 3051 "src/frontc/whitetrack.ml" 102 3024 3055
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 102 3024 3040 "src/frontc/whitetrack.ml" 102 3024 3055
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 103 3057 3073 "src/frontc/whitetrack.ml" 103 3057 3085
+type(
+  unit -> string
+)
+ident(
+  int_ref invent_white "src/frontc/whitetrack.ml" 76 2055 2059 "src/frontc/whitetrack.ml" 76 2055 2071
+)
+"src/frontc/whitetrack.ml" 103 3057 3086 "src/frontc/whitetrack.ml" 103 3057 3088
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 103 3057 3073 "src/frontc/whitetrack.ml" 103 3057 3088
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 102 3024 3040 "src/frontc/whitetrack.ml" 103 3057 3088
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 99 2814 2831 "src/frontc/whitetrack.ml" 104 3089 3104
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 98 2764 2781 "src/frontc/whitetrack.ml" 104 3089 3104
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 96 2701 2721 "src/frontc/whitetrack.ml" 104 3089 3104
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 105 3108 3119 "src/frontc/whitetrack.ml" 105 3108 3120
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 105 3108 3120 "src/frontc/whitetrack.ml" 105 3108 3134
+type(
+  bool ref
+)
+ident(
+  int_ref last_was_maybe "src/frontc/whitetrack.ml" 86 2388 2392 "src/frontc/whitetrack.ml" 86 2388 2406
+)
+"src/frontc/whitetrack.ml" 105 3108 3119 "src/frontc/whitetrack.ml" 105 3108 3134
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 105 3108 3135 "src/frontc/whitetrack.ml" 105 3108 3137
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/frontc/whitetrack.ml" 105 3108 3138 "src/frontc/whitetrack.ml" 105 3108 3141
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 90 2466 2474 "src/frontc/whitetrack.ml" 90 2466 2477
+)
+"src/frontc/whitetrack.ml" 105 3108 3142 "src/frontc/whitetrack.ml" 105 3108 3143
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/frontc/whitetrack.ml" 105 3108 3144 "src/frontc/whitetrack.ml" 105 3108 3145
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 105 3108 3145 "src/frontc/whitetrack.ml" 105 3108 3153
+type(
+  string ref
+)
+ident(
+  int_ref last_str "src/frontc/whitetrack.ml" 87 2423 2427 "src/frontc/whitetrack.ml" 87 2423 2435
+)
+"src/frontc/whitetrack.ml" 105 3108 3144 "src/frontc/whitetrack.ml" 105 3108 3153
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 105 3108 3138 "src/frontc/whitetrack.ml" 105 3108 3153
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 105 3108 3119 "src/frontc/whitetrack.ml" 105 3108 3153
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 105 3108 3159 "src/frontc/whitetrack.ml" 105 3108 3161
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 106 3173 3185 "src/frontc/whitetrack.ml" 106 3173 3198
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/frontc/whitetrack.ml" 106 3173 3199 "src/frontc/whitetrack.ml" 106 3173 3200
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 106 3173 3200 "src/frontc/whitetrack.ml" 106 3173 3203
+type(
+  out_channel ref
+)
+ident(
+  int_ref out "src/frontc/whitetrack.ml" 58 1544 1548 "src/frontc/whitetrack.ml" 58 1544 1551
+)
+"src/frontc/whitetrack.ml" 106 3173 3199 "src/frontc/whitetrack.ml" 106 3173 3203
+type(
+  out_channel
+)
+"src/frontc/whitetrack.ml" 106 3173 3205 "src/frontc/whitetrack.ml" 106 3173 3210
+type(
+  string
+)
+ident(
+  int_ref white "src/frontc/whitetrack.ml" 96 2701 2713 "src/frontc/whitetrack.ml" 96 2701 2718
+)
+"src/frontc/whitetrack.ml" 106 3173 3211 "src/frontc/whitetrack.ml" 106 3173 3212
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 106 3173 3213 "src/frontc/whitetrack.ml" 106 3173 3216
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 90 2466 2474 "src/frontc/whitetrack.ml" 90 2466 2477
+)
+"src/frontc/whitetrack.ml" 106 3173 3204 "src/frontc/whitetrack.ml" 106 3173 3217
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 106 3173 3185 "src/frontc/whitetrack.ml" 106 3173 3217
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 107 3219 3231 "src/frontc/whitetrack.ml" 107 3219 3237
+type(
+  int ref
+)
+ident(
+  int_ref curidx "src/frontc/whitetrack.ml" 56 1506 1510 "src/frontc/whitetrack.ml" 56 1506 1516
+)
+"src/frontc/whitetrack.ml" 107 3219 3238 "src/frontc/whitetrack.ml" 107 3219 3240
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/whitetrack.ml" 107 3219 3241 "src/frontc/whitetrack.ml" 107 3219 3242
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 107 3219 3242 "src/frontc/whitetrack.ml" 107 3219 3248
+type(
+  int ref
+)
+ident(
+  int_ref curidx "src/frontc/whitetrack.ml" 56 1506 1510 "src/frontc/whitetrack.ml" 56 1506 1516
+)
+"src/frontc/whitetrack.ml" 107 3219 3241 "src/frontc/whitetrack.ml" 107 3219 3248
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 107 3219 3249 "src/frontc/whitetrack.ml" 107 3219 3250
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/frontc/whitetrack.ml" 107 3219 3251 "src/frontc/whitetrack.ml" 107 3219 3252
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 107 3219 3241 "src/frontc/whitetrack.ml" 107 3219 3252
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 107 3219 3231 "src/frontc/whitetrack.ml" 107 3219 3252
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 105 3108 3167 "src/frontc/whitetrack.ml" 108 3253 3264
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 105 3108 3116 "src/frontc/whitetrack.ml" 108 3253 3264
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 96 2701 2709 "src/frontc/whitetrack.ml" 108 3253 3264
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 94 2623 2632 "src/frontc/whitetrack.ml" 109 3265 3272
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 92 2521 2530 "src/frontc/whitetrack.ml" 109 3265 3272
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 91 2497 2501 "src/frontc/whitetrack.ml" 109 3265 3272
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 110 3274 3278 "src/frontc/whitetrack.ml" 110 3274 3292
+type(
+  bool ref
+)
+ident(
+  int_ref last_was_maybe "src/frontc/whitetrack.ml" 86 2388 2392 "src/frontc/whitetrack.ml" 86 2388 2406
+)
+"src/frontc/whitetrack.ml" 110 3274 3293 "src/frontc/whitetrack.ml" 110 3274 3295
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/whitetrack.ml" 110 3274 3296 "src/frontc/whitetrack.ml" 110 3274 3301
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 110 3274 3278 "src/frontc/whitetrack.ml" 110 3274 3301
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 91 2497 2501 "src/frontc/whitetrack.ml" 110 3274 3301
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 90 2466 2470 "src/frontc/whitetrack.ml" 110 3274 3301
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 112 3303 3307 "src/frontc/whitetrack.ml" 112 3303 3313
+type(
+  string list -> unit
+)
+ident(
+  def printl "src/frontc/whitetrack.ml" 115 3355 3355 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 112 3303 3314 "src/frontc/whitetrack.ml" 112 3303 3318
+type(
+  string list
+)
+ident(
+  def strs "src/frontc/whitetrack.ml" 113 3322 3326 "src/frontc/whitetrack.ml" 113 3322 3346
+)
+"src/frontc/whitetrack.ml" 113 3322 3326 "src/frontc/whitetrack.ml" 113 3322 3335
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/frontc/whitetrack.ml" 113 3322 3336 "src/frontc/whitetrack.ml" 113 3322 3341
+type(
+  string -> unit
+)
+ident(
+  int_ref print "src/frontc/whitetrack.ml" 89 2450 2454 "src/frontc/whitetrack.ml" 89 2450 2459
+)
+"src/frontc/whitetrack.ml" 113 3322 3342 "src/frontc/whitetrack.ml" 113 3322 3346
+type(
+  string list
+)
+ident(
+  int_ref strs "src/frontc/whitetrack.ml" 112 3303 3314 "src/frontc/whitetrack.ml" 112 3303 3318
+)
+"src/frontc/whitetrack.ml" 113 3322 3326 "src/frontc/whitetrack.ml" 113 3322 3346
+call(
+  tail
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 115 3355 3359 "src/frontc/whitetrack.ml" 115 3355 3365
+type(
+  string -> unit
+)
+ident(
+  def printu "src/frontc/whitetrack.ml" 128 3774 3774 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 115 3355 3366 "src/frontc/whitetrack.ml" 115 3355 3369
+type(
+  string
+)
+ident(
+  def str "src/frontc/whitetrack.ml" 116 3372 3376 "src/frontc/whitetrack.ml" 126 3693 3756
+)
+"src/frontc/whitetrack.ml" 116 3372 3379 "src/frontc/whitetrack.ml" 116 3372 3382
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/frontc/whitetrack.ml" 116 3372 3383 "src/frontc/whitetrack.ml" 116 3372 3384
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 116 3372 3384 "src/frontc/whitetrack.ml" 116 3372 3391
+type(
+  bool ref
+)
+ident(
+  int_ref enabled "src/frontc/whitetrack.ml" 46 1295 1299 "src/frontc/whitetrack.ml" 46 1295 1306
+)
+"src/frontc/whitetrack.ml" 116 3372 3383 "src/frontc/whitetrack.ml" 116 3372 3391
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 116 3372 3379 "src/frontc/whitetrack.ml" 116 3372 3391
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 116 3372 3397 "src/frontc/whitetrack.ml" 116 3372 3402
+type(
+  string -> unit
+)
+ident(
+  int_ref print "src/frontc/whitetrack.ml" 89 2450 2454 "src/frontc/whitetrack.ml" 89 2450 2459
+)
+"src/frontc/whitetrack.ml" 116 3372 3403 "src/frontc/whitetrack.ml" 116 3372 3406
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 115 3355 3366 "src/frontc/whitetrack.ml" 115 3355 3369
+)
+"src/frontc/whitetrack.ml" 116 3372 3397 "src/frontc/whitetrack.ml" 116 3372 3406
+call(
+  tail
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 118 3416 3428 "src/frontc/whitetrack.ml" 118 3416 3436
+type(
+  string
+)
+ident(
+  def srcwhite "src/frontc/whitetrack.ml" 119 3479 3487 "src/frontc/whitetrack.ml" 126 3693 3756
+)
+"src/frontc/whitetrack.ml" 118 3416 3437 "src/frontc/whitetrack.ml" 118 3416 3443
+type(
+  string
+)
+ident(
+  def srctok "src/frontc/whitetrack.ml" 119 3479 3487 "src/frontc/whitetrack.ml" 126 3693 3756
+)
+"src/frontc/whitetrack.ml" 118 3416 3428 "src/frontc/whitetrack.ml" 118 3416 3443
+type(
+  string * string
+)
+"src/frontc/whitetrack.ml" 118 3416 3446 "src/frontc/whitetrack.ml" 118 3416 3460
+type(
+  (string * string) GrowArray.t -> int -> string * string
+)
+ident(
+  ext_ref GrowArray.getg
+)
+"src/frontc/whitetrack.ml" 118 3416 3461 "src/frontc/whitetrack.ml" 118 3416 3467
+type(
+  (string * string) GrowArray.t
+)
+ident(
+  int_ref tokens "src/frontc/whitetrack.ml" 26 691 695 "src/frontc/whitetrack.ml" 26 691 701
+)
+"src/frontc/whitetrack.ml" 118 3416 3468 "src/frontc/whitetrack.ml" 118 3416 3469
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 118 3416 3469 "src/frontc/whitetrack.ml" 118 3416 3475
+type(
+  int ref
+)
+ident(
+  int_ref curidx "src/frontc/whitetrack.ml" 56 1506 1510 "src/frontc/whitetrack.ml" 56 1506 1516
+)
+"src/frontc/whitetrack.ml" 118 3416 3468 "src/frontc/whitetrack.ml" 118 3416 3475
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 118 3416 3446 "src/frontc/whitetrack.ml" 118 3416 3475
+call(
+  stack
+)
+type(
+  string * string
+)
+"src/frontc/whitetrack.ml" 119 3479 3490 "src/frontc/whitetrack.ml" 119 3479 3499
+type(
+  string -> string
+)
+ident(
+  int_ref chopwhite "src/frontc/whitetrack.ml" 78 2082 2090 "src/frontc/whitetrack.ml" 78 2082 2099
+)
+"src/frontc/whitetrack.ml" 119 3479 3500 "src/frontc/whitetrack.ml" 119 3479 3503
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 115 3355 3366 "src/frontc/whitetrack.ml" 115 3355 3369
+)
+"src/frontc/whitetrack.ml" 119 3479 3490 "src/frontc/whitetrack.ml" 119 3479 3503
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 119 3479 3504 "src/frontc/whitetrack.ml" 119 3479 3505
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/frontc/whitetrack.ml" 119 3479 3506 "src/frontc/whitetrack.ml" 119 3479 3508
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 119 3479 3490 "src/frontc/whitetrack.ml" 119 3479 3508
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 119 3479 3514 "src/frontc/whitetrack.ml" 119 3479 3516
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 120 3518 3534 "src/frontc/whitetrack.ml" 120 3518 3540
+type(
+  string
+)
+ident(
+  int_ref srctok "src/frontc/whitetrack.ml" 118 3416 3437 "src/frontc/whitetrack.ml" 118 3416 3443
+)
+"src/frontc/whitetrack.ml" 120 3518 3541 "src/frontc/whitetrack.ml" 120 3518 3542
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/frontc/whitetrack.ml" 120 3518 3543 "src/frontc/whitetrack.ml" 120 3518 3546
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 115 3355 3366 "src/frontc/whitetrack.ml" 115 3355 3369
+)
+"src/frontc/whitetrack.ml" 120 3518 3534 "src/frontc/whitetrack.ml" 120 3518 3546
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 121 3548 3558 "src/frontc/whitetrack.ml" 121 3548 3560
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/frontc/whitetrack.ml" 121 3548 3561 "src/frontc/whitetrack.ml" 121 3548 3567
+type(
+  string
+)
+ident(
+  int_ref srctok "src/frontc/whitetrack.ml" 118 3416 3437 "src/frontc/whitetrack.ml" 118 3416 3443
+)
+"src/frontc/whitetrack.ml" 121 3548 3568 "src/frontc/whitetrack.ml" 121 3548 3569
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/frontc/whitetrack.ml" 121 3548 3570 "src/frontc/whitetrack.ml" 121 3548 3573
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 115 3355 3366 "src/frontc/whitetrack.ml" 115 3355 3369
+)
+"src/frontc/whitetrack.ml" 121 3548 3574 "src/frontc/whitetrack.ml" 121 3548 3575
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 121 3548 3576 "src/frontc/whitetrack.ml" 121 3548 3580
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 121 3548 3570 "src/frontc/whitetrack.ml" 121 3548 3580
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 121 3548 3561 "src/frontc/whitetrack.ml" 121 3548 3580
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 122 3582 3592 "src/frontc/whitetrack.ml" 122 3582 3594
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/frontc/whitetrack.ml" 122 3582 3595 "src/frontc/whitetrack.ml" 122 3582 3601
+type(
+  string
+)
+ident(
+  int_ref srctok "src/frontc/whitetrack.ml" 118 3416 3437 "src/frontc/whitetrack.ml" 118 3416 3443
+)
+"src/frontc/whitetrack.ml" 122 3582 3602 "src/frontc/whitetrack.ml" 122 3582 3603
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/frontc/whitetrack.ml" 122 3582 3604 "src/frontc/whitetrack.ml" 122 3582 3608
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 122 3582 3609 "src/frontc/whitetrack.ml" 122 3582 3610
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 122 3582 3611 "src/frontc/whitetrack.ml" 122 3582 3614
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 115 3355 3366 "src/frontc/whitetrack.ml" 115 3355 3369
+)
+"src/frontc/whitetrack.ml" 122 3582 3604 "src/frontc/whitetrack.ml" 122 3582 3614
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 122 3582 3595 "src/frontc/whitetrack.ml" 122 3582 3614
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 123 3615 3625 "src/frontc/whitetrack.ml" 123 3615 3627
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/frontc/whitetrack.ml" 123 3615 3628 "src/frontc/whitetrack.ml" 123 3615 3634
+type(
+  string
+)
+ident(
+  int_ref srctok "src/frontc/whitetrack.ml" 118 3416 3437 "src/frontc/whitetrack.ml" 118 3416 3443
+)
+"src/frontc/whitetrack.ml" 123 3615 3635 "src/frontc/whitetrack.ml" 123 3615 3636
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/frontc/whitetrack.ml" 123 3615 3637 "src/frontc/whitetrack.ml" 123 3615 3641
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 123 3615 3642 "src/frontc/whitetrack.ml" 123 3615 3643
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 123 3615 3644 "src/frontc/whitetrack.ml" 123 3615 3647
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 115 3355 3366 "src/frontc/whitetrack.ml" 115 3355 3369
+)
+"src/frontc/whitetrack.ml" 123 3615 3648 "src/frontc/whitetrack.ml" 123 3615 3649
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 123 3615 3650 "src/frontc/whitetrack.ml" 123 3615 3654
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 123 3615 3644 "src/frontc/whitetrack.ml" 123 3615 3654
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 123 3615 3637 "src/frontc/whitetrack.ml" 123 3615 3654
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 123 3615 3628 "src/frontc/whitetrack.ml" 123 3615 3654
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 122 3582 3595 "src/frontc/whitetrack.ml" 123 3615 3654
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 121 3548 3561 "src/frontc/whitetrack.ml" 123 3615 3654
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 120 3518 3534 "src/frontc/whitetrack.ml" 123 3615 3654
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 125 3670 3680 "src/frontc/whitetrack.ml" 125 3670 3685
+type(
+  string -> unit
+)
+ident(
+  int_ref print "src/frontc/whitetrack.ml" 89 2450 2454 "src/frontc/whitetrack.ml" 89 2450 2459
+)
+"src/frontc/whitetrack.ml" 125 3670 3686 "src/frontc/whitetrack.ml" 125 3670 3692
+type(
+  string
+)
+ident(
+  int_ref srctok "src/frontc/whitetrack.ml" 118 3416 3437 "src/frontc/whitetrack.ml" 118 3416 3443
+)
+"src/frontc/whitetrack.ml" 125 3670 3680 "src/frontc/whitetrack.ml" 125 3670 3692
+call(
+  tail
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 126 3693 3707 "src/frontc/whitetrack.ml" 126 3693 3720
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/frontc/whitetrack.ml" 126 3693 3722 "src/frontc/whitetrack.ml" 126 3693 3735
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 126 3693 3735 "src/frontc/whitetrack.ml" 126 3693 3736
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 126 3693 3736 "src/frontc/whitetrack.ml" 126 3693 3739
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 115 3355 3366 "src/frontc/whitetrack.ml" 115 3355 3369
+)
+"src/frontc/whitetrack.ml" 126 3693 3739 "src/frontc/whitetrack.ml" 126 3693 3740
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/frontc/whitetrack.ml" 126 3693 3740 "src/frontc/whitetrack.ml" 126 3693 3743
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 126 3693 3736 "src/frontc/whitetrack.ml" 126 3693 3743
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 126 3693 3721 "src/frontc/whitetrack.ml" 126 3693 3744
+call(
+  stack
+)
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 126 3693 3707 "src/frontc/whitetrack.ml" 126 3693 3744
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 126 3693 3746 "src/frontc/whitetrack.ml" 126 3693 3751
+type(
+  string -> unit
+)
+ident(
+  int_ref print "src/frontc/whitetrack.ml" 89 2450 2454 "src/frontc/whitetrack.ml" 89 2450 2459
+)
+"src/frontc/whitetrack.ml" 126 3693 3752 "src/frontc/whitetrack.ml" 126 3693 3755
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 115 3355 3366 "src/frontc/whitetrack.ml" 115 3355 3369
+)
+"src/frontc/whitetrack.ml" 126 3693 3746 "src/frontc/whitetrack.ml" 126 3693 3755
+call(
+  tail
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 126 3693 3706 "src/frontc/whitetrack.ml" 126 3693 3756
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 120 3518 3531 "src/frontc/whitetrack.ml" 126 3693 3756
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 119 3479 3487 "src/frontc/whitetrack.ml" 126 3693 3756
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 118 3416 3424 "src/frontc/whitetrack.ml" 126 3693 3756
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 116 3372 3376 "src/frontc/whitetrack.ml" 126 3693 3756
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 128 3774 3778 "src/frontc/whitetrack.ml" 128 3774 3789
+type(
+  string -> unit
+)
+ident(
+  def print_maybe "src/frontc/whitetrack.ml" 139 4048 4048 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 128 3774 3790 "src/frontc/whitetrack.ml" 128 3774 3793
+type(
+  string
+)
+ident(
+  def str "src/frontc/whitetrack.ml" 129 3796 3800 "src/frontc/whitetrack.ml" 136 4026 4045
+)
+"src/frontc/whitetrack.ml" 129 3796 3803 "src/frontc/whitetrack.ml" 129 3796 3806
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/frontc/whitetrack.ml" 129 3796 3807 "src/frontc/whitetrack.ml" 129 3796 3808
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 129 3796 3808 "src/frontc/whitetrack.ml" 129 3796 3815
+type(
+  bool ref
+)
+ident(
+  int_ref enabled "src/frontc/whitetrack.ml" 46 1295 1299 "src/frontc/whitetrack.ml" 46 1295 1306
+)
+"src/frontc/whitetrack.ml" 129 3796 3807 "src/frontc/whitetrack.ml" 129 3796 3815
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 129 3796 3803 "src/frontc/whitetrack.ml" 129 3796 3815
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 129 3796 3821 "src/frontc/whitetrack.ml" 129 3796 3826
+type(
+  string -> unit
+)
+ident(
+  int_ref print "src/frontc/whitetrack.ml" 89 2450 2454 "src/frontc/whitetrack.ml" 89 2450 2459
+)
+"src/frontc/whitetrack.ml" 129 3796 3827 "src/frontc/whitetrack.ml" 129 3796 3830
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 128 3774 3790 "src/frontc/whitetrack.ml" 128 3774 3793
+)
+"src/frontc/whitetrack.ml" 129 3796 3821 "src/frontc/whitetrack.ml" 129 3796 3830
+call(
+  tail
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 131 3840 3852 "src/frontc/whitetrack.ml" 131 3840 3860
+type(
+  string
+)
+ident(
+  def srcwhite "src/frontc/whitetrack.ml" 132 3903 3911 "src/frontc/whitetrack.ml" 136 4026 4045
+)
+"src/frontc/whitetrack.ml" 131 3840 3861 "src/frontc/whitetrack.ml" 131 3840 3867
+type(
+  string
+)
+ident(
+  def srctok "src/frontc/whitetrack.ml" 132 3903 3911 "src/frontc/whitetrack.ml" 136 4026 4045
+)
+"src/frontc/whitetrack.ml" 131 3840 3852 "src/frontc/whitetrack.ml" 131 3840 3867
+type(
+  string * string
+)
+"src/frontc/whitetrack.ml" 131 3840 3870 "src/frontc/whitetrack.ml" 131 3840 3884
+type(
+  (string * string) GrowArray.t -> int -> string * string
+)
+ident(
+  ext_ref GrowArray.getg
+)
+"src/frontc/whitetrack.ml" 131 3840 3885 "src/frontc/whitetrack.ml" 131 3840 3891
+type(
+  (string * string) GrowArray.t
+)
+ident(
+  int_ref tokens "src/frontc/whitetrack.ml" 26 691 695 "src/frontc/whitetrack.ml" 26 691 701
+)
+"src/frontc/whitetrack.ml" 131 3840 3892 "src/frontc/whitetrack.ml" 131 3840 3893
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 131 3840 3893 "src/frontc/whitetrack.ml" 131 3840 3899
+type(
+  int ref
+)
+ident(
+  int_ref curidx "src/frontc/whitetrack.ml" 56 1506 1510 "src/frontc/whitetrack.ml" 56 1506 1516
+)
+"src/frontc/whitetrack.ml" 131 3840 3892 "src/frontc/whitetrack.ml" 131 3840 3899
+type(
+  int
+)
+"src/frontc/whitetrack.ml" 131 3840 3870 "src/frontc/whitetrack.ml" 131 3840 3899
+call(
+  stack
+)
+type(
+  string * string
+)
+"src/frontc/whitetrack.ml" 132 3903 3914 "src/frontc/whitetrack.ml" 132 3903 3917
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 128 3774 3790 "src/frontc/whitetrack.ml" 128 3774 3793
+)
+"src/frontc/whitetrack.ml" 132 3903 3918 "src/frontc/whitetrack.ml" 132 3903 3919
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/frontc/whitetrack.ml" 132 3903 3920 "src/frontc/whitetrack.ml" 132 3903 3926
+type(
+  string
+)
+ident(
+  int_ref srctok "src/frontc/whitetrack.ml" 131 3840 3861 "src/frontc/whitetrack.ml" 131 3840 3867
+)
+"src/frontc/whitetrack.ml" 132 3903 3914 "src/frontc/whitetrack.ml" 132 3903 3926
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 133 3939 3951 "src/frontc/whitetrack.ml" 133 3939 3956
+type(
+  string -> unit
+)
+ident(
+  int_ref print "src/frontc/whitetrack.ml" 89 2450 2454 "src/frontc/whitetrack.ml" 89 2450 2459
+)
+"src/frontc/whitetrack.ml" 133 3939 3957 "src/frontc/whitetrack.ml" 133 3939 3960
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 128 3774 3790 "src/frontc/whitetrack.ml" 128 3774 3793
+)
+"src/frontc/whitetrack.ml" 133 3939 3951 "src/frontc/whitetrack.ml" 133 3939 3960
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 134 3962 3974 "src/frontc/whitetrack.ml" 134 3962 3988
+type(
+  bool ref
+)
+ident(
+  int_ref last_was_maybe "src/frontc/whitetrack.ml" 86 2388 2392 "src/frontc/whitetrack.ml" 86 2388 2406
+)
+"src/frontc/whitetrack.ml" 134 3962 3989 "src/frontc/whitetrack.ml" 134 3962 3991
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/whitetrack.ml" 134 3962 3992 "src/frontc/whitetrack.ml" 134 3962 3996
+type(
+  bool
+)
+"src/frontc/whitetrack.ml" 134 3962 3974 "src/frontc/whitetrack.ml" 134 3962 3996
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 135 3998 4010 "src/frontc/whitetrack.ml" 135 3998 4018
+type(
+  string ref
+)
+ident(
+  int_ref last_str "src/frontc/whitetrack.ml" 87 2423 2427 "src/frontc/whitetrack.ml" 87 2423 2435
+)
+"src/frontc/whitetrack.ml" 135 3998 4019 "src/frontc/whitetrack.ml" 135 3998 4021
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/whitetrack.ml" 135 3998 4022 "src/frontc/whitetrack.ml" 135 3998 4025
+type(
+  string
+)
+ident(
+  int_ref str "src/frontc/whitetrack.ml" 128 3774 3790 "src/frontc/whitetrack.ml" 128 3774 3793
+)
+"src/frontc/whitetrack.ml" 135 3998 4010 "src/frontc/whitetrack.ml" 135 3998 4025
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 134 3962 3974 "src/frontc/whitetrack.ml" 135 3998 4025
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 132 3903 3932 "src/frontc/whitetrack.ml" 136 4026 4037
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 136 4026 4043 "src/frontc/whitetrack.ml" 136 4026 4045
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 132 3903 3911 "src/frontc/whitetrack.ml" 136 4026 4045
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 131 3840 3848 "src/frontc/whitetrack.ml" 136 4026 4045
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 129 3796 3800 "src/frontc/whitetrack.ml" 136 4026 4045
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 139 4048 4052 "src/frontc/whitetrack.ml" 139 4048 4060
+type(
+  unit -> unit
+)
+ident(
+  def printEOF "src/frontc/whitetrack.ml" 139 4048 4096 "src/frontc/whitetrack.ml" 1 0 -1
+)
+"src/frontc/whitetrack.ml" 139 4048 4061 "src/frontc/whitetrack.ml" 139 4048 4063
+type(
+  unit
+)
+"src/frontc/whitetrack.ml" 139 4048 4066 "src/frontc/whitetrack.ml" 139 4048 4079
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/frontc/whitetrack.ml" 139 4048 4080 "src/frontc/whitetrack.ml" 139 4048 4081
+type(
+  out_channel ref -> out_channel
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 139 4048 4081 "src/frontc/whitetrack.ml" 139 4048 4084
+type(
+  out_channel ref
+)
+ident(
+  int_ref out "src/frontc/whitetrack.ml" 58 1544 1548 "src/frontc/whitetrack.ml" 58 1544 1551
+)
+"src/frontc/whitetrack.ml" 139 4048 4080 "src/frontc/whitetrack.ml" 139 4048 4084
+type(
+  out_channel
+)
+"src/frontc/whitetrack.ml" 139 4048 4085 "src/frontc/whitetrack.ml" 139 4048 4086
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/whitetrack.ml" 139 4048 4086 "src/frontc/whitetrack.ml" 139 4048 4096
+type(
+  string ref
+)
+ident(
+  int_ref finalwhite "src/frontc/whitetrack.ml" 52 1427 1431 "src/frontc/whitetrack.ml" 52 1427 1441
+)
+"src/frontc/whitetrack.ml" 139 4048 4085 "src/frontc/whitetrack.ml" 139 4048 4096
+type(
+  string
+)
+"src/frontc/whitetrack.ml" 139 4048 4066 "src/frontc/whitetrack.ml" 139 4048 4096
+call(
+  tail
+)
+type(
+  unit
+)

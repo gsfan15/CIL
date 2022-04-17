@@ -1,0 +1,3781 @@
+"src/ext/llvm/llvmssa.ml" 38 1913 1917 "src/ext/llvm/llvmssa.ml" 38 1913 1918
+type(
+  int
+)
+ident(
+  def z "src/ext/llvm/llvmssa.ml" 40 1924 1924 "src/ext/llvm/llvmssa.ml" 1 0 -1
+)
+"src/ext/llvm/llvmssa.ml" 38 1913 1921 "src/ext/llvm/llvmssa.ml" 38 1913 1922
+type(
+  int
+)
+"src/ext/llvm/llvmssa.ml" 49 2033 2037 "src/ext/llvm/llvmssa.ml" 49 2033 2038
+type(
+  int
+)
+ident(
+  def z "src/ext/llvm/llvmssa.ml" 56 2287 2287 "src/ext/llvm/llvmssa.ml" 1 0 -1
+)
+"src/ext/llvm/llvmssa.ml" 49 2033 2041 "src/ext/llvm/llvmssa.ml" 49 2033 2042
+type(
+  int
+)
+"src/ext/llvm/llvmssa.ml" 56 2287 2291 "src/ext/llvm/llvmssa.ml" 56 2287 2292
+type(
+  int
+)
+ident(
+  def z "src/ext/llvm/llvmssa.ml" 58 2298 2298 "src/ext/llvm/llvmssa.ml" 1 0 -1
+)
+"src/ext/llvm/llvmssa.ml" 56 2287 2295 "src/ext/llvm/llvmssa.ml" 56 2287 2296
+type(
+  int
+)
+"src/ext/llvm/llvmssa.ml" 58 2298 2302 "src/ext/llvm/llvmssa.ml" 58 2298 2309
+type(
+  Llvmgen.llvmGenerator ->
+  Llvmgen.llvmBlock list ->
+  Cil.varinfo list -> Cil.varinfo list -> Llvmgen.llvmBlock list
+)
+ident(
+  def llvmSsa "src/ext/llvm/llvmssa.ml" 234 8966 8970 "src/ext/llvm/llvmssa.ml" 1 0 -1
+)
+"src/ext/llvm/llvmssa.ml" 58 2298 2311 "src/ext/llvm/llvmssa.ml" 58 2298 2318
+type(
+  Llvmgen.llvmGenerator
+)
+ident(
+  def globals "src/ext/llvm/llvmssa.ml" 58 2298 2334 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+)
+"src/ext/llvm/llvmssa.ml" 58 2298 2335 "src/ext/llvm/llvmssa.ml" 58 2298 2337
+type(
+  Llvmgen.llvmBlock list
+)
+ident(
+  def bl "src/ext/llvm/llvmssa.ml" 58 2298 2354 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+)
+"src/ext/llvm/llvmssa.ml" 58 2298 2355 "src/ext/llvm/llvmssa.ml" 58 2298 2362
+type(
+  Cil.varinfo list
+)
+ident(
+  def formals "src/ext/llvm/llvmssa.ml" 58 2298 2377 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+)
+"src/ext/llvm/llvmssa.ml" 58 2298 2378 "src/ext/llvm/llvmssa.ml" 58 2298 2385
+type(
+  Cil.varinfo list
+)
+ident(
+  def ssavars "src/ext/llvm/llvmssa.ml" 58 2298 2400 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+)
+"src/ext/llvm/llvmssa.ml" 61 2547 2553 "src/ext/llvm/llvmssa.ml" 61 2547 2562
+type(
+  (string * string, Llvmgen.llvmLocal) H.t
+)
+ident(
+  def entryName "src/ext/llvm/llvmssa.ml" 68 2819 2821 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+)
+"src/ext/llvm/llvmssa.ml" 61 2547 2565 "src/ext/llvm/llvmssa.ml" 61 2547 2573
+type(
+  ?random:bool -> int -> (string * string, Llvmgen.llvmLocal) H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/ext/llvm/llvmssa.ml" 61 2547 2574 "src/ext/llvm/llvmssa.ml" 61 2547 2576
+type(
+  int
+)
+"src/ext/llvm/llvmssa.ml" 61 2547 2565 "src/ext/llvm/llvmssa.ml" 61 2547 2576
+call(
+  stack
+)
+type(
+  (string * string, Llvmgen.llvmLocal) H.t
+)
+"src/ext/llvm/llvmssa.ml" 66 2785 2791 "src/ext/llvm/llvmssa.ml" 66 2785 2800
+type(
+  (string * string, Llvmgen.llvmValue) H.t
+)
+ident(
+  def exitValue "src/ext/llvm/llvmssa.ml" 68 2819 2821 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+)
+"src/ext/llvm/llvmssa.ml" 66 2785 2803 "src/ext/llvm/llvmssa.ml" 66 2785 2811
+type(
+  ?random:bool -> int -> (string * string, Llvmgen.llvmValue) H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/ext/llvm/llvmssa.ml" 66 2785 2812 "src/ext/llvm/llvmssa.ml" 66 2785 2814
+type(
+  int
+)
+"src/ext/llvm/llvmssa.ml" 66 2785 2803 "src/ext/llvm/llvmssa.ml" 66 2785 2814
+call(
+  stack
+)
+type(
+  (string * string, Llvmgen.llvmValue) H.t
+)
+"src/ext/llvm/llvmssa.ml" 68 2819 2825 "src/ext/llvm/llvmssa.ml" 68 2819 2827
+type(
+  int ref
+)
+ident(
+  def id "src/ext/llvm/llvmssa.ml" 70 2902 2904 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+)
+"src/ext/llvm/llvmssa.ml" 68 2819 2830 "src/ext/llvm/llvmssa.ml" 68 2819 2833
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/llvm/llvmssa.ml" 68 2819 2834 "src/ext/llvm/llvmssa.ml" 68 2819 2835
+type(
+  int
+)
+"src/ext/llvm/llvmssa.ml" 68 2819 2830 "src/ext/llvm/llvmssa.ml" 68 2819 2835
+type(
+  int ref
+)
+"src/ext/llvm/llvmssa.ml" 70 2902 2908 "src/ext/llvm/llvmssa.ml" 70 2902 2916
+type(
+  string -> Cil.typ -> Llvmgen.llvmLocal
+)
+ident(
+  def nextname "src/ext/llvm/llvmssa.ml" 80 3314 3316 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+)
+"src/ext/llvm/llvmssa.ml" 70 2902 2918 "src/ext/llvm/llvmssa.ml" 70 2902 2919
+type(
+  string
+)
+ident(
+  def s "src/ext/llvm/llvmssa.ml" 70 2902 2928 "src/ext/llvm/llvmssa.ml" 72 2970 3000
+)
+"src/ext/llvm/llvmssa.ml" 70 2902 2929 "src/ext/llvm/llvmssa.ml" 70 2902 2930
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/llvm/llvmssa.ml" 70 2902 2936 "src/ext/llvm/llvmssa.ml" 72 2970 3000
+)
+"src/ext/llvm/llvmssa.ml" 71 2951 2955 "src/ext/llvm/llvmssa.ml" 71 2951 2957
+type(
+  int ref
+)
+ident(
+  int_ref id "src/ext/llvm/llvmssa.ml" 68 2819 2825 "src/ext/llvm/llvmssa.ml" 68 2819 2827
+)
+"src/ext/llvm/llvmssa.ml" 71 2951 2958 "src/ext/llvm/llvmssa.ml" 71 2951 2960
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/llvm/llvmssa.ml" 71 2951 2961 "src/ext/llvm/llvmssa.ml" 71 2951 2962
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/llvm/llvmssa.ml" 71 2951 2962 "src/ext/llvm/llvmssa.ml" 71 2951 2964
+type(
+  int ref
+)
+ident(
+  int_ref id "src/ext/llvm/llvmssa.ml" 68 2819 2825 "src/ext/llvm/llvmssa.ml" 68 2819 2827
+)
+"src/ext/llvm/llvmssa.ml" 71 2951 2961 "src/ext/llvm/llvmssa.ml" 71 2951 2964
+type(
+  int
+)
+"src/ext/llvm/llvmssa.ml" 71 2951 2965 "src/ext/llvm/llvmssa.ml" 71 2951 2966
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/llvm/llvmssa.ml" 71 2951 2967 "src/ext/llvm/llvmssa.ml" 71 2951 2968
+type(
+  int
+)
+"src/ext/llvm/llvmssa.ml" 71 2951 2961 "src/ext/llvm/llvmssa.ml" 71 2951 2968
+type(
+  int
+)
+"src/ext/llvm/llvmssa.ml" 71 2951 2955 "src/ext/llvm/llvmssa.ml" 71 2951 2968
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 72 2970 2975 "src/ext/llvm/llvmssa.ml" 72 2970 2982
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/ext/llvm/llvmssa.ml" 72 2970 2983 "src/ext/llvm/llvmssa.ml" 72 2970 2990
+type(
+  (string -> int -> string, unit, string) format
+)
+"src/ext/llvm/llvmssa.ml" 72 2970 2991 "src/ext/llvm/llvmssa.ml" 72 2970 2992
+type(
+  string
+)
+ident(
+  int_ref s "src/ext/llvm/llvmssa.ml" 70 2902 2918 "src/ext/llvm/llvmssa.ml" 70 2902 2919
+)
+"src/ext/llvm/llvmssa.ml" 72 2970 2993 "src/ext/llvm/llvmssa.ml" 72 2970 2994
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/llvm/llvmssa.ml" 72 2970 2994 "src/ext/llvm/llvmssa.ml" 72 2970 2996
+type(
+  int ref
+)
+ident(
+  int_ref id "src/ext/llvm/llvmssa.ml" 68 2819 2825 "src/ext/llvm/llvmssa.ml" 68 2819 2827
+)
+"src/ext/llvm/llvmssa.ml" 72 2970 2993 "src/ext/llvm/llvmssa.ml" 72 2970 2996
+type(
+  int
+)
+"src/ext/llvm/llvmssa.ml" 72 2970 2975 "src/ext/llvm/llvmssa.ml" 72 2970 2996
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/llvm/llvmssa.ml" 72 2970 2998 "src/ext/llvm/llvmssa.ml" 72 2970 2999
+type(
+  Llvmgen.llvmType
+)
+ident(
+  int_ref t "src/ext/llvm/llvmssa.ml" 70 2902 2929 "src/ext/llvm/llvmssa.ml" 70 2902 2930
+)
+"src/ext/llvm/llvmssa.ml" 72 2970 2974 "src/ext/llvm/llvmssa.ml" 72 2970 3000
+type(
+  Llvmgen.llvmLocal
+)
+"src/ext/llvm/llvmssa.ml" 71 2951 2955 "src/ext/llvm/llvmssa.ml" 72 2970 3000
+type(
+  Llvmgen.llvmLocal
+)
+type(
+  Llvmgen.llvmLocal
+)
+"src/ext/llvm/llvmssa.ml" 80 3314 3320 "src/ext/llvm/llvmssa.ml" 80 3314 3335
+type(
+  Cil.varinfo list -> Llvmgen.llvmBlock -> unit
+)
+ident(
+  def renameVariables "src/ext/llvm/llvmssa.ml" 136 5392 5394 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+)
+"src/ext/llvm/llvmssa.ml" 80 3314 3337 "src/ext/llvm/llvmssa.ml" 80 3314 3339
+type(
+  Cil.varinfo list
+)
+ident(
+  def vl "src/ext/llvm/llvmssa.ml" 80 3314 3354 "src/ext/llvm/llvmssa.ml" 132 5266 5320
+)
+"src/ext/llvm/llvmssa.ml" 80 3314 3355 "src/ext/llvm/llvmssa.ml" 80 3314 3356
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def b "src/ext/llvm/llvmssa.ml" 80 3314 3368 "src/ext/llvm/llvmssa.ml" 132 5266 5320
+)
+"src/ext/llvm/llvmssa.ml" 81 3378 3386 "src/ext/llvm/llvmssa.ml" 81 3378 3392
+type(
+  string
+)
+ident(
+  def blabel "src/ext/llvm/llvmssa.ml" 87 3669 3673 "src/ext/llvm/llvmssa.ml" 132 5266 5320
+)
+"src/ext/llvm/llvmssa.ml" 81 3378 3395 "src/ext/llvm/llvmssa.ml" 81 3378 3396
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 80 3314 3355 "src/ext/llvm/llvmssa.ml" 80 3314 3356
+)
+"src/ext/llvm/llvmssa.ml" 81 3378 3395 "src/ext/llvm/llvmssa.ml" 81 3378 3404
+type(
+  string
+)
+"src/ext/llvm/llvmssa.ml" 87 3669 3677 "src/ext/llvm/llvmssa.ml" 87 3669 3682
+type(
+  Cil.varinfo -> Llvmgen.llvmValue
+)
+ident(
+  def name1 "src/ext/llvm/llvmssa.ml" 99 3977 3981 "src/ext/llvm/llvmssa.ml" 132 5266 5320
+)
+"src/ext/llvm/llvmssa.ml" 87 3669 3683 "src/ext/llvm/llvmssa.ml" 87 3669 3685
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/llvm/llvmssa.ml" 88 3689 3695 "src/ext/llvm/llvmssa.ml" 95 3914 3929
+)
+"src/ext/llvm/llvmssa.ml" 88 3689 3698 "src/ext/llvm/llvmssa.ml" 88 3689 3699
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 80 3314 3355 "src/ext/llvm/llvmssa.ml" 80 3314 3356
+)
+"src/ext/llvm/llvmssa.ml" 88 3689 3698 "src/ext/llvm/llvmssa.ml" 88 3689 3707
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 88 3689 3708 "src/ext/llvm/llvmssa.ml" 88 3689 3710
+type(
+  Llvmgen.llvmBlock list -> Llvmgen.llvmBlock list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ext/llvm/llvmssa.ml" 88 3689 3711 "src/ext/llvm/llvmssa.ml" 88 3689 3713
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 88 3689 3698 "src/ext/llvm/llvmssa.ml" 88 3689 3713
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 89 3725 3730 "src/ext/llvm/llvmssa.ml" 89 3725 3737
+type(
+  Llvmgen.llvmLocal
+)
+ident(
+  def phiname "src/ext/llvm/llvmssa.ml" 90 3770 3771 "src/ext/llvm/llvmssa.ml" 91 3818 3833
+)
+"src/ext/llvm/llvmssa.ml" 89 3725 3740 "src/ext/llvm/llvmssa.ml" 89 3725 3748
+type(
+  string -> Cil.typ -> Llvmgen.llvmLocal
+)
+ident(
+  int_ref nextname "src/ext/llvm/llvmssa.ml" 70 2902 2908 "src/ext/llvm/llvmssa.ml" 70 2902 2916
+)
+"src/ext/llvm/llvmssa.ml" 89 3725 3749 "src/ext/llvm/llvmssa.ml" 89 3725 3751
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/llvm/llvmssa.ml" 87 3669 3683 "src/ext/llvm/llvmssa.ml" 87 3669 3685
+)
+"src/ext/llvm/llvmssa.ml" 89 3725 3749 "src/ext/llvm/llvmssa.ml" 89 3725 3757
+type(
+  string
+)
+"src/ext/llvm/llvmssa.ml" 89 3725 3758 "src/ext/llvm/llvmssa.ml" 89 3725 3760
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/llvm/llvmssa.ml" 87 3669 3683 "src/ext/llvm/llvmssa.ml" 87 3669 3685
+)
+"src/ext/llvm/llvmssa.ml" 89 3725 3758 "src/ext/llvm/llvmssa.ml" 89 3725 3766
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmssa.ml" 89 3725 3740 "src/ext/llvm/llvmssa.ml" 89 3725 3766
+call(
+  stack
+)
+type(
+  Llvmgen.llvmLocal
+)
+"src/ext/llvm/llvmssa.ml" 90 3770 3771 "src/ext/llvm/llvmssa.ml" 90 3770 3776
+type(
+  (string * string, Llvmgen.llvmLocal) H.t ->
+  string * string -> Llvmgen.llvmLocal -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/ext/llvm/llvmssa.ml" 90 3770 3777 "src/ext/llvm/llvmssa.ml" 90 3770 3786
+type(
+  (string * string, Llvmgen.llvmLocal) H.t
+)
+ident(
+  int_ref entryName "src/ext/llvm/llvmssa.ml" 61 2547 2553 "src/ext/llvm/llvmssa.ml" 61 2547 2562
+)
+"src/ext/llvm/llvmssa.ml" 90 3770 3788 "src/ext/llvm/llvmssa.ml" 90 3770 3789
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 80 3314 3355 "src/ext/llvm/llvmssa.ml" 80 3314 3356
+)
+"src/ext/llvm/llvmssa.ml" 90 3770 3788 "src/ext/llvm/llvmssa.ml" 90 3770 3797
+type(
+  string
+)
+"src/ext/llvm/llvmssa.ml" 90 3770 3799 "src/ext/llvm/llvmssa.ml" 90 3770 3801
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/llvm/llvmssa.ml" 87 3669 3683 "src/ext/llvm/llvmssa.ml" 87 3669 3685
+)
+"src/ext/llvm/llvmssa.ml" 90 3770 3799 "src/ext/llvm/llvmssa.ml" 90 3770 3807
+type(
+  string
+)
+"src/ext/llvm/llvmssa.ml" 90 3770 3787 "src/ext/llvm/llvmssa.ml" 90 3770 3808
+type(
+  string * string
+)
+"src/ext/llvm/llvmssa.ml" 90 3770 3809 "src/ext/llvm/llvmssa.ml" 90 3770 3816
+type(
+  Llvmgen.llvmLocal
+)
+ident(
+  int_ref phiname "src/ext/llvm/llvmssa.ml" 89 3725 3730 "src/ext/llvm/llvmssa.ml" 89 3725 3737
+)
+"src/ext/llvm/llvmssa.ml" 90 3770 3771 "src/ext/llvm/llvmssa.ml" 90 3770 3816
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 91 3818 3826 "src/ext/llvm/llvmssa.ml" 91 3818 3833
+type(
+  Llvmgen.llvmLocal
+)
+ident(
+  int_ref phiname "src/ext/llvm/llvmssa.ml" 89 3725 3730 "src/ext/llvm/llvmssa.ml" 89 3725 3737
+)
+"src/ext/llvm/llvmssa.ml" 91 3818 3819 "src/ext/llvm/llvmssa.ml" 91 3818 3833
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 90 3770 3771 "src/ext/llvm/llvmssa.ml" 91 3818 3833
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 88 3689 3719 "src/ext/llvm/llvmssa.ml" 92 3834 3843
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 92 3834 3852 "src/ext/llvm/llvmssa.ml" 92 3834 3856
+type(
+  Cil.varinfo -> Cil.varinfo list -> bool
+)
+ident(
+  ext_ref List.memq
+)
+"src/ext/llvm/llvmssa.ml" 92 3834 3857 "src/ext/llvm/llvmssa.ml" 92 3834 3859
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/llvm/llvmssa.ml" 87 3669 3683 "src/ext/llvm/llvmssa.ml" 87 3669 3685
+)
+"src/ext/llvm/llvmssa.ml" 92 3834 3860 "src/ext/llvm/llvmssa.ml" 92 3834 3867
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref formals "src/ext/llvm/llvmssa.ml" 58 2298 2355 "src/ext/llvm/llvmssa.ml" 58 2298 2362
+)
+"src/ext/llvm/llvmssa.ml" 92 3834 3852 "src/ext/llvm/llvmssa.ml" 92 3834 3867
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 93 3874 3883 "src/ext/llvm/llvmssa.ml" 93 3874 3885
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/llvm/llvmssa.ml" 87 3669 3683 "src/ext/llvm/llvmssa.ml" 87 3669 3685
+)
+"src/ext/llvm/llvmssa.ml" 93 3874 3883 "src/ext/llvm/llvmssa.ml" 93 3874 3891
+type(
+  string
+)
+"src/ext/llvm/llvmssa.ml" 93 3874 3893 "src/ext/llvm/llvmssa.ml" 93 3874 3895
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/llvm/llvmssa.ml" 87 3669 3683 "src/ext/llvm/llvmssa.ml" 87 3669 3685
+)
+"src/ext/llvm/llvmssa.ml" 93 3874 3893 "src/ext/llvm/llvmssa.ml" 93 3874 3901
+type(
+  Llvmgen.llvmType
+)
+"src/ext/llvm/llvmssa.ml" 93 3874 3882 "src/ext/llvm/llvmssa.ml" 93 3874 3902
+type(
+  Llvmgen.llvmLocal
+)
+"src/ext/llvm/llvmssa.ml" 93 3874 3875 "src/ext/llvm/llvmssa.ml" 93 3874 3902
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 95 3914 3915 "src/ext/llvm/llvmssa.ml" 95 3914 3920
+type(
+  Cil.typ -> Llvmgen.llvmValue
+)
+ident(
+  ext_ref Llvmgen.lzero
+)
+"src/ext/llvm/llvmssa.ml" 95 3914 3921 "src/ext/llvm/llvmssa.ml" 95 3914 3923
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/llvm/llvmssa.ml" 87 3669 3683 "src/ext/llvm/llvmssa.ml" 87 3669 3685
+)
+"src/ext/llvm/llvmssa.ml" 95 3914 3921 "src/ext/llvm/llvmssa.ml" 95 3914 3929
+type(
+  Cil.typ
+)
+"src/ext/llvm/llvmssa.ml" 95 3914 3915 "src/ext/llvm/llvmssa.ml" 95 3914 3929
+call(
+  tail
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 92 3834 3849 "src/ext/llvm/llvmssa.ml" 95 3914 3929
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 88 3689 3695 "src/ext/llvm/llvmssa.ml" 95 3914 3929
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 3981 "src/ext/llvm/llvmssa.ml" 99 3977 3985
+type(
+  (Cil.varinfo -> unit) -> Cil.varinfo list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 3991 "src/ext/llvm/llvmssa.ml" 99 3977 3993
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/llvm/llvmssa.ml" 99 3977 3997 "src/ext/llvm/llvmssa.ml" 99 3977 4042
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 3997 "src/ext/llvm/llvmssa.ml" 99 3977 4002
+type(
+  (string * string, Llvmgen.llvmValue) H.t ->
+  string * string -> Llvmgen.llvmValue -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 4003 "src/ext/llvm/llvmssa.ml" 99 3977 4012
+type(
+  (string * string, Llvmgen.llvmValue) H.t
+)
+ident(
+  int_ref exitValue "src/ext/llvm/llvmssa.ml" 66 2785 2791 "src/ext/llvm/llvmssa.ml" 66 2785 2800
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 4014 "src/ext/llvm/llvmssa.ml" 99 3977 4020
+type(
+  string
+)
+ident(
+  int_ref blabel "src/ext/llvm/llvmssa.ml" 81 3378 3386 "src/ext/llvm/llvmssa.ml" 81 3378 3392
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 4022 "src/ext/llvm/llvmssa.ml" 99 3977 4024
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/llvm/llvmssa.ml" 99 3977 3991 "src/ext/llvm/llvmssa.ml" 99 3977 3993
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 4022 "src/ext/llvm/llvmssa.ml" 99 3977 4030
+type(
+  string
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 4013 "src/ext/llvm/llvmssa.ml" 99 3977 4031
+type(
+  string * string
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 4033 "src/ext/llvm/llvmssa.ml" 99 3977 4038
+type(
+  Cil.varinfo -> Llvmgen.llvmValue
+)
+ident(
+  int_ref name1 "src/ext/llvm/llvmssa.ml" 87 3669 3677 "src/ext/llvm/llvmssa.ml" 87 3669 3682
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 4039 "src/ext/llvm/llvmssa.ml" 99 3977 4041
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/llvm/llvmssa.ml" 99 3977 3991 "src/ext/llvm/llvmssa.ml" 99 3977 3993
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 4032 "src/ext/llvm/llvmssa.ml" 99 3977 4042
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 3997 "src/ext/llvm/llvmssa.ml" 99 3977 4042
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 3986 "src/ext/llvm/llvmssa.ml" 99 3977 4043
+type(
+  Cil.varinfo -> unit
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 4044 "src/ext/llvm/llvmssa.ml" 99 3977 4046
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref vl "src/ext/llvm/llvmssa.ml" 80 3314 3337 "src/ext/llvm/llvmssa.ml" 80 3314 3339
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 3981 "src/ext/llvm/llvmssa.ml" 99 3977 4046
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 102 4082 4094 "src/ext/llvm/llvmssa.ml" 102 4082 4105
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  def renameValue "src/ext/llvm/llvmssa.ml" 102 4082 4086 "src/ext/llvm/llvmssa.ml" 132 5266 5320
+)
+"src/ext/llvm/llvmssa.ml" 102 4082 4107 "src/ext/llvm/llvmssa.ml" 102 4082 4109
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def lv "src/ext/llvm/llvmssa.ml" 102 4082 4123 "src/ext/llvm/llvmssa.ml" 104 4225 4238
+)
+"src/ext/llvm/llvmssa.ml" 102 4082 4129 "src/ext/llvm/llvmssa.ml" 102 4082 4131
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref lv "src/ext/llvm/llvmssa.ml" 102 4082 4107 "src/ext/llvm/llvmssa.ml" 102 4082 4109
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4151 "src/ext/llvm/llvmssa.ml" 103 4137 4153
+type(
+  string
+)
+ident(
+  def av "src/ext/llvm/llvmssa.ml" 103 4137 4163 "src/ext/llvm/llvmssa.ml" 103 4137 4224
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4155 "src/ext/llvm/llvmssa.ml" 103 4137 4156
+type(
+  Llvmgen.llvmType
+)
+ident(
+  def t "src/ext/llvm/llvmssa.ml" 103 4137 4163 "src/ext/llvm/llvmssa.ml" 103 4137 4224
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4150 "src/ext/llvm/llvmssa.ml" 103 4137 4157
+type(
+  Llvmgen.llvmLocal
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4143 "src/ext/llvm/llvmssa.ml" 103 4137 4157
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4163 "src/ext/llvm/llvmssa.ml" 103 4137 4168
+type(
+  (string * string, Llvmgen.llvmValue) H.t -> string * string -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4169 "src/ext/llvm/llvmssa.ml" 103 4137 4178
+type(
+  (string * string, Llvmgen.llvmValue) H.t
+)
+ident(
+  int_ref exitValue "src/ext/llvm/llvmssa.ml" 66 2785 2791 "src/ext/llvm/llvmssa.ml" 66 2785 2800
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4180 "src/ext/llvm/llvmssa.ml" 103 4137 4186
+type(
+  string
+)
+ident(
+  int_ref blabel "src/ext/llvm/llvmssa.ml" 81 3378 3386 "src/ext/llvm/llvmssa.ml" 81 3378 3392
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4188 "src/ext/llvm/llvmssa.ml" 103 4137 4190
+type(
+  string
+)
+ident(
+  int_ref av "src/ext/llvm/llvmssa.ml" 103 4137 4151 "src/ext/llvm/llvmssa.ml" 103 4137 4153
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4179 "src/ext/llvm/llvmssa.ml" 103 4137 4191
+type(
+  string * string
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4163 "src/ext/llvm/llvmssa.ml" 103 4137 4191
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4195 "src/ext/llvm/llvmssa.ml" 103 4137 4201
+type(
+  (string * string, Llvmgen.llvmValue) H.t ->
+  string * string -> Llvmgen.llvmValue
+)
+ident(
+  ext_ref H.find
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4202 "src/ext/llvm/llvmssa.ml" 103 4137 4211
+type(
+  (string * string, Llvmgen.llvmValue) H.t
+)
+ident(
+  int_ref exitValue "src/ext/llvm/llvmssa.ml" 66 2785 2791 "src/ext/llvm/llvmssa.ml" 66 2785 2800
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4213 "src/ext/llvm/llvmssa.ml" 103 4137 4219
+type(
+  string
+)
+ident(
+  int_ref blabel "src/ext/llvm/llvmssa.ml" 81 3378 3386 "src/ext/llvm/llvmssa.ml" 81 3378 3392
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4221 "src/ext/llvm/llvmssa.ml" 103 4137 4223
+type(
+  string
+)
+ident(
+  int_ref av "src/ext/llvm/llvmssa.ml" 103 4137 4151 "src/ext/llvm/llvmssa.ml" 103 4137 4153
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4212 "src/ext/llvm/llvmssa.ml" 103 4137 4224
+type(
+  string * string
+)
+"src/ext/llvm/llvmssa.ml" 103 4137 4195 "src/ext/llvm/llvmssa.ml" 103 4137 4224
+call(
+  tail
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 104 4225 4231 "src/ext/llvm/llvmssa.ml" 104 4225 4232
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 104 4225 4236 "src/ext/llvm/llvmssa.ml" 104 4225 4238
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref lv "src/ext/llvm/llvmssa.ml" 102 4082 4107 "src/ext/llvm/llvmssa.ml" 102 4082 4109
+)
+"src/ext/llvm/llvmssa.ml" 102 4082 4123 "src/ext/llvm/llvmssa.ml" 104 4225 4238
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 107 4319 4327 "src/ext/llvm/llvmssa.ml" 107 4319 4336
+type(
+  Llvmgen.llvmInstruction -> unit
+)
+ident(
+  def renameIns "src/ext/llvm/llvmssa.ml" 102 4082 4086 "src/ext/llvm/llvmssa.ml" 132 5266 5320
+)
+"src/ext/llvm/llvmssa.ml" 107 4319 4338 "src/ext/llvm/llvmssa.ml" 107 4319 4339
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  def i "src/ext/llvm/llvmssa.ml" 107 4319 4357 "src/ext/llvm/llvmssa.ml" 120 4885 4900
+)
+"src/ext/llvm/llvmssa.ml" 108 4366 4372 "src/ext/llvm/llvmssa.ml" 108 4366 4373
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 107 4319 4338 "src/ext/llvm/llvmssa.ml" 107 4319 4339
+)
+"src/ext/llvm/llvmssa.ml" 108 4366 4384 "src/ext/llvm/llvmssa.ml" 108 4366 4387
+type(
+  (Llvmgen.llvmValue -> Llvmgen.llvmValue) ->
+  Llvmgen.llvmValue list -> Llvmgen.llvmValue list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/llvm/llvmssa.ml" 108 4366 4388 "src/ext/llvm/llvmssa.ml" 108 4366 4399
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  int_ref renameValue "src/ext/llvm/llvmssa.ml" 102 4082 4094 "src/ext/llvm/llvmssa.ml" 102 4082 4105
+)
+"src/ext/llvm/llvmssa.ml" 108 4366 4400 "src/ext/llvm/llvmssa.ml" 108 4366 4401
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 107 4319 4338 "src/ext/llvm/llvmssa.ml" 107 4319 4339
+)
+"src/ext/llvm/llvmssa.ml" 108 4366 4400 "src/ext/llvm/llvmssa.ml" 108 4366 4408
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 108 4366 4384 "src/ext/llvm/llvmssa.ml" 108 4366 4408
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 108 4366 4372 "src/ext/llvm/llvmssa.ml" 108 4366 4408
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 109 4410 4422 "src/ext/llvm/llvmssa.ml" 109 4410 4423
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 107 4319 4338 "src/ext/llvm/llvmssa.ml" 107 4319 4339
+)
+"src/ext/llvm/llvmssa.ml" 109 4410 4422 "src/ext/llvm/llvmssa.ml" 109 4410 4432
+type(
+  Llvmgen.llvmLocal option
+)
+"src/ext/llvm/llvmssa.ml" 110 4438 4452 "src/ext/llvm/llvmssa.ml" 110 4438 4454
+type(
+  string
+)
+ident(
+  def rv "src/ext/llvm/llvmssa.ml" 110 4438 4464 "src/ext/llvm/llvmssa.ml" 119 4878 4884
+)
+"src/ext/llvm/llvmssa.ml" 110 4438 4456 "src/ext/llvm/llvmssa.ml" 110 4438 4457
+type(
+  Llvmgen.llvmType
+)
+ident(
+  def t "src/ext/llvm/llvmssa.ml" 110 4438 4464 "src/ext/llvm/llvmssa.ml" 119 4878 4884
+)
+"src/ext/llvm/llvmssa.ml" 110 4438 4451 "src/ext/llvm/llvmssa.ml" 110 4438 4458
+type(
+  Llvmgen.llvmLocal
+)
+"src/ext/llvm/llvmssa.ml" 110 4438 4446 "src/ext/llvm/llvmssa.ml" 110 4438 4458
+type(
+  Llvmgen.llvmLocal option
+)
+"src/ext/llvm/llvmssa.ml" 110 4438 4464 "src/ext/llvm/llvmssa.ml" 110 4438 4469
+type(
+  (string * string, Llvmgen.llvmValue) H.t -> string * string -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/ext/llvm/llvmssa.ml" 110 4438 4470 "src/ext/llvm/llvmssa.ml" 110 4438 4479
+type(
+  (string * string, Llvmgen.llvmValue) H.t
+)
+ident(
+  int_ref exitValue "src/ext/llvm/llvmssa.ml" 66 2785 2791 "src/ext/llvm/llvmssa.ml" 66 2785 2800
+)
+"src/ext/llvm/llvmssa.ml" 110 4438 4481 "src/ext/llvm/llvmssa.ml" 110 4438 4487
+type(
+  string
+)
+ident(
+  int_ref blabel "src/ext/llvm/llvmssa.ml" 81 3378 3386 "src/ext/llvm/llvmssa.ml" 81 3378 3392
+)
+"src/ext/llvm/llvmssa.ml" 110 4438 4489 "src/ext/llvm/llvmssa.ml" 110 4438 4491
+type(
+  string
+)
+ident(
+  int_ref rv "src/ext/llvm/llvmssa.ml" 110 4438 4452 "src/ext/llvm/llvmssa.ml" 110 4438 4454
+)
+"src/ext/llvm/llvmssa.ml" 110 4438 4480 "src/ext/llvm/llvmssa.ml" 110 4438 4492
+type(
+  string * string
+)
+"src/ext/llvm/llvmssa.ml" 110 4438 4464 "src/ext/llvm/llvmssa.ml" 110 4438 4492
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 111 4529 4535 "src/ext/llvm/llvmssa.ml" 111 4529 4536
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 107 4319 4338 "src/ext/llvm/llvmssa.ml" 107 4319 4339
+)
+"src/ext/llvm/llvmssa.ml" 111 4529 4535 "src/ext/llvm/llvmssa.ml" 111 4529 4541
+type(
+  Llvmgen.llvmOp
+)
+"src/ext/llvm/llvmssa.ml" 111 4529 4542 "src/ext/llvm/llvmssa.ml" 111 4529 4543
+type(
+  Llvmgen.llvmOp -> Llvmgen.llvmOp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/llvm/llvmssa.ml" 111 4529 4544 "src/ext/llvm/llvmssa.ml" 111 4529 4552
+type(
+  Llvmgen.llvmOp
+)
+"src/ext/llvm/llvmssa.ml" 111 4529 4535 "src/ext/llvm/llvmssa.ml" 111 4529 4552
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 113 4658 4663 "src/ext/llvm/llvmssa.ml" 113 4658 4672
+type(
+  (string * string, Llvmgen.llvmValue) H.t ->
+  string * string -> Llvmgen.llvmValue -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"src/ext/llvm/llvmssa.ml" 113 4658 4673 "src/ext/llvm/llvmssa.ml" 113 4658 4682
+type(
+  (string * string, Llvmgen.llvmValue) H.t
+)
+ident(
+  int_ref exitValue "src/ext/llvm/llvmssa.ml" 66 2785 2791 "src/ext/llvm/llvmssa.ml" 66 2785 2800
+)
+"src/ext/llvm/llvmssa.ml" 113 4658 4684 "src/ext/llvm/llvmssa.ml" 113 4658 4690
+type(
+  string
+)
+ident(
+  int_ref blabel "src/ext/llvm/llvmssa.ml" 81 3378 3386 "src/ext/llvm/llvmssa.ml" 81 3378 3392
+)
+"src/ext/llvm/llvmssa.ml" 113 4658 4692 "src/ext/llvm/llvmssa.ml" 113 4658 4694
+type(
+  string
+)
+ident(
+  int_ref rv "src/ext/llvm/llvmssa.ml" 110 4438 4452 "src/ext/llvm/llvmssa.ml" 110 4438 4454
+)
+"src/ext/llvm/llvmssa.ml" 113 4658 4683 "src/ext/llvm/llvmssa.ml" 113 4658 4695
+type(
+  string * string
+)
+"src/ext/llvm/llvmssa.ml" 113 4658 4697 "src/ext/llvm/llvmssa.ml" 113 4658 4699
+type(
+  Llvmgen.llvmValue list -> Llvmgen.llvmValue
+)
+ident(
+  ext_ref List.hd
+)
+"src/ext/llvm/llvmssa.ml" 113 4658 4700 "src/ext/llvm/llvmssa.ml" 113 4658 4701
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 107 4319 4338 "src/ext/llvm/llvmssa.ml" 107 4319 4339
+)
+"src/ext/llvm/llvmssa.ml" 113 4658 4700 "src/ext/llvm/llvmssa.ml" 113 4658 4708
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 113 4658 4696 "src/ext/llvm/llvmssa.ml" 113 4658 4709
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 113 4658 4663 "src/ext/llvm/llvmssa.ml" 113 4658 4709
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 116 4754 4763 "src/ext/llvm/llvmssa.ml" 116 4754 4770
+type(
+  Llvmgen.llvmLocal
+)
+ident(
+  def newname "src/ext/llvm/llvmssa.ml" 117 4790 4795 "src/ext/llvm/llvmssa.ml" 118 4823 4877
+)
+"src/ext/llvm/llvmssa.ml" 116 4754 4773 "src/ext/llvm/llvmssa.ml" 116 4754 4781
+type(
+  string -> Llvmgen.llvmType -> Llvmgen.llvmLocal
+)
+ident(
+  int_ref nextname "src/ext/llvm/llvmssa.ml" 70 2902 2908 "src/ext/llvm/llvmssa.ml" 70 2902 2916
+)
+"src/ext/llvm/llvmssa.ml" 116 4754 4782 "src/ext/llvm/llvmssa.ml" 116 4754 4784
+type(
+  string
+)
+ident(
+  int_ref rv "src/ext/llvm/llvmssa.ml" 110 4438 4452 "src/ext/llvm/llvmssa.ml" 110 4438 4454
+)
+"src/ext/llvm/llvmssa.ml" 116 4754 4785 "src/ext/llvm/llvmssa.ml" 116 4754 4786
+type(
+  Llvmgen.llvmType
+)
+ident(
+  int_ref t "src/ext/llvm/llvmssa.ml" 110 4438 4456 "src/ext/llvm/llvmssa.ml" 110 4438 4457
+)
+"src/ext/llvm/llvmssa.ml" 116 4754 4773 "src/ext/llvm/llvmssa.ml" 116 4754 4786
+call(
+  stack
+)
+type(
+  Llvmgen.llvmLocal
+)
+"src/ext/llvm/llvmssa.ml" 117 4790 4795 "src/ext/llvm/llvmssa.ml" 117 4790 4796
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 107 4319 4338 "src/ext/llvm/llvmssa.ml" 107 4319 4339
+)
+"src/ext/llvm/llvmssa.ml" 117 4790 4814 "src/ext/llvm/llvmssa.ml" 117 4790 4821
+type(
+  Llvmgen.llvmLocal
+)
+ident(
+  int_ref newname "src/ext/llvm/llvmssa.ml" 116 4754 4763 "src/ext/llvm/llvmssa.ml" 116 4754 4770
+)
+"src/ext/llvm/llvmssa.ml" 117 4790 4809 "src/ext/llvm/llvmssa.ml" 117 4790 4821
+type(
+  Llvmgen.llvmLocal option
+)
+"src/ext/llvm/llvmssa.ml" 117 4790 4795 "src/ext/llvm/llvmssa.ml" 117 4790 4821
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 118 4823 4828 "src/ext/llvm/llvmssa.ml" 118 4823 4837
+type(
+  (string * string, Llvmgen.llvmValue) H.t ->
+  string * string -> Llvmgen.llvmValue -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"src/ext/llvm/llvmssa.ml" 118 4823 4838 "src/ext/llvm/llvmssa.ml" 118 4823 4847
+type(
+  (string * string, Llvmgen.llvmValue) H.t
+)
+ident(
+  int_ref exitValue "src/ext/llvm/llvmssa.ml" 66 2785 2791 "src/ext/llvm/llvmssa.ml" 66 2785 2800
+)
+"src/ext/llvm/llvmssa.ml" 118 4823 4849 "src/ext/llvm/llvmssa.ml" 118 4823 4855
+type(
+  string
+)
+ident(
+  int_ref blabel "src/ext/llvm/llvmssa.ml" 81 3378 3386 "src/ext/llvm/llvmssa.ml" 81 3378 3392
+)
+"src/ext/llvm/llvmssa.ml" 118 4823 4857 "src/ext/llvm/llvmssa.ml" 118 4823 4859
+type(
+  string
+)
+ident(
+  int_ref rv "src/ext/llvm/llvmssa.ml" 110 4438 4452 "src/ext/llvm/llvmssa.ml" 110 4438 4454
+)
+"src/ext/llvm/llvmssa.ml" 118 4823 4848 "src/ext/llvm/llvmssa.ml" 118 4823 4860
+type(
+  string * string
+)
+"src/ext/llvm/llvmssa.ml" 118 4823 4869 "src/ext/llvm/llvmssa.ml" 118 4823 4876
+type(
+  Llvmgen.llvmLocal
+)
+ident(
+  int_ref newname "src/ext/llvm/llvmssa.ml" 116 4754 4763 "src/ext/llvm/llvmssa.ml" 116 4754 4770
+)
+"src/ext/llvm/llvmssa.ml" 118 4823 4861 "src/ext/llvm/llvmssa.ml" 118 4823 4877
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 118 4823 4828 "src/ext/llvm/llvmssa.ml" 118 4823 4877
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 117 4790 4795 "src/ext/llvm/llvmssa.ml" 118 4823 4877
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 114 4710 4718 "src/ext/llvm/llvmssa.ml" 119 4878 4884
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 111 4529 4532 "src/ext/llvm/llvmssa.ml" 119 4878 4884
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 120 4885 4893 "src/ext/llvm/llvmssa.ml" 120 4885 4894
+type(
+  Llvmgen.llvmLocal option
+)
+"src/ext/llvm/llvmssa.ml" 120 4885 4898 "src/ext/llvm/llvmssa.ml" 120 4885 4900
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 109 4410 4416 "src/ext/llvm/llvmssa.ml" 120 4885 4900
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 108 4366 4372 "src/ext/llvm/llvmssa.ml" 120 4885 4900
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 123 4945 4953 "src/ext/llvm/llvmssa.ml" 123 4945 4969
+type(
+  Llvmgen.llvmTerminator -> Llvmgen.llvmTerminator
+)
+ident(
+  def renameTerminator "src/ext/llvm/llvmssa.ml" 102 4082 4086 "src/ext/llvm/llvmssa.ml" 132 5266 5320
+)
+"src/ext/llvm/llvmssa.ml" 123 4945 4971 "src/ext/llvm/llvmssa.ml" 123 4945 4975
+type(
+  Llvmgen.llvmTerminator
+)
+ident(
+  def term "src/ext/llvm/llvmssa.ml" 123 4945 4992 "src/ext/llvm/llvmssa.ml" 128 5211 5228
+)
+"src/ext/llvm/llvmssa.ml" 124 5012 5024 "src/ext/llvm/llvmssa.ml" 124 5012 5028
+type(
+  Llvmgen.llvmTerminator
+)
+ident(
+  int_ref term "src/ext/llvm/llvmssa.ml" 123 4945 4971 "src/ext/llvm/llvmssa.ml" 123 4945 4975
+)
+"src/ext/llvm/llvmssa.ml" 125 5034 5047 "src/ext/llvm/llvmssa.ml" 125 5034 5049
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  def lv "src/ext/llvm/llvmssa.ml" 125 5034 5053 "src/ext/llvm/llvmssa.ml" 125 5034 5078
+)
+"src/ext/llvm/llvmssa.ml" 125 5034 5042 "src/ext/llvm/llvmssa.ml" 125 5034 5049
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 125 5034 5059 "src/ext/llvm/llvmssa.ml" 125 5034 5062
+type(
+  (Llvmgen.llvmValue -> Llvmgen.llvmValue) ->
+  Llvmgen.llvmValue list -> Llvmgen.llvmValue list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/llvm/llvmssa.ml" 125 5034 5063 "src/ext/llvm/llvmssa.ml" 125 5034 5074
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  int_ref renameValue "src/ext/llvm/llvmssa.ml" 102 4082 4094 "src/ext/llvm/llvmssa.ml" 102 4082 4105
+)
+"src/ext/llvm/llvmssa.ml" 125 5034 5075 "src/ext/llvm/llvmssa.ml" 125 5034 5077
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  int_ref lv "src/ext/llvm/llvmssa.ml" 125 5034 5047 "src/ext/llvm/llvmssa.ml" 125 5034 5049
+)
+"src/ext/llvm/llvmssa.ml" 125 5034 5058 "src/ext/llvm/llvmssa.ml" 125 5034 5078
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 125 5034 5053 "src/ext/llvm/llvmssa.ml" 125 5034 5078
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 126 5079 5094 "src/ext/llvm/llvmssa.ml" 126 5079 5096
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def lv "src/ext/llvm/llvmssa.ml" 126 5079 5109 "src/ext/llvm/llvmssa.ml" 126 5079 5139
+)
+"src/ext/llvm/llvmssa.ml" 126 5079 5098 "src/ext/llvm/llvmssa.ml" 126 5079 5100
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def b1 "src/ext/llvm/llvmssa.ml" 126 5079 5109 "src/ext/llvm/llvmssa.ml" 126 5079 5139
+)
+"src/ext/llvm/llvmssa.ml" 126 5079 5102 "src/ext/llvm/llvmssa.ml" 126 5079 5104
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def b2 "src/ext/llvm/llvmssa.ml" 126 5079 5109 "src/ext/llvm/llvmssa.ml" 126 5079 5139
+)
+"src/ext/llvm/llvmssa.ml" 126 5079 5087 "src/ext/llvm/llvmssa.ml" 126 5079 5105
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 126 5079 5116 "src/ext/llvm/llvmssa.ml" 126 5079 5127
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  int_ref renameValue "src/ext/llvm/llvmssa.ml" 102 4082 4094 "src/ext/llvm/llvmssa.ml" 102 4082 4105
+)
+"src/ext/llvm/llvmssa.ml" 126 5079 5128 "src/ext/llvm/llvmssa.ml" 126 5079 5130
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref lv "src/ext/llvm/llvmssa.ml" 126 5079 5094 "src/ext/llvm/llvmssa.ml" 126 5079 5096
+)
+"src/ext/llvm/llvmssa.ml" 126 5079 5116 "src/ext/llvm/llvmssa.ml" 126 5079 5130
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 126 5079 5132 "src/ext/llvm/llvmssa.ml" 126 5079 5134
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b1 "src/ext/llvm/llvmssa.ml" 126 5079 5098 "src/ext/llvm/llvmssa.ml" 126 5079 5100
+)
+"src/ext/llvm/llvmssa.ml" 126 5079 5136 "src/ext/llvm/llvmssa.ml" 126 5079 5138
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b2 "src/ext/llvm/llvmssa.ml" 126 5079 5102 "src/ext/llvm/llvmssa.ml" 126 5079 5104
+)
+"src/ext/llvm/llvmssa.ml" 126 5079 5109 "src/ext/llvm/llvmssa.ml" 126 5079 5139
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 127 5140 5157 "src/ext/llvm/llvmssa.ml" 127 5140 5159
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def lv "src/ext/llvm/llvmssa.ml" 127 5140 5175 "src/ext/llvm/llvmssa.ml" 127 5140 5210
+)
+"src/ext/llvm/llvmssa.ml" 127 5140 5161 "src/ext/llvm/llvmssa.ml" 127 5140 5163
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def db "src/ext/llvm/llvmssa.ml" 127 5140 5175 "src/ext/llvm/llvmssa.ml" 127 5140 5210
+)
+"src/ext/llvm/llvmssa.ml" 127 5140 5165 "src/ext/llvm/llvmssa.ml" 127 5140 5170
+type(
+  (int64 * Llvmgen.llvmBlock) list
+)
+ident(
+  def cases "src/ext/llvm/llvmssa.ml" 127 5140 5175 "src/ext/llvm/llvmssa.ml" 127 5140 5210
+)
+"src/ext/llvm/llvmssa.ml" 127 5140 5148 "src/ext/llvm/llvmssa.ml" 127 5140 5171
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 127 5140 5184 "src/ext/llvm/llvmssa.ml" 127 5140 5195
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  int_ref renameValue "src/ext/llvm/llvmssa.ml" 102 4082 4094 "src/ext/llvm/llvmssa.ml" 102 4082 4105
+)
+"src/ext/llvm/llvmssa.ml" 127 5140 5196 "src/ext/llvm/llvmssa.ml" 127 5140 5198
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref lv "src/ext/llvm/llvmssa.ml" 127 5140 5157 "src/ext/llvm/llvmssa.ml" 127 5140 5159
+)
+"src/ext/llvm/llvmssa.ml" 127 5140 5184 "src/ext/llvm/llvmssa.ml" 127 5140 5198
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 127 5140 5200 "src/ext/llvm/llvmssa.ml" 127 5140 5202
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref db "src/ext/llvm/llvmssa.ml" 127 5140 5161 "src/ext/llvm/llvmssa.ml" 127 5140 5163
+)
+"src/ext/llvm/llvmssa.ml" 127 5140 5204 "src/ext/llvm/llvmssa.ml" 127 5140 5209
+type(
+  (int64 * Llvmgen.llvmBlock) list
+)
+ident(
+  int_ref cases "src/ext/llvm/llvmssa.ml" 127 5140 5165 "src/ext/llvm/llvmssa.ml" 127 5140 5170
+)
+"src/ext/llvm/llvmssa.ml" 127 5140 5175 "src/ext/llvm/llvmssa.ml" 127 5140 5210
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 128 5211 5219 "src/ext/llvm/llvmssa.ml" 128 5211 5220
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 128 5211 5224 "src/ext/llvm/llvmssa.ml" 128 5211 5228
+type(
+  Llvmgen.llvmTerminator
+)
+ident(
+  int_ref term "src/ext/llvm/llvmssa.ml" 123 4945 4971 "src/ext/llvm/llvmssa.ml" 123 4945 4975
+)
+"src/ext/llvm/llvmssa.ml" 124 5012 5018 "src/ext/llvm/llvmssa.ml" 128 5211 5228
+type(
+  Llvmgen.llvmTerminator
+)
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 131 5237 5241 "src/ext/llvm/llvmssa.ml" 131 5237 5245
+type(
+  (Llvmgen.llvmInstruction -> unit) -> Llvmgen.llvmInstruction list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/llvm/llvmssa.ml" 131 5237 5246 "src/ext/llvm/llvmssa.ml" 131 5237 5255
+type(
+  Llvmgen.llvmInstruction -> unit
+)
+ident(
+  int_ref renameIns "src/ext/llvm/llvmssa.ml" 107 4319 4327 "src/ext/llvm/llvmssa.ml" 107 4319 4336
+)
+"src/ext/llvm/llvmssa.ml" 131 5237 5256 "src/ext/llvm/llvmssa.ml" 131 5237 5257
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 80 3314 3355 "src/ext/llvm/llvmssa.ml" 80 3314 3356
+)
+"src/ext/llvm/llvmssa.ml" 131 5237 5256 "src/ext/llvm/llvmssa.ml" 131 5237 5264
+type(
+  Llvmgen.llvmInstruction list
+)
+"src/ext/llvm/llvmssa.ml" 131 5237 5241 "src/ext/llvm/llvmssa.ml" 131 5237 5264
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 132 5266 5270 "src/ext/llvm/llvmssa.ml" 132 5266 5271
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 80 3314 3355 "src/ext/llvm/llvmssa.ml" 80 3314 3356
+)
+"src/ext/llvm/llvmssa.ml" 132 5266 5288 "src/ext/llvm/llvmssa.ml" 132 5266 5304
+type(
+  Llvmgen.llvmTerminator -> Llvmgen.llvmTerminator
+)
+ident(
+  int_ref renameTerminator "src/ext/llvm/llvmssa.ml" 123 4945 4953 "src/ext/llvm/llvmssa.ml" 123 4945 4969
+)
+"src/ext/llvm/llvmssa.ml" 132 5266 5305 "src/ext/llvm/llvmssa.ml" 132 5266 5306
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 80 3314 3355 "src/ext/llvm/llvmssa.ml" 80 3314 3356
+)
+"src/ext/llvm/llvmssa.ml" 132 5266 5305 "src/ext/llvm/llvmssa.ml" 132 5266 5319
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 132 5266 5288 "src/ext/llvm/llvmssa.ml" 132 5266 5319
+call(
+  stack
+)
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 132 5266 5270 "src/ext/llvm/llvmssa.ml" 132 5266 5320
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 131 5237 5241 "src/ext/llvm/llvmssa.ml" 132 5266 5320
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 102 4082 4086 "src/ext/llvm/llvmssa.ml" 132 5266 5320
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 99 3977 3981 "src/ext/llvm/llvmssa.ml" 132 5266 5320
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 87 3669 3673 "src/ext/llvm/llvmssa.ml" 132 5266 5320
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 81 3378 3382 "src/ext/llvm/llvmssa.ml" 132 5266 5320
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 136 5392 5398 "src/ext/llvm/llvmssa.ml" 136 5392 5404
+type(
+  Llvmgen.llvmBlock -> Cil.varinfo -> unit
+)
+ident(
+  def addPhi "src/ext/llvm/llvmssa.ml" 146 5799 5801 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+)
+"src/ext/llvm/llvmssa.ml" 136 5392 5406 "src/ext/llvm/llvmssa.ml" 136 5392 5407
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def b "src/ext/llvm/llvmssa.ml" 136 5392 5419 "src/ext/llvm/llvmssa.ml" 141 5658 5694
+)
+"src/ext/llvm/llvmssa.ml" 136 5392 5420 "src/ext/llvm/llvmssa.ml" 136 5392 5422
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/llvm/llvmssa.ml" 136 5392 5432 "src/ext/llvm/llvmssa.ml" 141 5658 5694
+)
+"src/ext/llvm/llvmssa.ml" 137 5441 5448 "src/ext/llvm/llvmssa.ml" 137 5441 5449
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 136 5392 5406 "src/ext/llvm/llvmssa.ml" 136 5392 5407
+)
+"src/ext/llvm/llvmssa.ml" 137 5441 5448 "src/ext/llvm/llvmssa.ml" 137 5441 5457
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 137 5441 5458 "src/ext/llvm/llvmssa.ml" 137 5441 5460
+type(
+  Llvmgen.llvmBlock list -> Llvmgen.llvmBlock list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ext/llvm/llvmssa.ml" 137 5441 5461 "src/ext/llvm/llvmssa.ml" 137 5441 5463
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 137 5441 5448 "src/ext/llvm/llvmssa.ml" 137 5441 5463
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 138 5469 5479 "src/ext/llvm/llvmssa.ml" 138 5469 5480
+type(
+  string
+)
+ident(
+  def v "src/ext/llvm/llvmssa.ml" 139 5495 5501 "src/ext/llvm/llvmssa.ml" 141 5658 5694
+)
+"src/ext/llvm/llvmssa.ml" 138 5469 5483 "src/ext/llvm/llvmssa.ml" 138 5469 5485
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/llvm/llvmssa.ml" 136 5392 5420 "src/ext/llvm/llvmssa.ml" 136 5392 5422
+)
+"src/ext/llvm/llvmssa.ml" 138 5469 5483 "src/ext/llvm/llvmssa.ml" 138 5469 5491
+type(
+  string
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5505 "src/ext/llvm/llvmssa.ml" 139 5495 5509
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  def args "src/ext/llvm/llvmssa.ml" 140 5585 5591 "src/ext/llvm/llvmssa.ml" 141 5658 5694
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5512 "src/ext/llvm/llvmssa.ml" 139 5495 5515
+type(
+  (Llvmgen.llvmBlock -> Llvmgen.llvmValue) ->
+  Llvmgen.llvmBlock list -> Llvmgen.llvmValue list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5521 "src/ext/llvm/llvmssa.ml" 139 5495 5523
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def pb "src/ext/llvm/llvmssa.ml" 139 5495 5527 "src/ext/llvm/llvmssa.ml" 139 5495 5570
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5533 "src/ext/llvm/llvmssa.ml" 139 5495 5539
+type(
+  (string * string, Llvmgen.llvmValue) H.t ->
+  string * string -> Llvmgen.llvmValue
+)
+ident(
+  ext_ref H.find
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5540 "src/ext/llvm/llvmssa.ml" 139 5495 5549
+type(
+  (string * string, Llvmgen.llvmValue) H.t
+)
+ident(
+  int_ref exitValue "src/ext/llvm/llvmssa.ml" 66 2785 2791 "src/ext/llvm/llvmssa.ml" 66 2785 2800
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5551 "src/ext/llvm/llvmssa.ml" 139 5495 5553
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref pb "src/ext/llvm/llvmssa.ml" 139 5495 5521 "src/ext/llvm/llvmssa.ml" 139 5495 5523
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5551 "src/ext/llvm/llvmssa.ml" 139 5495 5561
+type(
+  string
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5563 "src/ext/llvm/llvmssa.ml" 139 5495 5564
+type(
+  string
+)
+ident(
+  int_ref v "src/ext/llvm/llvmssa.ml" 138 5469 5479 "src/ext/llvm/llvmssa.ml" 138 5469 5480
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5550 "src/ext/llvm/llvmssa.ml" 139 5495 5565
+type(
+  string * string
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5533 "src/ext/llvm/llvmssa.ml" 139 5495 5565
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5567 "src/ext/llvm/llvmssa.ml" 139 5495 5569
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref pb "src/ext/llvm/llvmssa.ml" 139 5495 5521 "src/ext/llvm/llvmssa.ml" 139 5495 5523
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5527 "src/ext/llvm/llvmssa.ml" 139 5495 5570
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5516 "src/ext/llvm/llvmssa.ml" 139 5495 5571
+type(
+  Llvmgen.llvmBlock -> Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5572 "src/ext/llvm/llvmssa.ml" 139 5495 5573
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 136 5392 5406 "src/ext/llvm/llvmssa.ml" 136 5392 5407
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5572 "src/ext/llvm/llvmssa.ml" 139 5495 5581
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5512 "src/ext/llvm/llvmssa.ml" 139 5495 5581
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 140 5585 5595 "src/ext/llvm/llvmssa.ml" 140 5585 5601
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  def phiIns "src/ext/llvm/llvmssa.ml" 141 5658 5664 "src/ext/llvm/llvmssa.ml" 141 5658 5694
+)
+"src/ext/llvm/llvmssa.ml" 140 5585 5604 "src/ext/llvm/llvmssa.ml" 140 5585 5609
+type(
+  Llvmgen.llvmOp ->
+  Llvmgen.llvmLocal -> Llvmgen.llvmValue list -> Llvmgen.llvmInstruction
+)
+ident(
+  ext_ref Llvmgen.mkIns
+)
+"src/ext/llvm/llvmssa.ml" 140 5585 5610 "src/ext/llvm/llvmssa.ml" 140 5585 5615
+type(
+  Llvmgen.llvmOp
+)
+"src/ext/llvm/llvmssa.ml" 140 5585 5617 "src/ext/llvm/llvmssa.ml" 140 5585 5623
+type(
+  (string * string, Llvmgen.llvmLocal) H.t ->
+  string * string -> Llvmgen.llvmLocal
+)
+ident(
+  ext_ref H.find
+)
+"src/ext/llvm/llvmssa.ml" 140 5585 5624 "src/ext/llvm/llvmssa.ml" 140 5585 5633
+type(
+  (string * string, Llvmgen.llvmLocal) H.t
+)
+ident(
+  int_ref entryName "src/ext/llvm/llvmssa.ml" 61 2547 2553 "src/ext/llvm/llvmssa.ml" 61 2547 2562
+)
+"src/ext/llvm/llvmssa.ml" 140 5585 5635 "src/ext/llvm/llvmssa.ml" 140 5585 5636
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 136 5392 5406 "src/ext/llvm/llvmssa.ml" 136 5392 5407
+)
+"src/ext/llvm/llvmssa.ml" 140 5585 5635 "src/ext/llvm/llvmssa.ml" 140 5585 5644
+type(
+  string
+)
+"src/ext/llvm/llvmssa.ml" 140 5585 5646 "src/ext/llvm/llvmssa.ml" 140 5585 5647
+type(
+  string
+)
+ident(
+  int_ref v "src/ext/llvm/llvmssa.ml" 138 5469 5479 "src/ext/llvm/llvmssa.ml" 138 5469 5480
+)
+"src/ext/llvm/llvmssa.ml" 140 5585 5634 "src/ext/llvm/llvmssa.ml" 140 5585 5648
+type(
+  string * string
+)
+"src/ext/llvm/llvmssa.ml" 140 5585 5616 "src/ext/llvm/llvmssa.ml" 140 5585 5649
+call(
+  stack
+)
+type(
+  Llvmgen.llvmLocal
+)
+"src/ext/llvm/llvmssa.ml" 140 5585 5650 "src/ext/llvm/llvmssa.ml" 140 5585 5654
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  int_ref args "src/ext/llvm/llvmssa.ml" 139 5495 5505 "src/ext/llvm/llvmssa.ml" 139 5495 5509
+)
+"src/ext/llvm/llvmssa.ml" 140 5585 5604 "src/ext/llvm/llvmssa.ml" 140 5585 5654
+call(
+  stack
+)
+type(
+  Llvmgen.llvmInstruction
+)
+"src/ext/llvm/llvmssa.ml" 141 5658 5664 "src/ext/llvm/llvmssa.ml" 141 5658 5665
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 136 5392 5406 "src/ext/llvm/llvmssa.ml" 136 5392 5407
+)
+"src/ext/llvm/llvmssa.ml" 141 5658 5676 "src/ext/llvm/llvmssa.ml" 141 5658 5682
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref phiIns "src/ext/llvm/llvmssa.ml" 140 5585 5595 "src/ext/llvm/llvmssa.ml" 140 5585 5601
+)
+"src/ext/llvm/llvmssa.ml" 141 5658 5686 "src/ext/llvm/llvmssa.ml" 141 5658 5687
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 136 5392 5406 "src/ext/llvm/llvmssa.ml" 136 5392 5407
+)
+"src/ext/llvm/llvmssa.ml" 141 5658 5686 "src/ext/llvm/llvmssa.ml" 141 5658 5694
+type(
+  Llvmgen.llvmInstruction list
+)
+"src/ext/llvm/llvmssa.ml" 141 5658 5676 "src/ext/llvm/llvmssa.ml" 141 5658 5694
+type(
+  Llvmgen.llvmInstruction list
+)
+"src/ext/llvm/llvmssa.ml" 141 5658 5664 "src/ext/llvm/llvmssa.ml" 141 5658 5694
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 140 5585 5591 "src/ext/llvm/llvmssa.ml" 141 5658 5694
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 139 5495 5501 "src/ext/llvm/llvmssa.ml" 141 5658 5694
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 138 5469 5475 "src/ext/llvm/llvmssa.ml" 141 5658 5694
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 137 5441 5445 "src/ext/llvm/llvmssa.ml" 141 5658 5694
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 146 5799 5805 "src/ext/llvm/llvmssa.ml" 146 5799 5816
+type(
+  Llvmgen.llvmBlock list -> unit
+)
+ident(
+  def optimizeSsa "src/ext/llvm/llvmssa.ml" 224 8567 8569 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+)
+"src/ext/llvm/llvmssa.ml" 146 5799 5818 "src/ext/llvm/llvmssa.ml" 146 5799 5820
+type(
+  Llvmgen.llvmBlock list
+)
+ident(
+  def bl "src/ext/llvm/llvmssa.ml" 146 5799 5837 "src/ext/llvm/llvmssa.ml" 219 8408 8422
+)
+"src/ext/llvm/llvmssa.ml" 148 5925 5933 "src/ext/llvm/llvmssa.ml" 148 5925 5939
+type(
+  (Llvmgen.llvmValue, Llvmgen.llvmValue) H.t
+)
+ident(
+  def varmap "src/ext/llvm/llvmssa.ml" 149 5957 5961 "src/ext/llvm/llvmssa.ml" 219 8408 8422
+)
+"src/ext/llvm/llvmssa.ml" 148 5925 5942 "src/ext/llvm/llvmssa.ml" 148 5925 5950
+type(
+  ?random:bool -> int -> (Llvmgen.llvmValue, Llvmgen.llvmValue) H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/ext/llvm/llvmssa.ml" 148 5925 5951 "src/ext/llvm/llvmssa.ml" 148 5925 5953
+type(
+  int
+)
+"src/ext/llvm/llvmssa.ml" 148 5925 5942 "src/ext/llvm/llvmssa.ml" 148 5925 5953
+call(
+  stack
+)
+type(
+  (Llvmgen.llvmValue, Llvmgen.llvmValue) H.t
+)
+"src/ext/llvm/llvmssa.ml" 149 5957 5969 "src/ext/llvm/llvmssa.ml" 149 5957 5974
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  def remap "src/ext/llvm/llvmssa.ml" 149 5957 5961 "src/ext/llvm/llvmssa.ml" 219 8408 8422
+)
+"src/ext/llvm/llvmssa.ml" 149 5957 5975 "src/ext/llvm/llvmssa.ml" 149 5957 5976
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def v "src/ext/llvm/llvmssa.ml" 151 6060 6066 "src/ext/llvm/llvmssa.ml" 160 6337 6339
+)
+"src/ext/llvm/llvmssa.ml" 151 6060 6069 "src/ext/llvm/llvmssa.ml" 151 6060 6074
+type(
+  (Llvmgen.llvmValue, Llvmgen.llvmValue) H.t -> Llvmgen.llvmValue -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/ext/llvm/llvmssa.ml" 151 6060 6075 "src/ext/llvm/llvmssa.ml" 151 6060 6081
+type(
+  (Llvmgen.llvmValue, Llvmgen.llvmValue) H.t
+)
+ident(
+  int_ref varmap "src/ext/llvm/llvmssa.ml" 148 5925 5933 "src/ext/llvm/llvmssa.ml" 148 5925 5939
+)
+"src/ext/llvm/llvmssa.ml" 151 6060 6082 "src/ext/llvm/llvmssa.ml" 151 6060 6083
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v "src/ext/llvm/llvmssa.ml" 149 5957 5975 "src/ext/llvm/llvmssa.ml" 149 5957 5976
+)
+"src/ext/llvm/llvmssa.ml" 151 6060 6069 "src/ext/llvm/llvmssa.ml" 151 6060 6083
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 152 6089 6094 "src/ext/llvm/llvmssa.ml" 152 6089 6096
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def v' "src/ext/llvm/llvmssa.ml" 153 6118 6119 "src/ext/llvm/llvmssa.ml" 158 6321 6325
+)
+"src/ext/llvm/llvmssa.ml" 152 6089 6099 "src/ext/llvm/llvmssa.ml" 152 6089 6105
+type(
+  (Llvmgen.llvmValue, Llvmgen.llvmValue) H.t ->
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  ext_ref H.find
+)
+"src/ext/llvm/llvmssa.ml" 152 6089 6106 "src/ext/llvm/llvmssa.ml" 152 6089 6112
+type(
+  (Llvmgen.llvmValue, Llvmgen.llvmValue) H.t
+)
+ident(
+  int_ref varmap "src/ext/llvm/llvmssa.ml" 148 5925 5933 "src/ext/llvm/llvmssa.ml" 148 5925 5939
+)
+"src/ext/llvm/llvmssa.ml" 152 6089 6113 "src/ext/llvm/llvmssa.ml" 152 6089 6114
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v "src/ext/llvm/llvmssa.ml" 149 5957 5975 "src/ext/llvm/llvmssa.ml" 149 5957 5976
+)
+"src/ext/llvm/llvmssa.ml" 152 6089 6099 "src/ext/llvm/llvmssa.ml" 152 6089 6114
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 153 6118 6123 "src/ext/llvm/llvmssa.ml" 153 6118 6126
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def v'' "src/ext/llvm/llvmssa.ml" 154 6141 6142 "src/ext/llvm/llvmssa.ml" 158 6321 6325
+)
+"src/ext/llvm/llvmssa.ml" 153 6118 6129 "src/ext/llvm/llvmssa.ml" 153 6118 6134
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  int_ref remap "src/ext/llvm/llvmssa.ml" 149 5957 5969 "src/ext/llvm/llvmssa.ml" 149 5957 5974
+)
+"src/ext/llvm/llvmssa.ml" 153 6118 6135 "src/ext/llvm/llvmssa.ml" 153 6118 6137
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v' "src/ext/llvm/llvmssa.ml" 152 6089 6094 "src/ext/llvm/llvmssa.ml" 152 6089 6096
+)
+"src/ext/llvm/llvmssa.ml" 153 6118 6129 "src/ext/llvm/llvmssa.ml" 153 6118 6137
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 154 6141 6145 "src/ext/llvm/llvmssa.ml" 154 6141 6148
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/llvm/llvmssa.ml" 154 6141 6150 "src/ext/llvm/llvmssa.ml" 154 6141 6164
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue -> bool
+)
+ident(
+  ext_ref Llvmgen.llvmValueEqual
+)
+"src/ext/llvm/llvmssa.ml" 154 6141 6165 "src/ext/llvm/llvmssa.ml" 154 6141 6168
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v'' "src/ext/llvm/llvmssa.ml" 153 6118 6123 "src/ext/llvm/llvmssa.ml" 153 6118 6126
+)
+"src/ext/llvm/llvmssa.ml" 154 6141 6169 "src/ext/llvm/llvmssa.ml" 154 6141 6171
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v' "src/ext/llvm/llvmssa.ml" 152 6089 6094 "src/ext/llvm/llvmssa.ml" 152 6089 6096
+)
+"src/ext/llvm/llvmssa.ml" 154 6141 6149 "src/ext/llvm/llvmssa.ml" 154 6141 6172
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 154 6141 6145 "src/ext/llvm/llvmssa.ml" 154 6141 6172
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 156 6289 6292 "src/ext/llvm/llvmssa.ml" 156 6289 6301
+type(
+  (Llvmgen.llvmValue, Llvmgen.llvmValue) H.t ->
+  Llvmgen.llvmValue -> Llvmgen.llvmValue -> unit
+)
+ident(
+  ext_ref H.replace
+)
+"src/ext/llvm/llvmssa.ml" 156 6289 6302 "src/ext/llvm/llvmssa.ml" 156 6289 6308
+type(
+  (Llvmgen.llvmValue, Llvmgen.llvmValue) H.t
+)
+ident(
+  int_ref varmap "src/ext/llvm/llvmssa.ml" 148 5925 5933 "src/ext/llvm/llvmssa.ml" 148 5925 5939
+)
+"src/ext/llvm/llvmssa.ml" 156 6289 6309 "src/ext/llvm/llvmssa.ml" 156 6289 6310
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v "src/ext/llvm/llvmssa.ml" 149 5957 5975 "src/ext/llvm/llvmssa.ml" 149 5957 5976
+)
+"src/ext/llvm/llvmssa.ml" 156 6289 6311 "src/ext/llvm/llvmssa.ml" 156 6289 6314
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v'' "src/ext/llvm/llvmssa.ml" 153 6118 6123 "src/ext/llvm/llvmssa.ml" 153 6118 6126
+)
+"src/ext/llvm/llvmssa.ml" 154 6141 6178 "src/ext/llvm/llvmssa.ml" 157 6315 6319
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 154 6141 6142 "src/ext/llvm/llvmssa.ml" 157 6315 6319
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 158 6321 6322 "src/ext/llvm/llvmssa.ml" 158 6321 6325
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v'' "src/ext/llvm/llvmssa.ml" 153 6118 6123 "src/ext/llvm/llvmssa.ml" 153 6118 6126
+)
+"src/ext/llvm/llvmssa.ml" 154 6141 6142 "src/ext/llvm/llvmssa.ml" 158 6321 6325
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 153 6118 6119 "src/ext/llvm/llvmssa.ml" 158 6321 6325
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 152 6089 6090 "src/ext/llvm/llvmssa.ml" 158 6321 6325
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 160 6337 6338 "src/ext/llvm/llvmssa.ml" 160 6337 6339
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v "src/ext/llvm/llvmssa.ml" 149 5957 5975 "src/ext/llvm/llvmssa.ml" 149 5957 5976
+)
+"src/ext/llvm/llvmssa.ml" 151 6060 6066 "src/ext/llvm/llvmssa.ml" 160 6337 6339
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 166 6541 6549 "src/ext/llvm/llvmssa.ml" 166 6541 6556
+type(
+  unit -> bool
+)
+ident(
+  def onepass "src/ext/llvm/llvmssa.ml" 200 7758 7762 "src/ext/llvm/llvmssa.ml" 219 8408 8422
+)
+"src/ext/llvm/llvmssa.ml" 166 6541 6557 "src/ext/llvm/llvmssa.ml" 166 6541 6559
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 167 6569 6579 "src/ext/llvm/llvmssa.ml" 167 6569 6585
+type(
+  bool ref
+)
+ident(
+  def change "src/ext/llvm/llvmssa.ml" 168 6601 6607 "src/ext/llvm/llvmssa.ml" 196 7665 7678
+)
+"src/ext/llvm/llvmssa.ml" 167 6569 6588 "src/ext/llvm/llvmssa.ml" 167 6569 6591
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/llvm/llvmssa.ml" 167 6569 6592 "src/ext/llvm/llvmssa.ml" 167 6569 6597
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 167 6569 6588 "src/ext/llvm/llvmssa.ml" 167 6569 6597
+type(
+  bool ref
+)
+"src/ext/llvm/llvmssa.ml" 168 6601 6611 "src/ext/llvm/llvmssa.ml" 168 6601 6617
+type(
+  Llvmgen.llvmInstruction -> unit
+)
+ident(
+  def oneins "src/ext/llvm/llvmssa.ml" 195 7615 7624 "src/ext/llvm/llvmssa.ml" 196 7665 7678
+)
+"src/ext/llvm/llvmssa.ml" 168 6601 6619 "src/ext/llvm/llvmssa.ml" 168 6601 6620
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  def i "src/ext/llvm/llvmssa.ml" 168 6601 6638 "src/ext/llvm/llvmssa.ml" 193 7557 7613
+)
+"src/ext/llvm/llvmssa.ml" 169 6648 6652 "src/ext/llvm/llvmssa.ml" 169 6648 6653
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 168 6601 6619 "src/ext/llvm/llvmssa.ml" 168 6601 6620
+)
+"src/ext/llvm/llvmssa.ml" 169 6648 6652 "src/ext/llvm/llvmssa.ml" 169 6648 6658
+type(
+  Llvmgen.llvmOp
+)
+"src/ext/llvm/llvmssa.ml" 169 6648 6659 "src/ext/llvm/llvmssa.ml" 169 6648 6660
+type(
+  Llvmgen.llvmOp -> Llvmgen.llvmOp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/llvm/llvmssa.ml" 169 6648 6661 "src/ext/llvm/llvmssa.ml" 169 6648 6666
+type(
+  Llvmgen.llvmOp
+)
+"src/ext/llvm/llvmssa.ml" 169 6648 6652 "src/ext/llvm/llvmssa.ml" 169 6648 6666
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 169 6648 6667 "src/ext/llvm/llvmssa.ml" 169 6648 6669
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/llvm/llvmssa.ml" 169 6648 6670 "src/ext/llvm/llvmssa.ml" 169 6648 6671
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 168 6601 6619 "src/ext/llvm/llvmssa.ml" 168 6601 6620
+)
+"src/ext/llvm/llvmssa.ml" 169 6648 6670 "src/ext/llvm/llvmssa.ml" 169 6648 6678
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 169 6648 6679 "src/ext/llvm/llvmssa.ml" 169 6648 6681
+type(
+  Llvmgen.llvmValue list -> Llvmgen.llvmValue list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ext/llvm/llvmssa.ml" 169 6648 6682 "src/ext/llvm/llvmssa.ml" 169 6648 6684
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 169 6648 6670 "src/ext/llvm/llvmssa.ml" 169 6648 6684
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 169 6648 6652 "src/ext/llvm/llvmssa.ml" 169 6648 6684
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 170 6690 6701 "src/ext/llvm/llvmssa.ml" 170 6690 6713
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue list -> unit
+)
+ident(
+  def checkRewrite "src/ext/llvm/llvmssa.ml" 170 6690 6693 "src/ext/llvm/llvmssa.ml" 193 7557 7613
+)
+"src/ext/llvm/llvmssa.ml" 170 6690 6715 "src/ext/llvm/llvmssa.ml" 170 6690 6716
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def d "src/ext/llvm/llvmssa.ml" 170 6690 6728 "src/ext/llvm/llvmssa.ml" 179 7012 7026
+)
+"src/ext/llvm/llvmssa.ml" 170 6690 6729 "src/ext/llvm/llvmssa.ml" 170 6690 6736
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  def phiargs "src/ext/llvm/llvmssa.ml" 171 6756 6761 "src/ext/llvm/llvmssa.ml" 179 7012 7026
+)
+"src/ext/llvm/llvmssa.ml" 171 6756 6767 "src/ext/llvm/llvmssa.ml" 171 6756 6774
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  int_ref phiargs "src/ext/llvm/llvmssa.ml" 170 6690 6729 "src/ext/llvm/llvmssa.ml" 170 6690 6736
+)
+"src/ext/llvm/llvmssa.ml" 172 6780 6793 "src/ext/llvm/llvmssa.ml" 172 6780 6794
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def v "src/ext/llvm/llvmssa.ml" 173 6814 6816 "src/ext/llvm/llvmssa.ml" 177 6901 6933
+)
+"src/ext/llvm/llvmssa.ml" 172 6780 6796 "src/ext/llvm/llvmssa.ml" 172 6780 6797
+type(
+  Llvmgen.llvmBlock
+)
+"src/ext/llvm/llvmssa.ml" 172 6780 6787 "src/ext/llvm/llvmssa.ml" 172 6780 6798
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 172 6780 6802 "src/ext/llvm/llvmssa.ml" 172 6780 6810
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  def phiargs' "src/ext/llvm/llvmssa.ml" 173 6814 6816 "src/ext/llvm/llvmssa.ml" 177 6901 6933
+)
+"src/ext/llvm/llvmssa.ml" 172 6780 6787 "src/ext/llvm/llvmssa.ml" 172 6780 6810
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 173 6814 6820 "src/ext/llvm/llvmssa.ml" 173 6814 6822
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def v' "src/ext/llvm/llvmssa.ml" 174 6836 6838 "src/ext/llvm/llvmssa.ml" 177 6901 6933
+)
+"src/ext/llvm/llvmssa.ml" 173 6814 6825 "src/ext/llvm/llvmssa.ml" 173 6814 6830
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  int_ref remap "src/ext/llvm/llvmssa.ml" 149 5957 5969 "src/ext/llvm/llvmssa.ml" 149 5957 5974
+)
+"src/ext/llvm/llvmssa.ml" 173 6814 6831 "src/ext/llvm/llvmssa.ml" 173 6814 6832
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v "src/ext/llvm/llvmssa.ml" 172 6780 6793 "src/ext/llvm/llvmssa.ml" 172 6780 6794
+)
+"src/ext/llvm/llvmssa.ml" 173 6814 6825 "src/ext/llvm/llvmssa.ml" 173 6814 6832
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 174 6836 6841 "src/ext/llvm/llvmssa.ml" 174 6836 6855
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue -> bool
+)
+ident(
+  ext_ref Llvmgen.llvmValueEqual
+)
+"src/ext/llvm/llvmssa.ml" 174 6836 6856 "src/ext/llvm/llvmssa.ml" 174 6836 6858
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v' "src/ext/llvm/llvmssa.ml" 173 6814 6820 "src/ext/llvm/llvmssa.ml" 173 6814 6822
+)
+"src/ext/llvm/llvmssa.ml" 174 6836 6859 "src/ext/llvm/llvmssa.ml" 174 6836 6860
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref d "src/ext/llvm/llvmssa.ml" 170 6690 6715 "src/ext/llvm/llvmssa.ml" 170 6690 6716
+)
+"src/ext/llvm/llvmssa.ml" 174 6836 6841 "src/ext/llvm/llvmssa.ml" 174 6836 6860
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 175 6866 6870 "src/ext/llvm/llvmssa.ml" 175 6866 6882
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue list -> unit
+)
+ident(
+  int_ref checkRewrite "src/ext/llvm/llvmssa.ml" 170 6690 6701 "src/ext/llvm/llvmssa.ml" 170 6690 6713
+)
+"src/ext/llvm/llvmssa.ml" 175 6866 6883 "src/ext/llvm/llvmssa.ml" 175 6866 6884
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref d "src/ext/llvm/llvmssa.ml" 170 6690 6715 "src/ext/llvm/llvmssa.ml" 170 6690 6716
+)
+"src/ext/llvm/llvmssa.ml" 175 6866 6885 "src/ext/llvm/llvmssa.ml" 175 6866 6893
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  int_ref phiargs' "src/ext/llvm/llvmssa.ml" 172 6780 6802 "src/ext/llvm/llvmssa.ml" 172 6780 6810
+)
+"src/ext/llvm/llvmssa.ml" 175 6866 6870 "src/ext/llvm/llvmssa.ml" 175 6866 6893
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 177 6901 6905 "src/ext/llvm/llvmssa.ml" 177 6901 6919
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue list -> Llvmgen.llvmValue -> unit
+)
+ident(
+  int_ref checkCandidate "src/ext/llvm/llvmssa.ml" 180 7027 7034 "src/ext/llvm/llvmssa.ml" 180 7027 7048
+)
+"src/ext/llvm/llvmssa.ml" 177 6901 6920 "src/ext/llvm/llvmssa.ml" 177 6901 6921
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref d "src/ext/llvm/llvmssa.ml" 170 6690 6715 "src/ext/llvm/llvmssa.ml" 170 6690 6716
+)
+"src/ext/llvm/llvmssa.ml" 177 6901 6922 "src/ext/llvm/llvmssa.ml" 177 6901 6930
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  int_ref phiargs' "src/ext/llvm/llvmssa.ml" 172 6780 6802 "src/ext/llvm/llvmssa.ml" 172 6780 6810
+)
+"src/ext/llvm/llvmssa.ml" 177 6901 6931 "src/ext/llvm/llvmssa.ml" 177 6901 6933
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v' "src/ext/llvm/llvmssa.ml" 173 6814 6820 "src/ext/llvm/llvmssa.ml" 173 6814 6822
+)
+"src/ext/llvm/llvmssa.ml" 177 6901 6905 "src/ext/llvm/llvmssa.ml" 177 6901 6933
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 174 6836 6838 "src/ext/llvm/llvmssa.ml" 177 6901 6933
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 173 6814 6816 "src/ext/llvm/llvmssa.ml" 177 6901 6933
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 178 6934 6941 "src/ext/llvm/llvmssa.ml" 178 6934 6943
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 178 6934 6947 "src/ext/llvm/llvmssa.ml" 178 6934 6948
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 168 6601 6619 "src/ext/llvm/llvmssa.ml" 168 6601 6620
+)
+"src/ext/llvm/llvmssa.ml" 178 6934 6959 "src/ext/llvm/llvmssa.ml" 178 6934 6961
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 178 6934 6947 "src/ext/llvm/llvmssa.ml" 178 6934 6961
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 179 7012 7019 "src/ext/llvm/llvmssa.ml" 179 7012 7020
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 179 7012 7024 "src/ext/llvm/llvmssa.ml" 179 7012 7026
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 171 6756 6761 "src/ext/llvm/llvmssa.ml" 179 7012 7026
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 180 7027 7034 "src/ext/llvm/llvmssa.ml" 180 7027 7048
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue list -> Llvmgen.llvmValue -> unit
+)
+ident(
+  def checkCandidate "src/ext/llvm/llvmssa.ml" 170 6690 6693 "src/ext/llvm/llvmssa.ml" 193 7557 7613
+)
+"src/ext/llvm/llvmssa.ml" 180 7027 7050 "src/ext/llvm/llvmssa.ml" 180 7027 7051
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def d "src/ext/llvm/llvmssa.ml" 180 7027 7063 "src/ext/llvm/llvmssa.ml" 191 7536 7550
+)
+"src/ext/llvm/llvmssa.ml" 180 7027 7064 "src/ext/llvm/llvmssa.ml" 180 7027 7071
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  def phiargs "src/ext/llvm/llvmssa.ml" 180 7027 7088 "src/ext/llvm/llvmssa.ml" 191 7536 7550
+)
+"src/ext/llvm/llvmssa.ml" 180 7027 7089 "src/ext/llvm/llvmssa.ml" 180 7027 7090
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def c "src/ext/llvm/llvmssa.ml" 181 7104 7109 "src/ext/llvm/llvmssa.ml" 191 7536 7550
+)
+"src/ext/llvm/llvmssa.ml" 181 7104 7115 "src/ext/llvm/llvmssa.ml" 181 7104 7122
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  int_ref phiargs "src/ext/llvm/llvmssa.ml" 180 7027 7064 "src/ext/llvm/llvmssa.ml" 180 7027 7071
+)
+"src/ext/llvm/llvmssa.ml" 182 7128 7141 "src/ext/llvm/llvmssa.ml" 182 7128 7142
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def v "src/ext/llvm/llvmssa.ml" 183 7162 7164 "src/ext/llvm/llvmssa.ml" 185 7237 7268
+)
+"src/ext/llvm/llvmssa.ml" 182 7128 7144 "src/ext/llvm/llvmssa.ml" 182 7128 7145
+type(
+  Llvmgen.llvmBlock
+)
+"src/ext/llvm/llvmssa.ml" 182 7128 7135 "src/ext/llvm/llvmssa.ml" 182 7128 7146
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 182 7128 7150 "src/ext/llvm/llvmssa.ml" 182 7128 7158
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  def phiargs' "src/ext/llvm/llvmssa.ml" 183 7162 7164 "src/ext/llvm/llvmssa.ml" 185 7237 7268
+)
+"src/ext/llvm/llvmssa.ml" 182 7128 7135 "src/ext/llvm/llvmssa.ml" 182 7128 7158
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 183 7162 7168 "src/ext/llvm/llvmssa.ml" 183 7162 7170
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def v' "src/ext/llvm/llvmssa.ml" 184 7184 7186 "src/ext/llvm/llvmssa.ml" 185 7237 7268
+)
+"src/ext/llvm/llvmssa.ml" 183 7162 7173 "src/ext/llvm/llvmssa.ml" 183 7162 7178
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  int_ref remap "src/ext/llvm/llvmssa.ml" 149 5957 5969 "src/ext/llvm/llvmssa.ml" 149 5957 5974
+)
+"src/ext/llvm/llvmssa.ml" 183 7162 7179 "src/ext/llvm/llvmssa.ml" 183 7162 7180
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v "src/ext/llvm/llvmssa.ml" 182 7128 7141 "src/ext/llvm/llvmssa.ml" 182 7128 7142
+)
+"src/ext/llvm/llvmssa.ml" 183 7162 7173 "src/ext/llvm/llvmssa.ml" 183 7162 7180
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 184 7184 7189 "src/ext/llvm/llvmssa.ml" 184 7184 7203
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue -> bool
+)
+ident(
+  ext_ref Llvmgen.llvmValueEqual
+)
+"src/ext/llvm/llvmssa.ml" 184 7184 7204 "src/ext/llvm/llvmssa.ml" 184 7184 7206
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v' "src/ext/llvm/llvmssa.ml" 183 7162 7168 "src/ext/llvm/llvmssa.ml" 183 7162 7170
+)
+"src/ext/llvm/llvmssa.ml" 184 7184 7207 "src/ext/llvm/llvmssa.ml" 184 7184 7208
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref c "src/ext/llvm/llvmssa.ml" 180 7027 7089 "src/ext/llvm/llvmssa.ml" 180 7027 7090
+)
+"src/ext/llvm/llvmssa.ml" 184 7184 7189 "src/ext/llvm/llvmssa.ml" 184 7184 7208
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 184 7184 7209 "src/ext/llvm/llvmssa.ml" 184 7184 7211
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ext/llvm/llvmssa.ml" 184 7184 7212 "src/ext/llvm/llvmssa.ml" 184 7184 7226
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue -> bool
+)
+ident(
+  ext_ref Llvmgen.llvmValueEqual
+)
+"src/ext/llvm/llvmssa.ml" 184 7184 7227 "src/ext/llvm/llvmssa.ml" 184 7184 7229
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v' "src/ext/llvm/llvmssa.ml" 183 7162 7168 "src/ext/llvm/llvmssa.ml" 183 7162 7170
+)
+"src/ext/llvm/llvmssa.ml" 184 7184 7230 "src/ext/llvm/llvmssa.ml" 184 7184 7231
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref d "src/ext/llvm/llvmssa.ml" 180 7027 7050 "src/ext/llvm/llvmssa.ml" 180 7027 7051
+)
+"src/ext/llvm/llvmssa.ml" 184 7184 7212 "src/ext/llvm/llvmssa.ml" 184 7184 7231
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 184 7184 7189 "src/ext/llvm/llvmssa.ml" 184 7184 7231
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 185 7237 7241 "src/ext/llvm/llvmssa.ml" 185 7237 7255
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue list -> Llvmgen.llvmValue -> unit
+)
+ident(
+  int_ref checkCandidate "src/ext/llvm/llvmssa.ml" 180 7027 7034 "src/ext/llvm/llvmssa.ml" 180 7027 7048
+)
+"src/ext/llvm/llvmssa.ml" 185 7237 7256 "src/ext/llvm/llvmssa.ml" 185 7237 7257
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref d "src/ext/llvm/llvmssa.ml" 180 7027 7050 "src/ext/llvm/llvmssa.ml" 180 7027 7051
+)
+"src/ext/llvm/llvmssa.ml" 185 7237 7258 "src/ext/llvm/llvmssa.ml" 185 7237 7266
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  int_ref phiargs' "src/ext/llvm/llvmssa.ml" 182 7128 7150 "src/ext/llvm/llvmssa.ml" 182 7128 7158
+)
+"src/ext/llvm/llvmssa.ml" 185 7237 7267 "src/ext/llvm/llvmssa.ml" 185 7237 7268
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref c "src/ext/llvm/llvmssa.ml" 180 7027 7089 "src/ext/llvm/llvmssa.ml" 180 7027 7090
+)
+"src/ext/llvm/llvmssa.ml" 185 7237 7241 "src/ext/llvm/llvmssa.ml" 185 7237 7268
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 184 7184 7186 "src/ext/llvm/llvmssa.ml" 185 7237 7268
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 183 7162 7164 "src/ext/llvm/llvmssa.ml" 185 7237 7268
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 186 7269 7276 "src/ext/llvm/llvmssa.ml" 186 7269 7278
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 187 7354 7356 "src/ext/llvm/llvmssa.ml" 187 7354 7362
+type(
+  bool ref
+)
+ident(
+  int_ref change "src/ext/llvm/llvmssa.ml" 167 6569 6579 "src/ext/llvm/llvmssa.ml" 167 6569 6585
+)
+"src/ext/llvm/llvmssa.ml" 187 7354 7363 "src/ext/llvm/llvmssa.ml" 187 7354 7365
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/llvm/llvmssa.ml" 187 7354 7366 "src/ext/llvm/llvmssa.ml" 187 7354 7370
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 187 7354 7356 "src/ext/llvm/llvmssa.ml" 187 7354 7370
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 189 7499 7501 "src/ext/llvm/llvmssa.ml" 189 7499 7506
+type(
+  (Llvmgen.llvmValue, Llvmgen.llvmValue) H.t ->
+  Llvmgen.llvmValue -> Llvmgen.llvmValue -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/ext/llvm/llvmssa.ml" 189 7499 7507 "src/ext/llvm/llvmssa.ml" 189 7499 7513
+type(
+  (Llvmgen.llvmValue, Llvmgen.llvmValue) H.t
+)
+ident(
+  int_ref varmap "src/ext/llvm/llvmssa.ml" 148 5925 5933 "src/ext/llvm/llvmssa.ml" 148 5925 5939
+)
+"src/ext/llvm/llvmssa.ml" 189 7499 7514 "src/ext/llvm/llvmssa.ml" 189 7499 7515
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref d "src/ext/llvm/llvmssa.ml" 180 7027 7050 "src/ext/llvm/llvmssa.ml" 180 7027 7051
+)
+"src/ext/llvm/llvmssa.ml" 189 7499 7516 "src/ext/llvm/llvmssa.ml" 189 7499 7517
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref c "src/ext/llvm/llvmssa.ml" 180 7027 7089 "src/ext/llvm/llvmssa.ml" 180 7027 7090
+)
+"src/ext/llvm/llvmssa.ml" 189 7499 7501 "src/ext/llvm/llvmssa.ml" 189 7499 7517
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 190 7519 7521 "src/ext/llvm/llvmssa.ml" 190 7519 7522
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 168 6601 6619 "src/ext/llvm/llvmssa.ml" 168 6601 6620
+)
+"src/ext/llvm/llvmssa.ml" 190 7519 7533 "src/ext/llvm/llvmssa.ml" 190 7519 7535
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 190 7519 7521 "src/ext/llvm/llvmssa.ml" 190 7519 7535
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 189 7499 7501 "src/ext/llvm/llvmssa.ml" 190 7519 7535
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 187 7354 7356 "src/ext/llvm/llvmssa.ml" 190 7519 7535
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 191 7536 7543 "src/ext/llvm/llvmssa.ml" 191 7536 7544
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 191 7536 7548 "src/ext/llvm/llvmssa.ml" 191 7536 7550
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 181 7104 7109 "src/ext/llvm/llvmssa.ml" 191 7536 7550
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 193 7557 7560 "src/ext/llvm/llvmssa.ml" 193 7557 7572
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue list -> unit
+)
+ident(
+  int_ref checkRewrite "src/ext/llvm/llvmssa.ml" 170 6690 6701 "src/ext/llvm/llvmssa.ml" 170 6690 6713
+)
+"src/ext/llvm/llvmssa.ml" 193 7557 7582 "src/ext/llvm/llvmssa.ml" 193 7557 7591
+type(
+  Llvmgen.llvmLocal option -> Llvmgen.llvmLocal
+)
+ident(
+  ext_ref Llvmutils.getOption
+)
+"src/ext/llvm/llvmssa.ml" 193 7557 7592 "src/ext/llvm/llvmssa.ml" 193 7557 7593
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 168 6601 6619 "src/ext/llvm/llvmssa.ml" 168 6601 6620
+)
+"src/ext/llvm/llvmssa.ml" 193 7557 7592 "src/ext/llvm/llvmssa.ml" 193 7557 7602
+type(
+  Llvmgen.llvmLocal option
+)
+"src/ext/llvm/llvmssa.ml" 193 7557 7581 "src/ext/llvm/llvmssa.ml" 193 7557 7603
+call(
+  stack
+)
+type(
+  Llvmgen.llvmLocal
+)
+"src/ext/llvm/llvmssa.ml" 193 7557 7573 "src/ext/llvm/llvmssa.ml" 193 7557 7604
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 193 7557 7605 "src/ext/llvm/llvmssa.ml" 193 7557 7606
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 168 6601 6619 "src/ext/llvm/llvmssa.ml" 168 6601 6620
+)
+"src/ext/llvm/llvmssa.ml" 193 7557 7605 "src/ext/llvm/llvmssa.ml" 193 7557 7613
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 193 7557 7560 "src/ext/llvm/llvmssa.ml" 193 7557 7613
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 170 6690 6693 "src/ext/llvm/llvmssa.ml" 193 7557 7613
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 169 6648 6649 "src/ext/llvm/llvmssa.ml" 193 7557 7613
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 195 7615 7624 "src/ext/llvm/llvmssa.ml" 195 7615 7628
+type(
+  (Llvmgen.llvmBlock -> unit) -> Llvmgen.llvmBlock list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/llvm/llvmssa.ml" 195 7615 7634 "src/ext/llvm/llvmssa.ml" 195 7615 7635
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def b "src/ext/llvm/llvmssa.ml" 195 7615 7639 "src/ext/llvm/llvmssa.ml" 195 7615 7659
+)
+"src/ext/llvm/llvmssa.ml" 195 7615 7639 "src/ext/llvm/llvmssa.ml" 195 7615 7643
+type(
+  (Llvmgen.llvmInstruction -> unit) -> Llvmgen.llvmInstruction list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/llvm/llvmssa.ml" 195 7615 7644 "src/ext/llvm/llvmssa.ml" 195 7615 7650
+type(
+  Llvmgen.llvmInstruction -> unit
+)
+ident(
+  int_ref oneins "src/ext/llvm/llvmssa.ml" 168 6601 6611 "src/ext/llvm/llvmssa.ml" 168 6601 6617
+)
+"src/ext/llvm/llvmssa.ml" 195 7615 7651 "src/ext/llvm/llvmssa.ml" 195 7615 7652
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 195 7615 7634 "src/ext/llvm/llvmssa.ml" 195 7615 7635
+)
+"src/ext/llvm/llvmssa.ml" 195 7615 7651 "src/ext/llvm/llvmssa.ml" 195 7615 7659
+type(
+  Llvmgen.llvmInstruction list
+)
+"src/ext/llvm/llvmssa.ml" 195 7615 7639 "src/ext/llvm/llvmssa.ml" 195 7615 7659
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 195 7615 7629 "src/ext/llvm/llvmssa.ml" 195 7615 7660
+type(
+  Llvmgen.llvmBlock -> unit
+)
+"src/ext/llvm/llvmssa.ml" 195 7615 7661 "src/ext/llvm/llvmssa.ml" 195 7615 7663
+type(
+  Llvmgen.llvmBlock list
+)
+ident(
+  int_ref bl "src/ext/llvm/llvmssa.ml" 146 5799 5818 "src/ext/llvm/llvmssa.ml" 146 5799 5820
+)
+"src/ext/llvm/llvmssa.ml" 195 7615 7624 "src/ext/llvm/llvmssa.ml" 195 7615 7663
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 196 7665 7671 "src/ext/llvm/llvmssa.ml" 196 7665 7672
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/llvm/llvmssa.ml" 196 7665 7672 "src/ext/llvm/llvmssa.ml" 196 7665 7678
+type(
+  bool ref
+)
+ident(
+  int_ref change "src/ext/llvm/llvmssa.ml" 167 6569 6579 "src/ext/llvm/llvmssa.ml" 167 6569 6585
+)
+"src/ext/llvm/llvmssa.ml" 196 7665 7671 "src/ext/llvm/llvmssa.ml" 196 7665 7678
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 195 7615 7624 "src/ext/llvm/llvmssa.ml" 196 7665 7678
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 168 6601 6607 "src/ext/llvm/llvmssa.ml" 196 7665 7678
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 167 6569 6575 "src/ext/llvm/llvmssa.ml" 196 7665 7678
+type(
+  bool
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 200 7758 7766 "src/ext/llvm/llvmssa.ml" 200 7758 7773
+type(
+  unit -> unit
+)
+ident(
+  def doremap "src/ext/llvm/llvmssa.ml" 218 8375 8379 "src/ext/llvm/llvmssa.ml" 219 8408 8422
+)
+"src/ext/llvm/llvmssa.ml" 200 7758 7774 "src/ext/llvm/llvmssa.ml" 200 7758 7776
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 201 7780 7794 "src/ext/llvm/llvmssa.ml" 201 7780 7802
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  def remapval "src/ext/llvm/llvmssa.ml" 201 7780 7786 "src/ext/llvm/llvmssa.ml" 215 8272 8366
+)
+"src/ext/llvm/llvmssa.ml" 201 7780 7804 "src/ext/llvm/llvmssa.ml" 201 7780 7805
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def v "src/ext/llvm/llvmssa.ml" 201 7780 7817 "src/ext/llvm/llvmssa.ml" 204 7919 7933
+)
+"src/ext/llvm/llvmssa.ml" 201 7780 7837 "src/ext/llvm/llvmssa.ml" 201 7780 7838
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v "src/ext/llvm/llvmssa.ml" 201 7780 7804 "src/ext/llvm/llvmssa.ml" 201 7780 7805
+)
+"src/ext/llvm/llvmssa.ml" 202 7844 7859 "src/ext/llvm/llvmssa.ml" 202 7844 7861
+type(
+  Llvmgen.llvmLocal
+)
+ident(
+  def lv "src/ext/llvm/llvmssa.ml" 202 7844 7865 "src/ext/llvm/llvmssa.ml" 202 7844 7872
+)
+"src/ext/llvm/llvmssa.ml" 202 7844 7852 "src/ext/llvm/llvmssa.ml" 202 7844 7861
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 202 7844 7865 "src/ext/llvm/llvmssa.ml" 202 7844 7870
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  int_ref remap "src/ext/llvm/llvmssa.ml" 149 5957 5969 "src/ext/llvm/llvmssa.ml" 149 5957 5974
+)
+"src/ext/llvm/llvmssa.ml" 202 7844 7871 "src/ext/llvm/llvmssa.ml" 202 7844 7872
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v "src/ext/llvm/llvmssa.ml" 201 7780 7804 "src/ext/llvm/llvmssa.ml" 201 7780 7805
+)
+"src/ext/llvm/llvmssa.ml" 202 7844 7865 "src/ext/llvm/llvmssa.ml" 202 7844 7872
+call(
+  tail
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 203 7873 7887 "src/ext/llvm/llvmssa.ml" 203 7873 7889
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def v' "src/ext/llvm/llvmssa.ml" 203 7873 7897 "src/ext/llvm/llvmssa.ml" 203 7873 7918
+)
+"src/ext/llvm/llvmssa.ml" 203 7873 7891 "src/ext/llvm/llvmssa.ml" 203 7873 7892
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def b "src/ext/llvm/llvmssa.ml" 203 7873 7897 "src/ext/llvm/llvmssa.ml" 203 7873 7918
+)
+"src/ext/llvm/llvmssa.ml" 203 7873 7881 "src/ext/llvm/llvmssa.ml" 203 7873 7893
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 203 7873 7903 "src/ext/llvm/llvmssa.ml" 203 7873 7911
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  int_ref remapval "src/ext/llvm/llvmssa.ml" 201 7780 7794 "src/ext/llvm/llvmssa.ml" 201 7780 7802
+)
+"src/ext/llvm/llvmssa.ml" 203 7873 7912 "src/ext/llvm/llvmssa.ml" 203 7873 7914
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v' "src/ext/llvm/llvmssa.ml" 203 7873 7887 "src/ext/llvm/llvmssa.ml" 203 7873 7889
+)
+"src/ext/llvm/llvmssa.ml" 203 7873 7903 "src/ext/llvm/llvmssa.ml" 203 7873 7914
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 203 7873 7916 "src/ext/llvm/llvmssa.ml" 203 7873 7917
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 203 7873 7891 "src/ext/llvm/llvmssa.ml" 203 7873 7892
+)
+"src/ext/llvm/llvmssa.ml" 203 7873 7897 "src/ext/llvm/llvmssa.ml" 203 7873 7918
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 204 7919 7927 "src/ext/llvm/llvmssa.ml" 204 7919 7928
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 204 7919 7932 "src/ext/llvm/llvmssa.ml" 204 7919 7933
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref v "src/ext/llvm/llvmssa.ml" 201 7780 7804 "src/ext/llvm/llvmssa.ml" 201 7780 7805
+)
+"src/ext/llvm/llvmssa.ml" 201 7780 7831 "src/ext/llvm/llvmssa.ml" 204 7919 7933
+type(
+  Llvmgen.llvmValue
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 206 7943 7953 "src/ext/llvm/llvmssa.ml" 206 7943 7962
+type(
+  Llvmgen.llvmTerminator -> Llvmgen.llvmTerminator
+)
+ident(
+  def remapterm "src/ext/llvm/llvmssa.ml" 213 8188 8194 "src/ext/llvm/llvmssa.ml" 215 8272 8366
+)
+"src/ext/llvm/llvmssa.ml" 206 7943 7964 "src/ext/llvm/llvmssa.ml" 206 7943 7965
+type(
+  Llvmgen.llvmTerminator
+)
+ident(
+  def t "src/ext/llvm/llvmssa.ml" 206 7943 7982 "src/ext/llvm/llvmssa.ml" 211 8169 8178
+)
+"src/ext/llvm/llvmssa.ml" 207 8002 8009 "src/ext/llvm/llvmssa.ml" 207 8002 8010
+type(
+  Llvmgen.llvmTerminator
+)
+ident(
+  int_ref t "src/ext/llvm/llvmssa.ml" 206 7943 7964 "src/ext/llvm/llvmssa.ml" 206 7943 7965
+)
+"src/ext/llvm/llvmssa.ml" 208 8016 8024 "src/ext/llvm/llvmssa.ml" 208 8016 8026
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  def lv "src/ext/llvm/llvmssa.ml" 208 8016 8030 "src/ext/llvm/llvmssa.ml" 208 8016 8052
+)
+"src/ext/llvm/llvmssa.ml" 208 8016 8019 "src/ext/llvm/llvmssa.ml" 208 8016 8026
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 208 8016 8036 "src/ext/llvm/llvmssa.ml" 208 8016 8039
+type(
+  (Llvmgen.llvmValue -> Llvmgen.llvmValue) ->
+  Llvmgen.llvmValue list -> Llvmgen.llvmValue list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/llvm/llvmssa.ml" 208 8016 8040 "src/ext/llvm/llvmssa.ml" 208 8016 8048
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  int_ref remapval "src/ext/llvm/llvmssa.ml" 201 7780 7794 "src/ext/llvm/llvmssa.ml" 201 7780 7802
+)
+"src/ext/llvm/llvmssa.ml" 208 8016 8049 "src/ext/llvm/llvmssa.ml" 208 8016 8051
+type(
+  Llvmgen.llvmValue list
+)
+ident(
+  int_ref lv "src/ext/llvm/llvmssa.ml" 208 8016 8024 "src/ext/llvm/llvmssa.ml" 208 8016 8026
+)
+"src/ext/llvm/llvmssa.ml" 208 8016 8035 "src/ext/llvm/llvmssa.ml" 208 8016 8052
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 208 8016 8030 "src/ext/llvm/llvmssa.ml" 208 8016 8052
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 209 8053 8063 "src/ext/llvm/llvmssa.ml" 209 8053 8065
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def lv "src/ext/llvm/llvmssa.ml" 209 8053 8078 "src/ext/llvm/llvmssa.ml" 209 8053 8105
+)
+"src/ext/llvm/llvmssa.ml" 209 8053 8067 "src/ext/llvm/llvmssa.ml" 209 8053 8069
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def b1 "src/ext/llvm/llvmssa.ml" 209 8053 8078 "src/ext/llvm/llvmssa.ml" 209 8053 8105
+)
+"src/ext/llvm/llvmssa.ml" 209 8053 8071 "src/ext/llvm/llvmssa.ml" 209 8053 8073
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def b2 "src/ext/llvm/llvmssa.ml" 209 8053 8078 "src/ext/llvm/llvmssa.ml" 209 8053 8105
+)
+"src/ext/llvm/llvmssa.ml" 209 8053 8056 "src/ext/llvm/llvmssa.ml" 209 8053 8074
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 209 8053 8085 "src/ext/llvm/llvmssa.ml" 209 8053 8093
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  int_ref remapval "src/ext/llvm/llvmssa.ml" 201 7780 7794 "src/ext/llvm/llvmssa.ml" 201 7780 7802
+)
+"src/ext/llvm/llvmssa.ml" 209 8053 8094 "src/ext/llvm/llvmssa.ml" 209 8053 8096
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref lv "src/ext/llvm/llvmssa.ml" 209 8053 8063 "src/ext/llvm/llvmssa.ml" 209 8053 8065
+)
+"src/ext/llvm/llvmssa.ml" 209 8053 8085 "src/ext/llvm/llvmssa.ml" 209 8053 8096
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 209 8053 8098 "src/ext/llvm/llvmssa.ml" 209 8053 8100
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b1 "src/ext/llvm/llvmssa.ml" 209 8053 8067 "src/ext/llvm/llvmssa.ml" 209 8053 8069
+)
+"src/ext/llvm/llvmssa.ml" 209 8053 8102 "src/ext/llvm/llvmssa.ml" 209 8053 8104
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b2 "src/ext/llvm/llvmssa.ml" 209 8053 8071 "src/ext/llvm/llvmssa.ml" 209 8053 8073
+)
+"src/ext/llvm/llvmssa.ml" 209 8053 8078 "src/ext/llvm/llvmssa.ml" 209 8053 8105
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 210 8106 8118 "src/ext/llvm/llvmssa.ml" 210 8106 8120
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  def lv "src/ext/llvm/llvmssa.ml" 210 8106 8136 "src/ext/llvm/llvmssa.ml" 210 8106 8168
+)
+"src/ext/llvm/llvmssa.ml" 210 8106 8122 "src/ext/llvm/llvmssa.ml" 210 8106 8124
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def db "src/ext/llvm/llvmssa.ml" 210 8106 8136 "src/ext/llvm/llvmssa.ml" 210 8106 8168
+)
+"src/ext/llvm/llvmssa.ml" 210 8106 8126 "src/ext/llvm/llvmssa.ml" 210 8106 8131
+type(
+  (int64 * Llvmgen.llvmBlock) list
+)
+ident(
+  def cases "src/ext/llvm/llvmssa.ml" 210 8106 8136 "src/ext/llvm/llvmssa.ml" 210 8106 8168
+)
+"src/ext/llvm/llvmssa.ml" 210 8106 8109 "src/ext/llvm/llvmssa.ml" 210 8106 8132
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 210 8106 8145 "src/ext/llvm/llvmssa.ml" 210 8106 8153
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  int_ref remapval "src/ext/llvm/llvmssa.ml" 201 7780 7794 "src/ext/llvm/llvmssa.ml" 201 7780 7802
+)
+"src/ext/llvm/llvmssa.ml" 210 8106 8154 "src/ext/llvm/llvmssa.ml" 210 8106 8156
+type(
+  Llvmgen.llvmValue
+)
+ident(
+  int_ref lv "src/ext/llvm/llvmssa.ml" 210 8106 8118 "src/ext/llvm/llvmssa.ml" 210 8106 8120
+)
+"src/ext/llvm/llvmssa.ml" 210 8106 8145 "src/ext/llvm/llvmssa.ml" 210 8106 8156
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue
+)
+"src/ext/llvm/llvmssa.ml" 210 8106 8158 "src/ext/llvm/llvmssa.ml" 210 8106 8160
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref db "src/ext/llvm/llvmssa.ml" 210 8106 8122 "src/ext/llvm/llvmssa.ml" 210 8106 8124
+)
+"src/ext/llvm/llvmssa.ml" 210 8106 8162 "src/ext/llvm/llvmssa.ml" 210 8106 8167
+type(
+  (int64 * Llvmgen.llvmBlock) list
+)
+ident(
+  int_ref cases "src/ext/llvm/llvmssa.ml" 210 8106 8126 "src/ext/llvm/llvmssa.ml" 210 8106 8131
+)
+"src/ext/llvm/llvmssa.ml" 210 8106 8136 "src/ext/llvm/llvmssa.ml" 210 8106 8168
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 211 8169 8172 "src/ext/llvm/llvmssa.ml" 211 8169 8173
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 211 8169 8177 "src/ext/llvm/llvmssa.ml" 211 8169 8178
+type(
+  Llvmgen.llvmTerminator
+)
+ident(
+  int_ref t "src/ext/llvm/llvmssa.ml" 206 7943 7964 "src/ext/llvm/llvmssa.ml" 206 7943 7965
+)
+"src/ext/llvm/llvmssa.ml" 207 8002 8003 "src/ext/llvm/llvmssa.ml" 211 8169 8178
+type(
+  Llvmgen.llvmTerminator
+)
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 213 8188 8198 "src/ext/llvm/llvmssa.ml" 213 8188 8206
+type(
+  Llvmgen.llvmInstruction -> unit
+)
+ident(
+  def remapins "src/ext/llvm/llvmssa.ml" 215 8272 8281 "src/ext/llvm/llvmssa.ml" 215 8272 8366
+)
+"src/ext/llvm/llvmssa.ml" 213 8188 8208 "src/ext/llvm/llvmssa.ml" 213 8188 8209
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  def i "src/ext/llvm/llvmssa.ml" 213 8188 8227 "src/ext/llvm/llvmssa.ml" 214 8237 8271
+)
+"src/ext/llvm/llvmssa.ml" 214 8237 8238 "src/ext/llvm/llvmssa.ml" 214 8237 8239
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 213 8188 8208 "src/ext/llvm/llvmssa.ml" 213 8188 8209
+)
+"src/ext/llvm/llvmssa.ml" 214 8237 8250 "src/ext/llvm/llvmssa.ml" 214 8237 8253
+type(
+  (Llvmgen.llvmValue -> Llvmgen.llvmValue) ->
+  Llvmgen.llvmValue list -> Llvmgen.llvmValue list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/llvm/llvmssa.ml" 214 8237 8254 "src/ext/llvm/llvmssa.ml" 214 8237 8262
+type(
+  Llvmgen.llvmValue -> Llvmgen.llvmValue
+)
+ident(
+  int_ref remapval "src/ext/llvm/llvmssa.ml" 201 7780 7794 "src/ext/llvm/llvmssa.ml" 201 7780 7802
+)
+"src/ext/llvm/llvmssa.ml" 214 8237 8263 "src/ext/llvm/llvmssa.ml" 214 8237 8264
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 213 8188 8208 "src/ext/llvm/llvmssa.ml" 213 8188 8209
+)
+"src/ext/llvm/llvmssa.ml" 214 8237 8263 "src/ext/llvm/llvmssa.ml" 214 8237 8271
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 214 8237 8250 "src/ext/llvm/llvmssa.ml" 214 8237 8271
+call(
+  stack
+)
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 214 8237 8238 "src/ext/llvm/llvmssa.ml" 214 8237 8271
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8281 "src/ext/llvm/llvmssa.ml" 215 8272 8285
+type(
+  (Llvmgen.llvmBlock -> unit) -> Llvmgen.llvmBlock list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8291 "src/ext/llvm/llvmssa.ml" 215 8272 8292
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def b "src/ext/llvm/llvmssa.ml" 215 8272 8296 "src/ext/llvm/llvmssa.ml" 215 8272 8362
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8296 "src/ext/llvm/llvmssa.ml" 215 8272 8300
+type(
+  (Llvmgen.llvmInstruction -> unit) -> Llvmgen.llvmInstruction list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8301 "src/ext/llvm/llvmssa.ml" 215 8272 8309
+type(
+  Llvmgen.llvmInstruction -> unit
+)
+ident(
+  int_ref remapins "src/ext/llvm/llvmssa.ml" 213 8188 8198 "src/ext/llvm/llvmssa.ml" 213 8188 8206
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8310 "src/ext/llvm/llvmssa.ml" 215 8272 8311
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 215 8272 8291 "src/ext/llvm/llvmssa.ml" 215 8272 8292
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8310 "src/ext/llvm/llvmssa.ml" 215 8272 8318
+type(
+  Llvmgen.llvmInstruction list
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8296 "src/ext/llvm/llvmssa.ml" 215 8272 8318
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8320 "src/ext/llvm/llvmssa.ml" 215 8272 8321
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 215 8272 8291 "src/ext/llvm/llvmssa.ml" 215 8272 8292
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8338 "src/ext/llvm/llvmssa.ml" 215 8272 8347
+type(
+  Llvmgen.llvmTerminator -> Llvmgen.llvmTerminator
+)
+ident(
+  int_ref remapterm "src/ext/llvm/llvmssa.ml" 206 7943 7953 "src/ext/llvm/llvmssa.ml" 206 7943 7962
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8348 "src/ext/llvm/llvmssa.ml" 215 8272 8349
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 215 8272 8291 "src/ext/llvm/llvmssa.ml" 215 8272 8292
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8348 "src/ext/llvm/llvmssa.ml" 215 8272 8362
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8338 "src/ext/llvm/llvmssa.ml" 215 8272 8362
+call(
+  stack
+)
+type(
+  Llvmgen.llvmTerminator
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8320 "src/ext/llvm/llvmssa.ml" 215 8272 8362
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8296 "src/ext/llvm/llvmssa.ml" 215 8272 8362
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8286 "src/ext/llvm/llvmssa.ml" 215 8272 8363
+type(
+  Llvmgen.llvmBlock -> unit
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8364 "src/ext/llvm/llvmssa.ml" 215 8272 8366
+type(
+  Llvmgen.llvmBlock list
+)
+ident(
+  int_ref bl "src/ext/llvm/llvmssa.ml" 146 5799 5818 "src/ext/llvm/llvmssa.ml" 146 5799 5820
+)
+"src/ext/llvm/llvmssa.ml" 215 8272 8281 "src/ext/llvm/llvmssa.ml" 215 8272 8366
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 213 8188 8194 "src/ext/llvm/llvmssa.ml" 215 8272 8366
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 206 7943 7949 "src/ext/llvm/llvmssa.ml" 215 8272 8366
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 201 7780 7786 "src/ext/llvm/llvmssa.ml" 215 8272 8366
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 218 8375 8385 "src/ext/llvm/llvmssa.ml" 218 8375 8392
+type(
+  unit -> bool
+)
+ident(
+  int_ref onepass "src/ext/llvm/llvmssa.ml" 166 6541 6549 "src/ext/llvm/llvmssa.ml" 166 6541 6556
+)
+"src/ext/llvm/llvmssa.ml" 218 8375 8393 "src/ext/llvm/llvmssa.ml" 218 8375 8395
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 218 8375 8385 "src/ext/llvm/llvmssa.ml" 218 8375 8395
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 218 8375 8399 "src/ext/llvm/llvmssa.ml" 218 8375 8401
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 218 8375 8379 "src/ext/llvm/llvmssa.ml" 218 8375 8406
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 219 8408 8412 "src/ext/llvm/llvmssa.ml" 219 8408 8419
+type(
+  unit -> unit
+)
+ident(
+  int_ref doremap "src/ext/llvm/llvmssa.ml" 200 7758 7766 "src/ext/llvm/llvmssa.ml" 200 7758 7773
+)
+"src/ext/llvm/llvmssa.ml" 219 8408 8420 "src/ext/llvm/llvmssa.ml" 219 8408 8422
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 219 8408 8412 "src/ext/llvm/llvmssa.ml" 219 8408 8422
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 218 8375 8379 "src/ext/llvm/llvmssa.ml" 219 8408 8422
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 200 7758 7762 "src/ext/llvm/llvmssa.ml" 219 8408 8422
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 166 6541 6545 "src/ext/llvm/llvmssa.ml" 219 8408 8422
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 149 5957 5961 "src/ext/llvm/llvmssa.ml" 219 8408 8422
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 148 5925 5929 "src/ext/llvm/llvmssa.ml" 219 8408 8422
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 224 8567 8573 "src/ext/llvm/llvmssa.ml" 224 8567 8595
+type(
+  Llvmgen.llvmBlock -> unit
+)
+ident(
+  def removeAssignAndDeadPhi "src/ext/llvm/llvmssa.ml" 229 8748 8750 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+)
+"src/ext/llvm/llvmssa.ml" 224 8567 8597 "src/ext/llvm/llvmssa.ml" 224 8567 8598
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def b "src/ext/llvm/llvmssa.ml" 224 8567 8610 "src/ext/llvm/llvmssa.ml" 226 8702 8741
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8628 "src/ext/llvm/llvmssa.ml" 225 8620 8635
+type(
+  Llvmgen.llvmInstruction -> bool
+)
+ident(
+  def liveins "src/ext/llvm/llvmssa.ml" 226 8702 8706 "src/ext/llvm/llvmssa.ml" 226 8702 8741
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8636 "src/ext/llvm/llvmssa.ml" 225 8620 8637
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  def i "src/ext/llvm/llvmssa.ml" 225 8620 8640 "src/ext/llvm/llvmssa.ml" 225 8620 8698
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8640 "src/ext/llvm/llvmssa.ml" 225 8620 8643
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8645 "src/ext/llvm/llvmssa.ml" 225 8620 8646
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 225 8620 8636 "src/ext/llvm/llvmssa.ml" 225 8620 8637
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8645 "src/ext/llvm/llvmssa.ml" 225 8620 8651
+type(
+  Llvmgen.llvmOp
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8652 "src/ext/llvm/llvmssa.ml" 225 8620 8653
+type(
+  Llvmgen.llvmOp -> Llvmgen.llvmOp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8654 "src/ext/llvm/llvmssa.ml" 225 8620 8662
+type(
+  Llvmgen.llvmOp
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8645 "src/ext/llvm/llvmssa.ml" 225 8620 8662
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8663 "src/ext/llvm/llvmssa.ml" 225 8620 8665
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8666 "src/ext/llvm/llvmssa.ml" 225 8620 8667
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 225 8620 8636 "src/ext/llvm/llvmssa.ml" 225 8620 8637
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8666 "src/ext/llvm/llvmssa.ml" 225 8620 8672
+type(
+  Llvmgen.llvmOp
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8673 "src/ext/llvm/llvmssa.ml" 225 8620 8674
+type(
+  Llvmgen.llvmOp -> Llvmgen.llvmOp -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8675 "src/ext/llvm/llvmssa.ml" 225 8620 8680
+type(
+  Llvmgen.llvmOp
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8666 "src/ext/llvm/llvmssa.ml" 225 8620 8680
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8681 "src/ext/llvm/llvmssa.ml" 225 8620 8683
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8684 "src/ext/llvm/llvmssa.ml" 225 8620 8685
+type(
+  Llvmgen.llvmInstruction
+)
+ident(
+  int_ref i "src/ext/llvm/llvmssa.ml" 225 8620 8636 "src/ext/llvm/llvmssa.ml" 225 8620 8637
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8684 "src/ext/llvm/llvmssa.ml" 225 8620 8692
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8693 "src/ext/llvm/llvmssa.ml" 225 8620 8694
+type(
+  Llvmgen.llvmValue list -> Llvmgen.llvmValue list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8695 "src/ext/llvm/llvmssa.ml" 225 8620 8697
+type(
+  Llvmgen.llvmValue list
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8684 "src/ext/llvm/llvmssa.ml" 225 8620 8697
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8666 "src/ext/llvm/llvmssa.ml" 225 8620 8697
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8644 "src/ext/llvm/llvmssa.ml" 225 8620 8698
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8640 "src/ext/llvm/llvmssa.ml" 225 8620 8698
+type(
+  bool
+)
+"src/ext/llvm/llvmssa.ml" 226 8702 8706 "src/ext/llvm/llvmssa.ml" 226 8702 8707
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 224 8567 8597 "src/ext/llvm/llvmssa.ml" 224 8567 8598
+)
+"src/ext/llvm/llvmssa.ml" 226 8702 8718 "src/ext/llvm/llvmssa.ml" 226 8702 8724
+type(
+  (Llvmgen.llvmInstruction -> bool) ->
+  Llvmgen.llvmInstruction list -> Llvmgen.llvmInstruction list
+)
+ident(
+  ext_ref List.filter
+)
+"src/ext/llvm/llvmssa.ml" 226 8702 8725 "src/ext/llvm/llvmssa.ml" 226 8702 8732
+type(
+  Llvmgen.llvmInstruction -> bool
+)
+ident(
+  int_ref liveins "src/ext/llvm/llvmssa.ml" 225 8620 8628 "src/ext/llvm/llvmssa.ml" 225 8620 8635
+)
+"src/ext/llvm/llvmssa.ml" 226 8702 8733 "src/ext/llvm/llvmssa.ml" 226 8702 8734
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 224 8567 8597 "src/ext/llvm/llvmssa.ml" 224 8567 8598
+)
+"src/ext/llvm/llvmssa.ml" 226 8702 8733 "src/ext/llvm/llvmssa.ml" 226 8702 8741
+type(
+  Llvmgen.llvmInstruction list
+)
+"src/ext/llvm/llvmssa.ml" 226 8702 8718 "src/ext/llvm/llvmssa.ml" 226 8702 8741
+call(
+  stack
+)
+type(
+  Llvmgen.llvmInstruction list
+)
+"src/ext/llvm/llvmssa.ml" 226 8702 8706 "src/ext/llvm/llvmssa.ml" 226 8702 8741
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 225 8620 8624 "src/ext/llvm/llvmssa.ml" 226 8702 8741
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 229 8748 8750 "src/ext/llvm/llvmssa.ml" 229 8748 8754
+type(
+  (Llvmgen.llvmBlock -> unit) -> Llvmgen.llvmBlock list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/llvm/llvmssa.ml" 229 8748 8756 "src/ext/llvm/llvmssa.ml" 229 8748 8771
+type(
+  Cil.varinfo list -> Llvmgen.llvmBlock -> unit
+)
+ident(
+  int_ref renameVariables "src/ext/llvm/llvmssa.ml" 80 3314 3320 "src/ext/llvm/llvmssa.ml" 80 3314 3335
+)
+"src/ext/llvm/llvmssa.ml" 229 8748 8772 "src/ext/llvm/llvmssa.ml" 229 8748 8779
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref ssavars "src/ext/llvm/llvmssa.ml" 58 2298 2378 "src/ext/llvm/llvmssa.ml" 58 2298 2385
+)
+"src/ext/llvm/llvmssa.ml" 229 8748 8755 "src/ext/llvm/llvmssa.ml" 229 8748 8780
+call(
+  stack
+)
+type(
+  Llvmgen.llvmBlock -> unit
+)
+"src/ext/llvm/llvmssa.ml" 229 8748 8781 "src/ext/llvm/llvmssa.ml" 229 8748 8783
+type(
+  Llvmgen.llvmBlock list
+)
+ident(
+  int_ref bl "src/ext/llvm/llvmssa.ml" 58 2298 2335 "src/ext/llvm/llvmssa.ml" 58 2298 2337
+)
+"src/ext/llvm/llvmssa.ml" 229 8748 8750 "src/ext/llvm/llvmssa.ml" 229 8748 8783
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 230 8785 8787 "src/ext/llvm/llvmssa.ml" 230 8785 8791
+type(
+  (Llvmgen.llvmBlock -> unit) -> Llvmgen.llvmBlock list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/llvm/llvmssa.ml" 230 8785 8797 "src/ext/llvm/llvmssa.ml" 230 8785 8798
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  def b "src/ext/llvm/llvmssa.ml" 230 8785 8802 "src/ext/llvm/llvmssa.ml" 230 8785 8825
+)
+"src/ext/llvm/llvmssa.ml" 230 8785 8802 "src/ext/llvm/llvmssa.ml" 230 8785 8806
+type(
+  (Cil.varinfo -> unit) -> Cil.varinfo list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/llvm/llvmssa.ml" 230 8785 8808 "src/ext/llvm/llvmssa.ml" 230 8785 8814
+type(
+  Llvmgen.llvmBlock -> Cil.varinfo -> unit
+)
+ident(
+  int_ref addPhi "src/ext/llvm/llvmssa.ml" 136 5392 5398 "src/ext/llvm/llvmssa.ml" 136 5392 5404
+)
+"src/ext/llvm/llvmssa.ml" 230 8785 8815 "src/ext/llvm/llvmssa.ml" 230 8785 8816
+type(
+  Llvmgen.llvmBlock
+)
+ident(
+  int_ref b "src/ext/llvm/llvmssa.ml" 230 8785 8797 "src/ext/llvm/llvmssa.ml" 230 8785 8798
+)
+"src/ext/llvm/llvmssa.ml" 230 8785 8807 "src/ext/llvm/llvmssa.ml" 230 8785 8817
+call(
+  stack
+)
+type(
+  Cil.varinfo -> unit
+)
+"src/ext/llvm/llvmssa.ml" 230 8785 8818 "src/ext/llvm/llvmssa.ml" 230 8785 8825
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref ssavars "src/ext/llvm/llvmssa.ml" 58 2298 2378 "src/ext/llvm/llvmssa.ml" 58 2298 2385
+)
+"src/ext/llvm/llvmssa.ml" 230 8785 8802 "src/ext/llvm/llvmssa.ml" 230 8785 8825
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 230 8785 8792 "src/ext/llvm/llvmssa.ml" 230 8785 8826
+type(
+  Llvmgen.llvmBlock -> unit
+)
+"src/ext/llvm/llvmssa.ml" 230 8785 8827 "src/ext/llvm/llvmssa.ml" 230 8785 8829
+type(
+  Llvmgen.llvmBlock list
+)
+ident(
+  int_ref bl "src/ext/llvm/llvmssa.ml" 58 2298 2335 "src/ext/llvm/llvmssa.ml" 58 2298 2337
+)
+"src/ext/llvm/llvmssa.ml" 230 8785 8787 "src/ext/llvm/llvmssa.ml" 230 8785 8829
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 232 8914 8916 "src/ext/llvm/llvmssa.ml" 232 8914 8927
+type(
+  Llvmgen.llvmBlock list -> unit
+)
+ident(
+  int_ref optimizeSsa "src/ext/llvm/llvmssa.ml" 146 5799 5805 "src/ext/llvm/llvmssa.ml" 146 5799 5816
+)
+"src/ext/llvm/llvmssa.ml" 232 8914 8928 "src/ext/llvm/llvmssa.ml" 232 8914 8930
+type(
+  Llvmgen.llvmBlock list
+)
+ident(
+  int_ref bl "src/ext/llvm/llvmssa.ml" 58 2298 2335 "src/ext/llvm/llvmssa.ml" 58 2298 2337
+)
+"src/ext/llvm/llvmssa.ml" 232 8914 8916 "src/ext/llvm/llvmssa.ml" 232 8914 8930
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 233 8932 8934 "src/ext/llvm/llvmssa.ml" 233 8932 8938
+type(
+  (Llvmgen.llvmBlock -> unit) -> Llvmgen.llvmBlock list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/llvm/llvmssa.ml" 233 8932 8939 "src/ext/llvm/llvmssa.ml" 233 8932 8961
+type(
+  Llvmgen.llvmBlock -> unit
+)
+ident(
+  int_ref removeAssignAndDeadPhi "src/ext/llvm/llvmssa.ml" 224 8567 8573 "src/ext/llvm/llvmssa.ml" 224 8567 8595
+)
+"src/ext/llvm/llvmssa.ml" 233 8932 8962 "src/ext/llvm/llvmssa.ml" 233 8932 8964
+type(
+  Llvmgen.llvmBlock list
+)
+ident(
+  int_ref bl "src/ext/llvm/llvmssa.ml" 58 2298 2335 "src/ext/llvm/llvmssa.ml" 58 2298 2337
+)
+"src/ext/llvm/llvmssa.ml" 233 8932 8934 "src/ext/llvm/llvmssa.ml" 233 8932 8964
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/llvm/llvmssa.ml" 234 8966 8968 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+type(
+  Llvmgen.llvmBlock list
+)
+ident(
+  int_ref bl "src/ext/llvm/llvmssa.ml" 58 2298 2335 "src/ext/llvm/llvmssa.ml" 58 2298 2337
+)
+"src/ext/llvm/llvmssa.ml" 233 8932 8934 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 232 8914 8916 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 230 8785 8787 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 229 8748 8750 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 224 8567 8569 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 146 5799 5801 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 136 5392 5394 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 80 3314 3316 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 70 2902 2904 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 68 2819 2821 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+type(
+  Llvmgen.llvmBlock list
+)
+"src/ext/llvm/llvmssa.ml" 61 2547 2549 "src/ext/llvm/llvmssa.ml" 234 8966 8970
+type(
+  Llvmgen.llvmBlock list
+)
+type(
+  Llvmgen.llvmBlock list
+)

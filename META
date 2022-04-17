@@ -1,0 +1,200 @@
+description = "C Intermediate Language"
+requires = "unix str num dynlink findlib"
+version = "1.7.3"
+
+archive(byte) = "cil.cma"
+archive(native) = "cil.cmxa"
+
+package "default-features" (
+requires="cil.liveness cil.simplemem cil.canonicalize cil.dataslicing cil.epicenter cil.heapify cil.oneret cil.logcalls cil.pta cil.partial cil.sfi cil.simplify cil.callgraph cil.logwrites"
+version = "1.7.3"
+)
+
+package "all-features" (
+requires="cil.liveness cil.simplemem cil.canonicalize cil.dataslicing cil.epicenter cil.llvm cil.heapify cil.oneret cil.logcalls cil.pta cil.inliner cil.partial cil.blockinggraph cil.sfi cil.simplify cil.cqualann cil.callgraph cil.zrapp cil.logwrites cil.ccl"
+version = "1.7.3"
+)
+
+package "liveness" (
+description = "spit out live variables at a label"
+version = "1.7.3"
+archive(byte) = "liveness.cma"
+archive(byte,plugin) = "liveness.cma"
+archive(native) = "liveness.cmxa"
+archive(native,plugin) = "liveness.cmxs"
+)
+
+package "simplemem" (
+description = "simplify all memory expressions"
+version = "1.7.3"
+archive(byte) = "simplemem.cma"
+archive(byte,plugin) = "simplemem.cma"
+archive(native) = "simplemem.cmxa"
+archive(native,plugin) = "simplemem.cmxs"
+)
+
+package "canonicalize" (
+description = "fixing some C-isms so that the result is C++ compliant"
+version = "1.7.3"
+archive(byte) = "canonicalize.cma"
+archive(byte,plugin) = "canonicalize.cma"
+archive(native) = "canonicalize.cmxa"
+archive(native,plugin) = "canonicalize.cmxs"
+)
+
+package "dataslicing" (
+description = "data slicing"
+version = "1.7.3"
+archive(byte) = "dataslicing.cma"
+archive(byte,plugin) = "dataslicing.cma"
+archive(native) = "dataslicing.cmxa"
+archive(native,plugin) = "dataslicing.cmxs"
+)
+
+package "epicenter" (
+requires = "cil.callgraph"
+description = "remove all functions except those within some number"
+version = "1.7.3"
+archive(byte) = "epicenter.cma"
+archive(byte,plugin) = "epicenter.cma"
+archive(native) = "epicenter.cmxa"
+archive(native,plugin) = "epicenter.cmxs"
+)
+
+package "llvm" (
+description = "generate llvm code"
+version = "1.7.3"
+archive(byte) = "llvm.cma"
+archive(byte,plugin) = "llvm.cma"
+archive(native) = "llvm.cmxa"
+archive(native,plugin) = "llvm.cmxs"
+)
+
+package "heapify" (
+description = "maintain a separate stack for return addresses"
+version = "1.7.3"
+archive(byte) = "heapify.cma"
+archive(byte,plugin) = "heapify.cma"
+archive(native) = "heapify.cmxa"
+archive(native,plugin) = "heapify.cmxs"
+)
+
+package "oneret" (
+description = "make each function have at most one 'return'"
+version = "1.7.3"
+archive(byte) = "oneret.cma"
+archive(byte,plugin) = "oneret.cma"
+archive(native) = "oneret.cmxa"
+archive(native,plugin) = "oneret.cmxs"
+)
+
+package "logcalls" (
+description = "generation of code to log function calls"
+version = "1.7.3"
+archive(byte) = "logcalls.cma"
+archive(byte,plugin) = "logcalls.cma"
+archive(native) = "logcalls.cmxa"
+archive(native,plugin) = "logcalls.cmxs"
+)
+
+package "pta" (
+description = "alias analysis"
+version = "1.7.3"
+archive(byte) = "pta.cma"
+archive(byte,plugin) = "pta.cma"
+archive(native) = "pta.cmxa"
+archive(native,plugin) = "pta.cmxs"
+)
+
+package "inliner" (
+description = "inline function calls"
+version = "1.7.3"
+archive(byte) = "inliner.cma"
+archive(byte,plugin) = "inliner.cma"
+archive(native) = "inliner.cmxa"
+archive(native,plugin) = "inliner.cmxs"
+)
+
+package "partial" (
+requires = "cil.pta"
+description = "interprocedural partial evaluation and constant folding"
+version = "1.7.3"
+archive(byte) = "partial.cma"
+archive(byte,plugin) = "partial.cma"
+archive(native) = "partial.cmxa"
+archive(native,plugin) = "partial.cmxs"
+)
+
+package "blockinggraph" (
+description = "computing and printing a static call graph"
+version = "1.7.3"
+archive(byte) = "blockinggraph.cma"
+archive(byte,plugin) = "blockinggraph.cma"
+archive(native) = "blockinggraph.cmxa"
+archive(native,plugin) = "blockinggraph.cmxs"
+)
+
+package "sfi" (
+description = "instrument memory operations"
+version = "1.7.3"
+archive(byte) = "sfi.cma"
+archive(byte,plugin) = "sfi.cma"
+archive(native) = "sfi.cmxa"
+archive(native,plugin) = "sfi.cmxs"
+)
+
+package "simplify" (
+description = "compiles CIL to 3-address code"
+version = "1.7.3"
+archive(byte) = "simplify.cma"
+archive(byte,plugin) = "simplify.cma"
+archive(native) = "simplify.cmxa"
+archive(native,plugin) = "simplify.cmxs"
+)
+
+package "cqualann" (
+description = "adding assembly annotations for Cqual qualifiers"
+version = "1.7.3"
+archive(byte) = "cqualann.cma"
+archive(byte,plugin) = "cqualann.cma"
+archive(native) = "cqualann.cmxa"
+archive(native,plugin) = "cqualann.cmxs"
+)
+
+package "callgraph" (
+description = "generation of a static call graph"
+version = "1.7.3"
+archive(byte) = "callgraph.cma"
+archive(byte,plugin) = "callgraph.cma"
+archive(native) = "callgraph.cmxa"
+archive(native,plugin) = "callgraph.cmxs"
+)
+
+package "zrapp" (
+requires = "cil.liveness"
+description = "pretty printing with checks for name conflicts and temp variable elimination"
+version = "1.7.3"
+archive(byte) = "zrapp.cma"
+archive(byte,plugin) = "zrapp.cma"
+archive(native) = "zrapp.cmxa"
+archive(native,plugin) = "zrapp.cmxs"
+)
+
+package "logwrites" (
+description = "generation of code to log memory writes"
+version = "1.7.3"
+archive(byte) = "logwrites.cma"
+archive(byte,plugin) = "logwrites.cma"
+archive(native) = "logwrites.cmxa"
+archive(native,plugin) = "logwrites.cmxs"
+)
+
+package "ccl" (
+description = "CCured Lite"
+version = "1.7.3"
+archive(byte) = "ccl.cma"
+archive(byte,plugin) = "ccl.cma"
+archive(native) = "ccl.cmxa"
+archive(native,plugin) = "ccl.cmxs"
+)
+

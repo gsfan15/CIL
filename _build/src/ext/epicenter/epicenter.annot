@@ -1,0 +1,943 @@
+"src/ext/epicenter/epicenter.ml" 15 221 225 "src/ext/epicenter/epicenter.ml" 15 221 234
+type(
+  Cil.file -> string -> int -> unit
+)
+ident(
+  def sliceFile "src/ext/epicenter/epicenter.ml" 58 1647 1647 "src/ext/epicenter/epicenter.ml" 1 0 -1
+)
+"src/ext/epicenter/epicenter.ml" 15 221 236 "src/ext/epicenter/epicenter.ml" 15 221 237
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/epicenter/epicenter.ml" 15 221 244 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+)
+"src/ext/epicenter/epicenter.ml" 15 221 245 "src/ext/epicenter/epicenter.ml" 15 221 254
+type(
+  string
+)
+ident(
+  def epicenter "src/ext/epicenter/epicenter.ml" 15 221 263 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+)
+"src/ext/epicenter/epicenter.ml" 15 221 264 "src/ext/epicenter/epicenter.ml" 15 221 271
+type(
+  int
+)
+ident(
+  def maxHops "src/ext/epicenter/epicenter.ml" 15 221 277 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+)
+"src/ext/epicenter/epicenter.ml" 17 324 330 "src/ext/epicenter/epicenter.ml" 17 324 335
+type(
+  Callgraph.callgraph
+)
+ident(
+  def graph "src/ext/epicenter/epicenter.ml" 20 441 443 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+)
+"src/ext/epicenter/epicenter.ml" 17 324 349 "src/ext/epicenter/epicenter.ml" 17 324 361
+type(
+  Cil.file -> Callgraph.callgraph
+)
+ident(
+  ext_ref Callgraph.computeGraph
+)
+"src/ext/epicenter/epicenter.ml" 17 324 362 "src/ext/epicenter/epicenter.ml" 17 324 363
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/epicenter/epicenter.ml" 15 221 236 "src/ext/epicenter/epicenter.ml" 15 221 237
+)
+"src/ext/epicenter/epicenter.ml" 17 324 348 "src/ext/epicenter/epicenter.ml" 17 324 364
+call(
+  stack
+)
+type(
+  Callgraph.callgraph
+)
+type(
+  Callgraph.callgraph
+)
+"src/ext/epicenter/epicenter.ml" 20 441 447 "src/ext/epicenter/epicenter.ml" 20 441 451
+type(
+  (string, unit) H.t
+)
+ident(
+  def seen "src/ext/epicenter/epicenter.ml" 23 557 559 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+)
+"src/ext/epicenter/epicenter.ml" 20 441 475 "src/ext/epicenter/epicenter.ml" 20 441 483
+type(
+  ?random:bool -> int -> (string, unit) H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/ext/epicenter/epicenter.ml" 20 441 484 "src/ext/epicenter/epicenter.ml" 20 441 487
+type(
+  int
+)
+"src/ext/epicenter/epicenter.ml" 20 441 474 "src/ext/epicenter/epicenter.ml" 20 441 488
+call(
+  stack
+)
+type(
+  (string, unit) H.t
+)
+type(
+  (string, unit) H.t
+)
+"src/ext/epicenter/epicenter.ml" 23 557 563 "src/ext/epicenter/epicenter.ml" 23 557 569
+type(
+  Cil.global -> bool
+)
+ident(
+  def isRoot "src/ext/epicenter/epicenter.ml" 33 837 839 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+)
+"src/ext/epicenter/epicenter.ml" 24 598 627 "src/ext/epicenter/epicenter.ml" 24 598 632
+type(
+  string
+)
+ident(
+  def vname "src/ext/epicenter/epicenter.ml" 25 642 643 "src/ext/epicenter/epicenter.ml" 25 642 659
+)
+"src/ext/epicenter/epicenter.ml" 24 598 618 "src/ext/epicenter/epicenter.ml" 24 598 633
+type(
+  Cil.varinfo
+)
+"src/ext/epicenter/epicenter.ml" 24 598 610 "src/ext/epicenter/epicenter.ml" 24 598 634
+type(
+  Cil.fundec
+)
+"src/ext/epicenter/epicenter.ml" 24 598 636 "src/ext/epicenter/epicenter.ml" 24 598 637
+type(
+  Cil.location
+)
+"src/ext/epicenter/epicenter.ml" 24 598 604 "src/ext/epicenter/epicenter.ml" 24 598 638
+type(
+  Cil.global
+)
+"src/ext/epicenter/epicenter.ml" 25 642 643 "src/ext/epicenter/epicenter.ml" 25 642 648
+type(
+  (string, unit) H.t -> string -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/ext/epicenter/epicenter.ml" 25 642 649 "src/ext/epicenter/epicenter.ml" 25 642 653
+type(
+  (string, unit) H.t
+)
+ident(
+  int_ref seen "src/ext/epicenter/epicenter.ml" 20 441 447 "src/ext/epicenter/epicenter.ml" 20 441 451
+)
+"src/ext/epicenter/epicenter.ml" 25 642 654 "src/ext/epicenter/epicenter.ml" 25 642 659
+type(
+  string
+)
+ident(
+  int_ref vname "src/ext/epicenter/epicenter.ml" 24 598 627 "src/ext/epicenter/epicenter.ml" 24 598 632
+)
+"src/ext/epicenter/epicenter.ml" 25 642 643 "src/ext/epicenter/epicenter.ml" 25 642 659
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/epicenter/epicenter.ml" 26 660 666 "src/ext/epicenter/epicenter.ml" 26 660 667
+type(
+  Cil.global
+)
+"src/ext/epicenter/epicenter.ml" 27 671 672 "src/ext/epicenter/epicenter.ml" 27 671 677
+type(
+  bool
+)
+"src/ext/epicenter/epicenter.ml" 23 557 589 "src/ext/epicenter/epicenter.ml" 27 671 677
+type(
+  Cil.global -> bool
+)
+type(
+  Cil.global -> bool
+)
+"src/ext/epicenter/epicenter.ml" 33 837 847 "src/ext/epicenter/epicenter.ml" 33 837 850
+type(
+  Callgraph.callnode -> int -> unit
+)
+ident(
+  def dfs "src/ext/epicenter/epicenter.ml" 33 837 839 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+)
+"src/ext/epicenter/epicenter.ml" 33 837 852 "src/ext/epicenter/epicenter.ml" 33 837 856
+type(
+  Callgraph.callnode
+)
+ident(
+  def node "src/ext/epicenter/epicenter.ml" 33 837 867 "src/ext/epicenter/epicenter.ml" 50 1445 1454
+)
+"src/ext/epicenter/epicenter.ml" 33 837 868 "src/ext/epicenter/epicenter.ml" 33 837 872
+type(
+  int
+)
+ident(
+  def hops "src/ext/epicenter/epicenter.ml" 33 837 878 "src/ext/epicenter/epicenter.ml" 50 1445 1454
+)
+"src/ext/epicenter/epicenter.ml" 35 949 956 "src/ext/epicenter/epicenter.ml" 35 949 959
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/epicenter/epicenter.ml" 35 949 961 "src/ext/epicenter/epicenter.ml" 35 949 966
+type(
+  (string, unit) H.t -> string -> bool
+)
+ident(
+  ext_ref H.mem
+)
+"src/ext/epicenter/epicenter.ml" 35 949 967 "src/ext/epicenter/epicenter.ml" 35 949 971
+type(
+  (string, unit) H.t
+)
+ident(
+  int_ref seen "src/ext/epicenter/epicenter.ml" 20 441 447 "src/ext/epicenter/epicenter.ml" 20 441 451
+)
+"src/ext/epicenter/epicenter.ml" 35 949 973 "src/ext/epicenter/epicenter.ml" 35 949 981
+type(
+  Callgraph.nodeinfo -> string
+)
+ident(
+  ext_ref Callgraph.nodeName
+)
+"src/ext/epicenter/epicenter.ml" 35 949 982 "src/ext/epicenter/epicenter.ml" 35 949 986
+type(
+  Callgraph.callnode
+)
+ident(
+  int_ref node "src/ext/epicenter/epicenter.ml" 33 837 852 "src/ext/epicenter/epicenter.ml" 33 837 856
+)
+"src/ext/epicenter/epicenter.ml" 35 949 982 "src/ext/epicenter/epicenter.ml" 35 949 993
+type(
+  Callgraph.nodeinfo
+)
+"src/ext/epicenter/epicenter.ml" 35 949 972 "src/ext/epicenter/epicenter.ml" 35 949 994
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 35 949 960 "src/ext/epicenter/epicenter.ml" 35 949 995
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/epicenter/epicenter.ml" 35 949 956 "src/ext/epicenter/epicenter.ml" 35 949 995
+type(
+  bool
+)
+"src/ext/epicenter/epicenter.ml" 38 1041 1042 "src/ext/epicenter/epicenter.ml" 38 1041 1047
+type(
+  (string, unit) H.t -> string -> unit -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/ext/epicenter/epicenter.ml" 38 1041 1048 "src/ext/epicenter/epicenter.ml" 38 1041 1052
+type(
+  (string, unit) H.t
+)
+ident(
+  int_ref seen "src/ext/epicenter/epicenter.ml" 20 441 447 "src/ext/epicenter/epicenter.ml" 20 441 451
+)
+"src/ext/epicenter/epicenter.ml" 38 1041 1054 "src/ext/epicenter/epicenter.ml" 38 1041 1062
+type(
+  Callgraph.nodeinfo -> string
+)
+ident(
+  ext_ref Callgraph.nodeName
+)
+"src/ext/epicenter/epicenter.ml" 38 1041 1063 "src/ext/epicenter/epicenter.ml" 38 1041 1067
+type(
+  Callgraph.callnode
+)
+ident(
+  int_ref node "src/ext/epicenter/epicenter.ml" 33 837 852 "src/ext/epicenter/epicenter.ml" 33 837 856
+)
+"src/ext/epicenter/epicenter.ml" 38 1041 1063 "src/ext/epicenter/epicenter.ml" 38 1041 1074
+type(
+  Callgraph.nodeinfo
+)
+"src/ext/epicenter/epicenter.ml" 38 1041 1053 "src/ext/epicenter/epicenter.ml" 38 1041 1075
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 38 1041 1076 "src/ext/epicenter/epicenter.ml" 38 1041 1078
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 38 1041 1042 "src/ext/epicenter/epicenter.ml" 38 1041 1078
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 39 1080 1081 "src/ext/epicenter/epicenter.ml" 39 1080 1086
+type(
+  string -> Pretty.doc -> unit
+)
+ident(
+  ext_ref Trace.trace
+)
+"src/ext/epicenter/epicenter.ml" 39 1080 1087 "src/ext/epicenter/epicenter.ml" 39 1080 1098
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 39 1080 1100 "src/ext/epicenter/epicenter.ml" 39 1080 1107
+type(
+  (string -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4 ->
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/ext/epicenter/epicenter.ml" 39 1080 1108 "src/ext/epicenter/epicenter.ml" 39 1080 1124
+type(
+  (string -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4
+)
+"src/ext/epicenter/epicenter.ml" 39 1080 1126 "src/ext/epicenter/epicenter.ml" 39 1080 1134
+type(
+  Callgraph.nodeinfo -> string
+)
+ident(
+  ext_ref Callgraph.nodeName
+)
+"src/ext/epicenter/epicenter.ml" 39 1080 1135 "src/ext/epicenter/epicenter.ml" 39 1080 1139
+type(
+  Callgraph.callnode
+)
+ident(
+  int_ref node "src/ext/epicenter/epicenter.ml" 33 837 852 "src/ext/epicenter/epicenter.ml" 33 837 856
+)
+"src/ext/epicenter/epicenter.ml" 39 1080 1135 "src/ext/epicenter/epicenter.ml" 39 1080 1146
+type(
+  Callgraph.nodeinfo
+)
+"src/ext/epicenter/epicenter.ml" 39 1080 1125 "src/ext/epicenter/epicenter.ml" 39 1080 1147
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 39 1080 1099 "src/ext/epicenter/epicenter.ml" 39 1080 1148
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/epicenter/epicenter.ml" 39 1080 1081 "src/ext/epicenter/epicenter.ml" 39 1080 1148
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 42 1202 1207 "src/ext/epicenter/epicenter.ml" 42 1202 1211
+type(
+  int
+)
+ident(
+  int_ref hops "src/ext/epicenter/epicenter.ml" 33 837 868 "src/ext/epicenter/epicenter.ml" 33 837 872
+)
+"src/ext/epicenter/epicenter.ml" 42 1202 1212 "src/ext/epicenter/epicenter.ml" 42 1202 1213
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ext/epicenter/epicenter.ml" 42 1202 1214 "src/ext/epicenter/epicenter.ml" 42 1202 1215
+type(
+  int
+)
+"src/ext/epicenter/epicenter.ml" 42 1202 1206 "src/ext/epicenter/epicenter.ml" 42 1202 1216
+type(
+  bool
+)
+"src/ext/epicenter/epicenter.ml" 45 1285 1292 "src/ext/epicenter/epicenter.ml" 45 1285 1299
+type(
+  'a -> Callgraph.callnode -> unit
+)
+ident(
+  def recurse "src/ext/epicenter/epicenter.ml" 48 1376 1379 "src/ext/epicenter/epicenter.ml" 49 1411 1444
+)
+"src/ext/epicenter/epicenter.ml" 45 1285 1300 "src/ext/epicenter/epicenter.ml" 45 1285 1301
+type(
+  'a
+)
+"src/ext/epicenter/epicenter.ml" 45 1285 1303 "src/ext/epicenter/epicenter.ml" 45 1285 1311
+type(
+  Callgraph.callnode
+)
+ident(
+  def adjacent "src/ext/epicenter/epicenter.ml" 45 1285 1322 "src/ext/epicenter/epicenter.ml" 46 1331 1361
+)
+"src/ext/epicenter/epicenter.ml" 46 1331 1337 "src/ext/epicenter/epicenter.ml" 46 1331 1340
+type(
+  Callgraph.callnode -> int -> unit
+)
+ident(
+  int_ref dfs "src/ext/epicenter/epicenter.ml" 33 837 847 "src/ext/epicenter/epicenter.ml" 33 837 850
+)
+"src/ext/epicenter/epicenter.ml" 46 1331 1341 "src/ext/epicenter/epicenter.ml" 46 1331 1349
+type(
+  Callgraph.callnode
+)
+ident(
+  int_ref adjacent "src/ext/epicenter/epicenter.ml" 45 1285 1303 "src/ext/epicenter/epicenter.ml" 45 1285 1311
+)
+"src/ext/epicenter/epicenter.ml" 46 1331 1351 "src/ext/epicenter/epicenter.ml" 46 1331 1355
+type(
+  int
+)
+ident(
+  int_ref hops "src/ext/epicenter/epicenter.ml" 33 837 868 "src/ext/epicenter/epicenter.ml" 33 837 872
+)
+"src/ext/epicenter/epicenter.ml" 46 1331 1356 "src/ext/epicenter/epicenter.ml" 46 1331 1357
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ext/epicenter/epicenter.ml" 46 1331 1358 "src/ext/epicenter/epicenter.ml" 46 1331 1359
+type(
+  int
+)
+"src/ext/epicenter/epicenter.ml" 46 1331 1350 "src/ext/epicenter/epicenter.ml" 46 1331 1360
+type(
+  int
+)
+"src/ext/epicenter/epicenter.ml" 46 1331 1336 "src/ext/epicenter/epicenter.ml" 46 1331 1361
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 48 1376 1379 "src/ext/epicenter/epicenter.ml" 48 1376 1386
+type(
+  (int -> Callgraph.callnode -> unit) -> Callgraph.callnode IH.t -> unit
+)
+ident(
+  ext_ref IH.iter
+)
+"src/ext/epicenter/epicenter.ml" 48 1376 1387 "src/ext/epicenter/epicenter.ml" 48 1376 1394
+type(
+  int -> Callgraph.callnode -> unit
+)
+ident(
+  int_ref recurse "src/ext/epicenter/epicenter.ml" 45 1285 1292 "src/ext/epicenter/epicenter.ml" 45 1285 1299
+)
+"src/ext/epicenter/epicenter.ml" 48 1376 1395 "src/ext/epicenter/epicenter.ml" 48 1376 1399
+type(
+  Callgraph.callnode
+)
+ident(
+  int_ref node "src/ext/epicenter/epicenter.ml" 33 837 852 "src/ext/epicenter/epicenter.ml" 33 837 856
+)
+"src/ext/epicenter/epicenter.ml" 48 1376 1395 "src/ext/epicenter/epicenter.ml" 48 1376 1409
+type(
+  Callgraph.callnode IH.t
+)
+"src/ext/epicenter/epicenter.ml" 48 1376 1379 "src/ext/epicenter/epicenter.ml" 48 1376 1409
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 49 1411 1414 "src/ext/epicenter/epicenter.ml" 49 1411 1421
+type(
+  (int -> Callgraph.callnode -> unit) -> Callgraph.callnode IH.t -> unit
+)
+ident(
+  ext_ref IH.iter
+)
+"src/ext/epicenter/epicenter.ml" 49 1411 1422 "src/ext/epicenter/epicenter.ml" 49 1411 1429
+type(
+  int -> Callgraph.callnode -> unit
+)
+ident(
+  int_ref recurse "src/ext/epicenter/epicenter.ml" 45 1285 1292 "src/ext/epicenter/epicenter.ml" 45 1285 1299
+)
+"src/ext/epicenter/epicenter.ml" 49 1411 1430 "src/ext/epicenter/epicenter.ml" 49 1411 1434
+type(
+  Callgraph.callnode
+)
+ident(
+  int_ref node "src/ext/epicenter/epicenter.ml" 33 837 852 "src/ext/epicenter/epicenter.ml" 33 837 856
+)
+"src/ext/epicenter/epicenter.ml" 49 1411 1430 "src/ext/epicenter/epicenter.ml" 49 1411 1444
+type(
+  Callgraph.callnode IH.t
+)
+"src/ext/epicenter/epicenter.ml" 49 1411 1414 "src/ext/epicenter/epicenter.ml" 49 1411 1444
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 48 1376 1379 "src/ext/epicenter/epicenter.ml" 49 1411 1444
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 45 1285 1288 "src/ext/epicenter/epicenter.ml" 49 1411 1444
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 42 1202 1203 "src/ext/epicenter/epicenter.ml" 49 1411 1444
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 39 1080 1081 "src/ext/epicenter/epicenter.ml" 49 1411 1444
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 36 1001 1007 "src/ext/epicenter/epicenter.ml" 50 1445 1454
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 35 949 953 "src/ext/epicenter/epicenter.ml" 50 1445 1454
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 52 1460 1462 "src/ext/epicenter/epicenter.ml" 52 1460 1465
+type(
+  Callgraph.callnode -> int -> unit
+)
+ident(
+  int_ref dfs "src/ext/epicenter/epicenter.ml" 33 837 847 "src/ext/epicenter/epicenter.ml" 33 837 850
+)
+"src/ext/epicenter/epicenter.ml" 52 1460 1467 "src/ext/epicenter/epicenter.ml" 52 1460 1479
+type(
+  Callgraph.callgraph -> string -> Callgraph.callnode
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"src/ext/epicenter/epicenter.ml" 52 1460 1480 "src/ext/epicenter/epicenter.ml" 52 1460 1485
+type(
+  Callgraph.callgraph
+)
+ident(
+  int_ref graph "src/ext/epicenter/epicenter.ml" 17 324 330 "src/ext/epicenter/epicenter.ml" 17 324 335
+)
+"src/ext/epicenter/epicenter.ml" 52 1460 1486 "src/ext/epicenter/epicenter.ml" 52 1460 1495
+type(
+  string
+)
+ident(
+  int_ref epicenter "src/ext/epicenter/epicenter.ml" 15 221 245 "src/ext/epicenter/epicenter.ml" 15 221 254
+)
+"src/ext/epicenter/epicenter.ml" 52 1460 1466 "src/ext/epicenter/epicenter.ml" 52 1460 1496
+call(
+  stack
+)
+type(
+  Callgraph.callnode
+)
+"src/ext/epicenter/epicenter.ml" 52 1460 1497 "src/ext/epicenter/epicenter.ml" 52 1460 1504
+type(
+  int
+)
+ident(
+  int_ref maxHops "src/ext/epicenter/epicenter.ml" 15 221 264 "src/ext/epicenter/epicenter.ml" 15 221 271
+)
+"src/ext/epicenter/epicenter.ml" 52 1460 1462 "src/ext/epicenter/epicenter.ml" 52 1460 1504
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 55 1571 1573 "src/ext/epicenter/epicenter.ml" 55 1571 1592
+type(
+  bool ref
+)
+ident(
+  ext_ref Cilutil.sliceGlobal
+)
+"src/ext/epicenter/epicenter.ml" 55 1571 1593 "src/ext/epicenter/epicenter.ml" 55 1571 1595
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/epicenter/epicenter.ml" 55 1571 1596 "src/ext/epicenter/epicenter.ml" 55 1571 1600
+type(
+  bool
+)
+"src/ext/epicenter/epicenter.ml" 55 1571 1573 "src/ext/epicenter/epicenter.ml" 55 1571 1600
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 56 1602 1604 "src/ext/epicenter/epicenter.ml" 56 1602 1628
+type(
+  ?isRoot:Rmtmps.rootsFilter -> Cil.file -> unit
+)
+ident(
+  ext_ref Rmtmps.removeUnusedTemps
+)
+"src/ext/epicenter/epicenter.ml" 56 1602 1637 "src/ext/epicenter/epicenter.ml" 56 1602 1643
+type(
+  Rmtmps.rootsFilter
+)
+ident(
+  int_ref isRoot "src/ext/epicenter/epicenter.ml" 23 557 563 "src/ext/epicenter/epicenter.ml" 23 557 569
+)
+"src/ext/epicenter/epicenter.ml" 56 1602 1644 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/epicenter/epicenter.ml" 15 221 236 "src/ext/epicenter/epicenter.ml" 15 221 237
+)
+"src/ext/epicenter/epicenter.ml" 56 1602 1604 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 55 1571 1573 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 52 1460 1462 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 33 837 839 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 23 557 559 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 20 441 443 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 17 324 326 "src/ext/epicenter/epicenter.ml" 56 1602 1645
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 58 1647 1651 "src/ext/epicenter/epicenter.ml" 58 1647 1664
+type(
+  string ref
+)
+ident(
+  def epicenterName "src/ext/epicenter/epicenter.ml" 59 1674 1674 "src/ext/epicenter/epicenter.ml" 1 0 -1
+)
+"src/ext/epicenter/epicenter.ml" 58 1647 1667 "src/ext/epicenter/epicenter.ml" 58 1647 1670
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/epicenter/epicenter.ml" 58 1647 1671 "src/ext/epicenter/epicenter.ml" 58 1647 1673
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 58 1647 1667 "src/ext/epicenter/epicenter.ml" 58 1647 1673
+type(
+  string ref
+)
+"src/ext/epicenter/epicenter.ml" 59 1674 1678 "src/ext/epicenter/epicenter.ml" 59 1674 1691
+type(
+  int ref
+)
+ident(
+  def epicenterHops "src/ext/epicenter/epicenter.ml" 61 1701 1701 "src/ext/epicenter/epicenter.ml" 1 0 -1
+)
+"src/ext/epicenter/epicenter.ml" 59 1674 1694 "src/ext/epicenter/epicenter.ml" 59 1674 1697
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/epicenter/epicenter.ml" 59 1674 1698 "src/ext/epicenter/epicenter.ml" 59 1674 1699
+type(
+  int
+)
+"src/ext/epicenter/epicenter.ml" 59 1674 1694 "src/ext/epicenter/epicenter.ml" 59 1674 1699
+type(
+  int ref
+)
+"src/ext/epicenter/epicenter.ml" 61 1701 1705 "src/ext/epicenter/epicenter.ml" 61 1701 1712
+type(
+  Feature.t
+)
+ident(
+  def feature "src/ext/epicenter/epicenter.ml" 82 2339 2339 "src/ext/epicenter/epicenter.ml" 1 0 -1
+)
+"src/ext/epicenter/epicenter.ml" 62 1716 1730 "src/ext/epicenter/epicenter.ml" 62 1716 1741
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 63 1743 1760 "src/ext/epicenter/epicenter.ml" 63 1743 1765
+type(
+  bool
+)
+"src/ext/epicenter/epicenter.ml" 64 1767 1788 "src/ext/epicenter/epicenter.ml" 64 1767 1842
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 64 1767 1843 "src/ext/epicenter/epicenter.ml" 64 1767 1844
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ext/epicenter/epicenter.ml" 65 1845 1861 "src/ext/epicenter/epicenter.ml" 65 1845 1922
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 64 1767 1788 "src/ext/epicenter/epicenter.ml" 65 1845 1922
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 68 1949 1954 "src/ext/epicenter/epicenter.ml" 68 1949 1972
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 69 1975 1996 "src/ext/epicenter/epicenter.ml" 69 1975 1997
+type(
+  string
+)
+ident(
+  def s "src/ext/epicenter/epicenter.ml" 69 1975 2001 "src/ext/epicenter/epicenter.ml" 69 1975 2019
+)
+"src/ext/epicenter/epicenter.ml" 69 1975 2001 "src/ext/epicenter/epicenter.ml" 69 1975 2014
+type(
+  string ref
+)
+ident(
+  int_ref epicenterName "src/ext/epicenter/epicenter.ml" 58 1647 1651 "src/ext/epicenter/epicenter.ml" 58 1647 1664
+)
+"src/ext/epicenter/epicenter.ml" 69 1975 2015 "src/ext/epicenter/epicenter.ml" 69 1975 2017
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/epicenter/epicenter.ml" 69 1975 2018 "src/ext/epicenter/epicenter.ml" 69 1975 2019
+type(
+  string
+)
+ident(
+  int_ref s "src/ext/epicenter/epicenter.ml" 69 1975 1996 "src/ext/epicenter/epicenter.ml" 69 1975 1997
+)
+"src/ext/epicenter/epicenter.ml" 69 1975 2001 "src/ext/epicenter/epicenter.ml" 69 1975 2019
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 69 1975 1991 "src/ext/epicenter/epicenter.ml" 69 1975 2020
+type(
+  string -> unit
+)
+"src/ext/epicenter/epicenter.ml" 69 1975 1980 "src/ext/epicenter/epicenter.ml" 69 1975 2020
+type(
+  Arg.spec
+)
+"src/ext/epicenter/epicenter.ml" 70 2022 2037 "src/ext/epicenter/epicenter.ml" 70 2022 2097
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 68 1949 1953 "src/ext/epicenter/epicenter.ml" 70 2022 2098
+type(
+  string * Arg.spec * string
+)
+"src/ext/epicenter/epicenter.ml" 71 2100 2105 "src/ext/epicenter/epicenter.ml" 71 2100 2123
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 71 2100 2138 "src/ext/epicenter/epicenter.ml" 71 2100 2139
+type(
+  int
+)
+ident(
+  def n "src/ext/epicenter/epicenter.ml" 71 2100 2143 "src/ext/epicenter/epicenter.ml" 71 2100 2161
+)
+"src/ext/epicenter/epicenter.ml" 71 2100 2143 "src/ext/epicenter/epicenter.ml" 71 2100 2156
+type(
+  int ref
+)
+ident(
+  int_ref epicenterHops "src/ext/epicenter/epicenter.ml" 59 1674 1678 "src/ext/epicenter/epicenter.ml" 59 1674 1691
+)
+"src/ext/epicenter/epicenter.ml" 71 2100 2157 "src/ext/epicenter/epicenter.ml" 71 2100 2159
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/epicenter/epicenter.ml" 71 2100 2160 "src/ext/epicenter/epicenter.ml" 71 2100 2161
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/epicenter/epicenter.ml" 71 2100 2138 "src/ext/epicenter/epicenter.ml" 71 2100 2139
+)
+"src/ext/epicenter/epicenter.ml" 71 2100 2143 "src/ext/epicenter/epicenter.ml" 71 2100 2161
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 71 2100 2133 "src/ext/epicenter/epicenter.ml" 71 2100 2162
+type(
+  int -> unit
+)
+"src/ext/epicenter/epicenter.ml" 71 2100 2125 "src/ext/epicenter/epicenter.ml" 71 2100 2162
+type(
+  Arg.spec
+)
+"src/ext/epicenter/epicenter.ml" 72 2164 2169 "src/ext/epicenter/epicenter.ml" 72 2164 2216
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 71 2100 2104 "src/ext/epicenter/epicenter.ml" 72 2164 2217
+type(
+  string * Arg.spec * string
+)
+"src/ext/epicenter/epicenter.ml" 67 1943 1947 "src/ext/epicenter/epicenter.ml" 73 2219 2224
+type(
+  (string * Arg.spec * string) list
+)
+"src/ext/epicenter/epicenter.ml" 76 2241 2250 "src/ext/epicenter/epicenter.ml" 76 2241 2251
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/epicenter/epicenter.ml" 77 2256 2262 "src/ext/epicenter/epicenter.ml" 77 2256 2303
+)
+"src/ext/epicenter/epicenter.ml" 77 2256 2262 "src/ext/epicenter/epicenter.ml" 77 2256 2271
+type(
+  Cil.file -> string -> int -> unit
+)
+ident(
+  int_ref sliceFile "src/ext/epicenter/epicenter.ml" 15 221 225 "src/ext/epicenter/epicenter.ml" 15 221 234
+)
+"src/ext/epicenter/epicenter.ml" 77 2256 2272 "src/ext/epicenter/epicenter.ml" 77 2256 2273
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/epicenter/epicenter.ml" 76 2241 2250 "src/ext/epicenter/epicenter.ml" 76 2241 2251
+)
+"src/ext/epicenter/epicenter.ml" 77 2256 2274 "src/ext/epicenter/epicenter.ml" 77 2256 2275
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/epicenter/epicenter.ml" 77 2256 2275 "src/ext/epicenter/epicenter.ml" 77 2256 2288
+type(
+  string ref
+)
+ident(
+  int_ref epicenterName "src/ext/epicenter/epicenter.ml" 58 1647 1651 "src/ext/epicenter/epicenter.ml" 58 1647 1664
+)
+"src/ext/epicenter/epicenter.ml" 77 2256 2274 "src/ext/epicenter/epicenter.ml" 77 2256 2288
+type(
+  string
+)
+"src/ext/epicenter/epicenter.ml" 77 2256 2289 "src/ext/epicenter/epicenter.ml" 77 2256 2290
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/epicenter/epicenter.ml" 77 2256 2290 "src/ext/epicenter/epicenter.ml" 77 2256 2303
+type(
+  int ref
+)
+ident(
+  int_ref epicenterHops "src/ext/epicenter/epicenter.ml" 59 1674 1678 "src/ext/epicenter/epicenter.ml" 59 1674 1691
+)
+"src/ext/epicenter/epicenter.ml" 77 2256 2289 "src/ext/epicenter/epicenter.ml" 77 2256 2303
+type(
+  int
+)
+"src/ext/epicenter/epicenter.ml" 77 2256 2262 "src/ext/epicenter/epicenter.ml" 77 2256 2303
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 76 2241 2245 "src/ext/epicenter/epicenter.ml" 77 2256 2304
+type(
+  Cil.file -> unit
+)
+"src/ext/epicenter/epicenter.ml" 79 2307 2327 "src/ext/epicenter/epicenter.ml" 79 2307 2331
+type(
+  bool
+)
+"src/ext/epicenter/epicenter.ml" 62 1716 1718 "src/ext/epicenter/epicenter.ml" 80 2333 2336
+type(
+  Feature.t
+)
+"src/ext/epicenter/epicenter.ml" 82 2339 2343 "src/ext/epicenter/epicenter.ml" 82 2339 2345
+type(
+  unit
+)
+"src/ext/epicenter/epicenter.ml" 82 2339 2348 "src/ext/epicenter/epicenter.ml" 82 2339 2364
+type(
+  Feature.t -> unit
+)
+ident(
+  ext_ref Feature.register
+)
+"src/ext/epicenter/epicenter.ml" 82 2339 2365 "src/ext/epicenter/epicenter.ml" 82 2339 2372
+type(
+  Feature.t
+)
+ident(
+  int_ref feature "src/ext/epicenter/epicenter.ml" 61 1701 1705 "src/ext/epicenter/epicenter.ml" 61 1701 1712
+)
+"src/ext/epicenter/epicenter.ml" 82 2339 2348 "src/ext/epicenter/epicenter.ml" 82 2339 2372
+call(
+  stack
+)
+type(
+  unit
+)

@@ -1,0 +1,3620 @@
+"src/ocamlutil/growArray.ml" 20 383 387 "src/ocamlutil/growArray.ml" 20 383 399
+type(
+  'a t -> int -> int -> string -> unit
+)
+ident(
+  def growTheArray "src/ocamlutil/growArray.ml" 40 923 923 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 20 383 401 "src/ocamlutil/growArray.ml" 20 383 403
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 20 383 411 "src/ocamlutil/growArray.ml" 38 916 921
+)
+"src/ocamlutil/growArray.ml" 20 383 412 "src/ocamlutil/growArray.ml" 20 383 415
+type(
+  int
+)
+ident(
+  def len "src/ocamlutil/growArray.ml" 21 423 440 "src/ocamlutil/growArray.ml" 38 916 921
+)
+"src/ocamlutil/growArray.ml" 21 423 441 "src/ocamlutil/growArray.ml" 21 423 446
+type(
+  int
+)
+ident(
+  def toidx "src/ocamlutil/growArray.ml" 21 423 453 "src/ocamlutil/growArray.ml" 38 916 921
+)
+"src/ocamlutil/growArray.ml" 21 423 454 "src/ocamlutil/growArray.ml" 21 423 457
+type(
+  string
+)
+ident(
+  def why "src/ocamlutil/growArray.ml" 21 423 467 "src/ocamlutil/growArray.ml" 38 916 921
+)
+"src/ocamlutil/growArray.ml" 22 477 482 "src/ocamlutil/growArray.ml" 22 477 487
+type(
+  int
+)
+ident(
+  int_ref toidx "src/ocamlutil/growArray.ml" 21 423 441 "src/ocamlutil/growArray.ml" 21 423 446
+)
+"src/ocamlutil/growArray.ml" 22 477 488 "src/ocamlutil/growArray.ml" 22 477 490
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/growArray.ml" 22 477 491 "src/ocamlutil/growArray.ml" 22 477 494
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/growArray.ml" 20 383 412 "src/ocamlutil/growArray.ml" 20 383 415
+)
+"src/ocamlutil/growArray.ml" 22 477 482 "src/ocamlutil/growArray.ml" 22 477 494
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 24 538 546 "src/ocamlutil/growArray.ml" 24 538 552
+type(
+  int
+)
+ident(
+  def newlen "src/ocamlutil/growArray.ml" 28 651 655 "src/ocamlutil/growArray.ml" 37 893 915
+)
+"src/ocamlutil/growArray.ml" 24 538 555 "src/ocamlutil/growArray.ml" 24 538 560
+type(
+  int
+)
+ident(
+  int_ref toidx "src/ocamlutil/growArray.ml" 21 423 441 "src/ocamlutil/growArray.ml" 21 423 446
+)
+"src/ocamlutil/growArray.ml" 24 538 561 "src/ocamlutil/growArray.ml" 24 538 562
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/growArray.ml" 24 538 563 "src/ocamlutil/growArray.ml" 24 538 564
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 24 538 555 "src/ocamlutil/growArray.ml" 24 538 564
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 24 538 565 "src/ocamlutil/growArray.ml" 24 538 566
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/growArray.ml" 24 538 567 "src/ocamlutil/growArray.ml" 24 538 570
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/growArray.ml" 20 383 412 "src/ocamlutil/growArray.ml" 20 383 415
+)
+"src/ocamlutil/growArray.ml" 24 538 572 "src/ocamlutil/growArray.ml" 24 538 573
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"src/ocamlutil/growArray.ml" 24 538 574 "src/ocamlutil/growArray.ml" 24 538 575
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 24 538 567 "src/ocamlutil/growArray.ml" 24 538 575
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 24 538 555 "src/ocamlutil/growArray.ml" 24 538 575
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 28 651 659 "src/ocamlutil/growArray.ml" 28 651 664
+type(
+  'a LA.t
+)
+ident(
+  def data' "src/ocamlutil/growArray.ml" 37 893 897 "src/ocamlutil/growArray.ml" 37 893 915
+)
+"src/ocamlutil/growArray.ml" 28 651 679 "src/ocamlutil/growArray.ml" 28 651 681
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 20 383 401 "src/ocamlutil/growArray.ml" 20 383 403
+)
+"src/ocamlutil/growArray.ml" 28 651 679 "src/ocamlutil/growArray.ml" 28 651 688
+type(
+  'a fill
+)
+"src/ocamlutil/growArray.ml" 29 694 705 "src/ocamlutil/growArray.ml" 29 694 706
+type(
+  'a
+)
+ident(
+  def x "src/ocamlutil/growArray.ml" 30 710 711 "src/ocamlutil/growArray.ml" 32 781 788
+)
+"src/ocamlutil/growArray.ml" 29 694 700 "src/ocamlutil/growArray.ml" 29 694 706
+type(
+  'a fill
+)
+"src/ocamlutil/growArray.ml" 30 710 715 "src/ocamlutil/growArray.ml" 30 710 721
+type(
+  'a LA.t
+)
+ident(
+  def data'' "src/ocamlutil/growArray.ml" 31 746 747 "src/ocamlutil/growArray.ml" 32 781 788
+)
+"src/ocamlutil/growArray.ml" 30 710 724 "src/ocamlutil/growArray.ml" 30 710 733
+type(
+  int -> 'a -> 'a LA.t
+)
+ident(
+  ext_ref LA.create
+)
+"src/ocamlutil/growArray.ml" 30 710 734 "src/ocamlutil/growArray.ml" 30 710 740
+type(
+  int
+)
+ident(
+  int_ref newlen "src/ocamlutil/growArray.ml" 24 538 546 "src/ocamlutil/growArray.ml" 24 538 552
+)
+"src/ocamlutil/growArray.ml" 30 710 741 "src/ocamlutil/growArray.ml" 30 710 742
+type(
+  'a
+)
+ident(
+  int_ref x "src/ocamlutil/growArray.ml" 29 694 705 "src/ocamlutil/growArray.ml" 29 694 706
+)
+"src/ocamlutil/growArray.ml" 30 710 724 "src/ocamlutil/growArray.ml" 30 710 742
+call(
+  stack
+)
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 31 746 747 "src/ocamlutil/growArray.ml" 31 746 754
+type(
+  'a LA.t -> int -> 'a LA.t -> int -> int -> unit
+)
+ident(
+  ext_ref LA.blit
+)
+"src/ocamlutil/growArray.ml" 31 746 755 "src/ocamlutil/growArray.ml" 31 746 757
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 20 383 401 "src/ocamlutil/growArray.ml" 20 383 403
+)
+"src/ocamlutil/growArray.ml" 31 746 755 "src/ocamlutil/growArray.ml" 31 746 764
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 31 746 765 "src/ocamlutil/growArray.ml" 31 746 766
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 31 746 767 "src/ocamlutil/growArray.ml" 31 746 773
+type(
+  'a LA.t
+)
+ident(
+  int_ref data'' "src/ocamlutil/growArray.ml" 30 710 715 "src/ocamlutil/growArray.ml" 30 710 721
+)
+"src/ocamlutil/growArray.ml" 31 746 774 "src/ocamlutil/growArray.ml" 31 746 775
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 31 746 776 "src/ocamlutil/growArray.ml" 31 746 779
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/growArray.ml" 20 383 412 "src/ocamlutil/growArray.ml" 20 383 415
+)
+"src/ocamlutil/growArray.ml" 31 746 747 "src/ocamlutil/growArray.ml" 31 746 779
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 32 781 782 "src/ocamlutil/growArray.ml" 32 781 788
+type(
+  'a LA.t
+)
+ident(
+  int_ref data'' "src/ocamlutil/growArray.ml" 30 710 715 "src/ocamlutil/growArray.ml" 30 710 721
+)
+"src/ocamlutil/growArray.ml" 31 746 747 "src/ocamlutil/growArray.ml" 32 781 788
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 30 710 711 "src/ocamlutil/growArray.ml" 32 781 788
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 33 789 800 "src/ocamlutil/growArray.ml" 33 789 801
+type(
+  int -> 'a
+)
+ident(
+  def f "src/ocamlutil/growArray.ml" 33 789 805 "src/ocamlutil/growArray.ml" 34 820 877
+)
+"src/ocamlutil/growArray.ml" 33 789 795 "src/ocamlutil/growArray.ml" 33 789 801
+type(
+  'a fill
+)
+"src/ocamlutil/growArray.ml" 33 789 805 "src/ocamlutil/growArray.ml" 33 789 812
+type(
+  int -> (int -> 'a) -> 'a LA.t
+)
+ident(
+  ext_ref LA.init
+)
+"src/ocamlutil/growArray.ml" 33 789 813 "src/ocamlutil/growArray.ml" 33 789 819
+type(
+  int
+)
+ident(
+  int_ref newlen "src/ocamlutil/growArray.ml" 24 538 546 "src/ocamlutil/growArray.ml" 24 538 552
+)
+"src/ocamlutil/growArray.ml" 34 820 828 "src/ocamlutil/growArray.ml" 34 820 829
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/growArray.ml" 34 820 833 "src/ocamlutil/growArray.ml" 34 820 876
+)
+"src/ocamlutil/growArray.ml" 34 820 836 "src/ocamlutil/growArray.ml" 34 820 837
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 34 820 828 "src/ocamlutil/growArray.ml" 34 820 829
+)
+"src/ocamlutil/growArray.ml" 34 820 838 "src/ocamlutil/growArray.ml" 34 820 839
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ocamlutil/growArray.ml" 34 820 840 "src/ocamlutil/growArray.ml" 34 820 843
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/growArray.ml" 20 383 412 "src/ocamlutil/growArray.ml" 20 383 415
+)
+"src/ocamlutil/growArray.ml" 34 820 836 "src/ocamlutil/growArray.ml" 34 820 843
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 34 820 849 "src/ocamlutil/growArray.ml" 34 820 855
+type(
+  'a LA.t -> int -> 'a
+)
+ident(
+  ext_ref LA.get
+)
+"src/ocamlutil/growArray.ml" 34 820 856 "src/ocamlutil/growArray.ml" 34 820 858
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 20 383 401 "src/ocamlutil/growArray.ml" 20 383 403
+)
+"src/ocamlutil/growArray.ml" 34 820 856 "src/ocamlutil/growArray.ml" 34 820 865
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 34 820 866 "src/ocamlutil/growArray.ml" 34 820 867
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 34 820 828 "src/ocamlutil/growArray.ml" 34 820 829
+)
+"src/ocamlutil/growArray.ml" 34 820 849 "src/ocamlutil/growArray.ml" 34 820 867
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 34 820 873 "src/ocamlutil/growArray.ml" 34 820 874
+type(
+  int -> 'a
+)
+ident(
+  int_ref f "src/ocamlutil/growArray.ml" 33 789 800 "src/ocamlutil/growArray.ml" 33 789 801
+)
+"src/ocamlutil/growArray.ml" 34 820 875 "src/ocamlutil/growArray.ml" 34 820 876
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 34 820 828 "src/ocamlutil/growArray.ml" 34 820 829
+)
+"src/ocamlutil/growArray.ml" 34 820 873 "src/ocamlutil/growArray.ml" 34 820 876
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 34 820 833 "src/ocamlutil/growArray.ml" 34 820 876
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 34 820 823 "src/ocamlutil/growArray.ml" 34 820 877
+type(
+  int -> 'a
+)
+"src/ocamlutil/growArray.ml" 33 789 805 "src/ocamlutil/growArray.ml" 34 820 877
+call(
+  stack
+)
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 28 651 667 "src/ocamlutil/growArray.ml" 35 878 885
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 37 893 897 "src/ocamlutil/growArray.ml" 37 893 899
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 20 383 401 "src/ocamlutil/growArray.ml" 20 383 403
+)
+"src/ocamlutil/growArray.ml" 37 893 910 "src/ocamlutil/growArray.ml" 37 893 915
+type(
+  'a LA.t
+)
+ident(
+  int_ref data' "src/ocamlutil/growArray.ml" 28 651 659 "src/ocamlutil/growArray.ml" 28 651 664
+)
+"src/ocamlutil/growArray.ml" 37 893 897 "src/ocamlutil/growArray.ml" 37 893 915
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 28 651 655 "src/ocamlutil/growArray.ml" 37 893 915
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 22 477 500 "src/ocamlutil/growArray.ml" 38 916 921
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 22 477 479 "src/ocamlutil/growArray.ml" 38 916 921
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 40 923 927 "src/ocamlutil/growArray.ml" 40 923 941
+type(
+  'a t -> int
+)
+ident(
+  def max_init_index "src/ocamlutil/growArray.ml" 43 982 982 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 40 923 943 "src/ocamlutil/growArray.ml" 40 923 945
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 40 923 953 "src/ocamlutil/growArray.ml" 41 961 980
+)
+"src/ocamlutil/growArray.ml" 41 961 963 "src/ocamlutil/growArray.ml" 41 961 965
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 40 923 943 "src/ocamlutil/growArray.ml" 40 923 945
+)
+"src/ocamlutil/growArray.ml" 41 961 963 "src/ocamlutil/growArray.ml" 41 961 980
+type(
+  int
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 43 982 986 "src/ocamlutil/growArray.ml" 43 982 1001
+type(
+  'a t -> int
+)
+ident(
+  def num_alloc_index "src/ocamlutil/growArray.ml" 46 1045 1045 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 43 982 1003 "src/ocamlutil/growArray.ml" 43 982 1005
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 43 982 1013 "src/ocamlutil/growArray.ml" 44 1022 1043
+)
+"src/ocamlutil/growArray.ml" 44 1022 1024 "src/ocamlutil/growArray.ml" 44 1022 1033
+type(
+  'a LA.t -> int
+)
+ident(
+  ext_ref LA.length
+)
+"src/ocamlutil/growArray.ml" 44 1022 1034 "src/ocamlutil/growArray.ml" 44 1022 1036
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 43 982 1003 "src/ocamlutil/growArray.ml" 43 982 1005
+)
+"src/ocamlutil/growArray.ml" 44 1022 1034 "src/ocamlutil/growArray.ml" 44 1022 1043
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 44 1022 1024 "src/ocamlutil/growArray.ml" 44 1022 1043
+call(
+  tail
+)
+type(
+  int
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 46 1045 1049 "src/ocamlutil/growArray.ml" 46 1045 1069
+type(
+  'a t -> unit
+)
+ident(
+  def reset_max_init_index "src/ocamlutil/growArray.ml" 49 1117 1117 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 46 1045 1071 "src/ocamlutil/growArray.ml" 46 1045 1073
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 46 1045 1081 "src/ocamlutil/growArray.ml" 47 1090 1115
+)
+"src/ocamlutil/growArray.ml" 47 1090 1092 "src/ocamlutil/growArray.ml" 47 1090 1094
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 46 1045 1071 "src/ocamlutil/growArray.ml" 46 1045 1073
+)
+"src/ocamlutil/growArray.ml" 47 1090 1113 "src/ocamlutil/growArray.ml" 47 1090 1115
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 47 1090 1092 "src/ocamlutil/growArray.ml" 47 1090 1115
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 49 1117 1121 "src/ocamlutil/growArray.ml" 49 1117 1125
+type(
+  'a t -> int -> 'a
+)
+ident(
+  def getg "src/ocamlutil/growArray.ml" 56 1266 1266 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 49 1117 1127 "src/ocamlutil/growArray.ml" 49 1117 1129
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 49 1117 1137 "src/ocamlutil/growArray.ml" 54 1244 1264
+)
+"src/ocamlutil/growArray.ml" 49 1117 1138 "src/ocamlutil/growArray.ml" 49 1117 1139
+type(
+  int
+)
+ident(
+  def r "src/ocamlutil/growArray.ml" 49 1117 1146 "src/ocamlutil/growArray.ml" 54 1244 1264
+)
+"src/ocamlutil/growArray.ml" 50 1154 1160 "src/ocamlutil/growArray.ml" 50 1154 1163
+type(
+  int
+)
+ident(
+  def len "src/ocamlutil/growArray.ml" 51 1189 1191 "src/ocamlutil/growArray.ml" 54 1244 1264
+)
+"src/ocamlutil/growArray.ml" 50 1154 1166 "src/ocamlutil/growArray.ml" 50 1154 1175
+type(
+  'a LA.t -> int
+)
+ident(
+  ext_ref LA.length
+)
+"src/ocamlutil/growArray.ml" 50 1154 1176 "src/ocamlutil/growArray.ml" 50 1154 1178
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 49 1117 1127 "src/ocamlutil/growArray.ml" 49 1117 1129
+)
+"src/ocamlutil/growArray.ml" 50 1154 1176 "src/ocamlutil/growArray.ml" 50 1154 1185
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 50 1154 1166 "src/ocamlutil/growArray.ml" 50 1154 1185
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 51 1189 1194 "src/ocamlutil/growArray.ml" 51 1189 1195
+type(
+  int
+)
+ident(
+  int_ref r "src/ocamlutil/growArray.ml" 49 1117 1138 "src/ocamlutil/growArray.ml" 49 1117 1139
+)
+"src/ocamlutil/growArray.ml" 51 1189 1196 "src/ocamlutil/growArray.ml" 51 1189 1198
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/growArray.ml" 51 1189 1199 "src/ocamlutil/growArray.ml" 51 1189 1202
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/growArray.ml" 50 1154 1160 "src/ocamlutil/growArray.ml" 50 1154 1163
+)
+"src/ocamlutil/growArray.ml" 51 1189 1194 "src/ocamlutil/growArray.ml" 51 1189 1202
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 52 1209 1213 "src/ocamlutil/growArray.ml" 52 1209 1225
+type(
+  'a t -> int -> int -> string -> unit
+)
+ident(
+  int_ref growTheArray "src/ocamlutil/growArray.ml" 20 383 387 "src/ocamlutil/growArray.ml" 20 383 399
+)
+"src/ocamlutil/growArray.ml" 52 1209 1226 "src/ocamlutil/growArray.ml" 52 1209 1228
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 49 1117 1127 "src/ocamlutil/growArray.ml" 49 1117 1129
+)
+"src/ocamlutil/growArray.ml" 52 1209 1229 "src/ocamlutil/growArray.ml" 52 1209 1232
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/growArray.ml" 50 1154 1160 "src/ocamlutil/growArray.ml" 50 1154 1163
+)
+"src/ocamlutil/growArray.ml" 52 1209 1233 "src/ocamlutil/growArray.ml" 52 1209 1234
+type(
+  int
+)
+ident(
+  int_ref r "src/ocamlutil/growArray.ml" 49 1117 1138 "src/ocamlutil/growArray.ml" 49 1117 1139
+)
+"src/ocamlutil/growArray.ml" 52 1209 1235 "src/ocamlutil/growArray.ml" 52 1209 1241
+type(
+  string
+)
+"src/ocamlutil/growArray.ml" 52 1209 1213 "src/ocamlutil/growArray.ml" 52 1209 1241
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 51 1189 1191 "src/ocamlutil/growArray.ml" 52 1209 1241
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 54 1244 1246 "src/ocamlutil/growArray.ml" 54 1244 1252
+type(
+  'a LA.t -> int -> 'a
+)
+ident(
+  ext_ref LA.get
+)
+"src/ocamlutil/growArray.ml" 54 1244 1253 "src/ocamlutil/growArray.ml" 54 1244 1255
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 49 1117 1127 "src/ocamlutil/growArray.ml" 49 1117 1129
+)
+"src/ocamlutil/growArray.ml" 54 1244 1253 "src/ocamlutil/growArray.ml" 54 1244 1262
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 54 1244 1263 "src/ocamlutil/growArray.ml" 54 1244 1264
+type(
+  int
+)
+ident(
+  int_ref r "src/ocamlutil/growArray.ml" 49 1117 1138 "src/ocamlutil/growArray.ml" 49 1117 1139
+)
+"src/ocamlutil/growArray.ml" 54 1244 1246 "src/ocamlutil/growArray.ml" 54 1244 1264
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 51 1189 1191 "src/ocamlutil/growArray.ml" 54 1244 1264
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 50 1154 1156 "src/ocamlutil/growArray.ml" 54 1244 1264
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 56 1266 1270 "src/ocamlutil/growArray.ml" 56 1266 1274
+type(
+  'a t -> int -> 'a -> unit
+)
+ident(
+  def setg "src/ocamlutil/growArray.ml" 63 1488 1488 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 56 1266 1276 "src/ocamlutil/growArray.ml" 56 1266 1278
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 56 1266 1286 "src/ocamlutil/growArray.ml" 61 1461 1486
+)
+"src/ocamlutil/growArray.ml" 56 1266 1287 "src/ocamlutil/growArray.ml" 56 1266 1288
+type(
+  int
+)
+ident(
+  def r "src/ocamlutil/growArray.ml" 56 1266 1295 "src/ocamlutil/growArray.ml" 61 1461 1486
+)
+"src/ocamlutil/growArray.ml" 56 1266 1296 "src/ocamlutil/growArray.ml" 56 1266 1300
+type(
+  'a
+)
+ident(
+  def what "src/ocamlutil/growArray.ml" 56 1266 1306 "src/ocamlutil/growArray.ml" 61 1461 1486
+)
+"src/ocamlutil/growArray.ml" 57 1316 1322 "src/ocamlutil/growArray.ml" 57 1316 1325
+type(
+  int
+)
+ident(
+  def len "src/ocamlutil/growArray.ml" 58 1351 1353 "src/ocamlutil/growArray.ml" 61 1461 1486
+)
+"src/ocamlutil/growArray.ml" 57 1316 1328 "src/ocamlutil/growArray.ml" 57 1316 1337
+type(
+  'a LA.t -> int
+)
+ident(
+  ext_ref LA.length
+)
+"src/ocamlutil/growArray.ml" 57 1316 1338 "src/ocamlutil/growArray.ml" 57 1316 1340
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 56 1266 1276 "src/ocamlutil/growArray.ml" 56 1266 1278
+)
+"src/ocamlutil/growArray.ml" 57 1316 1338 "src/ocamlutil/growArray.ml" 57 1316 1347
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 57 1316 1328 "src/ocamlutil/growArray.ml" 57 1316 1347
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 58 1351 1356 "src/ocamlutil/growArray.ml" 58 1351 1357
+type(
+  int
+)
+ident(
+  int_ref r "src/ocamlutil/growArray.ml" 56 1266 1287 "src/ocamlutil/growArray.ml" 56 1266 1288
+)
+"src/ocamlutil/growArray.ml" 58 1351 1358 "src/ocamlutil/growArray.ml" 58 1351 1360
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/growArray.ml" 58 1351 1361 "src/ocamlutil/growArray.ml" 58 1351 1364
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/growArray.ml" 57 1316 1322 "src/ocamlutil/growArray.ml" 57 1316 1325
+)
+"src/ocamlutil/growArray.ml" 58 1351 1356 "src/ocamlutil/growArray.ml" 58 1351 1364
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 59 1371 1375 "src/ocamlutil/growArray.ml" 59 1371 1387
+type(
+  'a t -> int -> int -> string -> unit
+)
+ident(
+  int_ref growTheArray "src/ocamlutil/growArray.ml" 20 383 387 "src/ocamlutil/growArray.ml" 20 383 399
+)
+"src/ocamlutil/growArray.ml" 59 1371 1388 "src/ocamlutil/growArray.ml" 59 1371 1390
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 56 1266 1276 "src/ocamlutil/growArray.ml" 56 1266 1278
+)
+"src/ocamlutil/growArray.ml" 59 1371 1391 "src/ocamlutil/growArray.ml" 59 1371 1394
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/growArray.ml" 57 1316 1322 "src/ocamlutil/growArray.ml" 57 1316 1325
+)
+"src/ocamlutil/growArray.ml" 59 1371 1395 "src/ocamlutil/growArray.ml" 59 1371 1396
+type(
+  int
+)
+ident(
+  int_ref r "src/ocamlutil/growArray.ml" 56 1266 1287 "src/ocamlutil/growArray.ml" 56 1266 1288
+)
+"src/ocamlutil/growArray.ml" 59 1371 1397 "src/ocamlutil/growArray.ml" 59 1371 1403
+type(
+  string
+)
+"src/ocamlutil/growArray.ml" 59 1371 1375 "src/ocamlutil/growArray.ml" 59 1371 1403
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 58 1351 1353 "src/ocamlutil/growArray.ml" 59 1371 1403
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 60 1405 1410 "src/ocamlutil/growArray.ml" 60 1405 1411
+type(
+  int
+)
+ident(
+  int_ref r "src/ocamlutil/growArray.ml" 56 1266 1287 "src/ocamlutil/growArray.ml" 56 1266 1288
+)
+"src/ocamlutil/growArray.ml" 60 1405 1412 "src/ocamlutil/growArray.ml" 60 1405 1413
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/growArray.ml" 60 1405 1414 "src/ocamlutil/growArray.ml" 60 1405 1428
+type(
+  'a t -> int
+)
+ident(
+  int_ref max_init_index "src/ocamlutil/growArray.ml" 40 923 927 "src/ocamlutil/growArray.ml" 40 923 941
+)
+"src/ocamlutil/growArray.ml" 60 1405 1429 "src/ocamlutil/growArray.ml" 60 1405 1431
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 56 1266 1276 "src/ocamlutil/growArray.ml" 56 1266 1278
+)
+"src/ocamlutil/growArray.ml" 60 1405 1414 "src/ocamlutil/growArray.ml" 60 1405 1431
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 60 1405 1410 "src/ocamlutil/growArray.ml" 60 1405 1431
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 60 1405 1437 "src/ocamlutil/growArray.ml" 60 1405 1439
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 56 1266 1276 "src/ocamlutil/growArray.ml" 56 1266 1278
+)
+"src/ocamlutil/growArray.ml" 60 1405 1458 "src/ocamlutil/growArray.ml" 60 1405 1459
+type(
+  int
+)
+ident(
+  int_ref r "src/ocamlutil/growArray.ml" 56 1266 1287 "src/ocamlutil/growArray.ml" 56 1266 1288
+)
+"src/ocamlutil/growArray.ml" 60 1405 1437 "src/ocamlutil/growArray.ml" 60 1405 1459
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 60 1405 1407 "src/ocamlutil/growArray.ml" 60 1405 1459
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 61 1461 1463 "src/ocamlutil/growArray.ml" 61 1461 1469
+type(
+  'a LA.t -> int -> 'a -> unit
+)
+ident(
+  ext_ref LA.set
+)
+"src/ocamlutil/growArray.ml" 61 1461 1470 "src/ocamlutil/growArray.ml" 61 1461 1472
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 56 1266 1276 "src/ocamlutil/growArray.ml" 56 1266 1278
+)
+"src/ocamlutil/growArray.ml" 61 1461 1470 "src/ocamlutil/growArray.ml" 61 1461 1479
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 61 1461 1480 "src/ocamlutil/growArray.ml" 61 1461 1481
+type(
+  int
+)
+ident(
+  int_ref r "src/ocamlutil/growArray.ml" 56 1266 1287 "src/ocamlutil/growArray.ml" 56 1266 1288
+)
+"src/ocamlutil/growArray.ml" 61 1461 1482 "src/ocamlutil/growArray.ml" 61 1461 1486
+type(
+  'a
+)
+ident(
+  int_ref what "src/ocamlutil/growArray.ml" 56 1266 1296 "src/ocamlutil/growArray.ml" 56 1266 1300
+)
+"src/ocamlutil/growArray.ml" 61 1461 1463 "src/ocamlutil/growArray.ml" 61 1461 1486
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 60 1405 1407 "src/ocamlutil/growArray.ml" 61 1461 1486
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 58 1351 1353 "src/ocamlutil/growArray.ml" 61 1461 1486
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 57 1316 1318 "src/ocamlutil/growArray.ml" 61 1461 1486
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 63 1488 1492 "src/ocamlutil/growArray.ml" 63 1488 1495
+type(
+  'a t -> int -> 'a
+)
+ident(
+  def get "src/ocamlutil/growArray.ml" 65 1543 1543 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 63 1488 1497 "src/ocamlutil/growArray.ml" 63 1488 1499
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 63 1488 1507 "src/ocamlutil/growArray.ml" 63 1488 1541
+)
+"src/ocamlutil/growArray.ml" 63 1488 1508 "src/ocamlutil/growArray.ml" 63 1488 1509
+type(
+  int
+)
+ident(
+  def r "src/ocamlutil/growArray.ml" 63 1488 1516 "src/ocamlutil/growArray.ml" 63 1488 1541
+)
+"src/ocamlutil/growArray.ml" 63 1488 1523 "src/ocamlutil/growArray.ml" 63 1488 1529
+type(
+  'a LA.t -> int -> 'a
+)
+ident(
+  ext_ref LA.get
+)
+"src/ocamlutil/growArray.ml" 63 1488 1530 "src/ocamlutil/growArray.ml" 63 1488 1532
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 63 1488 1497 "src/ocamlutil/growArray.ml" 63 1488 1499
+)
+"src/ocamlutil/growArray.ml" 63 1488 1530 "src/ocamlutil/growArray.ml" 63 1488 1539
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 63 1488 1540 "src/ocamlutil/growArray.ml" 63 1488 1541
+type(
+  int
+)
+ident(
+  int_ref r "src/ocamlutil/growArray.ml" 63 1488 1508 "src/ocamlutil/growArray.ml" 63 1488 1509
+)
+"src/ocamlutil/growArray.ml" 63 1488 1523 "src/ocamlutil/growArray.ml" 63 1488 1541
+call(
+  tail
+)
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 65 1543 1547 "src/ocamlutil/growArray.ml" 65 1543 1550
+type(
+  'a t -> int -> 'a -> unit
+)
+ident(
+  def set "src/ocamlutil/growArray.ml" 69 1675 1675 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 65 1543 1552 "src/ocamlutil/growArray.ml" 65 1543 1554
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 65 1543 1562 "src/ocamlutil/growArray.ml" 67 1648 1673
+)
+"src/ocamlutil/growArray.ml" 65 1543 1563 "src/ocamlutil/growArray.ml" 65 1543 1564
+type(
+  int
+)
+ident(
+  def r "src/ocamlutil/growArray.ml" 65 1543 1571 "src/ocamlutil/growArray.ml" 67 1648 1673
+)
+"src/ocamlutil/growArray.ml" 65 1543 1572 "src/ocamlutil/growArray.ml" 65 1543 1576
+type(
+  'a
+)
+ident(
+  def what "src/ocamlutil/growArray.ml" 65 1543 1582 "src/ocamlutil/growArray.ml" 67 1648 1673
+)
+"src/ocamlutil/growArray.ml" 66 1592 1597 "src/ocamlutil/growArray.ml" 66 1592 1598
+type(
+  int
+)
+ident(
+  int_ref r "src/ocamlutil/growArray.ml" 65 1543 1563 "src/ocamlutil/growArray.ml" 65 1543 1564
+)
+"src/ocamlutil/growArray.ml" 66 1592 1599 "src/ocamlutil/growArray.ml" 66 1592 1600
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/growArray.ml" 66 1592 1601 "src/ocamlutil/growArray.ml" 66 1592 1615
+type(
+  'a t -> int
+)
+ident(
+  int_ref max_init_index "src/ocamlutil/growArray.ml" 40 923 927 "src/ocamlutil/growArray.ml" 40 923 941
+)
+"src/ocamlutil/growArray.ml" 66 1592 1616 "src/ocamlutil/growArray.ml" 66 1592 1618
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 65 1543 1552 "src/ocamlutil/growArray.ml" 65 1543 1554
+)
+"src/ocamlutil/growArray.ml" 66 1592 1601 "src/ocamlutil/growArray.ml" 66 1592 1618
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 66 1592 1597 "src/ocamlutil/growArray.ml" 66 1592 1618
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 66 1592 1624 "src/ocamlutil/growArray.ml" 66 1592 1626
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 65 1543 1552 "src/ocamlutil/growArray.ml" 65 1543 1554
+)
+"src/ocamlutil/growArray.ml" 66 1592 1645 "src/ocamlutil/growArray.ml" 66 1592 1646
+type(
+  int
+)
+ident(
+  int_ref r "src/ocamlutil/growArray.ml" 65 1543 1563 "src/ocamlutil/growArray.ml" 65 1543 1564
+)
+"src/ocamlutil/growArray.ml" 66 1592 1624 "src/ocamlutil/growArray.ml" 66 1592 1646
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 66 1592 1594 "src/ocamlutil/growArray.ml" 66 1592 1646
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 67 1648 1650 "src/ocamlutil/growArray.ml" 67 1648 1656
+type(
+  'a LA.t -> int -> 'a -> unit
+)
+ident(
+  ext_ref LA.set
+)
+"src/ocamlutil/growArray.ml" 67 1648 1657 "src/ocamlutil/growArray.ml" 67 1648 1659
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 65 1543 1552 "src/ocamlutil/growArray.ml" 65 1543 1554
+)
+"src/ocamlutil/growArray.ml" 67 1648 1657 "src/ocamlutil/growArray.ml" 67 1648 1666
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 67 1648 1667 "src/ocamlutil/growArray.ml" 67 1648 1668
+type(
+  int
+)
+ident(
+  int_ref r "src/ocamlutil/growArray.ml" 65 1543 1563 "src/ocamlutil/growArray.ml" 65 1543 1564
+)
+"src/ocamlutil/growArray.ml" 67 1648 1669 "src/ocamlutil/growArray.ml" 67 1648 1673
+type(
+  'a
+)
+ident(
+  int_ref what "src/ocamlutil/growArray.ml" 65 1543 1572 "src/ocamlutil/growArray.ml" 65 1543 1576
+)
+"src/ocamlutil/growArray.ml" 67 1648 1650 "src/ocamlutil/growArray.ml" 67 1648 1673
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 66 1592 1594 "src/ocamlutil/growArray.ml" 67 1648 1673
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 69 1675 1679 "src/ocamlutil/growArray.ml" 69 1675 1683
+type(
+  int -> 'a fill -> 'a t
+)
+ident(
+  def make "src/ocamlutil/growArray.ml" 77 1883 1883 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 69 1675 1685 "src/ocamlutil/growArray.ml" 69 1675 1691
+type(
+  int
+)
+ident(
+  def initsz "src/ocamlutil/growArray.ml" 69 1675 1698 "src/ocamlutil/growArray.ml" 75 1871 1881
+)
+"src/ocamlutil/growArray.ml" 69 1675 1699 "src/ocamlutil/growArray.ml" 69 1675 1703
+type(
+  'a fill
+)
+ident(
+  def fill "src/ocamlutil/growArray.ml" 69 1675 1714 "src/ocamlutil/growArray.ml" 75 1871 1881
+)
+"src/ocamlutil/growArray.ml" 70 1724 1737 "src/ocamlutil/growArray.ml" 70 1724 1741
+type(
+  'a fill
+)
+ident(
+  int_ref fill "src/ocamlutil/growArray.ml" 69 1675 1699 "src/ocamlutil/growArray.ml" 69 1675 1703
+)
+"src/ocamlutil/growArray.ml" 71 1743 1764 "src/ocamlutil/growArray.ml" 71 1743 1766
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 72 1768 1793 "src/ocamlutil/growArray.ml" 72 1768 1797
+type(
+  'a fill
+)
+ident(
+  int_ref fill "src/ocamlutil/growArray.ml" 69 1675 1699 "src/ocamlutil/growArray.ml" 69 1675 1703
+)
+"src/ocamlutil/growArray.ml" 73 1803 1814 "src/ocamlutil/growArray.ml" 73 1803 1815
+type(
+  'a
+)
+ident(
+  def x "src/ocamlutil/growArray.ml" 73 1803 1819 "src/ocamlutil/growArray.ml" 73 1803 1837
+)
+"src/ocamlutil/growArray.ml" 73 1803 1809 "src/ocamlutil/growArray.ml" 73 1803 1815
+type(
+  'a fill
+)
+"src/ocamlutil/growArray.ml" 73 1803 1819 "src/ocamlutil/growArray.ml" 73 1803 1828
+type(
+  int -> 'a -> 'a LA.t
+)
+ident(
+  ext_ref LA.create
+)
+"src/ocamlutil/growArray.ml" 73 1803 1829 "src/ocamlutil/growArray.ml" 73 1803 1835
+type(
+  int
+)
+ident(
+  int_ref initsz "src/ocamlutil/growArray.ml" 69 1675 1685 "src/ocamlutil/growArray.ml" 69 1675 1691
+)
+"src/ocamlutil/growArray.ml" 73 1803 1836 "src/ocamlutil/growArray.ml" 73 1803 1837
+type(
+  'a
+)
+ident(
+  int_ref x "src/ocamlutil/growArray.ml" 73 1803 1814 "src/ocamlutil/growArray.ml" 73 1803 1815
+)
+"src/ocamlutil/growArray.ml" 73 1803 1819 "src/ocamlutil/growArray.ml" 73 1803 1837
+call(
+  stack
+)
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 74 1838 1849 "src/ocamlutil/growArray.ml" 74 1838 1850
+type(
+  int -> 'a
+)
+ident(
+  def f "src/ocamlutil/growArray.ml" 74 1838 1854 "src/ocamlutil/growArray.ml" 74 1838 1870
+)
+"src/ocamlutil/growArray.ml" 74 1838 1844 "src/ocamlutil/growArray.ml" 74 1838 1850
+type(
+  'a fill
+)
+"src/ocamlutil/growArray.ml" 74 1838 1854 "src/ocamlutil/growArray.ml" 74 1838 1861
+type(
+  int -> (int -> 'a) -> 'a LA.t
+)
+ident(
+  ext_ref LA.init
+)
+"src/ocamlutil/growArray.ml" 74 1838 1862 "src/ocamlutil/growArray.ml" 74 1838 1868
+type(
+  int
+)
+ident(
+  int_ref initsz "src/ocamlutil/growArray.ml" 69 1675 1685 "src/ocamlutil/growArray.ml" 69 1675 1691
+)
+"src/ocamlutil/growArray.ml" 74 1838 1869 "src/ocamlutil/growArray.ml" 74 1838 1870
+type(
+  int -> 'a
+)
+ident(
+  int_ref f "src/ocamlutil/growArray.ml" 74 1838 1849 "src/ocamlutil/growArray.ml" 74 1838 1850
+)
+"src/ocamlutil/growArray.ml" 74 1838 1854 "src/ocamlutil/growArray.ml" 74 1838 1870
+call(
+  stack
+)
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 72 1768 1781 "src/ocamlutil/growArray.ml" 75 1871 1878
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 70 1724 1726 "src/ocamlutil/growArray.ml" 75 1871 1881
+type(
+  'a t
+)
+type(
+  'a t
+)
+"src/ocamlutil/growArray.ml" 77 1883 1887 "src/ocamlutil/growArray.ml" 77 1883 1892
+type(
+  'a t -> unit
+)
+ident(
+  def clear "src/ocamlutil/growArray.ml" 91 2350 2350 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 77 1883 1894 "src/ocamlutil/growArray.ml" 77 1883 1896
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 77 1883 1904 "src/ocamlutil/growArray.ml" 89 2343 2348
+)
+"src/ocamlutil/growArray.ml" 80 2057 2062 "src/ocamlutil/growArray.ml" 80 2057 2064
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 77 1883 1894 "src/ocamlutil/growArray.ml" 77 1883 1896
+)
+"src/ocamlutil/growArray.ml" 80 2057 2062 "src/ocamlutil/growArray.ml" 80 2057 2079
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 80 2057 2080 "src/ocamlutil/growArray.ml" 80 2057 2082
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/growArray.ml" 80 2057 2083 "src/ocamlutil/growArray.ml" 80 2057 2084
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 80 2057 2062 "src/ocamlutil/growArray.ml" 80 2057 2084
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 81 2096 2112 "src/ocamlutil/growArray.ml" 81 2096 2114
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 77 1883 1894 "src/ocamlutil/growArray.ml" 77 1883 1896
+)
+"src/ocamlutil/growArray.ml" 81 2096 2112 "src/ocamlutil/growArray.ml" 81 2096 2121
+type(
+  'a fill
+)
+"src/ocamlutil/growArray.ml" 82 2128 2141 "src/ocamlutil/growArray.ml" 82 2128 2142
+type(
+  'a
+)
+ident(
+  def x "src/ocamlutil/growArray.ml" 82 2128 2146 "src/ocamlutil/growArray.ml" 82 2128 2189
+)
+"src/ocamlutil/growArray.ml" 82 2128 2136 "src/ocamlutil/growArray.ml" 82 2128 2142
+type(
+  'a fill
+)
+"src/ocamlutil/growArray.ml" 82 2128 2146 "src/ocamlutil/growArray.ml" 82 2128 2153
+type(
+  'a LA.t -> int -> int -> 'a -> unit
+)
+ident(
+  ext_ref LA.fill
+)
+"src/ocamlutil/growArray.ml" 82 2128 2154 "src/ocamlutil/growArray.ml" 82 2128 2156
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 77 1883 1894 "src/ocamlutil/growArray.ml" 77 1883 1896
+)
+"src/ocamlutil/growArray.ml" 82 2128 2154 "src/ocamlutil/growArray.ml" 82 2128 2163
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 82 2128 2164 "src/ocamlutil/growArray.ml" 82 2128 2165
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 82 2128 2167 "src/ocamlutil/growArray.ml" 82 2128 2169
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 77 1883 1894 "src/ocamlutil/growArray.ml" 77 1883 1896
+)
+"src/ocamlutil/growArray.ml" 82 2128 2167 "src/ocamlutil/growArray.ml" 82 2128 2184
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 82 2128 2184 "src/ocamlutil/growArray.ml" 82 2128 2185
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/growArray.ml" 82 2128 2185 "src/ocamlutil/growArray.ml" 82 2128 2186
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 82 2128 2166 "src/ocamlutil/growArray.ml" 82 2128 2187
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 82 2128 2188 "src/ocamlutil/growArray.ml" 82 2128 2189
+type(
+  'a
+)
+ident(
+  int_ref x "src/ocamlutil/growArray.ml" 82 2128 2141 "src/ocamlutil/growArray.ml" 82 2128 2142
+)
+"src/ocamlutil/growArray.ml" 82 2128 2146 "src/ocamlutil/growArray.ml" 82 2128 2189
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 83 2190 2203 "src/ocamlutil/growArray.ml" 83 2190 2204
+type(
+  int -> 'a
+)
+ident(
+  def f "src/ocamlutil/growArray.ml" 84 2209 2219 "src/ocamlutil/growArray.ml" 86 2291 2305
+)
+"src/ocamlutil/growArray.ml" 83 2190 2198 "src/ocamlutil/growArray.ml" 83 2190 2204
+type(
+  'a fill
+)
+"src/ocamlutil/growArray.ml" 84 2209 2227 "src/ocamlutil/growArray.ml" 84 2209 2228
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 84 2209 2232 "src/ocamlutil/growArray.ml" 84 2209 2234
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 77 1883 1894 "src/ocamlutil/growArray.ml" 77 1883 1896
+)
+"src/ocamlutil/growArray.ml" 84 2209 2232 "src/ocamlutil/growArray.ml" 84 2209 2249
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 85 2254 2266 "src/ocamlutil/growArray.ml" 85 2254 2272
+type(
+  'a LA.t -> int -> 'a -> unit
+)
+ident(
+  ext_ref LA.set
+)
+"src/ocamlutil/growArray.ml" 85 2254 2273 "src/ocamlutil/growArray.ml" 85 2254 2275
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 77 1883 1894 "src/ocamlutil/growArray.ml" 77 1883 1896
+)
+"src/ocamlutil/growArray.ml" 85 2254 2273 "src/ocamlutil/growArray.ml" 85 2254 2282
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 85 2254 2283 "src/ocamlutil/growArray.ml" 85 2254 2284
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 84 2209 2219 "src/ocamlutil/growArray.ml" 86 2291 2305
+)
+"src/ocamlutil/growArray.ml" 85 2254 2286 "src/ocamlutil/growArray.ml" 85 2254 2287
+type(
+  int -> 'a
+)
+ident(
+  int_ref f "src/ocamlutil/growArray.ml" 83 2190 2203 "src/ocamlutil/growArray.ml" 83 2190 2204
+)
+"src/ocamlutil/growArray.ml" 85 2254 2288 "src/ocamlutil/growArray.ml" 85 2254 2289
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 84 2209 2219 "src/ocamlutil/growArray.ml" 86 2291 2305
+)
+"src/ocamlutil/growArray.ml" 85 2254 2285 "src/ocamlutil/growArray.ml" 85 2254 2290
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 85 2254 2266 "src/ocamlutil/growArray.ml" 85 2254 2290
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 84 2209 2219 "src/ocamlutil/growArray.ml" 86 2291 2305
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 81 2096 2100 "src/ocamlutil/growArray.ml" 87 2306 2313
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 88 2315 2319 "src/ocamlutil/growArray.ml" 88 2315 2321
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 77 1883 1894 "src/ocamlutil/growArray.ml" 77 1883 1896
+)
+"src/ocamlutil/growArray.ml" 88 2315 2340 "src/ocamlutil/growArray.ml" 88 2315 2342
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 88 2315 2319 "src/ocamlutil/growArray.ml" 88 2315 2342
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 80 2057 2090 "src/ocamlutil/growArray.ml" 89 2343 2348
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 80 2057 2059 "src/ocamlutil/growArray.ml" 89 2343 2348
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 91 2350 2354 "src/ocamlutil/growArray.ml" 91 2350 2358
+type(
+  'a t -> 'a t
+)
+ident(
+  def copy "src/ocamlutil/growArray.ml" 94 2423 2423 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 91 2350 2360 "src/ocamlutil/growArray.ml" 91 2350 2362
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 91 2350 2370 "src/ocamlutil/growArray.ml" 92 2380 2420
+)
+"src/ocamlutil/growArray.ml" 92 2380 2384 "src/ocamlutil/growArray.ml" 92 2380 2386
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 91 2350 2360 "src/ocamlutil/growArray.ml" 91 2350 2362
+)
+"src/ocamlutil/growArray.ml" 92 2380 2401 "src/ocamlutil/growArray.ml" 92 2380 2408
+type(
+  'a LA.t -> 'a LA.t
+)
+ident(
+  ext_ref LA.copy
+)
+"src/ocamlutil/growArray.ml" 92 2380 2409 "src/ocamlutil/growArray.ml" 92 2380 2411
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 91 2350 2360 "src/ocamlutil/growArray.ml" 91 2350 2362
+)
+"src/ocamlutil/growArray.ml" 92 2380 2409 "src/ocamlutil/growArray.ml" 92 2380 2418
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 92 2380 2401 "src/ocamlutil/growArray.ml" 92 2380 2418
+call(
+  stack
+)
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 92 2380 2382 "src/ocamlutil/growArray.ml" 92 2380 2420
+type(
+  'a t
+)
+type(
+  'a t
+)
+"src/ocamlutil/growArray.ml" 94 2423 2427 "src/ocamlutil/growArray.ml" 94 2423 2436
+type(
+  'a t -> ('a -> 'a) -> 'a t
+)
+ident(
+  def deep_copy "src/ocamlutil/growArray.ml" 98 2570 2570 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 94 2423 2438 "src/ocamlutil/growArray.ml" 94 2423 2440
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 94 2423 2448 "src/ocamlutil/growArray.ml" 95 2474 2518
+)
+"src/ocamlutil/growArray.ml" 94 2423 2449 "src/ocamlutil/growArray.ml" 94 2423 2453
+type(
+  'a -> 'a
+)
+ident(
+  def copy "src/ocamlutil/growArray.ml" 94 2423 2464 "src/ocamlutil/growArray.ml" 95 2474 2518
+)
+"src/ocamlutil/growArray.ml" 95 2474 2478 "src/ocamlutil/growArray.ml" 95 2474 2480
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 94 2423 2438 "src/ocamlutil/growArray.ml" 94 2423 2440
+)
+"src/ocamlutil/growArray.ml" 95 2474 2495 "src/ocamlutil/growArray.ml" 95 2474 2501
+type(
+  ('a -> 'a) -> 'a LA.t -> 'a LA.t
+)
+ident(
+  ext_ref LA.map
+)
+"src/ocamlutil/growArray.ml" 95 2474 2502 "src/ocamlutil/growArray.ml" 95 2474 2506
+type(
+  'a -> 'a
+)
+ident(
+  int_ref copy "src/ocamlutil/growArray.ml" 94 2423 2449 "src/ocamlutil/growArray.ml" 94 2423 2453
+)
+"src/ocamlutil/growArray.ml" 95 2474 2507 "src/ocamlutil/growArray.ml" 95 2474 2509
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 94 2423 2438 "src/ocamlutil/growArray.ml" 94 2423 2440
+)
+"src/ocamlutil/growArray.ml" 95 2474 2507 "src/ocamlutil/growArray.ml" 95 2474 2516
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 95 2474 2495 "src/ocamlutil/growArray.ml" 95 2474 2516
+call(
+  stack
+)
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 95 2474 2476 "src/ocamlutil/growArray.ml" 95 2474 2518
+type(
+  'a t
+)
+type(
+  'a t
+)
+"src/ocamlutil/growArray.ml" 98 2570 2574 "src/ocamlutil/growArray.ml" 98 2570 2582
+type(
+  init:'a -> lo:int -> hi:int -> (int -> 'a -> 'a) -> 'a
+)
+ident(
+  def fold_for "src/ocamlutil/growArray.ml" 106 2804 2804 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 98 2570 2585 "src/ocamlutil/growArray.ml" 98 2570 2589
+type(
+  'a
+)
+ident(
+  def init "src/ocamlutil/growArray.ml" 98 2570 2595 "src/ocamlutil/growArray.ml" 103 2727 2744
+)
+"src/ocamlutil/growArray.ml" 98 2570 2597 "src/ocamlutil/growArray.ml" 98 2570 2599
+type(
+  int
+)
+ident(
+  def lo "src/ocamlutil/growArray.ml" 98 2570 2606 "src/ocamlutil/growArray.ml" 103 2727 2744
+)
+"src/ocamlutil/growArray.ml" 98 2570 2608 "src/ocamlutil/growArray.ml" 98 2570 2610
+type(
+  int
+)
+ident(
+  def hi "src/ocamlutil/growArray.ml" 98 2570 2617 "src/ocamlutil/growArray.ml" 103 2727 2744
+)
+"src/ocamlutil/growArray.ml" 98 2570 2618 "src/ocamlutil/growArray.ml" 98 2570 2619
+type(
+  int -> 'a -> 'a
+)
+ident(
+  def f "src/ocamlutil/growArray.ml" 99 2640 2642 "src/ocamlutil/growArray.ml" 103 2727 2744
+)
+"src/ocamlutil/growArray.ml" 99 2640 2650 "src/ocamlutil/growArray.ml" 99 2640 2657
+type(
+  int -> 'a -> 'a
+)
+ident(
+  def forloop "src/ocamlutil/growArray.ml" 99 2640 2642 "src/ocamlutil/growArray.ml" 103 2727 2744
+)
+"src/ocamlutil/growArray.ml" 99 2640 2658 "src/ocamlutil/growArray.ml" 99 2640 2659
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/growArray.ml" 99 2640 2660 "src/ocamlutil/growArray.ml" 101 2689 2721
+)
+"src/ocamlutil/growArray.ml" 99 2640 2660 "src/ocamlutil/growArray.ml" 99 2640 2663
+type(
+  'a
+)
+ident(
+  def acc "src/ocamlutil/growArray.ml" 100 2666 2670 "src/ocamlutil/growArray.ml" 101 2689 2721
+)
+"src/ocamlutil/growArray.ml" 100 2666 2673 "src/ocamlutil/growArray.ml" 100 2666 2674
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 99 2640 2658 "src/ocamlutil/growArray.ml" 99 2640 2659
+)
+"src/ocamlutil/growArray.ml" 100 2666 2675 "src/ocamlutil/growArray.ml" 100 2666 2676
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/growArray.ml" 100 2666 2677 "src/ocamlutil/growArray.ml" 100 2666 2679
+type(
+  int
+)
+ident(
+  int_ref hi "src/ocamlutil/growArray.ml" 98 2570 2608 "src/ocamlutil/growArray.ml" 98 2570 2610
+)
+"src/ocamlutil/growArray.ml" 100 2666 2673 "src/ocamlutil/growArray.ml" 100 2666 2679
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 100 2666 2685 "src/ocamlutil/growArray.ml" 100 2666 2688
+type(
+  'a
+)
+ident(
+  int_ref acc "src/ocamlutil/growArray.ml" 99 2640 2660 "src/ocamlutil/growArray.ml" 99 2640 2663
+)
+"src/ocamlutil/growArray.ml" 101 2689 2698 "src/ocamlutil/growArray.ml" 101 2689 2705
+type(
+  int -> 'a -> 'a
+)
+ident(
+  int_ref forloop "src/ocamlutil/growArray.ml" 99 2640 2650 "src/ocamlutil/growArray.ml" 99 2640 2657
+)
+"src/ocamlutil/growArray.ml" 101 2689 2707 "src/ocamlutil/growArray.ml" 101 2689 2708
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 99 2640 2658 "src/ocamlutil/growArray.ml" 99 2640 2659
+)
+"src/ocamlutil/growArray.ml" 101 2689 2708 "src/ocamlutil/growArray.ml" 101 2689 2709
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/growArray.ml" 101 2689 2709 "src/ocamlutil/growArray.ml" 101 2689 2710
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 101 2689 2706 "src/ocamlutil/growArray.ml" 101 2689 2711
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 101 2689 2713 "src/ocamlutil/growArray.ml" 101 2689 2714
+type(
+  int -> 'a -> 'a
+)
+ident(
+  int_ref f "src/ocamlutil/growArray.ml" 98 2570 2618 "src/ocamlutil/growArray.ml" 98 2570 2619
+)
+"src/ocamlutil/growArray.ml" 101 2689 2715 "src/ocamlutil/growArray.ml" 101 2689 2716
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 99 2640 2658 "src/ocamlutil/growArray.ml" 99 2640 2659
+)
+"src/ocamlutil/growArray.ml" 101 2689 2717 "src/ocamlutil/growArray.ml" 101 2689 2720
+type(
+  'a
+)
+ident(
+  int_ref acc "src/ocamlutil/growArray.ml" 99 2640 2660 "src/ocamlutil/growArray.ml" 99 2640 2663
+)
+"src/ocamlutil/growArray.ml" 101 2689 2712 "src/ocamlutil/growArray.ml" 101 2689 2721
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 101 2689 2698 "src/ocamlutil/growArray.ml" 101 2689 2721
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 100 2666 2670 "src/ocamlutil/growArray.ml" 101 2689 2721
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 103 2727 2729 "src/ocamlutil/growArray.ml" 103 2727 2736
+type(
+  int -> 'a -> 'a
+)
+ident(
+  int_ref forloop "src/ocamlutil/growArray.ml" 99 2640 2650 "src/ocamlutil/growArray.ml" 99 2640 2657
+)
+"src/ocamlutil/growArray.ml" 103 2727 2737 "src/ocamlutil/growArray.ml" 103 2727 2739
+type(
+  int
+)
+ident(
+  int_ref lo "src/ocamlutil/growArray.ml" 98 2570 2597 "src/ocamlutil/growArray.ml" 98 2570 2599
+)
+"src/ocamlutil/growArray.ml" 103 2727 2740 "src/ocamlutil/growArray.ml" 103 2727 2744
+type(
+  'a
+)
+ident(
+  int_ref init "src/ocamlutil/growArray.ml" 98 2570 2585 "src/ocamlutil/growArray.ml" 98 2570 2589
+)
+"src/ocamlutil/growArray.ml" 103 2727 2729 "src/ocamlutil/growArray.ml" 103 2727 2744
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 99 2640 2642 "src/ocamlutil/growArray.ml" 103 2727 2744
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 106 2804 2808 "src/ocamlutil/growArray.ml" 106 2804 2812
+type(
+  ('a -> unit) -> 'a t -> unit
+)
+ident(
+  def iter "src/ocamlutil/growArray.ml" 112 2973 2973 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 106 2804 2814 "src/ocamlutil/growArray.ml" 106 2804 2815
+type(
+  'a -> unit
+)
+ident(
+  def f "src/ocamlutil/growArray.ml" 106 2804 2829 "src/ocamlutil/growArray.ml" 109 2907 2913
+)
+"src/ocamlutil/growArray.ml" 106 2804 2830 "src/ocamlutil/growArray.ml" 106 2804 2832
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 107 2843 2845 "src/ocamlutil/growArray.ml" 109 2907 2913
+)
+"src/ocamlutil/growArray.ml" 107 2843 2853 "src/ocamlutil/growArray.ml" 107 2843 2854
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 107 2843 2858 "src/ocamlutil/growArray.ml" 107 2843 2872
+type(
+  'a t -> int
+)
+ident(
+  int_ref max_init_index "src/ocamlutil/growArray.ml" 40 923 927 "src/ocamlutil/growArray.ml" 40 923 941
+)
+"src/ocamlutil/growArray.ml" 107 2843 2873 "src/ocamlutil/growArray.ml" 107 2843 2875
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 106 2804 2830 "src/ocamlutil/growArray.ml" 106 2804 2832
+)
+"src/ocamlutil/growArray.ml" 107 2843 2858 "src/ocamlutil/growArray.ml" 107 2843 2875
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 108 2880 2884 "src/ocamlutil/growArray.ml" 108 2880 2885
+type(
+  'a -> unit
+)
+ident(
+  int_ref f "src/ocamlutil/growArray.ml" 106 2804 2814 "src/ocamlutil/growArray.ml" 106 2804 2815
+)
+"src/ocamlutil/growArray.ml" 108 2880 2887 "src/ocamlutil/growArray.ml" 108 2880 2893
+type(
+  'a LA.t -> int -> 'a
+)
+ident(
+  ext_ref LA.get
+)
+"src/ocamlutil/growArray.ml" 108 2880 2894 "src/ocamlutil/growArray.ml" 108 2880 2896
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 106 2804 2830 "src/ocamlutil/growArray.ml" 106 2804 2832
+)
+"src/ocamlutil/growArray.ml" 108 2880 2894 "src/ocamlutil/growArray.ml" 108 2880 2903
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 108 2880 2904 "src/ocamlutil/growArray.ml" 108 2880 2905
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 107 2843 2845 "src/ocamlutil/growArray.ml" 109 2907 2913
+)
+"src/ocamlutil/growArray.ml" 108 2880 2886 "src/ocamlutil/growArray.ml" 108 2880 2906
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 108 2880 2884 "src/ocamlutil/growArray.ml" 108 2880 2906
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 107 2843 2845 "src/ocamlutil/growArray.ml" 109 2907 2913
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 112 2973 2977 "src/ocamlutil/growArray.ml" 112 2973 2982
+type(
+  (int -> 'a -> unit) -> 'a t -> unit
+)
+ident(
+  def iteri "src/ocamlutil/growArray.ml" 118 3140 3140 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 112 2973 2985 "src/ocamlutil/growArray.ml" 112 2973 2986
+type(
+  int -> 'a -> unit
+)
+ident(
+  def f "src/ocamlutil/growArray.ml" 112 2973 3007 "src/ocamlutil/growArray.ml" 115 3087 3093
+)
+"src/ocamlutil/growArray.ml" 112 2973 3008 "src/ocamlutil/growArray.ml" 112 2973 3010
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 113 3021 3023 "src/ocamlutil/growArray.ml" 115 3087 3093
+)
+"src/ocamlutil/growArray.ml" 113 3021 3031 "src/ocamlutil/growArray.ml" 113 3021 3032
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 113 3021 3036 "src/ocamlutil/growArray.ml" 113 3021 3050
+type(
+  'a t -> int
+)
+ident(
+  int_ref max_init_index "src/ocamlutil/growArray.ml" 40 923 927 "src/ocamlutil/growArray.ml" 40 923 941
+)
+"src/ocamlutil/growArray.ml" 113 3021 3051 "src/ocamlutil/growArray.ml" 113 3021 3053
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 112 2973 3008 "src/ocamlutil/growArray.ml" 112 2973 3010
+)
+"src/ocamlutil/growArray.ml" 113 3021 3036 "src/ocamlutil/growArray.ml" 113 3021 3053
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 114 3058 3062 "src/ocamlutil/growArray.ml" 114 3058 3063
+type(
+  int -> 'a -> unit
+)
+ident(
+  int_ref f "src/ocamlutil/growArray.ml" 112 2973 2985 "src/ocamlutil/growArray.ml" 112 2973 2986
+)
+"src/ocamlutil/growArray.ml" 114 3058 3064 "src/ocamlutil/growArray.ml" 114 3058 3065
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 113 3021 3023 "src/ocamlutil/growArray.ml" 115 3087 3093
+)
+"src/ocamlutil/growArray.ml" 114 3058 3067 "src/ocamlutil/growArray.ml" 114 3058 3073
+type(
+  'a LA.t -> int -> 'a
+)
+ident(
+  ext_ref LA.get
+)
+"src/ocamlutil/growArray.ml" 114 3058 3074 "src/ocamlutil/growArray.ml" 114 3058 3076
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 112 2973 3008 "src/ocamlutil/growArray.ml" 112 2973 3010
+)
+"src/ocamlutil/growArray.ml" 114 3058 3074 "src/ocamlutil/growArray.ml" 114 3058 3083
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 114 3058 3084 "src/ocamlutil/growArray.ml" 114 3058 3085
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 113 3021 3023 "src/ocamlutil/growArray.ml" 115 3087 3093
+)
+"src/ocamlutil/growArray.ml" 114 3058 3066 "src/ocamlutil/growArray.ml" 114 3058 3086
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 114 3058 3062 "src/ocamlutil/growArray.ml" 114 3058 3086
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 113 3021 3023 "src/ocamlutil/growArray.ml" 115 3087 3093
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 118 3140 3144 "src/ocamlutil/growArray.ml" 118 3140 3149
+type(
+  (int -> 'a -> 'b -> unit) -> 'a t -> 'b t -> unit
+)
+ident(
+  def iter2 "src/ocamlutil/growArray.ml" 135 3741 3741 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 118 3140 3152 "src/ocamlutil/growArray.ml" 118 3140 3153
+type(
+  int -> 'a -> 'b -> unit
+)
+ident(
+  def f "src/ocamlutil/growArray.ml" 118 3140 3180 "src/ocamlutil/growArray.ml" 132 3674 3679
+)
+"src/ocamlutil/growArray.ml" 118 3140 3181 "src/ocamlutil/growArray.ml" 118 3140 3184
+type(
+  'a t
+)
+ident(
+  def ga1 "src/ocamlutil/growArray.ml" 118 3140 3192 "src/ocamlutil/growArray.ml" 132 3674 3679
+)
+"src/ocamlutil/growArray.ml" 118 3140 3193 "src/ocamlutil/growArray.ml" 118 3140 3196
+type(
+  'b t
+)
+ident(
+  def ga2 "src/ocamlutil/growArray.ml" 119 3207 3209 "src/ocamlutil/growArray.ml" 132 3674 3679
+)
+"src/ocamlutil/growArray.ml" 119 3207 3213 "src/ocamlutil/growArray.ml" 119 3207 3217
+type(
+  int
+)
+ident(
+  def len1 "src/ocamlutil/growArray.ml" 120 3242 3244 "src/ocamlutil/growArray.ml" 132 3674 3679
+)
+"src/ocamlutil/growArray.ml" 119 3207 3220 "src/ocamlutil/growArray.ml" 119 3207 3234
+type(
+  'a t -> int
+)
+ident(
+  int_ref max_init_index "src/ocamlutil/growArray.ml" 40 923 927 "src/ocamlutil/growArray.ml" 40 923 941
+)
+"src/ocamlutil/growArray.ml" 119 3207 3235 "src/ocamlutil/growArray.ml" 119 3207 3238
+type(
+  'a t
+)
+ident(
+  int_ref ga1 "src/ocamlutil/growArray.ml" 118 3140 3181 "src/ocamlutil/growArray.ml" 118 3140 3184
+)
+"src/ocamlutil/growArray.ml" 119 3207 3220 "src/ocamlutil/growArray.ml" 119 3207 3238
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 120 3242 3248 "src/ocamlutil/growArray.ml" 120 3242 3252
+type(
+  int
+)
+ident(
+  def len2 "src/ocamlutil/growArray.ml" 121 3277 3279 "src/ocamlutil/growArray.ml" 132 3674 3679
+)
+"src/ocamlutil/growArray.ml" 120 3242 3255 "src/ocamlutil/growArray.ml" 120 3242 3269
+type(
+  'b t -> int
+)
+ident(
+  int_ref max_init_index "src/ocamlutil/growArray.ml" 40 923 927 "src/ocamlutil/growArray.ml" 40 923 941
+)
+"src/ocamlutil/growArray.ml" 120 3242 3270 "src/ocamlutil/growArray.ml" 120 3242 3273
+type(
+  'b t
+)
+ident(
+  int_ref ga2 "src/ocamlutil/growArray.ml" 118 3140 3193 "src/ocamlutil/growArray.ml" 118 3140 3196
+)
+"src/ocamlutil/growArray.ml" 120 3242 3255 "src/ocamlutil/growArray.ml" 120 3242 3273
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 121 3277 3282 "src/ocamlutil/growArray.ml" 121 3277 3286
+type(
+  int
+)
+ident(
+  int_ref len1 "src/ocamlutil/growArray.ml" 119 3207 3213 "src/ocamlutil/growArray.ml" 119 3207 3217
+)
+"src/ocamlutil/growArray.ml" 121 3277 3287 "src/ocamlutil/growArray.ml" 121 3277 3288
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/growArray.ml" 121 3277 3289 "src/ocamlutil/growArray.ml" 121 3277 3291
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 121 3277 3282 "src/ocamlutil/growArray.ml" 121 3277 3291
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 121 3277 3292 "src/ocamlutil/growArray.ml" 121 3277 3294
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ocamlutil/growArray.ml" 121 3277 3295 "src/ocamlutil/growArray.ml" 121 3277 3299
+type(
+  int
+)
+ident(
+  int_ref len2 "src/ocamlutil/growArray.ml" 120 3242 3248 "src/ocamlutil/growArray.ml" 120 3242 3252
+)
+"src/ocamlutil/growArray.ml" 121 3277 3300 "src/ocamlutil/growArray.ml" 121 3277 3301
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/growArray.ml" 121 3277 3302 "src/ocamlutil/growArray.ml" 121 3277 3304
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 121 3277 3295 "src/ocamlutil/growArray.ml" 121 3277 3304
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 121 3277 3282 "src/ocamlutil/growArray.ml" 121 3277 3304
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 122 3316 3324 "src/ocamlutil/growArray.ml" 122 3316 3327
+type(
+  int
+)
+ident(
+  def max "src/ocamlutil/growArray.ml" 129 3586 3590 "src/ocamlutil/growArray.ml" 131 3665 3673
+)
+"src/ocamlutil/growArray.ml" 122 3316 3333 "src/ocamlutil/growArray.ml" 122 3316 3337
+type(
+  int
+)
+ident(
+  int_ref len1 "src/ocamlutil/growArray.ml" 119 3207 3213 "src/ocamlutil/growArray.ml" 119 3207 3217
+)
+"src/ocamlutil/growArray.ml" 122 3316 3338 "src/ocamlutil/growArray.ml" 122 3316 3339
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/growArray.ml" 122 3316 3340 "src/ocamlutil/growArray.ml" 122 3316 3344
+type(
+  int
+)
+ident(
+  int_ref len2 "src/ocamlutil/growArray.ml" 120 3242 3248 "src/ocamlutil/growArray.ml" 120 3242 3252
+)
+"src/ocamlutil/growArray.ml" 122 3316 3333 "src/ocamlutil/growArray.ml" 122 3316 3344
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 123 3356 3374 "src/ocamlutil/growArray.ml" 123 3356 3380
+type(
+  'b -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ocamlutil/growArray.ml" 123 3356 3381 "src/ocamlutil/growArray.ml" 123 3356 3385
+type(
+  'b t -> int -> 'b
+)
+ident(
+  int_ref getg "src/ocamlutil/growArray.ml" 49 1117 1121 "src/ocamlutil/growArray.ml" 49 1117 1125
+)
+"src/ocamlutil/growArray.ml" 123 3356 3386 "src/ocamlutil/growArray.ml" 123 3356 3389
+type(
+  'b t
+)
+ident(
+  int_ref ga2 "src/ocamlutil/growArray.ml" 118 3140 3193 "src/ocamlutil/growArray.ml" 118 3140 3196
+)
+"src/ocamlutil/growArray.ml" 123 3356 3390 "src/ocamlutil/growArray.ml" 123 3356 3394
+type(
+  int
+)
+ident(
+  int_ref len1 "src/ocamlutil/growArray.ml" 119 3207 3213 "src/ocamlutil/growArray.ml" 119 3207 3217
+)
+"src/ocamlutil/growArray.ml" 123 3356 3380 "src/ocamlutil/growArray.ml" 123 3356 3395
+call(
+  stack
+)
+type(
+  'b
+)
+"src/ocamlutil/growArray.ml" 123 3356 3374 "src/ocamlutil/growArray.ml" 123 3356 3395
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 124 3423 3441 "src/ocamlutil/growArray.ml" 124 3423 3445
+type(
+  int
+)
+ident(
+  int_ref len1 "src/ocamlutil/growArray.ml" 119 3207 3213 "src/ocamlutil/growArray.ml" 119 3207 3217
+)
+"src/ocamlutil/growArray.ml" 122 3316 3350 "src/ocamlutil/growArray.ml" 125 3446 3463
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 126 3475 3493 "src/ocamlutil/growArray.ml" 126 3475 3499
+type(
+  'a -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ocamlutil/growArray.ml" 126 3475 3500 "src/ocamlutil/growArray.ml" 126 3475 3504
+type(
+  'a t -> int -> 'a
+)
+ident(
+  int_ref getg "src/ocamlutil/growArray.ml" 49 1117 1121 "src/ocamlutil/growArray.ml" 49 1117 1125
+)
+"src/ocamlutil/growArray.ml" 126 3475 3505 "src/ocamlutil/growArray.ml" 126 3475 3508
+type(
+  'a t
+)
+ident(
+  int_ref ga1 "src/ocamlutil/growArray.ml" 118 3140 3181 "src/ocamlutil/growArray.ml" 118 3140 3184
+)
+"src/ocamlutil/growArray.ml" 126 3475 3509 "src/ocamlutil/growArray.ml" 126 3475 3513
+type(
+  int
+)
+ident(
+  int_ref len2 "src/ocamlutil/growArray.ml" 120 3242 3248 "src/ocamlutil/growArray.ml" 120 3242 3252
+)
+"src/ocamlutil/growArray.ml" 126 3475 3499 "src/ocamlutil/growArray.ml" 126 3475 3514
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 126 3475 3493 "src/ocamlutil/growArray.ml" 126 3475 3514
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 127 3542 3560 "src/ocamlutil/growArray.ml" 127 3542 3564
+type(
+  int
+)
+ident(
+  int_ref len2 "src/ocamlutil/growArray.ml" 120 3242 3248 "src/ocamlutil/growArray.ml" 120 3242 3252
+)
+"src/ocamlutil/growArray.ml" 125 3446 3469 "src/ocamlutil/growArray.ml" 128 3565 3582
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 122 3316 3330 "src/ocamlutil/growArray.ml" 128 3565 3582
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 129 3586 3598 "src/ocamlutil/growArray.ml" 129 3586 3599
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 129 3586 3603 "src/ocamlutil/growArray.ml" 129 3586 3606
+type(
+  int
+)
+ident(
+  int_ref max "src/ocamlutil/growArray.ml" 122 3316 3324 "src/ocamlutil/growArray.ml" 122 3316 3327
+)
+"src/ocamlutil/growArray.ml" 130 3611 3617 "src/ocamlutil/growArray.ml" 130 3611 3618
+type(
+  int -> 'a -> 'b -> unit
+)
+ident(
+  int_ref f "src/ocamlutil/growArray.ml" 118 3140 3152 "src/ocamlutil/growArray.ml" 118 3140 3153
+)
+"src/ocamlutil/growArray.ml" 130 3611 3619 "src/ocamlutil/growArray.ml" 130 3611 3620
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 129 3586 3590 "src/ocamlutil/growArray.ml" 131 3665 3673
+)
+"src/ocamlutil/growArray.ml" 130 3611 3622 "src/ocamlutil/growArray.ml" 130 3611 3628
+type(
+  'a LA.t -> int -> 'a
+)
+ident(
+  ext_ref LA.get
+)
+"src/ocamlutil/growArray.ml" 130 3611 3629 "src/ocamlutil/growArray.ml" 130 3611 3632
+type(
+  'a t
+)
+ident(
+  int_ref ga1 "src/ocamlutil/growArray.ml" 118 3140 3181 "src/ocamlutil/growArray.ml" 118 3140 3184
+)
+"src/ocamlutil/growArray.ml" 130 3611 3629 "src/ocamlutil/growArray.ml" 130 3611 3639
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 130 3611 3640 "src/ocamlutil/growArray.ml" 130 3611 3641
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 129 3586 3590 "src/ocamlutil/growArray.ml" 131 3665 3673
+)
+"src/ocamlutil/growArray.ml" 130 3611 3621 "src/ocamlutil/growArray.ml" 130 3611 3642
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 130 3611 3644 "src/ocamlutil/growArray.ml" 130 3611 3650
+type(
+  'b LA.t -> int -> 'b
+)
+ident(
+  ext_ref LA.get
+)
+"src/ocamlutil/growArray.ml" 130 3611 3651 "src/ocamlutil/growArray.ml" 130 3611 3654
+type(
+  'b t
+)
+ident(
+  int_ref ga2 "src/ocamlutil/growArray.ml" 118 3140 3193 "src/ocamlutil/growArray.ml" 118 3140 3196
+)
+"src/ocamlutil/growArray.ml" 130 3611 3651 "src/ocamlutil/growArray.ml" 130 3611 3661
+type(
+  'b LA.t
+)
+"src/ocamlutil/growArray.ml" 130 3611 3662 "src/ocamlutil/growArray.ml" 130 3611 3663
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 129 3586 3590 "src/ocamlutil/growArray.ml" 131 3665 3673
+)
+"src/ocamlutil/growArray.ml" 130 3611 3643 "src/ocamlutil/growArray.ml" 130 3611 3664
+call(
+  stack
+)
+type(
+  'b
+)
+"src/ocamlutil/growArray.ml" 130 3611 3617 "src/ocamlutil/growArray.ml" 130 3611 3664
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 129 3586 3590 "src/ocamlutil/growArray.ml" 131 3665 3673
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 121 3277 3310 "src/ocamlutil/growArray.ml" 132 3674 3679
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 121 3277 3279 "src/ocamlutil/growArray.ml" 132 3674 3679
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 120 3242 3244 "src/ocamlutil/growArray.ml" 132 3674 3679
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 119 3207 3209 "src/ocamlutil/growArray.ml" 132 3674 3679
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 135 3741 3745 "src/ocamlutil/growArray.ml" 135 3741 3754
+type(
+  ('acc -> 'a -> 'acc) -> 'acc -> 'a t -> 'acc
+)
+ident(
+  def fold_left "src/ocamlutil/growArray.ml" 146 4048 4048 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 135 3741 3756 "src/ocamlutil/growArray.ml" 135 3741 3757
+type(
+  'acc -> 'a -> 'acc
+)
+ident(
+  def f "src/ocamlutil/growArray.ml" 135 3741 3779 "src/ocamlutil/growArray.ml" 142 3973 3985
+)
+"src/ocamlutil/growArray.ml" 135 3741 3780 "src/ocamlutil/growArray.ml" 135 3741 3783
+type(
+  'acc
+)
+ident(
+  def acc "src/ocamlutil/growArray.ml" 135 3741 3791 "src/ocamlutil/growArray.ml" 142 3973 3985
+)
+"src/ocamlutil/growArray.ml" 135 3741 3792 "src/ocamlutil/growArray.ml" 135 3741 3794
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 135 3741 3802 "src/ocamlutil/growArray.ml" 142 3973 3985
+)
+"src/ocamlutil/growArray.ml" 136 3812 3822 "src/ocamlutil/growArray.ml" 136 3812 3826
+type(
+  'acc -> int -> 'acc
+)
+ident(
+  def loop "src/ocamlutil/growArray.ml" 136 3812 3814 "src/ocamlutil/growArray.ml" 142 3973 3985
+)
+"src/ocamlutil/growArray.ml" 136 3812 3828 "src/ocamlutil/growArray.ml" 136 3812 3831
+type(
+  'acc
+)
+ident(
+  def acc "src/ocamlutil/growArray.ml" 136 3812 3839 "src/ocamlutil/growArray.ml" 140 3916 3967
+)
+"src/ocamlutil/growArray.ml" 136 3812 3840 "src/ocamlutil/growArray.ml" 136 3812 3843
+type(
+  int
+)
+ident(
+  def idx "src/ocamlutil/growArray.ml" 136 3812 3850 "src/ocamlutil/growArray.ml" 140 3916 3967
+)
+"src/ocamlutil/growArray.ml" 137 3860 3867 "src/ocamlutil/growArray.ml" 137 3860 3870
+type(
+  int
+)
+ident(
+  int_ref idx "src/ocamlutil/growArray.ml" 136 3812 3840 "src/ocamlutil/growArray.ml" 136 3812 3843
+)
+"src/ocamlutil/growArray.ml" 137 3860 3871 "src/ocamlutil/growArray.ml" 137 3860 3872
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/growArray.ml" 137 3860 3873 "src/ocamlutil/growArray.ml" 137 3860 3887
+type(
+  'a t -> int
+)
+ident(
+  int_ref max_init_index "src/ocamlutil/growArray.ml" 40 923 927 "src/ocamlutil/growArray.ml" 40 923 941
+)
+"src/ocamlutil/growArray.ml" 137 3860 3888 "src/ocamlutil/growArray.ml" 137 3860 3890
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 135 3741 3792 "src/ocamlutil/growArray.ml" 135 3741 3794
+)
+"src/ocamlutil/growArray.ml" 137 3860 3873 "src/ocamlutil/growArray.ml" 137 3860 3890
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 137 3860 3867 "src/ocamlutil/growArray.ml" 137 3860 3890
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 138 3897 3903 "src/ocamlutil/growArray.ml" 138 3897 3906
+type(
+  'acc
+)
+ident(
+  int_ref acc "src/ocamlutil/growArray.ml" 136 3812 3828 "src/ocamlutil/growArray.ml" 136 3812 3831
+)
+"src/ocamlutil/growArray.ml" 140 3916 3922 "src/ocamlutil/growArray.ml" 140 3916 3926
+type(
+  'acc -> int -> 'acc
+)
+ident(
+  int_ref loop "src/ocamlutil/growArray.ml" 136 3812 3822 "src/ocamlutil/growArray.ml" 136 3812 3826
+)
+"src/ocamlutil/growArray.ml" 140 3916 3928 "src/ocamlutil/growArray.ml" 140 3916 3929
+type(
+  'acc -> 'a -> 'acc
+)
+ident(
+  int_ref f "src/ocamlutil/growArray.ml" 135 3741 3756 "src/ocamlutil/growArray.ml" 135 3741 3757
+)
+"src/ocamlutil/growArray.ml" 140 3916 3930 "src/ocamlutil/growArray.ml" 140 3916 3933
+type(
+  'acc
+)
+ident(
+  int_ref acc "src/ocamlutil/growArray.ml" 136 3812 3828 "src/ocamlutil/growArray.ml" 136 3812 3831
+)
+"src/ocamlutil/growArray.ml" 140 3916 3935 "src/ocamlutil/growArray.ml" 140 3916 3941
+type(
+  'a LA.t -> int -> 'a
+)
+ident(
+  ext_ref LA.get
+)
+"src/ocamlutil/growArray.ml" 140 3916 3942 "src/ocamlutil/growArray.ml" 140 3916 3944
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 135 3741 3792 "src/ocamlutil/growArray.ml" 135 3741 3794
+)
+"src/ocamlutil/growArray.ml" 140 3916 3942 "src/ocamlutil/growArray.ml" 140 3916 3951
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 140 3916 3952 "src/ocamlutil/growArray.ml" 140 3916 3955
+type(
+  int
+)
+ident(
+  int_ref idx "src/ocamlutil/growArray.ml" 136 3812 3840 "src/ocamlutil/growArray.ml" 136 3812 3843
+)
+"src/ocamlutil/growArray.ml" 140 3916 3934 "src/ocamlutil/growArray.ml" 140 3916 3956
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 140 3916 3927 "src/ocamlutil/growArray.ml" 140 3916 3957
+call(
+  stack
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 140 3916 3959 "src/ocamlutil/growArray.ml" 140 3916 3962
+type(
+  int
+)
+ident(
+  int_ref idx "src/ocamlutil/growArray.ml" 136 3812 3840 "src/ocamlutil/growArray.ml" 136 3812 3843
+)
+"src/ocamlutil/growArray.ml" 140 3916 3963 "src/ocamlutil/growArray.ml" 140 3916 3964
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/growArray.ml" 140 3916 3965 "src/ocamlutil/growArray.ml" 140 3916 3966
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 140 3916 3958 "src/ocamlutil/growArray.ml" 140 3916 3967
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 140 3916 3922 "src/ocamlutil/growArray.ml" 140 3916 3967
+call(
+  tail
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 137 3860 3864 "src/ocamlutil/growArray.ml" 140 3916 3967
+type(
+  'acc
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 142 3973 3975 "src/ocamlutil/growArray.ml" 142 3973 3979
+type(
+  'acc -> int -> 'acc
+)
+ident(
+  int_ref loop "src/ocamlutil/growArray.ml" 136 3812 3822 "src/ocamlutil/growArray.ml" 136 3812 3826
+)
+"src/ocamlutil/growArray.ml" 142 3973 3980 "src/ocamlutil/growArray.ml" 142 3973 3983
+type(
+  'acc
+)
+ident(
+  int_ref acc "src/ocamlutil/growArray.ml" 135 3741 3780 "src/ocamlutil/growArray.ml" 135 3741 3783
+)
+"src/ocamlutil/growArray.ml" 142 3973 3984 "src/ocamlutil/growArray.ml" 142 3973 3985
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 142 3973 3975 "src/ocamlutil/growArray.ml" 142 3973 3985
+call(
+  tail
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 136 3812 3814 "src/ocamlutil/growArray.ml" 142 3973 3985
+type(
+  'acc
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 146 4048 4052 "src/ocamlutil/growArray.ml" 146 4048 4062
+type(
+  ('acc -> int -> 'a -> 'acc) -> 'acc -> 'a t -> 'acc
+)
+ident(
+  def fold_lefti "src/ocamlutil/growArray.ml" 156 4367 4367 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 146 4048 4064 "src/ocamlutil/growArray.ml" 146 4048 4065
+type(
+  'acc -> int -> 'a -> 'acc
+)
+ident(
+  def f "src/ocamlutil/growArray.ml" 146 4048 4094 "src/ocamlutil/growArray.ml" 153 4292 4304
+)
+"src/ocamlutil/growArray.ml" 146 4048 4095 "src/ocamlutil/growArray.ml" 146 4048 4098
+type(
+  'acc
+)
+ident(
+  def acc "src/ocamlutil/growArray.ml" 146 4048 4106 "src/ocamlutil/growArray.ml" 153 4292 4304
+)
+"src/ocamlutil/growArray.ml" 146 4048 4107 "src/ocamlutil/growArray.ml" 146 4048 4109
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 146 4048 4117 "src/ocamlutil/growArray.ml" 153 4292 4304
+)
+"src/ocamlutil/growArray.ml" 147 4127 4137 "src/ocamlutil/growArray.ml" 147 4127 4141
+type(
+  'acc -> int -> 'acc
+)
+ident(
+  def loop "src/ocamlutil/growArray.ml" 147 4127 4129 "src/ocamlutil/growArray.ml" 153 4292 4304
+)
+"src/ocamlutil/growArray.ml" 147 4127 4143 "src/ocamlutil/growArray.ml" 147 4127 4146
+type(
+  'acc
+)
+ident(
+  def acc "src/ocamlutil/growArray.ml" 147 4127 4154 "src/ocamlutil/growArray.ml" 151 4231 4286
+)
+"src/ocamlutil/growArray.ml" 147 4127 4155 "src/ocamlutil/growArray.ml" 147 4127 4158
+type(
+  int
+)
+ident(
+  def idx "src/ocamlutil/growArray.ml" 147 4127 4165 "src/ocamlutil/growArray.ml" 151 4231 4286
+)
+"src/ocamlutil/growArray.ml" 148 4175 4182 "src/ocamlutil/growArray.ml" 148 4175 4185
+type(
+  int
+)
+ident(
+  int_ref idx "src/ocamlutil/growArray.ml" 147 4127 4155 "src/ocamlutil/growArray.ml" 147 4127 4158
+)
+"src/ocamlutil/growArray.ml" 148 4175 4186 "src/ocamlutil/growArray.ml" 148 4175 4187
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/growArray.ml" 148 4175 4188 "src/ocamlutil/growArray.ml" 148 4175 4202
+type(
+  'a t -> int
+)
+ident(
+  int_ref max_init_index "src/ocamlutil/growArray.ml" 40 923 927 "src/ocamlutil/growArray.ml" 40 923 941
+)
+"src/ocamlutil/growArray.ml" 148 4175 4203 "src/ocamlutil/growArray.ml" 148 4175 4205
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 146 4048 4107 "src/ocamlutil/growArray.ml" 146 4048 4109
+)
+"src/ocamlutil/growArray.ml" 148 4175 4188 "src/ocamlutil/growArray.ml" 148 4175 4205
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 148 4175 4182 "src/ocamlutil/growArray.ml" 148 4175 4205
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 149 4212 4218 "src/ocamlutil/growArray.ml" 149 4212 4221
+type(
+  'acc
+)
+ident(
+  int_ref acc "src/ocamlutil/growArray.ml" 147 4127 4143 "src/ocamlutil/growArray.ml" 147 4127 4146
+)
+"src/ocamlutil/growArray.ml" 151 4231 4237 "src/ocamlutil/growArray.ml" 151 4231 4241
+type(
+  'acc -> int -> 'acc
+)
+ident(
+  int_ref loop "src/ocamlutil/growArray.ml" 147 4127 4137 "src/ocamlutil/growArray.ml" 147 4127 4141
+)
+"src/ocamlutil/growArray.ml" 151 4231 4243 "src/ocamlutil/growArray.ml" 151 4231 4244
+type(
+  'acc -> int -> 'a -> 'acc
+)
+ident(
+  int_ref f "src/ocamlutil/growArray.ml" 146 4048 4064 "src/ocamlutil/growArray.ml" 146 4048 4065
+)
+"src/ocamlutil/growArray.ml" 151 4231 4245 "src/ocamlutil/growArray.ml" 151 4231 4248
+type(
+  'acc
+)
+ident(
+  int_ref acc "src/ocamlutil/growArray.ml" 147 4127 4143 "src/ocamlutil/growArray.ml" 147 4127 4146
+)
+"src/ocamlutil/growArray.ml" 151 4231 4249 "src/ocamlutil/growArray.ml" 151 4231 4252
+type(
+  int
+)
+ident(
+  int_ref idx "src/ocamlutil/growArray.ml" 147 4127 4155 "src/ocamlutil/growArray.ml" 147 4127 4158
+)
+"src/ocamlutil/growArray.ml" 151 4231 4254 "src/ocamlutil/growArray.ml" 151 4231 4260
+type(
+  'a LA.t -> int -> 'a
+)
+ident(
+  ext_ref LA.get
+)
+"src/ocamlutil/growArray.ml" 151 4231 4261 "src/ocamlutil/growArray.ml" 151 4231 4263
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 146 4048 4107 "src/ocamlutil/growArray.ml" 146 4048 4109
+)
+"src/ocamlutil/growArray.ml" 151 4231 4261 "src/ocamlutil/growArray.ml" 151 4231 4270
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 151 4231 4271 "src/ocamlutil/growArray.ml" 151 4231 4274
+type(
+  int
+)
+ident(
+  int_ref idx "src/ocamlutil/growArray.ml" 147 4127 4155 "src/ocamlutil/growArray.ml" 147 4127 4158
+)
+"src/ocamlutil/growArray.ml" 151 4231 4253 "src/ocamlutil/growArray.ml" 151 4231 4275
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 151 4231 4242 "src/ocamlutil/growArray.ml" 151 4231 4276
+call(
+  stack
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 151 4231 4278 "src/ocamlutil/growArray.ml" 151 4231 4281
+type(
+  int
+)
+ident(
+  int_ref idx "src/ocamlutil/growArray.ml" 147 4127 4155 "src/ocamlutil/growArray.ml" 147 4127 4158
+)
+"src/ocamlutil/growArray.ml" 151 4231 4282 "src/ocamlutil/growArray.ml" 151 4231 4283
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/growArray.ml" 151 4231 4284 "src/ocamlutil/growArray.ml" 151 4231 4285
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 151 4231 4277 "src/ocamlutil/growArray.ml" 151 4231 4286
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 151 4231 4237 "src/ocamlutil/growArray.ml" 151 4231 4286
+call(
+  tail
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 148 4175 4179 "src/ocamlutil/growArray.ml" 151 4231 4286
+type(
+  'acc
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 153 4292 4294 "src/ocamlutil/growArray.ml" 153 4292 4298
+type(
+  'acc -> int -> 'acc
+)
+ident(
+  int_ref loop "src/ocamlutil/growArray.ml" 147 4127 4137 "src/ocamlutil/growArray.ml" 147 4127 4141
+)
+"src/ocamlutil/growArray.ml" 153 4292 4299 "src/ocamlutil/growArray.ml" 153 4292 4302
+type(
+  'acc
+)
+ident(
+  int_ref acc "src/ocamlutil/growArray.ml" 146 4048 4095 "src/ocamlutil/growArray.ml" 146 4048 4098
+)
+"src/ocamlutil/growArray.ml" 153 4292 4303 "src/ocamlutil/growArray.ml" 153 4292 4304
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 153 4292 4294 "src/ocamlutil/growArray.ml" 153 4292 4304
+call(
+  tail
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 147 4127 4129 "src/ocamlutil/growArray.ml" 153 4292 4304
+type(
+  'acc
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 156 4367 4371 "src/ocamlutil/growArray.ml" 156 4367 4381
+type(
+  ('a -> 'acc -> 'acc) -> 'a t -> 'acc -> 'acc
+)
+ident(
+  def fold_right "src/ocamlutil/growArray.ml" 166 4642 4642 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 156 4367 4383 "src/ocamlutil/growArray.ml" 156 4367 4384
+type(
+  'a -> 'acc -> 'acc
+)
+ident(
+  def f "src/ocamlutil/growArray.ml" 156 4367 4406 "src/ocamlutil/growArray.ml" 163 4584 4614
+)
+"src/ocamlutil/growArray.ml" 156 4367 4407 "src/ocamlutil/growArray.ml" 156 4367 4409
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 156 4367 4417 "src/ocamlutil/growArray.ml" 163 4584 4614
+)
+"src/ocamlutil/growArray.ml" 156 4367 4418 "src/ocamlutil/growArray.ml" 156 4367 4421
+type(
+  'acc
+)
+ident(
+  def acc "src/ocamlutil/growArray.ml" 156 4367 4429 "src/ocamlutil/growArray.ml" 163 4584 4614
+)
+"src/ocamlutil/growArray.ml" 157 4439 4449 "src/ocamlutil/growArray.ml" 157 4439 4453
+type(
+  'acc -> int -> 'acc
+)
+ident(
+  def loop "src/ocamlutil/growArray.ml" 157 4439 4441 "src/ocamlutil/growArray.ml" 163 4584 4614
+)
+"src/ocamlutil/growArray.ml" 157 4439 4455 "src/ocamlutil/growArray.ml" 157 4439 4458
+type(
+  'acc
+)
+ident(
+  def acc "src/ocamlutil/growArray.ml" 157 4439 4466 "src/ocamlutil/growArray.ml" 161 4527 4578
+)
+"src/ocamlutil/growArray.ml" 157 4439 4467 "src/ocamlutil/growArray.ml" 157 4439 4470
+type(
+  int
+)
+ident(
+  def idx "src/ocamlutil/growArray.ml" 157 4439 4477 "src/ocamlutil/growArray.ml" 161 4527 4578
+)
+"src/ocamlutil/growArray.ml" 158 4487 4494 "src/ocamlutil/growArray.ml" 158 4487 4497
+type(
+  int
+)
+ident(
+  int_ref idx "src/ocamlutil/growArray.ml" 157 4439 4467 "src/ocamlutil/growArray.ml" 157 4439 4470
+)
+"src/ocamlutil/growArray.ml" 158 4487 4498 "src/ocamlutil/growArray.ml" 158 4487 4499
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ocamlutil/growArray.ml" 158 4487 4500 "src/ocamlutil/growArray.ml" 158 4487 4501
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 158 4487 4494 "src/ocamlutil/growArray.ml" 158 4487 4501
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 159 4508 4514 "src/ocamlutil/growArray.ml" 159 4508 4517
+type(
+  'acc
+)
+ident(
+  int_ref acc "src/ocamlutil/growArray.ml" 157 4439 4455 "src/ocamlutil/growArray.ml" 157 4439 4458
+)
+"src/ocamlutil/growArray.ml" 161 4527 4533 "src/ocamlutil/growArray.ml" 161 4527 4537
+type(
+  'acc -> int -> 'acc
+)
+ident(
+  int_ref loop "src/ocamlutil/growArray.ml" 157 4439 4449 "src/ocamlutil/growArray.ml" 157 4439 4453
+)
+"src/ocamlutil/growArray.ml" 161 4527 4539 "src/ocamlutil/growArray.ml" 161 4527 4540
+type(
+  'a -> 'acc -> 'acc
+)
+ident(
+  int_ref f "src/ocamlutil/growArray.ml" 156 4367 4383 "src/ocamlutil/growArray.ml" 156 4367 4384
+)
+"src/ocamlutil/growArray.ml" 161 4527 4542 "src/ocamlutil/growArray.ml" 161 4527 4548
+type(
+  'a LA.t -> int -> 'a
+)
+ident(
+  ext_ref LA.get
+)
+"src/ocamlutil/growArray.ml" 161 4527 4549 "src/ocamlutil/growArray.ml" 161 4527 4551
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 156 4367 4407 "src/ocamlutil/growArray.ml" 156 4367 4409
+)
+"src/ocamlutil/growArray.ml" 161 4527 4549 "src/ocamlutil/growArray.ml" 161 4527 4558
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 161 4527 4559 "src/ocamlutil/growArray.ml" 161 4527 4562
+type(
+  int
+)
+ident(
+  int_ref idx "src/ocamlutil/growArray.ml" 157 4439 4467 "src/ocamlutil/growArray.ml" 157 4439 4470
+)
+"src/ocamlutil/growArray.ml" 161 4527 4541 "src/ocamlutil/growArray.ml" 161 4527 4563
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 161 4527 4564 "src/ocamlutil/growArray.ml" 161 4527 4567
+type(
+  'acc
+)
+ident(
+  int_ref acc "src/ocamlutil/growArray.ml" 157 4439 4455 "src/ocamlutil/growArray.ml" 157 4439 4458
+)
+"src/ocamlutil/growArray.ml" 161 4527 4538 "src/ocamlutil/growArray.ml" 161 4527 4568
+call(
+  stack
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 161 4527 4570 "src/ocamlutil/growArray.ml" 161 4527 4573
+type(
+  int
+)
+ident(
+  int_ref idx "src/ocamlutil/growArray.ml" 157 4439 4467 "src/ocamlutil/growArray.ml" 157 4439 4470
+)
+"src/ocamlutil/growArray.ml" 161 4527 4574 "src/ocamlutil/growArray.ml" 161 4527 4575
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/growArray.ml" 161 4527 4576 "src/ocamlutil/growArray.ml" 161 4527 4577
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 161 4527 4569 "src/ocamlutil/growArray.ml" 161 4527 4578
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 161 4527 4533 "src/ocamlutil/growArray.ml" 161 4527 4578
+call(
+  tail
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 158 4487 4491 "src/ocamlutil/growArray.ml" 161 4527 4578
+type(
+  'acc
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 163 4584 4586 "src/ocamlutil/growArray.ml" 163 4584 4590
+type(
+  'acc -> int -> 'acc
+)
+ident(
+  int_ref loop "src/ocamlutil/growArray.ml" 157 4439 4449 "src/ocamlutil/growArray.ml" 157 4439 4453
+)
+"src/ocamlutil/growArray.ml" 163 4584 4591 "src/ocamlutil/growArray.ml" 163 4584 4594
+type(
+  'acc
+)
+ident(
+  int_ref acc "src/ocamlutil/growArray.ml" 156 4367 4418 "src/ocamlutil/growArray.ml" 156 4367 4421
+)
+"src/ocamlutil/growArray.ml" 163 4584 4596 "src/ocamlutil/growArray.ml" 163 4584 4610
+type(
+  'a t -> int
+)
+ident(
+  int_ref max_init_index "src/ocamlutil/growArray.ml" 40 923 927 "src/ocamlutil/growArray.ml" 40 923 941
+)
+"src/ocamlutil/growArray.ml" 163 4584 4611 "src/ocamlutil/growArray.ml" 163 4584 4613
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 156 4367 4407 "src/ocamlutil/growArray.ml" 156 4367 4409
+)
+"src/ocamlutil/growArray.ml" 163 4584 4595 "src/ocamlutil/growArray.ml" 163 4584 4614
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 163 4584 4586 "src/ocamlutil/growArray.ml" 163 4584 4614
+call(
+  tail
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 157 4439 4441 "src/ocamlutil/growArray.ml" 163 4584 4614
+type(
+  'acc
+)
+type(
+  'acc
+)
+"src/ocamlutil/growArray.ml" 166 4642 4646 "src/ocamlutil/growArray.ml" 166 4642 4657
+type(
+  Pretty.doc -> (int -> 'a -> Pretty.doc) -> unit -> 'a t -> Pretty.doc
+)
+ident(
+  def d_growarray "src/ocamlutil/growArray.ml" 172 4825 4825 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 166 4642 4659 "src/ocamlutil/growArray.ml" 166 4642 4662
+type(
+  Pretty.doc
+)
+ident(
+  def sep "src/ocamlutil/growArray.ml" 167 4676 4692 "src/ocamlutil/growArray.ml" 170 4777 4823
+)
+"src/ocamlutil/growArray.ml" 167 4676 4693 "src/ocamlutil/growArray.ml" 167 4676 4697
+type(
+  int -> 'a -> Pretty.doc
+)
+ident(
+  def doit "src/ocamlutil/growArray.ml" 168 4723 4739 "src/ocamlutil/growArray.ml" 170 4777 4823
+)
+"src/ocamlutil/growArray.ml" 168 4723 4739 "src/ocamlutil/growArray.ml" 168 4723 4741
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 169 4742 4759 "src/ocamlutil/growArray.ml" 169 4742 4767
+type(
+  'a t
+)
+ident(
+  def elements "src/ocamlutil/growArray.ml" 170 4777 4779 "src/ocamlutil/growArray.ml" 170 4777 4823
+)
+"src/ocamlutil/growArray.ml" 170 4777 4779 "src/ocamlutil/growArray.ml" 170 4777 4790
+type(
+  ?sep:Pretty.doc ->
+  (int -> 'a -> Pretty.doc) -> unit -> 'a LA.t -> Pretty.doc
+)
+ident(
+  ext_ref LA.docArray
+)
+"src/ocamlutil/growArray.ml" 170 4777 4796 "src/ocamlutil/growArray.ml" 170 4777 4799
+type(
+  Pretty.doc
+)
+ident(
+  int_ref sep "src/ocamlutil/growArray.ml" 166 4642 4659 "src/ocamlutil/growArray.ml" 166 4642 4662
+)
+"src/ocamlutil/growArray.ml" 170 4777 4800 "src/ocamlutil/growArray.ml" 170 4777 4804
+type(
+  int -> 'a -> Pretty.doc
+)
+ident(
+  int_ref doit "src/ocamlutil/growArray.ml" 167 4676 4693 "src/ocamlutil/growArray.ml" 167 4676 4697
+)
+"src/ocamlutil/growArray.ml" 170 4777 4805 "src/ocamlutil/growArray.ml" 170 4777 4807
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 170 4777 4808 "src/ocamlutil/growArray.ml" 170 4777 4816
+type(
+  'a t
+)
+ident(
+  int_ref elements "src/ocamlutil/growArray.ml" 169 4742 4759 "src/ocamlutil/growArray.ml" 169 4742 4767
+)
+"src/ocamlutil/growArray.ml" 170 4777 4808 "src/ocamlutil/growArray.ml" 170 4777 4823
+type(
+  'a LA.t
+)
+"src/ocamlutil/growArray.ml" 170 4777 4779 "src/ocamlutil/growArray.ml" 170 4777 4823
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ocamlutil/growArray.ml" 172 4825 4829 "src/ocamlutil/growArray.ml" 172 4825 4838
+type(
+  ?deepCopy:('a -> 'a) -> 'a t -> unit -> unit
+)
+ident(
+  def restoreGA "src/ocamlutil/growArray.ml" 187 5252 5252 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 172 4825 4840 "src/ocamlutil/growArray.ml" 172 4825 4848
+type(
+  ('a -> 'a) option
+)
+ident(
+  def deepCopy "src/ocamlutil/growArray.ml" 172 4825 4849 "src/ocamlutil/growArray.ml" 185 5240 5250
+)
+"src/ocamlutil/growArray.ml" 172 4825 4850 "src/ocamlutil/growArray.ml" 172 4825 4852
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 172 4825 4860 "src/ocamlutil/growArray.ml" 185 5240 5250
+)
+"src/ocamlutil/growArray.ml" 173 4880 4886 "src/ocamlutil/growArray.ml" 173 4880 4889
+type(
+  'a t
+)
+ident(
+  def old "src/ocamlutil/growArray.ml" 178 4984 4986 "src/ocamlutil/growArray.ml" 185 5240 5250
+)
+"src/ocamlutil/growArray.ml" 174 4893 4904 "src/ocamlutil/growArray.ml" 174 4893 4912
+type(
+  ('a -> 'a) option
+)
+ident(
+  int_ref deepCopy "src/ocamlutil/growArray.ml" 172 4825 4840 "src/ocamlutil/growArray.ml" 172 4825 4848
+)
+"src/ocamlutil/growArray.ml" 175 4919 4928 "src/ocamlutil/growArray.ml" 175 4919 4932
+type(
+  ('a -> 'a) option
+)
+"src/ocamlutil/growArray.ml" 175 4919 4936 "src/ocamlutil/growArray.ml" 175 4919 4940
+type(
+  'a t -> 'a t
+)
+ident(
+  int_ref copy "src/ocamlutil/growArray.ml" 91 2350 2354 "src/ocamlutil/growArray.ml" 91 2350 2358
+)
+"src/ocamlutil/growArray.ml" 175 4919 4941 "src/ocamlutil/growArray.ml" 175 4919 4943
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 172 4825 4850 "src/ocamlutil/growArray.ml" 172 4825 4852
+)
+"src/ocamlutil/growArray.ml" 175 4919 4936 "src/ocamlutil/growArray.ml" 175 4919 4943
+call(
+  stack
+)
+type(
+  'a t
+)
+"src/ocamlutil/growArray.ml" 176 4944 4958 "src/ocamlutil/growArray.ml" 176 4944 4959
+type(
+  'a -> 'a
+)
+ident(
+  def f "src/ocamlutil/growArray.ml" 176 4944 4963 "src/ocamlutil/growArray.ml" 176 4944 4977
+)
+"src/ocamlutil/growArray.ml" 176 4944 4953 "src/ocamlutil/growArray.ml" 176 4944 4959
+type(
+  ('a -> 'a) option
+)
+"src/ocamlutil/growArray.ml" 176 4944 4963 "src/ocamlutil/growArray.ml" 176 4944 4972
+type(
+  'a t -> ('a -> 'a) -> 'a t
+)
+ident(
+  int_ref deep_copy "src/ocamlutil/growArray.ml" 94 2423 2427 "src/ocamlutil/growArray.ml" 94 2423 2436
+)
+"src/ocamlutil/growArray.ml" 176 4944 4973 "src/ocamlutil/growArray.ml" 176 4944 4975
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 172 4825 4850 "src/ocamlutil/growArray.ml" 172 4825 4852
+)
+"src/ocamlutil/growArray.ml" 176 4944 4976 "src/ocamlutil/growArray.ml" 176 4944 4977
+type(
+  'a -> 'a
+)
+ident(
+  int_ref f "src/ocamlutil/growArray.ml" 176 4944 4958 "src/ocamlutil/growArray.ml" 176 4944 4959
+)
+"src/ocamlutil/growArray.ml" 176 4944 4963 "src/ocamlutil/growArray.ml" 176 4944 4977
+call(
+  stack
+)
+type(
+  'a t
+)
+"src/ocamlutil/growArray.ml" 174 4893 4897 "src/ocamlutil/growArray.ml" 176 4944 4978
+type(
+  'a t
+)
+"src/ocamlutil/growArray.ml" 178 4984 4991 "src/ocamlutil/growArray.ml" 178 4984 4993
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 179 4997 5005 "src/ocamlutil/growArray.ml" 179 4997 5007
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 172 4825 4850 "src/ocamlutil/growArray.ml" 172 4825 4852
+)
+"src/ocamlutil/growArray.ml" 179 4997 5005 "src/ocamlutil/growArray.ml" 179 4997 5014
+type(
+  'a fill
+)
+"src/ocamlutil/growArray.ml" 179 4997 5015 "src/ocamlutil/growArray.ml" 179 4997 5017
+type(
+  'a fill -> 'a fill -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"src/ocamlutil/growArray.ml" 179 4997 5018 "src/ocamlutil/growArray.ml" 179 4997 5021
+type(
+  'a t
+)
+ident(
+  int_ref old "src/ocamlutil/growArray.ml" 173 4880 4886 "src/ocamlutil/growArray.ml" 173 4880 4889
+)
+"src/ocamlutil/growArray.ml" 179 4997 5018 "src/ocamlutil/growArray.ml" 179 4997 5028
+type(
+  'a fill
+)
+"src/ocamlutil/growArray.ml" 179 4997 5005 "src/ocamlutil/growArray.ml" 179 4997 5028
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 180 5034 5041 "src/ocamlutil/growArray.ml" 180 5034 5051
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Errormsg.s
+)
+"src/ocamlutil/growArray.ml" 181 5053 5063 "src/ocamlutil/growArray.ml" 181 5053 5075
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref Errormsg.bug
+)
+"src/ocamlutil/growArray.ml" 181 5053 5076 "src/ocamlutil/growArray.ml" 181 5053 5122
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ocamlutil/growArray.ml" 181 5053 5062 "src/ocamlutil/growArray.ml" 181 5053 5123
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 180 5034 5041 "src/ocamlutil/growArray.ml" 181 5053 5123
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 179 4997 5002 "src/ocamlutil/growArray.ml" 181 5053 5123
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 182 5125 5130 "src/ocamlutil/growArray.ml" 182 5125 5132
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 172 4825 4850 "src/ocamlutil/growArray.ml" 172 4825 4852
+)
+"src/ocamlutil/growArray.ml" 182 5125 5151 "src/ocamlutil/growArray.ml" 182 5125 5154
+type(
+  'a t
+)
+ident(
+  int_ref old "src/ocamlutil/growArray.ml" 173 4880 4886 "src/ocamlutil/growArray.ml" 173 4880 4889
+)
+"src/ocamlutil/growArray.ml" 182 5125 5151 "src/ocamlutil/growArray.ml" 182 5125 5169
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 182 5125 5130 "src/ocamlutil/growArray.ml" 182 5125 5169
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 183 5171 5184 "src/ocamlutil/growArray.ml" 183 5171 5185
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 183 5171 5189 "src/ocamlutil/growArray.ml" 183 5171 5203
+type(
+  'a t -> int
+)
+ident(
+  int_ref max_init_index "src/ocamlutil/growArray.ml" 40 923 927 "src/ocamlutil/growArray.ml" 40 923 941
+)
+"src/ocamlutil/growArray.ml" 183 5171 5204 "src/ocamlutil/growArray.ml" 183 5171 5206
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 172 4825 4850 "src/ocamlutil/growArray.ml" 172 4825 4852
+)
+"src/ocamlutil/growArray.ml" 183 5171 5189 "src/ocamlutil/growArray.ml" 183 5171 5206
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 184 5211 5218 "src/ocamlutil/growArray.ml" 184 5211 5221
+type(
+  'a t -> int -> 'a -> unit
+)
+ident(
+  int_ref set "src/ocamlutil/growArray.ml" 65 1543 1547 "src/ocamlutil/growArray.ml" 65 1543 1550
+)
+"src/ocamlutil/growArray.ml" 184 5211 5222 "src/ocamlutil/growArray.ml" 184 5211 5224
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 172 4825 4850 "src/ocamlutil/growArray.ml" 172 4825 4852
+)
+"src/ocamlutil/growArray.ml" 184 5211 5225 "src/ocamlutil/growArray.ml" 184 5211 5226
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 183 5171 5176 "src/ocamlutil/growArray.ml" 185 5240 5249
+)
+"src/ocamlutil/growArray.ml" 184 5211 5228 "src/ocamlutil/growArray.ml" 184 5211 5232
+type(
+  'a t -> int -> 'a
+)
+ident(
+  int_ref getg "src/ocamlutil/growArray.ml" 49 1117 1121 "src/ocamlutil/growArray.ml" 49 1117 1125
+)
+"src/ocamlutil/growArray.ml" 184 5211 5233 "src/ocamlutil/growArray.ml" 184 5211 5236
+type(
+  'a t
+)
+ident(
+  int_ref old "src/ocamlutil/growArray.ml" 173 4880 4886 "src/ocamlutil/growArray.ml" 173 4880 4889
+)
+"src/ocamlutil/growArray.ml" 184 5211 5237 "src/ocamlutil/growArray.ml" 184 5211 5238
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 183 5171 5176 "src/ocamlutil/growArray.ml" 185 5240 5249
+)
+"src/ocamlutil/growArray.ml" 184 5211 5227 "src/ocamlutil/growArray.ml" 184 5211 5239
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 184 5211 5218 "src/ocamlutil/growArray.ml" 184 5211 5239
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 183 5171 5176 "src/ocamlutil/growArray.ml" 185 5240 5249
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 182 5125 5130 "src/ocamlutil/growArray.ml" 185 5240 5249
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 179 4997 5002 "src/ocamlutil/growArray.ml" 185 5240 5249
+type(
+  unit
+)
+"src/ocamlutil/growArray.ml" 178 4984 4986 "src/ocamlutil/growArray.ml" 185 5240 5250
+type(
+  unit -> unit
+)
+"src/ocamlutil/growArray.ml" 173 4880 4882 "src/ocamlutil/growArray.ml" 185 5240 5250
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"src/ocamlutil/growArray.ml" 187 5252 5256 "src/ocamlutil/growArray.ml" 187 5252 5260
+type(
+  'a t -> ('a -> bool) -> int option
+)
+ident(
+  def find "src/ocamlutil/growArray.ml" 193 5448 5456 "src/ocamlutil/growArray.ml" 1 0 -1
+)
+"src/ocamlutil/growArray.ml" 187 5252 5262 "src/ocamlutil/growArray.ml" 187 5252 5264
+type(
+  'a t
+)
+ident(
+  def ga "src/ocamlutil/growArray.ml" 187 5252 5272 "src/ocamlutil/growArray.ml" 193 5448 5456
+)
+"src/ocamlutil/growArray.ml" 187 5252 5273 "src/ocamlutil/growArray.ml" 187 5252 5275
+type(
+  'a -> bool
+)
+ident(
+  def fn "src/ocamlutil/growArray.ml" 187 5252 5289 "src/ocamlutil/growArray.ml" 193 5448 5456
+)
+"src/ocamlutil/growArray.ml" 188 5305 5315 "src/ocamlutil/growArray.ml" 188 5305 5319
+type(
+  int -> int option
+)
+ident(
+  def loop "src/ocamlutil/growArray.ml" 188 5305 5307 "src/ocamlutil/growArray.ml" 193 5448 5456
+)
+"src/ocamlutil/growArray.ml" 188 5305 5321 "src/ocamlutil/growArray.ml" 188 5305 5322
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/growArray.ml" 188 5305 5328 "src/ocamlutil/growArray.ml" 191 5421 5442
+)
+"src/ocamlutil/growArray.ml" 189 5344 5351 "src/ocamlutil/growArray.ml" 189 5344 5352
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 188 5305 5321 "src/ocamlutil/growArray.ml" 188 5305 5322
+)
+"src/ocamlutil/growArray.ml" 189 5344 5353 "src/ocamlutil/growArray.ml" 189 5344 5354
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/growArray.ml" 189 5344 5355 "src/ocamlutil/growArray.ml" 189 5344 5357
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 187 5252 5262 "src/ocamlutil/growArray.ml" 187 5252 5264
+)
+"src/ocamlutil/growArray.ml" 189 5344 5355 "src/ocamlutil/growArray.ml" 189 5344 5372
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 189 5344 5351 "src/ocamlutil/growArray.ml" 189 5344 5372
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 189 5344 5378 "src/ocamlutil/growArray.ml" 189 5344 5382
+type(
+  int option
+)
+"src/ocamlutil/growArray.ml" 190 5383 5395 "src/ocamlutil/growArray.ml" 190 5383 5397
+type(
+  'a -> bool
+)
+ident(
+  int_ref fn "src/ocamlutil/growArray.ml" 187 5252 5273 "src/ocamlutil/growArray.ml" 187 5252 5275
+)
+"src/ocamlutil/growArray.ml" 190 5383 5399 "src/ocamlutil/growArray.ml" 190 5383 5402
+type(
+  'a t -> int -> 'a
+)
+ident(
+  int_ref get "src/ocamlutil/growArray.ml" 63 1488 1492 "src/ocamlutil/growArray.ml" 63 1488 1495
+)
+"src/ocamlutil/growArray.ml" 190 5383 5403 "src/ocamlutil/growArray.ml" 190 5383 5405
+type(
+  'a t
+)
+ident(
+  int_ref ga "src/ocamlutil/growArray.ml" 187 5252 5262 "src/ocamlutil/growArray.ml" 187 5252 5264
+)
+"src/ocamlutil/growArray.ml" 190 5383 5406 "src/ocamlutil/growArray.ml" 190 5383 5407
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 188 5305 5321 "src/ocamlutil/growArray.ml" 188 5305 5322
+)
+"src/ocamlutil/growArray.ml" 190 5383 5398 "src/ocamlutil/growArray.ml" 190 5383 5408
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/growArray.ml" 190 5383 5395 "src/ocamlutil/growArray.ml" 190 5383 5408
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ocamlutil/growArray.ml" 190 5383 5419 "src/ocamlutil/growArray.ml" 190 5383 5420
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 188 5305 5321 "src/ocamlutil/growArray.ml" 188 5305 5322
+)
+"src/ocamlutil/growArray.ml" 190 5383 5414 "src/ocamlutil/growArray.ml" 190 5383 5420
+type(
+  int option
+)
+"src/ocamlutil/growArray.ml" 191 5421 5430 "src/ocamlutil/growArray.ml" 191 5421 5434
+type(
+  int -> int option
+)
+ident(
+  int_ref loop "src/ocamlutil/growArray.ml" 188 5305 5315 "src/ocamlutil/growArray.ml" 188 5305 5319
+)
+"src/ocamlutil/growArray.ml" 191 5421 5436 "src/ocamlutil/growArray.ml" 191 5421 5437
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/growArray.ml" 188 5305 5321 "src/ocamlutil/growArray.ml" 188 5305 5322
+)
+"src/ocamlutil/growArray.ml" 191 5421 5438 "src/ocamlutil/growArray.ml" 191 5421 5439
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/growArray.ml" 191 5421 5440 "src/ocamlutil/growArray.ml" 191 5421 5441
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 191 5421 5435 "src/ocamlutil/growArray.ml" 191 5421 5442
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 191 5421 5430 "src/ocamlutil/growArray.ml" 191 5421 5442
+call(
+  tail
+)
+type(
+  int option
+)
+"src/ocamlutil/growArray.ml" 190 5383 5392 "src/ocamlutil/growArray.ml" 191 5421 5442
+type(
+  int option
+)
+"src/ocamlutil/growArray.ml" 189 5344 5348 "src/ocamlutil/growArray.ml" 191 5421 5442
+type(
+  int option
+)
+type(
+  int option
+)
+"src/ocamlutil/growArray.ml" 193 5448 5450 "src/ocamlutil/growArray.ml" 193 5448 5454
+type(
+  int -> int option
+)
+ident(
+  int_ref loop "src/ocamlutil/growArray.ml" 188 5305 5315 "src/ocamlutil/growArray.ml" 188 5305 5319
+)
+"src/ocamlutil/growArray.ml" 193 5448 5455 "src/ocamlutil/growArray.ml" 193 5448 5456
+type(
+  int
+)
+"src/ocamlutil/growArray.ml" 193 5448 5450 "src/ocamlutil/growArray.ml" 193 5448 5456
+call(
+  tail
+)
+type(
+  int option
+)
+"src/ocamlutil/growArray.ml" 188 5305 5307 "src/ocamlutil/growArray.ml" 193 5448 5456
+type(
+  int option
+)
+type(
+  int option
+)
